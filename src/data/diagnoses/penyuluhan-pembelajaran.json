@@ -1,0 +1,15 @@
+{
+  "category": "Penyuluhan dan Pembelajaran",
+  "description": "Diagnosis terkait penyuluhan, pembelajaran, dan manajemen kesehatan",
+  "diagnoses_count": 8,
+  "diagnoses": {
+    "D.0110": {"code": "D.0110", "name": "Defisit Kesehatan Komunitas", "definition": "Terdapatnya masalah Kesehatan atau faktor risiko yang dapat mengganggu kesejahteraan pada suatu kelompok", "type": "Aktual"},
+    "D.0111": {"code": "D.0111", "name": "Defisit Pengetahuan", "definition": "Ketiadaan atau kurangnya informasi kognitif yang berkaitan dengan topik tertentu", "type": "Aktual"},
+    "D.0112": {"code": "D.0112", "name": "Kesiapan Peningkatan Manajemen Kesehatan", "definition": "Pola pengaturan dan pengintegrasian program Kesehatan ke dalam kehidupan sehari-hari yang cukup untuk memenuhi tujuan Kesehatan dan dapat ditingkatkan", "type": "Promosi Kesehatan"},
+    "D.0113": {"code": "D.0113", "name": "Kesiapan Peningkatan Pengetahuan", "definition": "Perkembangan informasi kognitif yang berhubungan dengan topik spesifik cukup untuk memenuhi tujuan Kesehatan dan dapat ditingkatkan", "type": "Promosi Kesehatan"},
+    "D.0114": {"code": "D.0114", "name": "Ketidakpatuhan", "definition": "Perilaku individu dan/atau pemberi asuhan tidak mengikuti rencana perawatan/pengobatan yang disepakati dengan tenaga Kesehatan, sehingga menyebabkan hasil perawatan/pengobatan tidak efektif", "type": "Aktual"},
+    "D.0115": {"code": "D.0115", "name": "Manajemen Kesehatan Keluarga Tidak Efektif", "definition": "Pola penanganan masalah Kesehatan dalam keluarga tidak memuaskan untuk memulihkan kondisi Kesehatan anggota keluarga", "type": "Aktual"},
+    "D.0116": {"code": "D.0116", "name": "Manajemen Kesehatan Tidak Efektif", "definition": "Pola pengaturan dan pengintegrasian penanganan masalah kesehatan ke dalam kebiasaan hidup sehari-hari tidak memuaskan untuk mencapai status kesehatan yang diharapkan", "type": "Aktual"},
+    "D.0117": {"code": "D.0117", "name": "Pemeliharaan Kesehatan Tidak Efektif", "definition": "Ketidakmampuan mengidentifikasi, mengelola, dan/atau menemukan bantuan untuk mempertahankan kesehatan", "type": "Aktual"}
+  }
+}

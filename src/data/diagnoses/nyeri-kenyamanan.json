@@ -1,0 +1,13 @@
+{
+  "category": "Nyeri dan Kenyamanan",
+  "description": "Diagnosis terkait nyeri dan kenyamanan pasien",
+  "diagnoses_count": 6,
+  "diagnoses": {
+    "D.0074": {"code": "D.0074", "name": "Gangguan Rasa Nyaman", "definition": "Perasaan kurang senang, lega, dan sempurna dalam dimensi fisik, psikospiritual, lingkungan, dan sosial", "type": "Aktual"},
+    "D.0075": {"code": "D.0075", "name": "Ketidaknyamanan Pasca Partum", "definition": "Perasaan tidak nyaman yang berhubungan dengan kondisi setelah melahirkan", "type": "Aktual"},
+    "D.0076": {"code": "D.0076", "name": "Nausea", "definition": "Perasaan tidak nyaman pada bagian belakang tenggorok atau lambung yang dapat mengakibatkan muntah", "type": "Aktual"},
+    "D.0077": {"code": "D.0077", "name": "Nyeri Akut", "definition": "Pengalaman sensorik atau emosional yang berkaitan dengan kerusakan jaringan aktual atau fungsional, dengan onset mendadak atau lambat dan berintensitas ringan hingga berat yang berlangsung kurang dari 3 bulan", "type": "Aktual"},
+    "D.0078": {"code": "D.0078", "name": "Nyeri Kronis", "definition": "Pengalaman sensorik atau emosional yang berkaitan dengan kerusakan jaringan aktual atau fungsional, dengan onset mendadak atau lambat dan berintensitas ringan hingga berat dan konstan, yang berlangsung lebih dari 3 bulan", "type": "Aktual"},
+    "D.0079": {"code": "D.0079", "name": "Nyeri Melahirkan", "definition": "Pengalaman sensorik atau emosional yang bervariasi dari menyenangkan sampai tidak menyenangkan yang berhubungan dengan persalinan", "type": "Aktual"}
+  }
+}

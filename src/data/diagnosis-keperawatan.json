@@ -1,0 +1,1545 @@
+{
+  "metadata": {
+    "source": "https://perawat.org/149-diagnosis-keperawatan-indonesia/",
+    "standard": "SDKI (Standar Diagnosis Keperawatan Indonesia) - PPNI",
+    "total_diagnosis": 149,
+    "last_updated": "2026-03-04",
+    "note": "Data ini dikumpulkan secara bertahap. Beberapa diagnosis mungkin belum lengkap."
+  },
+  "categories": {
+    "respirasi": {
+      "name": "Respirasi",
+      "diagnoses": [
+        {
+          "code": "D.0001",
+          "name": "Bersihan Jalan Napas Tidak Efektif",
+          "definition": "ketidakmampuan membersihkan sekret atau obstruksi jalan nafas untuk mempertahankan jalan nafas tetap paten",
+          "category": "Fisiologis",
+          "subcategory": "Respirasi",
+          "signs_and_symptoms": {
+            "subjective": [],
+            "objective": [
+              "Batuk tidak efektif",
+              "Tidak mampu batuk",
+              "Sputum berlebih",
+              "Mengi, wheezing, dan/atau ronchi kering",
+              "Mekonium di jalan napas (pada neonatus)"
+            ]
+          },
+          "related_factors": [
+            "Spasme jalan napas",
+            "Hipersekresi jalan napas",
+            "Disfungsi neuromuskuler",
+            "Benda asing dalam jalan napas",
+            "Adanya jalan napas buatan",
+            "Sekresi yang tertahan",
+            "Hiperplasia dinding jalan napas",
+            "Proses infeksi",
+            "Respon alergi",
+            "Efek agen farmakologis (mis. Anestesi)",
+            "Merokok aktif",
+            "Merokok pasif",
+            "Terpajan polutan"
+          ],
+          "expected_outcomes": {
+            "code": "L.01002",
+            "name": "Bersihan Jalan Napas Meningkat",
+            "criteria": [
+              "Batuk efektif meningkat",
+              "Produksi sputum menurun",
+              "Mengi menurun",
+              "Wheezing menurun",
+              "Mekonium (pada neonatus) menurun"
+            ]
+          },
+          "interventions": [
+            {"code": "I.01006", "name": "Latihan Batuk Efektif"},
+            {"code": "I.01011", "name": "Manajemen Jalan Napas"},
+            {"code": "I.01014", "name": "Pemantauan Respirasi"}
+          ]
+        },
+        {
+          "code": "D.0002",
+          "name": "Gangguan Penyapihan Ventilator",
+          "definition": "ketidakmampuan beradaptasi dengan pengurangan bantuan ventilator mekanik yang dapat menghambat dan memperlama proses penyapihan",
+          "signs_and_symptoms": {
+            "subjective": [],
+            "objective": [
+              "Frekuensi napas meningkat",
+              "Penggunaan otot bantu napas",
+              "Napas megap-megap",
+              "Upaya napas dan bantuan ventilator tidak sinkron",
+              "Napas dangkal",
+              "Agitasi",
+              "Nilai gas darah arteri tidak normal"
+            ]
+          },
+          "related_factors": {
+            "physiological": [
+              "Hipersekresi jalan napas",
+              "Ketidakcukupan energi",
+              "Hambatan upaya nafas (nyeri saat bernapas, kelemahan otot pernapasan, efek sedasi)"
+            ],
+            "psychological": [
+              "Kecemasan",
+              "Perasaan tidak berdaya",
+              "Kurang terpapar informasi tentang proses penyapihan",
+              "Penurunan motivasi"
+            ],
+            "situational": [
+              "Ketidakdekuatan dukungan sosial",
+              "Ketidaktepatan kecepatan proses penyapihan",
+              "Riwayat kegagalan berulang dalam upaya penyapihan",
+              "Riwayat ketergantungan ventilator > 4 hari"
+            ]
+          },
+          "expected_outcomes": {
+            "code": "L.01002",
+            "name": "Penyapihan ventilator meningkat",
+            "criteria": [
+              "Frekuensi napas membaik",
+              "Penggunaan otot bantu napas menurun",
+              "Napas megap-megap menurun",
+              "Kesingkronan bantuan ventilator meningkat",
+              "Napas dangkal menurun",
+              "Agitasi menurun",
+              "Nilai gas darah arteri membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.01021", "name": "Penyapihan Ventilasi Mekanik"},
+            {"code": "I.01014", "name": "Pemantauan Respirasi"}
+          ]
+        },
+        {
+          "code": "D.0003",
+          "name": "Gangguan Pertukaran Gas",
+          "definition": "kelebihan atau kekurangan oksigenasi dan/atau eliminasi karbondioksida pada membran alveolus-kapiler",
+          "signs_and_symptoms": {
+            "subjective": ["Mengeluh sesak"],
+            "objective": [
+              "PCO2 meningkat/menurun",
+              "PO2 menurun",
+              "pH arteri meningkat/menurun",
+              "Takikardia",
+              "Adanya bunyi napas tambahan (mis. wheezing, rales)"
+            ]
+          },
+          "related_factors": [
+            "Ketidakseimbangan ventilasi-perfusi",
+            "Perubahan membran alveolus-kapiler"
+          ],
+          "expected_outcomes": {
+            "code": "L.01003",
+            "name": "Pertukaran gas meningkat",
+            "criteria": [
+              "Dispnea menurun",
+              "Bunyi napas tambahan menurun",
+              "Takikardia menurun",
+              "PCO2 membaik",
+              "PO2 membaik",
+              "pH arteri membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.01014", "name": "Pemantauan Respirasi"},
+            {"code": "I.01026", "name": "Terapi Oksigen"}
+          ]
+        },
+        {
+          "code": "D.0004",
+          "name": "Gangguan Ventilasi Spontan",
+          "definition": "Penurunan cadangan energi yang mengakibatkan individu tidak mampu bernapas secara adekuat",
+          "signs_and_symptoms": {
+            "subjective": ["Mengeluh sesak (dispnea)"],
+            "objective": [
+              "Penggunaan otot bantu napas meningkat",
+              "Volume tidal tidak menurun",
+              "PCO2 meningkat",
+              "PO2 menurun",
+              "SaO2 menurun"
+            ]
+          },
+          "related_factors": [
+            "Gangguan metabolisme",
+            "Kelelahan otot pernapasan"
+          ],
+          "expected_outcomes": {
+            "code": "L.01007",
+            "name": "Ventilasi spontan meningkat",
+            "criteria": [
+              "Dispnea menurun",
+              "Penggunaan otot bantu napas menurun",
+              "Volume tidal membaik",
+              "PCO2 membaik",
+              "PO2 membaik",
+              "SaO2 membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.01002", "name": "Dukungan Ventilasi"},
+            {"code": "I.01014", "name": "Pemantauan Respirasi"}
+          ]
+        },
+        {
+          "code": "D.0005",
+          "name": "Pola Napas Tidak Efektif",
+          "definition": "Inspirasi dan/atau ekspirasi yang tidak memberikan ventilasi adekuat",
+          "signs_and_symptoms": {
+            "subjective": ["Mengeluh sesak (dispnea)"],
+            "objective": [
+              "Penggunaan otot bantu pernapasan",
+              "Fase ekspirasi memanjang",
+              "Pola napas abnormal (mis. takipnea, bradipnea, hiperventilasi, kussmaul, cheyne-stokes)",
+              "Adanya bunyi napas tambahan (mis. wheezing, rales)"
+            ]
+          },
+          "related_factors": [
+            "Depresi pusat pernapasan",
+            "Hambatan upaya napas (mis. nyeri saat bernapas, kelemahan otot pernapasan)",
+            "Deformitas dinding dada",
+            "Deformitas tulang dada",
+            "Gangguan neuromuskular",
+            "Gangguan neurologis",
+            "Imaturitas neurologis",
+            "Penurunan energi",
+            "Obesitas",
+            "Posisi tubuh yang menghambat ekspansi paru",
+            "Sindrom hipoventilasi",
+            "Kerusakan inervasi diafragma",
+            "Cidera pada medula spinalis",
+            "Efek agen farmakologis",
+            "Kecemasan"
+          ],
+          "expected_outcomes": {
+            "code": "L.01004",
+            "name": "Pola napas membaik",
+            "criteria": [
+              "Dispnea menurun",
+              "Penggunaan otot bantu napas menurun",
+              "Pemanjangan fase ekspirasi menurun",
+              "Frekuensi napas membaik",
+              "Kedalaman napas membaik"
+            ]
+          }
+        },
+        {
+          "code": "D.0006",
+          "name": "Risiko Aspirasi",
+          "definition": "Risiko mengalami masuknya sekresi gastrointestinal, sekresi orofaring, benda cair atau padat ke dalam saluran trakeobronkhial akibat disfungsi mekanisme protektif saluran napas",
+          "type": "Risiko",
+          "risk_factors": [
+            "Penurunan tingkat kesadaran",
+            "Penurunan refleks muntah dan/atau batuk",
+            "Gangguan menelan",
+            "Disfagia",
+            "Kerusakan mobilitas fisik",
+            "Peningkatan residu lambung",
+            "Peningkatan tekanan intragastrik",
+            "Penurunan motilitas gastrointestinal",
+            "Sfingter esofagus bawah inkompeten",
+            "Perlambatan pengosongan lambung",
+            "Terpasang selang nasogastrik",
+            "Terpasang trakeostomi atau ETT",
+            "Trauma/pembedahan leher, mulut, dan/atau wajah",
+            "Efek agen farmakologis",
+            "Ketidakmatangan koordinasi menghisap, menelan, dan bernapas"
+          ],
+          "expected_outcomes": {
+            "code": "L.01006",
+            "name": "Tingkat aspirasi menurun",
+            "criteria": [
+              "Tingkat kesadaran meningkat",
+              "Kemampuan menelan meningkat",
+              "Dispnea menurun",
+              "Kelemahan otot menurun",
+              "Akumulasi sekret menurun"
+            ]
+          }
+        }
+      ]
+    },
+    "sirkulasi": {
+      "name": "Sirkulasi",
+      "diagnoses": [
+        {
+          "code": "D.0007",
+          "name": "Gangguan Sirkulasi Spontan",
+          "definition": "ketidakmampuan untuk mempertahankan sirkulasi yang adekuat untuk menunjang kehidupan",
+          "category": "Fisiologis",
+          "subcategory": "Sirkulasi",
+          "signs_and_symptoms": {
+            "subjective": ["Tidak berespon (unrespon)"],
+            "objective": [
+              "Frekuensi nadi < 50 kali/menit atau > 150 kali/menit",
+              "Tekanan darah sistolik < 60 mmHg atau > 200 mmHg",
+              "Frekuensi napas < 6 kali/menit atau > 30 kali/menit",
+              "Kesadaran menurun atau tidak sadar"
+            ]
+          },
+          "related_factors": [
+            "Abnormalitas kelistrikan jantung",
+            "Abnormalitas struktur jantung",
+            "Penurunan fungsi ventrikel"
+          ],
+          "expected_outcomes": {
+            "code": "L.02015",
+            "name": "Sirkulasi spontan meningkat",
+            "criteria": [
+              "Tingkat kesadaran meningkat",
+              "Frekuensi nadi membaik",
+              "Tekanan darah membaik",
+              "Frekuensi napas membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.02038", "name": "Manajemen Defibrilasi"},
+            {"code": "I.03139", "name": "Resusitasi Cairan"},
+            {"code": "I.02083", "name": "Resusitasi Jantung Paru"}
+          ]
+        },
+        {
+          "code": "D.0008",
+          "name": "Penurunan Curah Jantung",
+          "definition": "ketidakmampuan jantung memompa darah untuk memenuhi kebutuhan metabolisme tubuh",
+          "signs_and_symptoms": {
+            "perubahan_irama_jantung": {
+              "subjective": ["Palpitasi (dada terasa berdebar kencang)"],
+              "objective": ["Bradikardia/takikardia", "Gambaran EKG Aritmia atau gangguan konduksi"]
+            },
+            "perubahan_preload": {
+              "subjective": ["Lelah"],
+              "objective": ["Edema", "Distensi vena jugularis", "CVP meningkat/menurun", "Hepatomegali"]
+            },
+            "perubahan_afterload": {
+              "subjective": ["Dispnea (sesak napas)"],
+              "objective": ["Tekanan darah meningkat/menurun", "Nadi perifer teraba lemah", "CRT > 3 detik", "Oliguria", "Warna kulit pucat dan/atau sianosis"]
+            },
+            "perubahan_kontraktilitas": {
+              "subjective": ["Paroxysmal nocturnal dyspnea (PND)", "Ortopnea", "Batuk"],
+              "objective": ["Terdengar suara jantung S3 dan/atau S4", "Ejection fraction (EF) menurun"]
+            }
+          },
+          "related_factors": [
+            "Perubahan irama jantung",
+            "Perubahan preload",
+            "Perubahan afterload",
+            "Perubahan kontraktilitas"
+          ],
+          "expected_outcomes": {
+            "code": "L.02008",
+            "name": "Curah jantung meningkat",
+            "criteria": [
+              "Kekuatan nadi perifer meningkat",
+              "Ejection fraction (EF) meningkat",
+              "Palpitasi menurun",
+              "Bradikardia menurun",
+              "Takikardia menurun",
+              "Gambaran EKG Aritmia menurun",
+              "Lelah menurun",
+              "Edema menurun",
+              "Distensi vena jugularis menurun",
+              "Dispnea menurun",
+              "Oliguria menurun",
+              "Pucat/sianosis menurun",
+              "Paroxysmal nocturnal dyspnea (PND) menurun",
+              "Ortopnea menurun",
+              "Batuk menurun",
+              "Suara jantung S3 menurun",
+              "Suara jantung S4 menurun",
+              "Tekanan darah membaik",
+              "Pengisian kapiler membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.02075", "name": "Perawatan jantung"},
+            {"code": "I.02076", "name": "Perawatan jantung akut"}
+          ]
+        },
+        {
+          "code": "D.0009",
+          "name": "Perfusi Perifer Tidak Efektif",
+          "definition": "Penurunan sirkulasi darah pada level kapiler yang dapat mengganggu metabolisme tubuh",
+          "signs_and_symptoms": {
+            "subjective": [],
+            "objective": [
+              "Pengisian kapiler (capillary refill) >3 detik",
+              "Nadi perifer menurun atau tidak teraba",
+              "Akral teraba dingin",
+              "Warna kulit pucat",
+              "Turgor kulit menurun"
+            ]
+          },
+          "related_factors": [
+            "Hiperglikemia",
+            "Penurunan konsentrasi hemoglobin",
+            "Peningkatan tekanan darah",
+            "Kekurangan volume cairan",
+            "Penurunan aliran arteri dan/atau vena",
+            "Kurang terpapar informasi tentang faktor pemberat",
+            "Kurang aktivitas fisik"
+          ],
+          "expected_outcomes": {
+            "code": "L.02011",
+            "name": "Perfusi Perifer Meningkat",
+            "criteria": [
+              "Kekuatan nadi perifer meningkat",
+              "Warna kulit pucat menurun",
+              "Pengisian kapiler membaik",
+              "Akral membaik",
+              "Turgor kulit membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.02079", "name": "Perawatan Sirkulasi"},
+            {"code": "I.06195", "name": "Manajemen Sensasi Perifer"}
+          ]
+        },
+        {
+          "code": "D.0010",
+          "name": "Risiko Gangguan Sirkulasi Spontan",
+          "definition": "Risiko mengalami ketidakmampuan untuk mempertahankan sirkulasi yang adekuat untuk menunjang kehidupan",
+          "type": "Risiko",
+          "risk_factors": [
+            "Kekurangan volume cairan",
+            "Hipoksia",
+            "Hipotermia",
+            "Hipokalemia/Hiperkalemia",
+            "Hipoglikemia/Hiperglikemia",
+            "Asidosis",
+            "Toksin",
+            "Tamponade Jantung",
+            "Tension Pneumothorax",
+            "Trombosis Jantung",
+            "Trombosis Paru (Emboli Paru)"
+          ],
+          "expected_outcomes": {
+            "code": "L.02015",
+            "name": "Sirkulasi spontan meningkat",
+            "criteria": [
+              "Tingkat kesadaran meningkat",
+              "Saturasi oksigen meningkat",
+              "Gambaran EKG aritmia menurun",
+              "Frekuensi nadi membaik",
+              "Tekanan darah membaik",
+              "Frekuensi napas membaik",
+              "Suhu tubuh membaik",
+              "ETCO2 membaik",
+              "Produksi urin membaik"
+            ]
+          }
+        },
+        {
+          "code": "D.0011",
+          "name": "Risiko Penurunan Curah Jantung",
+          "definition": "Risiko mengalami pemompaan jantung yang tidak adekuat untuk memenuhi kebutuhan metabolisme tubuh",
+          "type": "Risiko",
+          "risk_factors": [
+            "Perubahan afterload",
+            "Perubahan frekuensi jantung",
+            "Perubahan irama jantung",
+            "Perubahan kontraktilitas",
+            "Perubahan preload"
+          ],
+          "expected_outcomes": {
+            "code": "L.02008",
+            "name": "Curah jantung meningkat",
+            "criteria": [
+              "Kekuatan nadi perifer meningkat",
+              "Ejection fraction (EF) meningkat",
+              "Palpitasi menurun",
+              "Bradikardia menurun",
+              "Takikardia menurun",
+              "Gambaran EKG Aritmia menurun",
+              "Lelah menurun",
+              "Edema menurun",
+              "Distensi vena jugularis menurun",
+              "Dispnea menurun",
+              "Oliguria menurun",
+              "Pucat/sianosis menurun",
+              "Paroxysmal nocturnal dyspnea (PND) menurun",
+              "Ortopnea menurun",
+              "Batuk menurun",
+              "Suara jantung S3 menurun",
+              "Suara jantung S4 menurun",
+              "Tekanan darah membaik",
+              "Pengisian kapiler membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.02075", "name": "Perawatan jantung"},
+            {"code": "I.02076", "name": "Perawatan jantung akut"}
+          ]
+        },
+        {
+          "code": "D.0012",
+          "name": "Risiko Perdarahan",
+          "definition": "Berisiko mengalami kehilangan darah baik internal maupun eksternal",
+          "type": "Risiko",
+          "risk_factors": [
+            "Aneurisma",
+            "Gangguan gastrointestinal",
+            "Gangguan fungsi hati",
+            "Komplikasi kehamilan",
+            "Komplikasi pasca partum",
+            "Gangguan koagulasi",
+            "Efek agen farmakologis",
+            "Tindakan pembedahan",
+            "Trauma",
+            "Kurang terpapar informasi tentang pencegahan perdarahan",
+            "Proses keganasan"
+          ],
+          "expected_outcomes": {
+            "code": "L.02017",
+            "name": "Tingkat perdarahan menurun",
+            "criteria": [
+              "Membran mukosa lembab meningkat",
+              "Kelembaban kulit meningkat",
+              "Hemoptisis menurun",
+              "Hematemesis menurun",
+              "Hematuria menurun",
+              "Hemoglobin membaik",
+              "Hematokrit membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.02067", "name": "Pencegahan Perdarahan"}
+          ]
+        },
+        {
+          "code": "D.0013",
+          "name": "Risiko Perfusi Gastrointestinal Tidak Efektif",
+          "definition": "Berisiko mengalami penurunan sirkulasi gastrointestinal",
+          "type": "Risiko",
+          "risk_factors": [
+            "Varises gastroesofagus",
+            "Aneurisma aorta abdomen",
+            "Diabetes melitus",
+            "Sirosis hepatis",
+            "Perdarahan gastrointestinal akut",
+            "Gagal jantung kongestif",
+            "Koagulasi intravaskuler diseminata",
+            "Ulkus duodenum atau ulkus lambung",
+            "Kolitis iskemik",
+            "Pankreatitis iskemik",
+            "Ginjal polikistik",
+            "Stenosis arteri ginjal",
+            "Gagal ginjal",
+            "Sindroma kompartemen abdomen",
+            "Trauma abdomen",
+            "Anemia"
+          ],
+          "expected_outcomes": {
+            "code": "L.02010",
+            "name": "Perfusi gastrointestinal meningkat",
+            "criteria": [
+              "Mual menurun",
+              "Muntah menurun",
+              "Bising usus membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.02040", "name": "Manajemen Perdarahan"},
+            {"code": "I.03094", "name": "Konseling Nutrisi"}
+          ]
+        },
+        {
+          "code": "D.0014",
+          "name": "Risiko Perfusi Miokard Tidak Efektif",
+          "definition": "Berisiko mengalami penurunan sirkulasi arteri koroner yang dapat mengganggu metabolisme miokard",
+          "type": "Risiko",
+          "risk_factors": [
+            "Hipertensi",
+            "Hiperlipidemia",
+            "Hiperglikemia",
+            "Hipoksemia",
+            "Hipoksia",
+            "Kekurangan volume cairan",
+            "Pembedahan jantung",
+            "Penyalahgunaan zat",
+            "Spasme arteri koroner",
+            "Peningkatan protein C-reaktif",
+            "Tamponade jantung",
+            "Efek agen farmakologis",
+            "Riwayat penyakit kardiovaskuler pada keluarga",
+            "Kurang terpapar informasi tentang faktor risiko yang dapat diubah"
+          ],
+          "expected_outcomes": {
+            "code": "L.02011",
+            "name": "Perfusi miokard meningkat",
+            "criteria": [
+              "Gambaran EKG iskemia/injuri/infark menurun",
+              "Nyeri dada menurun",
+              "Arteri apikal membaik",
+              "Tekanan arteri rata-rata (MAP) membaik",
+              "Takikardia membaik",
+              "Bradikardia membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.02035", "name": "Manajemen Aritmia"},
+            {"code": "I.02051", "name": "Manajemen Syok Kardiogenik"},
+            {"code": "I.02066", "name": "Pencegahan Emboli"},
+            {"code": "I.02075", "name": "Perawatan Jantung"}
+          ]
+        },
+        {
+          "code": "D.0015",
+          "name": "Risiko Perfusi Perifer Tidak Efektif",
+          "definition": "Berisiko mengalami penurunan sirkulasi darah pada level kapiler yang dapat mengganggu metabolisme tubuh",
+          "type": "Risiko",
+          "risk_factors": [
+            "Hiperglikemia",
+            "Gaya hidup kurang gerak",
+            "Hipertensi",
+            "Merokok",
+            "Prosedur endovaskuler",
+            "Trauma",
+            "Kurang terpapar informasi tentang faktor pemberat"
+          ],
+          "expected_outcomes": {
+            "code": "L.02011",
+            "name": "Perfusi perifer meningkat",
+            "criteria": [
+              "Kekuatan nadi perifer meningkat",
+              "Warna kulit pucat menurun",
+              "Pengisian kapiler membaik",
+              "Akral membaik",
+              "Turgor kulit membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.02068", "name": "Pencegahan Syok"},
+            {"code": "I.02079", "name": "Perawatan Sirkulasi"}
+          ]
+        },
+        {
+          "code": "D.0016",
+          "name": "Risiko Perfusi Renal Tidak Efektif",
+          "definition": "Berisiko mengalami penurunan sirkulasi darah ke ginjal",
+          "type": "Risiko",
+          "risk_factors": [
+            "Kekurangan volume cairan",
+            "Embolisme vaskuler",
+            "Vaskulitis",
+            "Hipertensi",
+            "Disfungsi ginjal",
+            "Hiperglikemia",
+            "Keganasan",
+            "Pembedahan jantung",
+            "Bypass kardiopulmonal",
+            "Hipoksemia",
+            "Hipoksia",
+            "Asidosis metabolik",
+            "Trauma",
+            "Sindrom kompartemen abdomen",
+            "Luka bakar",
+            "Sepsis",
+            "Sindrom respon inflamasi sistemik",
+            "Lanjut usia",
+            "Merokok",
+            "Penyalahgunaan zat"
+          ],
+          "expected_outcomes": {
+            "code": "L.02012",
+            "name": "Perfusi renal meningkat",
+            "criteria": [
+              "Jumlah urin meningkat",
+              "Tekanan arteri rata-rata (MAP) membaik",
+              "Kadar urea nitrogen darah membaik",
+              "Kadar kreatinin plasma membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.02068", "name": "Pencegahan syok"},
+            {"code": "I.02040", "name": "Manajemen perdarahan"}
+          ]
+        },
+        {
+          "code": "D.0017",
+          "name": "Risiko Perfusi Serebral Tidak Efektif",
+          "definition": "Berisiko mengalami penurunan sirkulasi darah ke otak",
+          "type": "Risiko",
+          "risk_factors": [
+            "Keabnormalan masa protrombin dan/atau masa protrombin parsial",
+            "Penurunan kinerja ventrikel kiri",
+            "Aterosklerosis aorta",
+            "Diseksi arteri",
+            "Fibrilasi atrium",
+            "Tumor otak",
+            "Stenosis karotis",
+            "Miksoma atrium",
+            "Aneurisma serebri",
+            "Koagulopati",
+            "Dilatasi kardiomiopati",
+            "Koagulasi intravaskuler diseminata",
+            "Embolisme",
+            "Cidera kepala",
+            "Hiperkolesteronemia",
+            "Hipertensi",
+            "Endokarditis infektif",
+            "Katup prostetik mekanis",
+            "Stenosis mitral",
+            "Neoplasma otak",
+            "Infark miokard akut",
+            "Sindrom sick sinus",
+            "Penyalahgunaan zat",
+            "Terapi trombolitik"
+          ],
+          "expected_outcomes": {
+            "code": "L.02014",
+            "name": "Perfusi serebral meningkat",
+            "criteria": [
+              "Tingkat kesadaran meningkat",
+              "Sakit kepala menurun",
+              "Gelisah menurun",
+              "Tekanan arteri rata-rata (MAP) membaik",
+              "Tekanan intra kranial membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.06194", "name": "Manajemen Peningkatan Tekanan Intrakranial"},
+            {"code": "I.06198", "name": "Pemantauan Tekanan Intrakranial"}
+          ]
+        }
+      ]
+    },
+    "nutrisi_cairan": {
+      "name": "Nutrisi dan Cairan",
+      "diagnoses": [
+        {
+          "code": "D.0018",
+          "name": "Berat Badan Lebih",
+          "definition": "Akumulasi lemak berlebih atau abnormal yang tidak sesuai dengan usia dan jenis kelamin",
+          "signs_and_symptoms": {
+            "subjective": [],
+            "objective": [
+              "IMT > 25 kg/m² (pada dewasa)",
+              "Berat dan panjang badan lebih dari presentil 95 (pada anak < 2 tahun)",
+              "IMT pada presentil ke 85 – 95 (pada anak 2 – 18 tahun)"
+            ]
+          },
+          "related_factors": [
+            "Kurang aktivitas fisik harian",
+            "Kelebihan konsumsi gula",
+            "Gangguan kebiasaan makan",
+            "Gangguan persepsi makan",
+            "Kelebihan konsumsi alkohol",
+            "Penggunaan energi kurang dari asupan",
+            "Sering mengemil",
+            "Sering memakan makanan berminyak/berlemak",
+            "Faktor keturunan",
+            "Penggunaan makanan formula atau makanan campuran (pada bayi)",
+            "Asupan kalsium rendah (pada anak-anak)",
+            "Berat badan bertambah cepat",
+            "Makanan padat sebagai sumber makanan utama pada usia < 5 bulan"
+          ],
+          "expected_outcomes": {
+            "code": "L.03018",
+            "name": "Berat badan membaik",
+            "criteria": [
+              "Berat badan membaik",
+              "Tebal lipatan kulit membaik",
+              "Indeks massa tubuh membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.03094", "name": "Konseling Nutrisi"},
+            {"code": "I.03097", "name": "Manajemen berat badan"},
+            {"code": "I.05183", "name": "Promosi Latihan fisik"}
+          ]
+        },
+        {
+          "code": "D.0019",
+          "name": "Defisit Nutrisi",
+          "definition": "Asupan nutrisi tidak cukup untuk memenuhi kebutuhan metabolisme",
+          "signs_and_symptoms": {
+            "subjective": [],
+            "objective": ["Berat badan menurun minimal 10% dibawah rentang ideal"]
+          },
+          "related_factors": [
+            "Ketidakmampuan menelan makanan",
+            "Ketidakmampuan mencerna makanan",
+            "Ketidakmampuan mengabsorbsi nutrien",
+            "Peningkatan kebutuhan metabolisme",
+            "Faktor ekonomi",
+            "Faktor psikologis"
+          ],
+          "expected_outcomes": {
+            "code": "L.03030",
+            "name": "Status nutrisi membaik",
+            "criteria": [
+              "Porsi makan yang dihabiskan meningkat",
+              "Berat badan membaik",
+              "Indeks massa tubuh (IMT) membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.03119", "name": "Manajemen Nutrisi"},
+            {"code": "I.03136", "name": "Promosi Berat Badan"}
+          ]
+        },
+        {
+          "code": "D.0020",
+          "name": "Diare",
+          "definition": "Pengeluaran feses yang sering, lunak, dan tidak berbentuk",
+          "signs_and_symptoms": {
+            "subjective": [],
+            "objective": [
+              "Defekasi lebih dari tiga kali dalam 24 jam",
+              "Feses lembek atau cair"
+            ]
+          },
+          "related_factors": {
+            "physiological": [
+              "Inflamasi gastrointestinal",
+              "Iritasi gastrointestinal",
+              "Proses infeksi",
+              "Malabsorpsi"
+            ],
+            "psychological": [
+              "Kecemasan",
+              "Tingkat stres tinggi"
+            ],
+            "situational": [
+              "Terpapar kontaminan",
+              "Terpapar toksin",
+              "Penyalahgunaan laksatif",
+              "Penyalahgunaan zat",
+              "Program pengobatan",
+              "Perubahan air dan makanan",
+              "Bakteri pada air"
+            ]
+          },
+          "expected_outcomes": {
+            "code": "L.04033",
+            "name": "Eliminasi fekal membaik",
+            "criteria": [
+              "Kontrol pengeluaran feses meningkat",
+              "Keluhan defekasi lama dan sulit menurun",
+              "Mengejan saat defekasi menurun",
+              "Konsistensi feses membaik",
+              "Frekuensi BAB membaik",
+              "Peristaltik usus membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.03101", "name": "Manajemen diare"},
+            {"code": "I.03121", "name": "Pemantauan cairan"}
+          ]
+        },
+        {
+          "code": "D.0021",
+          "name": "Disfungsi Motilitas Gastrointestinal",
+          "definition": "Peningkatan, penurunan, tidak efektif atau kurangnya aktivitas peristaltik gastrointestinal",
+          "signs_and_symptoms": {
+            "subjective": [
+              "Mengungkapkan flatus tidak ada",
+              "Nyeri/kram abdomen"
+            ],
+            "objective": ["Suara peristaltik berubah (tidak ada, hipoaktif, atau hiperaktif)"]
+          },
+          "related_factors": [
+            "Asupan enteral",
+            "Intoleransi makanan",
+            "Imobilisasi",
+            "Makanan kontaminan",
+            "Malnutrisi",
+            "Pembedahan",
+            "Efek agen farmakologis",
+            "Proses penuaan",
+            "Kecemasan"
+          ],
+          "expected_outcomes": {
+            "code": "L.03023",
+            "name": "Motilitas gastrointestinal membaik",
+            "criteria": [
+              "Nyeri menurun",
+              "Kram abdomen menurun",
+              "Mual menurun",
+              "Muntah menurun",
+              "Regurgitasi menurun",
+              "Distensi abdomen menurun",
+              "Diare menurun",
+              "Suara peristaltik meningkat/menurun",
+              "Pengosongan lambung meningkat",
+              "Flatus meningkat"
+            ]
+          }
+        },
+        {
+          "code": "D.0022",
+          "name": "Hipervolemia",
+          "definition": "Peningkatan volume cairan intravaskular, interstitial, dan/atau intraselular",
+          "signs_and_symptoms": {
+            "subjective": [
+              "Ortopnea",
+              "Dispnea",
+              "Paroxysmal nocturnal dyspnea (PND)"
+            ],
+            "objective": [
+              "Edema anasarca dan/atau edema perifer",
+              "Berat badan meningkat dalam waktu singkat",
+              "Jugular venous pressure (JVP) dan/atau central venous pressure (CVP) meningkat",
+              "Refleks hepatojugular positif"
+            ]
+          },
+          "related_factors": [
+            "Gangguan mekanisme regulasi",
+            "Kelebihan asupan cairan",
+            "Kelebihan asupan natrium",
+            "Gangguan aliran balik vena",
+            "Efek agen farmakologis"
+          ],
+          "expected_outcomes": {
+            "code": "L.03020",
+            "name": "Keseimbangan cairan meningkat",
+            "criteria": [
+              "Asupan cairan meningkat",
+              "Output urin meningkat",
+              "Membrane mukoa lembab meningkat",
+              "Edema menurun",
+              "Dehidrasi menurun",
+              "Tekanan darah membaik",
+              "Frekuensi nadi membaik",
+              "Kekuatan nadi membaik",
+              "Tekanan arteri rata-rata membaik",
+              "Mata cekung membaik",
+              "Turgor kulit membaik"
+            ]
+          }
+        },
+        {
+          "code": "D.0023",
+          "name": "Hipovolemia",
+          "definition": "Penurunan volume cairan intravaskular, interstitial, dan/atau intraselular",
+          "signs_and_symptoms": {
+            "subjective": [],
+            "objective": [
+              "Frekuensi nadi meningkat",
+              "Nadi teraba lemah",
+              "Tekanan darah menurun",
+              "Tekanan nadi menyempit",
+              "Turgor kulit menurun",
+              "Membran mukosa kering",
+              "Volume urin menurun",
+              "Hematokrit meningkat"
+            ]
+          },
+          "related_factors": [
+            "Kehilangan cairan aktif",
+            "Kegagalan mekanisme regulasi",
+            "Peningkatan permeabilitas kapiler",
+            "Kekurangan intake cairan",
+            "Evaporasi"
+          ],
+          "expected_outcomes": {
+            "code": "L.03028",
+            "name": "Status cairan membaik",
+            "criteria": [
+              "Kekuatan nadi meningkat",
+              "Output urin meningkat",
+              "Membran mukosa lembab meningkat",
+              "Ortopnea menurun",
+              "Dispnea menurun",
+              "PND menurun",
+              "Edema anasarka menurun",
+              "Edema perifer menurun",
+              "Frekuensi nadi membaik",
+              "Tekanan darah membaik",
+              "Turgor kulit membaik",
+              "Jugular venous pressure membaik",
+              "Hemoglobin membaik",
+              "Hematokrit membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.03116", "name": "Manajemen hipovolemia"},
+            {"code": "I.03121", "name": "Pemantauan cairan"}
+          ]
+        },
+        {
+          "code": "D.0024",
+          "name": "Ikterik Neonatus",
+          "definition": "Kulit dan membran mukosa neonatus menguning setelah 24 jam kelahiran akibat bilirubin tidak terkonjugasi masuk ke dalam sirkulasi",
+          "signs_and_symptoms": {
+            "subjective": [],
+            "objective": [
+              "Profil darah abnormal",
+              "Membran mukosa kuning",
+              "Kulit kuning",
+              "Sklera kuning"
+            ]
+          },
+          "related_factors": [
+            "Penurunan berat badan abnormal",
+            "Pola makan tidak ditetapkan dengan baik",
+            "Kesulitan transisi ke kehidupan ekstra uterin",
+            "Usia kurang dari 7 hari",
+            "Keterlambatan pengeluaran feses (mekonium)"
+          ],
+          "expected_outcomes": [
+            {"code": "L.14125", "name": "Integritas kulit dan jaringan meningkat"},
+            {"code": "L.10098", "name": "Adaptasi neonatus meningkat"}
+          ]
+        },
+        {
+          "code": "D.0025",
+          "name": "Kesiapan Peningkatan Keseimbangan Cairan",
+          "definition": "Pola ekuilibrium antara volume cairan dan komposisi kimia cairan tubuh yang cukup untuk memenuhi kebutuhan fisik dan dapat ditingkatkan",
+          "type": "Promosi Kesehatan",
+          "signs_and_symptoms": {
+            "subjective": ["Mengekspresikan keinginan untuk meningkatkan cairan"],
+            "objective": [
+              "Membran mukosa lembab",
+              "Asupan makanan dan cairan adekuat untuk kebutuhan harian",
+              "Turgor jaringan baik",
+              "Tidak ada tanda edema atau dehidrasi"
+            ]
+          },
+          "expected_outcomes": {
+            "code": "L.03020",
+            "name": "Keseimbangan Cairan Meningkat",
+            "criteria": [
+              "Asupan cairan meningkat",
+              "Output urin meningkat",
+              "Membrane mukosa lembab meningkat",
+              "Edema menurun",
+              "Dehidrasi menurun",
+              "Tekanan darah membaik",
+              "Frekuensi nadi membaik",
+              "Kekuatan nadi membaik",
+              "Tekanan arteri rata-rata membaik",
+              "Mata cekung membaik",
+              "Turgor kulit membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.03098", "name": "Manajemen Cairan"},
+            {"code": "I.03101", "name": "Pemantauan Cairan"}
+          ]
+        },
+        {
+          "code": "D.0026",
+          "name": "Kesiapan Peningkatan Nutrisi",
+          "definition": "Pola asupan nutrisi yang cukup untuk memenuhi kebutuhan metabolisme dan dapat ditingkatkan",
+          "type": "Promosi Kesehatan",
+          "signs_and_symptoms": {
+            "subjective": ["Mengekspresikan keinginan untuk meningkatkan nutrisi"],
+            "objective": ["Makan teratur dan adekuat"]
+          },
+          "expected_outcomes": {
+            "code": "L.03030",
+            "name": "Status nutrisi membaik",
+            "criteria": [
+              "Porsi makan yang dihabiskan meningkat",
+              "Berat badan membaik",
+              "Indeks massa tubuh (IMT) membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.12395", "name": "Edukasi Nutrisi"},
+            {"code": "I.03094", "name": "Konseling Nutrisi"}
+          ]
+        },
+        {
+          "code": "D.0027",
+          "name": "Ketidakstabilan Kadar Glukosa Darah",
+          "definition": "Variasi kadar glukosa darah naik atau turun dari rentang normal",
+          "signs_and_symptoms": {
+            "hyperglycemia": {
+              "subjective": ["Lelah atau lesu"],
+              "objective": ["Kadar glukosa dalam darah/urin tinggi"]
+            },
+            "hypoglycemia": {
+              "subjective": ["Mengantuk", "Pusing"],
+              "objective": ["Gangguan koordinasi", "Kadar glukosa dalam darah/urin rendah"]
+            }
+          },
+          "related_factors": {
+            "hyperglycemia": [
+              "Disfungsi pankreas",
+              "Resistensi insulin",
+              "Gangguan toleransi glukosa darah",
+              "Gangguan glukosa darah puasa"
+            ],
+            "hypoglycemia": [
+              "Penggunaan insulin atau obat glikemik oral",
+              "Hiperinsulinemia",
+              "Endokrinopati",
+              "Disfungsi hati",
+              "Disfungsi ginjal kronis",
+              "Efek agen farmakologis",
+              "Tindakan pembedahan neoplasma",
+              "Gangguan metabolik bawaan"
+            ]
+          },
+          "expected_outcomes": {
+            "code": "L.03022",
+            "name": "Kestabilan kadar glukosa darah meningkat",
+            "criteria": [
+              "Koordinasi meningkat",
+              "Mengantuk menurun",
+              "Pusing menurun",
+              "Lelah/lesu menurun",
+              "Rasa lapar menurun",
+              "Kadar glukosa dalam darah membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.03115", "name": "Manajemen Hiperglikemia"},
+            {"code": "I.03115", "name": "Manajemen Hipoglikemia"}
+          ]
+        },
+        {
+          "code": "D.0028",
+          "name": "Menyusui Efektif",
+          "definition": "Pemberian ASI secara langsung dari payudara kepada bayi dan anak yang dapat memenuhi kebutuhan nutrisi",
+          "type": "Promosi Kesehatan",
+          "signs_and_symptoms": {
+            "subjective": ["Ibu merasa percaya diri selama proses menyusui"],
+            "objective": [
+              "Bayi melekat pada payudara ibu dengan benar",
+              "Ibu mampu memposisikan bayi dengan benar",
+              "Miksi bayi lebih dari 8 kali dalam 24 jam",
+              "Berat badan bayi meningkat",
+              "ASI menetes/memancar",
+              "Suplai ASI adekuat",
+              "Puting tidak lecet setelah minggu kedua"
+            ]
+          },
+          "expected_outcomes": {
+            "code": "L.03029",
+            "name": "Status menyusui membaik",
+            "criteria": [
+              "Perlekatan bayi pada payudara ibu meningkat",
+              "Kemampuan ibu memposisikan bayi dengan benar meningkat",
+              "Miksi bayi lebih dari 8 kali/24 jam meningkat",
+              "Berat badan bayi meningkat",
+              "Tetesan/pancaran ASI meningkat",
+              "Suplai ASI adekuat meningkat",
+              "Puting tidak lecet setelah 2 minggu melahirkan meningkat",
+              "Kepercayaan diri ibu meningkat",
+              "Lecet pada puting menurun",
+              "Kelelahan maternal menurun",
+              "Kecemasan maternal menurun"
+            ]
+          },
+          "interventions": [
+            {"code": "I.12393", "name": "Edukasi Menyusui"},
+            {"code": "I.03093", "name": "Konseling Laktasi"}
+          ]
+        },
+        {
+          "code": "D.0029",
+          "name": "Menyusui Tidak Efektif",
+          "definition": "Kondisi dimana ibu dan bayi mengalami ketidakpuasan atau kesukaran pada proses menyusui",
+          "signs_and_symptoms": {
+            "subjective": [
+              "Kelelahan maternal",
+              "Kecemasan maternal"
+            ],
+            "objective": [
+              "Bayi tidak mampu melekat pada payudara ibu dengan benar",
+              "ASI tidak menetes/memancar",
+              "BAK bayi kurang dari 8 kali dalam 24 jam",
+              "Nyeri dan/atau lecet terus menerus setelah minggu kedua"
+            ]
+          },
+          "related_factors": {
+            "physiological": [
+              "Ketidakadekuatan suplai ASI",
+              "Hambatan pada neonatus",
+              "Anomali payudara ibu",
+              "Ketidakadekuatan refleks oksitosin",
+              "Ketidakadekuatan refleks menghisap bayi",
+              "Payudara bengkak",
+              "Riwayat operasi payudara",
+              "Kelahiran kembar"
+            ],
+            "situational": [
+              "Tidak rawat gabung",
+              "Kurang terpapar informasi tentang pentingnya menyusui dan/atau metode menyusui",
+              "Kurangnya dukungan keluarga",
+              "Faktor budaya"
+            ]
+          },
+          "expected_outcomes": {
+            "code": "L.03029",
+            "name": "Status menyusui membaik",
+            "criteria": [
+              "Perlekatan bayi pada payudara ibu meningkat",
+              "Kemampuan ibu memposisikan bayi dengan benar meningkat",
+              "Miksi bayi lebih dari 8 kali/24 jam meningkat",
+              "Berat badan bayi meningkat",
+              "Tetesan/pancaran ASI meningkat",
+              "Suplai ASI adekuat meningkat",
+              "Puting tidak lecet setelah 2 minggu melahirkan meningkat",
+              "Kepercayaan diri ibu meningkat",
+              "Lecet pada puting menurun",
+              "Kelelahan maternal menurun",
+              "Kecemasan maternal menurun"
+            ]
+          },
+          "interventions": [
+            {"code": "I.12393", "name": "Edukasi Menyusui"},
+            {"code": "I.03093", "name": "Konseling Laktasi"}
+          ]
+        },
+        {
+          "code": "D.0030",
+          "name": "Obesitas",
+          "definition": "Akumulasi lemak berlebih yang tidak sesuai dengan usia dan jenis kelamin, serta melampaui kondisi berat badan lebih",
+          "signs_and_symptoms": {
+            "subjective": [],
+            "objective": [
+              "IMT > 27 kg/m² (pada dewasa)",
+              "IMT lebih dari presentil 95 untuk usia dan jenis kelamin (pada anak)"
+            ]
+          },
+          "related_factors": [
+            "Kurang aktivitas fisik harian",
+            "Kelebihan konsumsi gula",
+            "Gangguan kebiasaan makan",
+            "Gangguan persepsi makan",
+            "Kelebihan konsumsi alkohol",
+            "Penggunaan energi kurang dari asupan",
+            "Sering mengemil",
+            "Sering memakan makanan berminyak/berlemak",
+            "Faktor keturunan",
+            "Penggunaan makanan formula atau makanan campuran (pada bayi)",
+            "Asupan kalsium rendah (pada anak-anak)",
+            "Berat badan bertambah cepat",
+            "Makanan padat sebagai sumber makanan utama pada usia < 5 bulan"
+          ],
+          "expected_outcomes": {
+            "code": "L.03018",
+            "name": "Berat badan membaik",
+            "criteria": [
+              "Berat badan membaik",
+              "Tebal lipatan kulit membaik",
+              "Indeks massa tubuh membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.12365", "name": "Edukasi berat badan efektif"},
+            {"code": "I.03097", "name": "Manajemen berat badan"}
+          ]
+        },
+        {
+          "code": "D.0031",
+          "name": "Risiko Berat Badan Lebih",
+          "definition": "Berisiko mengalami akumulasi lemak berlebih atau abnormal yang tidak sesuai dengan usia dan jenis kelamin",
+          "type": "Risiko",
+          "risk_factors": [
+            "Kurang aktivitas fisik harian",
+            "Kelebihan konsumsi gula",
+            "Gangguan kebiasaan makan",
+            "Gangguan persepsi makan",
+            "Kelebihan konsumsi alkohol",
+            "Penggunaan energi kurang dari asupan",
+            "Sering mengemil",
+            "Sering memakan makanan berminyak/berlemak",
+            "Faktor keturunan",
+            "Penggunaan makanan formula atau makanan campuran (pada bayi)",
+            "Asupan kalsium rendah (pada anak-anak)",
+            "Berat badan bertambah cepat",
+            "Makanan padat sebagai sumber makanan utama pada usia < 5 bulan"
+          ],
+          "expected_outcomes": {
+            "code": "L.03018",
+            "name": "Berat badan membaik",
+            "criteria": [
+              "Berat badan membaik",
+              "Tebal lipatan kulit membaik",
+              "Indeks massa tubuh membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.12369", "name": "Edukasi Diet"},
+            {"code": "I.03094", "name": "Konseling Nutrisi"}
+          ]
+        },
+        {
+          "code": "D.0032",
+          "name": "Risiko Defisit Nutrisi",
+          "definition": "Berisiko mengalami asupan nutrisi tidak cukup untuk memenuhi kebutuhan metabolisme",
+          "type": "Risiko",
+          "risk_factors": [
+            "Ketidakmampuan menelan makanan",
+            "Ketidakmampuan mencerna makanan",
+            "Ketidakmampuan mengabsorbsi nutrien",
+            "Peningkatan kebutuhan metabolisme",
+            "Faktor ekonomi",
+            "Faktor psikologis"
+          ],
+          "expected_outcomes": {
+            "code": "L.03030",
+            "name": "Status nutrisi membaik",
+            "criteria": [
+              "Porsi makan yang dihabiskan meningkat",
+              "Berat badan membaik",
+              "Indeks massa tubuh (IMT) membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.03111", "name": "Manajemen Gangguan Makan"},
+            {"code": "I.03119", "name": "Manajemen Nutrisi"}
+          ]
+        },
+        {
+          "code": "D.0033",
+          "name": "Risiko Disfungsi Motilitas Gastrointestinal",
+          "definition": "Berisiko mengalami peningkatan, penurunan, tidak efektifnya aktivitas peristaltik gastrointestinal",
+          "type": "Risiko",
+          "risk_factors": [
+            "Pembedahan abdomen",
+            "Penurunan sirkulasi gastrointestinal",
+            "Intoleransi makanan",
+            "Refluks gastrointestinal",
+            "Hiperglikemia",
+            "Imobilitas",
+            "Proses penuaan",
+            "Infeksi gastrointestinal",
+            "Efek agen farmakologis",
+            "Prematuritas",
+            "Kecemasan",
+            "Stress",
+            "Kurangnya sanitasi pada persiapan makanan"
+          ],
+          "expected_outcomes": {
+            "code": "L.03023",
+            "name": "Motilitas gastrointestinal membaik",
+            "criteria": [
+              "Nyeri menurun",
+              "Kram abdomen menurun",
+              "Mual menurun",
+              "Muntah menurun",
+              "Regurgitasi menurun",
+              "Distensi abdomen menurun",
+              "Diare menurun",
+              "Suara peristaltik meningkat/menurun",
+              "Pengosongan lambung meningkat",
+              "Flatus meningkat"
+            ]
+          },
+          "interventions": [
+            {"code": "I.12369", "name": "Edukasi diet"},
+            {"code": "I.01018", "name": "Pengontrolan infeksi"}
+          ]
+        },
+        {
+          "code": "D.0034",
+          "name": "Risiko Hipovolemia",
+          "definition": "Berisiko mengalami penurunan volume cairan intravaskular, interstitial, dan/atau intraselular",
+          "type": "Risiko",
+          "risk_factors": [
+            "Kehilangan cairan secara aktif",
+            "Gangguan absorpsi cairan",
+            "Usia lanjut",
+            "Kelebihan berat badan",
+            "Status hipermetabolik",
+            "Kegagalan mekanisme regulasi",
+            "Evaporasi",
+            "Kekurangan intake cairan",
+            "Efek agen farmakologis"
+          ],
+          "expected_outcomes": {
+            "code": "L.03028",
+            "name": "Status cairan membaik",
+            "criteria": [
+              "Kekuatan nadi meningkat",
+              "Output urin meningkat",
+              "Membran mukosa lembab meningkat",
+              "Ortopnea menurun",
+              "Dispnea menurun",
+              "PND menurun",
+              "Edema anasarka menurun",
+              "Edema perifer menurun",
+              "Frekuensi nadi membaik",
+              "Tekanan darah membaik",
+              "Turgor kulit membaik",
+              "Jugular venous pressure membaik",
+              "Hemoglobin membaik",
+              "Hematokrit membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.03116", "name": "Manajemen hipovolemia"},
+            {"code": "I.03121", "name": "Pemantauan cairan"}
+          ]
+        },
+        {
+          "code": "D.0035",
+          "name": "Risiko Ikterik Neonatus",
+          "definition": "Berisiko mengalami kulit dan membran mukosa neonatus menguning setelah 24 jam kelahiran akibat bilirubin tidak terkonjugasi masuk ke dalam sirkulasi",
+          "type": "Risiko",
+          "risk_factors": [
+            "Penurunan berat badan abnormal",
+            "Pola makan tidak ditetapkan dengan baik",
+            "Kesulitan transisi ke kehidupan ekstra uterin",
+            "Usia kurang dari 7 hari",
+            "Keterlambatan pengeluaran feses (mekonium)",
+            "Prematuritas (< 37 minggu)"
+          ],
+          "expected_outcomes": [
+            {"code": "L.14125", "name": "Integritas kulit dan jaringan meningkat"},
+            {"code": "L.10098", "name": "Adaptasi neonatus meningkat"}
+          ],
+          "interventions": [
+            {"code": "I.10338", "name": "Perawatan bayi"},
+            {"code": "I.03132", "name": "Perawatan neonatus"}
+          ]
+        },
+        {
+          "code": "D.0036",
+          "name": "Risiko Ketidakseimbangan Cairan",
+          "definition": "Berisiko mengalami penurunan, peningkatan, atau percepatan perpindahan cairan dari intravaskuler, interstitial, atau intraseluler",
+          "type": "Risiko",
+          "risk_factors": [
+            "Prosedur pembedahan mayor",
+            "Trauma/perdarahan",
+            "Luka bakar",
+            "Aferesis",
+            "Asites",
+            "Obstruksi intestinal",
+            "Peradangan pancreas",
+            "Penyakit ginjal dan kelenjar",
+            "Disfungsi intestinal"
+          ],
+          "expected_outcomes": {
+            "code": "L.03020",
+            "name": "Keseimbangan cairan meningkat",
+            "criteria": [
+              "Asupan cairan meningkat",
+              "Output urin meningkat",
+              "Membrane mukosa lembab meningkat",
+              "Edema menurun",
+              "Dehidrasi menurun",
+              "Tekanan darah membaik",
+              "Frekuensi nadi membaik",
+              "Kekuatan nadi membaik",
+              "Tekanan arteri rata-rata membaik",
+              "Mata cekung membaik",
+              "Turgor kulit membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.03098", "name": "Manajemen Cairan"},
+            {"code": "I.03121", "name": "Pemantauan Cairan"}
+          ]
+        },
+        {
+          "code": "D.0037",
+          "name": "Risiko Ketidakseimbangan Elektrolit",
+          "definition": "Berisiko mengalami perubahan kadar serum elektrolit",
+          "type": "Risiko",
+          "risk_factors": [
+            "Ketidakseimbangan cairan",
+            "Kelebihan volume cairan",
+            "Gangguan mekanisme regulasi",
+            "Efek samping prosedur",
+            "Diare",
+            "Muntah",
+            "Disfungsi ginjal",
+            "Disfungsi regulasi endokrin"
+          ],
+          "expected_outcomes": {
+            "code": "L.03021",
+            "name": "Keseimbangan elektrolit meningkat",
+            "criteria": [
+              "Serum natrium membaik",
+              "Serum kalium membaik",
+              "Serum klorida membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.03122", "name": "Pemantauan Elektrolit"}
+          ]
+        },
+        {
+          "code": "D.0038",
+          "name": "Risiko Ketidakstabilan Kadar Glukosa Darah",
+          "definition": "Risiko terhadap variasi kadar glukosa darah naik atau turun dari rentang normal",
+          "type": "Risiko",
+          "risk_factors": [
+            "Kurang terpapar informasi tentang manajemen diabetes",
+            "Ketidaktepatan pemantauan glukosa darah",
+            "Kurang patuh pada rencana manajemen diabetes",
+            "Manajemen medikasi tidak terkontrol",
+            "Kehamilan",
+            "Periode pertumbuhan cepat",
+            "Stress berlebihan",
+            "Penambahan berat badan",
+            "Kurang dapat menerima diagnosis"
+          ],
+          "expected_outcomes": {
+            "code": "L.03022",
+            "name": "Kestabilan kadar glukosa darah meningkat",
+            "criteria": [
+              "Koordinasi meningkat",
+              "Mengantuk menurun",
+              "Pusing menurun",
+              "Lelah/lesu menurun",
+              "Rasa lapar menurun",
+              "Kadar glukosa dalam darah membaik"
+            ]
+          },
+          "interventions": [
+            {"code": "I.03115", "name": "Manajemen Hiperglikemia"},
+            {"code": "I.03115", "name": "Manajemen Hipoglikemia"}
+          ]
+        },
+        {
+          "code": "D.0039",
+          "name": "Risiko Syok",
+          "definition": "Berisiko mengalami ketidakcukupan aliran darah ke jaringan tubuh, yang dapat mengakibatkan disfungsi seluler yang mengancam jiwa",
+          "type": "Risiko",
+          "risk_factors": [
+            "Hipoksemia",
+            "Hipoksia",
+            "Hipotensi",
+            "Kekurangan volume cairan",
+            "Sepsis",
+            "Sindrom respons inflamasi sistemik (SIRS)"
+          ],
+          "expected_outcomes": {
+            "code": "L.03032",
+            "name": "Tingkat syok menurun",
+            "criteria": [
+              "Kekuatan nadi meningkat",
+              "Output urin meningkat",
+              "Tingkat kesadaran meningkat",
+              "Aktrat dingin menurun",
+              "Pucat menurun",
+              "Tekanan arteri rata-rata membaik",
+              "Tekanan darah sistolik membaik",
+              "Tekanan darah diastolik membaik",
+              "Pengisian kapiler membaik",
+              "Frekuensi nadi membaik",
+              "Frekuensi napas membaik"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "progress": {
+    "completed": ["respirasi", "sirkulasi", "nutrisi_cairan"],
+    "pending": [
+      "eliminasi",
+      "aktivitas_istirahat",
+      "neurosensori",
+      "reproduksi_seksualitas",
+      "nyeri_kenyamanan",
+      "integritas_ego",
+      "pertumbuhan_perkembangan",
+      "kebersihan_diri",
+      "penyuluhan_pembelajaran",
+      "interaksi_sosial",
+      "keamanan_proteksi"
+    ],
+    "total_collected": 39,
+    "total_diagnoses": 149
+  }
+}

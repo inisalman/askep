@@ -1,0 +1,18 @@
+{
+  "category": "Interaksi Sosial",
+  "description": "Diagnosis terkait interaksi sosial, komunikasi, dan hubungan interpersonal",
+  "diagnoses_count": 11,
+  "diagnoses": {
+    "D.0118": {"code": "D.0118", "name": "Gangguan Interaksi Sosial", "definition": "Kuantitas dan/atau kualitas sosial yang kurang atau berlebih", "type": "Aktual"},
+    "D.0119": {"code": "D.0119", "name": "Gangguan Komunikasi Verbal", "definition": "Penurunan, perlambatan, atau ketiadaan kemampuan untuk menerima, memproses, mengirim, dan/atau menggunakan sistem simbol", "type": "Aktual"},
+    "D.0120": {"code": "D.0120", "name": "Gangguan Proses Keluarga", "definition": "Perubahan dalam hubungan atau fungsi keluarga", "type": "Aktual"},
+    "D.0121": {"code": "D.0121", "name": "Isolasi Sosial", "definition": "Ketidakmampuan untuk membina hubungan yang erat, hangat, terbuka, dan interdependen dengan orang lain", "type": "Aktual"},
+    "D.0122": {"code": "D.0122", "name": "Kesiapan Peningkatan Menjadi Orang Tua", "definition": "Pola pemberian lingkungan bagi anak atau anggota keluarga yang cukup untuk memfasilitasi pertumbuhan dan perkembangan serta dapat ditingkatkan", "type": "Promosi Kesehatan"},
+    "D.0123": {"code": "D.0123", "name": "Kesiapan Peningkatan Proses Keluarga", "definition": "Pola fungsi keluarga yang cukup untuk mendukung kesejahteraan anggota keluarga dan dapat ditingkatkan", "type": "Promosi Kesehatan"},
+    "D.0124": {"code": "D.0124", "name": "Ketegangan Peran Pemberi Asuhan", "definition": "Ketidakmampuan untuk membina hubungan yang erat, hangat, terbuka, dan interdependen dengan orang lain", "type": "Aktual"},
+    "D.0125": {"code": "D.0125", "name": "Penampilan Peran Tidak Efektif", "definition": "Pola perilaku yang berubah atau tidak sesuai dengan harapan, norma, dan lingkungan", "type": "Aktual"},
+    "D.0126": {"code": "D.0126", "name": "Pencapaian Peran Menjadi Orang Tua", "definition": "Terjadinya proses interaktif antar anggota keluarga (suami-isteri, anggota keluarga dan bayi) yang ditunjukkan dengan perkembangan bayi yang optimal", "type": "Promosi Kesehatan"},
+    "D.0127": {"code": "D.0127", "name": "Risiko Gangguan Perlekatan", "definition": "Berisiko mengalami gangguan interaksi antara orang tua atau orang terdekat dengan bayi/anak yang dapat mempengaruhi proses asah, asih, dan asuh", "type": "Risiko"},
+    "D.0128": {"code": "D.0128", "name": "Risiko Proses Pengasuhan Tidak Efektif", "definition": "Berisiko mengalami proses kehamilan, persalinan, dan setelah melahirkan termasuk perawatan bayi baru lahir yang tidak sesuai dengan konteks norma dan harapan", "type": "Risiko"}
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "category": "Eliminasi",
+  "description": "Diagnosis terkait eliminasi urin dan fekal",
+  "diagnoses_count": 13,
+  "diagnoses": {
+    "D.0040": {"code": "D.0040", "name": "Gangguan Eliminasi Urin", "definition": "Gangguan pada eliminasi urin", "type": "Aktual"},
+    "D.0041": {"code": "D.0041", "name": "Inkontinensia Fekal", "definition": "Pengeluaran feses yang tidak terkendali", "type": "Aktual"},
+    "D.0042": {"code": "D.0042", "name": "Inkontinensia Urin Berlanjut", "definition": "Pengeluaran urin yang tidak terkendali yang berlangsung lama", "type": "Aktual"},
+    "D.0043": {"code": "D.0043", "name": "Inkontinensia Urin Berlebih", "definition": "Pengeluaran urin berlebihan yang tidak terkendali", "type": "Aktual"},
+    "D.0044": {"code": "D.0044", "name": "Inkontinensia Urin Fungsional", "definition": "Pengeluaran urin yang tidak terkendali akibat hambatan fungsional", "type": "Aktual"},
+    "D.0045": {"code": "D.0045", "name": "Inkontinensia Urin Refleks", "definition": "Pengeluaran urin yang tidak terkendali karena refleks spinal", "type": "Aktual"},
+    "D.0046": {"code": "D.0046", "name": "Inkontinensia Urin Stres", "definition": "Pengeluaran urin yang tidak terkendali saat aktivitas meningkat", "type": "Aktual"},
+    "D.0047": {"code": "D.0047", "name": "Inkontinensia Urin Urgensi", "definition": "Pengeluaran urin yang tidak terkendali karena rasa urgensi", "type": "Aktual"},
+    "D.0048": {"code": "D.0048", "name": "Kesiapan Peningkatan Eliminasi Urin", "definition": "Pola eliminasi urin yang cukup dan dapat ditingkatkan", "type": "Promosi Kesehatan"},
+    "D.0049": {"code": "D.0049", "name": "Konstipasi", "definition": "Pengeluaran feses yang keras dan sulit", "type": "Aktual"},
+    "D.0050": {"code": "D.0050", "name": "Retensi Urin", "definition": "Ketidakmampuan mengosongkan kandung kemih", "type": "Aktual"},
+    "D.0051": {"code": "D.0051", "name": "Risiko Inkontinensia Urin Urgensi", "definition": "Berisiko mengalami pengeluaran urin yang tidak terkendali karena rasa urgensi", "type": "Risiko"},
+    "D.0052": {"code": "D.0052", "name": "Risiko Konstipasi", "definition": "Berisiko mengalami pengeluaran feses yang keras dan sulit", "type": "Risiko"}
+  }
+}
