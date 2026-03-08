@@ -181,7 +181,7 @@ export function SearchBar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.15 }}
-            className="absolute top-full right-0 mt-2 w-80 md:w-96 bg-card border border-border rounded-xl shadow-xl overflow-hidden z-50"
+            className="absolute top-full right-0 mt-2 w-80 md:w-96 border border-border rounded-xl shadow-xl overflow-hidden z-50 backdrop-blur-none search-modal-bg"
           >
             {/* Search Input */}
             <div className="flex items-center gap-2 p-3 border-b border-border">
