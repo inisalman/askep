@@ -20,6 +20,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "rongkohan",
       "sekre",
     ],
+    tandaGejala: {
+      subjektif: [
+      ],
+      objektif: [
+        "Batuk tidak efektif",
+        "Tidak mampu batuk",
+        "Sputum berlebih",
+        "Mengi, wheezing, dan/atau ronchi kering",
+        "Mekonium di jalan napas (pada neonatus)",
+      ],
+    },
     faktorTerkait: [
       "Spasme jalan napas",
       "Hipersekresi jalan napas",
@@ -157,6 +168,19 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Respirasi",
     tipe: "Aktual",
     keluhan: ["ventilator", "weaning", "sesak", "nafas cepat"],
+    tandaGejala: {
+      subjektif: [
+      ],
+      objektif: [
+        "Frekuensi napas meningkat",
+        "Penggunaan otot bantu napas",
+        "Napas megap-megap",
+        "Upaya napas dan bantuan ventilator tidak sinkron",
+        "Napas dangkal",
+        "Agitasi",
+        "Nilai gas darah arteri tidak normal",
+      ],
+    },
     faktorTerkait: [
       "Hipersekresi jalan napas",
       "Ketidakcukupan energi",
@@ -264,6 +288,18 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Respirasi",
     tipe: "Aktual",
     keluhan: ["sesak", "sianosis", "biru", "hipoksia", "spO2"],
+    tandaGejala: {
+      subjektif: [
+        "Mengeluh sesak",
+      ],
+      objektif: [
+        "PCO2 meningkat/menurun",
+        "PO2 menurun",
+        "pH arteri meningkat/menurun",
+        "Takikardia",
+        "Adanya bunyi napas tambahan (mis. wheezing, rales)",
+      ],
+    },
     faktorTerkait: [
       "Ketidakseimbangan ventilasi-perfusi",
       "Perubahan membran alveolus-kapiler",
@@ -356,6 +392,18 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Respirasi",
     tipe: "Aktual",
     keluhan: ["sesak", "lemah", "ventilasi"],
+    tandaGejala: {
+      subjektif: [
+        "Mengeluh sesak (dispnea)",
+      ],
+      objektif: [
+        "Penggunaan otot bantu napas meningkat",
+        "Volume tidal menurun",
+        "PCO2 meningkat",
+        "PO2 menurun",
+        "SaO2 menurun",
+      ],
+    },
     faktorTerkait: ["Gangguan metabolisme", "Kelelahan otot pernapasan"],
     slki: {
       kode: "L.01007",
@@ -448,6 +496,17 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Respirasi",
     tipe: "Aktual",
     keluhan: ["sesak", "dyspnea", "nafas", "pernapasan"],
+    tandaGejala: {
+      subjektif: [
+        "Mengeluh sesak (dispnea)",
+      ],
+      objektif: [
+        "Penggunaan otot bantu pernapasan",
+        "Fase ekspirasi memanjang",
+        "Pola napas abnormal (mis. takipnea, bradipnea, hiperventilasi, kussmaul, cheyne-stokes)",
+        "Adanya bunyi napas tambahan (mis. wheezing, rales)",
+      ],
+    },
     faktorTerkait: [
       "Depresi pusat pernapasan",
       "Hambatan upaya napas (mis. nyeri saat bernapas, kelemahan otot pernapasan)",
@@ -688,6 +747,17 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Sirkulasi",
     tipe: "Aktual",
     keluhan: ["sirkulasi", "jantung", "nadi", "tekanan darah"],
+    tandaGejala: {
+      subjektif: [
+        "Tidak berespon (unrespon)",
+      ],
+      objektif: [
+        "Frekuensi nadi < 50 kali/menit atau > 150 kali/menit",
+        "Tekanan darah sistolik < 60 mmHg atau > 200 mmHg",
+        "Frekuensi napas < 6 kali/menit atau > 30 kali/menit",
+        "Kesadaran menurun atau tidak sadar",
+      ],
+    },
     faktorTerkait: [
       "Abnormalitas kelistrikan jantung",
       "Abnormalitas struktur jantung",
@@ -907,6 +977,17 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Sirkulasi",
     tipe: "Aktual",
     keluhan: ["perfusi", "pucat", "dingin", "nadi lemah"],
+    tandaGejala: {
+      subjektif: [
+      ],
+      objektif: [
+        "Pengisian kapiler (capillary refill) > 3 detik",
+        "Nadi perifer menurun atau tidak teraba",
+        "Akral terasa dingin",
+        "Warna kulit pucat",
+        "Turgor kulit menurun",
+      ],
+    },
     faktorTerkait: [
       "Hiperglikemia",
       "Penurunan konsentrasi hemoglobin",
@@ -2635,6 +2716,13 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Nutrisi dan Cairan",
     tipe: "Promosi Kesehatan",
     keluhan: ["cairan", "hidrasi", "minum", "air", "diet cairan"],
+    tandaGejala: {
+      subjektif: [
+        "Mengekspresikan keinginan meningkatkan keseimbangan cairan",
+      ],
+      objektif: [
+      ],
+    },
     slki: {
       kode: "L.03024",
       nama: "Keseimbangan cairan membaik",
@@ -2706,6 +2794,13 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Nutrisi dan Cairan",
     tipe: "Promosi Kesehatan",
     keluhan: ["makan", "makanan", "gizi", "diet", "nutrisi sehat"],
+    tandaGejala: {
+      subjektif: [
+        "Mengekspresikan keinginan meningkatkan nutrisi",
+      ],
+      objektif: [
+      ],
+    },
     slki: {
       kode: "L.03025",
       nama: "Nutrisi dalam batas normal",
@@ -2894,6 +2989,17 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Nutrisi dan Cairan",
     tipe: "Promosi Kesehatan",
     keluhan: ["ASI", "laktasi", "menyusui", "bayi", "susu ibu"],
+    tandaGejala: {
+      subjektif: [
+        "Ibu mengekspresikan kepuasan dengan menyusui",
+        "Ibu mampu memposisikan bayi dengan benar",
+      ],
+      objektif: [
+        "Bayi menyusu dengan efektif",
+        "Bayi puas setelah menyusu",
+        "Bayi menunjukkan pertumbuhan yang adekuat",
+      ],
+    },
     slki: {
       kode: "L.03028",
       nama: "Menyusui efektif",
@@ -4638,6 +4744,13 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Eliminasi",
     tipe: "Promosi Kesehatan",
     keluhan: ["BAK", "kencing", "urine", "buang air kecil"],
+    tandaGejala: {
+      subjektif: [
+        "Mengekspresikan keinginan meningkatkan eliminasi urin",
+      ],
+      objektif: [
+      ],
+    },
     slki: {
       kode: "L.04001",
       nama: "Eliminasi urin meningkat",
@@ -5562,6 +5675,13 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Aktivitas dan Istirahat",
     tipe: "Promosi Kesehatan",
     keluhan: ["tidur", "nyenyak", "istirahat"],
+    tandaGejala: {
+      subjektif: [
+        "Mengekspresikan keinginan meningkatkan pola tidur",
+      ],
+      objektif: [
+      ],
+    },
     slki: {
       kode: "L.05003",
       nama: "Tidur membaik",
@@ -6481,6 +6601,15 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Reproduksi dan Seksualitas",
     tipe: "Promosi Kesehatan",
     keluhan: ["persalinan", "melahirkan", "hamil", "kelahiran"],
+    tandaGejala: {
+      subjektif: [
+        "Ibu mengekspresikan kesiapan untuk persalinan",
+      ],
+      objektif: [
+        "Tanda-tanda persalinan",
+        "Serviks mendatar dan membuka",
+      ],
+    },
     slki: {
       kode: "L.07002",
       nama: "Persalinan lancar",
@@ -7875,6 +8004,14 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Integritas Ego",
     tipe: "Promosi Kesehatan",
     keluhan: ["diri", "konsep diri", "self concept"],
+    tandaGejala: {
+      subjektif: [
+        "Mengekspresikan keinginan untuk meningkatkan konsep diri",
+        "Mengekspresikan kepuasan dengan diri, harga diri, penampilan peran, citra tubuh, dan identitas pribadi",
+      ],
+      objektif: [
+      ],
+    },
     slki: {
       kode: "L.09009",
       nama: "Konsep diri membaik",
@@ -7908,6 +8045,13 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Integritas Ego",
     tipe: "Promosi Kesehatan",
     keluhan: ["koping", "cope", "adaptasi", "keluarga"],
+    tandaGejala: {
+      subjektif: [
+        "Keluarga menetapkan tujuan untuk meningkatkan gaya hidup sehat",
+      ],
+      objektif: [
+      ],
+    },
     slki: {
       kode: "L.09010",
       nama: "Koping keluarga efektif",
@@ -7945,6 +8089,15 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Integritas Ego",
     tipe: "Promosi Kesehatan",
     keluhan: ["koping", "cope", "adaptasi", "komunitas", "masyarakat"],
+    tandaGejala: {
+      subjektif: [
+        "Perencanaan aktif oleh komunitas mengenai prediksi stresor",
+        "Pemecahan masalah aktif oleh komunitas saat menghadapi masalah",
+      ],
+      objektif: [
+        "Terdapat sumber-sumber daya yang adekuat untuk mengatasi stresor",
+      ],
+    },
     slki: {
       kode: "L.09011",
       nama: "Koping komunitas efektif",
@@ -9309,6 +9462,14 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Pertumbuhan dan Perkembangan",
     tipe: "Aktual",
     keluhan: ["tumbuh kembang", "perkembangan", "pertumbuhan", "terlambat"],
+    tandaGejala: {
+      subjektif: [
+      ],
+      objektif: [
+        "Tidak mampu melakukan keterampilan atau perilaku khas sesuai usia (fisik, bahasa, motorik, psikososial)",
+        "Pertumbuhan fisik terganggu",
+      ],
+    },
     faktorTerkait: [
       "Malnutrisi",
       "Penyakit kronis",
@@ -9602,6 +9763,16 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Kebersihan Diri",
     tipe: "Aktual",
     keluhan: ["perawatan diri", "ADL", "mandi", "makan", "berpakaian"],
+    tandaGejala: {
+      subjektif: [
+        "Tidak mampu merawat diri sendiri",
+      ],
+      objektif: [
+        "Kebersihan tubuh kurang",
+        "Penampilan tidak rapi",
+        "Ketidakmampuan ADL",
+      ],
+    },
     faktorTerkait: [
       "Gangguan muskuloskeletal",
       "Gangguan neurologis",
@@ -9703,6 +9874,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "fasilitas kesehatan",
       "lingkungan",
     ],
+    tandaGejala: {
+      subjektif: [
+        "Komunitas menyatakan masalah kesehatan yang belum teratasi",
+      ],
+      objektif: [
+        "Angka kesakitan tinggi",
+        "Akses layanan kesehatan terbatas",
+        "Program kesehatan tidak optimal",
+      ],
+    },
     faktorTerkait: [
       "Kurang sumber daya",
       "Kurang fasilitas kesehatan",
@@ -9857,6 +10038,13 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Penyuluhan dan Pembelajaran",
     tipe: "Promosi Kesehatan",
     keluhan: ["manajemen", "pengelolaan", "kesehatan", "lifestyle"],
+    tandaGejala: {
+      subjektif: [
+        "Mengekspresikan keinginan mengelola kesehatan sendiri",
+      ],
+      objektif: [
+      ],
+    },
     slki: {
       kode: "L.12001",
       nama: "Manajemen kesehatan meningkat",
@@ -9916,6 +10104,13 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Penyuluhan dan Pembelajaran",
     tipe: "Promosi Kesehatan",
     keluhan: ["pengetahuan", "info", "edukasi", "belajar"],
+    tandaGejala: {
+      subjektif: [
+        "Mengekspresikan keinginan mempelajari kondisi kesehatan",
+      ],
+      objektif: [
+      ],
+    },
     slki: {
       kode: "L.12003",
       nama: "Pengetahuan meningkat",
@@ -10501,6 +10696,13 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Interaksi Sosial",
     tipe: "Promosi Kesehatan",
     keluhan: ["orang tua", "parenting", "pengasuhan", "menjadi orang tua"],
+    tandaGejala: {
+      subjektif: [
+        "Orang tua menetapkan tujuan untuk meningkatkan gaya hidup sehat",
+      ],
+      objektif: [
+      ],
+    },
     slki: {
       kode: "L.13004",
       nama: "Parenting meningkat",
@@ -10538,6 +10740,13 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Interaksi Sosial",
     tipe: "Promosi Kesehatan",
     keluhan: ["keluarga", "family", "proses keluarga", "harmonis"],
+    tandaGejala: {
+      subjektif: [
+        "Anggota keluarga menetapkan tujuan untuk meningkatkan gaya hidup sehat",
+      ],
+      objektif: [
+      ],
+    },
     slki: {
       kode: "L.13003",
       nama: "Proses keluarga meningkat",
@@ -10676,6 +10885,15 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Interaksi Sosial",
     tipe: "Promosi Kesehatan",
     keluhan: ["orang tua", "parenting", "pengasuhan", "new parent"],
+    tandaGejala: {
+      subjektif: [
+        "Orang tua menyatakan kesulitan dalam peran",
+      ],
+      objektif: [
+        "Pola asuh tidak konsisten",
+        "Interaksi orang tua-anak terganggu",
+      ],
+    },
     slki: {
       kode: "L.13004",
       nama: "Parenting tercapai",
@@ -10808,6 +11026,17 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Keamanan dan Proteksi",
     tipe: "Aktual",
     keluhan: ["kulit", "luka", "integritas"],
+    tandaGejala: {
+      subjektif: [
+        "Nyeri pada area kulit",
+      ],
+      objektif: [
+        "Luka pada kulit",
+        "Kemerahan",
+        "Edema",
+        "Ekskoriasi",
+      ],
+    },
     faktorTerkait: [
       "Perubahan sirkulasi",
       "Perubahan status nutrisi (kelebihan atau kekurangan)",
@@ -11076,6 +11305,16 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Keamanan dan Proteksi",
     tipe: "Aktual",
     keluhan: ["kekerasan", "agresif", "amarah"],
+    tandaGejala: {
+      subjektif: [
+        "Merasa marah berlebihan",
+      ],
+      objektif: [
+        "Perilaku agresif",
+        "Mengancam",
+        "Merusak benda",
+      ],
+    },
     faktorTerkait: [
       "Ketidakmampuan mengendalikan dorongan marah",
       "Stimulus lingkungan",
@@ -11220,6 +11459,16 @@ export const allDiagnosesData: Diagnosis[] = [
     kategori: "Keamanan dan Proteksi",
     tipe: "Aktual",
     keluhan: ["pemulihan", "penyembuhan", "post operasi"],
+    tandaGejala: {
+      subjektif: [
+        "Nyeri tidak berkurang setelah operasi",
+      ],
+      objektif: [
+        "Luka operasi tidak sembuh",
+        "Tanda infeksi",
+        "Penundaan pemulihan fungsi",
+      ],
+    },
     faktorTerkait: [
       "Skor klasifikasi status fisik American Society of Anesthesiologists (ASA) ≥ 3",
       "Hiperglikemia",
