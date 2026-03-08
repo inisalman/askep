@@ -395,14 +395,11 @@ export default function DiagnosisDetailPage() {
             </div>
             {hasLuaran ? (
               <div className="space-y-3">
-                <p className="text-sm font-medium text-card-foreground">
-                  {diagnosis.slki.nama}
+                <p className="text-sm text-card-foreground leading-relaxed">
+                  Setelah dilakukan intervensi keperawatan selama 3 x 24 jam,
+                  maka <span className="font-medium">{diagnosis.slki.nama}</span>,
+                  dengan kriteria hasil:
                 </p>
-                {diagnosis.slki.definisi && (
-                  <p className="text-xs text-muted-foreground italic">
-                    {diagnosis.slki.definisi}
-                  </p>
-                )}
                 <ul className="space-y-2">
                   {diagnosis.slki.kriteria.map((kriteria, index) => (
                     <li
