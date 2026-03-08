@@ -27,14 +27,16 @@ interface GCSResult {
 };
 
 const getGCSCategory = (total: number): GCSResult['category'] => {
-  if (total <= 8) {
-    return { label: 'Koma Berat', bgClass: 'bg-red-500' };
+  if (total <= 6) {
+    return { label: 'Coma', bgClass: 'bg-red-600' };
+  } else if (total <= 9) {
+    return { label: 'Sopor', bgClass: 'bg-red-500' };
   } else if (total <= 12) {
-    return { label: 'Koma Sedang', bgClass: 'bg-amber-500' };
+    return { label: 'Somnolen', bgClass: 'bg-amber-500' };
   } else if (total <= 14) {
-    return { label: 'Koma Ringan', bgClass: 'bg-sky-500' };
+    return { label: 'Apatis', bgClass: 'bg-sky-500' };
   } else {
-    return { label: 'Sadari Penuh', bgClass: 'bg-teal-500' };
+    return { label: 'Composmentis', bgClass: 'bg-teal-500' };
   }
 };
 
@@ -86,10 +88,11 @@ export default function GCSCalculatorPage() {
   ];
 
   const gcsScale = [
-    { range: '3 - 8', label: 'Koma Berat', color: 'bg-red-500' },
-    { range: '9 - 12', label: 'Koma Sedang', color: 'bg-amber-500' },
-    { range: '13 - 14', label: 'Koma Ringan', color: 'bg-sky-500' },
-    { range: '15', label: 'Sadari Penuh', color: 'bg-teal-500' },
+    { range: '15', label: 'Composmentis', color: 'bg-teal-500' },
+    { range: '13 - 14', label: 'Apatis', color: 'bg-sky-500' },
+    { range: '10 - 12', label: 'Somnolen', color: 'bg-amber-500' },
+    { range: '7 - 9', label: 'Sopor', color: 'bg-red-500' },
+    { range: '3 - 6', label: 'Coma', color: 'bg-red-600' },
   ];
 
   return (
