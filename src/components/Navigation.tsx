@@ -8,6 +8,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 import { ThemeToggle } from '@/components/ThemeToggle';
+import { SearchBar } from '@/components/SearchBar';
 import * as Motion from '@/lib/motion';
 
 const navItems = [
@@ -110,13 +111,14 @@ export default function Navigation() {
             })}
           </motion.div>
 
-          {/* Theme Toggle - Right Side */}
+          {/* Search & Theme Toggle - Right Side */}
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.3, delay: 0.3 }}
-            className="hidden md:block flex-shrink-0"
+            className="hidden md:flex items-center gap-3 flex-shrink-0"
           >
+            <SearchBar />
             <ThemeToggle />
           </motion.div>
 
@@ -127,6 +129,7 @@ export default function Navigation() {
             transition={{ duration: 0.3 }}
             className="flex items-center gap-2 md:hidden"
           >
+            <SearchBar />
             <ThemeToggle />
             <motion.div
               whileTap={{ scale: 0.9 }}
