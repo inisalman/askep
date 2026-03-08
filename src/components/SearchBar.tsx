@@ -164,11 +164,11 @@ export function SearchBar() {
       {/* Search Button */}
       <button
         onClick={() => setIsOpen(true)}
-        className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-muted/50 hover:bg-muted border border-border/50 text-sm text-muted-foreground hover:text-foreground transition-all duration-200 w-48 md:w-56"
+        className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-card border border-border text-sm text-muted-foreground hover:text-foreground transition-all duration-200 w-48 md:w-56"
       >
         <Search className="w-4 h-4" />
         <span className="truncate">Cari...</span>
-        <kbd className="hidden md:inline-flex ml-auto text-xs bg-background/80 px-1.5 py-0.5 rounded border border-border/50">
+        <kbd className="hidden md:inline-flex ml-auto text-xs bg-muted px-1.5 py-0.5 rounded border border-border">
           ⌘K
         </kbd>
       </button>
