@@ -319,7 +319,7 @@ export default function DiagnosisDetailPage() {
           </div>
 
           {/* Etiologi */}
-          <div className="bg-card border border-border rounded-xl p-6 lg:col-span-2">
+          <div className="bg-card border border-border rounded-xl p-6">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-xl bg-amber-500/10 flex items-center justify-center">
                 <AlertTriangle className="w-5 h-5 text-amber-500" />
@@ -329,7 +329,7 @@ export default function DiagnosisDetailPage() {
               </h2>
             </div>
             {hasEtiologi ? (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="space-y-4">
                 {diagnosis.faktorRisiko &&
                   diagnosis.faktorRisiko.length > 0 && (
                     <div className="bg-amber-500/10 rounded-lg p-4">
