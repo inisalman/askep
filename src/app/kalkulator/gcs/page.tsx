@@ -96,7 +96,7 @@ export default function GCSCalculatorPage() {
   ];
 
   return (
-    <div className="max-w-lg mx-auto px-4 py-8">
+    <div className="max-w-4xl mx-auto px-4 py-8">
       {/* Back button */}
       <BlurFade>
         <Link href="/kalkulator">
@@ -200,118 +200,117 @@ export default function GCSCalculatorPage() {
         )}
       </AnimatePresence>
 
-      {/* Eye Response */}
+      {/* GCS Categories - Horizontal Layout */}
       <BlurFade delay={0.2}>
-        <Card className="mb-4 overflow-hidden">
-          <CardContent className="p-4">
-            <div className="flex items-center gap-2 mb-3">
-              <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-sky-500 to-sky-600 flex items-center justify-center shadow-md">
-                <Eye className="w-4 h-4 text-white" />
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+          {/* Eye Response */}
+          <Card className="overflow-hidden">
+            <CardContent className="p-4">
+              <div className="flex items-center gap-2 mb-3">
+                <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-sky-500 to-sky-600 flex items-center justify-center shadow-md">
+                  <Eye className="w-4 h-4 text-white" />
+                </div>
+                <Label className="text-sm font-medium">Mata (E)</Label>
               </div>
-              <Label className="text-sm font-medium">Respons Membuka Mata (E)</Label>
-            </div>
-            <div className="space-y-1.5">
-              {eyeOptions.map((option, index) => (
-                <motion.button
-                  key={option.value}
-                  initial={{ opacity: 0, x: -10 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: index * 0.03 }}
-                  whileHover={{ scale: 1.01 }}
-                  whileTap={{ scale: 0.99 }}
-                  onClick={() => setEye(option.value)}
-                  className={cn(
-                    'w-full text-left px-3 py-2.5 rounded-lg text-sm transition-all duration-300',
-                    eye === option.value
-                      ? 'bg-sky-50 dark:bg-sky-950/30 border-2 border-sky-500 text-sky-700 dark:text-sky-400 shadow-md'
-                      : 'bg-muted/50 text-muted-foreground hover:bg-muted border-2 border-transparent'
-                  )}
-                >
-                  <span className="font-bold mr-2 bg-muted-foreground/20 px-2 py-0.5 rounded">{option.value}</span>
-                  {option.label}
-                </motion.button>
-              ))}
-            </div>
-          </CardContent>
-        </Card>
-      </BlurFade>
+              <div className="space-y-1.5">
+                {eyeOptions.map((option, index) => (
+                  <motion.button
+                    key={option.value}
+                    initial={{ opacity: 0, x: -10 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: index * 0.03 }}
+                    whileHover={{ scale: 1.01 }}
+                    whileTap={{ scale: 0.99 }}
+                    onClick={() => setEye(option.value)}
+                    className={cn(
+                      'w-full text-left px-3 py-2 rounded-lg text-sm transition-all duration-300',
+                      eye === option.value
+                        ? 'bg-sky-50 dark:bg-sky-950/30 border-2 border-sky-500 text-sky-700 dark:text-sky-400 shadow-md'
+                        : 'bg-muted/50 text-muted-foreground hover:bg-muted border-2 border-transparent'
+                    )}
+                  >
+                    <span className="font-bold mr-2 bg-muted-foreground/20 px-2 py-0.5 rounded">{option.value}</span>
+                    {option.label}
+                  </motion.button>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
 
-      {/* Verbal Response */}
-      <BlurFade delay={0.25}>
-        <Card className="mb-4 overflow-hidden">
-          <CardContent className="p-4">
-            <div className="flex items-center gap-2 mb-3">
-              <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-teal-500 to-teal-600 flex items-center justify-center shadow-md">
-                <MessageCircle className="w-4 h-4 text-white" />
+          {/* Verbal Response */}
+          <Card className="overflow-hidden">
+            <CardContent className="p-4">
+              <div className="flex items-center gap-2 mb-3">
+                <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-teal-500 to-teal-600 flex items-center justify-center shadow-md">
+                  <MessageCircle className="w-4 h-4 text-white" />
+                </div>
+                <Label className="text-sm font-medium">Verbal (V)</Label>
               </div>
-              <Label className="text-sm font-medium">Respons Verbal (V)</Label>
-            </div>
-            <div className="space-y-1.5">
-              {verbalOptions.map((option, index) => (
-                <motion.button
-                  key={option.value}
-                  initial={{ opacity: 0, x: -10 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: index * 0.03 }}
-                  whileHover={{ scale: 1.01 }}
-                  whileTap={{ scale: 0.99 }}
-                  onClick={() => setVerbal(option.value)}
-                  className={cn(
-                    'w-full text-left px-3 py-2.5 rounded-lg text-sm transition-all duration-300',
-                    verbal === option.value
-                      ? 'bg-teal-50 dark:bg-teal-950/30 border-2 border-teal-500 text-teal-700 dark:text-teal-400 shadow-md'
-                      : 'bg-muted/50 text-muted-foreground hover:bg-muted border-2 border-transparent'
-                  )}
-                >
-                  <span className="font-bold mr-2 bg-muted-foreground/20 px-2 py-0.5 rounded">{option.value}</span>
-                  {option.label}
-                </motion.button>
-              ))}
-            </div>
-          </CardContent>
-        </Card>
-      </BlurFade>
+              <div className="space-y-1.5">
+                {verbalOptions.map((option, index) => (
+                  <motion.button
+                    key={option.value}
+                    initial={{ opacity: 0, x: -10 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: index * 0.03 }}
+                    whileHover={{ scale: 1.01 }}
+                    whileTap={{ scale: 0.99 }}
+                    onClick={() => setVerbal(option.value)}
+                    className={cn(
+                      'w-full text-left px-3 py-2 rounded-lg text-sm transition-all duration-300',
+                      verbal === option.value
+                        ? 'bg-teal-50 dark:bg-teal-950/30 border-2 border-teal-500 text-teal-700 dark:text-teal-400 shadow-md'
+                        : 'bg-muted/50 text-muted-foreground hover:bg-muted border-2 border-transparent'
+                    )}
+                  >
+                    <span className="font-bold mr-2 bg-muted-foreground/20 px-2 py-0.5 rounded">{option.value}</span>
+                    {option.label}
+                  </motion.button>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
 
-      {/* Motor Response */}
-      <BlurFade delay={0.3}>
-        <Card className="mb-6 overflow-hidden">
-          <CardContent className="p-4">
-            <div className="flex items-center gap-2 mb-3">
-              <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-amber-500 to-amber-600 flex items-center justify-center shadow-md">
-                <Hand className="w-4 h-4 text-white" />
+          {/* Motor Response */}
+          <Card className="overflow-hidden">
+            <CardContent className="p-4">
+              <div className="flex items-center gap-2 mb-3">
+                <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-amber-500 to-amber-600 flex items-center justify-center shadow-md">
+                  <Hand className="w-4 h-4 text-white" />
+                </div>
+                <Label className="text-sm font-medium">Motorik (M)</Label>
               </div>
-              <Label className="text-sm font-medium">Respons Motorik (M)</Label>
-            </div>
-            <div className="space-y-1.5">
-              {motorOptions.map((option, index) => (
-                <motion.button
-                  key={option.value}
-                  initial={{ opacity: 0, x: -10 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: index * 0.03 }}
-                  whileHover={{ scale: 1.01 }}
-                  whileTap={{ scale: 0.99 }}
-                  onClick={() => setMotor(option.value)}
-                  className={cn(
-                    'w-full text-left px-3 py-2.5 rounded-lg text-sm transition-all duration-300',
-                    motor === option.value
-                      ? 'bg-amber-50 dark:bg-amber-950/30 border-2 border-amber-500 text-amber-700 dark:text-amber-400 shadow-md'
-                      : 'bg-muted/50 text-muted-foreground hover:bg-muted border-2 border-transparent'
-                  )}
-                >
-                  <span className="font-bold mr-2 bg-muted-foreground/20 px-2 py-0.5 rounded">{option.value}</span>
-                  {option.label}
-                </motion.button>
-              ))}
-            </div>
-          </CardContent>
-        </Card>
+              <div className="space-y-1.5">
+                {motorOptions.map((option, index) => (
+                  <motion.button
+                    key={option.value}
+                    initial={{ opacity: 0, x: -10 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: index * 0.03 }}
+                    whileHover={{ scale: 1.01 }}
+                    whileTap={{ scale: 0.99 }}
+                    onClick={() => setMotor(option.value)}
+                    className={cn(
+                      'w-full text-left px-3 py-2 rounded-lg text-sm transition-all duration-300',
+                      motor === option.value
+                        ? 'bg-amber-50 dark:bg-amber-950/30 border-2 border-amber-500 text-amber-700 dark:text-amber-400 shadow-md'
+                        : 'bg-muted/50 text-muted-foreground hover:bg-muted border-2 border-transparent'
+                    )}
+                  >
+                    <span className="font-bold mr-2 bg-muted-foreground/20 px-2 py-0.5 rounded">{option.value}</span>
+                    {option.label}
+                  </motion.button>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
+        </div>
       </BlurFade>
 
       {/* Reset Button */}
       <BlurFade delay={0.35}>
         <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
-          <Button variant="outline" className="w-full mb-6" onClick={resetForm}>
+          <Button variant="outline" className="w-full mb-6 bg-gradient-to-r from-sky-500 to-sky-600 hover:from-sky-600 hover:to-sky-700 text-white border-sky-500 shadow-md hover:shadow-lg transition-all" onClick={resetForm}>
             <RotateCcw className="w-4 h-4 mr-2" />
             Reset ke Nilai Normal
           </Button>

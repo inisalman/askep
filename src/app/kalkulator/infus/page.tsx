@@ -139,8 +139,8 @@ export default function InfusCalculatorPage() {
                       className={cn(
                         "w-full text-xs sm:text-sm transition-all duration-300",
                         faktor === option.value
-                          ? "shadow-md hover:shadow-lg"
-                          : ""
+                          ? "bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 text-white shadow-md hover:shadow-lg border-teal-500"
+                          : "hover:bg-teal-50 dark:hover:bg-teal-950/30 hover:text-teal-600 dark:hover:text-teal-400 hover:border-teal-300 dark:hover:border-teal-700"
                       )}
                     >
                       {option.label}
@@ -156,7 +156,7 @@ export default function InfusCalculatorPage() {
                 whileTap={{ scale: 0.98 }}
                 className="flex-1"
               >
-                <Button onClick={hitungTPM} className="w-full gap-2">
+                <Button onClick={hitungTPM} className="w-full gap-2 bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 text-white shadow-md hover:shadow-lg transition-all">
                   <Calculator className="w-4 h-4" />
                   Hitung
                 </Button>

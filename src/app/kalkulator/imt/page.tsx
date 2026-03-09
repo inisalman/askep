@@ -165,7 +165,7 @@ export default function IMTCalculatorPage() {
                 whileTap={{ scale: 0.98 }}
                 className="flex-1"
               >
-                <Button onClick={hitungIMT} className="w-full gap-2">
+                <Button onClick={hitungIMT} className="w-full gap-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white shadow-md hover:shadow-lg transition-all">
                   <Calculator className="w-4 h-4" />
                   Hitung IMT
                 </Button>
