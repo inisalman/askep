@@ -1,0 +1,11 @@
+# robots.txt for Sobat ASKEP
+# https://askep.build.web.id
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://askep.build.web.id/sitemap.xml
+
+# Crawl-delay (optional, untuk mencegah overloading)
+Crawl-delay: 1
