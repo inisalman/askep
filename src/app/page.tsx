@@ -1,23 +1,34 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import { useState } from 'react';
-import { Activity, Calculator, BookOpen, Heart, ArrowRight, Search } from 'lucide-react';
-import { motion } from 'framer-motion';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
-import { Input } from '@/components/ui/input';
-import { AnimatedGridPattern } from '@/components/magicui/animated-grid-pattern';
-import { Spotlight } from '@/components/magicui/spotlight';
-import { BentoGrid, FeatureCard, StepCard } from '@/components/magicui/bento-grid';
-import { BlurFade, StaggerContainer } from '@/components/magicui/blur-fade';
-import { cn } from '@/lib/utils';
-import * as Motion from '@/lib/motion';
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
+import {
+  Activity,
+  Calculator,
+  BookOpen,
+  Heart,
+  ArrowRight,
+  Search,
+} from "lucide-react";
+import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { AnimatedGridPattern } from "@/components/magicui/animated-grid-pattern";
+import { Spotlight } from "@/components/magicui/spotlight";
+import {
+  BentoGrid,
+  FeatureCard,
+  StepCard,
+} from "@/components/magicui/bento-grid";
+import { BlurFade, StaggerContainer } from "@/components/magicui/blur-fade";
+import { cn } from "@/lib/utils";
+import * as Motion from "@/lib/motion";
 
 export default function HomePage() {
   const router = useRouter();
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState("");
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
@@ -28,45 +39,55 @@ export default function HomePage() {
 
   const features = [
     {
-      title: 'Modul Diagnosis Pintar',
-      description: 'Cari diagnosis SDKI, intervensi SIKI, dan luaran SLKI berdasarkan keluhan pasien.',
-      href: '/diagnosis',
+      title: "SDKI",
+      description:
+        "Cari diagnosis SDKI, intervensi SIKI, dan luaran SLKI berdasarkan keluhan pasien.",
+      href: "/diagnosis",
       icon: <Activity className="w-6 h-6" />,
-      gradient: 'from-teal-500 to-emerald-500',
+      gradient: "from-teal-500 to-emerald-500",
     },
     {
-      title: 'Kalkulator Kesehatan',
-      description: 'Hitung IMT, tetesan infus, dan GCS dengan cepat dan akurat.',
-      href: '/kalkulator',
+      title: "Kalkulator Kesehatan",
+      description:
+        "Hitung IMT, tetesan infus, dan GCS dengan cepat dan akurat.",
+      href: "/kalkulator",
       icon: <Calculator className="w-6 h-6" />,
-      gradient: 'from-amber-500 to-orange-500',
+      gradient: "from-amber-500 to-orange-500",
     },
     {
-      title: 'Perpustakaan SOP',
-      description: 'Kumpulan prosedur standar keperawatan seperti pemasangan NGT, kateter, dll.',
-      href: '/sop',
+      title: "Perpustakaan SOP",
+      description:
+        "Kumpulan prosedur standar keperawatan seperti pemasangan NGT, kateter, dll.",
+      href: "/sop",
       icon: <BookOpen className="w-6 h-6" />,
-      gradient: 'from-sky-500 to-blue-500',
+      gradient: "from-sky-500 to-blue-500",
     },
   ];
 
-  const popularSearches = ['sesak napas', 'nyeri', 'luka', 'demam', 'batuk', 'bengkak'];
+  const popularSearches = [
+    "sesak napas",
+    "nyeri",
+    "luka",
+    "demam",
+    "batuk",
+    "bengkak",
+  ];
 
   const howItWorks = [
     {
-      step: '01',
-      title: 'Masukkan Keluhan',
-      description: 'Ketik keluhan utama pasien di kolom pencarian',
+      step: "01",
+      title: "Masukkan Keluhan",
+      description: "Ketik keluhan utama pasien di kolom pencarian",
     },
     {
-      step: '02',
-      title: 'Pilih Diagnosis',
-      description: 'Sistem menampilkan diagnosis SDKI yang relevan',
+      step: "02",
+      title: "Pilih Diagnosis",
+      description: "Sistem menampilkan diagnosis SDKI yang relevan",
     },
     {
-      step: '03',
-      title: 'Lihat Rencana',
-      description: 'Dapatkan SIKI dan SLKI lengkap dengan tindakan',
+      step: "03",
+      title: "Lihat Rencana",
+      description: "Dapatkan SIKI dan SLKI lengkap dengan tindakan",
     },
   ];
 
@@ -79,7 +100,6 @@ export default function HomePage() {
           className="-top-24 left-0 md:left-1/2 md:-top-32"
           fill="hsl(var(--primary))"
         />
-
 
         {/* Gradient overlays */}
         <div className="absolute inset-0 bg-gradient-to-b from-primary/10 via-primary/5 to-background -z-10" />
@@ -111,8 +131,8 @@ export default function HomePage() {
           {/* Subheadline */}
           <BlurFade delay={0.3}>
             <p className="text-lg text-muted-foreground max-w-xl mx-auto mb-8">
-              Aplikasi pembantu untuk perawat dan mahasiswa keperawatan dalam menentukan
-              SDKI, SIKI, dan SLKI berdasarkan keluhan pasien.
+              Aplikasi pembantu untuk perawat dan mahasiswa keperawatan dalam
+              menentukan SDKI, SIKI, dan SLKI berdasarkan keluhan pasien.
             </p>
           </BlurFade>
 
@@ -215,7 +235,9 @@ export default function HomePage() {
                 Fitur Utama
               </motion.div>
               <h2 className="heading-lg mb-3">Alat Bantu Profesional</h2>
-              <p className="text-muted-foreground">Berbagai fitur untuk mempermudah pekerjaan perawat</p>
+              <p className="text-muted-foreground">
+                Berbagai fitur untuk mempermudah pekerjaan perawat
+              </p>
             </div>
           </BlurFade>
 
@@ -254,7 +276,8 @@ export default function HomePage() {
               </motion.div>
               <h2 className="heading-lg mb-3">Cara Kerja</h2>
               <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-                Tiga langkah sederhana untuk mendapatkan rencana keperawatan yang tepat
+                Tiga langkah sederhana untuk mendapatkan rencana keperawatan
+                yang tepat
               </p>
             </div>
           </BlurFade>
