@@ -103,6 +103,12 @@ export default function RootLayout({
   return (
     <html lang="id" suppressHydrationWarning>
       <head>
+        {/* Google AdSense Verification */}
+        <meta
+          name="google-adsense-account"
+          content="ca-pub-3904099446158969"
+        />
+
         {/* Preconnect to improve performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
