@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
 import { ThemeProvider } from "@/components/ThemeProvider";
@@ -148,6 +149,13 @@ export default function RootLayout({
         />
       </head>
       <body>
+        {/* Google AdSense */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3904099446158969"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         <ThemeProvider defaultTheme="light">
           <Navigation />
           <main className="min-h-screen pt-14">{children}</main>

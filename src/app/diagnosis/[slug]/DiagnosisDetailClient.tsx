@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import type { Diagnosis } from "@/data/diagnosis";
+import AdBanner from "@/components/AdBanner";
 
 // Component untuk menampilkan detail intervensi
 function IntervensiDetail({
@@ -190,7 +191,7 @@ export default function DiagnosisDetailClient({ diagnosis }: DiagnosisDetailClie
     <div className="min-h-screen bg-background">
       {/* Header */}
       <header className="bg-card border-b border-border">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <Link
             href="/diagnosis"
             className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
@@ -201,7 +202,21 @@ export default function DiagnosisDetailClient({ diagnosis }: DiagnosisDetailClie
         </div>
       </header>
 
-      <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="flex gap-6">
+          {/* Left Sidebar - Ads */}
+          <aside className="hidden xl:block w-40 flex-shrink-0">
+            <div className="sticky top-20">
+              <AdBanner
+                adSlot="YOUR_AD_SLOT_ID"
+                adFormat="vertical"
+                className="min-h-[600px]"
+              />
+            </div>
+          </aside>
+
+          {/* Main Content */}
+          <main className="flex-1 min-w-0 max-w-5xl">
         {/* Title Card */}
         <div className="bg-card border border-border rounded-xl p-6 mb-6">
           <div className="flex items-start justify-between gap-4">
@@ -455,7 +470,9 @@ export default function DiagnosisDetailClient({ diagnosis }: DiagnosisDetailClie
             </div>
           </div>
         )}
-      </main>
+          </main>
+        </div>
+      </div>
     </div>
   );
 }
