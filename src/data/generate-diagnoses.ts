@@ -150,6 +150,11 @@ for (const category of categories) {
       kategori: categoryName,
       tipe: diag.type || 'Aktual',
       keluhan: keywords,
+      tandaGejala: {
+        subjektif: diag.signs_and_symptoms?.subjective || [],
+        objektif: diag.signs_and_symptoms?.objective || []
+      },
+      faktorTerkait: diag.related_factors || [],
       slki: diag.expected_outcomes ? {
         kode: diag.expected_outcomes.code || '',
         nama: diag.expected_outcomes.name || '',

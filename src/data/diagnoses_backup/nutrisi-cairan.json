@@ -1,0 +1,29 @@
+{
+  "category": "Nutrisi dan Cairan",
+  "description": "Diagnosis terkait nutrisi, cairan, dan elektrolit",
+  "diagnoses_count": 22,
+  "diagnoses": {
+    "D.0018": {"code": "D.0018", "name": "Berat Badan Lebih", "definition": "Akumulasi lemak berlebih atau abnormal yang tidak sesuai dengan usia dan jenis kelamin", "type": "Aktual"},
+    "D.0019": {"code": "D.0019", "name": "Defisit Nutrisi", "definition": "Asupan nutrisi tidak cukup untuk memenuhi kebutuhan metabolisme", "type": "Aktual"},
+    "D.0020": {"code": "D.0020", "name": "Diare", "definition": "Pengeluaran feses yang sering, lunak, dan tidak berbentuk", "type": "Aktual"},
+    "D.0021": {"code": "D.0021", "name": "Disfungsi Motilitas Gastrointestinal", "definition": "Peningkatan, penurunan, tidak efektif atau kurangnya aktivitas peristaltik gastrointestinal", "type": "Aktual"},
+    "D.0022": {"code": "D.0022", "name": "Hipervolemia", "definition": "Peningkatan volume cairan intravaskular, interstitial, dan/atau intraselular", "type": "Aktual"},
+    "D.0023": {"code": "D.0023", "name": "Hipovolemia", "definition": "Penurunan volume cairan intravaskular, interstitial, dan/atau intraselular", "type": "Aktual"},
+    "D.0024": {"code": "D.0024", "name": "Ikterik Neonatus", "definition": "Kulit dan membran mukosa neonatus menguning setelah 24 jam kelahiran akibat bilirubin tidak terkonjugasi masuk ke dalam sirkulasi", "type": "Aktual"},
+    "D.0025": {"code": "D.0025", "name": "Kesiapan Peningkatan Keseimbangan Cairan", "definition": "Pola ekuilibrium antara volume cairan dan komposisi kimia cairan tubuh yang cukup untuk memenuhi kebutuhan fisik dan dapat ditingkatkan", "type": "Promosi Kesehatan"},
+    "D.0026": {"code": "D.0026", "name": "Kesiapan Peningkatan Nutrisi", "definition": "Pola asupan nutrisi yang cukup untuk memenuhi kebutuhan metabolisme dan dapat ditingkatkan", "type": "Promosi Kesehatan"},
+    "D.0027": {"code": "D.0027", "name": "Ketidakstabilan Kadar Glukosa Darah", "definition": "Variasi kadar glukosa darah naik atau turun dari rentang normal", "type": "Aktual"},
+    "D.0028": {"code": "D.0028", "name": "Menyusui Efektif", "definition": "Pemberian ASI secara langsung dari payudara kepada bayi dan anak yang dapat memenuhi kebutuhan nutrisi", "type": "Promosi Kesehatan"},
+    "D.0029": {"code": "D.0029", "name": "Menyusui Tidak Efektif", "definition": "Kondisi dimana ibu dan bayi mengalami ketidakpuasan atau kesukaran pada proses menyusui", "type": "Aktual"},
+    "D.0030": {"code": "D.0030", "name": "Obesitas", "definition": "Akumulasi lemak berlebih yang tidak sesuai dengan usia dan jenis kelamin, serta melampaui kondisi berat badan lebih", "type": "Aktual"},
+    "D.0031": {"code": "D.0031", "name": "Risiko Berat Badan Lebih", "definition": "Berisiko mengalami akumulasi lemak berlebih atau abnormal yang tidak sesuai dengan usia dan jenis kelamin", "type": "Risiko"},
+    "D.0032": {"code": "D.0032", "name": "Risiko Defisit Nutrisi", "definition": "Berisiko mengalami asupan nutrisi tidak cukup untuk memenuhi kebutuhan metabolisme", "type": "Risiko"},
+    "D.0033": {"code": "D.0033", "name": "Risiko Disfungsi Motilitas Gastrointestinal", "definition": "Berisiko mengalami peningkatan, penurunan, tidak efektifnya aktivitas peristaltik gastrointestinal", "type": "Risiko"},
+    "D.0034": {"code": "D.0034", "name": "Risiko Hipovolemia", "definition": "Berisiko mengalami penurunan volume cairan intravaskular, interstitial, dan/atau intraselular", "type": "Risiko"},
+    "D.0035": {"code": "D.0035", "name": "Risiko Ikterik Neonatus", "definition": "Berisiko mengalami kulit dan membran mukosa neonatus menguning setelah 24 jam kelahiran akibat bilirubin tidak terkonjugasi masuk ke dalam sirkulasi", "type": "Risiko"},
+    "D.0036": {"code": "D.0036", "name": "Risiko Ketidakseimbangan Cairan", "definition": "Berisiko mengalami penurunan, peningkatan, atau percepatan perpindahan cairan dari intravaskuler, interstitial, atau intraseluler", "type": "Risiko"},
+    "D.0037": {"code": "D.0037", "name": "Risiko Ketidakseimbangan Elektrolit", "definition": "Berisiko mengalami perubahan kadar serum elektrolit", "type": "Risiko"},
+    "D.0038": {"code": "D.0038", "name": "Risiko Ketidakstabilan Kadar Glukosa Darah", "definition": "Risiko terhadap variasi kadar glukosa darah naik atau turun dari rentang normal", "type": "Risiko"},
+    "D.0039": {"code": "D.0039", "name": "Risiko Syok", "definition": "Berisiko mengalami ketidakcukupan aliran darah ke jaringan tubuh, yang dapat mengakibatkan disfungsi seluler yang mengancam jiwa", "type": "Risiko"}
+  }
+}

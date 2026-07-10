@@ -1,0 +1,199 @@
+{
+  "category": "Sirkulasi",
+  "description": "Diagnosis terkait sistem sirkulasi dan kardiovaskular",
+  "diagnoses": {
+    "D.0007": {
+      "code": "D.0007",
+      "name": "Gangguan Sirkulasi Spontan",
+      "definition": "ketidakmampuan untuk mempertahankan sirkulasi yang adekuat untuk menunjang kehidupan",
+      "type": "Aktual",
+      "signs_and_symptoms": {
+        "subjective": ["Tidak berespon (unrespon)"],
+        "objective": ["Frekuensi nadi < 50 kali/menit atau > 150 kali/menit", "Tekanan darah sistolik < 60 mmHg atau > 200 mmHg", "Frekuensi napas < 6 kali/menit atau > 30 kali/menit", "Kesadaran menurun atau tidak sadar"]
+      },
+      "related_factors": ["Abnormalitas kelistrikan jantung", "Abnormalitas struktur jantung", "Penurunan fungsi ventrikel"],
+      "expected_outcomes": {
+        "code": "L.02015",
+        "name": "Sirkulasi spontan meningkat",
+        "criteria": ["Tingkat kesadaran meningkat", "Frekuensi nadi membaik", "Tekanan darah membaik", "Frekuensi napas membaik"]
+      },
+      "interventions": [
+        {"code": "I.02038", "name": "Manajemen Defibrilasi"},
+        {"code": "I.03139", "name": "Resusitasi Cairan"},
+        {"code": "I.02083", "name": "Resusitasi Jantung Paru"}
+      ]
+    },
+    "D.0008": {
+      "code": "D.0008",
+      "name": "Penurunan Curah Jantung",
+      "definition": "ketidakmampuan jantung memompa darah untuk memenuhi kebutuhan metabolisme tubuh",
+      "type": "Aktual",
+      "signs_and_symptoms": {
+        "perubahan_irama_jantung": {"subjective": ["Palpitasi (dada terasa berdebar kencang)"], "objective": ["Bradikardia/takikardia", "Gambar EKG Aritmia atau gangguan konduksi"]},
+        "perubahan_preload": {"subjective": ["Lelah"], "objective": ["Edema", "Distensi vena jugularis", "CVP meningkat/menurun", "Hepatomegali"]},
+        "perubahan_afterload": {"subjective": ["Dispnea (sesak napas)"], "objective": ["Tekanan darah meningkat/menurun", "Nadi perifer teraba lemah", "CRT > 3 detik", "Oliguria", "Warna kulit pucat dan/atau sianosis"]},
+        "perubahan_kontraktilitas": {"subjective": ["Paroxysmal nocturnal dyspnea (PND)", "Ortopnea", "Batuk"], "objective": ["Terdengar suara jantung S3 dan/atau S4", "Ejection fraction (EF) menurun"]}
+      },
+      "related_factors": ["Perubahan irama jantung", "Perubahan preload", "Perubahan afterload", "Perubahan kontraktilitas"],
+      "expected_outcomes": {
+        "code": "L.02008",
+        "name": "Curah jantung meningkat",
+        "criteria": ["Kekuatan nadi perifer meningkat", "Ejection fraction (EF) meningkat", "Palpitasi menurun", "Bradikardia/takikardia menurun", "Lelah menurun", "Edema menurun", "Dispnea menurun", "Oliguria menurun"]
+      },
+      "interventions": [
+        {"code": "I.02075", "name": "Perawatan jantung"},
+        {"code": "I.02076", "name": "Perawatan jantung akut"}
+      ]
+    },
+    "D.0009": {
+      "code": "D.0009",
+      "name": "Perfusi Perifer Tidak Efektif",
+      "definition": "Penurunan sirkulasi darah pada level kapiler yang dapat mengganggu metabolisme tubuh",
+      "type": "Aktual",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": ["Pengisian kapiler (capillary refill) >3 detik", "Nadi perifer menurun atau tidak teraba", "Akral teraba dingin", "Warna kulit pucat", "Turgor kulit menurun"]
+      },
+      "related_factors": ["Hiperglikemia", "Penurunan konsentrasi hemoglobin", "Peningkatan tekanan darah", "Kekurangan volume cairan", "Penurunan aliran arteri dan/atau vena", "Kurang terpapar informasi tentang faktor pemberat", "Kurang aktivitas fisik"],
+      "expected_outcomes": {
+        "code": "L.02011",
+        "name": "Perfusi Perifer Meningkat",
+        "criteria": ["Kekuatan nadi perifer meningkat", "Warna kulit pucat menurun", "Pengisian kapiler membaik", "Akral membaik", "Turgor kulit membaik"]
+      },
+      "interventions": [
+        {"code": "I.02079", "name": "Perawatan Sirkulasi"},
+        {"code": "I.06195", "name": "Manajemen Sensasi Perifer"}
+      ]
+    },
+    "D.0010": {
+      "code": "D.0010",
+      "name": "Risiko Gangguan Sirkulasi Spontan",
+      "definition": "Risiko mengalami ketidakmampuan untuk mempertahankan sirkulasi yang adekuat untuk menunjang kehidupan",
+      "type": "Risiko",
+      "risk_factors": ["Kekurangan volume cairan", "Hipoksia", "Hipotermia", "Hipokalemia/Hiperkalemia", "Hipoglikemia/Hiperglikemia", "Asidosis", "Toksin", "Tamponade Jantung", "Tension Pneumothorax", "Trombosis Jantung", "Trombosis Paru (Emboli Paru)"],
+      "expected_outcomes": {
+        "code": "L.02015",
+        "name": "Sirkulasi spontan meningkat",
+        "criteria": ["Tingkat kesadaran meningkat", "Saturasi oksigen meningkat", "Gambaran EKG aritmia menurun", "Frekuensi nadi membaik", "Tekanan darah membaik", "Frekuensi napas membaik"]
+      },
+      "interventions": [
+        {"code": "I.02068", "name": "Pencegahan Syok"},
+        {"code": "I.02083", "name": "Resusitasi Jantung Paru"}
+      ]
+    },
+    "D.0011": {
+      "code": "D.0011",
+      "name": "Risiko Penurunan Curah Jantung",
+      "definition": "Risiko mengalami pemompaan jantung yang tidak adekuat untuk memenuhi kebutuhan metabolisme tubuh",
+      "type": "Risiko",
+      "risk_factors": ["Perubahan afterload", "Perubahan frekuensi jantung", "Perubahan irama jantung", "Perubahan kontraktilitas", "Perubahan preload"],
+      "expected_outcomes": {
+        "code": "L.02008",
+        "name": "Curah jantung meningkat",
+        "criteria": ["Kekuatan nadi perifer meningkat", "Ejection fraction (EF) meningkat", "Palpitasi menurun", "Edema menurun", "Dispnea menurun", "Oliguria menurun"]
+      },
+      "interventions": [
+        {"code": "I.02075", "name": "Perawatan jantung"},
+        {"code": "I.02076", "name": "Perawatan jantung akut"}
+      ]
+    },
+    "D.0012": {
+      "code": "D.0012",
+      "name": "Risiko Perdarahan",
+      "definition": "Berisiko mengalami kehilangan darah baik internal maupun eksternal",
+      "type": "Risiko",
+      "risk_factors": ["Aneurisma", "Gangguan gastrointestinal", "Gangguan fungsi hati", "Komplikasi kehamilan", "Komplikasi pasca partum", "Gangguan koagulasi", "Efek agen farmakologis", "Tindakan pembedahan", "Trauma", "Kurang terpapar informasi tentang pencegahan perdarahan", "Proses keganasan"],
+      "expected_outcomes": {
+        "code": "L.02017",
+        "name": "Tingkat perdarahan menurun",
+        "criteria": ["Membran mukosa lembab meningkat", "Kelembaban kulit meningkat", "Hemoptisis menurun", "Hematemesis menurun", "Hematuria menurun", "Hemoglobin membaik", "Hematokrit membaik"]
+      },
+      "interventions": [
+        {"code": "I.02067", "name": "Pencegahan Perdarahan"},
+        {"code": "I.02040", "name": "Manajemen Perdarahan"}
+      ]
+    },
+    "D.0013": {
+      "code": "D.0013",
+      "name": "Risiko Perfusi Gastrointestinal Tidak Efektif",
+      "definition": "Berisiko mengalami penurunan sirkulasi gastrointestinal",
+      "type": "Risiko",
+      "risk_factors": ["Varises gastroesofagus", "Aneurisma aorta abdomen", "Diabetes melitus", "Sirosis hepatis", "Perdarahan gastrointestinal akut", "Gagal jantung kongestif", "Koagulasi intravaskuler diseminata", "Ulkus duodenum atau ulkus lambung", "Kolitis iskemik", "Pankreatitis iskemik", "Ginjal polikistik", "Stenosis arteri ginjal", "Gagal ginjal", "Sindroma kompartemen abdomen", "Trauma abdomen", "Anemia"],
+      "expected_outcomes": {
+        "code": "L.02010",
+        "name": "Perfusi gastrointestinal meningkat",
+        "criteria": ["Mual menurun", "Muntah menurun", "Bising usus membaik"]
+      },
+      "interventions": [
+        {"code": "I.02040", "name": "Manajemen Perdarahan"},
+        {"code": "I.03094", "name": "Konseling Nutrisi"}
+      ]
+    },
+    "D.0014": {
+      "code": "D.0014",
+      "name": "Risiko Perfusi Miokard Tidak Efektif",
+      "definition": "Berisiko mengalami penurunan sirkulasi arteri koroner yang dapat mengganggu metabolisme miokard",
+      "type": "Risiko",
+      "risk_factors": ["Hipertensi", "Hiperlipidemia", "Hiperglikemia", "Hipoksemia", "Hipoksia", "Kekurangan volume cairan", "Pembedahan jantung", "Penyalahgunaan zat", "Spasme arteri koroner", "Peningkatan protein C-reaktif", "Tamponade jantung", "Efek agen farmakologis", "Riwayat penyakit kardiovaskuler pada keluarga", "Kurang terpapar informasi tentang faktor risiko yang dapat diubah"],
+      "expected_outcomes": {
+        "code": "L.02011",
+        "name": "Perfusi miokard meningkat",
+        "criteria": ["Gambaran EKG iskemia/injuri/infark menurun", "Nyeri dada menurun", "Arteri apikal membaik", "Tekanan arteri rata-rata (MAP) membaik", "Takikardia/Bradikardia membaik"]
+      },
+      "interventions": [
+        {"code": "I.02035", "name": "Manajemen Aritmia"},
+        {"code": "I.02051", "name": "Manajemen Syok Kardiogenik"},
+        {"code": "I.02066", "name": "Pencegahan Emboli"},
+        {"code": "I.02075", "name": "Perawatan Jantung"}
+      ]
+    },
+    "D.0015": {
+      "code": "D.0015",
+      "name": "Risiko Perfusi Perifer Tidak Efektif",
+      "definition": "Berisiko mengalami penurunan sirkulasi darah pada level kapiler yang dapat mengganggu metabolisme tubuh",
+      "type": "Risiko",
+      "risk_factors": ["Hiperglikemia", "Gaya hidup kurang gerak", "Hipertensi", "Merokok", "Prosedur endovaskuler", "Trauma", "Kurang terpapar informasi tentang faktor pemberat"],
+      "expected_outcomes": {
+        "code": "L.02011",
+        "name": "Perfusi perifer meningkat",
+        "criteria": ["Kekuatan nadi perifer meningkat", "Warna kulit pucat menurun", "Pengisian kapiler membaik", "Akral membaik", "Turgor kulit membaik"]
+      },
+      "interventions": [
+        {"code": "I.02068", "name": "Pencegahan Syok"},
+        {"code": "I.02079", "name": "Perawatan Sirkulasi"}
+      ]
+    },
+    "D.0016": {
+      "code": "D.0016",
+      "name": "Risiko Perfusi Renal Tidak Efektif",
+      "definition": "Berisiko mengalami penurunan sirkulasi darah ke ginjal",
+      "type": "Risiko",
+      "risk_factors": ["Kekurangan volume cairan", "Embolisme vaskuler", "Vaskulitis", "Hipertensi", "Disfungsi ginjal", "Hiperglikemia", "Keganasan", "Pembedahan jantung", "Bypass kardiopulmonal", "Hipoksemia", "Hipoksia", "Asidosis metabolik", "Trauma", "Sindrom kompartemen abdomen", "Luka bakar", "Sepsis", "Sindrom respon inflamasi sistemik", "Lanjut usia", "Merokok", "Penyalahgunaan zat"],
+      "expected_outcomes": {
+        "code": "L.02012",
+        "name": "Perfusi renal meningkat",
+        "criteria": ["Jumlah urin meningkat", "Tekanan arteri rata-rata (MAP) membaik", "Kadar urea nitrogen darah membaik", "Kadar kreatinin plasma membaik"]
+      },
+      "interventions": [
+        {"code": "I.02068", "name": "Pencegahan syok"},
+        {"code": "I.02040", "name": "Manajemen perdarahan"}
+      ]
+    },
+    "D.0017": {
+      "code": "D.0017",
+      "name": "Risiko Perfusi Serebral Tidak Efektif",
+      "definition": "Berisiko mengalami penurunan sirkulasi darah ke otak",
+      "type": "Risiko",
+      "risk_factors": ["Keabnormalan masa protrombin dan/atau masa protrombin parsial", "Penurunan kinerja ventrikel kiri", "Aterosklerosis aorta", "Diseksi arteri", "Fibrilasi atrium", "Tumor otak", "Stenosis karotis", "Miksoma atrium", "Aneurisma serebri", "Koagulopati", "Dilatasi kardiomiopati", "Koagulasi intravaskuler diseminata", "Embolisme", "Cidera kepala", "Hiperkolesteronemia", "Hipertensi", "Endokarditis infektif", "Katup prostetik mekanis", "Stenosis mitral", "Neoplasma otak", "Infark miokard akut", "Sindrom sick sinus", "Penyalahgunaan zat", "Terapi trombolitik"],
+      "expected_outcomes": {
+        "code": "L.02014",
+        "name": "Perfusi serebral meningkat",
+        "criteria": ["Tingkat kesadaran meningkat", "Sakit kepala menurun", "Gelisah menurun", "Tekanan arteri rata-rata (MAP) membaik", "Tekanan intra kranial membaik"]
+      },
+      "interventions": [
+        {"code": "I.06194", "name": "Manajemen Peningkatan Tekanan Intrakranial"},
+        {"code": "I.06198", "name": "Pemantauan Tekanan Intrakranial"}
+      ]
+    }
+  }
+}

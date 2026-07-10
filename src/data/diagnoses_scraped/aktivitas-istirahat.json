@@ -1,0 +1,350 @@
+{
+  "category": "Aktivitas dan Istirahat",
+  "description": "Scraped category data for Aktivitas dan Istirahat",
+  "diagnoses": {
+    "D.0053": {
+      "code": "D.0053",
+      "name": "Disorganisasi Perilaku Bayi",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Tidak tersedia"
+        ],
+        "objective": [
+          "Hiperekstensi ekstremitas",
+          "Jari-jari meregang atau tangan menggenggam",
+          "Respon abnormal terhadap stimulus sensorik",
+          "Gerakan tidak terkoordinasi"
+        ]
+      },
+      "related_factors": [
+        "Keterbatasan lingkungan fisik",
+        "Ketidaktepatan sensori",
+        "Kelebihan stimulasi sensorik",
+        "Imaturitas sistem sensoris",
+        "Prematuritas",
+        "Prosedur invasif",
+        "Malnutrisi",
+        "Gangguan motorik",
+        "Kelainan kongenital",
+        "Kelainan genetik",
+        "Terpatar teratogenik"
+      ],
+      "expected_outcomes": {
+        "code": "L.05043",
+        "name": "Organisasi perilaku bayi meningkat",
+        "criteria": [
+          "Gerakan pada ekstremitas meningkat",
+          "Kemampuan jari-jari menggenggam meningkat",
+          "Gerakan terkoordinasi meningkat",
+          "Respon normal terhadap stimulus sensorik meningkat"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.10338",
+          "name": "Perawatan Bayi"
+        }
+      ],
+      "category": "Aktivitas dan Istirahat"
+    },
+    "D.0054": {
+      "code": "D.0054",
+      "name": "Gangguan Mobilitas Fisik",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengeluh sulit menggerakkan ekstremitas"
+        ],
+        "objective": [
+          "Kekuatan otot menurun",
+          "Rentang gerak (ROM) menurun"
+        ]
+      },
+      "related_factors": [
+        "Kerusakan integritas struktur tulang",
+        "Perubahan metabolisme",
+        "Ketidakbugaran fisik",
+        "Penurunan kendali otot",
+        "Penurunan massa otot",
+        "Penurunan kekuatan otot",
+        "Keterlambatan perkembangan",
+        "Kekakuan sendi",
+        "Kontraktur",
+        "Malnutrisi",
+        "Gangguan musculoskeletal",
+        "Gangguan neuromuscular",
+        "Indeks masa tubuh diatas persentil ke-75 sesuai usia",
+        "Efek agen farmakologis",
+        "Program pembatasan gerak",
+        "Nyeri",
+        "Kurang terpapar informasi tentang aktivitas fisik",
+        "Kecemasan",
+        "Gangguan kognitif",
+        "Keengganan melakukan pergerakan",
+        "Gangguan sensori-persepsi"
+      ],
+      "expected_outcomes": {
+        "code": "L.05042",
+        "name": "Mobilitas fisik meningkat",
+        "criteria": [
+          "Pergerakan ekstremitas meningkat",
+          "Kekuatan otot meningkat",
+          "Rentang gerak (ROM) meningkat"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.06171",
+          "name": "Dukungan Ambulasi"
+        },
+        {
+          "code": "I.05173",
+          "name": "Dukungan Mobilisasi"
+        }
+      ],
+      "category": "Aktivitas dan Istirahat"
+    },
+    "D.0055": {
+      "code": "D.0055",
+      "name": "Gangguan Pola Tidur",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengeluh sulit tidur",
+          "Mengeluh sering terjaga",
+          "Mengeluh tidak puas tidur",
+          "Mengeluh pola tidur berubah",
+          "Mengeluh istirahat tidak cukup"
+        ],
+        "objective": [
+          "Tidak tersedia"
+        ]
+      },
+      "related_factors": [
+        "Hambatan lingkungan (mis: kelembaban lingkungan sekitar, suhu lingkungan, pencahayaan, kebisingan, bau tidak sedap, jadwal pemantauan/pemeriksaan/Tindakan)",
+        "Kurang control tidur",
+        "Kurang privasi",
+        "Restraint fisik",
+        "Ketiadaan teman tidur",
+        "Tidak familiar dengan peralatan tidur"
+      ],
+      "expected_outcomes": {
+        "code": "",
+        "name": "",
+        "criteria": []
+      },
+      "interventions": [
+        {
+          "code": "I.05174",
+          "name": "Dukungan Tidur"
+        },
+        {
+          "code": "I.12362",
+          "name": "Edukasi Aktivitas dan Istirahat"
+        }
+      ],
+      "category": "Aktivitas dan Istirahat"
+    },
+    "D.0056": {
+      "code": "D.0056",
+      "name": "Intoleransi Aktivitas",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengeluh lelah"
+        ],
+        "objective": [
+          "Frekuensi jantung meningkat > 20% dari kondisi istirahat"
+        ]
+      },
+      "related_factors": [
+        "Ketidakseimbangan antara suplai dan kebutuhan oksigen",
+        "Tirah baring",
+        "Kelemahan",
+        "Imobilitas",
+        "Gaya hidup monoton"
+      ],
+      "expected_outcomes": {
+        "code": "L.05047",
+        "name": "Toleransi aktivitas meningkat",
+        "criteria": [
+          "Keluhan Lelah menurun",
+          "Dispnea saat aktivitas menurun",
+          "Dispnea setelah aktivitas menurun",
+          "Frekuensi nadi membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.05178",
+          "name": "Manajemen Energi"
+        },
+        {
+          "code": "I.01026",
+          "name": "Terapi Aktivitas"
+        }
+      ],
+      "category": "Aktivitas dan Istirahat"
+    },
+    "D.0057": {
+      "code": "D.0057",
+      "name": "Keletihan",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Merasa energi tidak pulih walaupun telah tidur",
+          "Merasa kurang tenaga",
+          "Mengeluh lelah"
+        ],
+        "objective": [
+          "Tidak mampu mempertahankan aktivitas rutin",
+          "Tampak lesu"
+        ]
+      },
+      "related_factors": [
+        "Gangguan tidur",
+        "Gaya hidup monoton",
+        "Kondisi fisiologis (mis: penyakit kronis, penyakit terminal, anemia, malnutrisi, kehamilan)",
+        "Program perawatan/pengobatan jangka Panjang",
+        "Peristiwa hidup negatif",
+        "Stres berlebihan",
+        "Depresi"
+      ],
+      "expected_outcomes": {
+        "code": "L.05046",
+        "name": "Tingkat keletihan menurun",
+        "criteria": [
+          "Verbalisasi kepulihan energi meningkat",
+          "Tenaga meningkat",
+          "Kemampuan melakukan aktivitas rutin meningkat",
+          "Verbalisasi Lelah menurun",
+          "Lesu menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.12362",
+          "name": "Edukasi Aktivitas dan Istirahat"
+        },
+        {
+          "code": "I.05178",
+          "name": "Manajemen Energi"
+        }
+      ],
+      "category": "Aktivitas dan Istirahat"
+    },
+    "D.0058": {
+      "code": "D.0058",
+      "name": "Kesiapan Peningkatan Tidur",
+      "definition": ": “pola tidur membaik.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengekspresikan keinginan untuk meningkatkan tidur",
+          "Mengekspresikan perasaan cukup istirahat setelah tidur"
+        ],
+        "objective": [
+          "Jumlah waktu tidur sesuai dengan pertumbuhan perkembangan"
+        ]
+      },
+      "related_factors": [],
+      "expected_outcomes": {
+        "code": "L.05045",
+        "name": "Pola tidur membaik",
+        "criteria": [
+          "Keluhan sulit tidur menurun",
+          "Keluhan sering terjaga menurun",
+          "Keluhan tidak puas tidur menurun",
+          "Keluhan pola tidur berubah menurun",
+          "Keluhan istirahat tidak cukup menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.05174",
+          "name": "Dukungan Tidur"
+        },
+        {
+          "code": "I.12362",
+          "name": "Edukasi Aktivitas dan Istirahat"
+        }
+      ],
+      "category": "Aktivitas dan Istirahat"
+    },
+    "D.0059": {
+      "code": "D.0059",
+      "name": "Risiko Disorganisasi Perilaku Bayi",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Kelebihan stimulasi sensorik",
+        "Prematuritas",
+        "Prosedur invasif",
+        "Gangguan motorik",
+        "Kelainan kongenital",
+        "Kelainan genetik"
+      ],
+      "expected_outcomes": {
+        "code": "L.05043",
+        "name": "Organisasi perilaku bayi meningkat",
+        "criteria": [
+          "Gerakan pada ekstremitas meningkat",
+          "Kemampuan jari-jari menggenggam meningkat",
+          "Gerakan terkoordinasi meningkat",
+          "Respon normal terhadap stimulus sensorik meningkat"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.12379",
+          "name": "Edukasi Keamanan Bayi"
+        },
+        {
+          "code": "I.10338",
+          "name": "Perawatan Bayi"
+        }
+      ],
+      "category": "Aktivitas dan Istirahat"
+    },
+    "D.0060": {
+      "code": "D.0060",
+      "name": "Risiko Intoleransi Aktivitas",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Gangguan sirkulasi",
+        "Ketidakbugaran status fisik",
+        "Riwayat intoleransi aktivitas sebelumnya",
+        "Tidak berpengalaman dengan suatu aktivitas",
+        "Gangguan pernapasan"
+      ],
+      "expected_outcomes": {
+        "code": "L.05047",
+        "name": "Toleransi aktivitas meningkat",
+        "criteria": [
+          "Keluhan Lelah menurun",
+          "Dispnea saat aktivitas menurun",
+          "Dispnea setelah aktivitas menurun",
+          "Frekuensi nadi membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.05178",
+          "name": "Manajemen Energi"
+        },
+        {
+          "code": "I.05183",
+          "name": "Promosi Latihan fisik"
+        }
+      ],
+      "category": "Aktivitas dan Istirahat"
+    }
+  }
+}

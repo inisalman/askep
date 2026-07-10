@@ -1,0 +1,62 @@
+{
+  "category": "Kebersihan Diri",
+  "description": "Scraped category data for Kebersihan Diri",
+  "diagnoses": {
+    "D.0109": {
+      "code": "D.0109",
+      "name": "Defisit Perawatan Diri",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Menolak melakukan perawatan diri"
+        ],
+        "objective": [
+          "Tidak mampu mandi/mengenakan pakaian/makan/ke toilet/berhias secara mandiri",
+          "Minat melakukan perawatan diri kurang"
+        ]
+      },
+      "related_factors": [
+        "Gangguan musculoskeletal",
+        "Gangguan neuromuskuler",
+        "Kelemahan",
+        "Gangguan psikologis dan/atau psikotik",
+        "Penurunan motivasi/minat"
+      ],
+      "expected_outcomes": {
+        "code": "L.11103",
+        "name": "Perawatan diri meningkat",
+        "criteria": [
+          "Kemampuan mandi meningkat",
+          "Kemampuan mengenakan pakaian meningkat",
+          "Kemampuan makan meningkat",
+          "Kemampuan ke toilet (BAB/BAK) meningkat",
+          "Verbalisasi keinginan melakukan perawatan diri meningkat",
+          "Minat melakukan perawatan diri meningkat"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.11348",
+          "name": "Dukungan Perawatan Diri"
+        },
+        {
+          "code": "I.11349",
+          "name": "Dukungan Perawatan Diri: BAB/BAK"
+        },
+        {
+          "code": "I.11350",
+          "name": "Dukungan Perawatan Diri: Berpakaian"
+        },
+        {
+          "code": "I.11351",
+          "name": "Dukungan Perawatan Diri: Makan/Minum"
+        },
+        {
+          "code": "I.11352",
+          "name": "Dukungan Perawatan Diri: Mandi"
+        }
+      ],
+      "category": "Kebersihan Diri"
+    }
+  }
+}

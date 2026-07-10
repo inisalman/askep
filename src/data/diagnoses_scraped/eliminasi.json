@@ -1,0 +1,615 @@
+{
+  "category": "Eliminasi",
+  "description": "Scraped category data for Eliminasi",
+  "diagnoses": {
+    "D.0040": {
+      "code": "D.0040",
+      "name": "Gangguan Eliminasi Urin",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Desakan berkemih (urgensi)",
+          "Urin menetes (dribbling)",
+          "Sering buang air kecil",
+          "Nocturia (buang air kecil pada malam hari)",
+          "Mengompol",
+          "Enuresis (tidak dapat menahan kencing)"
+        ],
+        "objective": [
+          "Distensi kandung kemih",
+          "Berkemih tidak tuntas (hesistancy)",
+          "Volume residu urin meningkat"
+        ]
+      },
+      "related_factors": [
+        "Penurunan kapasitas kandung kemih",
+        "Iritasi kandung kemih",
+        "Penurunan kemampuan menyadari tanda-tanda gangguan kandung kemih",
+        "Efek tindakan medis dan diagnostik (mis. operasi ginjal, operasi saluran kemih, anestesi, dan obat-obatan)",
+        "Kelemahan otot pelvis",
+        "Ketidakmampuan mengakses toilet (mis. imobilisasi)",
+        "Hambatan lingkungan",
+        "Ketidakmampuan mengkomunikasikan kebutuhan eliminasi",
+        "Outlet kandung kemih tidak lengkap (mis. anomali saluran kemih kongenital)",
+        "Imaturitas (pada anak usia < 3 tahun)"
+      ],
+      "expected_outcomes": {
+        "code": "L.04034",
+        "name": "Eliminasi urin membaik",
+        "criteria": [
+          "Sensasi berkemih meningkat",
+          "Desakan berkemih (urgensi) menurun",
+          "Distensi kandung kemih menurun",
+          "Berkemih tidak tuntas (hesistancy) menurun",
+          "Volume residu urin menurun",
+          "Urin menetes (dribbling) menurun",
+          "Nokturia menurun",
+          "Mengompol menurun",
+          "Enuresis menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.11349",
+          "name": "Dukungan Perawatan Diri: BAB/BAK"
+        },
+        {
+          "code": "I.04152",
+          "name": "Manajemen Eliminasi Urin"
+        },
+        {
+          "code": "I.01018",
+          "name": "Pengontrolan Infeksi"
+        }
+      ],
+      "category": "Eliminasi"
+    },
+    "D.0041": {
+      "code": "D.0041",
+      "name": "Inkontinensia Fekal",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Tidak mampu mengontrol pengeluaran feses",
+          "Tidak mampu menunda defekasi"
+        ],
+        "objective": [
+          "Feses keluar sedikit-sedikit dan sering"
+        ]
+      },
+      "related_factors": [
+        "Kerusakan susunan saraf motorik bawah",
+        "Penurunan tonus otot",
+        "Gangguan kognitif",
+        "Penyalahgunaan laksatif",
+        "Kehilangan fungsi pengendalian sfingter rectum",
+        "Pascaoperasi pullthrough dan penutupan kolostomi",
+        "Ketidakmampuan mencapai kamar kecil",
+        "Diare kronis",
+        "Stres berlebihan"
+      ],
+      "expected_outcomes": {
+        "code": "L.04035",
+        "name": "Kontinensia fekal membaik",
+        "criteria": [
+          "Kemampuan mengontrol pengeluaran feses meningkat",
+          "Kemampuan menunda pengeluaran feses membaik",
+          "Frekuensi BAK membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.04150",
+          "name": "Latihan eliminasi fekal"
+        },
+        {
+          "code": "I.04162",
+          "name": "Perawatan Inkontinensia Fekal"
+        }
+      ],
+      "category": "Eliminasi"
+    },
+    "D.0042": {
+      "code": "D.0042",
+      "name": "Inkontinensia Urin Berlanjut",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Keluarnya urin konstan tanpa distensi",
+          "Nokturia (kencing malam hari) lebih dari 2 kali sepanjang tidur"
+        ],
+        "objective": []
+      },
+      "related_factors": [
+        "Neuropati arkus refleks",
+        "Disfungsi neurologis",
+        "Kerusakan refleks kontraksi detrusor",
+        "Trauma",
+        "Kerusakan medulla spinalis",
+        "Kelainan anatomis (mis: fistula)"
+      ],
+      "expected_outcomes": {
+        "code": "L.04036",
+        "name": "Kontinensia urin membaik",
+        "criteria": [
+          "Kemampuan mengontrol urin meningkat",
+          "Nocturia menurun",
+          "Residu volume urine setelah berkemih menurun",
+          "Dribbling menurun",
+          "Hesistancy menurun",
+          "Enuresis menurun",
+          "Kemampuan menunda pengeluaran urin membaik",
+          "Frekuensi berkemih membaik",
+          "Sensasi berkemih membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.04148",
+          "name": "Kateterisasi Urin"
+        },
+        {
+          "code": "I.04163",
+          "name": "Perawatan Inkontinensia Urin"
+        }
+      ],
+      "category": "Eliminasi"
+    },
+    "D.0043": {
+      "code": "D.0043",
+      "name": "Inkontinensia Urin Berlebih",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Residu volume urin setelah berkemih atau keluhan kebocoran sedikit urin",
+          "Nokturia"
+        ],
+        "objective": [
+          "Kandung kemih distensi (bukan berhubungan dengan penyebab reversible akut) atau kandung kemih distensi dengan sering, sedikit berkemih, atau dribbling."
+        ]
+      },
+      "related_factors": [
+        "Blok sfingter",
+        "Kerusakan atau ketidakadekuatan jalur aferen",
+        "Obstruksi jalan keluar urin (mis: impaksi fekal, efek agen farmakologis)",
+        "Ketidakadekuatan detrusor (mis: pada konsisi stress atau tidak nyaman, deconditioned voiding)"
+      ],
+      "expected_outcomes": {
+        "code": "L.04036",
+        "name": "Kontinensia urin membaik",
+        "criteria": [
+          "Kemampuan mengontrol urin meningkat",
+          "Nokturia menurun",
+          "Residu volume urine setelah berkemih menurun",
+          "Dribbling menurun",
+          "Hesistancy menurun",
+          "Enuresis menurun",
+          "Kemampuan menunda pengeluaran urin membaik",
+          "Frekuensi berkemih membaik",
+          "Sensasi berkemih membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.04148",
+          "name": "Kateterisasi Urin"
+        },
+        {
+          "code": "I.04163",
+          "name": "Perawatan Inkontinensia Urin"
+        }
+      ],
+      "category": "Eliminasi"
+    },
+    "D.0044": {
+      "code": "D.0044",
+      "name": "Inkontinensia Urin Fungsional",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengompol sebelum mencapai atau selama usaha mencapai toilet"
+        ],
+        "objective": [
+          "Tidak tersedia"
+        ]
+      },
+      "related_factors": [
+        "Ketidakmampuan atau penurunan mengenali tanda-tanda berkemih",
+        "Penurunan tonus kandung kemih",
+        "Hambatan mobilisasi",
+        "Faktor psikologis, mis: penurunan perhatian pada tanda-tanda keinginan berkemih (depresi, bingung, delirium)",
+        "Hambatan lingkungan (toilet jauh, tempat tidur terlalu tinggi, lingkungan baru)",
+        "Kehilangan sensorik dan motorik (pada geriatri)",
+        "Gangguan penglihatan"
+      ],
+      "expected_outcomes": {
+        "code": "L.04036",
+        "name": "Kontinensia urin membaik",
+        "criteria": [
+          "Kemampuan mengontrol urin meningkat",
+          "Nokturia menurun",
+          "Residu volume urine setelah berkemih menurun",
+          "Dribbling menurun",
+          "Hesistancy menurun",
+          "Enuresis menurun",
+          "Kemampuan menunda pengeluaran urin membaik",
+          "Frekuensi berkemih membaik",
+          "Sensasi berkemih membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.04149",
+          "name": "Latihan Berkemih"
+        },
+        {
+          "code": "I.04163",
+          "name": "Perawatan Inkontinensia Urin"
+        }
+      ],
+      "category": "Eliminasi"
+    },
+    "D.0045": {
+      "code": "D.0045",
+      "name": "Inkontinensia Urin Refleks",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Tidak mengalami sensasi berkemih",
+          "Dribbling",
+          "Sering buang air kecil",
+          "Hesitancy",
+          "Nokturia",
+          "Enuresis"
+        ],
+        "objective": [
+          "Volume residu urin meningkat"
+        ]
+      },
+      "related_factors": [
+        "Kerusakan konduksi impuls di atas arkus refleks",
+        "Kerusakan jaringan (mis: terapi radiasi)"
+      ],
+      "expected_outcomes": {
+        "code": "L.04036",
+        "name": "Kontinensia urin membaik",
+        "criteria": [
+          "Kemampuan mengontrol urin meningkat",
+          "Nokturia menurun",
+          "Residu volume urine setelah berkemih menurun",
+          "Dribbling menurun",
+          "Hesistancy menurun",
+          "Enuresis menurun",
+          "Kemampuan menunda pengeluaran urin membaik",
+          "Frekuensi berkemih membaik",
+          "Sensasi berkemih membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.04148",
+          "name": "Kateterisasi Urin"
+        },
+        {
+          "code": "I.04163",
+          "name": "Perawatan Inkontinensia Urin"
+        }
+      ],
+      "category": "Eliminasi"
+    },
+    "D.0046": {
+      "code": "D.0046",
+      "name": "Inkontinensia Urin Stres",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengeluh keluar urin < 50 ml saat tekanan abdominal meningkat (mis: saat berdiri, bersin, tertawa, berlari, atau mengangkat benda berat)"
+        ],
+        "objective": [
+          "Tidak tersedia"
+        ]
+      },
+      "related_factors": [
+        "Kelemahan intrinsik sfingter uretra",
+        "Perubahan degenerasi/non degenerasi otot pelvis",
+        "Kekurangan estrogen",
+        "Peningkatan tekanan intraabdomen",
+        "Kelemahan otot pelvis"
+      ],
+      "expected_outcomes": {
+        "code": "L.04036",
+        "name": "Kontinensia urin membaik",
+        "criteria": [
+          "Kemampuan mengontrol urin meningkat",
+          "Nokturia menurun",
+          "Residu volume urine setelah berkemih menurun",
+          "Dribbling menurun",
+          "Hesistancy menurun",
+          "Enuresis menurun",
+          "Kemampuan menunda pengeluaran urin membaik",
+          "Frekuensi berkemih membaik",
+          "Sensasi berkemih membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.07215",
+          "name": "Latihan Otot Panggul"
+        },
+        {
+          "code": "I.04163",
+          "name": "Perawatan Inkontinensia Urin"
+        }
+      ],
+      "category": "Eliminasi"
+    },
+    "D.0047": {
+      "code": "D.0047",
+      "name": "Inkontinensia Urin Urgensi",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Keinginan berkemih yang kuat disertai dengan inkontinensia"
+        ],
+        "objective": [
+          "Tidak tersedia"
+        ]
+      },
+      "related_factors": [
+        "Iritasi reseptor kontraksi kandung kemih",
+        "Penurunan kapasitas kandung kemih",
+        "Hiperaktivitas detrusor dengan kerusakan kontraktilitas kandung kemih",
+        "Efek agen farmakologis (mis: diuretik)"
+      ],
+      "expected_outcomes": {
+        "code": "L.04036",
+        "name": "Kontinensia urin membaik",
+        "criteria": [
+          "Kemampuan mengontrol urin meningkat",
+          "Nokturia menurun",
+          "Residu volume urine setelah berkemih menurun",
+          "Dribbling menurun",
+          "Hesistancy menurun",
+          "Enuresis menurun",
+          "Kemampuan menunda pengeluaran urin membaik",
+          "Frekuensi berkemih membaik",
+          "Sensasi berkemih membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.04149",
+          "name": "Latihan Berkemih"
+        },
+        {
+          "code": "I.04163",
+          "name": "Perawatan Inkontinensia Urin"
+        }
+      ],
+      "category": "Eliminasi"
+    },
+    "D.0048": {
+      "code": "D.0048",
+      "name": "Kesiapan Peningkatan Eliminasi Urin",
+      "definition": ": “eliminasi urin membaik.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": [
+          "Jumlah urin normal",
+          "Karakteristik urin normal"
+        ]
+      },
+      "related_factors": [],
+      "expected_outcomes": {
+        "code": "L.04034",
+        "name": "Eliminasi urin membaik",
+        "criteria": [
+          "Sensasi berkemih meningkat",
+          "Desakan berkemih (urgensi) menurun",
+          "Distensi kandung kemih menurun",
+          "Berkemih tidak tuntas (hesistancy) menurun",
+          "Volume residu urin menurun",
+          "Urin menetes (dribbling) menurun",
+          "Nokturia menurun",
+          "Mengompol menurun",
+          "Enuresis menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.04152",
+          "name": "Manajemen Eliminasi Urin"
+        }
+      ],
+      "category": "Eliminasi"
+    },
+    "D.0049": {
+      "code": "D.0049",
+      "name": "Konstipasi",
+      "definition": ": “eliminasi fekal membaik.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Defekasi kurang dari 2 kali seminggu",
+          "Pengeluaran feses lama dan sulit"
+        ],
+        "objective": [
+          "Feses keras",
+          "Peristaltik usus menurun"
+        ]
+      },
+      "related_factors": [
+        "Penurunan motilitas gastrointestinal",
+        "Ketidakadekuatan pertumbuhan gigi",
+        "Ketidakcukupan diet",
+        "Ketidakcukupan asupan serat",
+        "Ketidakcukupan asupan cairan",
+        "Aganglionik (mis: penyakit hircsprung)",
+        "Kelemahan otot abdomen",
+        "Konfusi",
+        "Depresi",
+        "Gangguan emosional",
+        "Perubahan kebiasaan makan (mis: jenis makanan, jadwal makan)",
+        "Ketidakadekuatan toileting",
+        "Aktivitas fisik harian kurang dari yang dianjurkan",
+        "Penyalahgunaan laksatif",
+        "Efek agen farmakologis",
+        "Ketidakteraturan kebiasaan defekasi",
+        "Kebiasaan menahan dorongan defekasi",
+        "Perubahan lingkungan"
+      ],
+      "expected_outcomes": {
+        "code": "L.04033",
+        "name": "Eliminasi fekal membaik",
+        "criteria": [
+          "Kontrol pengeluaran feses meningkat",
+          "Keluhan defekasi lama dan sulit menurun",
+          "Mengejan saat defekasi menurun",
+          "Konsistensi feses membaik",
+          "Frekuensi BAB membaik",
+          "Peristaltik usus membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.04151",
+          "name": "Manajemen Eliminasi Fekal"
+        },
+        {
+          "code": "I.04155",
+          "name": "Manajemen Konstipasi"
+        }
+      ],
+      "category": "Eliminasi"
+    },
+    "D.0050": {
+      "code": "D.0050",
+      "name": "Retensi Urin",
+      "definition": ": “eliminasi urin membaik.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Sensasi penuh pada kandung kemih"
+        ],
+        "objective": [
+          "Disuria/anuria",
+          "Distensi kandung kemih"
+        ]
+      },
+      "related_factors": [
+        "Peningkatan tekanan uretra",
+        "Kerusakan arkus refleks",
+        "Blok sfingter",
+        "Disfungsi neurologis (mis: trauma, penyakit saraf)",
+        "Efek agen farmakologis (mis: atropine, belladonna, psikotropik, antihistamin, opiate)"
+      ],
+      "expected_outcomes": {
+        "code": "L.04034",
+        "name": "Eliminasi urin membaik",
+        "criteria": [
+          "Sensasi berkemih meningkat",
+          "Desakan berkemih (urgensi) menurun",
+          "Distensi kandung kemih menurun",
+          "Berkemih tidak tuntas (hesistancy) menurun",
+          "Volume residu urin menurun",
+          "Urin menetes (dribbling) menurun",
+          "Nokturia menurun",
+          "Mengompol menurun",
+          "Enuresis menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.04148",
+          "name": "Kateterisasi Urin"
+        }
+      ],
+      "category": "Eliminasi"
+    },
+    "D.0051": {
+      "code": "D.0051",
+      "name": "Risiko Inkontinensia Urin Urgensi",
+      "definition": ": “kontinensia urin membaik.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Efek samping obat, kopi, dan alkohol",
+        "Hiperrefleks destrussor",
+        "Gangguan sistem saraf pusat",
+        "Kerusakan kontraksi kandung kemih: relaksasi sfingter tidak terkendali",
+        "Ketidakefektifan kebiasaan berkemih",
+        "Kapasitas kandung kemih kecil"
+      ],
+      "expected_outcomes": {
+        "code": "L.04036",
+        "name": "Kontinensia urin membaik",
+        "criteria": [
+          "Kemampuan mengontrol urin meningkat",
+          "Nokturia menurun",
+          "Residu volume urine setelah berkemih menurun",
+          "Dribbling menurun",
+          "Hesistancy menurun",
+          "Enuresis menurun",
+          "Kemampuan menunda pengeluaran urin membaik",
+          "Frekuensi berkemih membaik",
+          "Sensasi berkemih membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.04152",
+          "name": "Manajemen Eliminasi Urin"
+        }
+      ],
+      "category": "Eliminasi"
+    },
+    "D.0052": {
+      "code": "D.0052",
+      "name": "Risiko Konstipasi",
+      "definition": ": “eliminasi fekal membaik.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Penurunan motilitas gastrointestinal",
+        "Ketidakadekuatan pertumbuhan gigi",
+        "Ketidakcukupan diet",
+        "Ketidakcukupan asupan serat",
+        "Ketidakcukupan asupan cairan",
+        "Aganglionik (mis: penyakit hircsprung)",
+        "Kelemahan otot abdomen",
+        "Konfusi",
+        "Depresi",
+        "Gangguan emosional",
+        "Perubahan kebiasaan makan (mis: jenis makanan, jadwal makan)",
+        "Ketidakadekuatan toileting",
+        "Aktivitas fisik harian kurang dari yang dianjurkan",
+        "Penyalahgunaan laksatif",
+        "Efek agen farmakologis",
+        "Ketidakteraturan kebiasaan defekasi",
+        "Kebiasaan menahan dorongan defekasi",
+        "Perubahan lingkungan"
+      ],
+      "expected_outcomes": {
+        "code": "L.04033",
+        "name": "Eliminasi fekal membaik",
+        "criteria": [
+          "Kontrol pengeluaran feses meningkat",
+          "Keluhan defekasi lama dan sulit menurun",
+          "Mengejan saat defekasi menurun",
+          "Konsistensi feses membaik",
+          "Frekuensi BAB membaik",
+          "Peristaltik usus membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.04160",
+          "name": "Pencegahan Konstipasi"
+        }
+      ],
+      "category": "Eliminasi"
+    }
+  }
+}

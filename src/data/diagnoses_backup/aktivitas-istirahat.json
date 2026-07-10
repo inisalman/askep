@@ -1,0 +1,15 @@
+{
+  "category": "Aktivitas dan Istirahat",
+  "description": "Diagnosis terkait aktivitas fisik, istirahat, dan tidur",
+  "diagnoses_count": 8,
+  "diagnoses": {
+    "D.0053": {"code": "D.0053", "name": "Disorganisasi Perilaku Bayi", "definition": "Disintegrasi respon fisiologis dan neurobehaviour bayi terhadap lingkungan", "type": "Aktual"},
+    "D.0054": {"code": "D.0054", "name": "Gangguan Mobilitas Fisik", "definition": "Keterbatasan dalam melakukan pergerakan fisik secara mandiri", "type": "Aktual"},
+    "D.0055": {"code": "D.0055", "name": "Gangguan Pola Tidur", "definition": "Gangguan pada pola tidur yang menyebabkan ketidaknyamanan", "type": "Aktual"},
+    "D.0056": {"code": "D.0056", "name": "Intoleransi Aktivitas", "definition": "Ketidakcukupan energi untuk melakukan aktivitas sehari-hari", "type": "Aktual"},
+    "D.0057": {"code": "D.0057", "name": "Keletihan", "definition": "Perasaan lelah yang berkelanjutan dan tidak hilang dengan istirahat", "type": "Aktual"},
+    "D.0058": {"code": "D.0058", "name": "Kesiapan Peningkatan Tidur", "definition": "Pola penurunan kesadaran alamiah dan periodik yang memungkinkan istirahat adekuat dan dapat ditingkatkan", "type": "Promosi Kesehatan"},
+    "D.0059": {"code": "D.0059", "name": "Risiko Disorganisasi Perilaku Bayi", "definition": "Berisiko mengalami disintegrasi respon fisiologis dan neurobehaviour bayi terhadap lingkungan", "type": "Risiko"},
+    "D.0060": {"code": "D.0060", "name": "Risiko Intoleransi Aktivitas", "definition": "Berisiko mengalami ketidakcukupan energi untuk melakukan aktivitas sehari-hari", "type": "Risiko"}
+  }
+}

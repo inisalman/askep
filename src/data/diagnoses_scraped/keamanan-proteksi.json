@@ -1,0 +1,1018 @@
+{
+  "category": "Keamanan dan Proteksi",
+  "description": "Scraped category data for Keamanan dan Proteksi",
+  "diagnoses": {
+    "D.0129": {
+      "code": "D.0129",
+      "name": "Gangguan Integritas Kulit/Jaringan",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Tidak tersedia"
+        ],
+        "objective": [
+          "Kerusakan jaringan dan/atau lapisan kulit"
+        ]
+      },
+      "related_factors": [
+        "Perubahan sirkulasi",
+        "Perubahan status nutrisi (kelebihan atau kekurangan)",
+        "Kekurangan/kelebihan volume cairan",
+        "Penurunan mobilitas",
+        "Bahan kimia iritatif",
+        "Suhu lingkungan yang ekstrim",
+        "Faktor mekanis (mis: penekanan pada tonjolan tulang, gesekan) atau faktor elektris (elektrodiatermi, energi listrik bertegangan tinggi)",
+        "Efek samping terapi radiasi",
+        "Kelembaban",
+        "Proses penuaan",
+        "Neuropati perifer",
+        "Perubahan pigmentasi",
+        "Perubahan hormonal",
+        "Kurang terpapar informasi tentang upaya mempertahankan/melindungi integritas jaringan"
+      ],
+      "expected_outcomes": {
+        "code": "L.14125",
+        "name": "Integritas kulit/jaringan meningkat",
+        "criteria": [
+          "Kerusakan jaringan menurun",
+          "Kerusakan lapisan kulit menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.11353",
+          "name": "Perawatan Integritas Kulit"
+        },
+        {
+          "code": "I.14564",
+          "name": "Perawatan Luka"
+        }
+      ],
+      "category": "Keamanan dan Proteksi"
+    },
+    "D.0130": {
+      "code": "D.0130",
+      "name": "Hipertermia",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Tidak tersedia"
+        ],
+        "objective": [
+          "Suhu tubuh diatas nilai normal"
+        ]
+      },
+      "related_factors": [
+        "Dehidrasi",
+        "Terpapar lingkungan panas",
+        "Proses penyakit (mis: infeksi, kanker)",
+        "Ketidaksesuaian pakaian dengan suhu lingkungan",
+        "Peningkatan laju metabolisme",
+        "Respon trauma",
+        "Aktivitas berlebihan",
+        "Penggunaan inkubator"
+      ],
+      "expected_outcomes": {
+        "code": "L.14134",
+        "name": "Termoregulasi membaik",
+        "criteria": [
+          "Menggigil menurun",
+          "Suhu tubuh membaik",
+          "Suhu kulit membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.15506",
+          "name": "Manajemen Hipertermia"
+        },
+        {
+          "code": "I.14578",
+          "name": "Regulasi Temperatur"
+        }
+      ],
+      "category": "Keamanan dan Proteksi"
+    },
+    "D.0131": {
+      "code": "D.0131",
+      "name": "Hipotermia",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Tidak tersedia"
+        ],
+        "objective": [
+          "Kulit teraba dingin",
+          "Menggigil",
+          "Suhu tubuh dibawah nilai normal"
+        ]
+      },
+      "related_factors": [
+        "Kerusakan hipotalamus",
+        "Konsumsi alkohol",
+        "Berat badan ekstrim",
+        "Kekurangan lemak subkutan",
+        "Terpapar suhu lingkungan rendah",
+        "Malnutrisi",
+        "Pemakaian pakaian tipis",
+        "Penurunan laju metabolisme",
+        "Tidak beraktivitas",
+        "Transfer panas (mis: konduksi, konveksi, evaporasi, radiasi)",
+        "Trauma",
+        "Proses penuaan",
+        "Efek agen farmakologis",
+        "Kurang terpapar informasi tentang pencegahan hipotermia"
+      ],
+      "expected_outcomes": {
+        "code": "L.14134",
+        "name": "Termoregulasi membaik",
+        "criteria": [
+          "Menggigil menurun",
+          "Suhu tubuh membaik",
+          "Suhu kulit membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.14507",
+          "name": "Manajemen Hipotermia"
+        },
+        {
+          "code": "I.14586",
+          "name": "Terapi Paparan Panas"
+        }
+      ],
+      "category": "Keamanan dan Proteksi"
+    },
+    "D.0132": {
+      "code": "D.0132",
+      "name": "Perilaku Kekerasan",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengancam",
+          "Mengumpat dengan kata-kata kasar",
+          "Suara keras",
+          "Bicara"
+        ],
+        "objective": [
+          "Menyerang orang lain",
+          "Melukai diri sendiri/orang lain",
+          "Merusak lingkungan",
+          "Perilaku agresif/amuk"
+        ]
+      },
+      "related_factors": [
+        "Ketidakmampuan mengendalikan dorongan marah",
+        "Stimulus lingkungan",
+        "Konflik interpersonal",
+        "Perubahan status mental",
+        "Putus obat",
+        "Penyalahgunaan zat/alkohol"
+      ],
+      "expected_outcomes": {
+        "code": "L.09076",
+        "name": "Kontrol diri meningkat",
+        "criteria": [
+          "Verbalisasi ancaman kepada orang lain menurun",
+          "Verbalisasi umpatan menurun",
+          "Perilaku menyerang menurun",
+          "Perilaku melukai diri sendiri/orang lain menurun",
+          "Perilaku merusak lingkungan sekitar menurun",
+          "Perilaku agresi/amuk menurun",
+          "Suara keras menurun",
+          "Bicara ketus menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.14513",
+          "name": "Manajemen Keselamatan Lingkungan"
+        },
+        {
+          "code": "I.09289",
+          "name": "Manajemen Mood"
+        },
+        {
+          "code": "I.09290",
+          "name": "Manajemen Pengendalian Marah"
+        },
+        {
+          "code": "I.12463",
+          "name": "Manajemen Perilaku"
+        }
+      ],
+      "category": "Keamanan dan Proteksi"
+    },
+    "D.0133": {
+      "code": "D.0133",
+      "name": "Perlambatan Pemulihan Pascabedah",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengeluh tidak nyaman"
+        ],
+        "objective": [
+          "Area luka operasi terbuka",
+          "Waktu penyembuhan yang memanjang"
+        ]
+      },
+      "related_factors": [
+        "Skor klasifikasi status fisik American Society of Anesthesiologists (ASA) ≥ 3",
+        "Hiperglikemia",
+        "Edema pada lokasi pembedahan",
+        "Prosedur pembedahan ekstensif (luas)",
+        "Usia ekstrem",
+        "Riwayat perlambatan penyembuhan luka",
+        "Gangguan mobilitas",
+        "Malnutrisi",
+        "Obesitas",
+        "Infeksi luka perioperatif",
+        "Mual/muntah persisten",
+        "Respon emosional pascaoperasi",
+        "Pemanjangan proses operasi",
+        "Gangguan psikologis pascaoperasi",
+        "Kontaminasi bedah",
+        "Trauma pada luka operasi",
+        "Efek agen farmakologis"
+      ],
+      "expected_outcomes": {
+        "code": "L.14129",
+        "name": "Pemulihan pascabedah meningkat",
+        "criteria": [
+          "Kenyamanan meningkat",
+          "Waktu penyembuhan menurun",
+          "Area luka operasi membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.11348",
+          "name": "Dukungan Perawatan Diri"
+        },
+        {
+          "code": "I.03119",
+          "name": "Manajemen Nutrisi"
+        },
+        {
+          "code": "I.08238",
+          "name": "Manajemen Nyeri"
+        },
+        {
+          "code": "I.14564",
+          "name": "Perawatan Luka"
+        }
+      ],
+      "category": "Keamanan dan Proteksi"
+    },
+    "D.0134": {
+      "code": "D.0134",
+      "name": "Risiko Alergi",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Makanan (mis: alpukat, pisang, kiwi, kacang, makanan olahan laut, buah tropis, jamur)",
+        "Terpapar zat alergen (mis: zat kimia, agen farmakologis)",
+        "Terpapar alergen lingkungan (mis: debu, serbuk sari)",
+        "Sengatan serangga"
+      ],
+      "expected_outcomes": {
+        "code": "L.14131",
+        "name": "Respon alergi lokal menurunRespon alergi sistemik menurun",
+        "criteria": [
+          "Respon alergi lokal menurun",
+          "Respon alergi sistemik menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.12445",
+          "name": "Edukasi Reaksi Alergi"
+        },
+        {
+          "code": "I.14535",
+          "name": "Pencegahan Alergi"
+        }
+      ],
+      "category": "Keamanan dan Proteksi"
+    },
+    "D.0135": {
+      "code": "D.0135",
+      "name": "Risiko Bunuh Diri",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Gangguan perilaku (mis: euphoria mendadak setelah depresi, perilaku mencari senjata berbahaya, membeli obat dalam jumlah banyak, membuat surat warisan)",
+        "Demografi (mis: lansia, status perceraian, janda/duda, ekonomi rendah, pengangguran)",
+        "Gangguan fisik (mis: nyeri kronis, penyakit terminal)",
+        "Masalah sosial (mis: berduka, tidak berdaya, putus asa, kesepian, kehilangan hubungan yang penting, isolasi sosial)",
+        "Gangguan psikologis (mis: penganiayaan masa kanak-kanak, riwayat bunuh diri sebelumnya, remaja homoseksual, gangguan psikiatrik, penyakit psikiatrik, penyalahgunaan zat)"
+      ],
+      "expected_outcomes": {
+        "code": "L.09076",
+        "name": "Verbalisasi keinginan bunuh diri menurunVerbalisasi isyarat bunuh diri menurunVerbalisasi ancaman bunuh diri menurunVerbalisasi rencana bunuh diri menurun",
+        "criteria": [
+          "Verbalisasi keinginan bunuh diri menurun",
+          "Verbalisasi isyarat bunuh diri menurun",
+          "Verbalisasi ancaman bunuh diri menurun",
+          "Verbalisasi rencana bunuh diri menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.09289",
+          "name": "Manajemen Mood"
+        },
+        {
+          "code": "I.14538",
+          "name": "Pencegahan Bunuh Diri"
+        }
+      ],
+      "category": "Keamanan dan Proteksi"
+    },
+    "D.0136": {
+      "code": "D.0136",
+      "name": "Risiko Cedera",
+      "definition": "“tingkat cedera menurun”.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Terpapar patogen",
+        "Terpapar zat kimia toksik",
+        "Terpapar agen nosokomial",
+        "Ketidakamanan transportasi",
+        "Ketidaknormalan profil darah",
+        "Perubahan orientasi afektif",
+        "Perubahan sensasi",
+        "Disfungsi autoimun",
+        "Disfungsi biokimia",
+        "Hipoksia jaringan",
+        "Kegagalan mekanisme pertahanan tubuh",
+        "Malnutrisi",
+        "Perubahan fungsi psikomotor",
+        "Perubahan fungsi kognitif"
+      ],
+      "expected_outcomes": {
+        "code": "L.14136",
+        "name": "Kejadian cedera menurunLuka/lecet menurun",
+        "criteria": [
+          "Kejadian cedera menurun",
+          "Luka/lecet menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.14513",
+          "name": "Manajemen Keselamatan Lingkungan"
+        },
+        {
+          "code": "I.14537",
+          "name": "Pencegahan Cedera"
+        }
+      ],
+      "category": "Keamanan dan Proteksi"
+    },
+    "D.0137": {
+      "code": "D.0137",
+      "name": "Risiko Cedera Pada Ibu",
+      "definition": "“tingkat cedera menurun”.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Besarnya ukuran janin",
+        "Malposisi janin (posisi posterior)",
+        "Induksi persalinan",
+        "Persalinan lama kala I, II, dan III",
+        "Disfungsi uterus",
+        "Efek metode/intervensi bedah selama persalinan",
+        "Kurangnya dukungan keluarga dan orang tua",
+        "Kurang adekuatnya observasi dan antisipasi",
+        "Keterlambatan pengambilan keputusan dan manajemen",
+        "Skrining dan perawatan prenatal yang tidak adekuat",
+        "Kecemasan berlebihan pada proses persalinan",
+        "Riwayat cedera pada persalinan sebelumnya",
+        "Usia ibu (< 15 tahun atau > 35 tahun)",
+        "Paritas banyak",
+        "Perubahan hormonal",
+        "Perubahan postur tubuh",
+        "Ketuban pecah",
+        "Proses infeksi",
+        "Penyakit penyerta",
+        "Masalah kontraksi"
+      ],
+      "expected_outcomes": {
+        "code": "L.14136",
+        "name": "Kejadian cedera menurunLuka/lecet menurun",
+        "criteria": [
+          "Kejadian cedera menurun",
+          "Luka/lecet menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.14537",
+          "name": "Pencegahan Cedera"
+        },
+        {
+          "code": "I.07228",
+          "name": "Perawatan Persalinan Risiko Tinggi"
+        },
+        {
+          "code": "I.14560",
+          "name": "Perawatan Kehamilan Risiko Tinggi"
+        }
+      ],
+      "category": "Keamanan dan Proteksi"
+    },
+    "D.0138": {
+      "code": "D.0138",
+      "name": "Risiko Cedera Pada Janin",
+      "definition": "“tingkat cedera menurun”.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Besarnya ukuran janin",
+        "Malposisi janin (posisi posterior)",
+        "Induksi persalinan",
+        "Persalinan lama kala I, II, dan III",
+        "Disfungsi uterus",
+        "Kecemasan yang berlebihan tentang proses persalinan",
+        "Riwayat persalinan sebelumnya",
+        "Usia ibu (< 15 tahun atau > 35 tahun)",
+        "Paritas banyak",
+        "Efek metode/intervensi bedah selama persalinan",
+        "Nyeri pada abdomen",
+        "Nyeri pada jalan lahir",
+        "Penggunaan alat bantu persalinan",
+        "Kelelahan",
+        "Merokok",
+        "Efek agen farmakologis",
+        "Pengaruh budaya",
+        "Pola makan yang tidak sehat",
+        "Faktor ekonomi",
+        "Konsumsi alkohol",
+        "Terpapar zat teratogen"
+      ],
+      "expected_outcomes": {
+        "code": "L.14136",
+        "name": "Kejadian cedera menurunLuka/lecet menurun",
+        "criteria": [
+          "Kejadian cedera menurun",
+          "Luka/lecet menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.02056",
+          "name": "Pemantauan denyut jantung janin"
+        },
+        {
+          "code": "I.14537",
+          "name": "Pencegahan Cedera"
+        },
+        {
+          "code": "I.14554",
+          "name": "Pengukuran Gerakan Janin"
+        }
+      ],
+      "category": "Keamanan dan Proteksi"
+    },
+    "D.0139": {
+      "code": "D.0139",
+      "name": "Risiko Gangguan Integritas Kulit/Jaringan",
+      "definition": ": “integritas kulit/jaringan meningkat.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Perubahan sirkulasi",
+        "Perubahan status nutrisi (kelebihan atau kekurangan)",
+        "Kekurangan/kelebihan volume cairan",
+        "Penurunan mobilitas",
+        "Bahan kimia iritatif",
+        "Suhu lingkungan yang ekstrem",
+        "Faktor mekanis (mis: penekanan, gesekan) atau faktor elektris (elektrodiatermi, energi listrik bertegangan tinggi)",
+        "Terapi radiasi",
+        "Kelembaban",
+        "Proses penuaan",
+        "Neuropati perifer",
+        "Perubahan pigmentasi",
+        "Perubahan hormonal",
+        "Penekanan pada tonjolan tulang",
+        "Kurang terpapar informasi tentang upaya mempertahankan/melindungi integritas jaringan"
+      ],
+      "expected_outcomes": {
+        "code": "L.14125",
+        "name": "Integritas kulit/jaringan meningkat",
+        "criteria": [
+          "Kerusakan jaringan menurun",
+          "Kerusakan lapisan kulit menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.11353",
+          "name": "Perawatan Integritas Kulit"
+        }
+      ],
+      "category": "Keamanan dan Proteksi"
+    },
+    "D.0140": {
+      "code": "D.0140",
+      "name": "Risiko Hipotermia",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Berat badan ekstrem",
+        "Kerusakan hipotalamus",
+        "Konsumsi alkohol",
+        "Kurangnya lapisan lemak subkutan",
+        "Suhu lingkungan rendah",
+        "Malnutrisi",
+        "Pemakaian pakaian yang tipis",
+        "Penurunan laju metabolisme",
+        "Terapi radiasi",
+        "Tidak beraktivitas",
+        "Transfer panas (mis: konduksi, konveksi, evaporasi, radiasi)",
+        "Trauma",
+        "Prematuritas",
+        "Penuaan",
+        "Bayi baru lahir",
+        "Berat badan lahir rendah",
+        "Kurang terpapar informasi tentang pencegahan hipotermia",
+        "Efek agen farmakologis"
+      ],
+      "expected_outcomes": {
+        "code": "L.14134",
+        "name": "Termoregulasi membaik",
+        "criteria": [
+          "Menggigil menurun",
+          "Suhu tubuh membaik",
+          "Suhu kulit membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.14507",
+          "name": "Manajemen Hipotermia"
+        },
+        {
+          "code": "I.14578",
+          "name": "Regulasi Temperatur"
+        }
+      ],
+      "category": "Keamanan dan Proteksi"
+    },
+    "D.0141": {
+      "code": "D.0141",
+      "name": "Risiko Hipotermia Perioperatif",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Prosedur pembedahan",
+        "Kombinasi anestesi regional dan umum",
+        "Skor American Society of Anestesiologist (ASA) > 1",
+        "Suhu pra-operasi rendah (< 36°C)",
+        "Berat badan naik",
+        "Neuropati diabetik",
+        "Komplikasi kardiovaskuler",
+        "Suhu lingkungan rendah",
+        "Transfer panas (mis: volume tinggi infus yang tidak dihangatkan, irigasi > 2 liter yang tidak dihangatkan)"
+      ],
+      "expected_outcomes": {
+        "code": "L.14134",
+        "name": "Termoregulasi membaik",
+        "criteria": [
+          "Menggigil menurun",
+          "Suhu tubuh membaik",
+          "Suhu kulit membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.14507",
+          "name": "Manajemen Hipotermia"
+        },
+        {
+          "code": "I.02058",
+          "name": "Pemantauan hemodinamik invasif"
+        }
+      ],
+      "category": "Keamanan dan Proteksi"
+    },
+    "D.0142": {
+      "code": "D.0142",
+      "name": "Risiko Infeksi",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Penyakit kronis (mis: diabetes melitus)",
+        "Efek prosedur invasif",
+        "Malnutrisi",
+        "Peningkatan paparan organisme patogen lingkungan",
+        "Ketidakadekuatan pertahanan tubuh primer (gangguan peristaltik; kerusakan integritas kulit; perubahan sekresi pH; penurunan kerja siliaris; ketuban pecah lama; ketuban pecah sebelum waktunya; merokok; statis cairan tubuh)",
+        "Ketidakadekuatan pertahanan tubuh sekunder (penurunan hemoglobin; imunosupresi; leukopenia; supresi respon inflamasi; vaksinasi tidak adekuat)"
+      ],
+      "expected_outcomes": {
+        "code": "L.14137",
+        "name": "Demam menurunKemerahan menurunNyeri menurunBengkak menurunKadar sel darah putih membaik",
+        "criteria": [
+          "Demam menurun",
+          "Kemerahan menurun",
+          "Nyeri menurun",
+          "Bengkak menurun",
+          "Kadar sel darah putih membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.14508",
+          "name": "Manajemen Imunisasi/Vaksinasi"
+        },
+        {
+          "code": "I.14539",
+          "name": "Pencegahan Infeksi"
+        }
+      ],
+      "category": "Keamanan dan Proteksi"
+    },
+    "D.0143": {
+      "code": "D.0143",
+      "name": "Risiko Jatuh",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Usia ≥  65 tahun (pada dewasa) atau ≤ 2 tahun (pada anak)",
+        "Riwayat jatuh",
+        "Anggota gerak bawah prosthesis (buatan)",
+        "Penggunaan alat bantu berjalan",
+        "Penurunan tingkat kesadaran",
+        "Perubahan fungsi kognitif",
+        "Lingkungan tidak aman (mis: licin, gelap, lingkungan asing)",
+        "Kondisi pasca operasi",
+        "Hipotensi ortostatik",
+        "Perubahan kadar glukosa darah",
+        "Anemia",
+        "Kekuatan otot menurun",
+        "Gangguan pendengaran",
+        "Gangguan keseimbangan",
+        "Gangguan penglihatan (mis: glaucoma, katarak, ablasio retina, neuritis optikus)",
+        "Neuropati",
+        "Efek agen farmakologis (mis: sedasi, alkohol, anestesi umum)"
+      ],
+      "expected_outcomes": {
+        "code": "L.14138",
+        "name": "Jatuh dari tempat tidur menurunJatuh saat berdiri menurunJatuh saat duduk menurunJatuh saat berjalan menurun",
+        "criteria": [
+          "Jatuh dari tempat tidur menurun",
+          "Jatuh saat berdiri menurun",
+          "Jatuh saat duduk menurun",
+          "Jatuh saat berjalan menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.14540",
+          "name": "Pencegahan Jatuh"
+        },
+        {
+          "code": "I.14513",
+          "name": "Manajemen Keselamatan Lingkungan"
+        }
+      ],
+      "category": "Keamanan dan Proteksi"
+    },
+    "D.0144": {
+      "code": "D.0144",
+      "name": "Risiko Luka Tekan",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Skor skala Braden Q ≤ 16 (anak) atau skor skala Braden < 18 (dewasa)",
+        "Perubahan fungsi kognitif",
+        "Perubahan sensasi",
+        "Skor ASA (American in Sensation Anesthesiologist) ≥ 2",
+        "Anemia",
+        "Penurunan mobilisasi",
+        "Penurunan kadar albumin",
+        "Penurunan oksigenasi jaringan",
+        "Penurunan perfusi jaringan",
+        "Dehidrasi",
+        "Kulit kering",
+        "Edema",
+        "Peningkatan suhu kulit 1 – 2°C",
+        "Periode imobilisasi yang lama diatas permukaan yang keras (mis: prosedur operasi ≥ 2 jam)",
+        "Usia ≥ 65 tahun",
+        "Beran badan lebih",
+        "Fraktur tungkai",
+        "Riwayat stroke",
+        "Riwayat luka tekan",
+        "Riwayat trauma",
+        "Hipertermi",
+        "Inkontinensia",
+        "Ketidakadekuatan nutrisi",
+        "Skor RAPS (Risk Assesment Pressure Score) rendah",
+        "Klasifikasi fungsional NYHA (New York Heart Association) ≥ 2",
+        "Efek agen farmakologis (mis: anestesi umum, vasopressor, antidepressant, norepinefrin)",
+        "Imobilisasi fisik",
+        "Penekanan di atas tonjolan tulang",
+        "Penurunan tebal lipatan kulit trisep",
+        "Kulit bersisik",
+        "Gesekan permukaan kulit"
+      ],
+      "expected_outcomes": {
+        "code": "L.14125",
+        "name": "Kerusakan jaringan menurunKerusakan lapisan kulit menurun",
+        "criteria": [
+          "Kerusakan jaringan menurun",
+          "Kerusakan lapisan kulit menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.06195",
+          "name": "Manajemen Sensasi Perifer"
+        },
+        {
+          "code": "I.14543",
+          "name": "Pencegahan Luka Tekan"
+        }
+      ],
+      "category": "Keamanan dan Proteksi"
+    },
+    "D.0145": {
+      "code": "D.0145",
+      "name": "Risiko Mutilasi Diri",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Perkembangan remaja",
+        "Individu autistik",
+        "Gangguan kepribadian",
+        "Penyakit keturunan",
+        "Penganiayaan (mis: fisik, psikologis, seksual)",
+        "Gangguan hubungan interpersonal",
+        "Perceraian keluarga",
+        "Keterlambatan perkembangan",
+        "Riwayat perilaku mencederai diri",
+        "Ancaman kehilangan hubungan yang bermakna",
+        "Ketidakmampuan mengungkapkan ketegangan secara verbal",
+        "Ketidakmampuan mengatasi masalah",
+        "Harga diri rendah",
+        "Peningkatan ketegangan yang tidak dapat ditoleransi"
+      ],
+      "expected_outcomes": {
+        "code": "L.09076",
+        "name": "Verbalisasi melukai diri sendiri menurun\\Alam perasaan depresi menurunPerilaku agresif menurun",
+        "criteria": [
+          "Verbalisasi melukai diri sendiri menurun\\",
+          "Alam perasaan depresi menurun",
+          "Perilaku agresif menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.12392",
+          "name": "Edukasi Manajemen Stres"
+        },
+        {
+          "code": "I.09282",
+          "name": "Kontrak Perilaku Positif"
+        },
+        {
+          "code": "I.09290",
+          "name": "Manajemen Pengendalian Marah"
+        }
+      ],
+      "category": "Keamanan dan Proteksi"
+    },
+    "D.0146": {
+      "code": "D.0146",
+      "name": "Risiko Perilaku Kekerasan",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Pemikiran waham/delusi",
+        "Curiga pada orang lain",
+        "Halusinasi",
+        "Berencana bunuh diri",
+        "Disfungsi sistem keluarga",
+        "Kerusakan kognitif",
+        "Disorientasi atau konfusi",
+        "Kerusakan kontrol impuls",
+        "Persepsi pada lingkungan tidak akurat",
+        "Alam perasaan depresi",
+        "Riwayat kekerasan pada hewan",
+        "Kelainan neurologis",
+        "Lingkungan tidak teratur",
+        "Penganiayaan atau pengabaian anak",
+        "Riwayat atau ancaman kekerasan terhadap diri sendiri atau orang lain atau destruksi properti orang lain",
+        "Impulsif",
+        "Ilusi"
+      ],
+      "expected_outcomes": {
+        "code": "L.09076",
+        "name": "Verbalisasi ancaman kepada orang lain menurunVerbalisasi umpatan menurunSuara keras menurunBicara ketus menurun",
+        "criteria": [
+          "Verbalisasi ancaman kepada orang lain menurun",
+          "Verbalisasi umpatan menurun",
+          "Suara keras menurun",
+          "Bicara ketus menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.14544",
+          "name": "Pencegahan Perilaku Kekerasan"
+        },
+        {
+          "code": "I.09312",
+          "name": "Promosi Koping"
+        }
+      ],
+      "category": "Keamanan dan Proteksi"
+    },
+    "D.0147": {
+      "code": "D.0147",
+      "name": "Risiko Perlambatan Pemulihan Pascabedah",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Skor klasifikasi status fisik American Society of Anesthesiologists (ASA) ≥ 3",
+        "Hiperglikemia",
+        "Edema pada lokasi pembedahan",
+        "Prosedur pembedahan ekstensif (luas)",
+        "Usia ekstrem",
+        "Riwayat perlambatan penyembuhan luka",
+        "Gangguan mobilitas",
+        "Malnutrisi",
+        "Obesitas",
+        "Infeksi luka perioperatif",
+        "Mual/muntah persisten",
+        "Respon emosional pascaoperasi",
+        "Pemanjangan proses operasi",
+        "Gangguan psikologis pascaoperasi",
+        "Kontaminasi bedah",
+        "Trauma pada luka operasi",
+        "Efek agen farmakologis"
+      ],
+      "expected_outcomes": {
+        "code": "L.14129",
+        "name": "Kenyamanan meningkatWaktu penyembuhan menurunArea luka operasi membaik",
+        "criteria": [
+          "Kenyamanan meningkat",
+          "Waktu penyembuhan menurun",
+          "Area luka operasi membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.05173",
+          "name": "Dukungan Mobilisasi"
+        },
+        {
+          "code": "I.12391",
+          "name": "Edukasi Manajemen Nyeri"
+        },
+        {
+          "code": "I.12395",
+          "name": "Edukasi Nutrisi"
+        },
+        {
+          "code": "I.03119",
+          "name": "Manajemen Nutrisi"
+        },
+        {
+          "code": "I.02067",
+          "name": "Pencegahan Perdarahan"
+        }
+      ],
+      "category": "Keamanan dan Proteksi"
+    },
+    "D.0148": {
+      "code": "D.0148",
+      "name": "Risiko Termoregulasi Tidak Efektif",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Cedera otak akut",
+        "Dehidrasi",
+        "Pakaian yang tidak sesuai untuk suhu lingkungan",
+        "Peningkatan area permukaan tubuh terhadap rasio berat badan",
+        "Kebutuhan oksigen meningkat",
+        "Perubahan laju metabolisme",
+        "Proses penyakit (mis: infeksi)",
+        "Suhu lingkungan ekstrem",
+        "Suplai lemak subkutan tidak memadai",
+        "Proses penuaan",
+        "Berat badan ekstrem",
+        "Efek agen farmakologis (mis: sedasi)"
+      ],
+      "expected_outcomes": {
+        "code": "L.14134",
+        "name": "Menggigil menurunSuhu tubuh membaikSuhu kulit membaik",
+        "criteria": [
+          "Menggigil menurun",
+          "Suhu tubuh membaik",
+          "Suhu kulit membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.12414",
+          "name": "Edukasi Pengukuran Suhu Tubuh"
+        },
+        {
+          "code": "I.12457",
+          "name": "Edukasi Termoregulasi"
+        }
+      ],
+      "category": "Keamanan dan Proteksi"
+    },
+    "D.0149": {
+      "code": "D.0149",
+      "name": "Termoregulasi Tidak Efektif",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Tidak tersedia"
+        ],
+        "objective": [
+          "Kulit dingin/hangat",
+          "Mengigil",
+          "Suhu tubuh fluktuatif"
+        ]
+      },
+      "related_factors": [
+        "Stimulasi pusat termoregulasi hipotalamus",
+        "Fluktuasi suhu lingkungan",
+        "Proses penyakit (mis: infeksi)",
+        "Proses penuaan",
+        "Dehidrasi",
+        "Ketidaksesuaian pakaian untuk suhu lingkungan",
+        "Peningkatan kebutuhan oksigen",
+        "Perubahan laju metabolisme",
+        "Suhu lingkungan ekstrem",
+        "Ketidakadekuatan suplai lemak subkutan",
+        "Berat badan ekstrem",
+        "Efek agen farmakologis (mis: sedasi)"
+      ],
+      "expected_outcomes": {
+        "code": "L.14134",
+        "name": "Termoregulasi membaik",
+        "criteria": [
+          "Menggigil menurun",
+          "Suhu tubuh membaik",
+          "Suhu kulit membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.14578",
+          "name": "Regulasi Temperatur"
+        }
+      ],
+      "category": "Keamanan dan Proteksi"
+    }
+  }
+}

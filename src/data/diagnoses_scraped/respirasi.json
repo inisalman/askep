@@ -1,0 +1,309 @@
+{
+  "category": "Respirasi",
+  "description": "Scraped category data for Respirasi",
+  "diagnoses": {
+    "D.0001": {
+      "code": "D.0001",
+      "name": "Bersihan Jalan Napas Tidak Efektif",
+      "definition": "ketidakmampuan membersihkan sekret atau obstruksi jalan nafas untuk mempertahankan jalan nafas tetap paten.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": [
+          "Batuk tidak efektif",
+          "Tidak mampu batuk",
+          "Sputum berlebih",
+          "Mengi, wheezing, dan/atau ronchi kering",
+          "Mekonium di jalan napas (pada neonatus)"
+        ]
+      },
+      "related_factors": [
+        "Spasme jalan napas",
+        "Hipersekresi jalan napas",
+        "Disfungsi neuromuskuler",
+        "Benda asing dalam jalan napas",
+        "Adanya jalan napas buatan",
+        "Sekresi yang tertahan",
+        "Hyperplasia dinding jalan napas",
+        "Proses infeksi",
+        "Respon alergi",
+        "Efek agen farmakologis (mis. Anestesi)",
+        "Merokok aktif",
+        "Merokok pasif",
+        "Terpajan polutan",
+        "Merokok",
+        "Infeksi",
+        "Faktor patogen (penyakit)",
+        "Stres oksidatif",
+        "Anafilaksis yang dimediasi IgE",
+        "Mekanisme non-alergi yang dipicu oleh faktor mekanis (yaitu, intubasi orotrakeal),",
+        "Diinduksi oleh obat (yaitu, atracurium, morfin dan meperidine)",
+        "Bronkospasme pada pasien dengan jalan napas hiper-reaktif"
+      ],
+      "expected_outcomes": {
+        "code": "L.01002",
+        "name": "Bersihan Jalan Napas Meningkat",
+        "criteria": [
+          "Batuk efektif meningkat",
+          "Produksi sputum menurun",
+          "Mengi menurun",
+          "Wheezing menurun",
+          "Mekonium (pada neonatus) menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.01006",
+          "name": "Latihan Batuk Efektif"
+        },
+        {
+          "code": "I.01011",
+          "name": "Manajemen Jalan Napas"
+        },
+        {
+          "code": "I.01014",
+          "name": "Pemantauan Respirasi"
+        }
+      ],
+      "category": "Respirasi"
+    },
+    "D.0002": {
+      "code": "D.0002",
+      "name": "Gangguan Penyapihan Ventilator",
+      "definition": "ketidakmampuan beradaptasi dengan pengurangan bantuan ventilator mekanik yang dapat menghambat dan memperlama proses penyapihan.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": [
+          "Frekuensi napas meningkat",
+          "Penggunaan otot bantu napas",
+          "Napas megap-megap",
+          "Upaya napas dan bantuan ventilator tidak sinkron",
+          "Napas dangkal",
+          "Agitasi",
+          "Nilai gas darah arteri tidak normal"
+        ]
+      },
+      "related_factors": [
+        "Hipersekresi jalan napas",
+        "Ketidakcukupan energi",
+        "Hambatan upaya nafas ( misalnya nyeri saat bernapas, kelemahan otot pernapasan, efek sedasi)",
+        "Kecemasan",
+        "Perasaan tidak berdaya",
+        "Kurang terpapar informasi tentang proses penyapihan",
+        "Penurunan motivasi",
+        "Ketidakdekuatan dukungan sosial",
+        "Ketidaktepatan kecepatan proses penyapihan",
+        "Riwayat kegagalan berulang dalam upaya penyapihan",
+        "Riwayat ketergantungan ventilator > 4 hari"
+      ],
+      "expected_outcomes": {
+        "code": "L.01002",
+        "name": "Penyapihan ventilator meningkat",
+        "criteria": [
+          "Frekuensi napas membaik",
+          "Penggunaan otot bantu napas menurun",
+          "Napas megap-megap menurun",
+          "Kesingkronan bantuan ventilator meningkat",
+          "Napas dangkal menurun",
+          "Agitasi menurun",
+          "Nilai gas darah arteri membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.01021",
+          "name": "Penyapihan Ventilasi Mekanik"
+        },
+        {
+          "code": "I.01014",
+          "name": "Pemantauan Respirasi"
+        }
+      ],
+      "category": "Respirasi"
+    },
+    "D.0003": {
+      "code": "D.0003",
+      "name": "Gangguan Pertukaran Gas",
+      "definition": "kelebihan atau kekurangan oksigenasi dan/atau eliminasi karbondioksida pada membran alveolus-kapiler.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": [
+          "PCO2 meningkat/menurun",
+          "PO2 menurun",
+          "pH arteri meningkat/menurun",
+          "Takikardia",
+          "Adanya bunyi napas tambahan (mis. wheezing, rales)"
+        ]
+      },
+      "related_factors": [
+        "Ketidakseimbangan ventilasi-perfusi",
+        "Perubahan membran alveolus-kapiler"
+      ],
+      "expected_outcomes": {
+        "code": "L.01003",
+        "name": "Pertukaran gas meningkat",
+        "criteria": [
+          "Dispnea menurun",
+          "Bunyi napas tambahan menurun",
+          "Takikardia menurun",
+          "PCO2 membaik",
+          "PO2 membaik",
+          "PH arteri membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.01014",
+          "name": "Pemantauan Respirasi"
+        },
+        {
+          "code": "I.01026",
+          "name": "Terapi Oksigen"
+        }
+      ],
+      "category": "Respirasi"
+    },
+    "D.0004": {
+      "code": "D.0004",
+      "name": "Gangguan Ventilasi Spontan",
+      "definition": "penurunan cadangan energi yang mengakibatkan pasien tidak mampu bernapas secara adekuat.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": [
+          "Penggunaan otot bantu napas meningkat",
+          "Volume tidak menurun",
+          "PCO2 meningkat",
+          "PO2 menurun",
+          "SaO2 menurun"
+        ]
+      },
+      "related_factors": [
+        "Gangguan metabolisme",
+        "Kelelahan otot pernapasan"
+      ],
+      "expected_outcomes": {
+        "code": "L.01007",
+        "name": "Ventilasi spontan meningkat",
+        "criteria": [
+          "Dispnea menurun",
+          "Penggunaan otot bantu napas menurun",
+          "Volume tidak membaik",
+          "PCO2 membaik",
+          "PO2 membaik",
+          "SaO2 membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.01002",
+          "name": "Dukungan Ventilasi"
+        },
+        {
+          "code": "I.01014",
+          "name": "Pemantauan Respirasi"
+        }
+      ],
+      "category": "Respirasi"
+    },
+    "D.0005": {
+      "code": "D.0005",
+      "name": "Pola Napas Tidak Efektif",
+      "definition": "adalah inspirasi dan/atau ekspirasi yang tidak memberikan ventilasi adekuat.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": [
+          "Penggunaan otot bantu pernapasan",
+          "Fase ekspirasi memanjang",
+          "Pola napas abnormal (mis. takipnea, bradipnea, hiperventilasi, kussmaul, cheyne-stokes)",
+          "Adanya bunyi napas tambahan (mis. wheezing, rales)"
+        ]
+      },
+      "related_factors": [
+        "Depresi pusat pernapasan",
+        "Hambatan upaya napas (mis. nyeri saat bernapas, kelemahan otot pernapasan)",
+        "Deformitas dinding dada",
+        "Deformitas tulang dada",
+        "Gangguan neuromuskular",
+        "Gangguan neurologis (mis. elektroensefalogram [EEG] positif, cidera kepala, gangguan kejang)",
+        "Imaturitas neurologis",
+        "Penurunan energi",
+        "Obesitas",
+        "Posisi tubuh yang menghambat ekspansi paru",
+        "Sindrom hipoventilasi",
+        "Kerusakan inervasi diafragma (kerusakan saraf C5 keatas)",
+        "Cidera pada medula spinalis",
+        "Efek agen farmakologis",
+        "Kecemasan"
+      ],
+      "expected_outcomes": {
+        "code": "L.01004",
+        "name": "Pola napas membaik",
+        "criteria": [
+          "Dispnea menurun",
+          "Penggunaan otot bantu napas menurun",
+          "Pemanjangan fase ekspirasi menurun",
+          "Frekuensi napas membaik",
+          "Kedalaman napas membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.01011",
+          "name": "Manajemen Jalan Napas"
+        },
+        {
+          "code": "I.01014",
+          "name": "Pemantauan Respirasi"
+        }
+      ],
+      "category": "Respirasi"
+    },
+    "D.0006": {
+      "code": "D.0006",
+      "name": "Risiko Aspirasi",
+      "definition": "adalah risiko mengalami masuknya sekresi gastrointestinal, sekresi orofaring, benda cair atau padat ke dalam saluran trakeobronkhial akibat disfungsi mekanisme protektif saluran napas.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Penurunan tingkat kesadaran",
+        "Penurunan refleks muntah dan/atau batuk",
+        "Gangguan menelan",
+        "Disfagia",
+        "Kerusakan mobilitas fisik",
+        "Peningkatan residu lambung",
+        "Peningkatan tekanan intragastrik",
+        "Penurunan motilitas gastrointestinal",
+        "Sfingter esofagus bawah inkompeten",
+        "Perlambatan pengosongan lambung",
+        "Terpasang selang nasogastrik",
+        "Terpasang trakeostomi atau ETT",
+        "Trauma/pembedahan leher, mulut, dan/atau wajah",
+        "Efek agen farmakologis",
+        "Ketidakmatangan koordinasi menghisap, menelan, dan bernapas"
+      ],
+      "expected_outcomes": {
+        "code": "L.01006",
+        "name": "Tingkat aspirasi menurun",
+        "criteria": [
+          "Tingkat kesadaran meningkat",
+          "Kemampuan menelan meningkat",
+          "Dispnea menurun",
+          "Kelemahan otot menurun",
+          "Akumulasi sekret menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.01011",
+          "name": "Manajemen Jalan Napas"
+        },
+        {
+          "code": "I.01018",
+          "name": "Pencegahan Aspirasi"
+        }
+      ],
+      "category": "Respirasi"
+    }
+  }
+}

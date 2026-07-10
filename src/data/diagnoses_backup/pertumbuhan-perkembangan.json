@@ -1,0 +1,10 @@
+{
+  "category": "Pertumbuhan dan Perkembangan",
+  "description": "Diagnosis terkait tumbuh kembang dan perkembangan individu",
+  "diagnoses_count": 3,
+  "diagnoses": {
+    "D.0106": {"code": "D.0106", "name": "Gangguan Tumbuh Kembang", "definition": "Kondisi individu mengalami gangguan kemampuan bertumbuh dan berkembang sesuai dengan kelompok usia", "type": "Aktual"},
+    "D.0107": {"code": "D.0107", "name": "Risiko Gangguan Perkembangan", "definition": "Berisiko mengalami gangguan untuk berkembang sesuai dengan kelompok usianya", "type": "Risiko"},
+    "D.0108": {"code": "D.0108", "name": "Risiko Gangguan Pertumbuhan", "definition": "Berisiko mengalami gangguan untuk bertumbuh sesuai dengan kelompok usianya", "type": "Risiko"}
+  }
+}

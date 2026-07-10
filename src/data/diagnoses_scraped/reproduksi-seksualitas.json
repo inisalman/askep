@@ -1,0 +1,243 @@
+{
+  "category": "Reproduksi dan Seksualitas",
+  "description": "Scraped category data for Reproduksi dan Seksualitas",
+  "diagnoses": {
+    "D.0069": {
+      "code": "D.0069",
+      "name": "Disfungsi Seksual",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengungkapkan aktivitas seksual berubah",
+          "Mengungkapkan eksitasi seksual berubah",
+          "Merasa hubungan seksual tidak memuaskan",
+          "Mengungkapkan peran seksual berubah",
+          "Mengeluhkan hasrat seksual menurun",
+          "Mengungkapkan fungsi seksual berubah",
+          "Mengeluh nyeri saat berhubungan seksual (dispareunia)"
+        ],
+        "objective": [
+          "Tidak tersedia"
+        ]
+      },
+      "related_factors": [
+        "Perubahan fungsi/struktur tubuh (mis: kehamilan, baru melahirkan, obat-obatan, pembedahan, anomali, proses penyakit, trauma, radiasi)",
+        "Perubahan biopsikososial seksualitas",
+        "Ketiadaan model peran",
+        "Model peran tidak dapat mempengaruhi",
+        "Kurang privasi",
+        "Ketiadaan pasangan",
+        "Kesalahan informasi",
+        "Kelainan seksual (mis: hubungan penuh kekerasan)",
+        "Konflik nilai",
+        "Penganiayaan fisik (mis: kekerasan dalam rumah tangga)",
+        "Kurang terpapar informasi"
+      ],
+      "expected_outcomes": {
+        "code": "L.07055",
+        "name": "Fungsi seksual membaik",
+        "criteria": [
+          "Kepuasan hubungan seksual meningkat",
+          "Verbalisasi aktivitas seksual berubah menurun",
+          "Verbalisasi eksitasi seksual berubah menurun",
+          "Verbalisasi peran seksual berubah menurun",
+          "Verbalisasi fungsi seksual berubah menurun",
+          "Keluhan nyeri saat berhubungan seksual (dispareunia) menurun",
+          "Hasrat seksual membaik",
+          "Orientasi seksual membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.12447",
+          "name": "Edukasi Seksualitas"
+        },
+        {
+          "code": "I.07214",
+          "name": "Konseling Seksualitas"
+        }
+      ],
+      "category": "Reproduksi dan Seksualitas"
+    },
+    "D.0070": {
+      "code": "D.0070",
+      "name": "Kesiapan Persalinan",
+      "definition": ": “status antepartum membaik.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Menyatakan keinginan untuk menerapkan gaya hidup yang tepat untuk persalinan",
+          "Menyatakan keinginan untuk menerapkan penatalaksanaan gejala ketidaknyamanan selama persalinan",
+          "Menyatakan rasa percaya diri menjalani persalinan"
+        ],
+        "objective": [
+          "Tidak tersedia"
+        ]
+      },
+      "related_factors": [],
+      "expected_outcomes": {
+        "code": "L.07059",
+        "name": "Status antepartum membaik",
+        "criteria": [
+          "Kelekatan emosional dengan janin meningkat",
+          "Koping dengan ketidaknyamanan kehamilan meningkat",
+          "Nausea menurun",
+          "Muntah menurun",
+          "Edema menurun",
+          "Nyeri abdomen menurun",
+          "Nyeri epigastric menurun",
+          "Perdarahan vagina menurun",
+          "Konstipasi menurun",
+          "Berat badan membaik",
+          "Tekanan darah membaik",
+          "Hemoglobin membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.12437",
+          "name": "Edukasi Persalinan"
+        }
+      ],
+      "category": "Reproduksi dan Seksualitas"
+    },
+    "D.0071": {
+      "code": "D.0071",
+      "name": "Pola Seksual Tidak Efektif",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengeluh sulit melakukan aktivitas seksual",
+          "Mengungkapkan aktivitas seksual berubah",
+          "Mengungkapkan perilaku seksual berubah",
+          "Orientasi seksual berubah"
+        ],
+        "objective": [
+          "Tidak tersedia"
+        ]
+      },
+      "related_factors": [
+        "Kurang privasi",
+        "Ketiadaan pasangan",
+        "Konflik orientasi seksual",
+        "Takut hamil",
+        "Ketakutan terindeksi penyakit menular seksual",
+        "Hambatan hubungan dengan pasangan",
+        "Kurang terpapar informasi tentang seksualitas",
+        "Masalah = Pola seksual tidak efektif",
+        "Tanda/gejala = mengeluh sulit melakukan aktivitas seksual, dst",
+        "d.d = dibuktikan dengan"
+      ],
+      "expected_outcomes": {
+        "code": "L.07056",
+        "name": "Identitas seksual membaik",
+        "criteria": [
+          "Menunjukkan pendirian seksual yang jelas meningkat",
+          "Integrasi orientasi seksual ke dalam kehidupan sehari-hari meningkat",
+          "Menyusun Batasan-batasan sesuai jenis kelamin"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.12447",
+          "name": "Edukasi Seksualitas"
+        },
+        {
+          "code": "I.07214",
+          "name": "Konseling Seksualitas"
+        }
+      ],
+      "category": "Reproduksi dan Seksualitas"
+    },
+    "D.0072": {
+      "code": "D.0072",
+      "name": "Risiko Disfungsi Seksual",
+      "definition": ": “fungsi seksual membaik.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Gangguan neurologi",
+        "Gangguan urologi",
+        "Gangguan endokrin",
+        "Keganasan",
+        "Faktor ginekologi (mis: kehamilan, pasca persalinan)",
+        "Efek agen farmakologis",
+        "Depresi",
+        "Kecemasan",
+        "Penganiayaan psikologis/seksual",
+        "Penyalahgunaan obat/zat",
+        "Konflik hubungan",
+        "Kurangnya privasi",
+        "Pola seksual pasangan menyimpang",
+        "Ketiadaan pasangan",
+        "Ketidakadekuatan edukasi",
+        "Konflik nilai personal dalam keluarga, budaya, dan agama"
+      ],
+      "expected_outcomes": {
+        "code": "L.07055",
+        "name": "Fungsi seksual membaik",
+        "criteria": [
+          "Kepuasan hubungan seksual meningkat",
+          "Verbalisasi aktivitas seksual berubah menurun",
+          "Verbalisasi eksitasi seksual berubah menurun",
+          "Verbalisasi peran seksual berubah menurun",
+          "Verbalisasi fungsi seksual berubah menurun",
+          "Keluhan nyeri saat berhubungan seksual (dispareunia) menurun",
+          "Hasrat seksual membaik",
+          "Orientasi seksual membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.12447",
+          "name": "Edukasi Seksualitas"
+        },
+        {
+          "code": "I.07214",
+          "name": "Konseling Seksualitas"
+        }
+      ],
+      "category": "Reproduksi dan Seksualitas"
+    },
+    "D.0073": {
+      "code": "D.0073",
+      "name": "Risiko Kehamilan Tidak Dikehendaki",
+      "definition": ": “penerimaan kehamilan meningkat.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Pemerkosaan",
+        "Hubungan seksual sedarah (incest)",
+        "Gangguan jiwa",
+        "Kegagalan penggunaan alat kontrasepsi",
+        "Kekerasan dalam rumah tangga (KDRT)",
+        "Tidak menggunakan alat kontrasepsi",
+        "Faktor sosial-ekonomi"
+      ],
+      "expected_outcomes": {
+        "code": "L.07057",
+        "name": "Penerimaan kehamilan meningkat",
+        "criteria": [
+          "Verbalisasi penerimaan kehamilan meningkat",
+          "Verbalisasi perasaan yang dialami meningkat",
+          "Perilaku mencari perawatan kehamilan meningkat",
+          "Menyusun perencanaan kehamilan meningkat"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.12381",
+          "name": "Edukasi Keluarga Berencana"
+        },
+        {
+          "code": "I.07216",
+          "name": "Manajemen Kehamilan Tidak Dikehendaki"
+        }
+      ],
+      "category": "Reproduksi dan Seksualitas"
+    }
+  }
+}

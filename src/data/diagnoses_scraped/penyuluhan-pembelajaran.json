@@ -1,0 +1,411 @@
+{
+  "category": "Penyuluhan dan Pembelajaran",
+  "description": "Scraped category data for Penyuluhan dan Pembelajaran",
+  "diagnoses": {
+    "D.0110": {
+      "code": "D.0110",
+      "name": "Defisit Kesehatan komunitas",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Tidak tersedia"
+        ],
+        "objective": [
+          "Terjadi masalah Kesehatan yang dialami komunitas",
+          "Terdapat faktor risiko fisiologis dan/atau psikologis yang menyebabkan anggota komunitas menjalani perawatan"
+        ]
+      },
+      "related_factors": [
+        "Hambatan akses ke pemberi pelayanan Kesehatan",
+        "Keterbatasan sumber daya",
+        "Program tidak memiliki anggaran yang cukup",
+        "Proram tidak atau kurang didukung komunitas",
+        "Komunitas kurang puas dengan program yang dijalankan",
+        "Program tidak memiliki rencana evaluasi yang optimal",
+        "Program tidak memiliki data hasil yang memadai",
+        "Program tidak mengatasi seluruh masalah kesehatan komunitas"
+      ],
+      "expected_outcomes": {
+        "code": "L.12109",
+        "name": "Status kesehatan komunitas meningkat",
+        "criteria": [
+          "Ketersedian program promosi Kesehatan meningkat",
+          "Ketersediaan program proteksi Kesehatan meningkat",
+          "Partisipasi dalam program Kesehatan komunitas meningkat",
+          "Keikutsertaan asuransi/jaminan Kesehatan meningkat",
+          "Kepatuhan terhadap standar Kesehatan lingkungan meningkat",
+          "Sistem surveilens Kesehatan meningkat",
+          "Pemantauan standar Kesehatan komunitas meningkat",
+          "Angka mortalitas menurun",
+          "Angka morbiditas menurun",
+          "Angka gangguan Kesehatan mental menurun",
+          "Prevalensi penyakit menurun",
+          "Angka penyalahgunaan zat menurun",
+          "Angka penyalahgunaan alkohol menurun",
+          "Angka kebiasaan merokok menurun",
+          "Angka penyakit menular seksual menurun",
+          "Angka kelahiran preterm menurun",
+          "Angka berat badan lahir rendah menurun",
+          "Angka kejadian cidera menurun",
+          "Angka kriminalitas menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.14548",
+          "name": "Pengembangan Kesehatan Masyarakat"
+        },
+        {
+          "code": "I.12472",
+          "name": "Promosi Perilaku Upaya Kesehatan"
+        }
+      ],
+      "category": "Penyuluhan dan Pembelajaran"
+    },
+    "D.0111": {
+      "code": "D.0111",
+      "name": "Defisit Pengetahuan",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Menanyakan masalah yang dihadapi"
+        ],
+        "objective": [
+          "Menunjukkan perilaku tidak sesuai anjuran",
+          "Menunjukkan persepsi yang keliru terhadap masalah"
+        ]
+      },
+      "related_factors": [
+        "Keterbatasan kognitif",
+        "Gangguan fungsi kognitif",
+        "Kekeliruan mengikuti anjuran",
+        "Kurang terpapar informasi",
+        "Kurang minat dalam belajar",
+        "Kurang mampu mengingat",
+        "Ketidaktahuan menemukan sumber informasi"
+      ],
+      "expected_outcomes": {
+        "code": "L.12111",
+        "name": "Tingkat pengetahuan meningkat",
+        "criteria": [
+          "Perilaku sesuai anjuran meningkat",
+          "Verbalisasi minat dalam belajar meningkat",
+          "Kemampuan menjelaskan pengetahuan tentang suatu topik meningkat",
+          "Kemampuan menggambarkan pengalaman sebelumnya yang sesuai dengan topik meningkat",
+          "Perilaku sesuai dengan pengetahuan meningkat",
+          "Pertanyaan tentang masalah yang dihadapi menurun",
+          "Persepsi yang keliru terhadap masalah menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.12383",
+          "name": "Edukasi Kesehatan"
+        }
+      ],
+      "category": "Penyuluhan dan Pembelajaran"
+    },
+    "D.0112": {
+      "code": "D.0112",
+      "name": "Kesiapan Peningkatan Manajemen Kesehatan",
+      "definition": ": “manajemen Kesehatan meningkat.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengekspresikan keinginan untuk mengelola masalah Kesehatan dan pencegahannya"
+        ],
+        "objective": [
+          "Pilihan hidup sehari-hari tepat untuk memenuhi tujuan program kesehatan"
+        ]
+      },
+      "related_factors": [],
+      "expected_outcomes": {
+        "code": "L.12104",
+        "name": "Manajemen Kesehatan meningkat",
+        "criteria": [
+          "Melakukan Tindakan untuk mengurangi faktor risiko meningkat",
+          "Menerapkan program perawatan meningkat",
+          "Aktivitas hidup sehari-hari efektif memenuhi tujuan Kesehatan meningkat",
+          "Verbalisasi kesulitan dalam menjalani program perawatan/pengobatan menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.12359",
+          "name": "Bimbingan Antisipatif"
+        },
+        {
+          "code": "I.12383",
+          "name": "Edukasi Kesehatan"
+        },
+        {
+          "code": "I.14502",
+          "name": "Identifikasi Risiko"
+        },
+        {
+          "code": "I.12463",
+          "name": "Manajemen Perilaku"
+        },
+        {
+          "code": "I.12464",
+          "name": "Penentuan Tujuan Bersama"
+        }
+      ],
+      "category": "Penyuluhan dan Pembelajaran"
+    },
+    "D.0113": {
+      "code": "D.0113",
+      "name": "Kesiapan Peningkatan Pengetahuan",
+      "definition": ": “tingkat pengetahuan meningkat.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengungkapkan minat dalam belajar",
+          "Menjelaskan pengetahuan tentang suatu topik",
+          "Menggambarkan pengalaman sebelumnya yang sesuai dengan topik"
+        ],
+        "objective": [
+          "Perilaku sesuai dengan pengetahuan"
+        ]
+      },
+      "related_factors": [],
+      "expected_outcomes": {
+        "code": "L.12111",
+        "name": "Tingkat pengetahuan meningkat",
+        "criteria": [
+          "Perilaku sesuai anjuran meningkat",
+          "Verbalisasi minat dalam belajar meningkat",
+          "Kemampuan menjelaskan pengetahuan tentang suatu topik meningkat",
+          "Kemampuan menggambarkan pengalaman sebelumnya yang sesuai dengan topik meningkat",
+          "Perilaku sesuai dengan pengetahuan meningkat",
+          "Pertanyaan tentang masalah yang dihadapi menurun",
+          "Persepsi yang keliru terhadap masalah menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.12383",
+          "name": "Edukasi Kesehatan"
+        },
+        {
+          "code": "I.12470",
+          "name": "Promosi Kesiapan Penerimaan Informasi"
+        }
+      ],
+      "category": "Penyuluhan dan Pembelajaran"
+    },
+    "D.0114": {
+      "code": "D.0114",
+      "name": "Ketidakpatuhan",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Menolak menjalani perawatan/pengobatan",
+          "Menolak mengikuti anjuran"
+        ],
+        "objective": [
+          "Perilaku tidak mengikuti program perawatan/pengobatan",
+          "Perilaku tidak menjalankan anjuran"
+        ]
+      },
+      "related_factors": [
+        "Disabilitas (mis: penurunan daya ingat, defisit sensorik/motorik)",
+        "Efek samping program perawatan/pengobatan",
+        "Beban pembiayaan program perawatan/pengobatan",
+        "Lingkungan tidak terapeutik",
+        "Program terapi kompleks dan/atau lama",
+        "Hambatan mengakses pelayanan Kesehatan (mis: gangguan mobilisasi, masalah transportasi, ketiadaan orang merawat anak di rumah, cuaca tidak menentu)",
+        "Program terapi tidak ditanggung asuransi",
+        "Ketidakadekuatan pemahaman (sekunder akibat defisit kognitif, kecemasan, gangguan penglihatan/pendengaran, kelelahan, kurang motivasi)"
+      ],
+      "expected_outcomes": {
+        "code": "L.12110",
+        "name": "Tingkat kepatuhan meningkat",
+        "criteria": [
+          "Verbalisasi kemauan mematuhi program perawatan atau pengobatan meningkat",
+          "Verbalisasi mengikuti anjuran meningkat",
+          "Perilaku mengikuti program perawatan/pengobatan membaik",
+          "Perilaku menjalankan anjuran membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.12361",
+          "name": "Dukungan Kepatuhan Program Pengobatan"
+        },
+        {
+          "code": "I.09277",
+          "name": "Dukungan tanggung jawab pada diri sendiri"
+        },
+        {
+          "code": "I.09311",
+          "name": "Promosi Kesadaran Diri"
+        },
+        {
+          "code": "I.09312",
+          "name": "Promosi Koping"
+        }
+      ],
+      "category": "Penyuluhan dan Pembelajaran"
+    },
+    "D.0115": {
+      "code": "D.0115",
+      "name": "Manajemen Kesehatan Keluarga Tidak Efektif",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengungkapkan tidak memahami masalah Kesehatan yang diderita",
+          "Mengungkapkan kesulitan menjalankan perawatan yang ditetapkan"
+        ],
+        "objective": [
+          "Gejala penyakit anggota keluarga semakin memberat",
+          "Aktivitas keluarga untuk mengatasi masalah Kesehatan tidak tepat"
+        ]
+      },
+      "related_factors": [
+        "Kompleksitas sistem pelayanan Kesehatan",
+        "Kompleksitas program perawatan/pengobatan",
+        "Konflik pengambilan keputusan",
+        "Kesulitan ekonomi",
+        "Banyak tuntutan",
+        "Konflik keluarga"
+      ],
+      "expected_outcomes": {
+        "code": "L.12105",
+        "name": "Manajemen kesehatan keluarga meningkat",
+        "criteria": [
+          "Kemampuan menjelaskan masalah kesehatan yang dialami meningkat",
+          "Aktivitas keluarga mengatasi masalah kesehatan tepat meningkat",
+          "Verbalisasi kesulitan menjalankan perawatan yang ditetapkan menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.09260",
+          "name": "Dukungan Koping Keluarga"
+        },
+        {
+          "code": "I.13477",
+          "name": "Dukungan Keluarga Merencanakan Perawatan"
+        },
+        {
+          "code": "I.12482",
+          "name": "Koordinasi Diskusi Keluarga"
+        },
+        {
+          "code": "I.13486",
+          "name": "Pendampingan Keluarga"
+        }
+      ],
+      "category": "Penyuluhan dan Pembelajaran"
+    },
+    "D.0116": {
+      "code": "D.0116",
+      "name": "Manajemen Kesehatan Tidak Efektif",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengungkapkan kesulitan dalam menjalani program perawatan"
+        ],
+        "objective": [
+          "Gagal melakukan tindakan untuk mengurangi faktor risiko",
+          "Gagal menerapkan program perawatan/pengobatan dalam kehidupan sehari-hari",
+          "Aktivitas hidup sehari-hari tidak efektif untuk memenuhi tujuan kesehatan"
+        ]
+      },
+      "related_factors": [
+        "Kompleksitas sistem pelayanan Kesehatan",
+        "Kompleksitas program perawatan/pengobatan",
+        "Konflik pengambilan keputusan",
+        "Kurang terpapar informasi",
+        "Kesulitan ekonomi",
+        "Tuntutan berlebih",
+        "Konflik keluarga",
+        "Ketidakefektifan pola perawatan Kesehatan keluarga",
+        "Ketidakcukupan petunjuk untuk bertindak",
+        "Kekurangan dukungan sosial"
+      ],
+      "expected_outcomes": {
+        "code": "L.12104",
+        "name": "Manajemen kesehatan meningkat",
+        "criteria": [
+          "Melakukan tindakan untuk mengurangi faktor risiko meningkat",
+          "Menerapkan program perawatan meningkat",
+          "Aktivitas hidup sehari-hari efektif memenuhi tujuan kesehatan meningkat",
+          "Verbalisasi kesulitan dalam menjalani program perawatan/pengobatan menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.09265",
+          "name": "Dukungan Pengambilan Keputusan"
+        },
+        {
+          "code": "I.09277",
+          "name": "Dukungan tanggung jawab pada diri sendiri"
+        },
+        {
+          "code": "I.12383",
+          "name": "Edukasi Kesehatan"
+        },
+        {
+          "code": "I.14525",
+          "name": "Pelibatan Keluarga"
+        }
+      ],
+      "category": "Penyuluhan dan Pembelajaran"
+    },
+    "D.0117": {
+      "code": "D.0117",
+      "name": "Pemeliharaan Kesehatan Tidak Efektif",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Tidak tersedia"
+        ],
+        "objective": [
+          "Kurang menunjukkan perilaku adaptif terhadap perubahan lingkungan",
+          "Kurang menunjukkan pemahaman tentang perilaku sehat",
+          "Tidak mampu menjalankan perilaku sehat"
+        ]
+      },
+      "related_factors": [
+        "Hambatan kognitif",
+        "Ketidaktuntasan proses berduka",
+        "Ketidakadekuatan keterampilan berkomunikasi",
+        "Kurangnya keterampilan motoric halus/kasar",
+        "Ketidakmampuan membuat penilaian yang tepat",
+        "Ketidakmampuan mengatasi masalah (individu atau keluarga)",
+        "Ketidakcukupan sumber daya (mis: keuangan, fasilitas)",
+        "Gangguan persepsi",
+        "Tidak terpenuhinya tugas perkembangan"
+      ],
+      "expected_outcomes": {
+        "code": "L.12106",
+        "name": "Pemeliharaan kesehatan meningkat",
+        "criteria": [
+          "Menunjukkan perilaku adaptif meningkat",
+          "Menunjukkan pemahaman perilaku sehat meningkat",
+          "Kemampuan menjalankan perilaku sehat meeningkat"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.12383",
+          "name": "Edukasi Kesehatan"
+        },
+        {
+          "code": "I.09282",
+          "name": "Kontrak Perilaku Positif"
+        },
+        {
+          "code": "I.12464",
+          "name": "Penentuan Tujuan Bersama"
+        },
+        {
+          "code": "I.12472",
+          "name": "Promosi Perilaku Upaya Kesehatan"
+        }
+      ],
+      "category": "Penyuluhan dan Pembelajaran"
+    }
+  }
+}

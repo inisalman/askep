@@ -1,0 +1,8 @@
+{
+  "category": "Kebersihan Diri",
+  "description": "Diagnosis terkait perawatan dan kebersihan diri",
+  "diagnoses_count": 1,
+  "diagnoses": {
+    "D.0109": {"code": "D.0109", "name": "Defisit Perawatan Diri", "definition": "Ketidakmampuan melakukan atau menyelesaikan aktivitas perawatan diri", "type": "Aktual"}
+  }
+}

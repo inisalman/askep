@@ -1,0 +1,298 @@
+{
+  "category": "Nyeri dan Kenyamanan",
+  "description": "Scraped category data for Nyeri dan Kenyamanan",
+  "diagnoses": {
+    "D.0074": {
+      "code": "D.0074",
+      "name": "Gangguan Rasa Nyaman",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengeluh tidak nyaman"
+        ],
+        "objective": [
+          "Gelisah"
+        ]
+      },
+      "related_factors": [
+        "Gejala penyakit",
+        "Kurang pengendalian situasional/lingkungan",
+        "Ketidakadekuatan sumber daya (mis: dukungan finansial, sosial, dan pengetahuan)",
+        "Kurangnya privasi",
+        "Gangguan stimulus lingkungan",
+        "Efek samping terapi (mis: medikasi, radiasi, kemoterapi)",
+        "Gangguan adaptasi kehamilan"
+      ],
+      "expected_outcomes": {
+        "code": "L.08064",
+        "name": "Status kenyamanan meningkat",
+        "criteria": [
+          "Keluhan tidak nyaman menurun",
+          "Gelisah menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.08238",
+          "name": "Manajemen Nyeri"
+        },
+        {
+          "code": "I.01019",
+          "name": "Pengaturan Posisi"
+        },
+        {
+          "code": "I.09326",
+          "name": "Terapi relaksasi"
+        }
+      ],
+      "category": "Nyeri dan Kenyamanan"
+    },
+    "D.0075": {
+      "code": "D.0075",
+      "name": "Ketidaknyamanan Pasca Partum",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengeluh tidak nyaman"
+        ],
+        "objective": [
+          "Tampak meringis",
+          "Terdapat kontraksi uterus",
+          "Luka episiotomi",
+          "Payudara bengkak"
+        ]
+      },
+      "related_factors": [
+        "Trauma perineum selama persalinan dan kelahiran",
+        "Involusi uterus, proses pengembalian ukuran Rahim ke ukuran semula",
+        "Pembengkakan payudara dimana alveoli mulai terisi ASI",
+        "Kekurangan dukungan dari keluarga dan tenaga Kesehatan",
+        "Ketidaktepatan posisi duduk",
+        "Faktor budaya"
+      ],
+      "expected_outcomes": {
+        "code": "L.07061",
+        "name": "Status kenyamanan pasca partum meningkat",
+        "criteria": [
+          "Keluhan tidak nyaman menurun",
+          "Meringis menurun",
+          "Luka episiotomi menurun",
+          "Kontraksi uterus menurun",
+          "Payudara bengkak menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.08238",
+          "name": "Manajemen Nyeri"
+        },
+        {
+          "code": "I.09326",
+          "name": "Terapi relaksasi"
+        }
+      ],
+      "category": "Nyeri dan Kenyamanan"
+    },
+    "D.0076": {
+      "code": "D.0076",
+      "name": "Nausea",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengeluh mual",
+          "Merasa ingin muntah",
+          "Tidak berminat makan"
+        ],
+        "objective": [
+          "Tidak tersedia"
+        ]
+      },
+      "related_factors": [
+        "Gangguan biokimiawi (mis: uremia, ketoasidosis diabetic)",
+        "Gangguan pada esofagus",
+        "Distensi lambung",
+        "Iritasi lambung",
+        "Gangguan pankreas",
+        "Peregangan kapsul limpa",
+        "Tumor terlokalisasi (mis: neuroma akustik, tumor otak primer atau sekunder, metastasis tulang di dasar tengkorak)",
+        "Peningkatan tekanan intraabdominal (mis: keganasan intraabdomen)",
+        "Peningkatan tekanan intrakranial",
+        "Peningkatan tekanan intraorbital (mis: glaukoma)",
+        "Mabuk perjalanan",
+        "Kehamilan",
+        "Aroma tidak sedap",
+        "Rasa makanan/minuman yang tidak enak",
+        "Stimulus penglihatan tidak menyenangkan",
+        "Faktor psikologis (mis: kecemasan, ketakutan, stres)",
+        "Efek agen farmakologis",
+        "Efek toksin"
+      ],
+      "expected_outcomes": {
+        "code": "L.08065",
+        "name": "Tingkat nausea menurun",
+        "criteria": [
+          "Perasaan ingin muntah menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.03117",
+          "name": "Manajemen Mual"
+        },
+        {
+          "code": "I.03118",
+          "name": "Manajemen Muntah"
+        }
+      ],
+      "category": "Nyeri dan Kenyamanan"
+    },
+    "D.0077": {
+      "code": "D.0077",
+      "name": "Nyeri Akut",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengeluh nyeri"
+        ],
+        "objective": [
+          "Tampak meringis",
+          "Bersikap protektif (mis: waspada, posisi menghindari nyeri)",
+          "Gelisah",
+          "Frekuensi nadi meningkat",
+          "Sulit tidur"
+        ]
+      },
+      "related_factors": [
+        "Agen pencedera fisiologis (mis: inflamasi, iskemia, neoplasma)",
+        "Agen pencedera kimiawi (mis: terbakar, bahan kimia iritan)",
+        "Agen pencedera fisik (mis: abses, amputasi, terbakar, terpotong, mengangkat berat, prosedur operasi, trauma, Latihan fisik berlebihan)"
+      ],
+      "expected_outcomes": {
+        "code": "L.08066",
+        "name": "Tingkat nyeri menurun",
+        "criteria": [
+          "Keluhan nyeri menurun",
+          "Meringis menurun",
+          "Sikap protektif menurun",
+          "Gelisah menurun",
+          "Kesulitan tidur menurun",
+          "Frekuensi nadi membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.08238",
+          "name": "Manajemen Nyeri"
+        },
+        {
+          "code": "I.08243",
+          "name": "Pemberian Analgesik"
+        }
+      ],
+      "category": "Nyeri dan Kenyamanan"
+    },
+    "D.0078": {
+      "code": "D.0078",
+      "name": "Nyeri Kronis",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengeluh nyeri",
+          "Merasa depresi (tertekan)"
+        ],
+        "objective": [
+          "Tampak meringis",
+          "Gelisah",
+          "Tidak mampu menuntaskan aktivitas"
+        ]
+      },
+      "related_factors": [
+        "Kondisi muskuloskeletal kronis",
+        "Kerusakan sistem saraf",
+        "Penekanan saraf",
+        "Infiltrasi tumor",
+        "Ketidakseimbangan neurotransmiter, neuromodulator, dan reseptor",
+        "Gangguan imunitas (mis: neuropati terkait HIV, virus varicella-zoster)",
+        "Gangguan fungsi metabolik",
+        "Riwayat posisi kerja statis",
+        "Peningkatan indeks massa tubuh",
+        "Kondisi pasca trauma",
+        "Tekanan emosional",
+        "Riwayat penganiayaan (mis: fisik, psikologis, seksual)",
+        "Riwayat penyalahgunaan obat/zat"
+      ],
+      "expected_outcomes": {
+        "code": "L.08066",
+        "name": "Tingkat nyeri menurun",
+        "criteria": [
+          "Keluhan nyeri menurun",
+          "Perasaan depresi menurun",
+          "Meringis menurun",
+          "Gelisah menurun",
+          "Kemampuan menuntaskan aktivitas meningkat"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.08238",
+          "name": "Manajemen Nyeri"
+        },
+        {
+          "code": "I.08245",
+          "name": "Perawatan kenyamanan"
+        },
+        {
+          "code": "I.09326",
+          "name": "Terapi relaksasi"
+        }
+      ],
+      "category": "Nyeri dan Kenyamanan"
+    },
+    "D.0079": {
+      "code": "D.0079",
+      "name": "Nyeri Melahirkan",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengeluh nyeri",
+          "Perineum terasa tertekan"
+        ],
+        "objective": [
+          "Ekspresi wajah meringis",
+          "Berposisi meringankan nyeri",
+          "Uterus teraba membulat"
+        ]
+      },
+      "related_factors": [
+        "Dilatasi serviks",
+        "Pengeluaran janin"
+      ],
+      "expected_outcomes": {
+        "code": "L.08066",
+        "name": "Tingkat nyeri menurun",
+        "criteria": [
+          "Keluhan nyeri menurun",
+          "Perineum terasa tertekan menurun",
+          "Meringis menurun",
+          "Berfokus pada diri sendiri menurun",
+          "Uterus teraba membulat menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.08238",
+          "name": "Manajemen Nyeri"
+        },
+        {
+          "code": "I.01019",
+          "name": "Pengaturan Posisi"
+        },
+        {
+          "code": "I.09326",
+          "name": "Terapi relaksasi"
+        }
+      ],
+      "category": "Nyeri dan Kenyamanan"
+    }
+  }
+}

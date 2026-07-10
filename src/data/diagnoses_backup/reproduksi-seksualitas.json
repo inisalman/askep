@@ -1,0 +1,12 @@
+{
+  "category": "Reproduksi dan Seksualitas",
+  "description": "Diagnosis terkait sistem reproduksi dan seksualitas",
+  "diagnoses_count": 5,
+  "diagnoses": {
+    "D.0069": {"code": "D.0069", "name": "Disfungsi Seksual", "definition": "Perubahan fungsi seksual selama fase respon seksual berupa hasrat, terangsang, orgasme, dan/atau relaksasi yang dirasa tidak memuaskan, tidak bermakna, atau tidak adekuat", "type": "Aktual"},
+    "D.0070": {"code": "D.0070", "name": "Kesiapan Persalinan", "definition": "Pola mempersiapkan, mempertahankan, dan memperkuat proses kehamilan dan persalinan serta perawatan bayi baru lahir", "type": "Promosi Kesehatan"},
+    "D.0071": {"code": "D.0071", "name": "Pola Seksual Tidak Efektif", "definition": "Kekhawatiran individu melakukan hubungan seksual yang berisiko menyebabkan perubahan Kesehatan", "type": "Aktual"},
+    "D.0072": {"code": "D.0072", "name": "Risiko Disfungsi Seksual", "definition": "Berisiko mengalami perubahan fungsi seksual selama fase respon seksual berupa hasrat, terangsang, orgasme dan relaksasi yang dipandang tidak memuaskan, tidak bermakna/tidak adekuat", "type": "Risiko"},
+    "D.0073": {"code": "D.0073", "name": "Risiko Kehamilan Tidak Dikehendaki", "definition": "Berisiko mengalami kehamilan yang tidak diharapkan baik karena alasan waktu yang tidak tepat atau karena kehamilan yang tidak diinginkan", "type": "Risiko"}
+  }
+}

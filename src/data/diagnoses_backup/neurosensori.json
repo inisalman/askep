@@ -1,0 +1,15 @@
+{
+  "category": "Neurosensori",
+  "description": "Diagnosis terkait sistem neurologis dan sensorik",
+  "diagnoses_count": 8,
+  "diagnoses": {
+    "D.0061": {"code": "D.0061", "name": "Disrefleksia Otonom", "definition": "Respon sistem saraf simpatis yang terjadi secara spontan dan mengancam jiwa terhadap stimulus berbahaya akibat cidera medulla spinalis pada T7 atau diatasnya", "type": "Aktual"},
+    "D.0062": {"code": "D.0062", "name": "Gangguan Memori", "definition": "Ketidakmampuan mengingat beberapa informasi atau perilaku", "type": "Aktual"},
+    "D.0063": {"code": "D.0063", "name": "Gangguan Menelan", "definition": "Fungsi menelan abnormal akibat defisit struktur atau fungsi oral, faring, atau esofagus", "type": "Aktual"},
+    "D.0064": {"code": "D.0064", "name": "Konfusi Akut", "definition": "Gangguan kesadaran, perhatian, kognitif, dan persepsi yang reversible, berlangsung tiba-tiba, dan singkat", "type": "Aktual"},
+    "D.0065": {"code": "D.0065", "name": "Konfusi Kronis", "definition": "Gangguan kesadaran, perhatian, kognitif, dan persepsi yang ireversible, berlangsung lama, dan/atau progresif", "type": "Aktual"},
+    "D.0066": {"code": "D.0066", "name": "Penurunan Kapasitas Adaptif Intrakranial", "definition": "Gangguan mekanisme dinamika intrakranial dalam melakukan kompensasi terhadap stimulus yang dapat menurunkan kapasitas intrakranial", "type": "Aktual"},
+    "D.0067": {"code": "D.0067", "name": "Risiko Disfungsi Neurovaskuler Perifer", "definition": "Berisiko mengalami gangguan sirkulasi, sensasi, dan pergerakan pada ekstremitas", "type": "Risiko"},
+    "D.0068": {"code": "D.0068", "name": "Risiko Konfusi Akut", "definition": "Berisiko mengalami gangguan kesadaran, perhatian, kognisi, dan persepsi yang reversible dan terjadi dalam periode waktu singkat", "type": "Risiko"}
+  }
+}

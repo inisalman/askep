@@ -1,0 +1,33 @@
+{
+  "category": "Integritas Ego",
+  "description": "Diagnosis terkait integritas ego, konsep diri, koping, dan spiritual",
+  "diagnoses_count": 26,
+  "diagnoses": {
+    "D.0080": {"code": "D.0080", "name": "Ansietas", "definition": "Kondisi emosi dan pengalaman subyektif individu terhadap objek yang tidak jelas dan spesifik akibat antisipasi bahaya yang memungkinkan individu melakukan Tindakan untuk menghadapi ancaman", "type": "Aktual"},
+    "D.0081": {"code": "D.0081", "name": "Berduka", "definition": "Respon psikososial yang ditunjukkan oleh klien akibat kehilangan (orang, objek, fungsi, status, bagian tubuh, atau hubungan)", "type": "Aktual"},
+    "D.0082": {"code": "D.0082", "name": "Distres Spiritual", "definition": "Gangguan pada keyakinan atau sistem nilai berupa kesulitan merasakan makna dan tujuan hidup melalui hubungan dengan diri, orang lain, lingkungan, atau Tuhan", "type": "Aktual"},
+    "D.0083": {"code": "D.0083", "name": "Gangguan Citra Tubuh", "definition": "Perubahan persepsi tentang penampilan, struktur, dan fungsi fisik individu", "type": "Aktual"},
+    "D.0084": {"code": "D.0084", "name": "Gangguan Identitas Diri", "definition": "Ketidakmampuan mempertahankan keutuhan persepsi terhadap identitas diri", "type": "Aktual"},
+    "D.0085": {"code": "D.0085", "name": "Gangguan Persepsi Sensori", "definition": "Perubahan persepsi terhadap stimulus baik internal maupun eksternal yang disertai dengan respon yang berkurang, berlebihan, atau terdistorsi", "type": "Aktual"},
+    "D.0086": {"code": "D.0086", "name": "Harga Diri Rendah Kronis", "definition": "Evaluasi atau perasaan negatif terhadap diri sendiri atau ketidakmampuan klien seperti tidak berarti, tidak berharga, tidak berdaya, yang berlangsung dalam waktu lama dan terus menerus", "type": "Aktual"},
+    "D.0087": {"code": "D.0087", "name": "Harga Diri Rendah Situasional", "definition": "Evaluasi atau perasaan negatif terhadap diri sendiri atau ketidakmampuan klien sebagai respon terhadap situasi saat ini", "type": "Aktual"},
+    "D.0088": {"code": "D.0088", "name": "Keputusasaan", "definition": "Kondisi individu yang memandang adanya keterbatasan atau tidak tersedianya alternatif pemecahan pada masalah yang dihadapi", "type": "Aktual"},
+    "D.0089": {"code": "D.0089", "name": "Kesiapan Peningkatan Konsep Diri", "definition": "Pola persepsi diri yang cukup untuk merasa sejahtera dan dapat ditingkatkan", "type": "Promosi Kesehatan"},
+    "D.0090": {"code": "D.0090", "name": "Kesiapan Peningkatan Koping Keluarga", "definition": "Pola adaptasi anggota keluarga dalam mengatasi situasi yang dialami klien secara efektif dan menunjukkan keinginan serta kesiapan untuk meningkatkan Kesehatan keluarga dan klien", "type": "Promosi Kesehatan"},
+    "D.0091": {"code": "D.0091", "name": "Kesiapan Peningkatan Koping Komunitas", "definition": "Pola adaptasi dan penyelesaian masalah komunitas yang memuaskan untuk memenuhi tuntutan atau kebutuhan masyarakat, serta dapat ditingkatkan untuk penatalaksanaan masalah saat ini dan mendatang", "type": "Promosi Kesehatan"},
+    "D.0092": {"code": "D.0092", "name": "Ketidakberdayaan", "definition": "Persepsi bahwa tindakan seseorang tidak akan mempengaruhi hasil secara signifikan; persepsi kurang kontrol pada situasi saat ini atau yang akan datang", "type": "Aktual"},
+    "D.0093": {"code": "D.0093", "name": "Ketidakmampuan Koping Keluarga", "definition": "Perilaku orang terdekat (anggota keluarga atau orang berarti) yang membatasi kemampuan dirinya dan klien untuk beradaptasi dengan masalah Kesehatan yang dihadapi klien", "type": "Aktual"},
+    "D.0094": {"code": "D.0094", "name": "Koping Defensif", "definition": "Proyeksi evaluasi diri untuk melindungi diri dari ancaman terhadap harga diri", "type": "Aktual"},
+    "D.0095": {"code": "D.0095", "name": "Koping Komunitas Tidak Efektif", "definition": "Pola adaptasi komunitas dan penyelesaian masalah yang tidak memuaskan untuk memenuhi tuntutan atau kebutuhan masyarakat", "type": "Aktual"},
+    "D.0096": {"code": "D.0096", "name": "Koping Tidak Efektif", "definition": "Ketidakmampuan menilai dan merespons stresor dan/atau ketidakmampuan menggunakan sumber-sumber yang ada untuk mengatasi masalah", "type": "Aktual"},
+    "D.0097": {"code": "D.0097", "name": "Penurunan Koping Keluarga", "definition": "Ketidakadekuatan atau ketidakefektifan dukungan, rasa nyaman, bantuan dan motivasi orang terdekat yang dibutuhkan klien untuk mengelola atau mengatasi masalah kesehatannya", "type": "Aktual"},
+    "D.0098": {"code": "D.0098", "name": "Penyangkalan Tidak Efektif", "definition": "Upaya mengingkari pemahaman atau makna suatu peristiwa secara sadar atau tidak sadar untuk menurunkan kecemasan/ketakutan yang dapat menyebabkan gangguan Kesehatan", "type": "Aktual"},
+    "D.0099": {"code": "D.0099", "name": "Perilaku Kesehatan Cenderung Berisiko", "definition": "Hambatan kemampuan dalam mengubah gaya hidup/perilaku untuk memperbaiki status Kesehatan", "type": "Aktual"},
+    "D.0100": {"code": "D.0100", "name": "Risiko Distres Spiritual", "definition": "Berisiko mengalami gangguan keyakinan atau sistem nilai pada individu atau kelompok berupa kekuatan, harapan, dan makna hidup", "type": "Risiko"},
+    "D.0101": {"code": "D.0101", "name": "Risiko Harga Diri Rendah Kronis", "definition": "Berisiko mengalami evaluasi atau perasaan negatif terhadap diri sendiri atau kemampuan klien yang berlangsung dalam waktu lama dan terus menerus", "type": "Risiko"},
+    "D.0102": {"code": "D.0102", "name": "Risiko Harga Diri Rendah Situasional", "definition": "Berisiko mengalami evaluasi atau perasaan negatif terhadap diri sendiri atau kemampuan klien sebagai respon terhadap situasi saat ini", "type": "Risiko"},
+    "D.0103": {"code": "D.0103", "name": "Risiko Ketidakberdayaan", "definition": "Berisiko mengalami persepsi bahwa tindakan seseorang tidak akan mempengaruhi hasil secara signifikan; persepsi kurang kontrol pada situasi saat ini atau yang akan datang", "type": "Risiko"},
+    "D.0104": {"code": "D.0104", "name": "Sindrom Pasca Trauma", "definition": "Respon maladaptif yang berkelanjutan terhadap kejadian trauma", "type": "Aktual"},
+    "D.0105": {"code": "D.0105", "name": "Waham", "definition": "Keyakinan yang keliru tentang isi pikiran yang dipertahankan secara kuat atau terus menerus namun tidak sesuai dengan kenyataan", "type": "Aktual"}
+  }
+}
