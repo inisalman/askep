@@ -1,15 +1,407 @@
 {
   "category": "Neurosensori",
-  "description": "Diagnosis terkait sistem neurologis dan sensorik",
-  "diagnoses_count": 8,
+  "description": "Scraped category data for Neurosensori",
   "diagnoses": {
-    "D.0061": {"code": "D.0061", "name": "Disrefleksia Otonom", "definition": "Respon sistem saraf simpatis yang terjadi secara spontan dan mengancam jiwa terhadap stimulus berbahaya akibat cidera medulla spinalis pada T7 atau diatasnya", "type": "Aktual"},
-    "D.0062": {"code": "D.0062", "name": "Gangguan Memori", "definition": "Ketidakmampuan mengingat beberapa informasi atau perilaku", "type": "Aktual"},
-    "D.0063": {"code": "D.0063", "name": "Gangguan Menelan", "definition": "Fungsi menelan abnormal akibat defisit struktur atau fungsi oral, faring, atau esofagus", "type": "Aktual"},
-    "D.0064": {"code": "D.0064", "name": "Konfusi Akut", "definition": "Gangguan kesadaran, perhatian, kognitif, dan persepsi yang reversible, berlangsung tiba-tiba, dan singkat", "type": "Aktual"},
-    "D.0065": {"code": "D.0065", "name": "Konfusi Kronis", "definition": "Gangguan kesadaran, perhatian, kognitif, dan persepsi yang ireversible, berlangsung lama, dan/atau progresif", "type": "Aktual"},
-    "D.0066": {"code": "D.0066", "name": "Penurunan Kapasitas Adaptif Intrakranial", "definition": "Gangguan mekanisme dinamika intrakranial dalam melakukan kompensasi terhadap stimulus yang dapat menurunkan kapasitas intrakranial", "type": "Aktual"},
-    "D.0067": {"code": "D.0067", "name": "Risiko Disfungsi Neurovaskuler Perifer", "definition": "Berisiko mengalami gangguan sirkulasi, sensasi, dan pergerakan pada ekstremitas", "type": "Risiko"},
-    "D.0068": {"code": "D.0068", "name": "Risiko Konfusi Akut", "definition": "Berisiko mengalami gangguan kesadaran, perhatian, kognisi, dan persepsi yang reversible dan terjadi dalam periode waktu singkat", "type": "Risiko"}
+    "D.0061": {
+      "code": "D.0061",
+      "name": "Disrefleksia Otonom",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Sakit kepala"
+        ],
+        "objective": [
+          "Tekanan darah sistolik meningkat > 20%",
+          "Bercak merah pada kulit di atas lokasi cidera",
+          "Diaforesis diatas lokasi cidera",
+          "Pucat di bawah lokasi cidera",
+          "Bradikardia dan/atau takikardia"
+        ]
+      },
+      "related_factors": [
+        "Cidera pada medulla spinalis",
+        "Pembedahan medulla spinalis pada T7 keatas",
+        "Proses keganasan pada medulla spinalis"
+      ],
+      "expected_outcomes": {
+        "code": "L.06053",
+        "name": "Status neurologis membaik",
+        "criteria": [
+          "Sakit kepala menurun",
+          "Tekanan darah sistolik membaik",
+          "Diaforesis menurun",
+          "Pucat menurun",
+          "Frekuensi nadi membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.06190",
+          "name": "Manajemen Disrefleksia"
+        }
+      ],
+      "category": "Neurosensori"
+    },
+    "D.0062": {
+      "code": "D.0062",
+      "name": "Gangguan Memori",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Melaporkan pernah mengalami pengalaman lupa",
+          "Tidak mampu mempelajari keterampilan baru",
+          "Tidak mampu mengingat informasi faktual",
+          "Tidak mampu mengingat perilaku tertentu yang pernah dilakukan",
+          "Tidak mampu mengingat peristiwa"
+        ],
+        "objective": [
+          "Tidak mampu melakukan kemampuan yang dipelajari sebelumnya"
+        ]
+      },
+      "related_factors": [
+        "Ketidakadekuatan stimulasi intelektual",
+        "Gangguan sirkulasi ke otak",
+        "Gangguan volume cairan dan/atau elektrolit",
+        "Proses penuaan",
+        "Hipoksia",
+        "Gangguan neurologis (mis: EEG positif, cidera kepala, gangguan kejang)",
+        "Efek agen farmakologis",
+        "Penyalahgunaan zat",
+        "Faktor psikologis (mis: kecemasan, depresi, stress berlebihan, berduka, gangguan tidur)",
+        "Distraksi lingkungan"
+      ],
+      "expected_outcomes": {
+        "code": "L.09079",
+        "name": "Memori meningkat",
+        "criteria": [
+          "Verbalisasi kemampuan mempelajari hal baru meningkat",
+          "Verbalisasi kemampuan mengingat informasi faktual meningkat",
+          "Verbalisasi kemampuan mengingat perilaku tertentu yang pernah dilakukan meningkat",
+          "Verbalisasi kemampuan mengingat peristiwa meningkat",
+          "Verbalisasi pengalaman lupa menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.06188",
+          "name": "Latihan Memori"
+        },
+        {
+          "code": "I.09297",
+          "name": "Orientasi Realita"
+        }
+      ],
+      "category": "Neurosensori"
+    },
+    "D.0063": {
+      "code": "D.0063",
+      "name": "Gangguan Menelan",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengeluh sulit menelan"
+        ],
+        "objective": [
+          "Batuk sebelum menelan",
+          "Batuk setelah makan atau minum",
+          "Tersedak",
+          "Makanan tertinggal di rongga mulut"
+        ]
+      },
+      "related_factors": [
+        "Gangguan serebrovaskular",
+        "Gangguan saraf kranialis",
+        "Paralisis serebral",
+        "Akalasia",
+        "Abnormalitas laring",
+        "Abnormalitas orofaring",
+        "Anomali jalan napas atas",
+        "Defek anatomik kongenital",
+        "Defek laring",
+        "Defek nasal",
+        "Defek rongga nasofaring",
+        "Defek trakea",
+        "Refluk gastroesofagus",
+        "Obstruksi mekanis",
+        "Prematuritas"
+      ],
+      "expected_outcomes": {
+        "code": "L.06052",
+        "name": "Status menelan membaik",
+        "criteria": [
+          "Mempertahankan makanan di mulut meningkat",
+          "Reflek menelan meningkat",
+          "Kemampuan mengosongkan mulut meningkat",
+          "Frekuensi tersedak menurun",
+          "Batuk menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.11351",
+          "name": "Dukungan Perawatan Diri: Makan/Minum"
+        },
+        {
+          "code": "I.01018",
+          "name": "Pencegahan Aspirasi"
+        }
+      ],
+      "category": "Neurosensori"
+    },
+    "D.0064": {
+      "code": "D.0064",
+      "name": "Konfusi Akut",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Kurang motivasi untuk memulai/menyelesaikan perilaku berorientasi tujuan",
+          "Kurang motivasi untuk memulai/menyelesaikan perilaku terarah"
+        ],
+        "objective": [
+          "Fluktuasi fungsi kognitif",
+          "Fluktuasi tingkat kesadaran",
+          "Fluktuasi aktivitas psikomotorik"
+        ]
+      },
+      "related_factors": [
+        "Delirium",
+        "Demensia",
+        "Fluktuasi siklus tidur-bangun",
+        "Usia lebih dari 60 tahun",
+        "Penyalahgunaan zat"
+      ],
+      "expected_outcomes": {
+        "code": "L.06054",
+        "name": "Tingkat konfusi menurun",
+        "criteria": [
+          "Fungsi kognitif meningkat",
+          "Tingkat kesadaran meningkat",
+          "Aktivitas psikomotorik meningkat",
+          "Motivasi memulai/menyelesaikan perilaku terarah meningkat",
+          "Memori jangka pendek meningkat",
+          "Memori jangka Panjang meningkat",
+          "Interpretasi membaik",
+          "Fungsi sosial membaik",
+          "Respons terhadap stimulus membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.06189",
+          "name": "Manajemen Delirium"
+        },
+        {
+          "code": "I.09288",
+          "name": "Manajemen Halusinasi"
+        },
+        {
+          "code": "I.09291",
+          "name": "Manajemen Penyalahgunaan Zat"
+        }
+      ],
+      "category": "Neurosensori"
+    },
+    "D.0065": {
+      "code": "D.0065",
+      "name": "Konfusi Kronis",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Kurang motivasi untuk memulai/menyelesaikan perilaku berorientasi tujuan",
+          "Kurang motivasi untuk memulai/menyelesaikan perilaku terarah"
+        ],
+        "objective": [
+          "Fungsi kognitif berubah progresif",
+          "Memori jangka pendek dan/atau Panjang berubah",
+          "Interpretasi berubah",
+          "Fungsi sosial terganggu",
+          "Respon terhadap stimulus berubah"
+        ]
+      },
+      "related_factors": [
+        "Cidera otak (mis: kerusakan kardiovaskular, penyakit neurologis, trauma, tumor)",
+        "Psikosis Korsakoff",
+        "Demensia multi infark"
+      ],
+      "expected_outcomes": {
+        "code": "L.06054",
+        "name": "Tingkat konfusi menurun",
+        "criteria": [
+          "Fungsi kognitif meningkat",
+          "Tingkat kesadaran meningkat",
+          "Aktivitas psikomotorik meningkat",
+          "Motivasi memulai/menyelesaikan perilaku terarah meningkat",
+          "Memori jangka pendek meningkat",
+          "Memori jangka Panjang meningkat",
+          "Interpretasi membaik",
+          "Fungsi sosial membaik",
+          "Respons terhadap stimulus membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.06189",
+          "name": "Manajemen Delirium"
+        },
+        {
+          "code": "I.09286",
+          "name": "Manajemen Demensia"
+        },
+        {
+          "code": "I.09332",
+          "name": "Terapi Validasi"
+        }
+      ],
+      "category": "Neurosensori"
+    },
+    "D.0066": {
+      "code": "D.0066",
+      "name": "Penurunan Kapasitas Adaptif Intrakranial",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Sakit kepala"
+        ],
+        "objective": [
+          "Tekanan darah meningkat dengan tekanan nadi (pulse pressure) melebar",
+          "Bradikardia",
+          "Pola napas ireguler",
+          "Tingkat kesadaran menurun",
+          "Respon pupil melambat atau tidak sama",
+          "Refleks neurologis terganggu"
+        ]
+      },
+      "related_factors": [
+        "Lesi menempati ruang (mis: space-occupaying lesion – akibat tumor, abses)",
+        "Gangguan metabolisme (mis: akibat hiponatremia, ensefalofati uremikum, ensefalopati hepatikum, ketoasidosis diabetic, septikemia)",
+        "Edema serebral (mis: akibat cidera kepala [hematoma epidural, hematoma subdural, hematoma subarachnoid, hematoma intraserebral], stroke iskemik, stroke hemoragik, hipoksia, ensefalopati iskemik, pasca operasi)",
+        "Peningkatan tekanan vena (mis: akibat thrombosis sinus vena serebral, gagal jantung, thrombosis/obstruksi vena jugularis atau vena kava superior)",
+        "Obstruksi aliran cairan serebrospinalis",
+        "Hipertensi intrakranial idiopatik"
+      ],
+      "expected_outcomes": {
+        "code": "L.06049",
+        "name": "Kapasitas adaptif intrakranial meningkat",
+        "criteria": [
+          "Tingkat kesadaran meningkat",
+          "Sakit kepala menurun",
+          "Bradikaria menurun",
+          "Tekanan darah membaik",
+          "Tekanan nadi membaik",
+          "Pola napas membaik",
+          "Respon pupil membaik",
+          "Refleks neurologis membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.06194",
+          "name": "Manajemen Peningkatan Tekanan Intrakranial"
+        },
+        {
+          "code": "I.06198",
+          "name": "Pemantauan Tekanan Intrakranial"
+        }
+      ],
+      "category": "Neurosensori"
+    },
+    "D.0067": {
+      "code": "D.0067",
+      "name": "Risiko Disfungsi Neurovaskuler Perifer",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Hiperglikemia",
+        "Obstruksi vaskuler",
+        "Fraktur",
+        "Imobilisasi",
+        "Penekanan mekanis (mis: torniket, gips, balutan, restraint)",
+        "Pembedahan ortopedi",
+        "Trauma",
+        "Luka bakar"
+      ],
+      "expected_outcomes": {
+        "code": "L.06051",
+        "name": "Neurovaskuler perifer meningkat",
+        "criteria": [
+          "Sirkulasi arteri meningkat",
+          "Sirkulasi vena meningkat",
+          "Nyeri menurun",
+          "Nadi membaik",
+          "Suhu tubuh membaik",
+          "Warna kulit membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.06195",
+          "name": "Manajemen Sensasi Perifer"
+        },
+        {
+          "code": "I.01019",
+          "name": "Pengaturan Posisi"
+        }
+      ],
+      "category": "Neurosensori"
+    },
+    "D.0068": {
+      "code": "D.0068",
+      "name": "Risiko Konfusi Akut",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Usia di atas 60 tahun",
+        "Perubahan fungsi kognitif",
+        "Perubahan siklus tidur – bangun",
+        "Dehidrasi",
+        "Demensia",
+        "Riwayat stroke",
+        "Gangguan fungsi metabolik (mis: azotemia, penurunan hemoglobin, ketidakseimbangan elektrolit, peningkatan nitrogen urea darah [BUN]/kreatinin)",
+        "Gangguan mobilitas",
+        "Penggunaan restraint yang tidak tepat",
+        "Infeksi",
+        "Malnutrisi",
+        "Nyeri",
+        "Efek agen farmakologis",
+        "Deprivasi sensori",
+        "Penyalahgunaan zat"
+      ],
+      "expected_outcomes": {
+        "code": "L.06054",
+        "name": "Tingkat konfusi menurun",
+        "criteria": [
+          "Fungsi kognitif meningkat",
+          "Tingkat kesadaran meningkat",
+          "Aktivitas psikomotorik meningkat",
+          "Motivasi memulai/menyelesaikan perilaku terarah meningkat",
+          "Memori jangka pendek meningkat",
+          "Memori jangka Panjang meningkat",
+          "Interpretasi membaik",
+          "Fungsi sosial membaik",
+          "Respons terhadap stimulus membaik"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.08238",
+          "name": "Manajemen Nyeri"
+        },
+        {
+          "code": "I.09286",
+          "name": "Manajemen Demensia"
+        },
+        {
+          "code": "I.14539",
+          "name": "Pencegahan Infeksi"
+        }
+      ],
+      "category": "Neurosensori"
+    }
   }
 }

@@ -1,18 +1,483 @@
 {
   "category": "Interaksi Sosial",
-  "description": "Diagnosis terkait interaksi sosial, komunikasi, dan hubungan interpersonal",
-  "diagnoses_count": 11,
+  "description": "Scraped category data for Interaksi Sosial",
   "diagnoses": {
-    "D.0118": {"code": "D.0118", "name": "Gangguan Interaksi Sosial", "definition": "Kuantitas dan/atau kualitas sosial yang kurang atau berlebih", "type": "Aktual"},
-    "D.0119": {"code": "D.0119", "name": "Gangguan Komunikasi Verbal", "definition": "Penurunan, perlambatan, atau ketiadaan kemampuan untuk menerima, memproses, mengirim, dan/atau menggunakan sistem simbol", "type": "Aktual"},
-    "D.0120": {"code": "D.0120", "name": "Gangguan Proses Keluarga", "definition": "Perubahan dalam hubungan atau fungsi keluarga", "type": "Aktual"},
-    "D.0121": {"code": "D.0121", "name": "Isolasi Sosial", "definition": "Ketidakmampuan untuk membina hubungan yang erat, hangat, terbuka, dan interdependen dengan orang lain", "type": "Aktual"},
-    "D.0122": {"code": "D.0122", "name": "Kesiapan Peningkatan Menjadi Orang Tua", "definition": "Pola pemberian lingkungan bagi anak atau anggota keluarga yang cukup untuk memfasilitasi pertumbuhan dan perkembangan serta dapat ditingkatkan", "type": "Promosi Kesehatan"},
-    "D.0123": {"code": "D.0123", "name": "Kesiapan Peningkatan Proses Keluarga", "definition": "Pola fungsi keluarga yang cukup untuk mendukung kesejahteraan anggota keluarga dan dapat ditingkatkan", "type": "Promosi Kesehatan"},
-    "D.0124": {"code": "D.0124", "name": "Ketegangan Peran Pemberi Asuhan", "definition": "Ketidakmampuan untuk membina hubungan yang erat, hangat, terbuka, dan interdependen dengan orang lain", "type": "Aktual"},
-    "D.0125": {"code": "D.0125", "name": "Penampilan Peran Tidak Efektif", "definition": "Pola perilaku yang berubah atau tidak sesuai dengan harapan, norma, dan lingkungan", "type": "Aktual"},
-    "D.0126": {"code": "D.0126", "name": "Pencapaian Peran Menjadi Orang Tua", "definition": "Terjadinya proses interaktif antar anggota keluarga (suami-isteri, anggota keluarga dan bayi) yang ditunjukkan dengan perkembangan bayi yang optimal", "type": "Promosi Kesehatan"},
-    "D.0127": {"code": "D.0127", "name": "Risiko Gangguan Perlekatan", "definition": "Berisiko mengalami gangguan interaksi antara orang tua atau orang terdekat dengan bayi/anak yang dapat mempengaruhi proses asah, asih, dan asuh", "type": "Risiko"},
-    "D.0128": {"code": "D.0128", "name": "Risiko Proses Pengasuhan Tidak Efektif", "definition": "Berisiko mengalami proses kehamilan, persalinan, dan setelah melahirkan termasuk perawatan bayi baru lahir yang tidak sesuai dengan konteks norma dan harapan", "type": "Risiko"}
+    "D.0118": {
+      "code": "D.0118",
+      "name": "Gangguan Interaksi Sosial",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Merasa tidak nyaman dengan situasi sosial",
+          "Merasa sulit menerima atau mengkomunikasikan perasaan"
+        ],
+        "objective": [
+          "Kurang responsive atau tertarik pada orang lain",
+          "Tidak berminat melakukan kontak emosi dan fisik"
+        ]
+      },
+      "related_factors": [
+        "Defisiensi bicara",
+        "Hambatan perkembangan/maturase",
+        "Ketiadaan orang terdekat",
+        "Perubahan neurologis (mis: kelahiran prematur, distres fetal, persalinan cepat, atau persalinan lama)",
+        "Disfungsi sistem keluarga",
+        "Ketidakteraturan atau kekacauan lingkungan",
+        "Penganiayaan atau pengabaian anak",
+        "Hubungan orang tua-anak tidak memuaskan",
+        "Model peran negatif",
+        "Impulsif",
+        "Perilaku menentang",
+        "Perilaku agresif",
+        "Keengganan berpisah dengan orang terdekat"
+      ],
+      "expected_outcomes": {
+        "code": "L.13115",
+        "name": "Interaksi sosial meningkat",
+        "criteria": [
+          "Perasaan nyaman dengan situasi sosial meningkat",
+          "Perasaan mudah menerima atau mengkomunikasikan perasaan meningkat",
+          "Responsif pada orang lain meningkat",
+          "Minat melakukan kontak emosi meningkat",
+          "Minat melakukan kontak fisik meningkat"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.13484",
+          "name": "Modifikasi Perilaku Keterampilan Sosial"
+        },
+        {
+          "code": "I.13498",
+          "name": "Promosi Sosialisasi"
+        }
+      ],
+      "category": "Interaksi Sosial"
+    },
+    "D.0119": {
+      "code": "D.0119",
+      "name": "Gangguan Komunikasi Verbal",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": [
+          "Tidak mampu berbicara atau mendengar",
+          "Menunjukkan respon tidak sesuai"
+        ]
+      },
+      "related_factors": [
+        "Penurunan sirkulasi serebral",
+        "Gangguan neuromuskuler",
+        "Gangguan pendengaran",
+        "Gangguan muskuloskeletal",
+        "Kelainan palatum",
+        "Hambatan fisik (misal: terpasang trakeostomi, intubasi, krikotiroidektomi)",
+        "Hambatan individu (misal: ketakutan, kecemasan, merasa malu, emosional, kurang privasi)",
+        "Hambatan psikologis (misal: gangguan psikotik, gangguan konsep diri, harga diri rendah, gangguan emosi)",
+        "Hambatan lingkungan (misal: ketidakcukupan informasi,ketiadaan orang terdekat, ketidaksesuaian budaya, Bahasa asing)"
+      ],
+      "expected_outcomes": {
+        "code": "L.13118",
+        "name": "Komunikasi verbal meningkat",
+        "criteria": [
+          "Kemampuan berbicara meningkat",
+          "Kemampuan mendengar meningkat",
+          "Kesesuaian ekspresi wajah/tubuh meningkat"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.13492",
+          "name": "Promosi Komunikasi: Defisit Bicara"
+        },
+        {
+          "code": "I.13493",
+          "name": "Promosi Komunikasi: Defisit Pendengaran"
+        },
+        {
+          "code": "I.13494",
+          "name": "Promosi Komunikasi: Defisit Visual"
+        }
+      ],
+      "category": "Interaksi Sosial"
+    },
+    "D.0120": {
+      "code": "D.0120",
+      "name": "Gangguan Proses Keluarga",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": [
+          "Keluarga tidak mampu beradaptasi terhadap situasi",
+          "Tidak mampu berkomunikasi secara terbuka diantara anggota keluarga"
+        ]
+      },
+      "related_factors": [
+        "Perubahan status Kesehatan anggota keluarga",
+        "Perubahan finansial keluarga",
+        "Perubahan status sosial keluarga",
+        "Perubahan interaksi dengan masyarakat",
+        "Krisis perkembangan",
+        "Transisi perkembangan",
+        "Peralihan pengambil keputusan dalam keluarga",
+        "Perubahan peran keluarga",
+        "Krisis situasional",
+        "Transisi situasional"
+      ],
+      "expected_outcomes": {
+        "code": "L.13124",
+        "name": "Proses keluarga membaik",
+        "criteria": [
+          "Adaptasi keluarga terhadap situasi meningkat",
+          "Kemampuan keluarga berkomunikasi secara terbuka diantara anggota keluarga meningkat"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.09260",
+          "name": "Dukungan Koping Keluarga"
+        },
+        {
+          "code": "I.13496",
+          "name": "Promosi Proses Efektif Keluarga"
+        },
+        {
+          "code": "I.09322",
+          "name": "Terapi Keluarga"
+        }
+      ],
+      "category": "Interaksi Sosial"
+    },
+    "D.0121": {
+      "code": "D.0121",
+      "name": "Isolasi Sosial",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Merasa ingin sendirian",
+          "Merasa tidak aman di tempat umum"
+        ],
+        "objective": [
+          "Menarik diri",
+          "Tidak berminat/menolak berinteraksi dengan orang lain atau lingkungan"
+        ]
+      },
+      "related_factors": [
+        "Keterlambatan perkembangan",
+        "Ketidakmampuan menjalin hubungan yang memuaskan",
+        "Ketidaksesuaian minat dengan tahap perkembangan",
+        "Ketidaksesuaian nilai-nilai dengan norma",
+        "Ketidaksesuaian perilaku sosial dengan norma",
+        "Perubahan penampilan fisik",
+        "Perubahan status mental",
+        "Ketidakadekuatan sumber daya personal (mis: disfungsi berduka, pengendalian diri buruk)"
+      ],
+      "expected_outcomes": {
+        "code": "L.13116",
+        "name": "Keterlibatan sosial meningkat",
+        "criteria": [
+          "Minat interaksi meningkat",
+          "Verbalisasi isolasi menurun",
+          "Verbalisasi ketidakamanan ditempat umum menurun",
+          "Perilaku menarik diri menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.13498",
+          "name": "Promosi Sosialisasi"
+        },
+        {
+          "code": "I.01026",
+          "name": "Terapi Aktivitas"
+        }
+      ],
+      "category": "Interaksi Sosial"
+    },
+    "D.0122": {
+      "code": "D.0122",
+      "name": "Kesiapan Peningkatan Menjadi Orang Tua",
+      "definition": ": “peran menjadi orang tua membaik.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengekspresikan keinginan untuk meningkatkan peran menjadi orang tua"
+        ],
+        "objective": [
+          "Tampak adanya dukungan emosi dan pengertian pada anak atau anggota keluarga"
+        ]
+      },
+      "related_factors": [],
+      "expected_outcomes": {
+        "code": "L.13120",
+        "name": "Peran menjadi orang tua membaik",
+        "criteria": [
+          "Bounding attachment meningkat",
+          "Perilaku positif menjadi orang tua meningkat",
+          "Interaksi perawatan bayi meningkat"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.12466",
+          "name": "Promosi Antisipasi Keluarga"
+        },
+        {
+          "code": "I.13495",
+          "name": "Promosi Pengasuhan"
+        }
+      ],
+      "category": "Interaksi Sosial"
+    },
+    "D.0123": {
+      "code": "D.0123",
+      "name": "Kesiapan Peningkatan Proses Keluarga",
+      "definition": ": “proses keluarga membaik.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Mengekspresikan keinginan untuk meningkatkan dinamika keluarga"
+        ],
+        "objective": [
+          "Menunjukkan fungsi keluarga dalam memenuhi kebutuhan fisik, sosial, dan psikologis anggota keluarga",
+          "Menunjukkan aktivitas untuk mendukung keselamatan dan pertumbuhan anggota keluarga",
+          "Peran keluarga fleksibel dan tepat dengan tahap perkembangan",
+          "Terlihat adanya respek dengan anggota keluarga"
+        ]
+      },
+      "related_factors": [],
+      "expected_outcomes": {
+        "code": "L.13123",
+        "name": "Proses keluarga membaik",
+        "criteria": [
+          "Adaptasi keluarga terhadap situasi meningkat",
+          "Kemampuan keluarga berkomunikasi secara terbuka di antara anggota keluarga meningkat"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.13490",
+          "name": "Promosi Keutuhan Keluarga"
+        },
+        {
+          "code": "I.13496",
+          "name": "Promosi Proses Efektif Keluarga"
+        }
+      ],
+      "category": "Interaksi Sosial"
+    },
+    "D.0124": {
+      "code": "D.0124",
+      "name": "Ketegangan Peran Pemberi Asuhan",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Khawatir klien akan Kembali dirawat di rumah sakit",
+          "Khawatir tentang kelanjutan perawatan klien",
+          "Khawatir tentang ketidakmampuan pemberi asuhan"
+        ],
+        "objective": []
+      },
+      "related_factors": [
+        "Beratnya penyakit penerima asuhan",
+        "Kronisnya penyakit penerima asuhan",
+        "Pemberi asuhan kurang mendapatkan waktu istirahat dan rekreasi",
+        "Persaingan komitmen peran pemberi asuhan",
+        "Ketidakadekuatan lingkungan fisik dalam pemberian asuhan",
+        "Keluarga atau pemberi asuhan jauh dari kerabat lain",
+        "Kompleksitas dan jumlah aktivitas pemberi asuhan"
+      ],
+      "expected_outcomes": {
+        "code": "L.13121",
+        "name": "Peran pemberi asuhan membaik",
+        "criteria": [
+          "Kemampuan memberi asuhan meningkat",
+          "Kemampuan merawat pasien meningkat",
+          "Kekhawatiran dirawat kembali menurun",
+          "Kekhawatiran kelanjutan perawatan menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.12402",
+          "name": "Edukasi Pada Pengasuh"
+        },
+        {
+          "code": "I.13495",
+          "name": "Promosi Pengasuhan"
+        }
+      ],
+      "category": "Interaksi Sosial"
+    },
+    "D.0125": {
+      "code": "D.0125",
+      "name": "Penampilan Peran Tidak Efektif",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Merasa bingung menjalankan peran",
+          "Merasa harapan tidak terpenuhi",
+          "Merasa tidak puas dalam menjalankan peran"
+        ],
+        "objective": [
+          "Konflik peran",
+          "Adaptasi tidak adekuat",
+          "Strategi koping tidak efektif"
+        ]
+      },
+      "related_factors": [
+        "Harapan peran tidak realistis",
+        "Hambatan fisik",
+        "Harga diri rendah",
+        "Perubahan citra tubuh",
+        "Ketidakadekuatan sistem pendukung (support system)",
+        "Stres",
+        "Perubahan peran",
+        "Faktor ekonomi"
+      ],
+      "expected_outcomes": {
+        "code": "L.13119",
+        "name": "Penampilan peran membaik",
+        "criteria": [
+          "Verbalisasi harapan terpenuhi meningkat",
+          "Verbalisasi kepuasan peran meningkat",
+          "Verbalisasi keluasan peran meningkat",
+          "Adaptasi peran meningkat",
+          "Strategi koping yang efektif meningkat",
+          "Verbalisasi perasaan bingung menjalankan peran menurun",
+          "Konlik peran menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.13478",
+          "name": "Dukungan Penampilan Peran"
+        }
+      ],
+      "category": "Interaksi Sosial"
+    },
+    "D.0126": {
+      "code": "D.0126",
+      "name": "Pencapaian Peran Menjadi Orang Tua",
+      "definition": ": “peran menjadi orang tua membaik.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Tidak tersedia"
+        ],
+        "objective": [
+          "Bounding attachment optimal",
+          "Perilaku positif menjadi orang tua",
+          "Saling berinteraksi dalam merawat bayi"
+        ]
+      },
+      "related_factors": [],
+      "expected_outcomes": {
+        "code": "L.13120",
+        "name": "Peran menjadi orang tua membaik",
+        "criteria": [
+          "Bounding attachment meningkat",
+          "Perilaku positif menjadi orang tua meningkat",
+          "Interaksi perawatan bayi meningkat"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.12466",
+          "name": "Promosi Antisipasi Keluarga"
+        },
+        {
+          "code": "I.13495",
+          "name": "Promosi Pengasuhan"
+        }
+      ],
+      "category": "Interaksi Sosial"
+    },
+    "D.0127": {
+      "code": "D.0127",
+      "name": "Risiko Gangguan Perlekatan",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Kekhawatiran menjalankan peran sebagai orang tua",
+        "Perpisahan antara ibu dan bayi/anak akibat hospitalisasi",
+        "Penghalang fisik (mis: incubator, baby warmer)",
+        "Ketidakmampuan orang tua memenuhi kebutuhan bayi/anak",
+        "Perawatan dalam ruang isolasi",
+        "Prematuritas",
+        "Penyalahgunaan zat",
+        "Konflik hubungan antara orang tua dan anak",
+        "Perilaku bayi tidak terkoordinasi"
+      ],
+      "expected_outcomes": {
+        "code": "L.13122",
+        "name": "Perlekatan meningkat",
+        "criteria": [
+          "Mempraktikkan perilaku sehat selama hamil meningkat",
+          "Menyiapkan perlengkapan bayi sebelum kelahiran meningkat",
+          "Verbalisasi perasaan positif terhadap bayi meningkat",
+          "Mencium bayi meningkat",
+          "Melakukan kontak mata dengan bayi meningkat",
+          "Berbicara dengan bayi meningkat",
+          "Bermain dengan bayi meningkat",
+          "Berespons dengan isyarat bayi meningkat",
+          "Kekhawatiran menjalankan peran orang tua menurun",
+          "Konflik hubungan orang tua dan bayi/anak menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.10342",
+          "name": "Promosi Perlekatan"
+        },
+        {
+          "code": "I.13490",
+          "name": "Promosi Keutuhan Keluarga"
+        }
+      ],
+      "category": "Interaksi Sosial"
+    },
+    "D.0128": {
+      "code": "D.0128",
+      "name": "Risiko Proses Pengasuhan Tidak Efektif",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Kekerasan dalam rumah tangga",
+        "Kehamilan tidak diinginkan/direncanakan",
+        "Kurang terpapar informasi tentang proses persalinan/pengasuhan",
+        "Ketidakberdayaan maternal",
+        "Distres psikologis",
+        "Penyalahgunaan obat",
+        "Ketidakadekuatan manajemen ketidaknyamanan selama persalinan",
+        "Akses pelayanan Kesehatan sulit dijangkau",
+        "Kurangnya minat/proaktif dalam proses persalinan",
+        "Ketidaksesuaian kondisi bayi dengan harapan",
+        "Ketidakamanan lingkungan untuk bayi"
+      ],
+      "expected_outcomes": {
+        "code": "L.13124",
+        "name": "Proses pengasuhan membaik",
+        "criteria": [
+          "Terpapar informasi tentang proses persalinan/pengasuhan meningkat",
+          "Kekerasan dalam rumah tangga menurun",
+          "Stres psikologis menurun"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.13490",
+          "name": "Promosi Keutuhan Keluarga"
+        },
+        {
+          "code": "I.10342",
+          "name": "Promosi Perlekatan"
+        }
+      ],
+      "category": "Interaksi Sosial"
+    }
   }
 }

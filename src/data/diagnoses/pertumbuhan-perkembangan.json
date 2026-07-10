@@ -1,10 +1,146 @@
 {
   "category": "Pertumbuhan dan Perkembangan",
-  "description": "Diagnosis terkait tumbuh kembang dan perkembangan individu",
-  "diagnoses_count": 3,
+  "description": "Scraped category data for Pertumbuhan dan Perkembangan",
   "diagnoses": {
-    "D.0106": {"code": "D.0106", "name": "Gangguan Tumbuh Kembang", "definition": "Kondisi individu mengalami gangguan kemampuan bertumbuh dan berkembang sesuai dengan kelompok usia", "type": "Aktual"},
-    "D.0107": {"code": "D.0107", "name": "Risiko Gangguan Perkembangan", "definition": "Berisiko mengalami gangguan untuk berkembang sesuai dengan kelompok usianya", "type": "Risiko"},
-    "D.0108": {"code": "D.0108", "name": "Risiko Gangguan Pertumbuhan", "definition": "Berisiko mengalami gangguan untuk bertumbuh sesuai dengan kelompok usianya", "type": "Risiko"}
+    "D.0106": {
+      "code": "D.0106",
+      "name": "Gangguan Tumbuh Kembang",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [
+          "Tidak tersedia"
+        ],
+        "objective": [
+          "Tidak mampu melakukan keterampilan atau perilaku khas sesuai usia (fisik, bahasa, motorik, psikososial)",
+          "Pertumbuhan fisik terganggu"
+        ]
+      },
+      "related_factors": [
+        "Efek ketidakmampuan fisik",
+        "Keterbatasan lingkungan",
+        "Inkonsistensi respon",
+        "Pengabaian",
+        "Terpisah dari orang tua dan/atau orang terdekat",
+        "Defisiensi stimulus"
+      ],
+      "expected_outcomes": {
+        "code": "",
+        "name": "Status perkembangan membaik",
+        "criteria": [
+          "Keterampilan/perilaku sesuai usia meningkat",
+          "Kemampuan melakukan perawatan diri meningkat"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.10339",
+          "name": "Perawatan perkembangan"
+        },
+        {
+          "code": "I.10340",
+          "name": "Promosi perkembangan anak"
+        },
+        {
+          "code": "I.10341",
+          "name": "Promosi perkembangan remaja"
+        }
+      ],
+      "category": "Pertumbuhan dan Perkembangan"
+    },
+    "D.0107": {
+      "code": "D.0107",
+      "name": "Risiko Gangguan Perkembangan",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Ketidakadekuatan nutrisi",
+        "Ketidakadekuatan perawatan prenatal",
+        "Keterlambatan perawatan prenatal",
+        "Usia hamil di bawah 15 tahun",
+        "Usia hamil di atas 35 tahun",
+        "Kehamilan tidak terencana",
+        "Kehamilan tidak diinginkan",
+        "Gangguan endokrin",
+        "Prematuritas",
+        "Kelainan genetik/kongenital",
+        "Kerusakan otak (mis: perdarahan selama periode pascanatal, penganiayaan, kecelakaan)",
+        "Penyakit kronis",
+        "Infeksi",
+        "Efek samping terapi (mis: kemoterapi, terapi radiasi, agen farmakologis)",
+        "Penganiayaan (mis: fisik, psikologis, seksual)",
+        "Gangguan pendengaran",
+        "Gangguan penglihatan",
+        "Penyalahgunaan zat",
+        "Ketidakmampuan belajar",
+        "Anak adopsi",
+        "Kejadian bencana",
+        "Ekonomi lemah"
+      ],
+      "expected_outcomes": {
+        "code": "L.10101",
+        "name": "Status perkembangan membaik",
+        "criteria": [
+          "Keterampilan/perilaku sesuai usia meningkat",
+          "Kemampuan melakukan perawatan diri meningkat"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.10340",
+          "name": "Promosi perkembangan anak"
+        },
+        {
+          "code": "I.10341",
+          "name": "Promosi perkembangan remaja"
+        }
+      ],
+      "category": "Pertumbuhan dan Perkembangan"
+    },
+    "D.0108": {
+      "code": "D.0108",
+      "name": "Risiko Gangguan Pertumbuhan",
+      "definition": ":.",
+      "signs_and_symptoms": {
+        "subjective": [],
+        "objective": []
+      },
+      "related_factors": [
+        "Ketidakadekuatan nutrisi",
+        "Penyakit kronis",
+        "Nafsu makan tidak terkontrol",
+        "Prematuritas",
+        "Terpapar teratogen",
+        "Ketidakadekuatan nutrisi maternal",
+        "Proses infeksi",
+        "Proses infeksi maternal",
+        "Perilaku maladaptif",
+        "Penyalahgunaan zat",
+        "Kelainan genetik/kongenital",
+        "Penganiayaan (mis: fisik, psikologis, seksual)",
+        "Ekonomi lemah"
+      ],
+      "expected_outcomes": {
+        "code": "L.10102",
+        "name": "Status pertumbuhan membaik",
+        "criteria": [
+          "Berat badan sesuai dengan usia",
+          "Panjang/tinggi badan sesuai usia"
+        ]
+      },
+      "interventions": [
+        {
+          "code": "I.14581",
+          "name": "Skrining kesehatan"
+        },
+        {
+          "code": "I.03119",
+          "name": "Manajemen Nutrisi"
+        }
+      ],
+      "category": "Pertumbuhan dan Perkembangan"
+    }
   }
 }
