@@ -166,7 +166,8 @@ for (const category of categories) {
       },
       siki: diag.interventions ? diag.interventions.map((int: any) => ({
         kode: int.code,
-        nama: int.name
+        nama: int.name,
+        tindakan: int.tindakan || {}
       })) : []
     };
 

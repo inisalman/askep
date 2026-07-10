@@ -5,7 +5,7 @@
     "D.0074": {
       "code": "D.0074",
       "name": "Gangguan Rasa Nyaman",
-      "definition": ":.",
+      "definition": "Gangguan rasa nyaman merupakan diagnosis keperawatan yang didefinisikan sebagai perasaan kurang senang, lega, dan sempurna dalam...",
       "signs_and_symptoms": {
         "subjective": [
           "Mengeluh tidak nyaman"
@@ -34,15 +34,92 @@
       "interventions": [
         {
           "code": "I.08238",
-          "name": "Manajemen Nyeri"
+          "name": "Manajemen Nyeri",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi lokasi, karakteristik, durasi, frekuensi, kualitas, intensitas nyeri",
+              "Identifikasi skala nyeri",
+              "Idenfitikasi respon nyeri non verbal",
+              "Identifikasi faktor yang memperberat dan memperingan nyeri",
+              "Identifikasi pengetahuan dan keyakinan tentang nyeri",
+              "Identifikasi pengaruh budaya terhadap respon nyeri",
+              "Identifikasi pengaruh nyeri pada kualitas hidup",
+              "Monitor keberhasilan terapi komplementer yang sudah diberikan",
+              "Monitor efek samping penggunaan analgetik",
+              "Berikan Teknik nonfarmakologis untuk mengurangi nyeri (mis: TENS, hypnosis, akupresur, terapi music, biofeedback, terapi pijat, aromaterapi, Teknik imajinasi terbimbing, kompres hangat/dingin, terapi bermain)",
+              "Kontrol lingkungan yang memperberat rasa nyeri (mis: suhu ruangan, pencahayaan, kebisingan)",
+              "Fasilitasi istirahat dan tidur",
+              "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri",
+              "Jelaskan penyebab, periode, dan pemicu nyeri",
+              "Jelaskan strategi meredakan nyeri",
+              "Anjurkan memonitor nyeri secara mandiri",
+              "Anjurkan menggunakan analgesik secara tepat",
+              "Ajarkan Teknik farmakologis untuk mengurangi nyeri",
+              "Kolaborasi pemberian analgetik, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.01019",
-          "name": "Pengaturan Posisi"
+          "name": "Pengaturan Posisi",
+          "tindakan": {
+            "terapeutik": [
+              "Monitor status oksigenasi sebelum dan sesudah mengubah posisi",
+              "Monitor alat traksi agar selalu tepat",
+              "Tempatkan pada matras/tempat tidur terapeutik yang tepat",
+              "Tempatkan pada posisi terapeutik",
+              "Tempatkan objek yang sering digunakan dalam jangkauan",
+              "Tempatkan bel atau lampu panggilan dalam jangkauan",
+              "Sediakan matras yang kokoh/padat",
+              "Atur posisi tidur yang disukai, jika tidak kontraindikasi",
+              "Atur posisi untuk mengurangi sesak (mis: semi-fowler)",
+              "Atur posisi yang meningkatkan drainage",
+              "Posisikan pada kesejajaran tubuh yang tepat",
+              "Imobilisasi dan topang bagian tubuh yang cidera dengan tepat",
+              "Tinggikan bagian tubuh yang sakit dengan tepat",
+              "Tinggikan anggota gerak 20° atau lebih diatas level jantung",
+              "Tinggikan tempat tidur bagian kepala",
+              "Berikan bantal yang tepat pada leher",
+              "Berikan topangan pada area edema (mis: bantal dibawah lengan atau skrotum)",
+              "Posisikan untuk mempermudah ventilasi/perfusi (mis: tengkurap/good lung down)",
+              "Motivasi melakukan ROM aktif atau ROM pasif",
+              "Motivasi terlibat dalam perubahan posisi, sesuai kebutuhan",
+              "Hindari menempatkan pada posisi yang dapat meningkatkan nyeri",
+              "Hindari menempatkan stump amputasi pada posisi fleksi",
+              "Hindari posisi yang menimbulkan ketegangan pada luka",
+              "Minimalkan gesekan dan tarikan saat mengubah posisi",
+              "Ubah posisi setiap 2 jam",
+              "Ubah posisi dengan Teknik log roll",
+              "Pertahankan posisi dan integritas traksi",
+              "Informasikan saat akan dilakukan perubahan posisi",
+              "Ajarkan cara menggunakan postur yang baik dan mekanika tubuh yang baik selama melakukan perubahan posisi",
+              "Kolaborasi pemberian premedikasi sebelum mengubah posisi, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.09326",
-          "name": "Terapi relaksasi"
+          "name": "Terapi relaksasi",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi penurunan tingkat energi, ketidakmampuan berkonsentrasi, atau gejala lain yang mengganggu kemampuan kognitif",
+              "Identifikasi Teknik relaksasi yang pernah efektif digunakan",
+              "Identifikasi kesediaan, kemampuan, dan penggunaan Teknik sebelumnya",
+              "Periksa ketegangan otot, frekuensi nadi, tekanan darah, dan suhu sebelum dan sesudah Latihan",
+              "Monitor respons terhadap terapi relaksasi",
+              "Ciptakan lingkungan tenang dan tanpa gangguan dengan pencahayaan dan suhu ruang nyaman, jika memungkinkan",
+              "Berikan informasi tertulis tentang persiapan dan prosedur teknik relaksasi",
+              "Gunakan pakaian longgar",
+              "Gunakan nada suara lembut dengan irama lambat dan berirama",
+              "Gunakan relaksasi sebagai strategi penunjang dengan analgetik atau Tindakan medis lain, jika sesuai",
+              "Jelaskan tujuan, manfaat, Batasan, dan jenis relaksasi yang tersedia (mis: musik, meditasi, napas dalam, relaksasi otot progresif)",
+              "Jelaskan secara rinci intervensi relaksasi yang dipilih",
+              "Anjurkan mengambil posisi nyaman",
+              "Anjurkan rileks dan merasakan sensasi relaksasi",
+              "Anjurkan sering mengulangi atau melatih Teknik yang dipilih",
+              "Demonstrasikan dan latih Teknik relaksasi (mis: napas dalam, peregangan, atau imajinasi terbimbing)"
+            ]
+          }
         }
       ],
       "category": "Nyeri dan Kenyamanan"
@@ -50,7 +127,7 @@
     "D.0075": {
       "code": "D.0075",
       "name": "Ketidaknyamanan Pasca Partum",
-      "definition": ":.",
+      "definition": "Ketidaknyamanan pasca partum merupakan diagnosis keperawatan yang didefinisikan sebagai perasaan tidak nyaman yang berhubungan dengan...",
       "signs_and_symptoms": {
         "subjective": [
           "Mengeluh tidak nyaman"
@@ -84,11 +161,54 @@
       "interventions": [
         {
           "code": "I.08238",
-          "name": "Manajemen Nyeri"
+          "name": "Manajemen Nyeri",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi lokasi, karakteristik, durasi, frekuensi, kualitas, intensitas nyeri",
+              "Identifikasi skala nyeri",
+              "Idenfitikasi respon nyeri non verbal",
+              "Identifikasi faktor yang memperberat dan memperingan nyeri",
+              "Identifikasi pengetahuan dan keyakinan tentang nyeri",
+              "Identifikasi pengaruh budaya terhadap respon nyeri",
+              "Identifikasi pengaruh nyeri pada kualitas hidup",
+              "Monitor keberhasilan terapi komplementer yang sudah diberikan",
+              "Monitor efek samping penggunaan analgetik",
+              "Berikan Teknik nonfarmakologis untuk mengurangi nyeri (mis: TENS, hypnosis, akupresur, terapi music, biofeedback, terapi pijat, aromaterapi, Teknik imajinasi terbimbing, kompres hangat/dingin, terapi bermain)",
+              "Kontrol lingkungan yang memperberat rasa nyeri (mis: suhu ruangan, pencahayaan, kebisingan)",
+              "Fasilitasi istirahat dan tidur",
+              "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri",
+              "Jelaskan penyebab, periode, dan pemicu nyeri",
+              "Jelaskan strategi meredakan nyeri",
+              "Anjurkan memonitor nyeri secara mandiri",
+              "Anjurkan menggunakan analgesik secara tepat",
+              "Ajarkan Teknik farmakologis untuk mengurangi nyeri",
+              "Kolaborasi pemberian analgetik, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.09326",
-          "name": "Terapi relaksasi"
+          "name": "Terapi relaksasi",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi penurunan tingkat energi, ketidakmampuan berkonsentrasi, atau gejala lain yang mengganggu kemampuan kognitif",
+              "Identifikasi Teknik relaksasi yang pernah efektif digunakan",
+              "Identifikasi kesediaan, kemampuan, dan penggunaan Teknik sebelumnya",
+              "Periksa ketegangan otot, frekuensi nadi, tekanan darah, dan suhu sebelum dan sesudah Latihan",
+              "Monitor respons terhadap terapi relaksasi",
+              "Ciptakan lingkungan tenang dan tanpa gangguan dengan pencahayaan dan suhu ruang nyaman, jika memungkinkan",
+              "Berikan informasi tertulis tentang persiapan dan prosedur teknik relaksasi",
+              "Gunakan pakaian longgar",
+              "Gunakan nada suara lembut dengan irama lambat dan berirama",
+              "Gunakan relaksasi sebagai strategi penunjang dengan analgetik atau Tindakan medis lain, jika sesuai",
+              "Jelaskan tujuan, manfaat, Batasan, dan jenis relaksasi yang tersedia (mis: musik, meditasi, napas dalam, relaksasi otot progresif)",
+              "Jelaskan secara rinci intervensi relaksasi yang dipilih",
+              "Anjurkan mengambil posisi nyaman",
+              "Anjurkan rileks dan merasakan sensasi relaksasi",
+              "Anjurkan sering mengulangi atau melatih Teknik yang dipilih",
+              "Demonstrasikan dan latih Teknik relaksasi (mis: napas dalam, peregangan, atau imajinasi terbimbing)"
+            ]
+          }
         }
       ],
       "category": "Nyeri dan Kenyamanan"
@@ -96,7 +216,7 @@
     "D.0076": {
       "code": "D.0076",
       "name": "Nausea",
-      "definition": ":.",
+      "definition": "Nausea merupakan diagnosis keperawatan yang didefinisikan sebagai perasaan tidak nyaman pada bagian belakang tenggorok atau lambung yang...",
       "signs_and_symptoms": {
         "subjective": [
           "Mengeluh mual",
@@ -137,11 +257,52 @@
       "interventions": [
         {
           "code": "I.03117",
-          "name": "Manajemen Mual"
+          "name": "Manajemen Mual",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi pengalaman mual",
+              "Identifikasi isyarat nonverbal ketidaknyamanan (mis: bayi, anak-anak, dan mereka yang tidak dapat berkomunikasi secara efektif)",
+              "Identifikasi dampak mual terhadap kualitas hidup (mis: nafsu makan, aktivitas, kinerja, tanggung jawab peran, dan tidur)",
+              "Identifikasi faktor penyebab mual (mis: pengobatan dan prosedur)",
+              "Identifikasi antiemetik untuk mencegah mual (kecuali mual pada kehamilan)",
+              "Monitor mual (mis: frekuensi, durasi, dan tingkat keparahan)",
+              "Kendalikan faktor lingkungan penyebab mual (mis: bau tidak sedap, suara, dan rangsangan visual yang tidak menyenangkan)",
+              "Kurangi atau hilangkan keadaan penyebab mual (mis: kecemasan, ketakutan, kelelahan)",
+              "Berikan makanan dalam jumlah kecil dan menarik",
+              "Berikan makanan dingin, cairan bening, tidak berbau, dan tidak berwarna, jika perlu",
+              "Anjurkan istirahat dan tidur yang cukup",
+              "Anjurkan sering membersihkan mulut, kecuali jika merangsang mual",
+              "Anjurkan makanan tinggi karbohidrat, dan rendah lemak",
+              "Ajarkan penggunaan teknik non farmakologis untuk mengatasi mual (mis: biofeedback, hipnosis, relaksasi, terapi musik, akupresur)",
+              "Kolaborasi pemberian obat antiemetik, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.03118",
-          "name": "Manajemen Muntah"
+          "name": "Manajemen Muntah",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi pengalaman muntah",
+              "Identifikasi isyarat nonverbal ketidaknyamanan (mis: bayi, anak-anak, dan mereka yang tidak dapat berkomunikasi secara efektif)",
+              "Identifikasi dampak muntah terhadap kualitas hidup (mis: nafsu makan, aktivitas, kinerja, tanggung jawab peran, dan tidur)",
+              "Identifikasi faktor penyebab muntah (mis: pengobatan dan prosedur)",
+              "Identifikasi antiemetik untuk mencegah muntah (kecuali muntah pada kehamilan)",
+              "Monitor muntah (mis: frekuensi, durasi, dan tingkat keparahan)",
+              "Kontrol lingkungan penyebab muntah (mis: bau tidak sedap, suara, dan stimulasi visual yang tidak menyenangkan)",
+              "Kurangi atau hilangkan keadaan penyebab muntah (mis: kecemasan, ketakutan)",
+              "Atur posisi untuk mencegah aspirasi",
+              "Pertahankan kepatenan jalan napas",
+              "Bersihkan mulut dan hidung",
+              "Berikan dukungan fisik saat muntah (mis: membantu membungkuk atau menundukkan kepala)",
+              "Berikan kenyamanan selama muntah (mis: kompres dingin di dahi, atau sediakan pakaian kering dan bersih)",
+              "Berikan cairan yang tidak mengandung karbonasi minimal 30 menit setelah muntah",
+              "Anjurkan membawa kantong plastik untuk menampung muntah",
+              "Anjurkan memperbanyak istirahat",
+              "Ajarkan penggunaan Teknik non farmakologis untuk mengelola muntah (mis: biofeedback, hipnosis, relaksasi, terapi musik, akupresur)",
+              "Kolaborasi pemberian obat antiemetik, jika perlu"
+            ]
+          }
         }
       ],
       "category": "Nyeri dan Kenyamanan"
@@ -149,7 +310,7 @@
     "D.0077": {
       "code": "D.0077",
       "name": "Nyeri Akut",
-      "definition": ":.",
+      "definition": "Nyeri akut merupakan diagnosis keperawatan yang didefinisikan sebagai pengalaman sensorik atau emosional yang berkaitan dengan kerusakan...",
       "signs_and_symptoms": {
         "subjective": [
           "Mengeluh nyeri"
@@ -182,11 +343,49 @@
       "interventions": [
         {
           "code": "I.08238",
-          "name": "Manajemen Nyeri"
+          "name": "Manajemen Nyeri",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi lokasi, karakteristik, durasi, frekuensi, kualitas, intensitas nyeri",
+              "Identifikasi skala nyeri",
+              "Idenfitikasi respon nyeri non verbal",
+              "Identifikasi faktor yang memperberat dan memperingan nyeri",
+              "Identifikasi pengetahuan dan keyakinan tentang nyeri",
+              "Identifikasi pengaruh budaya terhadap respon nyeri",
+              "Identifikasi pengaruh nyeri pada kualitas hidup",
+              "Monitor keberhasilan terapi komplementer yang sudah diberikan",
+              "Monitor efek samping penggunaan analgetik",
+              "Berikan Teknik nonfarmakologis untuk mengurangi nyeri (mis: TENS, hypnosis, akupresur, terapi music, biofeedback, terapi pijat, aromaterapi, Teknik imajinasi terbimbing, kompres hangat/dingin, terapi bermain)",
+              "Kontrol lingkungan yang memperberat rasa nyeri (mis: suhu ruangan, pencahayaan, kebisingan)",
+              "Fasilitasi istirahat dan tidur",
+              "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri",
+              "Jelaskan penyebab, periode, dan pemicu nyeri",
+              "Jelaskan strategi meredakan nyeri",
+              "Anjurkan memonitor nyeri secara mandiri",
+              "Anjurkan menggunakan analgesik secara tepat",
+              "Ajarkan Teknik farmakologis untuk mengurangi nyeri",
+              "Kolaborasi pemberian analgetik, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.08243",
-          "name": "Pemberian Analgesik"
+          "name": "Pemberian Analgesik",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi karakteristik nyeri (mis: pencetus, pereda, kualitas, lokasi, intensitas, frekuensi, durasi)",
+              "Identifikasi Riwayat alergi  obat",
+              "Identifikasi kesesuaian jenis analgesik (mis: narkotika, non-narkotik, atau NSAID) dengan tingkat keparahan nyeri",
+              "Monitor tanda-tanda vital sebelum dan sesudah pemberian analgesik",
+              "Monitor efektifitas analgesik",
+              "Diskusikan jenis analgesik yang disukai untuk mencapai analgesia optimal, jika perlu",
+              "Pertimbangkan penggunaan infus kontinu, atau bolus opioid untuk mempertahankan kadar dalam serum",
+              "Tetapkan target efektifitas analgesik untuk mengoptimalkan respons pasien",
+              "Dokumentasikan respons terhadap efek analgesik dan efek yang tidak diinginkan",
+              "Jelaskan efek terapi dan efek samping obat",
+              "Kolaborasi pemberian dosis dan jenis analgesik, sesuai indikasi"
+            ]
+          }
         }
       ],
       "category": "Nyeri dan Kenyamanan"
@@ -194,7 +393,7 @@
     "D.0078": {
       "code": "D.0078",
       "name": "Nyeri Kronis",
-      "definition": ":.",
+      "definition": "Nyeri kronis merupakan diagnosis keperawatan yang didefinisikan sebagai pengalaman sensorik atau emosional yang berkaitan dengan...",
       "signs_and_symptoms": {
         "subjective": [
           "Mengeluh nyeri",
@@ -235,15 +434,78 @@
       "interventions": [
         {
           "code": "I.08238",
-          "name": "Manajemen Nyeri"
+          "name": "Manajemen Nyeri",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi lokasi, karakteristik, durasi, frekuensi, kualitas, intensitas nyeri",
+              "Identifikasi skala nyeri",
+              "Idenfitikasi respon nyeri non verbal",
+              "Identifikasi faktor yang memperberat dan memperingan nyeri",
+              "Identifikasi pengetahuan dan keyakinan tentang nyeri",
+              "Identifikasi pengaruh budaya terhadap respon nyeri",
+              "Identifikasi pengaruh nyeri pada kualitas hidup",
+              "Monitor keberhasilan terapi komplementer yang sudah diberikan",
+              "Monitor efek samping penggunaan analgetik",
+              "Berikan Teknik nonfarmakologis untuk mengurangi nyeri (mis: TENS, hypnosis, akupresur, terapi music, biofeedback, terapi pijat, aromaterapi, Teknik imajinasi terbimbing, kompres hangat/dingin, terapi bermain)",
+              "Kontrol lingkungan yang memperberat rasa nyeri (mis: suhu ruangan, pencahayaan, kebisingan)",
+              "Fasilitasi istirahat dan tidur",
+              "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri",
+              "Jelaskan penyebab, periode, dan pemicu nyeri",
+              "Jelaskan strategi meredakan nyeri",
+              "Anjurkan memonitor nyeri secara mandiri",
+              "Anjurkan menggunakan analgesik secara tepat",
+              "Ajarkan Teknik farmakologis untuk mengurangi nyeri",
+              "Kolaborasi pemberian analgetik, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.08245",
-          "name": "Perawatan kenyamanan"
+          "name": "Perawatan kenyamanan",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi gejala yang tidak menyenangkan (mis: mual, nyeri, gatal, sesak)",
+              "Identifikasi pemahaman tentang kondisi, situasi dan perasaannya",
+              "Identifikasi masalah emosional dan spiritual",
+              "Berikan posisi yang nyaman",
+              "Berikan kompres dingin atau hangat",
+              "Ciptakan lingkungan yang nyaman",
+              "Berikan pemijatan",
+              "Berikan terapi akupresur",
+              "Berikan terapi hipnosis",
+              "Dukung keluarga dan pengasuh terlibat dalam terapi/pengobatan",
+              "Diskusikan mengenai situasi dan pilihan terapi/pengobatan yang diinginkan",
+              "Jelaskan mengenai kondisi dan pilihan terapi/pengobatan",
+              "Ajarkan terapi relaksasi",
+              "Ajarkan Latihan pernapasan",
+              "Ajarkan Teknik distraksi dan imajinasi terbimbing",
+              "Kolaborasi pemberian analgesik, antipruritus, antihistamin, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.09326",
-          "name": "Terapi relaksasi"
+          "name": "Terapi relaksasi",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi penurunan tingkat energi, ketidakmampuan berkonsentrasi, atau gejala lain yang mengganggu kemampuan kognitif",
+              "Identifikasi Teknik relaksasi yang pernah efektif digunakan",
+              "Identifikasi kesediaan, kemampuan, dan penggunaan Teknik sebelumnya",
+              "Periksa ketegangan otot, frekuensi nadi, tekanan darah, dan suhu sebelum dan sesudah Latihan",
+              "Monitor respons terhadap terapi relaksasi",
+              "Ciptakan lingkungan tenang dan tanpa gangguan dengan pencahayaan dan suhu ruang nyaman, jika memungkinkan",
+              "Berikan informasi tertulis tentang persiapan dan prosedur teknik relaksasi",
+              "Gunakan pakaian longgar",
+              "Gunakan nada suara lembut dengan irama lambat dan berirama",
+              "Gunakan relaksasi sebagai strategi penunjang dengan analgetik atau Tindakan medis lain, jika sesuai",
+              "Jelaskan tujuan, manfaat, Batasan, dan jenis relaksasi yang tersedia (mis: musik, meditasi, napas dalam, relaksasi otot progresif)",
+              "Jelaskan secara rinci intervensi relaksasi yang dipilih",
+              "Anjurkan mengambil posisi nyaman",
+              "Anjurkan rileks dan merasakan sensasi relaksasi",
+              "Anjurkan sering mengulangi atau melatih Teknik yang dipilih",
+              "Demonstrasikan dan latih Teknik relaksasi (mis: napas dalam, peregangan, atau imajinasi terbimbing)"
+            ]
+          }
         }
       ],
       "category": "Nyeri dan Kenyamanan"
@@ -251,7 +513,7 @@
     "D.0079": {
       "code": "D.0079",
       "name": "Nyeri Melahirkan",
-      "definition": ":.",
+      "definition": "Nyeri melahirkan merupakan diagnosis keperawatan yang didefinisikan sebagai pengalaman sensorik atau emosional yang bervariasi dari...",
       "signs_and_symptoms": {
         "subjective": [
           "Mengeluh nyeri",
@@ -281,15 +543,92 @@
       "interventions": [
         {
           "code": "I.08238",
-          "name": "Manajemen Nyeri"
+          "name": "Manajemen Nyeri",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi lokasi, karakteristik, durasi, frekuensi, kualitas, intensitas nyeri",
+              "Identifikasi skala nyeri",
+              "Idenfitikasi respon nyeri non verbal",
+              "Identifikasi faktor yang memperberat dan memperingan nyeri",
+              "Identifikasi pengetahuan dan keyakinan tentang nyeri",
+              "Identifikasi pengaruh budaya terhadap respon nyeri",
+              "Identifikasi pengaruh nyeri pada kualitas hidup",
+              "Monitor keberhasilan terapi komplementer yang sudah diberikan",
+              "Monitor efek samping penggunaan analgetik",
+              "Berikan Teknik nonfarmakologis untuk mengurangi nyeri (mis: TENS, hypnosis, akupresur, terapi music, biofeedback, terapi pijat, aromaterapi, Teknik imajinasi terbimbing, kompres hangat/dingin, terapi bermain)",
+              "Kontrol lingkungan yang memperberat rasa nyeri (mis: suhu ruangan, pencahayaan, kebisingan)",
+              "Fasilitasi istirahat dan tidur",
+              "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri",
+              "Jelaskan penyebab, periode, dan pemicu nyeri",
+              "Jelaskan strategi meredakan nyeri",
+              "Anjurkan memonitor nyeri secara mandiri",
+              "Anjurkan menggunakan analgesik secara tepat",
+              "Ajarkan Teknik farmakologis untuk mengurangi nyeri",
+              "Kolaborasi pemberian analgetik, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.01019",
-          "name": "Pengaturan Posisi"
+          "name": "Pengaturan Posisi",
+          "tindakan": {
+            "terapeutik": [
+              "Monitor status oksigenasi sebelum dan sesudah mengubah posisi",
+              "Monitor alat traksi agar selalu tepat",
+              "Tempatkan pada matras/tempat tidur terapeutik yang tepat",
+              "Tempatkan pada posisi terapeutik",
+              "Tempatkan objek yang sering digunakan dalam jangkauan",
+              "Tempatkan bel atau lampu panggilan dalam jangkauan",
+              "Sediakan matras yang kokoh/padat",
+              "Atur posisi tidur yang disukai, jika tidak kontraindikasi",
+              "Atur posisi untuk mengurangi sesak (mis: semi-fowler)",
+              "Atur posisi yang meningkatkan drainage",
+              "Posisikan pada kesejajaran tubuh yang tepat",
+              "Imobilisasi dan topang bagian tubuh yang cidera dengan tepat",
+              "Tinggikan bagian tubuh yang sakit dengan tepat",
+              "Tinggikan anggota gerak 20° atau lebih diatas level jantung",
+              "Tinggikan tempat tidur bagian kepala",
+              "Berikan bantal yang tepat pada leher",
+              "Berikan topangan pada area edema (mis: bantal dibawah lengan atau skrotum)",
+              "Posisikan untuk mempermudah ventilasi/perfusi (mis: tengkurap/good lung down)",
+              "Motivasi melakukan ROM aktif atau ROM pasif",
+              "Motivasi terlibat dalam perubahan posisi, sesuai kebutuhan",
+              "Hindari menempatkan pada posisi yang dapat meningkatkan nyeri",
+              "Hindari menempatkan stump amputasi pada posisi fleksi",
+              "Hindari posisi yang menimbulkan ketegangan pada luka",
+              "Minimalkan gesekan dan tarikan saat mengubah posisi",
+              "Ubah posisi setiap 2 jam",
+              "Ubah posisi dengan Teknik log roll",
+              "Pertahankan posisi dan integritas traksi",
+              "Informasikan saat akan dilakukan perubahan posisi",
+              "Ajarkan cara menggunakan postur yang baik dan mekanika tubuh yang baik selama melakukan perubahan posisi",
+              "Kolaborasi pemberian premedikasi sebelum mengubah posisi, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.09326",
-          "name": "Terapi relaksasi"
+          "name": "Terapi relaksasi",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi penurunan tingkat energi, ketidakmampuan berkonsentrasi, atau gejala lain yang mengganggu kemampuan kognitif",
+              "Identifikasi Teknik relaksasi yang pernah efektif digunakan",
+              "Identifikasi kesediaan, kemampuan, dan penggunaan Teknik sebelumnya",
+              "Periksa ketegangan otot, frekuensi nadi, tekanan darah, dan suhu sebelum dan sesudah Latihan",
+              "Monitor respons terhadap terapi relaksasi",
+              "Ciptakan lingkungan tenang dan tanpa gangguan dengan pencahayaan dan suhu ruang nyaman, jika memungkinkan",
+              "Berikan informasi tertulis tentang persiapan dan prosedur teknik relaksasi",
+              "Gunakan pakaian longgar",
+              "Gunakan nada suara lembut dengan irama lambat dan berirama",
+              "Gunakan relaksasi sebagai strategi penunjang dengan analgetik atau Tindakan medis lain, jika sesuai",
+              "Jelaskan tujuan, manfaat, Batasan, dan jenis relaksasi yang tersedia (mis: musik, meditasi, napas dalam, relaksasi otot progresif)",
+              "Jelaskan secara rinci intervensi relaksasi yang dipilih",
+              "Anjurkan mengambil posisi nyaman",
+              "Anjurkan rileks dan merasakan sensasi relaksasi",
+              "Anjurkan sering mengulangi atau melatih Teknik yang dipilih",
+              "Demonstrasikan dan latih Teknik relaksasi (mis: napas dalam, peregangan, atau imajinasi terbimbing)"
+            ]
+          }
         }
       ],
       "category": "Nyeri dan Kenyamanan"

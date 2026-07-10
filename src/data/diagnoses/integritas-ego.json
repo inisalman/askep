@@ -5,7 +5,7 @@
     "D.0080": {
       "code": "D.0080",
       "name": "Ansietas",
-      "definition": ":.",
+      "definition": "Ansietas merupakan diagnosis keperawatan yang didefinisikan sebagai kondisi emosi dan pengalaman subyektif individu terhadap objek yang...",
       "signs_and_symptoms": {
         "subjective": [
           "Merasa bingung",
@@ -47,11 +47,55 @@
       "interventions": [
         {
           "code": "I.09314",
-          "name": "Reduksi Ansietas"
+          "name": "Reduksi Ansietas",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi saat tingkat ansietas berubah (mis: kondisi, waktu, stresor)",
+              "Identifikasi kemampuan mengambil keputusan",
+              "Monitor tanda-tanda ansietas (verbal dan nonverbal)",
+              "Ciptakan suasana terapeutik untuk menumbuhkan kepercayaan",
+              "Temani pasien untuk mengurangi kecemasan, jika memungkinkan",
+              "Pahami situasi yang membuat ansietas",
+              "Dengarkan dengan penuh perhatian",
+              "Gunakan pendekatan yang tenang dan meyakinkan",
+              "Tempatkan barang pribadi yang memberikan kenyamanan",
+              "Motivasi mengidentifikasi situasi yang memicu kecemasan",
+              "Diskusikan perencanaan realistis tentang peristiwa yang akan datang",
+              "Jelaskan prosedur, termasuk sensasi yang mungkin dialami",
+              "Informasikan secara faktual mengenai diagnosis, pengobatan, dan prognosis",
+              "Anjurkan keluarga untuk tetap Bersama pasien, jika perlu",
+              "Anjurkan melakukan kegiatan yang tidak kompetitif, sesuai kebutuhan",
+              "Anjurkan mengungkapkan perasaan dan persepsi",
+              "Latih kegiatan pengalihan untuk mengurangi ketegangan",
+              "Latih penggunaan mekanisme pertahanan diri yang tepat",
+              "Latih Teknik relaksasi",
+              "Kolaborasi pemberian obat antiansietas, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.09326",
-          "name": "Terapi relaksasi"
+          "name": "Terapi relaksasi",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi penurunan tingkat energi, ketidakmampuan berkonsentrasi, atau gejala lain yang mengganggu kemampuan kognitif",
+              "Identifikasi Teknik relaksasi yang pernah efektif digunakan",
+              "Identifikasi kesediaan, kemampuan, dan penggunaan Teknik sebelumnya",
+              "Periksa ketegangan otot, frekuensi nadi, tekanan darah, dan suhu sebelum dan sesudah Latihan",
+              "Monitor respons terhadap terapi relaksasi",
+              "Ciptakan lingkungan tenang dan tanpa gangguan dengan pencahayaan dan suhu ruang nyaman, jika memungkinkan",
+              "Berikan informasi tertulis tentang persiapan dan prosedur teknik relaksasi",
+              "Gunakan pakaian longgar",
+              "Gunakan nada suara lembut dengan irama lambat dan berirama",
+              "Gunakan relaksasi sebagai strategi penunjang dengan analgetik atau Tindakan medis lain, jika sesuai",
+              "Jelaskan tujuan, manfaat, Batasan, dan jenis relaksasi yang tersedia (mis: musik, meditasi, napas dalam, relaksasi otot progresif)",
+              "Jelaskan secara rinci intervensi relaksasi yang dipilih",
+              "Anjurkan mengambil posisi nyaman",
+              "Anjurkan rileks dan merasakan sensasi relaksasi",
+              "Anjurkan sering mengulangi atau melatih Teknik yang dipilih",
+              "Demonstrasikan dan latih Teknik relaksasi (mis: napas dalam, peregangan, atau imajinasi terbimbing)"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -59,7 +103,7 @@
     "D.0081": {
       "code": "D.0081",
       "name": "Berduka",
-      "definition": ":.",
+      "definition": "Berduka merupakan diagnosis keperawatan yang didefinisikan sebagai respon psikososial yang ditunjukkan oleh klien akibat kehilangan...",
       "signs_and_symptoms": {
         "subjective": [
           "Merasa sedih",
@@ -95,11 +139,45 @@
       "interventions": [
         {
           "code": "I.09274",
-          "name": "Dukungan Proses Berduka"
+          "name": "Dukungan Proses Berduka",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kehilangan yang dihadapi",
+              "Identifikasi proses berduka yang dialami",
+              "Identifikasi sifat keterikatan pada benda yang hilang atau orang yang meninggal",
+              "Identifikasi reaksi awal terhadap kehilangan",
+              "Tunjukan sikap menerima dan empati",
+              "Motivasi agar mau mengungkapkan perasaan kehilangan",
+              "Motivasi untuk menguatkan dukungan  keluarga atau orang terdekat",
+              "Fasilitasi melakukan kebiasaan sesuai dengan budaya, agama, dan norma sosial",
+              "Fasilitasi mengekspresikan perasaan dengan cara yang nyaman (mis: membaca buku, menulis, menggambar, atau bermain)",
+              "Diskusikan strategi koping yang dapat digunakan",
+              "Jelaskan kepada pasien dan keluarga bahwa sikap mengingkari, marah, tawar menawar, depresi, dan menerima adalah wajar dalam menghadapi kehilangan",
+              "Anjurkan mengidentifikasi ketakutan terbesar pada kehilangan",
+              "Anjurkan mengekspresikan perasaan tentang kehilangan",
+              "Ajarkan melewati proses berduka secara bertahap"
+            ]
+          }
         },
         {
           "code": "I.09256",
-          "name": "Dukungan Emosional"
+          "name": "Dukungan Emosional",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi fungsi marah, frustrasi, dan amuk bagi pasien",
+              "Identifikasi hal yang telah memicu emosi",
+              "Fasilitasi mengungkapkan perasaan cemas, marah, atau sedih",
+              "Buat pernyataan suportif atau empati selama fase berduka",
+              "Lakukan sentuhan untuk memberikan dukungan (mis: merangkul, menepuk-nepuk)",
+              "Tetap Bersama pasien dan pastikan keamanan selama ansietas, jika perlu",
+              "Kurangi tuntutan berpikir saat sakit atau lelah",
+              "Jelaskan konsekuensi tidak menghadapi rasa bersalah dan malu",
+              "Anjurkan mengungkapkan perasaan yang dialami (mis: ansietas, marah, sedih)",
+              "Anjurkan mengungkapkan pengalaman emosional sebelumnya dan pola respons yang biasa digunakan",
+              "Ajarkan penggunaan mekanisme pertahanan yang tepat",
+              "Rujuk untuk konseling, jika perlu"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -107,7 +185,7 @@
     "D.0082": {
       "code": "D.0082",
       "name": "Distres Spiritual",
-      "definition": ":.",
+      "definition": "Distres spiritual merupakan diagnosis keperawatan yang didefinisikan sebagai gangguan pada keyakinan atau sistem nilai berupa kesulitan...",
       "signs_and_symptoms": {
         "subjective": [
           "Mempertanyakan makna/tujuan hidupnya",
@@ -145,11 +223,66 @@
       "interventions": [
         {
           "code": "I.09276",
-          "name": "Dukungan Spiritual"
+          "name": "Dukungan Spiritual",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi perasaan khawatir, kesepian, dan ketidakberdayaan",
+              "Identifikasi pandangan tentang hubungan antara spiritual dan  Kesehatan",
+              "Identifikasi harapan dan kekuatan pasien",
+              "Identifikasi ketaatan dalam beragama",
+              "Berikan kesempatan mengekspresikan perasaan tentang penyakit dan kematian",
+              "Berikan kesempatan mengekspresikan dan meredakan marah secara tepat",
+              "Yakinkan bahwa  perawat bersedia mendukung selama masa ketidakberdayaan",
+              "Sediakan privasi dan waktu tentang untuk aktivitas spiritual",
+              "Diskusikan keyakinan tentang makna dan tujuan hidup, jika perlu",
+              "Fasilitasi melakukan kegiatan ibadah",
+              "Anjurkan berinteraksi dengan keluarga, teman, dan/atau orang lain",
+              "Anjurkan berpartisipasi dalam kelompok pendukung",
+              "Ajarkan metode relaksasi, meditasi, dan imajinasi terbimbing",
+              "Atur kunjungan dengan rohaniawan (mis: uztadz, pendeta, romo, biksu)"
+            ]
+          }
         },
         {
           "code": "I.09312",
-          "name": "Promosi Koping"
+          "name": "Promosi Koping",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
+              "Identifikasi kemampuan yang dimiliki",
+              "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
+              "Identifikasi pemahaman proses penyakit",
+              "Identifikasi dampak situasi terhadap peran dan hubungan",
+              "Identifikasi metode penyelesaian masalah",
+              "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
+              "Diskusikan perubahan peran yang dialami",
+              "Gunakan pendekatan yang tenang dan meyakinkan",
+              "Diskusikan alasan mengkritik diri sendiri",
+              "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+              "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+              "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
+              "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
+              "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
+              "Motivasi untuk menentukan harapan yang realistis",
+              "Tinjau Kembali kemampuan dalam pengambilan keputusan",
+              "Hindari mengambil keputusan saat pasien berada dibawah tekanan",
+              "Motivasi terlibat dalam kegiatan sosial",
+              "Motivasi mengidentifikasi sistem pendukung yang tersedia",
+              "Damping saat berduka (mis: penyakit kronis, kecacatan)",
+              "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
+              "Dukung penggunaan mekanisme pertahanan yang tepat",
+              "Kurangi rangsangan lingkungan yang mengancam",
+              "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
+              "Anjurkan penggunaan sumber spiritual, jika perlu",
+              "Anjurkan mengungkapkan perasaan dan persepsi",
+              "Anjurkan keluarga terlibat",
+              "Anjurkan membuat tujuan yang lebih spesifik",
+              "Ajarkan cara memecahkan masalah secara konstruktif",
+              "Latih penggunaan Teknik relaksasi",
+              "Latih keterampilan sosial, sesuai kebutuhan",
+              "Latih mengembangkan penilaian obyektif"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -157,7 +290,7 @@
     "D.0083": {
       "code": "D.0083",
       "name": "Gangguan Citra Tubuh",
-      "definition": ":.",
+      "definition": "Gangguan citra tubuh merupakan diagnosis keperawatan yang didefinisikan sebagai perubahan persepsi tentang penampilan, struktur, dan...",
       "signs_and_symptoms": {
         "subjective": [
           "Mengungkapkan kecacatan/kehilangan bagian tubuh"
@@ -189,11 +322,70 @@
       "interventions": [
         {
           "code": "I.09305",
-          "name": "Promosi Citra Tubuh"
+          "name": "Promosi Citra Tubuh",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi harapan citra tubuh berdasarkan tahap perkembangan",
+              "Identifikasi budaya, agama, jenis kelamin, dan umur terkait citra tubuh",
+              "Identifikasi perubahan citra tubuh yang mengakibatkan isolasi sosial",
+              "Monitor frekuensi pernyataan kritik terhadap diri sendiri",
+              "Monitor apakah pasien bisa melihat bagian tubuh yang berubah",
+              "Diskusikan perubahan tubuh dan fungsinya",
+              "Diskusikan perbedaan penampilan fisik terhadap harga diri",
+              "Diskusikan perubahan akibat pubertas, kehamilan, dan penuaan",
+              "Diskusikan kondisi stress yang mempengaruhi citra tubuh (mis: luka, penyakit, pembedahan)",
+              "Diskusikan cara mengembangkan harapan citra tubuh secara realistis",
+              "Diskusikan persepsi pasien dan keluarga tentang perubahan citra tubuh",
+              "Jelaskan kepada keluarga tentang perawatan perubahan citra tubuh",
+              "Anjurkan mengungkapkan gambaran diri sendiri terhadap citra tubuh",
+              "Anjurkan menggunakan alat bantu (mis: pakaian, wig, kosmetik)",
+              "Anjurkan mengikuti kelompok pendukung (mis: kelompok sebaya)",
+              "Latih fungsi tubuh yang dimiliki",
+              "Latih peningkatan penampilan diri (mis: berdandan)",
+              "Latih pengungkapan kemampuan diri kepada orang lain maupun kelompok"
+            ]
+          }
         },
         {
           "code": "I.09312",
-          "name": "Promosi Koping"
+          "name": "Promosi Koping",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
+              "Identifikasi kemampuan yang dimiliki",
+              "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
+              "Identifikasi pemahaman proses penyakit",
+              "Identifikasi dampak situasi terhadap peran dan hubungan",
+              "Identifikasi metode penyelesaian masalah",
+              "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
+              "Diskusikan perubahan peran yang dialami",
+              "Gunakan pendekatan yang tenang dan meyakinkan",
+              "Diskusikan alasan mengkritik diri sendiri",
+              "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+              "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+              "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
+              "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
+              "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
+              "Motivasi untuk menentukan harapan yang realistis",
+              "Tinjau Kembali kemampuan dalam pengambilan keputusan",
+              "Hindari mengambil keputusan saat pasien berada dibawah tekanan",
+              "Motivasi terlibat dalam kegiatan sosial",
+              "Motivasi mengidentifikasi sistem pendukung yang tersedia",
+              "Damping saat berduka (mis: penyakit kronis, kecacatan)",
+              "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
+              "Dukung penggunaan mekanisme pertahanan yang tepat",
+              "Kurangi rangsangan lingkungan yang mengancam",
+              "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
+              "Anjurkan penggunaan sumber spiritual, jika perlu",
+              "Anjurkan mengungkapkan perasaan dan persepsi",
+              "Anjurkan keluarga terlibat",
+              "Anjurkan membuat tujuan yang lebih spesifik",
+              "Ajarkan cara memecahkan masalah secara konstruktif",
+              "Latih penggunaan Teknik relaksasi",
+              "Latih keterampilan sosial, sesuai kebutuhan",
+              "Latih mengembangkan penilaian obyektif"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -201,7 +393,7 @@
     "D.0084": {
       "code": "D.0084",
       "name": "Gangguan Identitas Diri",
-      "definition": ":.",
+      "definition": "Gangguan identitas diri merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakmampuan mempertahankan keutuhan...",
       "signs_and_symptoms": {
         "subjective": [
           "Persepsi terhadap diri berubah",
@@ -240,15 +432,92 @@
       "interventions": [
         {
           "code": "I.09297",
-          "name": "Orientasi Realita"
+          "name": "Orientasi Realita",
+          "tindakan": {
+            "terapeutik": [
+              "Monitor perubahan orientasi",
+              "Monitor perubahan kognitif dan perilaku",
+              "Perkenalkan nama saat memulai interaksi",
+              "Orientasikan orang, tempat, dan waktu",
+              "Hadirkan realita (mis: beri penjelasan alternatif, hindari perdebatan)",
+              "Sediakan lingkungan dan rutinitas secara konsisten",
+              "Atur stimulus sensorik dan lingkungan (mis: kunjungan, pemandangan, suara, pencahayaan, bau, dan sentuhan)",
+              "Gunakan simbol dalam mengorientasikan lingkungan (mis: tanda, gambar, warna)",
+              "Libatkan dalam terapi kelompok orientasi",
+              "Berikan waktu istirahat dan tidur yang cukup, sesuai kebutuhan",
+              "Fasilitasi akses informasi (mis: televisi, surat kabad, radio), jika perlu",
+              "Anjurkan perawatan diri secara mandiri",
+              "Anjurkan penggunaan alat bantu (mis: kacamata, alat bantu dengar, gigi palsu)",
+              "Ajarkan keluarga dalam perawatan orientasi lansia"
+            ]
+          }
         },
         {
           "code": "I.09311",
-          "name": "Promosi Kesadaran Diri"
+          "name": "Promosi Kesadaran Diri",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi keadaan emosional saat ini",
+              "Identifikasi respons yang ditunjukkan berbagai situasi",
+              "Diskusikan nilai-nilai yang berkontribusi terhadap konsep diri",
+              "Diskusikan tentang pikiran, perilaku, atau respons terhadap kondisi",
+              "Diskusikan dampak penyakit pada konsep diri",
+              "Ungkapkan penyangkalan tentang kenyataan",
+              "Motivasi dalam meningkatkan kemampuan belajar",
+              "Anjurkan mengenali pikiran dan perasaan tentang diri",
+              "Anjurkan menyadari bahwa setiap orang unik",
+              "Anjurkan mengungkapkan perasaan (mis: marah atau depresi)",
+              "Anjurkan meminta bantuan orang lain, sesuai kebutuhan",
+              "Anjurkan mengubah pandangan diri sebagai korban",
+              "Anjurkan mengidentifikasi perasaan bersalah",
+              "Anjurkan mengidentifikasi situasi yang memicu kecemasan",
+              "Anjurkan mengevaluasi Kembali persepsi negatif tentang diri",
+              "Anjurkan dalam mengekspresikan diri dengan kelompok sebaya",
+              "Ajarkan cara membuat prioritas hidup",
+              "Latih kemampuan positif diri yang dimiliki"
+            ]
+          }
         },
         {
           "code": "I.09312",
-          "name": "Promosi Koping"
+          "name": "Promosi Koping",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
+              "Identifikasi kemampuan yang dimiliki",
+              "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
+              "Identifikasi pemahaman proses penyakit",
+              "Identifikasi dampak situasi terhadap peran dan hubungan",
+              "Identifikasi metode penyelesaian masalah",
+              "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
+              "Diskusikan perubahan peran yang dialami",
+              "Gunakan pendekatan yang tenang dan meyakinkan",
+              "Diskusikan alasan mengkritik diri sendiri",
+              "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+              "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+              "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
+              "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
+              "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
+              "Motivasi untuk menentukan harapan yang realistis",
+              "Tinjau Kembali kemampuan dalam pengambilan keputusan",
+              "Hindari mengambil keputusan saat pasien berada dibawah tekanan",
+              "Motivasi terlibat dalam kegiatan sosial",
+              "Motivasi mengidentifikasi sistem pendukung yang tersedia",
+              "Damping saat berduka (mis: penyakit kronis, kecacatan)",
+              "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
+              "Dukung penggunaan mekanisme pertahanan yang tepat",
+              "Kurangi rangsangan lingkungan yang mengancam",
+              "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
+              "Anjurkan penggunaan sumber spiritual, jika perlu",
+              "Anjurkan mengungkapkan perasaan dan persepsi",
+              "Anjurkan keluarga terlibat",
+              "Anjurkan membuat tujuan yang lebih spesifik",
+              "Ajarkan cara memecahkan masalah secara konstruktif",
+              "Latih penggunaan Teknik relaksasi",
+              "Latih keterampilan sosial, sesuai kebutuhan",
+              "Latih mengembangkan penilaian obyektif"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -256,7 +525,7 @@
     "D.0085": {
       "code": "D.0085",
       "name": "Gangguan Persepsi Sensori",
-      "definition": ":.",
+      "definition": "Gangguan persepsi sensori merupakan diagnosis keperawatan yang didefinisikan sebagai perubahan persepsi terhadap stimulus baik internal...",
       "signs_and_symptoms": {
         "subjective": [
           "Mendengar suara bisikan atau melihat bayangan",
@@ -295,15 +564,59 @@
       "interventions": [
         {
           "code": "I.09288",
-          "name": "Manajemen Halusinasi"
+          "name": "Manajemen Halusinasi",
+          "tindakan": {
+            "terapeutik": [
+              "Monitor perilaku yang mengindikasikan halusinasi",
+              "Monitor dan sesuaikan tingkat aktivitas dan stimulasi lingkungan",
+              "Monitor isi halusinasi (mis: kekerasan atau membahayakan diri)",
+              "Pertahankan lingkungan yang aman",
+              "Lakukan Tindakan keselamatan Ketika tidak dapat mengontrol perilaku (mis: limit setting, pembatasan wilayah, pengekangan fisik, seklusi)",
+              "Diskusikan perasaan dan respons terhadap halusinasi",
+              "Hindari perdebatan tentang validitas halusinasi",
+              "Anjurkan memonitor sendiri situasi terjadinya halusinasi",
+              "Anjurkan bicara pada orang yang dipercaya untuk memberi dukungan dan umpan balik korektif terhadap halusinasi",
+              "Anjurkan melakukan distraksi (mis: mendengarkan music, melakukan aktivitas dan Teknik relaksasi)",
+              "Ajarkan pasien dan keluarga cara mengontrol halusinasi",
+              "Kolaborasi pemberian obat antipsikotik dan antiansietas, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.08241",
-          "name": "Minimalisasi Rangsangan"
+          "name": "Minimalisasi Rangsangan",
+          "tindakan": {
+            "terapeutik": [
+              "Periksa status mental, status sensori, dan tingkat kenyamanan (mis: nyeri, kelelahan)",
+              "Diskusikan tingkat toleransi terhadap beban sensori (mis: bising, terlalu terang)",
+              "Batasi stimulus lingkungan (mis: cahaya, suara, aktivitas)",
+              "Jadwalkan aktivitas harian dan waktu istirahat",
+              "Kombinasikan prosedur/Tindakan dalam satu waktu, sesuai kebutuhan",
+              "Ajarkan cara meminimalisasi stimulus (mis: mengatur pencahayaan ruangan, mengurangi kebisingan, membatasi kunjungan)",
+              "Kolaborasi dalam meminimalkan prosedur/tindakan",
+              "Kolaborasi pemberian obat yang mempengaruhi persepsi stimulus"
+            ]
+          }
         },
         {
           "code": "I.09301",
-          "name": "Pengekangan Kimiawi"
+          "name": "Pengekangan Kimiawi",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kebutuhan untuk dilakukan pengekangan (mis: agitasi, kekerasan)",
+              "Monitor Riwayat pengobatan dan alergi",
+              "Monitor respon sebelum dan sesudah pengekangan",
+              "Monitor tingkat kesadaran, tanda-tanda vital, warna kulit, suhu, sensasi dan kondisi secara berkala",
+              "Monitor kebutuhan nutrisi, cairan, dan eliminasi",
+              "Lakukan supervisi dan survelensi dalam memonitor Tindakan",
+              "Beri posisi nyaman untuk mencegah aspirasi dan kerusakan kulit",
+              "Ubah posisi tubuh secara periodik",
+              "Libatkan pasien dan/atau keluarga dalam membuat keputusan",
+              "Jelaskan tujuan dan prosedur pengekangan",
+              "Latih rentang gerak sendi sesuai kondisi pasien",
+              "Kolaborasi pemberian agen psikotropika untuk pengekangan kimiawi"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -311,7 +624,7 @@
     "D.0086": {
       "code": "D.0086",
       "name": "Harga Diri Rendah Kronis",
-      "definition": ":.",
+      "definition": "Harga diri rendah kronis merupakan diagnosis keperawatan yang didefinisikan sebagai evaluasi atau perasaan negatif terhadap...",
       "signs_and_symptoms": {
         "subjective": [
           "Menilai diri negatif (mis: tidak berguna, tidak tertolong)",
@@ -356,15 +669,99 @@
       "interventions": [
         {
           "code": "I.12463",
-          "name": "Manajemen Perilaku"
+          "name": "Manajemen Perilaku",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi harapan untuk mengendalikan perilaku",
+              "Diskusikan tanggung jawab terhadap perilaku",
+              "Jadwalkan kegiatan terstruktur",
+              "Ciptakan dan pertahankan lingkungan dan kegiatan perawatan konsisten setiap dinas",
+              "Tingkatkan aktivitas fisik sesuai kemampuan",
+              "Batasi jumlah pengunjung",
+              "Bicara dengan nada rendah dan tenang",
+              "Lakukan kegiatan pengalihan terhadap sumber agitasi",
+              "Cegah perilaku pasif dan agresif",
+              "Beri penguatan positif terhadap keberhasilan mengendalikan perilaku",
+              "Lakukan pengekangan fisik sesuai indikasi",
+              "Hindari bersikap menyudutkan dan menghentikan pembicaraan",
+              "Hindari sikap mengancam atau berdebat",
+              "Hindari berdebat atau menawar batas perilaku yang telah ditetapkan",
+              "Informasikan keluarga bahwa keluarga sebagai dasar pembentukan kognitif"
+            ]
+          }
         },
         {
           "code": "I.09308",
-          "name": "Promosi Harga Diri"
+          "name": "Promosi Harga Diri",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi budaya, agama, ras, jenis kelamin, dan usia terhadap harga diri",
+              "Monitor verbalisasi yang merendahkan diri sendiri",
+              "Monitor tingkat harga diri setiap waktu, sesuai kebutuhan",
+              "Motivasi terlibat dalam verbalisasi positif untuk diri sendiri",
+              "Motivasi menerima tantangan atau hal baru",
+              "Diskusikan pernyataan tentang harga diri",
+              "Diskusikan kepercayaan terhadap penilaian diri",
+              "Diskusikan pengalaman yang meningkatkan harga diri",
+              "Diskusikan persepsi negatif diri",
+              "Diskusikan alasan mengkritik diri atau rasa bersalah",
+              "Diskusikan penetapan tujuan realistis untuk mencapai harga diri yang lebih tinggi",
+              "Diskusikan Bersama keluarga untuk menetapkan harapan dan Batasan yang jelas",
+              "Berikan umpan balik positif atas peningkatan mencapai tujuan",
+              "Fasilitasi lingkungan dan aktivitas yang meningkatkan diri",
+              "Jelaskan kepada keluarga pentingnya dukungan dalam perkembangan konsep positif diri pasien",
+              "Anjurkan mengidentifikasi kekuatan yang dimiliki",
+              "Anjurkan mempertahankan kontak mata saat berkomunikasi dengan orang lain",
+              "Anjurkan membuka diri terhadap kritik negatif",
+              "Anjurkan mengevaluasi perilaku",
+              "Ajarkan cara mengatasi bullying",
+              "Latih peningkatan tanggung jawab untuk diri sendiri",
+              "Latih pernyataan/kemampuan positif diri",
+              "Latih cara berfikir dan berperilaku positif",
+              "Latih meningkatkan kepercayaan pada kemampuan dalam menangani situasi"
+            ]
+          }
         },
         {
           "code": "I.09312",
-          "name": "Promosi Koping"
+          "name": "Promosi Koping",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
+              "Identifikasi kemampuan yang dimiliki",
+              "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
+              "Identifikasi pemahaman proses penyakit",
+              "Identifikasi dampak situasi terhadap peran dan hubungan",
+              "Identifikasi metode penyelesaian masalah",
+              "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
+              "Diskusikan perubahan peran yang dialami",
+              "Gunakan pendekatan yang tenang dan meyakinkan",
+              "Diskusikan alasan mengkritik diri sendiri",
+              "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+              "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+              "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
+              "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
+              "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
+              "Motivasi untuk menentukan harapan yang realistis",
+              "Tinjau Kembali kemampuan dalam pengambilan keputusan",
+              "Hindari mengambil keputusan saat pasien berada dibawah tekanan",
+              "Motivasi terlibat dalam kegiatan sosial",
+              "Motivasi mengidentifikasi sistem pendukung yang tersedia",
+              "Damping saat berduka (mis: penyakit kronis, kecacatan)",
+              "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
+              "Dukung penggunaan mekanisme pertahanan yang tepat",
+              "Kurangi rangsangan lingkungan yang mengancam",
+              "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
+              "Anjurkan penggunaan sumber spiritual, jika perlu",
+              "Anjurkan mengungkapkan perasaan dan persepsi",
+              "Anjurkan keluarga terlibat",
+              "Anjurkan membuat tujuan yang lebih spesifik",
+              "Ajarkan cara memecahkan masalah secara konstruktif",
+              "Latih penggunaan Teknik relaksasi",
+              "Latih keterampilan sosial, sesuai kebutuhan",
+              "Latih mengembangkan penilaian obyektif"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -372,7 +769,7 @@
     "D.0087": {
       "code": "D.0087",
       "name": "Harga Diri Rendah Situasional",
-      "definition": ":.",
+      "definition": "Harga diri rendah situasional merupakan diagnosis keperawatan yang didefinisikan sebagai evaluasi atau perasaan negatif terhadap...",
       "signs_and_symptoms": {
         "subjective": [
           "Menilai diri negatif (mis: tidak berguna, tidak tertolong)",
@@ -414,15 +811,99 @@
       "interventions": [
         {
           "code": "I.12463",
-          "name": "Manajemen Perilaku"
+          "name": "Manajemen Perilaku",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi harapan untuk mengendalikan perilaku",
+              "Diskusikan tanggung jawab terhadap perilaku",
+              "Jadwalkan kegiatan terstruktur",
+              "Ciptakan dan pertahankan lingkungan dan kegiatan perawatan konsisten setiap dinas",
+              "Tingkatkan aktivitas fisik sesuai kemampuan",
+              "Batasi jumlah pengunjung",
+              "Bicara dengan nada rendah dan tenang",
+              "Lakukan kegiatan pengalihan terhadap sumber agitasi",
+              "Cegah perilaku pasif dan agresif",
+              "Beri penguatan positif terhadap keberhasilan mengendalikan perilaku",
+              "Lakukan pengekangan fisik sesuai indikasi",
+              "Hindari bersikap menyudutkan dan menghentikan pembicaraan",
+              "Hindari sikap mengancam atau berdebat",
+              "Hindari berdebat atau menawar batas perilaku yang telah ditetapkan",
+              "Informasikan keluarga bahwa keluarga sebagai dasar pembentukan kognitif"
+            ]
+          }
         },
         {
           "code": "I.09308",
-          "name": "Promosi Harga Diri"
+          "name": "Promosi Harga Diri",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi budaya, agama, ras, jenis kelamin, dan usia terhadap harga diri",
+              "Monitor verbalisasi yang merendahkan diri sendiri",
+              "Monitor tingkat harga diri setiap waktu, sesuai kebutuhan",
+              "Motivasi terlibat dalam verbalisasi positif untuk diri sendiri",
+              "Motivasi menerima tantangan atau hal baru",
+              "Diskusikan pernyataan tentang harga diri",
+              "Diskusikan kepercayaan terhadap penilaian diri",
+              "Diskusikan pengalaman yang meningkatkan harga diri",
+              "Diskusikan persepsi negatif diri",
+              "Diskusikan alasan mengkritik diri atau rasa bersalah",
+              "Diskusikan penetapan tujuan realistis untuk mencapai harga diri yang lebih tinggi",
+              "Diskusikan Bersama keluarga untuk menetapkan harapan dan Batasan yang jelas",
+              "Berikan umpan balik positif atas peningkatan mencapai tujuan",
+              "Fasilitasi lingkungan dan aktivitas yang meningkatkan diri",
+              "Jelaskan kepada keluarga pentingnya dukungan dalam perkembangan konsep positif diri pasien",
+              "Anjurkan mengidentifikasi kekuatan yang dimiliki",
+              "Anjurkan mempertahankan kontak mata saat berkomunikasi dengan orang lain",
+              "Anjurkan membuka diri terhadap kritik negatif",
+              "Anjurkan mengevaluasi perilaku",
+              "Ajarkan cara mengatasi bullying",
+              "Latih peningkatan tanggung jawab untuk diri sendiri",
+              "Latih pernyataan/kemampuan positif diri",
+              "Latih cara berfikir dan berperilaku positif",
+              "Latih meningkatkan kepercayaan pada kemampuan dalam menangani situasi"
+            ]
+          }
         },
         {
           "code": "I.09312",
-          "name": "Promosi Koping"
+          "name": "Promosi Koping",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
+              "Identifikasi kemampuan yang dimiliki",
+              "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
+              "Identifikasi pemahaman proses penyakit",
+              "Identifikasi dampak situasi terhadap peran dan hubungan",
+              "Identifikasi metode penyelesaian masalah",
+              "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
+              "Diskusikan perubahan peran yang dialami",
+              "Gunakan pendekatan yang tenang dan meyakinkan",
+              "Diskusikan alasan mengkritik diri sendiri",
+              "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+              "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+              "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
+              "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
+              "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
+              "Motivasi untuk menentukan harapan yang realistis",
+              "Tinjau Kembali kemampuan dalam pengambilan keputusan",
+              "Hindari mengambil keputusan saat pasien berada dibawah tekanan",
+              "Motivasi terlibat dalam kegiatan sosial",
+              "Motivasi mengidentifikasi sistem pendukung yang tersedia",
+              "Damping saat berduka (mis: penyakit kronis, kecacatan)",
+              "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
+              "Dukung penggunaan mekanisme pertahanan yang tepat",
+              "Kurangi rangsangan lingkungan yang mengancam",
+              "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
+              "Anjurkan penggunaan sumber spiritual, jika perlu",
+              "Anjurkan mengungkapkan perasaan dan persepsi",
+              "Anjurkan keluarga terlibat",
+              "Anjurkan membuat tujuan yang lebih spesifik",
+              "Ajarkan cara memecahkan masalah secara konstruktif",
+              "Latih penggunaan Teknik relaksasi",
+              "Latih keterampilan sosial, sesuai kebutuhan",
+              "Latih mengembangkan penilaian obyektif"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -430,7 +911,7 @@
     "D.0088": {
       "code": "D.0088",
       "name": "Keputusasaan",
-      "definition": ":.",
+      "definition": "Keputusasaan merupakan diagnosis keperawatan yang didefinisikan sebagai kondisi individu yang memandang adanya keterbatasan atau...",
       "signs_and_symptoms": {
         "subjective": [
           "Mengungkapkan keputusasaan"
@@ -459,15 +940,85 @@
       "interventions": [
         {
           "code": "I.09256",
-          "name": "Dukungan Emosional"
+          "name": "Dukungan Emosional",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi fungsi marah, frustrasi, dan amuk bagi pasien",
+              "Identifikasi hal yang telah memicu emosi",
+              "Fasilitasi mengungkapkan perasaan cemas, marah, atau sedih",
+              "Buat pernyataan suportif atau empati selama fase berduka",
+              "Lakukan sentuhan untuk memberikan dukungan (mis: merangkul, menepuk-nepuk)",
+              "Tetap Bersama pasien dan pastikan keamanan selama ansietas, jika perlu",
+              "Kurangi tuntutan berpikir saat sakit atau lelah",
+              "Jelaskan konsekuensi tidak menghadapi rasa bersalah dan malu",
+              "Anjurkan mengungkapkan perasaan yang dialami (mis: ansietas, marah, sedih)",
+              "Anjurkan mengungkapkan pengalaman emosional sebelumnya dan pola respons yang biasa digunakan",
+              "Ajarkan penggunaan mekanisme pertahanan yang tepat",
+              "Rujuk untuk konseling, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.09307",
-          "name": "Promosi Harapan"
+          "name": "Promosi Harapan",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi harapan pasien dan keluarga dalam pencapaian hidup",
+              "Sadarkan bahwa kondisi yang dialami memiliki nilai penting",
+              "Pandu mengingat Kembali kenangan yang menyenangkan",
+              "Libatkan pasien secara aktif dalam perawatan",
+              "Kembangkan rencana perawatan yang melibatkan tingkat pencapaian tujuan sederhana sampai dengan kompleks",
+              "Berikan kesempatan kepada pasien dan keluarga terlibat dengan dukungan kelompok",
+              "Ciptakan lingkungan yang memudahkan mempraktikkan kebutuhan spiritual",
+              "Anjurkan mengungkapkan perasaan terhdap kondisi dengan realistis",
+              "Anjurkan mempertahankan hubungan (mis: menyebutkan nama orang yang dicintai)",
+              "Anjurkan mempertahankan hubungan terapeutik dengan orang lain",
+              "Latih menyusun tujuan yang sesuai dengan harapan",
+              "Latih cara mengembangkan spiritual diri",
+              "Latih cara mengenang dan menikmati masa lalu (mis: prestasi, pengalaman)"
+            ]
+          }
         },
         {
           "code": "I.09312",
-          "name": "Promosi Koping"
+          "name": "Promosi Koping",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
+              "Identifikasi kemampuan yang dimiliki",
+              "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
+              "Identifikasi pemahaman proses penyakit",
+              "Identifikasi dampak situasi terhadap peran dan hubungan",
+              "Identifikasi metode penyelesaian masalah",
+              "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
+              "Diskusikan perubahan peran yang dialami",
+              "Gunakan pendekatan yang tenang dan meyakinkan",
+              "Diskusikan alasan mengkritik diri sendiri",
+              "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+              "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+              "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
+              "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
+              "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
+              "Motivasi untuk menentukan harapan yang realistis",
+              "Tinjau Kembali kemampuan dalam pengambilan keputusan",
+              "Hindari mengambil keputusan saat pasien berada dibawah tekanan",
+              "Motivasi terlibat dalam kegiatan sosial",
+              "Motivasi mengidentifikasi sistem pendukung yang tersedia",
+              "Damping saat berduka (mis: penyakit kronis, kecacatan)",
+              "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
+              "Dukung penggunaan mekanisme pertahanan yang tepat",
+              "Kurangi rangsangan lingkungan yang mengancam",
+              "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
+              "Anjurkan penggunaan sumber spiritual, jika perlu",
+              "Anjurkan mengungkapkan perasaan dan persepsi",
+              "Anjurkan keluarga terlibat",
+              "Anjurkan membuat tujuan yang lebih spesifik",
+              "Ajarkan cara memecahkan masalah secara konstruktif",
+              "Latih penggunaan Teknik relaksasi",
+              "Latih keterampilan sosial, sesuai kebutuhan",
+              "Latih mengembangkan penilaian obyektif"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -475,7 +1026,7 @@
     "D.0089": {
       "code": "D.0089",
       "name": "Kesiapan Peningkatan Konsep Diri",
-      "definition": ": “konsep diri membaik.",
+      "definition": "Kesiapan peningkatan konsep diri merupakan diagnosis keperawatan yang didefinisikan sebagai pola persepsi diri yang cukup untuk merasa...",
       "signs_and_symptoms": {
         "subjective": [
           "Mengekspresikan keinginan untuk meningkatkan konsep diri",
@@ -500,15 +1051,102 @@
       "interventions": [
         {
           "code": "I.09308",
-          "name": "Promosi Harga Diri"
+          "name": "Promosi Harga Diri",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi budaya, agama, ras, jenis kelamin, dan usia terhadap harga diri",
+              "Monitor verbalisasi yang merendahkan diri sendiri",
+              "Monitor tingkat harga diri setiap waktu, sesuai kebutuhan",
+              "Motivasi terlibat dalam verbalisasi positif untuk diri sendiri",
+              "Motivasi menerima tantangan atau hal baru",
+              "Diskusikan pernyataan tentang harga diri",
+              "Diskusikan kepercayaan terhadap penilaian diri",
+              "Diskusikan pengalaman yang meningkatkan harga diri",
+              "Diskusikan persepsi negatif diri",
+              "Diskusikan alasan mengkritik diri atau rasa bersalah",
+              "Diskusikan penetapan tujuan realistis untuk mencapai harga diri yang lebih tinggi",
+              "Diskusikan Bersama keluarga untuk menetapkan harapan dan Batasan yang jelas",
+              "Berikan umpan balik positif atas peningkatan mencapai tujuan",
+              "Fasilitasi lingkungan dan aktivitas yang meningkatkan diri",
+              "Jelaskan kepada keluarga pentingnya dukungan dalam perkembangan konsep positif diri pasien",
+              "Anjurkan mengidentifikasi kekuatan yang dimiliki",
+              "Anjurkan mempertahankan kontak mata saat berkomunikasi dengan orang lain",
+              "Anjurkan membuka diri terhadap kritik negatif",
+              "Anjurkan mengevaluasi perilaku",
+              "Ajarkan cara mengatasi bullying",
+              "Latih peningkatan tanggung jawab untuk diri sendiri",
+              "Latih pernyataan/kemampuan positif diri",
+              "Latih cara berfikir dan berperilaku positif",
+              "Latih meningkatkan kepercayaan pada kemampuan dalam menangani situasi"
+            ]
+          }
         },
         {
           "code": "I.09311",
-          "name": "Promosi Kesadaran Diri"
+          "name": "Promosi Kesadaran Diri",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi keadaan emosional saat ini",
+              "Identifikasi respons yang ditunjukkan berbagai situasi",
+              "Diskusikan nilai-nilai yang berkontribusi terhadap konsep diri",
+              "Diskusikan tentang pikiran, perilaku, atau respons terhadap kondisi",
+              "Diskusikan dampak penyakit pada konsep diri",
+              "Ungkapkan penyangkalan tentang kenyataan",
+              "Motivasi dalam meningkatkan kemampuan belajar",
+              "Anjurkan mengenali pikiran dan perasaan tentang diri",
+              "Anjurkan menyadari bahwa setiap orang unik",
+              "Anjurkan mengungkapkan perasaan (mis: marah atau depresi)",
+              "Anjurkan meminta bantuan orang lain, sesuai kebutuhan",
+              "Anjurkan mengubah pandangan diri sebagai korban",
+              "Anjurkan mengidentifikasi perasaan bersalah",
+              "Anjurkan mengidentifikasi situasi yang memicu kecemasan",
+              "Anjurkan mengevaluasi Kembali persepsi negatif tentang diri",
+              "Anjurkan dalam mengekspresikan diri dengan kelompok sebaya",
+              "Ajarkan cara membuat prioritas hidup",
+              "Latih kemampuan positif diri yang dimiliki"
+            ]
+          }
         },
         {
           "code": "I.09312",
-          "name": "Promosi Koping"
+          "name": "Promosi Koping",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
+              "Identifikasi kemampuan yang dimiliki",
+              "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
+              "Identifikasi pemahaman proses penyakit",
+              "Identifikasi dampak situasi terhadap peran dan hubungan",
+              "Identifikasi metode penyelesaian masalah",
+              "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
+              "Diskusikan perubahan peran yang dialami",
+              "Gunakan pendekatan yang tenang dan meyakinkan",
+              "Diskusikan alasan mengkritik diri sendiri",
+              "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+              "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+              "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
+              "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
+              "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
+              "Motivasi untuk menentukan harapan yang realistis",
+              "Tinjau Kembali kemampuan dalam pengambilan keputusan",
+              "Hindari mengambil keputusan saat pasien berada dibawah tekanan",
+              "Motivasi terlibat dalam kegiatan sosial",
+              "Motivasi mengidentifikasi sistem pendukung yang tersedia",
+              "Damping saat berduka (mis: penyakit kronis, kecacatan)",
+              "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
+              "Dukung penggunaan mekanisme pertahanan yang tepat",
+              "Kurangi rangsangan lingkungan yang mengancam",
+              "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
+              "Anjurkan penggunaan sumber spiritual, jika perlu",
+              "Anjurkan mengungkapkan perasaan dan persepsi",
+              "Anjurkan keluarga terlibat",
+              "Anjurkan membuat tujuan yang lebih spesifik",
+              "Ajarkan cara memecahkan masalah secara konstruktif",
+              "Latih penggunaan Teknik relaksasi",
+              "Latih keterampilan sosial, sesuai kebutuhan",
+              "Latih mengembangkan penilaian obyektif"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -516,7 +1154,7 @@
     "D.0090": {
       "code": "D.0090",
       "name": "Kesiapan Peningkatan Koping Keluarga",
-      "definition": ": “status koping keluarga membaik.",
+      "definition": "Kesiapan peningkatan koping keluarga merupakan diagnosis keperawatan yang didefinisikan sebagai pola adaptasi anggota keluarga dalam...",
       "signs_and_symptoms": {
         "subjective": [
           "Anggota keluarga menetapkan tujuan untuk meningkatkan gaya hidup sehat",
@@ -540,15 +1178,89 @@
       "interventions": [
         {
           "code": "I.09260",
-          "name": "Dukungan Koping Keluarga"
+          "name": "Dukungan Koping Keluarga",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi respons emosional terhadap kondisi saat ini",
+              "Identifikasi beban prognosis secara psikologis",
+              "Identifikasi pemahaman tentang keputusan perawatan setelah pulang",
+              "Identifikasi kesesuaian antara harapan pasien, keluarga, dan tenaga kesehatan",
+              "Dengarkan masalah, perasaan, dan pertanyaan keluarga",
+              "Terima nilai-nilai keluarga dengan cara yang tidak menghakimi",
+              "Diskusikan rencana medis dan perawatan",
+              "Fasilitasi pengungkapan perasaan antara pasien dan  keluarga atau antar anggota keluarga",
+              "Fasilitasi pengambilan keputusan dalam merencanakan perawatan jangka Panjang, jika perlu",
+              "Fasilitasi anggota keluarga dalam mengidentifikasi dan menyelesaikan konflik nilai",
+              "Fasilitasi pemenuhan kebutuhan dasar keluarga (mis: tempat tinggal, makanan, pakaian)",
+              "Fasilitasi anggota keluarga melalui proses kematian dan berduka, jika perlu",
+              "Fasilitasi memperoleh pengetahuan, keterampilan, dan peralatan yang diperlukan untuk mempertahankan keputusan perawatan pasien",
+              "Bersikap sebagai pengganti keluarga untuk menenangkan pasien dan/atau jika keluarga tidak dapat memberikan perawatan",
+              "Hargai dan dukung mekanisme koping adaptif yang digunakan",
+              "Berikan kesempatan berkunjung bagi anggota keluarga",
+              "Informasikan kemajuan pasien secara berkala",
+              "Informasikan fasilitas perawatan  Kesehatan yang tersedia",
+              "Rujuk untuk terapi keluarga, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.14525",
-          "name": "Pelibatan Keluarga"
+          "name": "Pelibatan Keluarga",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kesiapan keluarga untuk terlibat dalam perawatan",
+              "Ciptakan hubungan terapeutik pasien dengan keluarga dalam perawatan",
+              "Diskusikan cara perawatan di rumah (mis: kelompok, perawatan di rumah, atau rumah singgah)",
+              "Motivasi keluarga mengembangkan aspek positif rencana perawatan",
+              "Fasilitasi keluarga membuat keputusan perawatan",
+              "Jelaskan kondisi pasien kepada keluarga",
+              "Informasikan tingkat ketergantungan pasien kepada keluarga",
+              "Informasikan harapan pasien kepada keluarga",
+              "Anjurkan keluarga bersikap asertif dalam perawatan",
+              "Anjurkan keluarga terlibat dalam perawatan"
+            ]
+          }
         },
         {
           "code": "I.09312",
-          "name": "Promosi Koping"
+          "name": "Promosi Koping",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
+              "Identifikasi kemampuan yang dimiliki",
+              "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
+              "Identifikasi pemahaman proses penyakit",
+              "Identifikasi dampak situasi terhadap peran dan hubungan",
+              "Identifikasi metode penyelesaian masalah",
+              "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
+              "Diskusikan perubahan peran yang dialami",
+              "Gunakan pendekatan yang tenang dan meyakinkan",
+              "Diskusikan alasan mengkritik diri sendiri",
+              "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+              "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+              "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
+              "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
+              "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
+              "Motivasi untuk menentukan harapan yang realistis",
+              "Tinjau Kembali kemampuan dalam pengambilan keputusan",
+              "Hindari mengambil keputusan saat pasien berada dibawah tekanan",
+              "Motivasi terlibat dalam kegiatan sosial",
+              "Motivasi mengidentifikasi sistem pendukung yang tersedia",
+              "Damping saat berduka (mis: penyakit kronis, kecacatan)",
+              "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
+              "Dukung penggunaan mekanisme pertahanan yang tepat",
+              "Kurangi rangsangan lingkungan yang mengancam",
+              "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
+              "Anjurkan penggunaan sumber spiritual, jika perlu",
+              "Anjurkan mengungkapkan perasaan dan persepsi",
+              "Anjurkan keluarga terlibat",
+              "Anjurkan membuat tujuan yang lebih spesifik",
+              "Ajarkan cara memecahkan masalah secara konstruktif",
+              "Latih penggunaan Teknik relaksasi",
+              "Latih keterampilan sosial, sesuai kebutuhan",
+              "Latih mengembangkan penilaian obyektif"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -556,7 +1268,7 @@
     "D.0091": {
       "code": "D.0091",
       "name": "Kesiapan Peningkatan Koping Komunitas",
-      "definition": ": “status koping komunitas membaik.",
+      "definition": "Kesiapan peningkatan koping komunitas merupakan diagnosis keperawatan yang didefinisikan sebagai pola adaptasi dan penyelesaian masalah...",
       "signs_and_symptoms": {
         "subjective": [
           "Perencanaan aktif oleh komunitas mengenai prediksi stresor",
@@ -582,11 +1294,57 @@
       "interventions": [
         {
           "code": "I.09258",
-          "name": "Dukungan Kelompok"
+          "name": "Dukungan Kelompok",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi masalah yang sebenarnya dialami kelompok",
+              "Identifikasi kelompok memiliki masalah yang sama",
+              "Identifikasi hambatan menghadiri sesi kelompok (mis: stigma, cemas, tidak aman)",
+              "Identifikasi aturan dan norma yang perlu di modifikasi pada sesi selanjutnya, jika perlu",
+              "Siapkan lingkungan terapeutik dan rileks",
+              "Bentuk kelompok dengan pengalaman dan masalah yang sama",
+              "Mulai sesi kelompok dengan mengenalkan semua anggota kelompok dan terapis",
+              "Mulai dengan percakapan ringan, berbagi informasi tentang diri masing-masing dan alasan terlibat dalam kelompok",
+              "Buat aturan dan norma dalam kelompok, terutama kerahasiaan dalam kelompok",
+              "Sepakati jumlah sesi yang diperlukan dalam kelompok",
+              "Bangun rasa tanggung jawab dalam kelompok",
+              "Diskusikan penyelesaian masalah dalam kelompok",
+              "Berikan kesempatan individu untuk berhenti sejenak saat merasa distres akibat topik tertentu sampai mampu berpartisipasi Kembali",
+              "Berikan kesempatan istirahat di setiap sesi untuk memfasilitasi percakapan individual dalam kelompok",
+              "Berikan kesempatan saling mendukung dalam kelompok terkait masalah dan penyelesaian masalah",
+              "Berikan kesempatan kelompok menyimpulkan masalah, penyelesaian masalah dan dukungan yang diperlukan untuk setiap anggota kelompok",
+              "Hindari percakapan ofensif, tidak sensitive, seksual atau humor yang tidak perlu/tidak pada tempatnya",
+              "Sediakan media untuk kebutuhan berkomunikasi di luar kelompok (mis: email, telepon, SMS, WA)",
+              "Lakukan refleksi manfaat dukungan kelompok pada setiap awal dan akhir pertemuan",
+              "Akhiri kegiatan sesuai sesi yang disepakati",
+              "Anjurkan anggota kelompok mendengarkan dan memberi dukungan saat mendiskusikan masalah dan perasaan",
+              "Anjurkan bersikap jujur dalam menceritakan perasaan dan masalah",
+              "Anjurkan setiap anggota kelompok mengemukakan ketidakpuasan, keluhan, kritik dalam kelompok dengan cara santun",
+              "Anjurkan kelompok untuk menuntaskan ketidakpuasan, keluhan, dan kritik",
+              "Ajarkan relaksasi pada setiap sesi, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.09313",
-          "name": "Promosi Sistem Pendukung"
+          "name": "Promosi Sistem Pendukung",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi respon psikologis terhadap situasi dan ketersedian sistem pendukung",
+              "Identifikasi sumber daya untuk ketersediaan pengasuh",
+              "Monitor situasi keluarga saat ini dan sistem pendukung",
+              "Berikan dukungan dan caring dalam pelayanan",
+              "Motivasi berpartisipasi dalam kegiatan sosial dan masyarakat",
+              "Motivasi membina hubungan dengan pihak yang memiliki kebutuhan yang sama",
+              "Libatkan keluarga, orang penting, dan teman dalam perawatan",
+              "Jelaskan hambatan pada sistem pendukung",
+              "Informasikan jaringan sosial yang tersedia",
+              "Informasikan tingkat sistem pendukung (mis: keluarga, teman, dan masyarakat)",
+              "Anjurkan keluarga terlibat dalam perawatan",
+              "Rujuk ke kelompok swadaya",
+              "Kolaborasi dengan program pencegahan atau pengobatan berbasis masyarakat, jika perlu"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -594,7 +1352,7 @@
     "D.0092": {
       "code": "D.0092",
       "name": "Ketidakberdayaan",
-      "definition": ":.",
+      "definition": "Ketidakberdayaan merupakan diagnosis keperawatan yang didefinisikan sebagai persepsi bahwa tindakan seseorang tidak akan mempengaruhi...",
       "signs_and_symptoms": {
         "subjective": [
           "Menyatakan frustasi atau tidak mampu melaksanakan aktivitas sebelumnya"
@@ -620,11 +1378,65 @@
       "interventions": [
         {
           "code": "I.09307",
-          "name": "Promosi Harapan"
+          "name": "Promosi Harapan",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi harapan pasien dan keluarga dalam pencapaian hidup",
+              "Sadarkan bahwa kondisi yang dialami memiliki nilai penting",
+              "Pandu mengingat Kembali kenangan yang menyenangkan",
+              "Libatkan pasien secara aktif dalam perawatan",
+              "Kembangkan rencana perawatan yang melibatkan tingkat pencapaian tujuan sederhana sampai dengan kompleks",
+              "Berikan kesempatan kepada pasien dan keluarga terlibat dengan dukungan kelompok",
+              "Ciptakan lingkungan yang memudahkan mempraktikkan kebutuhan spiritual",
+              "Anjurkan mengungkapkan perasaan terhdap kondisi dengan realistis",
+              "Anjurkan mempertahankan hubungan (mis: menyebutkan nama orang yang dicintai)",
+              "Anjurkan mempertahankan hubungan terapeutik dengan orang lain",
+              "Latih menyusun tujuan yang sesuai dengan harapan",
+              "Latih cara mengembangkan spiritual diri",
+              "Latih cara mengenang dan menikmati masa lalu (mis: prestasi, pengalaman)"
+            ]
+          }
         },
         {
           "code": "I.09312",
-          "name": "Promosi Koping"
+          "name": "Promosi Koping",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
+              "Identifikasi kemampuan yang dimiliki",
+              "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
+              "Identifikasi pemahaman proses penyakit",
+              "Identifikasi dampak situasi terhadap peran dan hubungan",
+              "Identifikasi metode penyelesaian masalah",
+              "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
+              "Diskusikan perubahan peran yang dialami",
+              "Gunakan pendekatan yang tenang dan meyakinkan",
+              "Diskusikan alasan mengkritik diri sendiri",
+              "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+              "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+              "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
+              "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
+              "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
+              "Motivasi untuk menentukan harapan yang realistis",
+              "Tinjau Kembali kemampuan dalam pengambilan keputusan",
+              "Hindari mengambil keputusan saat pasien berada dibawah tekanan",
+              "Motivasi terlibat dalam kegiatan sosial",
+              "Motivasi mengidentifikasi sistem pendukung yang tersedia",
+              "Damping saat berduka (mis: penyakit kronis, kecacatan)",
+              "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
+              "Dukung penggunaan mekanisme pertahanan yang tepat",
+              "Kurangi rangsangan lingkungan yang mengancam",
+              "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
+              "Anjurkan penggunaan sumber spiritual, jika perlu",
+              "Anjurkan mengungkapkan perasaan dan persepsi",
+              "Anjurkan keluarga terlibat",
+              "Anjurkan membuat tujuan yang lebih spesifik",
+              "Ajarkan cara memecahkan masalah secara konstruktif",
+              "Latih penggunaan Teknik relaksasi",
+              "Latih keterampilan sosial, sesuai kebutuhan",
+              "Latih mengembangkan penilaian obyektif"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -632,7 +1444,7 @@
     "D.0093": {
       "code": "D.0093",
       "name": "Ketidakmampuan Koping Keluarga",
-      "definition": ":.",
+      "definition": "Ketidakmampuan koping keluarga merupakan diagnosis keperawatan yang didefinisikan sebagai perilaku orang terdekat (anggota keluarga atau...",
       "signs_and_symptoms": {
         "subjective": [
           "Merasa diabaikan"
@@ -665,11 +1477,71 @@
       "interventions": [
         {
           "code": "I.09260",
-          "name": "Dukungan Koping Keluarga"
+          "name": "Dukungan Koping Keluarga",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi respons emosional terhadap kondisi saat ini",
+              "Identifikasi beban prognosis secara psikologis",
+              "Identifikasi pemahaman tentang keputusan perawatan setelah pulang",
+              "Identifikasi kesesuaian antara harapan pasien, keluarga, dan tenaga  kesehatan",
+              "Dengarkan masalah, perasaan, dan pertanyaan keluarga",
+              "Terima nilai-nilai keluarga dengan cara yang tidak menghakimi",
+              "Diskusikan rencana medis dan perawatan",
+              "Fasilitasi pengungkapan perasaan antara pasien dan keluarga atau antar anggota keluarga",
+              "Fasilitasi pengambilan keputusan dalam merencanakan perawatan jangka Panjang, jika perlu",
+              "Fasilitasi anggota keluarga dalam mengidentifikasi dan menyelesaikan konflik nilai",
+              "Fasilitasi pemenuhan kebutuhan dasar keluarga (mis: tempat tinggal, makanan, pakaian)",
+              "Fasilitasi anggota keluarga melalui proses kematian dan berduka, jika perlu",
+              "Fasilitasi memperoleh pengetahuan, keterampilan, dan peralatan yang diperlukan untuk mempertahankan keputusan perawatan pasien",
+              "Bersikap sebagai pengganti keluarga untuk menenangkan pasien dan/atau jika keluarga tidak dapat memberikan perawatan",
+              "Hargai dan dukung mekanisme koping adaptif yang digunakan",
+              "Berikan kesempatan berkunjung bagi anggota keluarga",
+              "Informasikan kemajuan pasien secara berkala",
+              "Informasikan fasilitas perawatan Kesehatan yang tersedia",
+              "Rujuk untuk terapi keluarga, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.09312",
-          "name": "Promosi Koping"
+          "name": "Promosi Koping",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
+              "Identifikasi kemampuan yang dimiliki",
+              "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
+              "Identifikasi pemahaman proses penyakit",
+              "Identifikasi dampak situasi terhadap peran dan hubungan",
+              "Identifikasi metode penyelesaian masalah",
+              "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
+              "Diskusikan perubahan peran yang dialami",
+              "Gunakan pendekatan yang tenang dan meyakinkan",
+              "Diskusikan alasan mengkritik diri sendiri",
+              "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+              "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+              "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
+              "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
+              "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
+              "Motivasi untuk menentukan harapan yang realistis",
+              "Tinjau Kembali kemampuan dalam pengambilan keputusan",
+              "Hindari mengambil keputusan saat pasien berada dibawah tekanan",
+              "Motivasi terlibat dalam kegiatan sosial",
+              "Motivasi mengidentifikasi sistem pendukung yang tersedia",
+              "Damping saat berduka (mis: penyakit kronis, kecacatan)",
+              "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
+              "Dukung penggunaan mekanisme pertahanan yang tepat",
+              "Kurangi rangsangan lingkungan yang mengancam",
+              "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
+              "Anjurkan penggunaan sumber spiritual, jika perlu",
+              "Anjurkan mengungkapkan perasaan dan persepsi",
+              "Anjurkan keluarga terlibat",
+              "Anjurkan membuat tujuan yang lebih spesifik",
+              "Ajarkan cara memecahkan masalah secara konstruktif",
+              "Latih penggunaan Teknik relaksasi",
+              "Latih keterampilan sosial, sesuai kebutuhan",
+              "Latih mengembangkan penilaian obyektif"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -677,7 +1549,7 @@
     "D.0094": {
       "code": "D.0094",
       "name": "Koping Defensif",
-      "definition": ":.",
+      "definition": "Koping defensif merupakan diagnosis keperawatan yang didefinisikan sebagai proyeksi evaluasi diri untuk melindungi diri dari....",
       "signs_and_symptoms": {
         "subjective": [
           "Menyalahkan orang lain",
@@ -717,15 +1589,102 @@
       "interventions": [
         {
           "code": "I.09308",
-          "name": "Promosi Harga Diri"
+          "name": "Promosi Harga Diri",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi budaya, agama, ras, jenis kelamin, dan usia terhadap harga diri",
+              "Monitor verbalisasi yang merendahkan diri sendiri",
+              "Monitor tingkat harga diri setiap waktu, sesuai kebutuhan",
+              "Motivasi terlibat dalam verbalisasi positif untuk diri sendiri",
+              "Motivasi menerima tantangan atau hal baru",
+              "Diskusikan pernyataan tentang harga diri",
+              "Diskusikan kepercayaan terhadap penilaian diri",
+              "Diskusikan pengalaman yang meningkatkan harga diri",
+              "Diskusikan persepsi negatif diri",
+              "Diskusikan alasan mengkritik diri atau rasa bersalah",
+              "Diskusikan penetapan tujuan realistis untuk mencapai harga diri yang lebih tinggi",
+              "Diskusikan Bersama keluarga untuk menetapkan harapan dan Batasan yang jelas",
+              "Berikan umpan balik positif atas peningkatan mencapai tujuan",
+              "Fasilitasi lingkungan dan aktivitas yang meningkatkan diri",
+              "Jelaskan kepada keluarga pentingnya dukungan dalam perkembangan konsep positif diri pasien",
+              "Anjurkan mengidentifikasi kekuatan yang dimiliki",
+              "Anjurkan mempertahankan kontak mata saat berkomunikasi dengan orang lain",
+              "Anjurkan membuka diri terhadap kritik negatif",
+              "Anjurkan mengevaluasi perilaku",
+              "Ajarkan cara mengatasi bullying",
+              "Latih peningkatan tanggung jawab untuk diri sendiri",
+              "Latih pernyataan/kemampuan positif diri",
+              "Latih cara berfikir dan berperilaku positif",
+              "Latih meningkatkan kepercayaan pada kemampuan dalam menangani situasi"
+            ]
+          }
         },
         {
           "code": "I.09311",
-          "name": "Promosi Kesadaran Diri"
+          "name": "Promosi Kesadaran Diri",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi keadaan emosional saat ini",
+              "Identifikasi respons yang ditunjukkan berbagai situasi",
+              "Diskusikan nilai-nilai yang berkontribusi terhadap konsep diri",
+              "Diskusikan tentang pikiran, perilaku, atau respons terhadap kondisi",
+              "Diskusikan dampak penyakit pada konsep diri",
+              "Ungkapkan penyangkalan tentang kenyataan",
+              "Motivasi dalam meningkatkan kemampuan belajar",
+              "Anjurkan mengenali pikiran dan perasaan tentang diri",
+              "Anjurkan menyadari bahwa setiap orang unik",
+              "Anjurkan mengungkapkan perasaan (mis: marah atau depresi)",
+              "Anjurkan meminta bantuan orang lain, sesuai kebutuhan",
+              "Anjurkan mengubah pandangan diri sebagai korban",
+              "Anjurkan mengidentifikasi perasaan bersalah",
+              "Anjurkan mengidentifikasi situasi yang memicu kecemasan",
+              "Anjurkan mengevaluasi Kembali persepsi negatif tentang diri",
+              "Anjurkan dalam mengekspresikan diri dengan kelompok sebaya",
+              "Ajarkan cara membuat prioritas hidup",
+              "Latih kemampuan positif diri yang dimiliki"
+            ]
+          }
         },
         {
           "code": "I.09312",
-          "name": "Promosi Koping"
+          "name": "Promosi Koping",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
+              "Identifikasi kemampuan yang dimiliki",
+              "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
+              "Identifikasi pemahaman proses penyakit",
+              "Identifikasi dampak situasi terhadap peran dan hubungan",
+              "Identifikasi metode penyelesaian masalah",
+              "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
+              "Diskusikan perubahan peran yang dialami",
+              "Gunakan pendekatan yang tenang dan meyakinkan",
+              "Diskusikan alasan mengkritik diri sendiri",
+              "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+              "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+              "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
+              "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
+              "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
+              "Motivasi untuk menentukan harapan yang realistis",
+              "Tinjau Kembali kemampuan dalam pengambilan keputusan",
+              "Hindari mengambil keputusan saat pasien berada dibawah tekanan",
+              "Motivasi terlibat dalam kegiatan sosial",
+              "Motivasi mengidentifikasi sistem pendukung yang tersedia",
+              "Damping saat berduka (mis: penyakit kronis, kecacatan)",
+              "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
+              "Dukung penggunaan mekanisme pertahanan yang tepat",
+              "Kurangi rangsangan lingkungan yang mengancam",
+              "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
+              "Anjurkan penggunaan sumber spiritual, jika perlu",
+              "Anjurkan mengungkapkan perasaan dan persepsi",
+              "Anjurkan keluarga terlibat",
+              "Anjurkan membuat tujuan yang lebih spesifik",
+              "Ajarkan cara memecahkan masalah secara konstruktif",
+              "Latih penggunaan Teknik relaksasi",
+              "Latih keterampilan sosial, sesuai kebutuhan",
+              "Latih mengembangkan penilaian obyektif"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -733,7 +1692,7 @@
     "D.0095": {
       "code": "D.0095",
       "name": "Koping Komunitas Tidak Efektif",
-      "definition": ":.",
+      "definition": "Koping komunitas tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai pola adaptasi komunitas dan penyelesaian...",
       "signs_and_symptoms": {
         "subjective": [
           "Mengungkapkan ketidakberdayaan komunitas"
@@ -766,15 +1725,61 @@
       "interventions": [
         {
           "code": "I.12383",
-          "name": "Edukasi Kesehatan"
+          "name": "Edukasi Kesehatan",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kesiapan dan kemampuan menerima informasi",
+              "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat",
+              "Sediakan materi dan media Pendidikan  Kesehatan",
+              "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
+              "Berikan kesempatan untuk bertanya",
+              "Jelaskan faktor risiko yang dapat mempengaruhi Kesehatan",
+              "Ajarkan perilaku hidup bersih dan sehat",
+              "Ajarkan strategi yang dapat digunakan untuk meningkatkan perilaku hidup bersih dan sehat"
+            ]
+          }
         },
         {
           "code": "I.14515",
-          "name": "Manajemen Lingkungan Komunitas"
+          "name": "Manajemen Lingkungan Komunitas",
+          "tindakan": {
+            "terapeutik": [
+              "Lakukan skrining risiko gangguan Kesehatan lingkungan",
+              "Identifikasi faktor risiko Kesehatan yang diketahui",
+              "Libatkan partisipasi masyarakat dalam memelihara keamanan lingkungan",
+              "Promosikan kebijakan pemerintah untuk mengurangi risiko penyakit",
+              "Berikan Pendidikan Kesehatan untuk kelompok risiko",
+              "Informasikan layanan Kesehatan ke individu, keluarga, kelompok berisiko dan masyarakat",
+              "Kolaborasi dalam tim multidisiplin untuk mengidentifikasi ancaman keamanan di masyarakat",
+              "Kolaborasi dengan tim Kesehatan lain dalam program Kesehatan komunitas untuk menghadapi risiko yang diketahui",
+              "Kolaborasi dalam pegnembangan program aksi masyarakat",
+              "Kolaborasi dengan kelompok masyarakat dalam menjalankan peraturan pemerintah"
+            ]
+          }
         },
         {
           "code": "I.14548",
-          "name": "Pengembangan Kesehatan Masyarakat"
+          "name": "Pengembangan Kesehatan Masyarakat",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi masalah atau isu Kesehatan dan prioritasnya",
+              "Identifikasi potensi atau aset dalam masyarakat terkait isu yang dihadapi",
+              "Identifikasi kekuatan dan partner dalam pengembangan Kesehatan",
+              "Identifikasi pemimpin/tokoh dalam masyarakat",
+              "Berikan kesempatan kepada setiap anggota masyarakat untuk berpartisipasi sesuai aset yang dimiliki",
+              "Libatkan anggota masyarakat untuk meningkatkan kesadaran terhadap isu dan masalah Kesehatan yang dihadapi",
+              "Libatkan masyarakat dalam musyawarah untuk mendefinisikan isu Kesehatan dan mengembangkan rencana kerja",
+              "Libatkan masyarakat dalam proses perencanaan dan implementasi serta revisinya",
+              "Libatkan anggota masyarakat dalam mengembangkan jaringan Kesehatan",
+              "Pertahankan komunikasi yang terbuka dengan anggota masyarakat dan pihak-pihak yang terlibat",
+              "Perkuat komunikasi antara individu dan kelompok untuk bermusyawarah terkait daya Tarik yang sama",
+              "Fasilitasi struktur organisasi untuk meningkatkan kemampuan berkomunikasi dan bernegosiasi",
+              "Kembangkan strategi dalam manajemen konflik",
+              "Persatukan anggota masyarakat dengan cita-cita komunitas yang sama",
+              "Bangun komitmen antar anggota masyarakat",
+              "Kembangkan mekanisme keterlibatan tatanan lokal, regional bahkan nasional terkait isu Kesehatan komunitas"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -782,7 +1787,7 @@
     "D.0096": {
       "code": "D.0096",
       "name": "Koping Tidak Efektif",
-      "definition": ":.",
+      "definition": "Koping tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakmampuan menilai dan merespons stresor dan/atau...",
       "signs_and_symptoms": {
         "subjective": [
           "Mengungkapkan tidak mampu mengatasi masalah"
@@ -822,15 +1827,87 @@
       "interventions": [
         {
           "code": "I.09265",
-          "name": "Dukungan Pengambilan Keputusan"
+          "name": "Dukungan Pengambilan Keputusan",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi persepsi mengenai masalah dan informasi yang memicu konflik",
+              "Fasilitasi mengklarifikasi nilai dan harapan yang membantu membuat pilihan",
+              "Diskusikan kelebihan dan kekurangan dari setiap solusi",
+              "Fasilitasi melihat situasi secara realistic",
+              "Motivasi mengungkapkan tujuan perawatan yang diharapkan",
+              "Fasilitasi pengambilan keputusan secara kolaboratif",
+              "Hormati hak pasien untuk menerima atau menolak informasi",
+              "Fasilitasi menjelaskan keputusan kepada orang lain, jika perlu",
+              "Fasilitasi hubungan antara pasien, keluarga, dan tenaga Kesehatan lainnya",
+              "Jelaskan alternatif solusi secara jelas",
+              "Berikan informasi yang diminta pasien",
+              "Kolaborasi dengan tenaga Kesehatan lain dalam memfasilitasi pengambilan keputusan"
+            ]
+          }
         },
         {
           "code": "I.13478",
-          "name": "Dukungan Penampilan Peran"
+          "name": "Dukungan Penampilan Peran",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi berbagai peran dan periode transisi sesuai tingkat perkembangan",
+              "Identifikasi peran yang ada dalam keluarga",
+              "Identifikasi adanya peran yang tidak terpenuhi",
+              "Fasilitasi adaptasi peran keluarga terhadap perubahan peran yang tidak diinginkan",
+              "Fasilitasi bermain peran dalam mengantisipasi reaksi orang lain terhadap perilaku",
+              "Fasilitasi diskusi perubahan peran anak terhadap bayi baru lahir, jika perlu",
+              "Fasilitasi diskusi tentang peran orang tua, jika perlu",
+              "Fasilitasi diskusi tentang adaptasi peran saat anak meninggalkan rumah, jika perlu",
+              "Fasilitasi diskusi harapan dengan keluarga dan peran timbal balik",
+              "Diskusikan perilaku yang dibutuhkan untuk pengembangan peran",
+              "Diskusikan perubahan peran yang diperlukan akibat penyakit atau ketidakmampuan",
+              "Diskusikan perubahan peran dalam menerima ketergantungan orang tua",
+              "Diskusikan strategi positif untuk mengelola perubahan peran",
+              "Ajarkan perilaku baru yang dibutuhkan oleh pasien/orang tua untuk memenuhi peran",
+              "Rujuk dalam kelompok untuk mempelajari peran baru"
+            ]
+          }
         },
         {
           "code": "I.09312",
-          "name": "Promosi Koping"
+          "name": "Promosi Koping",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
+              "Identifikasi kemampuan yang dimiliki",
+              "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
+              "Identifikasi pemahaman proses penyakit",
+              "Identifikasi dampak situasi terhadap peran dan hubungan",
+              "Identifikasi metode penyelesaian masalah",
+              "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
+              "Diskusikan perubahan peran yang dialami",
+              "Gunakan pendekatan yang tenang dan meyakinkan",
+              "Diskusikan alasan mengkritik diri sendiri",
+              "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+              "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+              "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
+              "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
+              "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
+              "Motivasi untuk menentukan harapan yang realistis",
+              "Tinjau Kembali kemampuan dalam pengambilan keputusan",
+              "Hindari mengambil keputusan saat pasien berada dibawah tekanan",
+              "Motivasi terlibat dalam kegiatan sosial",
+              "Motivasi mengidentifikasi sistem pendukung yang tersedia",
+              "Damping saat berduka (mis: penyakit kronis, kecacatan)",
+              "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
+              "Dukung penggunaan mekanisme pertahanan yang tepat",
+              "Kurangi rangsangan lingkungan yang mengancam",
+              "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
+              "Anjurkan penggunaan sumber spiritual, jika perlu",
+              "Anjurkan mengungkapkan perasaan dan persepsi",
+              "Anjurkan keluarga terlibat",
+              "Anjurkan membuat tujuan yang lebih spesifik",
+              "Ajarkan cara memecahkan masalah secara konstruktif",
+              "Latih penggunaan Teknik relaksasi",
+              "Latih keterampilan sosial, sesuai kebutuhan",
+              "Latih mengembangkan penilaian obyektif"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -838,7 +1915,7 @@
     "D.0097": {
       "code": "D.0097",
       "name": "Penurunan Koping Keluarga",
-      "definition": ":.",
+      "definition": "Penurunan koping keluarga merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakadekuatan atau ketidakefektifan dukungan, rasa...",
       "signs_and_symptoms": {
         "subjective": [
           "Klien mengeluh/khawatir tentang respon orang terdekat pada masalah kesehatan"
@@ -879,11 +1956,71 @@
       "interventions": [
         {
           "code": "I.09260",
-          "name": "Dukungan Koping Keluarga"
+          "name": "Dukungan Koping Keluarga",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi respons emosional terhadap kondisi saat ini",
+              "Identifikasi beban prognosis secara psikologis",
+              "Identifikasi pemahaman tentang keputusan perawatan setelah pulang",
+              "Identifikasi kesesuaian antara harapan pasien, keluarga, dan tenaga kesehatan",
+              "Dengarkan masalah, perasaan, dan pertanyaan keluarga",
+              "Terima nilai-nilai keluarga dengan cara yang tidak menghakimi",
+              "Diskusikan rencana medis dan perawatan",
+              "Fasilitasi pengungkapan perasaan antara pasien dan keluarga atau antar anggota keluarga",
+              "Fasilitasi pengambilan keputusan dalam merencanakan perawatan jangka Panjang, jika perlu",
+              "Fasilitasi anggota keluarga dalam mengidentifikasi dan menyelesaikan konflik nilai",
+              "Fasilitasi pemenuhan kebutuhan dasar keluarga (mis: tempat tinggal, makanan, pakaian)",
+              "Fasilitasi anggota keluarga melalui proses kematian dan berduka, jika perlu",
+              "Fasilitasi memperoleh pengetahuan, keterampilan, dan peralatan yang diperlukan untuk mempertahankan keputusan perawatan pasien",
+              "Bersikap sebagai pengganti keluarga untuk menenangkan pasien dan/atau jika keluarga tidak dapat memberikan perawatan",
+              "Hargai dan dukung mekanisme koping adaptif yang digunakan",
+              "Berikan kesempatan berkunjung bagi anggota keluarga",
+              "Informasikan kemajuan pasien secara berkala",
+              "Informasikan fasilitas perawatan Kesehatan yang tersedia",
+              "Rujuk untuk terapi keluarga, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.09312",
-          "name": "Promosi Koping"
+          "name": "Promosi Koping",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
+              "Identifikasi kemampuan yang dimiliki",
+              "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
+              "Identifikasi pemahaman proses penyakit",
+              "Identifikasi dampak situasi terhadap peran dan hubungan",
+              "Identifikasi metode penyelesaian masalah",
+              "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
+              "Diskusikan perubahan peran yang dialami",
+              "Gunakan pendekatan yang tenang dan meyakinkan",
+              "Diskusikan alasan mengkritik diri sendiri",
+              "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+              "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+              "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
+              "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
+              "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
+              "Motivasi untuk menentukan harapan yang realistis",
+              "Tinjau Kembali kemampuan dalam pengambilan keputusan",
+              "Hindari mengambil keputusan saat pasien berada dibawah tekanan",
+              "Motivasi terlibat dalam kegiatan sosial",
+              "Motivasi mengidentifikasi sistem pendukung yang tersedia",
+              "Damping saat berduka (mis: penyakit kronis, kecacatan)",
+              "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
+              "Dukung penggunaan mekanisme pertahanan yang tepat",
+              "Kurangi rangsangan lingkungan yang mengancam",
+              "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
+              "Anjurkan penggunaan sumber spiritual, jika perlu",
+              "Anjurkan mengungkapkan perasaan dan persepsi",
+              "Anjurkan keluarga terlibat",
+              "Anjurkan membuat tujuan yang lebih spesifik",
+              "Ajarkan cara memecahkan masalah secara konstruktif",
+              "Latih penggunaan Teknik relaksasi",
+              "Latih keterampilan sosial, sesuai kebutuhan",
+              "Latih mengembangkan penilaian obyektif"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -891,7 +2028,7 @@
     "D.0098": {
       "code": "D.0098",
       "name": "Penyangkalan Tidak Efektif",
-      "definition": ":.",
+      "definition": "Penyangkalan tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai upaya mengingkari pemahaman atau makna suatu...",
       "signs_and_symptoms": {
         "subjective": [
           "Tidak mengakui dirinya mengalami gejala atau bahaya (walaupun kenyataan sebaliknya)"
@@ -922,11 +2059,70 @@
       "interventions": [
         {
           "code": "I.09311",
-          "name": "Promosi Kesadaran Diri"
+          "name": "Promosi Kesadaran Diri",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi keadaan emosional saat ini",
+              "Identifikasi respons yang ditunjukkan berbagai situasi",
+              "Diskusikan nilai-nilai yang berkontribusi terhadap konsep diri",
+              "Diskusikan tentang pikiran, perilaku, atau respons terhadap kondisi",
+              "Diskusikan dampak penyakit pada konsep diri",
+              "Ungkapkan penyangkalan tentang kenyataan",
+              "Motivasi dalam meningkatkan kemampuan belajar",
+              "Anjurkan mengenali pikiran dan perasaan tentang diri",
+              "Anjurkan menyadari bahwa setiap orang unik",
+              "Anjurkan mengungkapkan perasaan (mis: marah atau depresi)",
+              "Anjurkan meminta bantuan orang lain, sesuai kebutuhan",
+              "Anjurkan mengubah pandangan diri sebagai korban",
+              "Anjurkan mengidentifikasi perasaan bersalah",
+              "Anjurkan mengidentifikasi situasi yang memicu kecemasan",
+              "Anjurkan mengevaluasi Kembali persepsi negatif tentang diri",
+              "Anjurkan dalam mengekspresikan diri dengan kelompok sebaya",
+              "Ajarkan cara membuat prioritas hidup",
+              "Latih kemampuan positif diri yang dimiliki"
+            ]
+          }
         },
         {
           "code": "I.09312",
-          "name": "Promosi Koping"
+          "name": "Promosi Koping",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
+              "Identifikasi kemampuan yang dimiliki",
+              "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
+              "Identifikasi pemahaman proses penyakit",
+              "Identifikasi dampak situasi terhadap peran dan hubungan",
+              "Identifikasi metode penyelesaian masalah",
+              "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
+              "Diskusikan perubahan peran yang dialami",
+              "Gunakan pendekatan yang tenang dan meyakinkan",
+              "Diskusikan alasan mengkritik diri sendiri",
+              "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+              "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+              "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
+              "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
+              "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
+              "Motivasi untuk menentukan harapan yang realistis",
+              "Tinjau Kembali kemampuan dalam pengambilan keputusan",
+              "Hindari mengambil keputusan saat pasien berada dibawah tekanan",
+              "Motivasi terlibat dalam kegiatan sosial",
+              "Motivasi mengidentifikasi sistem pendukung yang tersedia",
+              "Damping saat berduka (mis: penyakit kronis, kecacatan)",
+              "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
+              "Dukung penggunaan mekanisme pertahanan yang tepat",
+              "Kurangi rangsangan lingkungan yang mengancam",
+              "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
+              "Anjurkan penggunaan sumber spiritual, jika perlu",
+              "Anjurkan mengungkapkan perasaan dan persepsi",
+              "Anjurkan keluarga terlibat",
+              "Anjurkan membuat tujuan yang lebih spesifik",
+              "Ajarkan cara memecahkan masalah secara konstruktif",
+              "Latih penggunaan Teknik relaksasi",
+              "Latih keterampilan sosial, sesuai kebutuhan",
+              "Latih mengembangkan penilaian obyektif"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -934,7 +2130,7 @@
     "D.0099": {
       "code": "D.0099",
       "name": "Perilaku Kesehatan Cenderung Berisiko",
-      "definition": ":.",
+      "definition": "Perilaku Kesehatan cenderung berisiko merupakan diagnosis keperawatan yang didefinisikan sebagai hambatan kemampuan dalam...",
       "signs_and_symptoms": {
         "subjective": [
           "Tidak tersedia"
@@ -966,7 +2162,24 @@
       "interventions": [
         {
           "code": "I.12472",
-          "name": "Promosi Perilaku Upaya Kesehatan"
+          "name": "Promosi Perilaku Upaya Kesehatan",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi perilaku upaya Kesehatan yang dapat ditingkatkan",
+              "Berikan lingkungan yang mendukung Kesehatan",
+              "Orientasi pelayanan Kesehatan yang dapat dimanfaatkan",
+              "Anjurkan persalinan ditolong oleh tenaga kesehatan",
+              "Anjurkan memberi bayi ASI eksklusif",
+              "Anjurkan menimbang balita setiap bulan",
+              "Anjurkan menggunakan air bersih",
+              "Anjurkan mencuci tangan dengan air bersih dan sabun",
+              "Anjurkan menggunakan jamban sehat",
+              "Anjurkan memberantas jentik di rumah seminggu sekali",
+              "Anjurkan makan sayur dan buah setiap hari",
+              "Anjurkan melakukan aktivitas fisik setiap hari",
+              "Anjurkan tidak merokok di dalam rumah"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -974,7 +2187,7 @@
     "D.0100": {
       "code": "D.0100",
       "name": "Risko Distres Spiritual",
-      "definition": "",
+      "definition": "Risiko distres spiritual merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami gangguan keyakinan atau sistem...",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -1013,11 +2226,46 @@
       "interventions": [
         {
           "code": "I.09269",
-          "name": "Dukungan Perkembangan Spiritual"
+          "name": "Dukungan Perkembangan Spiritual",
+          "tindakan": {
+            "terapeutik": [
+              "Sediakan lingkungan yang tenang untuk refleksi diri",
+              "Fasilitasi mengidentifikasi masalah spiritual",
+              "Fasilitasi mengidentifikasi hambatan dalam pengenalan diri",
+              "Fasilitasi mengeksplorasi keyakinan terkait pemulihan tubuh, pikiran, dan jiwa",
+              "Fasilitasi hubungan persahabatan dengan orang lain dan pelayanan keagamaan",
+              "Anjurkan membuat komitmen spiritual berdasarkan keyakinan dan nilai",
+              "Anjurkan berpartisipasi dalam kegiatan ibadah (hari raya, ritual) dan meditasi",
+              "Rujuk pada pemuka agama/kelompok agama, jika perlu",
+              "Rujuk kepada kelompok pendukung, swabantu, atau program  spiritual, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.09306",
-          "name": "Promosi Dukungan Spiritual"
+          "name": "Promosi Dukungan Spiritual",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi keyakinan tentang makna dan tujuan hidup, sesuai kebutuhan",
+              "Identifikasi perspektif spiritual, sesuai kebutuhan",
+              "Perlakukan pasien dengan bermartabat dan terhormat",
+              "Tunjukkan keterbukaan, empati, dan kesediaan mendengarkan perasaan pasien",
+              "Yakinkan bahwa perawat selalu ada dan mendukung",
+              "Gunakan Teknik klarifikasi untuk membantu menilai keyakinan, jika perlu",
+              "Fasilitasi mengekspresikan dan meredakan amarah secara tepat",
+              "Motivasi meninjau kehidupan masa lalu dan fokus pada hal yang memberikan kekuatan spiritual",
+              "Motivasi berinteraksi dengan anggota keluarga, teman, dan lainnya",
+              "Dorong privasi dan waktu tenang untuk aktivitas spiritual",
+              "Motivasi berpartisipasi dalam kelompok pendukung",
+              "Motivasi mengekspresikan perasaan (mis: kesepian, tidak berdaya, ansietas)",
+              "Motivasi penggunaan sumber spiritual, jika perlu",
+              "Jadwalkan kunjungan pembimbing spiritual, jika perlu",
+              "Anjurkan mengingat kenangan hidup",
+              "Anjurkan untuk berdoa",
+              "Anjurkan penggunaan media spiritual (mis: televisi, buku)",
+              "Ajarkan metode relaksasi (mis: Teknik napas dalam, imajinasi terbimbing, meditasi)"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -1025,7 +2273,7 @@
     "D.0101": {
       "code": "D.0101",
       "name": "Risiko Harga Diri Rendah Kronis",
-      "definition": ":.",
+      "definition": "Risiko harga diri rendah kronis merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami evaluasi atau perasaan...",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -1062,15 +2310,102 @@
       "interventions": [
         {
           "code": "I.09308",
-          "name": "Promosi Harga Diri"
+          "name": "Promosi Harga Diri",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi budaya, agama, ras, jenis kelamin, dan usia terhadap harga diri",
+              "Monitor verbalisasi yang merendahkan diri sendiri",
+              "Monitor tingkat harga diri setiap waktu, sesuai kebutuhan",
+              "Motivasi terlibat dalam verbalisasi positif untuk diri sendiri",
+              "Motivasi menerima tantangan atau hal baru",
+              "Diskusikan pernyataan tentang harga diri",
+              "Diskusikan kepercayaan terhadap penilaian diri",
+              "Diskusikan pengalaman yang meningkatkan harga diri",
+              "Diskusikan persepsi negatif diri",
+              "Diskusikan alasan mengkritik diri atau rasa bersalah",
+              "Diskusikan penetapan tujuan realistis untuk mencapai harga diri yang lebih tinggi",
+              "Diskusikan Bersama keluarga untuk menetapkan harapan dan Batasan yang jelas",
+              "Berikan umpan balik positif atas peningkatan mencapai tujuan",
+              "Fasilitasi lingkungan dan aktivitas yang meningkatkan diri",
+              "Jelaskan kepada keluarga pentingnya dukungan dalam perkembangan konsep positif diri pasien",
+              "Anjurkan mengidentifikasi kekuatan yang dimiliki",
+              "Anjurkan mempertahankan kontak mata saat berkomunikasi dengan orang lain",
+              "Anjurkan membuka diri terhadap kritik negatif",
+              "Anjurkan mengevaluasi perilaku",
+              "Ajarkan cara mengatasi bullying",
+              "Latih peningkatan tanggung jawab untuk diri sendiri",
+              "Latih pernyataan/kemampuan positif diri",
+              "Latih cara berfikir dan berperilaku positif",
+              "Latih meningkatkan kepercayaan pada kemampuan dalam menangani situasi"
+            ]
+          }
         },
         {
           "code": "I.09312",
-          "name": "Promosi Koping"
+          "name": "Promosi Koping",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
+              "Identifikasi kemampuan yang dimiliki",
+              "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
+              "Identifikasi pemahaman proses penyakit",
+              "Identifikasi dampak situasi terhadap peran dan hubungan",
+              "Identifikasi metode penyelesaian masalah",
+              "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
+              "Diskusikan perubahan peran yang dialami",
+              "Gunakan pendekatan yang tenang dan meyakinkan",
+              "Diskusikan alasan mengkritik diri sendiri",
+              "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+              "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+              "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
+              "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
+              "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
+              "Motivasi untuk menentukan harapan yang realistis",
+              "Tinjau Kembali kemampuan dalam pengambilan keputusan",
+              "Hindari mengambil keputusan saat pasien berada dibawah tekanan",
+              "Motivasi terlibat dalam kegiatan sosial",
+              "Motivasi mengidentifikasi sistem pendukung yang tersedia",
+              "Damping saat berduka (mis: penyakit kronis, kecacatan)",
+              "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
+              "Dukung penggunaan mekanisme pertahanan yang tepat",
+              "Kurangi rangsangan lingkungan yang mengancam",
+              "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
+              "Anjurkan penggunaan sumber spiritual, jika perlu",
+              "Anjurkan mengungkapkan perasaan dan persepsi",
+              "Anjurkan keluarga terlibat",
+              "Anjurkan membuat tujuan yang lebih spesifik",
+              "Ajarkan cara memecahkan masalah secara konstruktif",
+              "Latih penggunaan Teknik relaksasi",
+              "Latih keterampilan sosial, sesuai kebutuhan",
+              "Latih mengembangkan penilaian obyektif"
+            ]
+          }
         },
         {
           "code": "I.13498",
-          "name": "Promosi Sosialisasi"
+          "name": "Promosi Sosialisasi",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kemampuan melakukan interaksi dengan orang lain",
+              "Identifikasi hambatan melakukan interaksi dengan orang lain",
+              "Motivasi meningkatkan keterlibatan dalam suatu hubungan",
+              "Motivasi kesabaran dalam mengembangkan suatu hubungan",
+              "Motivasi berpartisipasi dalam aktivitas baru dan kegiatan kelompok",
+              "Motivasi berinteraksi di luar lingkungan (mis: jalan-jalan, ke toko buku)",
+              "Diskusikan kekuatan dan keterbatasan dalam berkomunikasi dengan orang lain",
+              "Diskusikan perencanaan kegiatan di masa depan",
+              "Berikan umpan balik positif dalam perawatan diri",
+              "Berikan umpan balik positif pada setiap peningkatan kemampuan",
+              "Anjurkan berinteraksi dengan orang lain secara bertahap",
+              "Anjurkan ikut serta kegiatan sosial dan kemasyarakatan",
+              "Anjurkan berbagi pengalaman dengan orang lain",
+              "Anjurkan meningkatkan kejujuran diri dan menghormati hak orang lain",
+              "Anjurkan penggunaan alat bantu (mis: kacamata dan alat bantu dengar)",
+              "Anjurkan membuat perencanaan kelompok kecil untuk kegiatan khusus",
+              "Latih bermain peran untuk meningkatkan keterampilan komunikasi",
+              "Latih mengekspresikan marah dengan tepat"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -1078,7 +2413,7 @@
     "D.0102": {
       "code": "D.0102",
       "name": "Risiko Harga Diri Rendah Situasional",
-      "definition": ":.",
+      "definition": "Risiko harga diri rendah situasional merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami evaluasi atau perasaan...",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -1119,15 +2454,84 @@
       "interventions": [
         {
           "code": "I.13478",
-          "name": "Dukungan Penampilan Peran"
+          "name": "Dukungan Penampilan Peran",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi berbagai peran dan periode transisi sesuai tingkat perkembangan",
+              "Identifikasi peran yang ada dalam keluarga",
+              "Identifikasi adanya peran yang tidak terpenuhi",
+              "Fasilitasi adaptasi peran keluarga terhadap perubahan peran yang tidak diinginkan",
+              "Fasilitasi bermain peran dalam mengantisipasi reaksi orang lain terhadap perilaku",
+              "Fasilitasi diskusi perubahan peran anak terhadap bayi baru lahir, jika perlu",
+              "Fasilitasi diskusi tentang peran orang tua, jika perlu",
+              "Fasilitasi diskusi tentang adaptasi peran saat anak meninggalkan rumah, jika perlu",
+              "Fasilitasi diskusi harapan dengan keluarga dan peran timbal balik",
+              "Diskusikan perilaku yang dibutuhkan untuk pengembangan peran",
+              "Diskusikan perubahan peran yang diperlukan akibat penyakit atau ketidakmampuan",
+              "Diskusikan perubahan peran dalam menerima ketergantungan orang tua",
+              "Diskusikan strategi positif untuk mengelola perubahan peran",
+              "Ajarkan perilaku baru yang dibutuhkan oleh pasien/orang tua untuk memenuhi peran",
+              "Rujuk dalam kelompok untuk mempelajari peran baru"
+            ]
+          }
         },
         {
           "code": "I.09308",
-          "name": "Promosi Harga Diri"
+          "name": "Promosi Harga Diri",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi budaya, agama, ras, jenis kelamin, dan usia terhadap harga diri",
+              "Monitor verbalisasi yang merendahkan diri sendiri",
+              "Monitor tingkat harga diri setiap waktu, sesuai kebutuhan",
+              "Motivasi terlibat dalam verbalisasi positif untuk diri sendiri",
+              "Motivasi menerima tantangan atau hal baru",
+              "Diskusikan pernyataan tentang harga diri",
+              "Diskusikan kepercayaan terhadap penilaian diri",
+              "Diskusikan pengalaman yang meningkatkan harga diri",
+              "Diskusikan persepsi negatif diri",
+              "Diskusikan alasan mengkritik diri atau rasa bersalah",
+              "Diskusikan penetapan tujuan realistis untuk mencapai harga diri yang lebih tinggi",
+              "Diskusikan Bersama keluarga untuk menetapkan harapan dan Batasan yang jelas",
+              "Berikan umpan balik positif atas peningkatan mencapai tujuan",
+              "Fasilitasi lingkungan dan aktivitas yang meningkatkan diri",
+              "Jelaskan kepada keluarga pentingnya dukungan dalam perkembangan konsep positif diri pasien",
+              "Anjurkan mengidentifikasi kekuatan yang dimiliki",
+              "Anjurkan mempertahankan kontak mata saat berkomunikasi dengan orang lain",
+              "Anjurkan membuka diri terhadap kritik negatif",
+              "Anjurkan mengevaluasi perilaku",
+              "Ajarkan cara mengatasi bullying",
+              "Latih peningkatan tanggung jawab untuk diri sendiri",
+              "Latih pernyataan/kemampuan positif diri",
+              "Latih cara berfikir dan berperilaku positif",
+              "Latih meningkatkan kepercayaan pada kemampuan dalam menangani situasi"
+            ]
+          }
         },
         {
           "code": "I.09311",
-          "name": "Promosi Kesadaran Diri"
+          "name": "Promosi Kesadaran Diri",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi keadaan emosional saat ini",
+              "Identifikasi respons yang ditunjukkan berbagai situasi",
+              "Diskusikan nilai-nilai yang berkontribusi terhadap konsep diri",
+              "Diskusikan tentang pikiran, perilaku, atau respons terhadap kondisi",
+              "Diskusikan dampak penyakit pada konsep diri",
+              "Ungkapkan penyangkalan tentang kenyataan",
+              "Motivasi dalam meningkatkan kemampuan belajar",
+              "Anjurkan mengenali pikiran dan perasaan tentang diri",
+              "Anjurkan menyadari bahwa setiap orang unik",
+              "Anjurkan mengungkapkan perasaan (mis: marah atau depresi)",
+              "Anjurkan meminta bantuan orang lain, sesuai kebutuhan",
+              "Anjurkan mengubah pandangan diri sebagai korban",
+              "Anjurkan mengidentifikasi perasaan bersalah",
+              "Anjurkan mengidentifikasi situasi yang memicu kecemasan",
+              "Anjurkan mengevaluasi Kembali persepsi negatif tentang diri",
+              "Anjurkan dalam mengekspresikan diri dengan kelompok sebaya",
+              "Ajarkan cara membuat prioritas hidup",
+              "Latih kemampuan positif diri yang dimiliki"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -1135,7 +2539,7 @@
     "D.0103": {
       "code": "D.0103",
       "name": "Risiko Ketidakberdayaan",
-      "definition": ":.",
+      "definition": "Risiko ketidakberdayaan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami persepsi bahwa tindakan...",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -1165,11 +2569,65 @@
       "interventions": [
         {
           "code": "I.09307",
-          "name": "Promosi Harapan"
+          "name": "Promosi Harapan",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi harapan pasien dan keluarga dalam pencapaian hidup",
+              "Sadarkan bahwa kondisi yang dialami memiliki nilai penting",
+              "Pandu mengingat Kembali kenangan yang menyenangkan",
+              "Libatkan pasien secara aktif dalam perawatan",
+              "Kembangkan rencana perawatan yang melibatkan tingkat pencapaian tujuan sederhana sampai dengan kompleks",
+              "Berikan kesempatan kepada pasien dan keluarga terlibat dengan dukungan kelompok",
+              "Ciptakan lingkungan yang memudahkan mempraktikkan kebutuhan spiritual",
+              "Anjurkan mengungkapkan perasaan terhdap kondisi dengan realistis",
+              "Anjurkan mempertahankan hubungan (mis: menyebutkan nama orang yang dicintai)",
+              "Anjurkan mempertahankan hubungan terapeutik dengan orang lain",
+              "Latih menyusun tujuan yang sesuai dengan harapan",
+              "Latih cara mengembangkan spiritual diri",
+              "Latih cara mengenang dan menikmati masa lalu (mis: prestasi, pengalaman)"
+            ]
+          }
         },
         {
           "code": "I.09312",
-          "name": "Promosi Koping"
+          "name": "Promosi Koping",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
+              "Identifikasi kemampuan yang dimiliki",
+              "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
+              "Identifikasi pemahaman proses penyakit",
+              "Identifikasi dampak situasi terhadap peran dan hubungan",
+              "Identifikasi metode penyelesaian masalah",
+              "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
+              "Diskusikan perubahan peran yang dialami",
+              "Gunakan pendekatan yang tenang dan meyakinkan",
+              "Diskusikan alasan mengkritik diri sendiri",
+              "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+              "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+              "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
+              "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
+              "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
+              "Motivasi untuk menentukan harapan yang realistis",
+              "Tinjau Kembali kemampuan dalam pengambilan keputusan",
+              "Hindari mengambil keputusan saat pasien berada dibawah tekanan",
+              "Motivasi terlibat dalam kegiatan sosial",
+              "Motivasi mengidentifikasi sistem pendukung yang tersedia",
+              "Damping saat berduka (mis: penyakit kronis, kecacatan)",
+              "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
+              "Dukung penggunaan mekanisme pertahanan yang tepat",
+              "Kurangi rangsangan lingkungan yang mengancam",
+              "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
+              "Anjurkan penggunaan sumber spiritual, jika perlu",
+              "Anjurkan mengungkapkan perasaan dan persepsi",
+              "Anjurkan keluarga terlibat",
+              "Anjurkan membuat tujuan yang lebih spesifik",
+              "Ajarkan cara memecahkan masalah secara konstruktif",
+              "Latih penggunaan Teknik relaksasi",
+              "Latih keterampilan sosial, sesuai kebutuhan",
+              "Latih mengembangkan penilaian obyektif"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -1177,7 +2635,7 @@
     "D.0104": {
       "code": "D.0104",
       "name": "Sindrom Pasca Trauma",
-      "definition": ":.",
+      "definition": "Sindrom pasca trauma merupakan diagnosis keperawatan yang didefinisikan sebagai respon maladaptif yang berkelanjutan terhadap...",
       "signs_and_symptoms": {
         "subjective": [
           "Mengungkapkan secara berlebihan atau menghindari pembicaraan kejadian trauma",
@@ -1214,11 +2672,53 @@
       "interventions": [
         {
           "code": "I.09274",
-          "name": "Dukungan Proses Berduka"
+          "name": "Dukungan Proses Berduka",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kehilangan yang dihadapi",
+              "Identifikasi proses berduka yang dialami",
+              "Identifikasi sifat keterikatan pada benda yang hilang atau orang yang meninggal",
+              "Identifikasi reaksi awal terhadap kehilangan",
+              "Tunjukan sikap menerima dan empati",
+              "Motivasi agar mau mengungkapkan perasaan kehilangan",
+              "Motivasi untuk menguatkan dukungan keluarga atau orang terdekat",
+              "Fasilitasi melakukan kebiasaan sesuai dengan budaya, agama, dan norma sosial",
+              "Fasilitasi mengekspresikan perasaan dengan cara yang nyaman (mis: membaca buku, menulis, menggambar, atau bermain)",
+              "Diskusikan strategi koping yang dapat digunakan",
+              "Jelaskan kepada pasien dan keluarga bahwa sikap mengingkari, marah, tawar menawar, depresi, dan menerima adalah wajar dalam menghadapi kehilangan",
+              "Anjurkan mengidentifikasi ketakutan terbesar pada kehilangan",
+              "Anjurkan mengekspresikan perasaan tentang kehilangan",
+              "Ajarkan melewati proses berduka secara bertahap"
+            ]
+          }
         },
         {
           "code": "I.09314",
-          "name": "Reduksi Ansietas"
+          "name": "Reduksi Ansietas",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi saat tingkat ansietas berubah (mis: kondisi, waktu, stresor)",
+              "Identifikasi kemampuan mengambil keputusan",
+              "Monitor tanda-tanda ansietas (verbal dan nonverbal)",
+              "Ciptakan suasana terapeutik untuk menumbuhkan kepercayaan",
+              "Temani pasien untuk mengurangi kecemasan, jika memungkinkan",
+              "Pahami situasi yang membuat ansietas",
+              "Dengarkan dengan penuh perhatian",
+              "Gunakan pendekatan yang tenang dan meyakinkan",
+              "Tempatkan barang pribadi yang memberikan kenyamanan",
+              "Motivasi mengidentifikasi situasi yang memicu kecemasan",
+              "Diskusikan perencanaan realistis tentang peristiwa yang akan datang",
+              "Jelaskan prosedur, termasuk sensasi yang mungkin dialami",
+              "Informasikan secara faktual mengenai diagnosis, pengobatan, dan prognosis",
+              "Anjurkan keluarga untuk tetap Bersama pasien, jika perlu",
+              "Anjurkan melakukan kegiatan yang tidak kompetitif, sesuai kebutuhan",
+              "Anjurkan mengungkapkan perasaan dan persepsi",
+              "Latih kegiatan pengalihan untuk mengurangi ketegangan",
+              "Latih penggunaan mekanisme pertahanan diri yang tepat",
+              "Latih Teknik relaksasi",
+              "Kolaborasi pemberian obat antiansietas, jika perlu"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"
@@ -1226,7 +2726,7 @@
     "D.0105": {
       "code": "D.0105",
       "name": "Waham",
-      "definition": ":.",
+      "definition": "Waham merupakan diagnosis keperawatan yang didefinisikan sebagai keyakinan yang keliru tentang isi pikiran yang dipertahankan secara...",
       "signs_and_symptoms": {
         "subjective": [
           "Mengungkapkan isi waham"
@@ -1257,11 +2757,48 @@
       "interventions": [
         {
           "code": "I.09295",
-          "name": "Manajemen Waham"
+          "name": "Manajemen Waham",
+          "tindakan": {
+            "terapeutik": [
+              "Monitor waham yang isinya membahayakan diri sendiri, orang lain, dan lingkungan",
+              "Monitor efek terapeutik dan efek samping obat",
+              "Bina hubungan interpersonal saling percaya",
+              "Tunjukkan sikap tidak menghakimi secara konsisten",
+              "Diskusikan waham dengan berfokus pada perasaan yang mendasari waham (“Anda terlihat seperti sedang merasa ketakutan”)",
+              "Hindari perdebatan tentang keyakinan yang keliru, nyatakan keraguan sesuai fakta",
+              "Hindari memperkuat gagasan waham",
+              "Sediakan lingkungan aman dan nyaman",
+              "Berikan aktivitas rekreasi dan pengalihan sesuai kebutuhan",
+              "Lakukan intervensi pengontrolan perilaku waham (Mis: limit setting, pembatasan wilayah, pengekangan fisik, atau seklusi)",
+              "Anjurkan mengungkapkan dan memvalidasi waham (uji realitas) dengan orang yang dipercaya (pemberi asuhan/keluarga)",
+              "Anjurkan melakukan rutinitas harian secara konsisten",
+              "Latih manajemen stres",
+              "Jelaskan tentang waham serta penyakit terkait (mis: delirium, skizofrenia, atau depresi), cara mengatasi dan obat yang diberikan",
+              "Kolaborasi pemberian obat, sesuai indikasi"
+            ]
+          }
         },
         {
           "code": "I.09297",
-          "name": "Orientasi Realita"
+          "name": "Orientasi Realita",
+          "tindakan": {
+            "terapeutik": [
+              "Monitor perubahan orientasi",
+              "Monitor perubahan kognitif dan perilaku",
+              "Perkenalkan nama saat memulai interaksi",
+              "Orientasikan orang, tempat, dan waktu",
+              "Hadirkan realita (mis: beri penjelasan alternatif, hindari perdebatan)",
+              "Sediakan lingkungan dan rutinitas secara konsisten",
+              "Atur stimulus sensorik dan lingkungan (mis: kunjungan, pemandangan, suara, pencahayaan, bau, dan sentuhan)",
+              "Gunakan simbol dalam mengorientasikan lingkungan (mis: tanda, gambar, warna)",
+              "Libatkan dalam terapi kelompok orientasi",
+              "Berikan waktu istirahat dan tidur yang cukup, sesuai kebutuhan",
+              "Fasilitasi akses informasi (mis: televisi, surat kabad, radio), jika perlu",
+              "Anjurkan perawatan diri secara mandiri",
+              "Anjurkan penggunaan alat bantu (mis: kacamata, alat bantu dengar, gigi palsu)",
+              "Ajarkan keluarga dalam perawatan orientasi lansia"
+            ]
+          }
         }
       ],
       "category": "Integritas ego"

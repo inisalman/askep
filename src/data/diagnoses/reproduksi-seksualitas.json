@@ -5,7 +5,7 @@
     "D.0069": {
       "code": "D.0069",
       "name": "Disfungsi Seksual",
-      "definition": ":.",
+      "definition": "Disfungsi seksual merupakan diagnosis keperawatan yang didefinisikan sebagai perubahan fungsi seksual selama fase respon seksual berupa...",
       "signs_and_symptoms": {
         "subjective": [
           "Mengungkapkan aktivitas seksual berubah",
@@ -50,11 +50,43 @@
       "interventions": [
         {
           "code": "I.12447",
-          "name": "Edukasi Seksualitas"
+          "name": "Edukasi Seksualitas",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kesiapan dan kemampuan menerima informasi",
+              "Sediakan materi dan media Pendidikan Kesehatan",
+              "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
+              "Berikan kesempatan untuk bertanya",
+              "Fasilitasi kesadaran keluarga terhadap anak dan remaja serta pengaruh media",
+              "Jelaskan anatomi dan fisiologi sistem reproduksi laki-laki dan perempuan",
+              "Jelaskan perkembangan seksualitas sepanjang siklus kehidupan",
+              "Jelaskan perkembangan emosi masa anak dan remaja",
+              "Jelaskan pengaruh tekanan kelompok dan sosial terhadap aktivitas seksual",
+              "Jelaskan konsekuensi negatif mengasuh anak pada usia dini (mis: kemiskinan, kehilangan karir dan Pendidikan)",
+              "Jelaskan risiko tertular penyakit menular seksual dan AIDS akibat seks bebas",
+              "Anjurkan orang tua menjadi educator seksualitas bagi anak-anaknya",
+              "Anjurkan anak/remaja tidak melakukan aktivitas seksual di luar nikah",
+              "Ajarkan keterampilan komunikasi asertif untuk menolak tekanan teman sebaya dan sosial dalam aktivitas seksual"
+            ]
+          }
         },
         {
           "code": "I.07214",
-          "name": "Konseling Seksualitas"
+          "name": "Konseling Seksualitas",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi tingkat pengetahuan, masalah sistem reproduksi, masalah seksualitas, dan penyakit menular seksual",
+              "Identifikasi waktu disfungsi seksual dan kemungkinan penyebab",
+              "Monitor stres, kecemasan, depresi, dan penyebab disfungsi seksual",
+              "Fasilitasi komunikasi antara pasien dan pasangan",
+              "Berikan kesempatan kepada pasangan untuk menceritakan permasalahan seksual",
+              "Berikan pujian terhadap perilaku yang benar",
+              "Berikan saran yang sesuai kebutuhan pasangan dengan menggunakan Bahasa yang mudah diterima, dipahami, dan tidak menghakimi",
+              "Jelaskan efek pengobatan,  Kesehatan dan penyakit terhadap disfungsi seksual",
+              "Informasikan pentingnya modifikasi pada aktivitas seksual",
+              "Kolaborasi dengan spesialis seksologi, jika perlu"
+            ]
+          }
         }
       ],
       "category": "Reproduksi dan Seksualitas"
@@ -62,7 +94,7 @@
     "D.0070": {
       "code": "D.0070",
       "name": "Kesiapan Persalinan",
-      "definition": ": “status antepartum membaik.",
+      "definition": "Kesiapan persalinan merupakan diagnosis keperawatan yang didefinisikan sebagai pola mempersiapkan, mempertahankan, dan memperkuat proses...",
       "signs_and_symptoms": {
         "subjective": [
           "Menyatakan keinginan untuk menerapkan gaya hidup yang tepat untuk persalinan",
@@ -95,7 +127,24 @@
       "interventions": [
         {
           "code": "I.12437",
-          "name": "Edukasi Persalinan"
+          "name": "Edukasi Persalinan",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi tingkat pengetahuan ibu",
+              "Identifikasi pemahaman ibu tentang persalinan",
+              "Sediakan materi dan media Pendidikan Kesehatan",
+              "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
+              "Berikan kesempatan untuk bertanya",
+              "Berikan reinforcement positif terhadap perubahan perilaku ibu",
+              "Jelaskan metode persalinan yang ibu inginkan",
+              "Jelaskan persiapan dan tempat persalinan",
+              "Anjurkan ibu mengikuti kelas ibu hamil pada usia  kehamilan lebih dari 36 minggu",
+              "Anjurkan ibu menggunakan Teknik manajemen nyeri persalinan tiap kala",
+              "Anjurkan ibu cukup nutrisi",
+              "Ajarkan Teknik relaksasi untuk meredakan kecemasan dan ketidaknyamanan persalinan",
+              "Ajarkan ibu cara mengenali tanda-tanda persalinan"
+            ]
+          }
         }
       ],
       "category": "Reproduksi dan Seksualitas"
@@ -103,7 +152,7 @@
     "D.0071": {
       "code": "D.0071",
       "name": "Pola Seksual Tidak Efektif",
-      "definition": ":.",
+      "definition": "Pola seksual tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai kekhawatiran individu melakukan hubungan seksual yang..",
       "signs_and_symptoms": {
         "subjective": [
           "Mengeluh sulit melakukan aktivitas seksual",
@@ -139,11 +188,43 @@
       "interventions": [
         {
           "code": "I.12447",
-          "name": "Edukasi Seksualitas"
+          "name": "Edukasi Seksualitas",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kesiapan dan kemampuan menerima informasi",
+              "Sediakan materi dan media Pendidikan  Kesehatan",
+              "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
+              "Berikan kesempatan untuk bertanya",
+              "Fasilitasi kesadaran keluarga terhadap anak dan remaja serta pengaruh media",
+              "Jelaskan anatomi dan fisiologi sistem reproduksi laki-laki dan perempuan",
+              "Jelaskan perkembangan seksualitas sepanjang siklus kehidupan",
+              "Jelaskan perkembangan emosi masa anak dan remaja",
+              "Jelaskan pengaruh tekanan kelompok dan sosial terhadap aktivitas seksual",
+              "Jelaskan konsekuensi negatif mengasuh anak pada usia dini (mis: kemiskinan, kehilangan karir dan Pendidikan)",
+              "Jelaskan risiko tertular penyakit menular seksual dan AIDS akibat seks bebas",
+              "Anjurkan orang tua menjadi educator seksualitas bagi anak-anaknya",
+              "Anjurkan anak/remaja tidak melakukan aktivitas seksual di luar nikah",
+              "Ajarkan keterampilan komunikasi asertif untuk menolak tekanan teman sebaya dan sosial dalam aktivitas seksual"
+            ]
+          }
         },
         {
           "code": "I.07214",
-          "name": "Konseling Seksualitas"
+          "name": "Konseling Seksualitas",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi tingkat pengetahuan, masalah sistem reproduksi, masalah seksualitas, dan penyakit menular seksual",
+              "Identifikasi waktu disfungsi seksual dan kemungkinan penyebab",
+              "Monitor stres, kecemasan, depresi, dan penyebab disfungsi seksual",
+              "Fasilitasi komunikasi antara pasien dan pasangan",
+              "Berikan kesempatan kepada pasangan untuk menceritakan permasalahan seksual",
+              "Berikan pujian terhadap perilaku yang benar",
+              "Berikan saran yang sesuai kebutuhan pasangan dengan menggunakan Bahasa yang mudah diterima, dipahami, dan tidak menghakimi",
+              "Jelaskan efek pengobatan, Kesehatan dan penyakit terhadap disfungsi seksual",
+              "Informasikan pentingnya modifikasi pada aktivitas seksual",
+              "Kolaborasi dengan spesialis seksologi, jika perlu"
+            ]
+          }
         }
       ],
       "category": "Reproduksi dan Seksualitas"
@@ -151,7 +232,7 @@
     "D.0072": {
       "code": "D.0072",
       "name": "Risiko Disfungsi Seksual",
-      "definition": ": “fungsi seksual membaik.",
+      "definition": "Risiko disfungsi seksual merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami perubahan fungsi seksual selama fase..",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -191,11 +272,43 @@
       "interventions": [
         {
           "code": "I.12447",
-          "name": "Edukasi Seksualitas"
+          "name": "Edukasi Seksualitas",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kesiapan dan kemampuan menerima informasi",
+              "Sediakan materi dan media Pendidikan Kesehatan",
+              "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
+              "Berikan kesempatan untuk bertanya",
+              "Fasilitasi kesadaran keluarga terhadap anak dan remaja serta pengaruh media",
+              "Jelaskan anatomi dan fisiologi sistem reproduksi laki-laki dan perempuan",
+              "Jelaskan perkembangan seksualitas sepanjang siklus kehidupan",
+              "Jelaskan perkembangan emosi masa anak dan remaja",
+              "Jelaskan pengaruh tekanan kelompok dan sosial terhadap aktivitas seksual",
+              "Jelaskan konsekuensi negatif mengasuh anak pada usia dini (mis: kemiskinan, kehilangan karir dan Pendidikan)",
+              "Jelaskan risiko tertular penyakit menular seksual dan AIDS akibat seks bebas",
+              "Anjurkan orang tua menjadi educator seksualitas bagi anak-anaknya",
+              "Anjurkan anak/remaja tidak melakukan aktivitas seksual di luar nikah",
+              "Ajarkan keterampilan komunikasi asertif untuk menolak tekanan teman sebaya dan sosial dalam aktivitas seksual"
+            ]
+          }
         },
         {
           "code": "I.07214",
-          "name": "Konseling Seksualitas"
+          "name": "Konseling Seksualitas",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi tingkat pengetahuan, masalah sistem reproduksi, masalah seksualitas, dan penyakit menular seksual",
+              "Identifikasi waktu disfungsi seksual dan kemungkinan penyebab",
+              "Monitor stres, kecemasan, depresi, dan penyebab disfungsi seksual",
+              "Fasilitasi komunikasi antara pasien dan pasangan",
+              "Berikan kesempatan kepada pasangan untuk menceritakan permasalahan seksual",
+              "Berikan pujian terhadap perilaku yang benar",
+              "Berikan saran yang sesuai kebutuhan pasangan dengan menggunakan Bahasa yang mudah diterima, dipahami, dan tidak menghakimi",
+              "Jelaskan efek pengobatan,  Kesehatan dan penyakit terhadap disfungsi seksual",
+              "Informasikan pentingnya modifikasi pada aktivitas seksual",
+              "Kolaborasi dengan spesialis seksologi, jika perlu"
+            ]
+          }
         }
       ],
       "category": "Reproduksi dan Seksualitas"
@@ -203,7 +316,7 @@
     "D.0073": {
       "code": "D.0073",
       "name": "Risiko Kehamilan Tidak Dikehendaki",
-      "definition": ": “penerimaan kehamilan meningkat.",
+      "definition": "Risiko kehamilan tidak dikehendaki merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami kehamilan yang tidak...",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -230,11 +343,42 @@
       "interventions": [
         {
           "code": "I.12381",
-          "name": "Edukasi Keluarga Berencana"
+          "name": "Edukasi Keluarga Berencana",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kesiapan dan kemampuan menerima informasi",
+              "Identifikasi pengetahuan tentang alat kontrasepsi",
+              "Sediakan materi dan media Pendidikan Kesehatan",
+              "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
+              "Berikan kesempatan untuk bertanya",
+              "Lakukan penapisan pada ibu dan pasangan untuk penggunaan alat kontrasepsi",
+              "Lakukan pemeriksaan fisik",
+              "Fasilitasi ibu dan pasangan dalam mengambil keputusan menggunakan alat kontrasepsi",
+              "Diskusikan pertimbangan agama, budaya, perkembangan, sosial ekonomi terhadap pemilihan alat kontrasepsi",
+              "Jelaskan tentang sistem reproduksi",
+              "Jelaskan metode-metode alat kontrasepsi",
+              "Jelaskan aktivitas seksual setelah mengikuti program KB"
+            ]
+          }
         },
         {
           "code": "I.07216",
-          "name": "Manajemen Kehamilan Tidak Dikehendaki"
+          "name": "Manajemen Kehamilan Tidak Dikehendaki",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi nilai-nilai dan keyakinan terhadap kehamilan",
+              "Identifikasi pilihan terhadap  kehamilannya",
+              "Fasilitasi mengungkapkan perasaan",
+              "Diskusikan nilai-nilai dan keyakinan yang keliru terhadap kehamilan",
+              "Diskusikan konflik yang terjadi dengan adanya kehamilan",
+              "Fasilitasi mengembangkan Teknik penyelesaian masalah",
+              "Berikan konseling kehamilan",
+              "Fasilitasi mengidentifikasi sistem pendukung",
+              "Informasikan pentingnya meningkatkan status nutrisi selama kehamilan",
+              "Informasikan perubahan yang terjadi selama kehamilan",
+              "Rujuk jika mengalami komplikasi kehamilan"
+            ]
+          }
         }
       ],
       "category": "Reproduksi dan Seksualitas"

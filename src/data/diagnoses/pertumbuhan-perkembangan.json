@@ -5,7 +5,7 @@
     "D.0106": {
       "code": "D.0106",
       "name": "Gangguan Tumbuh Kembang",
-      "definition": ":.",
+      "definition": "Gangguan tumbuh kembang merupakan diagnosis keperawatan yang didefinisikan sebagai kondisi individu mengalami gangguan kemampuan...",
       "signs_and_symptoms": {
         "subjective": [
           "Tidak tersedia"
@@ -34,15 +34,83 @@
       "interventions": [
         {
           "code": "I.10339",
-          "name": "Perawatan perkembangan"
+          "name": "Perawatan perkembangan",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi pencapaian tugas perkembangan anak",
+              "Identifikasi isyarat perilaku dan fisiologis yang ditunjukkan bayi (mis: lapar, tidak nyaman)",
+              "Pertahankan sentuhan seminimal mungkin pada bayi premature",
+              "Berikan sentuhan yang bersifat gentle dan tidak ragu-ragu",
+              "Minimalkan nyeri",
+              "Minimalkan kebisingan ruangan",
+              "Pertahankan lingkungan yang mendukung perkembangan optimal",
+              "Motivasi anak berinteraksi dengan anak lain",
+              "Sediakan aktivitas yang memotivasi anak berinteraksi dengan anak lainnya",
+              "Fasilitasi anak berbagi dan bergantian/bergilir",
+              "Dukung anak mengekspresikan diri melalui penghargaan positif atau umpan balik atas usahanya",
+              "Pertahankan kenyamanan anak",
+              "Fasilitasi anak melatih keterampilan pemenuhan kebutuhan secara mandiri (mis: makan, sikat gigi, cuci tangan, memakai baju)",
+              "Bernyanyi Bersama anak lagu-lagu yang disukai",
+              "Bacakan cerita atau dongeng",
+              "Dukung partisipasi anak di sekolah, ekstrakulikuler dan aktivitas komunitas",
+              "Jelaskan orang tua dan/atau pengasuh tentang milestone perkembangan anak dan perilaku anak",
+              "Anjurkan orang tua menyentuh dan menggendong bayinya",
+              "Anjurkan orang tua berinteraksi dengan anaknya",
+              "Ajarkan anak keterampilan berinteraksi",
+              "Ajarkan anak teknik asertif",
+              "Rujuk untuk konseling, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.10340",
-          "name": "Promosi perkembangan anak"
+          "name": "Promosi perkembangan anak",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kebutuhan khusus anak dan kemampuan adaptasi anak",
+              "Fasilitasi hubungan anak dengan teman sebaya",
+              "Dukung anak berinteraksi dengan anak lain",
+              "Dukung anak mengekpresikan perasaannya secara positif",
+              "Dukung anak dalam bermimpi atau berfantasi sewajarnya",
+              "Dukung partisipasi anak di sekolah, ekstrakulikuler dan aktivitas komunitas",
+              "Berikan mainan yang sesuai dengan usia anak",
+              "Bernyanyi Bersama anak lagu-lagu yang disukai anak",
+              "Bacakan cerita/dongeng untuk anak",
+              "Diskusikan bersama remaja tujuan dan harapannya",
+              "Sediakan kesempatan dan alat-alat untuk menggambar, melukis, dan mewarnai",
+              "Sediakan mainan berupa puzzle dan maze",
+              "Jelaskan nama-nama benda obyek yang ada di lingkungan sekitar",
+              "Ajarkan pengasuh milestones perkembangan dan perilaku yang dibentuk",
+              "Ajarkan sikap kooperatif, bukan kompetisi diantara anak",
+              "Ajarkan anak cara meminta bantuan dari anak lain, jika perlu",
+              "Ajarkan teknik asertif pada anak dan remaja",
+              "Demonstrasikan kegiatan yang meningkatkan perkembangan pada pengasuh",
+              "Rujuk untuk konseling, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.10341",
-          "name": "Promosi perkembangan remaja"
+          "name": "Promosi perkembangan remaja",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi tahap perkembangan remaja",
+              "Sediakan bimbingan dan konseling  Kesehatan remaja pada remaja dan keluarga/orang tua/pengasuh",
+              "Tingkatkan personal hygiene dan penampilan diri",
+              "Dukung partisipasi dalam olahraga yang aman secara teratur",
+              "Fasilitasi kemampuan pembuatan keputusan",
+              "Dukung keterampilan komunikasi",
+              "Dukung keterampilan sikap asertif",
+              "Fasilitasi rasa tanggung jawab pada diri dan orang lain",
+              "Dukung respons anti-kekerasan dalam menyelesaikan konflik",
+              "Dukung perkembangan dan pertahankan hubungan sosial",
+              "Dukung aktivitas ekstrakulikuler",
+              "Jelaskan perkembangan normal remaja",
+              "Ajarkan untuk mengenali masalah Kesehatan dan penyimpangan pada masa remaja (mis: anemia, masalah Kesehatan gigi, kematangan seksual abnormal, alkohol, rokok, penyalahgunaan obat-obatan, gangguan citra tubuh, harga diri rendah)",
+              "Ajarkan strategi pencegahan penyalahgunaan obat, alkohol, dan rokok.",
+              "Rujuk untuk konseling atau hipnoterapi, jika perlu"
+            ]
+          }
         }
       ],
       "category": "Pertumbuhan dan Perkembangan"
@@ -50,7 +118,7 @@
     "D.0107": {
       "code": "D.0107",
       "name": "Risiko Gangguan Perkembangan",
-      "definition": ":.",
+      "definition": "Risiko gangguan perkembangan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami gangguan untuk berkembang sesuai...",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -90,11 +158,53 @@
       "interventions": [
         {
           "code": "I.10340",
-          "name": "Promosi perkembangan anak"
+          "name": "Promosi perkembangan anak",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kebutuhan khusus anak dan kemampuan adaptasi anak",
+              "Fasilitasi hubungan anak dengan teman sebaya",
+              "Dukung anak berinteraksi dengan anak lain",
+              "Dukung anak mengekpresikan perasaannya secara positif",
+              "Dukung anak dalam bermimpi atau berfantasi sewajarnya",
+              "Dukung partisipasi anak di sekolah, ekstrakulikuler dan aktivitas komunitas",
+              "Berikan mainan yang sesuai dengan usia anak",
+              "Bernyanyi Bersama anak lagu-lagu yang disukai anak",
+              "Bacakan cerita/dongeng untuk anak",
+              "Diskusikan bersama remaja tujuan dan harapannya",
+              "Sediakan kesempatan dan alat-alat untuk menggambar, melukis, dan mewarnai",
+              "Sediakan mainan berupa puzzle dan maze",
+              "Jelaskan nama-nama benda obyek yang ada di lingkungan sekitar",
+              "Ajarkan pengasuh milestones perkembangan dan perilaku yang dibentuk",
+              "Ajarkan sikap kooperatif, bukan kompetisi diantara anak",
+              "Ajarkan anak cara meminta bantuan dari anak lain, jika perlu",
+              "Ajarkan teknik asertif pada anak dan remaja",
+              "Demonstrasikan kegiatan yang meningkatkan perkembangan pada pengasuh",
+              "Rujuk untuk konseling, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.10341",
-          "name": "Promosi perkembangan remaja"
+          "name": "Promosi perkembangan remaja",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi tahap perkembangan remaja",
+              "Sediakan bimbingan dan konseling  Kesehatan remaja pada remaja dan keluarga/orang tua/pengasuh",
+              "Tingkatkan personal hygiene dan penampilan diri",
+              "Dukung partisipasi dalam olahraga yang aman secara teratur",
+              "Fasilitasi kemampuan pembuatan keputusan",
+              "Dukung keterampilan komunikasi",
+              "Dukung keterampilan sikap asertif",
+              "Fasilitasi rasa tanggung jawab pada diri dan orang lain",
+              "Dukung respons anti-kekerasan dalam menyelesaikan konflik",
+              "Dukung perkembangan dan pertahankan hubungan sosial",
+              "Dukung aktivitas ekstrakulikuler",
+              "Jelaskan perkembangan normal remaja",
+              "Ajarkan untuk mengenali masalah Kesehatan dan penyimpangan pada masa remaja (mis: anemia, masalah Kesehatan gigi, kematangan seksual abnormal, alkohol, rokok, penyalahgunaan obat-obatan, gangguan citra tubuh, harga diri rendah)",
+              "Ajarkan strategi pencegahan penyalahgunaan obat, alkohol, dan rokok.",
+              "Rujuk untuk konseling atau hipnoterapi, jika perlu"
+            ]
+          }
         }
       ],
       "category": "Pertumbuhan dan Perkembangan"
@@ -102,7 +212,7 @@
     "D.0108": {
       "code": "D.0108",
       "name": "Risiko Gangguan Pertumbuhan",
-      "definition": ":.",
+      "definition": "Risiko gangguan pertumbuhan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami gangguan untuk bertumbuh sesuai...",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -133,11 +243,49 @@
       "interventions": [
         {
           "code": "I.14581",
-          "name": "Skrining kesehatan"
+          "name": "Skrining kesehatan",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi target populasi skrining kesehatan",
+              "Lakukan informed consent skrining Kesehatan",
+              "Sediakan akses layanan skrining (mis: waktu dan tempat)",
+              "Jadwalkan waktu skrining Kesehatan",
+              "Gunakan instrument skrining yang valid dan akurat",
+              "Sediakan lingkungan yang nyaman selama prosedur skrining Kesehatan",
+              "Lakukan anamnesia, Riwayat Kesehatan, faktor risiko, dan pengobatan, jika perlu",
+              "Lakukan pemeriksaan fisik, sesuai indikasi",
+              "Jelaskan tujuan dan prosedur skrining Kesehatan",
+              "Informasikan hasil skrining Kesehatan",
+              "Rujuk untuk pemeriksaan diagnostik lanjut (mis: pap smear, mamografi, prostat, EKG), jika perlu."
+            ]
+          }
         },
         {
           "code": "I.03119",
-          "name": "Manajemen Nutrisi"
+          "name": "Manajemen Nutrisi",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi status nutrisi",
+              "Identifikasi alergi dan intoleransi makanan",
+              "Identifikasi makanan yang disukai",
+              "Identifikasi kebutuhan kalori dan jenis nutrien",
+              "Identifikasi perlunya penggunaan selang nasogastrik",
+              "Monitor asupan makanan",
+              "Monitor berat badan",
+              "Monitor hasil pemeriksaan laboratorium",
+              "Lakukan oral hygiene sebelum makan, jika perlu",
+              "Fasilitasi menentukan pedoman diet (mis: piramida makanan)",
+              "Sajikan makanan secara menarik dan suhu yang sesuai",
+              "Berikan makanan tinggi serat untuk mencegah konstipasi",
+              "Berikan makanan tinggi kalori dan tinggi protein",
+              "Berikan suplemen makanan, jika perlu",
+              "Hentikan pemberian makan melalui selang nasogastik jika asupan oral dapat ditoleransi",
+              "Ajarkan posisi duduk, jika mampu",
+              "Ajarkan diet yang diprogramkan",
+              "Kolaborasi pemberian medikasi sebelum makan (mis: Pereda nyeri, antiemetik), jika perlu",
+              "Kolaborasi dengan ahli  gizi untuk menentukan jumlah kalori dan jenis nutrien yang dibutuhkan, jika perlu"
+            ]
+          }
         }
       ],
       "category": "Pertumbuhan dan Perkembangan"

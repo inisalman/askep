@@ -5,7 +5,7 @@
     "D.0061": {
       "code": "D.0061",
       "name": "Disrefleksia Otonom",
-      "definition": ":.",
+      "definition": "Disrefleksia otonom merupakan diagnosis keperawatan yang didefinisikan sebagai respon sistem saraf simpatis yang terjadi secara spontan dan...",
       "signs_and_symptoms": {
         "subjective": [
           "Sakit kepala"
@@ -37,7 +37,24 @@
       "interventions": [
         {
           "code": "I.06190",
-          "name": "Manajemen Disrefleksia"
+          "name": "Manajemen Disrefleksia",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi rangsangan yang dapat memicu disrefleksia (mis: distensi kandung kemih, kalkuli ginjal, infeksi, impaksi feses, pemeriksaan rektal, supositoria, kerusakan kulit)",
+              "Identifikasi penyebab pemicu disrefleksia (mis: distensi kandung kemih, impaksi feses, lesi kulit, stoking suportif, dan pengikat perut)",
+              "Monitor tanda dan gejala disleksia otonom (mis: hipertensi paroksismal, bradikardia, takikardia, diaphoresis diatas tingkat cidera, pucat dibawah tingkat cidera, sakit kepala, mengigil tanpa demam, ereksi pilomotor, dan nyeri dada)",
+              "Monitor kepatenan kateter urin, jika terpasang",
+              "Monitor terjadinya hiperrefleksia",
+              "Monitor tanda-tanda vital",
+              "Minimalkan rangsangan yang dapat memicu disrefleksia",
+              "Berikan posisi fowler, jika perlu",
+              "Pasang kateter urin, jika perlu",
+              "Jelaskan penyebab dan gejala disrefleksia",
+              "Jelaskan penanganan dan pencegahan disrefleksia",
+              "Anjurkan pasien dan/atau keluarga jika mengalami tanda dan gejala disrefleksia",
+              "Kolaborasi pemberian agen antihipertensi intravena, sesuai indikasi"
+            ]
+          }
         }
       ],
       "category": "Neurosensori"
@@ -45,7 +62,7 @@
     "D.0062": {
       "code": "D.0062",
       "name": "Gangguan Memori",
-      "definition": ":.",
+      "definition": "Gangguan memori merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakmampuan mengingat beberapa informasi atau perilaku.",
       "signs_and_symptoms": {
         "subjective": [
           "Melaporkan pernah mengalami pengalaman lupa",
@@ -84,11 +101,46 @@
       "interventions": [
         {
           "code": "I.06188",
-          "name": "Latihan Memori"
+          "name": "Latihan Memori",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi masalah memori yang dialami",
+              "Identifikasi kesalahan terhadap orientasi",
+              "Monitor perilaku dan perubahan memori selama terapi",
+              "Rencanakan metode mengajar sesuai kemampuan pasien",
+              "Stimulasi memori dengan mengulang pikiran yang terakhir kali diucapkan, jika perlu",
+              "Koreksi kesalahan orientasi",
+              "Fasilitasi mengingat Kembali pengalaman masa lalu, jika perlu",
+              "Fasilitasi tugas pembelajaran (mis: mengingat informasi verbal dan gambar)",
+              "Fasilitasi kemampuan konsentrasi (mis: bermain kartu pasangan), jika perlu",
+              "Stimulasi menggunakan memori pada peristiwa yang baru terjadi (mis: bertanya ke mana saja ia pergi akhir-akhir ini), jika perlu",
+              "Jelaskan tujuan dan prosedur Latihan",
+              "Ajarkan Teknik memori yang tepat (mis: imajinasi visual, perangkat mnemonic, permainan memori, isyarat memori, Teknik asosiasi, membuat daftar, computer, papan nama)",
+              "Rujuk pada terapi okupasi, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.09297",
-          "name": "Orientasi Realita"
+          "name": "Orientasi Realita",
+          "tindakan": {
+            "terapeutik": [
+              "Monitor perubahan orientasi",
+              "Monitor perubahan kognitif dan perilaku",
+              "Perkenalkan nama saat memulai interaksi",
+              "Orientasikan orang, tempat, dan waktu",
+              "Hadirkan realita (mis: beri penjelasan alternatif, hindari perdebatan)",
+              "Sediakan lingkungan dan rutinitas secara konsisten",
+              "Atur stimulus sensorik dan lingkungan (mis: kunjungan, pemandangan, suara, pencahayaan, bau, dan sentuhan)",
+              "Gunakan simbol dalam mengorientasikan lingkungan (mis: tanda, gambar, warna)",
+              "Libatkan dalam terapi kelompok orientasi",
+              "Berikan waktu istirahat dan tidur yang cukup, sesuai kebutuhan",
+              "Fasilitasi akses informasi (mis: televisi, surat kabad, radio), jika perlu",
+              "Anjurkan perawatan diri secara mandiri",
+              "Anjurkan penggunaan alat bantu (mis: kacamata, alat bantu dengar, gigi palsu)",
+              "Ajarkan keluarga dalam perawatan orientasi lansia"
+            ]
+          }
         }
       ],
       "category": "Neurosensori"
@@ -96,7 +148,7 @@
     "D.0063": {
       "code": "D.0063",
       "name": "Gangguan Menelan",
-      "definition": ":.",
+      "definition": "Gangguan menelan merupakan diagnosis keperawatan yang didefinisikan sebagai fungsi menelan abnormal akibat defisit struktur atau...",
       "signs_and_symptoms": {
         "subjective": [
           "Mengeluh sulit menelan"
@@ -139,11 +191,51 @@
       "interventions": [
         {
           "code": "I.11351",
-          "name": "Dukungan Perawatan Diri: Makan/Minum"
+          "name": "Dukungan Perawatan Diri: Makan/Minum",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi diet yang dianjurkan",
+              "Monitor kemampuan menelan",
+              "Monitor status hidrasi pasien, jika perlu",
+              "Ciptakan lingkungan yang menyenangkan selama makan",
+              "Atur posisi yang nyaman untuk makan/minum",
+              "Lakukan oral hygiene sebelum makan, jika perlu",
+              "Letakkan makanan di sisi mata yang sehat",
+              "Sediakan sedotan untuk  minum, sesuai kebutuhan",
+              "Siapkan makanan dengan suhu yang meningkatkan nafsu makan",
+              "Sediakan makanan dan minuman yang disukai",
+              "Berikan bantuan saat makan/minum sesuai tingkat kemandirian, jika perlu",
+              "Motivasi untuk makan di ruang makan, jika tersedia",
+              "Jelaskan posisi makanan pada pasien yang mengalami gangguan penglihatan dengan menggunakan arah jarum jam (mis: sayur di jam 12, rendang di jam 3)",
+              "Kolaborasi pemberian obat (mis: analgesik, antiemetik), sesuai indikasi"
+            ]
+          }
         },
         {
           "code": "I.01018",
-          "name": "Pencegahan Aspirasi"
+          "name": "Pencegahan Aspirasi",
+          "tindakan": {
+            "terapeutik": [
+              "Monitor tingkat kesadaran, batuk, muntah, dan kemampuan menelan",
+              "Monitor status pernapasan",
+              "Monitor bunyi napas, terutama setelah makan/minum",
+              "Periksa residu gaster sebelum memberi asupan oral",
+              "Periksa kepatenan selang nasogastric sebelum memberi asupan oral",
+              "Posisikan semi fowler (30 – 45 derajat) 30 menit sebelum memberi asupan oral",
+              "Pertahankan posisi semi fowler (30 – 45 derajat) pada pasien tidak sadar",
+              "Pertahankan kepatenan jalan napas (mis. Teknik head-tilt chin-lift, jaw thrust, in line)",
+              "Pertahankan pengembangan balon endotracheal tube (ETT)",
+              "Lakukan penghisapan jalan napas, jika produksi sekret meningkat",
+              "Sediakan suction di ruangan",
+              "Hindari memberi makan melalui selang gastrointestinal, jika residu banyak",
+              "Berikan makanan dengan ukuran kecil dan lunak",
+              "Berikan obat oral dalam bentuk cair",
+              "Ajarkan makan secara perlahan",
+              "Ajarkan strategi mencegah aspirasi",
+              "Ajarkan Teknik mengunyah atau menelan, jika perlu",
+              "Kolaborasi pemberian bronkodilator, jika perlu"
+            ]
+          }
         }
       ],
       "category": "Neurosensori"
@@ -151,7 +243,7 @@
     "D.0064": {
       "code": "D.0064",
       "name": "Konfusi Akut",
-      "definition": ":.",
+      "definition": "Konfusi akut merupakan diagnosis keperawatan yang didefinisikan sebagai gangguan kesadaran, perhatian, kognitif, dan persepsi yang...",
       "signs_and_symptoms": {
         "subjective": [
           "Kurang motivasi untuk memulai/menyelesaikan perilaku berorientasi tujuan",
@@ -188,15 +280,75 @@
       "interventions": [
         {
           "code": "I.06189",
-          "name": "Manajemen Delirium"
+          "name": "Manajemen Delirium",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi faktor risiko delirium (mis: usia >75 tahun, disfungsi kognitif, gangguan penglihatan/pendengaran, penurunan kemampuan fungsional, infeksi, hipo/hipertemia, hipoksia, malnutrisi, efek obat, toksin, gangguan tidur, stres)",
+              "Identifikasi tipe delirium (mis: hipoaktif, hiperaktif, campuran)",
+              "Monitor status neurologis dan tingkat delirium",
+              "Berikan pencahayaan yang baik",
+              "Sediakan jam dan kalender yang mudah dibaca",
+              "Hindari stimulus sensorik berlebihan (mis: televisi, pengumuman interkom)",
+              "Lakukan pengekangan fisik, sesuai indikasi",
+              "Sediakan informasi tentang apa yang terjadi dan apa yang dapat terjadi selanjutnya",
+              "Batasi pembuatan keputusan",
+              "Hindari memvalidasi mispersepsi atau interpretasi realita yang tidak akurat (mis: halusinasi, waham)",
+              "Nyatakan persepsi dengan cara yang tenang, meyakinkan, dan tidak argumentative",
+              "Fokus pada apa yang dikenali dan bermakna saat interaksi interpersonal",
+              "Lakukan reorientasi",
+              "Sediakan lingkungan fisik dan rutinitas harian yang konsisten",
+              "Gunakan isyarat lingkungan untuk stimulasi memori, reorientasi, dan meningkatkan perilaku yang sesuai (mis: tanda, gambar, jam, kalender, dan kode warna pada lingkungan)",
+              "Berikan informasi baru secara perlahan, sedikit demi sedikit, diulang-ulang",
+              "Anjurkan kunjungan keluarga, jika perlu",
+              "Anjurkan penggunaan alat bantu sensorik (mis: kacamata, alat bantu dengar, dan gigi palsu)",
+              "Kolaborasi pemberian obat ansietas atau agitasi, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.09288",
-          "name": "Manajemen Halusinasi"
+          "name": "Manajemen Halusinasi",
+          "tindakan": {
+            "terapeutik": [
+              "Monitor perilaku yang mengindikasikan halusinasi",
+              "Monitor dan sesuaikan tingkat aktivitas dan stimulasi lingkungan",
+              "Monitor isi halusinasi (mis: kekerasan atau membahayakan diri)",
+              "Pertahankan lingkungan yang aman",
+              "Lakukan Tindakan keselamatan Ketika tidak dapat mengontrol perilaku (mis: limit setting, pembatasan wilayah, pengekangan fisik, seklusi)",
+              "Diskusikan perasaan dan respons terhadap halusinasi",
+              "Hindari perdebatan tentang validitas halusinasi",
+              "Anjurkan memonitor sendiri situasi terjadinya halusinasi",
+              "Anjurkan bicara pada orang yang dipercaya untuk memberi dukungan dan umpan balik korektif terhadap halusinasi",
+              "Anjurkan melakukan distraksi (mis: mendengarkan music, melakukan aktivitas dan Teknik relaksasi)",
+              "Ajarkan pasien dan keluarga cara mengontrol halusinasi",
+              "Kolaborasi pemberian obat antipsikotik dan antiansietas, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.09291",
-          "name": "Manajemen Penyalahgunaan Zat"
+          "name": "Manajemen Penyalahgunaan Zat",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi penyebab ketergantungan atau penyalahgunaan zat",
+              "Identifikasi perilaku denial tidak efektif",
+              "Periksa tanda dan gejala intoksikasi",
+              "Periksa pasien dan abrang bawaannya secara acak",
+              "Penuhi kebutuhan dasar seperti keamanan, kebersihaan diri, kenyamanan, lingkungan tenang",
+              "Perbaiki kesalahan konsepsi, tidak menyalahkan orang lain",
+              "Pertahankan disiplin diri dengan pengawasan ketat",
+              "Berikan Batasan pada perilaku manipulative",
+              "Batasi akses penggunaan zat",
+              "Hadapi secara konsisten, tidak menghakimi dan menghukum",
+              "Anjurkan berfokus pada saat ini dan masa depan, bukan masa lalu",
+              "Anjurkan pasien dan keluarga mengikuti peraturan ketat rumah sakit secara efektif (mis: tidak menyelundupkan obat)",
+              "Anjurkan mengikuti program kelompok",
+              "Anjurkan untuk berobat jalan secara teratur dan mematuhi pengobatan saat pulang",
+              "Ajarkan keterampilan pencegahan kekambuhan, keterampilan suportif dan tugas perkembangan",
+              "Jelaskan bahaya menggunakan alat invasive untuk memasukan zat dalam tubuh (mis: abses, HIV)",
+              "Kolaborasi pemberian substitusi, sesuai indikasi"
+            ]
+          }
         }
       ],
       "category": "Neurosensori"
@@ -204,7 +356,7 @@
     "D.0065": {
       "code": "D.0065",
       "name": "Konfusi Kronis",
-      "definition": ":.",
+      "definition": "Konfusi kronis merupakan diagnosis keperawatan yang didefinisikan sebagai gangguan kesadaran, perhatian, kognitif, dan persepsi yang...",
       "signs_and_symptoms": {
         "subjective": [
           "Kurang motivasi untuk memulai/menyelesaikan perilaku berorientasi tujuan",
@@ -241,15 +393,71 @@
       "interventions": [
         {
           "code": "I.06189",
-          "name": "Manajemen Delirium"
+          "name": "Manajemen Delirium",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi faktor risiko delirium (mis: usia >75 tahun, disfungsi kognitif, gangguan penglihatan/pendengaran, penurunan kemampuan fungsional, infeksi, hipo/hipertemia, hipoksia, malnutrisi, efek obat, toksin, gangguan tidur, stres)",
+              "Identifikasi tipe delirium (mis: hipoaktif, hiperaktif, campuran)",
+              "Monitor status neurologis dan tingkat delirium",
+              "Berikan pencahayaan yang baik",
+              "Sediakan jam dan kalender yang mudah dibaca",
+              "Hindari stimulus sensorik berlebihan (mis: televisi, pengumuman interkom)",
+              "Lakukan pengekangan fisik, sesuai indikasi",
+              "Sediakan informasi tentang apa yang terjadi dan apa yang dapat terjadi selanjutnya",
+              "Batasi pembuatan keputusan",
+              "Hindari memvalidasi mispersepsi atau interpretasi realita yang tidak akurat (mis: halusinasi, waham)",
+              "Nyatakan persepsi dengan cara yang tenang, meyakinkan, dan tidak argumentative",
+              "Fokus pada apa yang dikenali dan bermakna saat interaksi interpersonal",
+              "Lakukan reorientasi",
+              "Sediakan lingkungan fisik dan rutinitas harian yang konsisten",
+              "Gunakan isyarat lingkungan untuk stimulasi memori, reorientasi, dan meningkatkan perilaku yang sesuai (mis: tanda, gambar, jam, kalender, dan kode warna pada lingkungan)",
+              "Berikan informasi baru secara perlahan, sedikit demi sedikit, diulang-ulang",
+              "Anjurkan kunjungan keluarga, jika perlu",
+              "Anjurkan penggunaan alat bantu sensorik (mis: kacamata, alat bantu dengar, dan gigi palsu)",
+              "Kolaborasi pemberian obat ansietas atau agitasi, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.09286",
-          "name": "Manajemen Demensia"
+          "name": "Manajemen Demensia",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi Riwayat fisik, sosial, psikologis, dan kebiasaan",
+              "Identifikasi pola aktivitas (mis: tidur, minum obat, eliminasi, asupan oral, perawatan diri)",
+              "Sediakan lingkungan aman, nyaman, konsisten, dan rendah stimulus (mis: music tenang, dekorasi sederhana, pencahayaan memadai, makan Bersama pasien lain)",
+              "Orientasikan waktu, tempat, dan orang",
+              "Gunakan distraksi untuk mengatasi masalah perilaku",
+              "Libatkan keluarga dalam merencanakan, menyediakan, dan mengevaluasi perawatan",
+              "Fasilitasi orientasi dengan simbol-simbol (mis: dekorasi, papan petunjuk, foto diberi nama, huruf besar)",
+              "Libatkan kegiatan individua tau kelompok sesuai kemampuan kognitif dan minat",
+              "Anjurkan memperbanyak istirahat",
+              "Ajarkan keluarga cara perawatan demensia"
+            ]
+          }
         },
         {
           "code": "I.09332",
-          "name": "Terapi Validasi"
+          "name": "Terapi Validasi",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi tahap gangguan kognitif (mis: malorientasi, bingung waktu, repetitif, atau vegetasi)",
+              "Monitor dan refleksikan gestur",
+              "Hindari menggunakan strategi validasi jika bingung disebabkan oleh penyebab akut, reversible, atau tahap vegetasi",
+              "Dengarkan dengan empati",
+              "Tahan diri untuk mengkoreksi atau menentang persepsi dan pengalaman pasien",
+              "Ajukan pertanyaan faktual yang tidak mengancam (mis: siapa? Apa? Kapan? Bagaimana?)",
+              "Hindari bertanya “kenapa?”",
+              "Ulangi pernyataan, ulangi kata-kata kunci, sesuaikan dengan nada bicara",
+              "Pertahankan kontak mata",
+              "Gunakan sentuhan suportif (mis: sentuhan lembut ke pipi, bahu, lengan, atau tangan)",
+              "Gunakan Bahasa dan gaya komunikasi pasien (mis: pendengaran, visual, kinestetik)",
+              "Libatkan dalam kegiatan sesuai kebutuhan",
+              "Anjurkan mengekspresikan emosi sesuai pengalaman (mis: cinta, takut, sedih)",
+              "Anjurkan melakukan kegiatan bernyanyi dan bermain musik yang familiar",
+              "Anjurkan mengenang peristiwa sebelumnya untuk mengidentifikasi metode koping yang pernah digunakan sebelumnya"
+            ]
+          }
         }
       ],
       "category": "Neurosensori"
@@ -257,7 +465,7 @@
     "D.0066": {
       "code": "D.0066",
       "name": "Penurunan Kapasitas Adaptif Intrakranial",
-      "definition": ":.",
+      "definition": "Penurunan kapasitas adaptif intrakranial merupakan diagnosis keperawatan yang didefinisikan sebagai gangguan mekanisme dinamika intrakranial..",
       "signs_and_symptoms": {
         "subjective": [
           "Sakit kepala"
@@ -296,11 +504,61 @@
       "interventions": [
         {
           "code": "I.06194",
-          "name": "Manajemen Peningkatan Tekanan Intrakranial"
+          "name": "Manajemen Peningkatan Tekanan Intrakranial",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi penyebab peningkatan TIK (misalnya: lesi, gangguan metabolism, edema serebral)",
+              "Monitor tanda/gejala peningkatan TIK (misalnya: tekanan darah meningkat, tekanan nadi melebar, bradikardia, pola napas ireguler, kesadaran menurun)",
+              "Monitor MAP (mean arterial pressure) (LIHAT: Kalkulator MAP)",
+              "Monitor CVP (central venous pressure)",
+              "Monitor PAWP, jika perlu",
+              "Monitor PAP, jika perlu",
+              "Monitor ICP (intra cranial pressure)",
+              "Monitor gelombang ICP",
+              "Monitor status pernapasan",
+              "Monitor intake dan output cairan",
+              "Monitor cairan serebro-spinalis (mis. Warna, konsistensi)",
+              "Minimalkan stimulus dengan menyediakan lingkungan yang tenang",
+              "Berikan posisi semi fowler",
+              "Hindari manuver valsava",
+              "Cegah terjadinya kejang",
+              "Hindari penggunaan PEEP",
+              "Hindari pemberian cairan IV hipotonik",
+              "Atur ventilator agar PaCO2 optimal",
+              "Pertahankan suhu tubuh normal",
+              "Kolaborasi pemberian sedasi dan antikonvulsan, jika perlu",
+              "Kolaborasi pemberian diuretik osmosis, jika perlu",
+              "Kolaborasi pemberian pelunak tinja, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.06198",
-          "name": "Pemantauan Tekanan Intrakranial"
+          "name": "Pemantauan Tekanan Intrakranial",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi penyebab peningkatan TIK (mis: lesi menempati ruang, gangguan metabolisme, edema serebral, peningkatan tekanan vena, obstruksi cairan serebrospinal, hipertensi intracranial idiopatik)",
+              "Monitor peningkatan TS",
+              "Monitor pelebaran tekanan nadi (selisih TDS dan TDD)",
+              "Monitor penurunan frekuensi jantung",
+              "Monitor ireguleritas irama napas",
+              "Monitor penurunan tingkat kesadaran",
+              "Monitor perlambatan atau ketidaksimetrisan respon pupil",
+              "Monitor kadar CO2 dan pertahankan dalam rentang yang diindikasikan",
+              "Monitor tekanan perfusi serebral",
+              "Monitor jumlah, kecepatan, dan karakteristik drainase cairan serebrospinal",
+              "Monitor efek stimulus lingkungan terhadap TIK",
+              "Ambil sampel drainase cairan serebrospinal",
+              "Kalibrasi transduser",
+              "Pertahankan sterilitas sistem pemantauan",
+              "Pertahankan posisi kepala dan leher netral",
+              "Bilas sistem pemantauan, jika perlu",
+              "Atur interval pemantauan sesuai kondisi pasien",
+              "Dokumentasikan hasil pemantauan",
+              "Jelaskan tujuan dan prosedur pemantauan",
+              "Informasikan hasil pemantauan, jika perlu"
+            ]
+          }
         }
       ],
       "category": "Neurosensori"
@@ -308,7 +566,7 @@
     "D.0067": {
       "code": "D.0067",
       "name": "Risiko Disfungsi Neurovaskuler Perifer",
-      "definition": ":.",
+      "definition": "Risiko disfungsi neurovaskuler perifer merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami gangguan...",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -338,11 +596,63 @@
       "interventions": [
         {
           "code": "I.06195",
-          "name": "Manajemen Sensasi Perifer"
+          "name": "Manajemen Sensasi Perifer",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi penyebab perubahan sensasi",
+              "Identifikasi penggunaan alat pengikat, prosthesis, sepatu, dan pakaian",
+              "Periksa perbedaan sensasi tajam atau tumpul",
+              "Periksa perbedaan sensasi panas atau dingin",
+              "Periksa kemampuan mengidentifikasi lokasi dan tekstur benda",
+              "Monitor terjadinya parestesia, jika perlu",
+              "Monitor perubahan kulit",
+              "Monitor adanya tromboplebitis dan tromboemboli vena",
+              "Hindai pemakaian benda-benda yang berlebihan suhunya (terlalu panas atau dingin)",
+              "Anjurkan penggunaan thermometer untuk menguji suhu air",
+              "Anjurkan penggunaan sarung tangan termal saat memasak",
+              "Anjurkan memakai sepatu lembut dan bertumit rendah",
+              "Kolaborasi pemberian analgesik, jika perlu",
+              "Kolaborasi pemberian kortikosteroid, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.01019",
-          "name": "Pengaturan Posisi"
+          "name": "Pengaturan Posisi",
+          "tindakan": {
+            "terapeutik": [
+              "Monitor status oksigenasi sebelum dan sesudah mengubah posisi",
+              "Monitor alat traksi agar selalu tepat",
+              "Tempatkan pada matras/tempat tidur terapeutik yang tepat",
+              "Tempatkan pada posisi terapeutik",
+              "Tempatkan objek yang sering digunakan dalam jangkauan",
+              "Tempatkan bel atau lampu panggilan dalam jangkauan",
+              "Sediakan matras yang kokoh/padat",
+              "Atur posisi tidur yang disukai, jika tidak kontraindikasi",
+              "Atur posisi untuk mengurangi sesak (mis: semi-fowler)",
+              "Atur posisi yang meningkatkan drainage",
+              "Posisikan pada kesejajaran tubuh yang tepat",
+              "Imobilisasi dan topang bagian tubuh yang cidera dengan tepat",
+              "Tinggikan bagian tubuh yang sakit dengan tepat",
+              "Tinggikan anggota gerak 20° atau lebih diatas level jantung",
+              "Tinggikan tempat tidur bagian kepala",
+              "Berikan bantal yang tepat pada leher",
+              "Berikan topangan pada area edema (mis: bantal dibawah lengan atau skrotum)",
+              "Posisikan untuk mempermudah ventilasi/perfusi (mis: tengkurap/good lung down)",
+              "Motivasi melakukan ROM aktif atau ROM pasif",
+              "Motivasi terlibat dalam perubahan posisi, sesuai kebutuhan",
+              "Hindari menempatkan pada posisi yang dapat meningkatkan nyeri",
+              "Hindari menempatkan stump amputasi pada posisi fleksi",
+              "Hindari posisi yang menimbulkan ketegangan pada luka",
+              "Minimalkan gesekan dan tarikan saat mengubah posisi",
+              "Ubah posisi setiap 2 jam",
+              "Ubah posisi dengan Teknik log roll",
+              "Pertahankan posisi dan integritas traksi",
+              "Informasikan saat akan dilakukan perubahan posisi",
+              "Ajarkan cara menggunakan postur yang baik dan mekanika tubuh yang baik selama melakukan perubahan posisi",
+              "Kolaborasi pemberian premedikasi sebelum mengubah posisi, jika perlu"
+            ]
+          }
         }
       ],
       "category": "Neurosensori"
@@ -350,7 +660,7 @@
     "D.0068": {
       "code": "D.0068",
       "name": "Risiko Konfusi Akut",
-      "definition": ":.",
+      "definition": "Risiko konfusi akut merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami gangguan kesadaran, perhatian, kognisi....",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -390,15 +700,68 @@
       "interventions": [
         {
           "code": "I.08238",
-          "name": "Manajemen Nyeri"
+          "name": "Manajemen Nyeri",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi lokasi, karakteristik, durasi, frekuensi, kualitas, intensitas nyeri",
+              "Identifikasi skala nyeri",
+              "Idenfitikasi respon nyeri non verbal",
+              "Identifikasi faktor yang memperberat dan memperingan nyeri",
+              "Identifikasi pengetahuan dan keyakinan tentang nyeri",
+              "Identifikasi pengaruh budaya terhadap respon nyeri",
+              "Identifikasi pengaruh nyeri pada kualitas hidup",
+              "Monitor keberhasilan terapi komplementer yang sudah diberikan",
+              "Monitor efek samping penggunaan analgetik",
+              "Berikan Teknik nonfarmakologis untuk mengurangi nyeri (mis: TENS, hypnosis, akupresur, terapi music, biofeedback, terapi pijat, aromaterapi, Teknik imajinasi terbimbing, kompres hangat/dingin, terapi bermain)",
+              "Kontrol lingkungan yang memperberat rasa nyeri (mis: suhu ruangan, pencahayaan, kebisingan)",
+              "Fasilitasi istirahat dan tidur",
+              "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri",
+              "Jelaskan penyebab, periode, dan pemicu nyeri",
+              "Jelaskan strategi meredakan nyeri",
+              "Anjurkan memonitor nyeri secara mandiri",
+              "Anjurkan menggunakan analgesik secara tepat",
+              "Ajarkan Teknik farmakologis untuk mengurangi nyeri",
+              "Kolaborasi pemberian analgetik, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.09286",
-          "name": "Manajemen Demensia"
+          "name": "Manajemen Demensia",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi Riwayat fisik, sosial, psikologis, dan kebiasaan",
+              "Identifikasi pola aktivitas (mis: tidur, minum obat, eliminasi, asupan oral, perawatan diri)",
+              "Sediakan lingkungan aman, nyaman, konsisten, dan rendah stimulus (mis: music tenang, dekorasi sederhana, pencahayaan memadai, makan Bersama pasien lain)",
+              "Orientasikan waktu, tempat, dan orang",
+              "Gunakan distraksi untuk mengatasi masalah perilaku",
+              "Libatkan keluarga dalam merencanakan, menyediakan, dan mengevaluasi perawatan",
+              "Fasilitasi orientasi dengan simbol-simbol (mis: dekorasi, papan petunjuk, foto diberi nama, huruf besar)",
+              "Libatkan kegiatan individua tau kelompok sesuai kemampuan kognitif dan minat",
+              "Anjurkan memperbanyak istirahat",
+              "Ajarkan keluarga cara perawatan demensia"
+            ]
+          }
         },
         {
           "code": "I.14539",
-          "name": "Pencegahan Infeksi"
+          "name": "Pencegahan Infeksi",
+          "tindakan": {
+            "terapeutik": [
+              "Monitor tanda dan gejala infeksi lokal dan sistemik",
+              "Batasi jumlah pengunjung",
+              "Berikan perawatan kulit pada area edema",
+              "Cuci tangan sebelum dan sesudah kontak dengan pasien dan lingkungan pasien",
+              "Pertahankan teknik aseptic pada pasien berisiko tinggi",
+              "Jelaskan tanda dan gejala infeksi",
+              "Ajarkan cara mencuci tangan dengan benar",
+              "Ajarkan etika batuk",
+              "Ajarkan cara memeriksa kondisi luka atau luka operasi",
+              "Anjurkan meningkatkan asupan nutrisi",
+              "Anjurkan meningkatkan asupan cairan",
+              "Kolaborasi pemberian imunisasi, jika perlu"
+            ]
+          }
         }
       ],
       "category": "Neurosensori"

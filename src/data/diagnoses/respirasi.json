@@ -5,7 +5,7 @@
     "D.0001": {
       "code": "D.0001",
       "name": "Bersihan Jalan Napas Tidak Efektif",
-      "definition": "ketidakmampuan membersihkan sekret atau obstruksi jalan nafas untuk mempertahankan jalan nafas tetap paten.",
+      "definition": "Bersihan jalan napas tidak efektif adalah ketidakmampuan membersihkan sekret atau obstruksi jalan nafas untuk mempertahankan jalan nafas",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": [
@@ -53,15 +53,67 @@
       "interventions": [
         {
           "code": "I.01006",
-          "name": "Latihan Batuk Efektif"
+          "name": "Latihan Batuk Efektif",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi kemampuan batuk",
+              "Monitor adanya retensi sputum",
+              "Monitor tanda dan gejala infeksi saluran napas",
+              "Monitor input dan output cairan (misal: jumlah dan karakteristik)",
+              "Atur posisi semi-fowler dan fowler",
+              "Pasang perlak dan bengkok di pangkuan pasien",
+              "Buang sekret pada tempat sputum",
+              "Jelaskan tujuan dan prosedur batuk efektif",
+              "Anjurkan Tarik napas dalam melalui hidung selama 4 detik, ditahan selama 2 detik, kemudian keluarkan dari mulut dengan bibir mencucu (dibulatkan) selama 8 detik",
+              "Anjurkan mengulangi Tarik napas dalam hingga 3 kali",
+              "Anjutkan batuk dengan kuat langsung setelah Tarik napas dalam yang ke-3",
+              "Kolaborasi pemberian mukolitik atau ekspektoran, jika perlu."
+            ]
+          }
         },
         {
           "code": "I.01011",
-          "name": "Manajemen Jalan Napas"
+          "name": "Manajemen Jalan Napas",
+          "tindakan": {
+            "terapeutik": [
+              "Monitor pola napas (frekuensi, kedalaman, usaha napas)",
+              "Monitor bunyi napas tambahan (misalnya: gurgling, mengi, wheezing, ronchi kering)",
+              "Monitor sputum (jumlah, warna, aroma)",
+              "Pertahankan kepatenan jalan napas dengan head-tilt dan chin-lift (jaw thrust jika curiga trauma fraktur servikal)",
+              "Posisikan semi-fowler atau fowler",
+              "Berikan minum hangat",
+              "Lakukan fisioterapi dada, jika perlu",
+              "Lakukan penghisapan lendir kurang dari 15 detik",
+              "Lakukan hiperoksigenasi sebelum penghisapan endotrakeal",
+              "Keluarkan sumbatan benda padat dengan forsep McGill",
+              "Berikan oksigen, jika perlu",
+              "Anjurkan asupan cairan 2000 ml/hari, jika tidak ada kontraindikasi",
+              "Ajarkan Teknik batuk efektif",
+              "Kolaborasi pemberian bronkodilator, ekspektoran, mukolitik, jika perlu."
+            ]
+          }
         },
         {
           "code": "I.01014",
-          "name": "Pemantauan Respirasi"
+          "name": "Pemantauan Respirasi",
+          "tindakan": {
+            "terapeutik": [
+              "Monitor frekuensi, irama, kedalaman dan upaya napas",
+              "Monitor pola napas (seperti bradypnea, takipnea, hiperventilasi, kussmaul, Cheyne-stokes, biot, ataksik)",
+              "Monitor kemampuan batuk efektif",
+              "Monitor adanya produksi sputum",
+              "Monitor adanya sumbatan jalan napas",
+              "Palpasi kesimetrisan ekspansi paru",
+              "Auskultasi bunyi napas",
+              "Monitor saturasi oksigen",
+              "Monitor nilai analisa gas darah",
+              "Monitor hasil x-ray thoraks",
+              "Atur interval pemantauan respirasi sesuai kondisi pasien",
+              "Dokumentasikan hasil pemantauan",
+              "Jelaskan tujuan dan prosedur pemantauan",
+              "Informasikan hasil pemantauan, jika perlu."
+            ]
+          }
         }
       ],
       "category": "Respirasi"
@@ -69,7 +121,7 @@
     "D.0002": {
       "code": "D.0002",
       "name": "Gangguan Penyapihan Ventilator",
-      "definition": "ketidakmampuan beradaptasi dengan pengurangan bantuan ventilator mekanik yang dapat menghambat dan memperlama proses penyapihan.",
+      "definition": "Gangguan penyapihan ventilator adalah ketidakmampuan beradaptasi dengan pengurangan bantuan ventilator mekanik yang menghambat penyapihan.",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": [
@@ -111,11 +163,31 @@
       "interventions": [
         {
           "code": "I.01021",
-          "name": "Penyapihan Ventilasi Mekanik"
+          "name": "Penyapihan Ventilasi Mekanik",
+          "tindakan": {
+            "terapeutik": [
+              "Periksa kemampuan untuk disapih (meliputi: hemodinamik stabil, kondisi optimal, bebas infeksi)",
+              "Monitor predictor kemampuan untuk mentolerir penyapihan (mis. Tingkat kemampuan bernapas, kapasitas vital, Vd/Vt, MVV, kekuatan inspirasi, FEV1, tekanan inspirasi negatif)",
+              "Monitor tanda-tanda kelelahan otot pernapasan (misal: kenaikan PaCO2 mendadak, napas cepat dan dangkal, Gerakan dinding abdomen paradoks), hipoksemia, dan hipoksia jaringan saat penyapihan)",
+              "Monitor status cairan dan elektrolit",
+              "Posisikan semi-fowler (30 – 45 derajat)",
+              "Lakukan pengisapan jalan napas, jika perlu",
+              "Berikan fisioterapi dada, jika perlu",
+              "Lakukan ujicoba penyapihan (30 – 120 menit dengan napas spontan yang dibantu ventilator)",
+              "Gunakan Teknik relaksasi, jika perlu",
+              "Hindari pemberian sedasi farmakologis selama percobaan penyapihan",
+              "Berikan dukungan psikologis",
+              "Ajarkan cara pengontrolan napas saat penyapihan",
+              "Kolaborasi pemberian obat yang meningkatkan kepatenan jalan napas dan pertukaran gas."
+            ]
+          }
         },
         {
           "code": "I.01014",
-          "name": "Pemantauan Respirasi"
+          "name": "Pemantauan Respirasi",
+          "tindakan": {
+            "terapeutik": []
+          }
         }
       ],
       "category": "Respirasi"
@@ -123,7 +195,7 @@
     "D.0003": {
       "code": "D.0003",
       "name": "Gangguan Pertukaran Gas",
-      "definition": "kelebihan atau kekurangan oksigenasi dan/atau eliminasi karbondioksida pada membran alveolus-kapiler.",
+      "definition": "Gangguan pertukaran gas adalah kelebihan atau kekurangan oksigenasi dan/atau eliminasi karbondioksida pada membran alveolus-kapiler.",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": [
@@ -153,11 +225,17 @@
       "interventions": [
         {
           "code": "I.01014",
-          "name": "Pemantauan Respirasi"
+          "name": "Pemantauan Respirasi",
+          "tindakan": {
+            "terapeutik": []
+          }
         },
         {
           "code": "I.01026",
-          "name": "Terapi Oksigen"
+          "name": "Terapi Oksigen",
+          "tindakan": {
+            "terapeutik": []
+          }
         }
       ],
       "category": "Respirasi"
@@ -165,7 +243,7 @@
     "D.0004": {
       "code": "D.0004",
       "name": "Gangguan Ventilasi Spontan",
-      "definition": "penurunan cadangan energi yang mengakibatkan pasien tidak mampu bernapas secara adekuat.",
+      "definition": "Gangguan ventilasi spontan adalah penurunan cadangan energi yang mengakibatkan individu tidak mampu bernapas secara adekuat.",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": [
@@ -195,11 +273,45 @@
       "interventions": [
         {
           "code": "I.01002",
-          "name": "Dukungan Ventilasi"
+          "name": "Dukungan Ventilasi",
+          "tindakan": {
+            "terapeutik": [
+              "Identifikasi adanya kelelahan otot bantu napas",
+              "Identifikasi efek perubahan posisi terhadap status pernapasan",
+              "Monitor status respirasi dan oksigenasi (misal: frekuensi dan kedalaman napas, penggunaan otot bantu napas, bunyi napas tambahan, saturasi oksigen)",
+              "Pertahankan kepatenan jalan napas",
+              "Berikan posisi semi-fowler dan fowler",
+              "Fasilitasi mengubah posisi senyaman mungkin",
+              "Berikan oksigenasi sesuai kebutuhan (misal: nasal kanul, masker wajah, masker rebreathing atau non-rebreathing)",
+              "Gunakan bag-valve mask, jika perlu",
+              "Ajarkan melakukan Teknik relaksasi napas dalam",
+              "Ajarkan mengubah posisi secara mandiri",
+              "Ajarkan Teknik batuk efektif",
+              "Kolaborasi pemberian bronkodilator, jika perlu"
+            ]
+          }
         },
         {
           "code": "I.01014",
-          "name": "Pemantauan Respirasi"
+          "name": "Pemantauan Respirasi",
+          "tindakan": {
+            "terapeutik": [
+              "Monitor frekuensi, irama, kedalaman dan upaya napas",
+              "Monitor pola napas (seperti bradypnea, takipnea, hiperventilasi, kussmaul, Cheyne-stokes, biot, ataksik)",
+              "Monitor kemampuan batuk efektif",
+              "Monitor adanya produksi sputum",
+              "Monitor adanya sumbatan jalan napas",
+              "Palpasi kesimetrisan ekspansi paru",
+              "Auskultasi bunyi napas",
+              "Monitor saturasi oksigen",
+              "Monitor nilai analisa gas darah",
+              "Monitor hasil x-ray thoraks",
+              "Atur interval pemantauan respirasi sesuai kondisi pasien",
+              "Dokumentasikan hasil pemantauan",
+              "Jelaskan tujuan dan prosedur pemantauan",
+              "Informasikan hasil pemantauan, jika perlu."
+            ]
+          }
         }
       ],
       "category": "Respirasi"
@@ -207,7 +319,7 @@
     "D.0005": {
       "code": "D.0005",
       "name": "Pola Napas Tidak Efektif",
-      "definition": "adalah inspirasi dan/atau ekspirasi yang tidak memberikan ventilasi adekuat.",
+      "definition": "Pola napas tidak efektif adalah inspirasi dan/atau ekspirasi yang tidak memberikan ventilasi adekuat. Pola napas tidak efektif dapat terjadi",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": [
@@ -248,11 +360,17 @@
       "interventions": [
         {
           "code": "I.01011",
-          "name": "Manajemen Jalan Napas"
+          "name": "Manajemen Jalan Napas",
+          "tindakan": {
+            "terapeutik": []
+          }
         },
         {
           "code": "I.01014",
-          "name": "Pemantauan Respirasi"
+          "name": "Pemantauan Respirasi",
+          "tindakan": {
+            "terapeutik": []
+          }
         }
       ],
       "category": "Respirasi"
@@ -260,7 +378,7 @@
     "D.0006": {
       "code": "D.0006",
       "name": "Risiko Aspirasi",
-      "definition": "adalah risiko mengalami masuknya sekresi gastrointestinal, sekresi orofaring, benda cair atau padat ke dalam saluran trakeobronkhial akibat disfungsi mekanisme protektif saluran napas.",
+      "definition": "Risiko aspirasi didefinisikan sebagai risiko mengalami masuknya benda cair atau padat ke dalam saluran trakeobronkhial akibat",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -296,11 +414,17 @@
       "interventions": [
         {
           "code": "I.01011",
-          "name": "Manajemen Jalan Napas"
+          "name": "Manajemen Jalan Napas",
+          "tindakan": {
+            "terapeutik": []
+          }
         },
         {
           "code": "I.01018",
-          "name": "Pencegahan Aspirasi"
+          "name": "Pencegahan Aspirasi",
+          "tindakan": {
+            "terapeutik": []
+          }
         }
       ],
       "category": "Respirasi"
