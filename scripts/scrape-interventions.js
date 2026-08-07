@@ -189,7 +189,7 @@ async function scrapeInterventions() {
       
       await page.waitForTimeout(1000);
       
-      // Extract interventions with their actions
+      // Extract interventions with their actions grouped by category
       const interventions = await page.evaluate(() => {
         const result = [];
         
@@ -205,27 +205,48 @@ async function scrapeInterventions() {
             const name = match[1].trim();
             const code = `I.${match[2]}`;
             
-            // Get the list items after this h3
-            const actions = [];
+            // Initialize tindakan object with all categories
+            const tindakan = {
+              observasi: [],
+              terapeutik: [],
+              edukasi: [],
+              kolaborasi: []
+            };
+            
+            // Get all siblings after this h3 until next h3 or h2
             let sibling = h3.nextElementSibling;
+            let currentCategory = null;
             
             while (sibling && sibling.tagName !== 'H3' && sibling.tagName !== 'H2') {
-              if (sibling.tagName === 'UL') {
+              // Check if this is a category heading (p with strong tag containing category name)
+              if (sibling.tagName === 'P') {
+                const strong = sibling.querySelector('strong');
+                if (strong) {
+                  const categoryText = strong.textContent.trim().toLowerCase();
+                  if (['observasi', 'terapeutik', 'edukasi', 'kolaborasi'].includes(categoryText)) {
+                    currentCategory = categoryText;
+                  }
+                }
+              }
+              
+              // If we have a current category and this is a UL, extract items
+              if (currentCategory && sibling.tagName === 'UL') {
                 const items = sibling.querySelectorAll('li');
                 items.forEach(li => {
                   const actionText = li.textContent.trim();
                   if (actionText) {
-                    actions.push(actionText);
+                    tindakan[currentCategory].push(actionText);
                   }
                 });
               }
+              
               sibling = sibling.nextElementSibling;
             }
             
             result.push({
               code,
               name,
-              tindakan: actions
+              tindakan
             });
           }
         });

@@ -1,0 +1,10 @@
+node_modules
+.next
+.git
+.gitignore
+*.md
+.vscode
+scripts/
+Dockerfile*
+.vercel
+.DS_Store

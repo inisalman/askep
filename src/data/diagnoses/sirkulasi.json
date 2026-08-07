@@ -35,8 +35,10 @@
           "code": "I.02038",
           "name": "Manajemen Defibrilasi",
           "tindakan": {
+            "observasi": [
+              "Periksa irama pada monitor setelah RJP 2 menit"
+            ],
             "terapeutik": [
-              "Periksa irama pada monitor setelah RJP 2 menit",
               "Lakukan resusitasi jantung paru (RJP) hingga mesin defibrillator siap",
               "Siapkan dan hidupkan mesin defibrillator",
               "Pasang monitor EKG",
@@ -57,18 +59,22 @@
           "code": "I.03139",
           "name": "Resusitasi Cairan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kelas syok untuk estimasi kehilangan darah",
               "Monitor status hemodinamik",
               "Monitor status oksigen",
               "Monitor kelebihan cairan",
               "Monitor output cairan tubuh (mis. Urin, cairan nasogastric, cairan selang dada)",
               "Monitor nilai BUN, kreatinin, protein total, dan albumin, jika perlu",
-              "Monitor tanda dan gejala edema paru",
+              "Monitor tanda dan gejala edema paru"
+            ],
+            "terapeutik": [
               "Pasang jalur IV berukuran besar (mis. nomor 14 atau 16)",
               "Berikan infus cairan kristaloid 1-2 L pada dewasa",
               "Berikan infus cairan kristaloid 20 mL/KgBB pada anak",
-              "Lakukan cross matching produk darah",
+              "Lakukan cross matching produk darah"
+            ],
+            "kolaborasi": [
               "Kolaborasi penentuan jenis dan jumlah cairan (mis: kristaloid, koloid)",
               "Kolaborasi pemberian produk darah"
             ]
@@ -78,10 +84,12 @@
           "code": "I.02083",
           "name": "Resusitasi Jantung Paru",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi keamanan penolong, lingkungan dan pasien",
               "Identifikasi respon pasien (mis: memanggil pasien, menepuk bahu pasien)",
-              "Monitor nadi karotis dan napas setiap 2 menit atau 5 siklus RJP",
+              "Monitor nadi karotis dan napas setiap 2 menit atau 5 siklus RJP"
+            ],
+            "terapeutik": [
               "Pakai alat pelindung diri",
               "Aktifkan emergency medical system atau berteriak minta tolong",
               "Posisikan pasien telentang di tempat datar dan keras",
@@ -94,8 +102,12 @@
               "Bersihkan dan buka jalan napas dengan head-tilt chin-lift atau jaw thrust (jika curiga cedera servikal)",
               "Berikan bantuan napas dengan menggunakan bag valve mask dengan Teknik EC-Clamp",
               "Kombinasikan kompresi dan ventilasi selama 2 menit atau sebanyak 5 siklus",
-              "Hentikan RJP jika ditemukan ada tanda-tanda kehidupan, penolong yang lebih mahir datang, ditemukan adanya tanda-tanda kematian biologis, do not resuscitation (DNR).",
-              "Jelaskan tujuan dan prosedur Tindakan kepada keluarga atau pengantar pasien",
+              "Hentikan RJP jika ditemukan ada tanda-tanda kehidupan, penolong yang lebih mahir datang, ditemukan adanya tanda-tanda kematian biologis, do not resuscitation (DNR)."
+            ],
+            "edukasi": [
+              "Jelaskan tujuan dan prosedur Tindakan kepada keluarga atau pengantar pasien"
+            ],
+            "kolaborasi": [
               "Kolaborasi tim medis untuk bantuan hidup lanjut."
             ]
           }
@@ -106,7 +118,7 @@
     "D.0008": {
       "code": "D.0008",
       "name": "Penurunan Curah Jantung",
-      "definition": "Penurunan curah jantung adalah ketidakadekuatan jantung memompa darah untuk memenuhi kebutuhan metabolisme tubuh. Berikut adalah askep",
+      "definition": "ketidakmampuan jantung memompa darah untuk memenuhi kebutuhan metabolisme tubuh",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": [
@@ -164,7 +176,7 @@
           "code": "I.02075",
           "name": "Perawatan Jantung",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi tanda/gejala primer penurunan curah jantung (meliputi: dispnea, kelelahan, edema, ortopnea, PND, peningkatan CVP).",
               "Identifikasi tanda/gejala sekunder penurunan curah jantung (meliputi: peningkatan berat badan, hepatomegaly, distensi vena jugularis, palpitasi, ronkhi basah, oliguria, batuk, kulit pucat)",
               "Monitor tekanan darah (termasuk tekanan darah ortostatik, jika perlu)",
@@ -177,7 +189,9 @@
               "Monitor nilai laboratorium jantung (mis: elektrolit, enzim jantung, BNP, NTpro-BNP)",
               "Monitor fungsi alat pacu jantung",
               "Periksa tekanan darah dan frekuensi nadi sebelum dan sesudah aktivitas",
-              "Periksa tekanan darah dan frekuensi nadi sebelum pemberian obat (mis: beta blocker, ACE Inhibitor, calcium channel blocker, digoksin)",
+              "Periksa tekanan darah dan frekuensi nadi sebelum pemberian obat (mis: beta blocker, ACE Inhibitor, calcium channel blocker, digoksin)"
+            ],
+            "terapeutik": [
               "Posisikan pasien semi-fowler atau fowler dengan kaki ke bawah atau posisi nyaman",
               "Berikan diet jantung yang sesuai (mis: batasi asupan kafein, natrium, kolesterol, dan makanan tinggi lemak)",
               "Gunakan stocking elastis atau pneumatik intermitten, sesuai indikasi",
@@ -185,13 +199,17 @@
               "Berikan terapi relaksasi untuk mengurangi stress, jika perlu",
               "Berikan dukungan emosional dan spiritual",
               "Berikan oksigen untuk mempertahankan saturasi oksigen > 94%",
+              "Rujuk ke program rehabilitasi jantung"
+            ],
+            "edukasi": [
               "Anjurkan beraktivitas fisik sesuai toleransi",
               "Anjurkan beraktivitas fisik secara bertahap",
               "Anjurkan berhenti merokok",
               "Ajarkan pasien dan keluarga mengukur berat badan harian",
-              "Ajarkan pasien dan keluarga mengukur intake dan output cairan harian",
-              "Kolaborasi pemberian antiaritmia, jika perlu",
-              "Rujuk ke program rehabilitasi jantung"
+              "Ajarkan pasien dan keluarga mengukur intake dan output cairan harian"
+            ],
+            "kolaborasi": [
+              "Kolaborasi pemberian antiaritmia, jika perlu"
             ]
           }
         },
@@ -199,25 +217,31 @@
           "code": "I.02076",
           "name": "Perawatan Jantung Akut",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi karakteristik nyeri dada (meliputi faktor pemicu dan Pereda, kualitas, lokasi, radiasi, skala, durasi, dan frekuensi)",
               "Monitor aritmia (kelainan irama dan frekuensi)",
               "Monitor EKG 12 sadapan untuk perubahan ST dan T",
               "Monitor elektrolit yang dapat meningkatkan risiko aritmia (mis: kalium, magnesium serum)",
               "Monitor enzim jantung (mis: CK, CK-MB, Troponin T, Troponin I)",
               "Monitor saturasi oksigen",
-              "Identifikasi stratifikasi pada sindrom koroner akut (mis: skor TIMI, Killip, Crusade)",
+              "Identifikasi stratifikasi pada sindrom koroner akut (mis: skor TIMI, Killip, Crusade)"
+            ],
+            "terapeutik": [
               "Pertahankan tirah baring minimal 12 jam",
               "Pasang akses intravena",
               "Puasakan hingga bebas nyeri",
               "Berikan terapi relaksasi untuk mengurangi ansietas dan stress",
               "Sediakan lingkungan yang kondusif untuk beristirahat dan pemulihan",
               "Siapkan menjalani intervensi koroner perkutan, jika perlu",
-              "Berikan dukungan emosional dan spiritual",
+              "Berikan dukungan emosional dan spiritual"
+            ],
+            "edukasi": [
               "Anjurkan segera melaporkan nyeri dada",
               "Anjurkan menghindari manuver Valsava (mis: mengedan saat BAB atau batuk)",
               "Jelaskan Tindakan yang dijalani pasien",
-              "Ajarkan Teknik menurunkan kecemasan dan ketakutan",
+              "Ajarkan Teknik menurunkan kecemasan dan ketakutan"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian antiplatelet, jika perlu",
               "Kolaborasi pemberian antianginal (mis: nitrogliserin, beta blocker, calcium channel blocker)",
               "Kolaborasi pemberian morfin, jika perlu",
@@ -271,16 +295,20 @@
           "code": "I.02079",
           "name": "Perawatan Sirkulasi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Periksa sirkulasi perifer (mis: nadi perifer, edema, pengisian kapiler, warna, suhu, ankle-brachial index)",
               "Identifikasi faktor risiko gangguan sirkulasi (mis: diabetes, perokok, orang tua, hipertensi, dan kadar kolesterol tinggi)",
-              "Monitor panas, kemerahan, nyeri, atau bengkak pada ekstremitas",
+              "Monitor panas, kemerahan, nyeri, atau bengkak pada ekstremitas"
+            ],
+            "terapeutik": [
               "Hindari pemasangan infus, atau pengambilan darah di area keterbatasan perfusi",
               "Hindari pengukuran tekanan darah pada ekstremitas dengan keterbatasan perfusi",
               "Hindari penekanan dan pemasangan tourniquet pada area yang cidera",
               "Lakukan pencegahan infeksi",
               "Lakukan perawatan kaki dan kuku",
-              "Lakukan hidrasi",
+              "Lakukan hidrasi"
+            ],
+            "edukasi": [
               "Anjurkan berhenti merokok",
               "Anjurkan berolahraga rutin",
               "Anjurkan mengecek air mandi untuk menghindari kulit terbakar",
@@ -298,7 +326,7 @@
           "code": "I.06195",
           "name": "Manajemen Sensasi Perifer",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi penyebab perubahan sensasi",
               "Identifikasi penggunaan alat pengikat, prosthesis, sepatu, dan pakaian",
               "Periksa perbedaan sensasi tajam atau tumpul",
@@ -306,11 +334,17 @@
               "Periksa kemampuan mengidentifikasi lokasi dan tekstur benda",
               "Monitor terjadinya parestesia, jika perlu",
               "Monitor perubahan kulit",
-              "Monitor adanya tromboplebitis dan tromboemboli vena",
-              "Hindai pemakaian benda-benda yang berlebihan suhunya (terlalu panas atau dingin)",
+              "Monitor adanya tromboplebitis dan tromboemboli vena"
+            ],
+            "terapeutik": [
+              "Hindai pemakaian benda-benda yang berlebihan suhunya (terlalu panas atau dingin)"
+            ],
+            "edukasi": [
               "Anjurkan penggunaan thermometer untuk menguji suhu air",
               "Anjurkan penggunaan sarung tangan termal saat memasak",
-              "Anjurkan memakai sepatu lembut dan bertumit rendah",
+              "Anjurkan memakai sepatu lembut dan bertumit rendah"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian analgesik, jika perlu",
               "Kolaborasi pemberian kortikosteroid, jika perlu"
             ]
@@ -360,25 +394,31 @@
           "code": "I.02076",
           "name": "Perawatan Jantung Akut",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi karakteristik nyeri dada (meliputi faktor pemicu dan Pereda, kualitas, lokasi, radiasi, skala, durasi, dan frekuensi)",
               "Monitor aritmia (kelainan irama dan frekuensi)",
               "Monitor EKG 12 sadapan untuk perubahan ST dan T",
               "Monitor elektrolit yang dapat meningkatkan risiko aritmia (mis: kalium, magnesium serum)",
               "Monitor enzim jantung (mis: CK, CK-MB, Troponin T, Troponin I)",
               "Monitor saturasi oksigen",
-              "Identifikasi stratifikasi pada sindrom koroner akut (mis: skor TIMI, Killip, Crusade)",
+              "Identifikasi stratifikasi pada sindrom koroner akut (mis: skor TIMI, Killip, Crusade)"
+            ],
+            "terapeutik": [
               "Pertahankan tirah baring minimal 12 jam",
               "Pasang akses intravena",
               "Puasakan hingga bebas nyeri",
               "Berikan terapi relaksasi untuk mengurangi ansietas dan stress",
               "Sediakan lingkungan yang kondusif untuk beristirahat dan pemulihan",
               "Siapkan menjalani intervensi koroner perkutan, jika perlu",
-              "Berikan dukungan emosional dan spiritual",
+              "Berikan dukungan emosional dan spiritual"
+            ],
+            "edukasi": [
               "Anjurkan segera melaporkan nyeri dada",
               "Anjurkan menghindari manuver Valsava (mis: mengedan saat BAB atau batuk)",
               "Jelaskan Tindakan yang dijalani pasien",
-              "Ajarkan Teknik menurunkan kecemasan dan ketakutan",
+              "Ajarkan Teknik menurunkan kecemasan dan ketakutan"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian antiplatelet, jika perlu",
               "Kolaborasi pemberian antianginal (mis: nitrogliserin, beta blocker, calcium channel blocker)",
               "Kolaborasi pemberian morfin, jika perlu",
@@ -393,18 +433,24 @@
           "code": "I.02080",
           "name": "Pertolongan Pertama",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi keamanan penolong, pasien dan lingkungan",
               "Identifikasi respon pasien dengan AVPU (alert, verbal, pain, unresponsive)",
               "Monitor tanda-tanda vital",
-              "Monitor karakteristik luka (mis: drainase, warna, ukuran, bau)",
+              "Monitor karakteristik luka (mis: drainase, warna, ukuran, bau)"
+            ],
+            "terapeutik": [
               "Meminta pertolongan, jika perlu",
               "Lakukan RICE (rest, ice, compression, elevation) pada cidera otot ekstremitas",
               "Lakukan penghentian perdarahan (mis: penekanan, balut tekan, pengaturan posisi)",
               "Bersihkan kulit dari racun atau bahan kimia yang menempel dengan sabun dan air mengalir",
               "Lepaskan sengatan dari kulit",
-              "Lepaskan gigitan serangga dari kulit menggunakan pinset atau alat yang sesuai",
-              "Ajarkan Teknik perawatan luka",
+              "Lepaskan gigitan serangga dari kulit menggunakan pinset atau alat yang sesuai"
+            ],
+            "edukasi": [
+              "Ajarkan Teknik perawatan luka"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian obat-obatan (mis: antibiotik profilaksis, vaksin, antihistamin, antiinflamasi, dan analgetic), jika perlu"
             ]
           }
@@ -415,7 +461,7 @@
     "D.0011": {
       "code": "D.0011",
       "name": "Risiko Penurunan Curah Jantung",
-      "definition": "Risiko penurunan curah jantung didefinisikan sebagai risiko mengalami pemompaan jantung yang tidak adekuat untuk memenuhi kebutuhan...",
+      "definition": "Risiko mengalami pemompaan jantung yang tidak adekuat untuk memenuhi kebutuhan metabolisme tubuh",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -457,7 +503,7 @@
           "code": "I.02075",
           "name": "Perawatan Jantung",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi tanda/gejala primer penurunan curah jantung (meliputi: dispnea, kelelahan, edema, ortopnea, PND, peningkatan CVP).",
               "Identifikasi tanda/gejala sekunder penurunan curah jantung (meliputi: peningkatan berat badan, hepatomegaly, distensi vena jugularis, palpitasi, ronkhi basah, oliguria, batuk, kulit pucat)",
               "Monitor tekanan darah (termasuk tekanan darah ortostatik, jika perlu)",
@@ -470,7 +516,9 @@
               "Monitor nilai laboratorium jantung (mis: elektrolit, enzim jantung, BNP, NTpro-BNP)",
               "Monitor fungsi alat pacu jantung",
               "Periksa tekanan darah dan frekuensi nadi sebelum dan sesudah aktivitas",
-              "Periksa tekanan darah dan frekuensi nadi sebelum pemberian obat (mis: beta blocker, ACE Inhibitor, calcium channel blocker, digoksin)",
+              "Periksa tekanan darah dan frekuensi nadi sebelum pemberian obat (mis: beta blocker, ACE Inhibitor, calcium channel blocker, digoksin)"
+            ],
+            "terapeutik": [
               "Posisikan pasien semi-fowler atau fowler dengan kaki ke bawah atau posisi nyaman",
               "Berikan diet jantung yang sesuai (mis: batasi asupan kafein, natrium, kolesterol, dan makanan tinggi lemak)",
               "Gunakan stocking elastis atau pneumatik intermitten, sesuai indikasi",
@@ -478,13 +526,17 @@
               "Berikan terapi relaksasi untuk mengurangi stress, jika perlu",
               "Berikan dukungan emosional dan spiritual",
               "Berikan oksigen untuk mempertahankan saturasi oksigen > 94%",
+              "Rujuk ke program rehabilitasi jantung"
+            ],
+            "edukasi": [
               "Anjurkan beraktivitas fisik sesuai toleransi",
               "Anjurkan beraktivitas fisik secara bertahap",
               "Anjurkan berhenti merokok",
               "Ajarkan pasien dan keluarga mengukur berat badan harian",
-              "Ajarkan pasien dan keluarga mengukur intake dan output cairan harian",
-              "Kolaborasi pemberian antiaritmia, jika perlu",
-              "Rujuk ke program rehabilitasi jantung"
+              "Ajarkan pasien dan keluarga mengukur intake dan output cairan harian"
+            ],
+            "kolaborasi": [
+              "Kolaborasi pemberian antiaritmia, jika perlu"
             ]
           }
         },
@@ -492,25 +544,31 @@
           "code": "I.02076",
           "name": "Perawatan Jantung Akut",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi karakteristik nyeri dada (meliputi faktor pemicu dan Pereda, kualitas, lokasi, radiasi, skala, durasi, dan frekuensi)",
               "Monitor aritmia (kelainan irama dan frekuensi)",
               "Monitor EKG 12 sadapan untuk perubahan ST dan T",
               "Monitor elektrolit yang dapat meningkatkan risiko aritmia (mis: kalium, magnesium serum)",
               "Monitor enzim jantung (mis: CK, CK-MB, Troponin T, Troponin I)",
               "Monitor saturasi oksigen",
-              "Identifikasi stratifikasi pada sindrom koroner akut (mis: skor TIMI, Killip, Crusade)",
+              "Identifikasi stratifikasi pada sindrom koroner akut (mis: skor TIMI, Killip, Crusade)"
+            ],
+            "terapeutik": [
               "Pertahankan tirah baring minimal 12 jam",
               "Pasang akses intravena",
               "Puasakan hingga bebas nyeri",
               "Berikan terapi relaksasi untuk mengurangi ansietas dan stress",
               "Sediakan lingkungan yang kondusif untuk beristirahat dan pemulihan",
               "Siapkan menjalani intervensi koroner perkutan, jika perlu",
-              "Berikan dukungan emosional dan spiritual",
+              "Berikan dukungan emosional dan spiritual"
+            ],
+            "edukasi": [
               "Anjurkan segera melaporkan nyeri dada",
               "Anjurkan menghindari manuver Valsava (mis: mengedan saat BAB atau batuk)",
               "Jelaskan Tindakan yang dijalani pasien",
-              "Ajarkan Teknik menurunkan kecemasan dan ketakutan",
+              "Ajarkan Teknik menurunkan kecemasan dan ketakutan"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian antiplatelet, jika perlu",
               "Kolaborasi pemberian antianginal (mis: nitrogliserin, beta blocker, calcium channel blocker)",
               "Kolaborasi pemberian morfin, jika perlu",
@@ -563,21 +621,27 @@
           "code": "I.02067",
           "name": "Pencegahan Perdarahan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor tanda dan gejala perdarahan",
               "Monitor nilai hematokrit/hemoglobin sebelum dan setelah kehilangan darah",
               "Monitor tanda-tanda vital ortostatik",
-              "Monitor koagulasi (mis: prothrombin time (PT), partial thromboplastin time (PTT), fibrinogen, degradasi fibrin dan/atau platelet)",
+              "Monitor koagulasi (mis: prothrombin time (PT), partial thromboplastin time (PTT), fibrinogen, degradasi fibrin dan/atau platelet)"
+            ],
+            "terapeutik": [
               "Pertahankan bed rest selama perdarahan",
               "Batasi tindakan invasive, jika perlu",
               "Gunakan kasur pencegah decubitus",
-              "Hindari pengukuran suhu rektal",
+              "Hindari pengukuran suhu rektal"
+            ],
+            "edukasi": [
               "Jelaskan tanda dan gejala perdarahan",
               "Anjurkan menggunakan kaus kaki saat ambulasi",
               "Anjurkan meningkatkan asupan cairan untuk menghindari konstipasi",
               "Anjurkan menghindari aspirin atau antikoagulan",
               "Anjurkan meningkatkan asupan makanan dan vitamin K",
-              "Anjurkan segera melapor jika terjadi perdarahan",
+              "Anjurkan segera melapor jika terjadi perdarahan"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian obat pengontrol perdarahan, jika perlu",
               "Kolaborasi pemberian produk darah, jika perlu",
               "Kolaborasi pemberian pelunak tinja, jika perlu"
@@ -627,7 +691,7 @@
           "code": "I.02040",
           "name": "Manajemen Perdarahan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi penyebab perdarahan",
               "Periksa adanya darah pada muntah, sputum, feses, urin, pengeluaran NGT, dan drainase luka, jika perlu",
               "Periksa ukuran dan karakteristik hematoma, jika ada",
@@ -637,15 +701,21 @@
               "Monitor intake dan output cairan",
               "Monitor koagulasi darah (prothrombin time (PT), partial tromboplastin time (PTT), fibrinogen, degradasi fibrin, dan jumlah trombosit), jika ada",
               "Monitor deliveri oksigen jaringan (mis: PaO2, SaO2, hemoglobin, dan curah jantung)",
-              "Monitor tanda dan gejala perdarahan masif",
+              "Monitor tanda dan gejala perdarahan masif"
+            ],
+            "terapeutik": [
               "Istirahatkan area yang mengalami perdarahan",
               "Berikan kompres dingin, jika perlu",
               "Lakukan penekanan atau balut tekan, jika perlu",
               "Tinggikan ekstremitas yang mengalami perdarahan",
-              "Pertahankan akses IV",
+              "Pertahankan akses IV"
+            ],
+            "edukasi": [
               "Jelaskan tanda-tanda perdarahan",
               "Anjurkan melapor jika menemukan tanda-tanda perdarahan",
-              "Anjurkan membatasi aktivitas",
+              "Anjurkan membatasi aktivitas"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian cairan, jika perlu",
               "Kolaborasi pemberian transfusi darah, jika perlu"
             ]
@@ -655,18 +725,22 @@
           "code": "I.03094",
           "name": "Konseling Nutrisi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kebiasaan makan dan perilaku makan yang akan diubah",
               "Identifikasi kemajuan modifikasi diet secara regular",
-              "Monitor intake dan output cairan, nilai hemoglobin, tekanan darah, kenaikan berat badan, dan kebiasaan membeli makanan",
+              "Monitor intake dan output cairan, nilai hemoglobin, tekanan darah, kenaikan berat badan, dan kebiasaan membeli makanan"
+            ],
+            "terapeutik": [
               "Bina hubungan terapeutik",
               "Sepakati lama waktu pemberian konseling",
               "Tetapkan tujuan jangka pendek dan jangka Panjang yang realistis",
               "Gunakan standar nutrisi sesuai program diet dalam mengevaluasi kecukupan asupan makanan",
               "Pertimbangkan faktor-faktor yang mempengaruhi pemenuhan kebutuhan  gizi (mis. Usia, tahap pertumbuhan dan perkembangan, penyakit)",
-              "Informasikan perlunya modifikasi diet (misal: penurunan atau penambahan berat badan, pembatasan natrium atau cairan, pengurangan kolesterol",
-              "Jelaskan program gizi dan persepsi pasien terhadap diet yang diprogramkan",
               "Rujuk pada ahli gizi, jika perlu"
+            ],
+            "edukasi": [
+              "Informasikan perlunya modifikasi diet (misal: penurunan atau penambahan berat badan, pembatasan natrium atau cairan, pengurangan kolesterol",
+              "Jelaskan program gizi dan persepsi pasien terhadap diet yang diprogramkan"
             ]
           }
         }
@@ -676,7 +750,7 @@
     "D.0014": {
       "code": "D.0014",
       "name": "Risiko Perfusi Miokard Tidak Efektif",
-      "definition": "Risiko perfusi miokard tidak efektif didefinisikan sebagai berisiko mengalami penurunan sirkulasi arteri koroner yang dapat mengganggu...",
+      "definition": "Berisiko mengalami penurunan sirkulasi arteri koroner yang dapat mengganggu metabolisme miokard",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -714,7 +788,7 @@
           "code": "I.02035",
           "name": "Manajemen Aritmia",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Periksa onset dan pemicu aritmia",
               "Identifikasi jenis aritmia",
               "Monitor frekuensi dan durasi aritmia",
@@ -722,16 +796,20 @@
               "Monitor respon hemodinamik akibat aritmia",
               "Monitor saturasi oksigen",
               "Monitor kadar elektrolit",
+              "Periksa interval QT sebelum dan sesudah pemberian obat yang dapat memperpanjang interval QT"
+            ],
+            "terapeutik": [
               "Berikan lingkungan yang tenang",
               "Pasang jalan napas buatan (mis. OPA, NPA, LMA, ETT), jika perlu",
               "Pasang akses intravena",
               "Pasang monitor jantung",
               "Rekam EKG 12 sadapan",
-              "Periksa interval QT sebelum dan sesudah pemberian obat yang dapat memperpanjang interval QT",
               "Lakukan maneuver valsava",
               "Lakukan masase karotis unilateral",
               "Berikan oksigen, sesuai indikasi",
-              "Siapkan pemasangan ICD (implantable cardioverter defibrillator)",
+              "Siapkan pemasangan ICD (implantable cardioverter defibrillator)"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian antiaritmia, jika perlu",
               "Kolaborasi pemberian kardioversi, jika perlu",
               "Kolaborasi pemberian defibrilasi, jika perlu"
@@ -742,7 +820,7 @@
           "code": "I.02051",
           "name": "Manajemen Syok Kardiogenik",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor status kardiopulmonal (frekuensi dan kekuatan nadi, frekuensi napas, TD, MAP)",
               "Monitor status oksigenasi (oksimetri nadi, AGD)",
               "Monitor status cairan (masukan dan haluaran, turgor kulit, CRT)",
@@ -751,13 +829,17 @@
               "Monitor EKG 12 lead",
               "Monitor rontgen dada (mis: kongesti paru, edema paru, pembesaran jantung)",
               "Monitor enzim jantung (mis: CK, CKMB, Troponin)",
-              "Identifikasi penyebab masalah utama (mis: volume, pompa atau irama)",
+              "Identifikasi penyebab masalah utama (mis: volume, pompa atau irama)"
+            ],
+            "terapeutik": [
               "Pertahankan jalan napas paten",
               "Berikan oksigen untuk mempertahankan saturasi oksigen > 94%",
               "Persiapkan intubasi dan ventilasi mekanis, jika perlu",
               "Pasang jalur IV",
               "Pasang kateter urin untuk menilai produksi urin",
-              "Pasang selang nasogastrik untuk dekompresi lambung, jika perlu",
+              "Pasang selang nasogastrik untuk dekompresi lambung, jika perlu"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian inotropik (mis: dobutamine), jika TDS 70 – 100 mmHg tanpa disertai tanda/gejala syok",
               "Kolaborasi pemberian vasopressor (mis: dopamine), jika TDS 70 – 100 mmHg disertai tanda/gejala syok",
               "Kolaborasi pemberian vasopressor (mis: norefinefrin), jika TDS < 70 mmHg",
@@ -770,24 +852,30 @@
           "code": "I.02066",
           "name": "Pencegahan Emboli",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Periksa Riwayat penyakit secara rinci untuk melihat faktor risiko (mis: pascaoperasi, fraktur, kemoterapi, kehamilan, pasca persalinan, imobilisasi, kelumpuhan, edema ekstremitas, PPOK, stroke, Riwayat DVT sebelumnya)",
               "Periksa trias Virchow (stasis vena, hiperkoagulabilitas, dan trauma yang mengakibatkan kerusakan intima pembuluh darah)",
               "Monitor adanya gejala baru dari mengi (hemoptisis, nyeri saat inspirasi, nyeri pleuritik)",
-              "Monitor sirkulasi perifer (mis: nadi perifer, edema, CRT, warna, suhu, dan adanya rasa sakit pada ekstremitas)",
+              "Monitor sirkulasi perifer (mis: nadi perifer, edema, CRT, warna, suhu, dan adanya rasa sakit pada ekstremitas)"
+            ],
+            "terapeutik": [
               "Posisikan anggota tubuh yang beresiko emboli 20 derajat diatas posisi jantung",
               "Pasangkan stoking atau alat kompresi pneumatic intermitten",
               "Lepaskan stoking atau alat kompresi pneumatic intermiten selama 15-20 menit setiap 8 jam",
               "Lakukan Latihan rentang gejak aktif dan pasif",
               "Lakukan perubahan posisi setiap 2 jam",
-              "Hindari memijat atau menekan otot ekstremitas",
+              "Hindari memijat atau menekan otot ekstremitas"
+            ],
+            "edukasi": [
               "Anjurkan melakukan fleksi dan ekstensi kaki paling sedikit 10 kali setiap jam",
               "Anjurkan melaporkan perdarahan yang berlebihan (mis: mimisan yang tidak biasa, muntah darah, urin berdarah, gusi berdarah, perdarahan pervaginam, perdarahan menstruasi yang berat, feses berdarah), nyeri atau bengkak yang tidak biasa, warna biru atau ungu pada jari kaki, nyeri di jari kaki, bisul atau bitnik putih di mulut atau tenggorokan.",
               "Anjurkan berhenti merokok",
               "Anjurkan minum obat antikoagulan sesuai dengan waktu dan dosis",
               "Anjurkan asupan makanan yang tinggi vitamik K",
               "Ajarkan menghindari duduk dengan kaki menyilang atau duduk lama dengan kaki tergantung",
-              "Ajarkan melakukan tindakan pencegahan (mis: berjalan, banyak minum, hindari alkohol, hindari imobilitas jangka Panjang)",
+              "Ajarkan melakukan tindakan pencegahan (mis: berjalan, banyak minum, hindari alkohol, hindari imobilitas jangka Panjang)"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian trombolitik, jika perlu",
               "Kolaborasi pemberian antikoagulan dosis rendah atau antiplatelet dosis tinggi (mis: heparin, clopidogrel, warfarin, aspirin, dipyridamole, dekstran), jika perlu",
               "Kolaborasi pemberian prometazin intravena dalam larutan NaCl 0,9% 25 cc – 50cc dengan aliran lambat"
@@ -798,7 +886,7 @@
           "code": "I.02075",
           "name": "Perawatan Jantung",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi tanda/gejala primer penurunan curah jantung (meliputi: dispnea, kelelahan, edema, ortopnea, PND, peningkatan CVP).",
               "Identifikasi tanda/gejala sekunder penurunan curah jantung (meliputi: peningkatan berat badan, hepatomegaly, distensi vena jugularis, palpitasi, ronkhi basah, oliguria, batuk, kulit pucat)",
               "Monitor tekanan darah (termasuk tekanan darah ortostatik, jika perlu)",
@@ -811,7 +899,9 @@
               "Monitor nilai laboratorium jantung (mis: elektrolit, enzim jantung, BNP, NTpro-BNP)",
               "Monitor fungsi alat pacu jantung",
               "Periksa tekanan darah dan frekuensi nadi sebelum dan sesudah aktivitas",
-              "Periksa tekanan darah dan frekuensi nadi sebelum pemberian obat (mis: beta blocker, ACE Inhibitor, calcium channel blocker, digoksin)",
+              "Periksa tekanan darah dan frekuensi nadi sebelum pemberian obat (mis: beta blocker, ACE Inhibitor, calcium channel blocker, digoksin)"
+            ],
+            "terapeutik": [
               "Posisikan pasien semi-fowler atau fowler dengan kaki ke bawah atau posisi nyaman",
               "Berikan diet jantung yang sesuai (mis: batasi asupan kafein, natrium, kolesterol, dan makanan tinggi lemak)",
               "Gunakan stocking elastis atau pneumatik intermitten, sesuai indikasi",
@@ -819,13 +909,17 @@
               "Berikan terapi relaksasi untuk mengurangi stress, jika perlu",
               "Berikan dukungan emosional dan spiritual",
               "Berikan oksigen untuk mempertahankan saturasi oksigen > 94%",
+              "Rujuk ke program rehabilitasi jantung"
+            ],
+            "edukasi": [
               "Anjurkan beraktivitas fisik sesuai toleransi",
               "Anjurkan beraktivitas fisik secara bertahap",
               "Anjurkan berhenti merokok",
               "Ajarkan pasien dan keluarga mengukur berat badan harian",
-              "Ajarkan pasien dan keluarga mengukur intake dan output cairan harian",
-              "Kolaborasi pemberian antiaritmia, jika perlu",
-              "Rujuk ke program rehabilitasi jantung"
+              "Ajarkan pasien dan keluarga mengukur intake dan output cairan harian"
+            ],
+            "kolaborasi": [
+              "Kolaborasi pemberian antiaritmia, jika perlu"
             ]
           }
         }
@@ -835,7 +929,7 @@
     "D.0015": {
       "code": "D.0015",
       "name": "Risiko Perfusi Perifer Tidak Efektif",
-      "definition": "Risiko perfusi perifer tidak efektif didefinisikan sebagai berisiko mengalami penurunan sirkulasi darah pada level kapiler yang dapat...",
+      "definition": "Berisiko mengalami penurunan sirkulasi darah pada level kapiler yang dapat mengganggu metabolisme tubuh",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -865,22 +959,28 @@
           "code": "I.02068",
           "name": "Pencegahan Syok",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor status kardiopulmonal (frekuensi dan kekuatan nadi, frekuensi napas, TD, MAP)",
               "Monitor status oksigenasi (oksimetri nadi, AGD)",
               "Monitor status cairan (masukan dan haluaran, turgor kulit, CRT)",
               "Monitor tingkat kesadaran dan respon pupil",
-              "Periksa Riwayat alergi",
+              "Periksa Riwayat alergi"
+            ],
+            "terapeutik": [
               "Berikan oksigen untuk mempertahankan saturasi oksigen > 94%",
               "Persiapkan intubasi dan ventilasi mekanis, jika perlu",
               "Pasang jalur IV, jika perlu",
               "Pasang kateter urin untuk menilai produksi urin, jika perlu",
-              "Lakukan skin test untuk mencegah reaksi alergi",
+              "Lakukan skin test untuk mencegah reaksi alergi"
+            ],
+            "edukasi": [
               "Jelaskan penyebab/faktor risiko syok",
               "Jelaskan tanda dan gejala awal syok",
               "Anjurkan melapor jika menemukan/merasakan tanda dan gejala awal syok",
               "Anjurkan memperbanyak asupan cairan oral",
-              "Anjurkan menghindari alergen",
+              "Anjurkan menghindari alergen"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian IV, jika perlu",
               "Kolaborasi pemberian transfusi darah, jika perlu",
               "Kolaborasi pemberian antiinflamasi, jika perlu"
@@ -891,16 +991,20 @@
           "code": "I.02079",
           "name": "Perawatan Sirkulasi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Periksa sirkulasi perifer (mis: nadi perifer, edema, pengisian kapiler, warna, suhu, ankle-brachial index)",
               "Identifikasi faktor risiko gangguan sirkulasi (mis: diabetes, perokok, orang tua, hipertensi, dan kadar kolesterol tinggi)",
-              "Monitor panas, kemerahan, nyeri, atau bengkak pada ekstremitas",
+              "Monitor panas, kemerahan, nyeri, atau bengkak pada ekstremitas"
+            ],
+            "terapeutik": [
               "Hindari pemasangan infus, atau pengambilan darah di area keterbatasan perfusi",
               "Hindari pengukuran tekanan darah pada ekstremitas dengan keterbatasan perfusi",
               "Hindari penekanan dan pemasangan tourniquet pada area yang cidera",
               "Lakukan pencegahan infeksi",
               "Lakukan perawatan kaki dan kuku",
-              "Lakukan hidrasi",
+              "Lakukan hidrasi"
+            ],
+            "edukasi": [
               "Anjurkan berhenti merokok",
               "Anjurkan berolahraga rutin",
               "Anjurkan mengecek air mandi untuk menghindari kulit terbakar",
@@ -962,22 +1066,28 @@
           "code": "I.02068",
           "name": "Pencegahan Syok",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor status kardiopulmonal (frekuensi dan kekuatan nadi, frekuensi napas, TD, MAP)",
               "Monitor status oksigenasi (oksimetri nadi, AGD)",
               "Monitor status cairan (masukan dan haluaran, turgor kulit, CRT)",
               "Monitor tingkat kesadaran dan respon pupil",
-              "Periksa Riwayat alergi",
+              "Periksa Riwayat alergi"
+            ],
+            "terapeutik": [
               "Berikan oksigen untuk mempertahankan saturasi oksigen > 94%",
               "Persiapkan intubasi dan ventilasi mekanis, jika perlu",
               "Pasang jalur IV, jika perlu",
               "Pasang kateter urin untuk menilai produksi urin, jika perlu",
-              "Lakukan skin test untuk mencegah reaksi alergi",
+              "Lakukan skin test untuk mencegah reaksi alergi"
+            ],
+            "edukasi": [
               "Jelaskan penyebab/faktor risiko syok",
               "Jelaskan tanda dan gejala awal syok",
               "Anjurkan melapor jika menemukan/merasakan tanda dan gejala awal syok",
               "Anjurkan memperbanyak asupan cairan oral",
-              "Anjurkan menghindari alergen",
+              "Anjurkan menghindari alergen"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian IV, jika perlu",
               "Kolaborasi pemberian transfusi darah, jika perlu",
               "Kolaborasi pemberian antiinflamasi, jika perlu"
@@ -988,7 +1098,7 @@
           "code": "I.02040",
           "name": "Manajemen Perdarahan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi penyebab perdarahan",
               "Periksa adanya darah pada muntah, sputum, feses, urin, pengeluaran NGT, dan drainase luka, jika perlu",
               "Periksa ukuran dan karakteristik hematoma, jika ada",
@@ -998,15 +1108,21 @@
               "Monitor intake dan output cairan",
               "Monitor koagulasi darah (prothrombin time (PT), partial tromboplastin time (PTT), fibrinogen, degradasi fibrin, dan jumlah trombosit), jika ada",
               "Monitor deliveri oksigen jaringan (mis: PaO2, SaO2, hemoglobin, dan curah jantung)",
-              "Monitor tanda dan gejala perdarahan masif",
+              "Monitor tanda dan gejala perdarahan masif"
+            ],
+            "terapeutik": [
               "Istirahatkan area yang mengalami perdarahan",
               "Berikan kompres dingin, jika perlu",
               "Lakukan penekanan atau balut tekan, jika perlu",
               "Tinggikan ekstremitas yang mengalami perdarahan",
-              "Pertahankan akses IV",
+              "Pertahankan akses IV"
+            ],
+            "edukasi": [
               "Jelaskan tanda-tanda perdarahan",
               "Anjurkan melapor jika menemukan tanda-tanda perdarahan",
-              "Anjurkan membatasi aktivitas",
+              "Anjurkan membatasi aktivitas"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian cairan, jika perlu",
               "Kolaborasi pemberian transfusi darah, jika perlu"
             ]
@@ -1066,7 +1182,7 @@
           "code": "I.06194",
           "name": "Manajemen Peningkatan Tekanan Intrakranial",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi penyebab peningkatan TIK (misalnya: lesi, gangguan metabolism, edema serebral)",
               "Monitor tanda/gejala peningkatan TIK (misalnya: tekanan darah meningkat, tekanan nadi melebar, bradikardia, pola napas ireguler, kesadaran menurun)",
               "Monitor MAP (mean arterial pressure) (LIHAT: Kalkulator MAP)",
@@ -1077,7 +1193,9 @@
               "Monitor gelombang ICP",
               "Monitor status pernapasan",
               "Monitor intake dan output cairan",
-              "Monitor cairan serebro-spinalis (mis. Warna, konsistensi)",
+              "Monitor cairan serebro-spinalis (mis. Warna, konsistensi)"
+            ],
+            "terapeutik": [
               "Minimalkan stimulus dengan menyediakan lingkungan yang tenang",
               "Berikan posisi semi fowler",
               "Hindari manuver valsava",
@@ -1085,7 +1203,9 @@
               "Hindari penggunaan PEEP",
               "Hindari pemberian cairan IV hipotonik",
               "Atur ventilator agar PaCO2 optimal",
-              "Pertahankan suhu tubuh normal",
+              "Pertahankan suhu tubuh normal"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian sedasi dan antikonvulsan, jika perlu",
               "Kolaborasi pemberian diuretik osmosis, jika perlu",
               "Kolaborasi pemberian pelunak tinja, jika perlu"
@@ -1096,7 +1216,7 @@
           "code": "I.06198",
           "name": "Pemantauan Tekanan Intrakranial",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi penyebab peningkatan TIK (mis: lesi menempati ruang, gangguan metabolisme, edema serebral, peningkatan tekanan vena, obstruksi cairan serebrospinal, hipertensi intracranial idiopatik)",
               "Monitor peningkatan TS",
               "Monitor pelebaran tekanan nadi (selisih TDS dan TDD)",
@@ -1107,14 +1227,18 @@
               "Monitor kadar CO2 dan pertahankan dalam rentang yang diindikasikan",
               "Monitor tekanan perfusi serebral",
               "Monitor jumlah, kecepatan, dan karakteristik drainase cairan serebrospinal",
-              "Monitor efek stimulus lingkungan terhadap TIK",
+              "Monitor efek stimulus lingkungan terhadap TIK"
+            ],
+            "terapeutik": [
               "Ambil sampel drainase cairan serebrospinal",
               "Kalibrasi transduser",
               "Pertahankan sterilitas sistem pemantauan",
               "Pertahankan posisi kepala dan leher netral",
               "Bilas sistem pemantauan, jika perlu",
               "Atur interval pemantauan sesuai kondisi pasien",
-              "Dokumentasikan hasil pemantauan",
+              "Dokumentasikan hasil pemantauan"
+            ],
+            "edukasi": [
               "Jelaskan tujuan dan prosedur pemantauan",
               "Informasikan hasil pemantauan, jika perlu"
             ]

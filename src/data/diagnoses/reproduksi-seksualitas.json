@@ -5,7 +5,7 @@
     "D.0069": {
       "code": "D.0069",
       "name": "Disfungsi Seksual",
-      "definition": "Disfungsi seksual merupakan diagnosis keperawatan yang didefinisikan sebagai perubahan fungsi seksual selama fase respon seksual berupa...",
+      "definition": "Perubahan fungsi seksual selama fase respon seksual berupa hasrat, terangsang, orgasme, dan/atau relaksasi yang dirasa tidak memuaskan, tidak bermakna, atau tidak adekuat",
       "signs_and_symptoms": {
         "subjective": [
           "Mengungkapkan aktivitas seksual berubah",
@@ -52,12 +52,16 @@
           "code": "I.12447",
           "name": "Edukasi Seksualitas",
           "tindakan": {
+            "observasi": [
+              "Identifikasi kesiapan dan kemampuan menerima informasi"
+            ],
             "terapeutik": [
-              "Identifikasi kesiapan dan kemampuan menerima informasi",
               "Sediakan materi dan media Pendidikan Kesehatan",
               "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
               "Berikan kesempatan untuk bertanya",
-              "Fasilitasi kesadaran keluarga terhadap anak dan remaja serta pengaruh media",
+              "Fasilitasi kesadaran keluarga terhadap anak dan remaja serta pengaruh media"
+            ],
+            "edukasi": [
               "Jelaskan anatomi dan fisiologi sistem reproduksi laki-laki dan perempuan",
               "Jelaskan perkembangan seksualitas sepanjang siklus kehidupan",
               "Jelaskan perkembangan emosi masa anak dan remaja",
@@ -74,16 +78,22 @@
           "code": "I.07214",
           "name": "Konseling Seksualitas",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi tingkat pengetahuan, masalah sistem reproduksi, masalah seksualitas, dan penyakit menular seksual",
               "Identifikasi waktu disfungsi seksual dan kemungkinan penyebab",
-              "Monitor stres, kecemasan, depresi, dan penyebab disfungsi seksual",
+              "Monitor stres, kecemasan, depresi, dan penyebab disfungsi seksual"
+            ],
+            "terapeutik": [
               "Fasilitasi komunikasi antara pasien dan pasangan",
               "Berikan kesempatan kepada pasangan untuk menceritakan permasalahan seksual",
               "Berikan pujian terhadap perilaku yang benar",
-              "Berikan saran yang sesuai kebutuhan pasangan dengan menggunakan Bahasa yang mudah diterima, dipahami, dan tidak menghakimi",
+              "Berikan saran yang sesuai kebutuhan pasangan dengan menggunakan Bahasa yang mudah diterima, dipahami, dan tidak menghakimi"
+            ],
+            "edukasi": [
               "Jelaskan efek pengobatan,  Kesehatan dan penyakit terhadap disfungsi seksual",
-              "Informasikan pentingnya modifikasi pada aktivitas seksual",
+              "Informasikan pentingnya modifikasi pada aktivitas seksual"
+            ],
+            "kolaborasi": [
               "Kolaborasi dengan spesialis seksologi, jika perlu"
             ]
           }
@@ -94,7 +104,7 @@
     "D.0070": {
       "code": "D.0070",
       "name": "Kesiapan Persalinan",
-      "definition": "Kesiapan persalinan merupakan diagnosis keperawatan yang didefinisikan sebagai pola mempersiapkan, mempertahankan, dan memperkuat proses...",
+      "definition": "Pola mempersiapkan, mempertahankan, dan memperkuat proses kehamilan dan persalinan serta perawatan bayi baru lahir",
       "signs_and_symptoms": {
         "subjective": [
           "Menyatakan keinginan untuk menerapkan gaya hidup yang tepat untuk persalinan",
@@ -129,13 +139,17 @@
           "code": "I.12437",
           "name": "Edukasi Persalinan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi tingkat pengetahuan ibu",
-              "Identifikasi pemahaman ibu tentang persalinan",
+              "Identifikasi pemahaman ibu tentang persalinan"
+            ],
+            "terapeutik": [
               "Sediakan materi dan media Pendidikan Kesehatan",
               "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
               "Berikan kesempatan untuk bertanya",
-              "Berikan reinforcement positif terhadap perubahan perilaku ibu",
+              "Berikan reinforcement positif terhadap perubahan perilaku ibu"
+            ],
+            "edukasi": [
               "Jelaskan metode persalinan yang ibu inginkan",
               "Jelaskan persiapan dan tempat persalinan",
               "Anjurkan ibu mengikuti kelas ibu hamil pada usia  kehamilan lebih dari 36 minggu",
@@ -190,12 +204,16 @@
           "code": "I.12447",
           "name": "Edukasi Seksualitas",
           "tindakan": {
+            "observasi": [
+              "Identifikasi kesiapan dan kemampuan menerima informasi"
+            ],
             "terapeutik": [
-              "Identifikasi kesiapan dan kemampuan menerima informasi",
               "Sediakan materi dan media Pendidikan  Kesehatan",
               "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
               "Berikan kesempatan untuk bertanya",
-              "Fasilitasi kesadaran keluarga terhadap anak dan remaja serta pengaruh media",
+              "Fasilitasi kesadaran keluarga terhadap anak dan remaja serta pengaruh media"
+            ],
+            "edukasi": [
               "Jelaskan anatomi dan fisiologi sistem reproduksi laki-laki dan perempuan",
               "Jelaskan perkembangan seksualitas sepanjang siklus kehidupan",
               "Jelaskan perkembangan emosi masa anak dan remaja",
@@ -212,16 +230,22 @@
           "code": "I.07214",
           "name": "Konseling Seksualitas",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi tingkat pengetahuan, masalah sistem reproduksi, masalah seksualitas, dan penyakit menular seksual",
               "Identifikasi waktu disfungsi seksual dan kemungkinan penyebab",
-              "Monitor stres, kecemasan, depresi, dan penyebab disfungsi seksual",
+              "Monitor stres, kecemasan, depresi, dan penyebab disfungsi seksual"
+            ],
+            "terapeutik": [
               "Fasilitasi komunikasi antara pasien dan pasangan",
               "Berikan kesempatan kepada pasangan untuk menceritakan permasalahan seksual",
               "Berikan pujian terhadap perilaku yang benar",
-              "Berikan saran yang sesuai kebutuhan pasangan dengan menggunakan Bahasa yang mudah diterima, dipahami, dan tidak menghakimi",
+              "Berikan saran yang sesuai kebutuhan pasangan dengan menggunakan Bahasa yang mudah diterima, dipahami, dan tidak menghakimi"
+            ],
+            "edukasi": [
               "Jelaskan efek pengobatan, Kesehatan dan penyakit terhadap disfungsi seksual",
-              "Informasikan pentingnya modifikasi pada aktivitas seksual",
+              "Informasikan pentingnya modifikasi pada aktivitas seksual"
+            ],
+            "kolaborasi": [
               "Kolaborasi dengan spesialis seksologi, jika perlu"
             ]
           }
@@ -274,12 +298,16 @@
           "code": "I.12447",
           "name": "Edukasi Seksualitas",
           "tindakan": {
+            "observasi": [
+              "Identifikasi kesiapan dan kemampuan menerima informasi"
+            ],
             "terapeutik": [
-              "Identifikasi kesiapan dan kemampuan menerima informasi",
               "Sediakan materi dan media Pendidikan Kesehatan",
               "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
               "Berikan kesempatan untuk bertanya",
-              "Fasilitasi kesadaran keluarga terhadap anak dan remaja serta pengaruh media",
+              "Fasilitasi kesadaran keluarga terhadap anak dan remaja serta pengaruh media"
+            ],
+            "edukasi": [
               "Jelaskan anatomi dan fisiologi sistem reproduksi laki-laki dan perempuan",
               "Jelaskan perkembangan seksualitas sepanjang siklus kehidupan",
               "Jelaskan perkembangan emosi masa anak dan remaja",
@@ -296,16 +324,22 @@
           "code": "I.07214",
           "name": "Konseling Seksualitas",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi tingkat pengetahuan, masalah sistem reproduksi, masalah seksualitas, dan penyakit menular seksual",
               "Identifikasi waktu disfungsi seksual dan kemungkinan penyebab",
-              "Monitor stres, kecemasan, depresi, dan penyebab disfungsi seksual",
+              "Monitor stres, kecemasan, depresi, dan penyebab disfungsi seksual"
+            ],
+            "terapeutik": [
               "Fasilitasi komunikasi antara pasien dan pasangan",
               "Berikan kesempatan kepada pasangan untuk menceritakan permasalahan seksual",
               "Berikan pujian terhadap perilaku yang benar",
-              "Berikan saran yang sesuai kebutuhan pasangan dengan menggunakan Bahasa yang mudah diterima, dipahami, dan tidak menghakimi",
+              "Berikan saran yang sesuai kebutuhan pasangan dengan menggunakan Bahasa yang mudah diterima, dipahami, dan tidak menghakimi"
+            ],
+            "edukasi": [
               "Jelaskan efek pengobatan,  Kesehatan dan penyakit terhadap disfungsi seksual",
-              "Informasikan pentingnya modifikasi pada aktivitas seksual",
+              "Informasikan pentingnya modifikasi pada aktivitas seksual"
+            ],
+            "kolaborasi": [
               "Kolaborasi dengan spesialis seksologi, jika perlu"
             ]
           }
@@ -316,7 +350,7 @@
     "D.0073": {
       "code": "D.0073",
       "name": "Risiko Kehamilan Tidak Dikehendaki",
-      "definition": "Risiko kehamilan tidak dikehendaki merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami kehamilan yang tidak...",
+      "definition": "Berisiko mengalami kehamilan yang tidak diharapkan baik karena alasan waktu yang tidak tepat atau karena kehamilan yang tidak diinginkan",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -345,15 +379,19 @@
           "code": "I.12381",
           "name": "Edukasi Keluarga Berencana",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kesiapan dan kemampuan menerima informasi",
-              "Identifikasi pengetahuan tentang alat kontrasepsi",
+              "Identifikasi pengetahuan tentang alat kontrasepsi"
+            ],
+            "terapeutik": [
               "Sediakan materi dan media Pendidikan Kesehatan",
               "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
               "Berikan kesempatan untuk bertanya",
               "Lakukan penapisan pada ibu dan pasangan untuk penggunaan alat kontrasepsi",
               "Lakukan pemeriksaan fisik",
-              "Fasilitasi ibu dan pasangan dalam mengambil keputusan menggunakan alat kontrasepsi",
+              "Fasilitasi ibu dan pasangan dalam mengambil keputusan menggunakan alat kontrasepsi"
+            ],
+            "edukasi": [
               "Diskusikan pertimbangan agama, budaya, perkembangan, sosial ekonomi terhadap pemilihan alat kontrasepsi",
               "Jelaskan tentang sistem reproduksi",
               "Jelaskan metode-metode alat kontrasepsi",
@@ -365,18 +403,22 @@
           "code": "I.07216",
           "name": "Manajemen Kehamilan Tidak Dikehendaki",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi nilai-nilai dan keyakinan terhadap kehamilan",
-              "Identifikasi pilihan terhadap  kehamilannya",
+              "Identifikasi pilihan terhadap  kehamilannya"
+            ],
+            "terapeutik": [
               "Fasilitasi mengungkapkan perasaan",
-              "Diskusikan nilai-nilai dan keyakinan yang keliru terhadap kehamilan",
-              "Diskusikan konflik yang terjadi dengan adanya kehamilan",
               "Fasilitasi mengembangkan Teknik penyelesaian masalah",
               "Berikan konseling kehamilan",
               "Fasilitasi mengidentifikasi sistem pendukung",
-              "Informasikan pentingnya meningkatkan status nutrisi selama kehamilan",
-              "Informasikan perubahan yang terjadi selama kehamilan",
               "Rujuk jika mengalami komplikasi kehamilan"
+            ],
+            "edukasi": [
+              "Diskusikan nilai-nilai dan keyakinan yang keliru terhadap kehamilan",
+              "Diskusikan konflik yang terjadi dengan adanya kehamilan",
+              "Informasikan pentingnya meningkatkan status nutrisi selama kehamilan",
+              "Informasikan perubahan yang terjadi selama kehamilan"
             ]
           }
         }

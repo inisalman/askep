@@ -5,7 +5,7 @@
     "D.0118": {
       "code": "D.0118",
       "name": "Gangguan Interaksi Sosial",
-      "definition": "Gangguan interaksi sosial merupakan diagnosis keperawatan yang didefinisikan sebagai kuantitas dan/atau kualitas sosial yang kurang atau...",
+      "definition": "Kuantitas dan/atau kualitas sosial yang kurang atau berlebih",
       "signs_and_symptoms": {
         "subjective": [
           "Merasa tidak nyaman dengan situasi sosial",
@@ -47,18 +47,22 @@
           "code": "I.13484",
           "name": "Modifikasi Perilaku Keterampilan Sosial",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi penyebab kurangnya keterampilan sosial",
-              "Identifikasi focus pelatihan keterampilan sosial",
+              "Identifikasi focus pelatihan keterampilan sosial"
+            ],
+            "terapeutik": [
               "Motivasi untuk berlatih keterampilan sosial",
               "Beri umpan balik positif (mis: pujian atau penghargaan) terhadap kemampuan sosialisasi",
+              "Edukasi keluarga untuk dukungan keterampilan sosial",
+              "Latih keterampilan sosial secara bertahap"
+            ],
+            "edukasi": [
               "Libatkan keluarga selama Latihan keterampilan sosial, jika perlu",
               "Jelaskan tujuan melatih keterampilan sosial",
               "Jelaskan respons dan konsekuensi keterampilan sosial",
               "Anjurkan mengungkapkan perasaan akibat masalah yang dialami",
-              "Anjurkan mengevaluasi pencapaian setiap interaksi",
-              "Edukasi keluarga untuk dukungan keterampilan sosial",
-              "Latih keterampilan sosial secara bertahap"
+              "Anjurkan mengevaluasi pencapaian setiap interaksi"
             ]
           }
         },
@@ -66,25 +70,29 @@
           "code": "I.13498",
           "name": "Promosi Sosialisasi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kemampuan melakukan interaksi dengan orang lain",
-              "Identifikasi hambatan melakukan interaksi dengan orang lain",
+              "Identifikasi hambatan melakukan interaksi dengan orang lain"
+            ],
+            "terapeutik": [
               "Motivasi meningkatkan keterlibatan dalam suatu hubungan",
               "Motivasi kesabaran dalam mengembangkan suatu hubungan",
               "Motivasi berpartisipasi dalam aktivitas baru dan kegiatan kelompok",
               "Motivasi berinteraksi di luar lingkungan (mis: jalan-jalan, ke toko buku)",
-              "Diskusikan kekuatan dan keterbatasan dalam berkomunikasi dengan orang lain",
-              "Diskusikan perencanaan kegiatan di masa depan",
               "Berikan umpan balik positif dalam perawatan diri",
               "Berikan umpan balik positif pada setiap peningkatan kemampuan",
+              "Latih bermain peran untuk meningkatkan keterampilan komunikasi",
+              "Latih mengekspresikan marah dengan tepat"
+            ],
+            "edukasi": [
+              "Diskusikan kekuatan dan keterbatasan dalam berkomunikasi dengan orang lain",
+              "Diskusikan perencanaan kegiatan di masa depan",
               "Anjurkan berinteraksi dengan orang lain secara bertahap",
               "Anjurkan ikut serta kegiatan sosial dan kemasyarakatan",
               "Anjurkan berbagi pengalaman dengan orang lain",
               "Anjurkan meningkatkan kejujuran diri dan menghormati hak orang lain",
               "Anjurkan penggunaan alat bantu (mis: kacamata dan alat bantu dengar)",
-              "Anjurkan membuat perencanaan kelompok kecil untuk kegiatan khusus",
-              "Latih bermain peran untuk meningkatkan keterampilan komunikasi",
-              "Latih mengekspresikan marah dengan tepat"
+              "Anjurkan membuat perencanaan kelompok kecil untuk kegiatan khusus"
             ]
           }
         }
@@ -94,7 +102,7 @@
     "D.0119": {
       "code": "D.0119",
       "name": "Gangguan Komunikasi Verbal",
-      "definition": "Gangguan komunikasi verbal merupakan diagnosis keperawatan yang didefinisikan sebagai penurunan, perlambatan, atau ketiadaan kemampuan...",
+      "definition": "Penurunan, perlambatan, atau ketiadaan kemampuan untuk menerima, memproses, mengirim, dan/atau menggunakan sistem simbol",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": [
@@ -127,20 +135,24 @@
           "code": "I.13492",
           "name": "Promosi Komunikasi: Defisit Bicara",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor kecepatan, tekanan, kuantitias, volume, dan diksi bicara",
               "Monitor progress kognitif, anatomis, dan fisiologis yang berkaitan dengan bicara (mis: memori, pendengaran, dan Bahasa)",
               "Monitor frustasi, marah, depresi, atau hal lain yang mengganggu bicara",
-              "Identifikasi perilaku emosional dan fisik sebagai bentuk komunikasi",
+              "Identifikasi perilaku emosional dan fisik sebagai bentuk komunikasi"
+            ],
+            "terapeutik": [
               "Gunakan metode komunikasi alternatif (mis: menulis, mata berkedip, papan komunikasi dengan gambar dan huruf, isyarat tangan, dan komputer)",
               "Sesuaikan gaya komunikasi dengan kebutuhan (mis: berdiri di depan pasien, dengarkan dengan seksama, tunjukkan satu gagasan atau pemikiran sekaligus,  bicaralah dengan perlahan sambal menghindari teriakan, gunakan komunikasi tertulis, atau meminta bantuan keluarga untuk memahami ucapan pasien)",
               "Modifikasi lingkungan untuk meminimalkan bantuan",
               "Ulangi apa yang disampaikan pasien",
               "Berikan dukungan psikologis",
               "Gunakan juru bicara, jika perlu",
-              "Anjurkan berbicara perlahan",
-              "Ajarkan pasien dan keluarga proses kognitif, anatomis, dan fisiologis yang berhubungan dengan kemampuan bicara",
               "Rujuk ke ahli patologi bicara atau terapis"
+            ],
+            "edukasi": [
+              "Anjurkan berbicara perlahan",
+              "Ajarkan pasien dan keluarga proses kognitif, anatomis, dan fisiologis yang berhubungan dengan kemampuan bicara"
             ]
           }
         },
@@ -148,10 +160,12 @@
           "code": "I.13493",
           "name": "Promosi Komunikasi: Defisit Pendengaran",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Periksa kemampuan pendengaran",
               "Monitor akumulasi serumen berlebihan",
-              "Identifikasi metode komunikasi yang disukai pasien (mis: lisan, tulisan, Gerakan bibir, Bahasa isyarat)",
+              "Identifikasi metode komunikasi yang disukai pasien (mis: lisan, tulisan, Gerakan bibir, Bahasa isyarat)"
+            ],
+            "terapeutik": [
               "Gunakan Bahasa sederhana",
               "Gunakan Bahasa Isyarat, jika perlu",
               "Verifikasi apa yang dikatakan atau ditulis pasien",
@@ -162,7 +176,9 @@
               "Hindari kebisingan saat berkomunikasi",
               "Hindari berkomunikasi lebih dari 1 meter dari pasien",
               "Lakukan irigasi telinga, jika perlu",
-              "Pertahankan kebersihan telinga",
+              "Pertahankan kebersihan telinga"
+            ],
+            "edukasi": [
               "Anjurkan menyampaikan pesan dengan isyarat",
               "Ajarkan cara membersihkan serumen dengan tepat"
             ]
@@ -172,9 +188,11 @@
           "code": "I.13494",
           "name": "Promosi Komunikasi: Defisit Visual",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Periksa kemampuan penglihatan",
-              "Monitor dampak gangguan penglihatan (mis: risiko cidera, depresi, kegelisahan, kemampuan melakukan aktivitas sehari-hari",
+              "Monitor dampak gangguan penglihatan (mis: risiko cidera, depresi, kegelisahan, kemampuan melakukan aktivitas sehari-hari"
+            ],
+            "terapeutik": [
               "Fasilitasi peningkatan stimulasi indra lainnya (mis: aroma, rasa, tekstur makanan)",
               "Pastikan kaca mata atau lensa kontak berfungsi dengan baik",
               "Sediakan pencahayaan cukup",
@@ -184,9 +202,11 @@
               "Fasilitasi membaca surat, surat kabar, atau media informasi lainnya",
               "Gunakan warna terang dan kontras di lingkungan",
               "Sediakan kaca pembesar, jika perlu",
-              "Jelaskan lingkungan pada pasien",
-              "Ajarkan keluarga cara membantu pasien berkomunikasi",
               "Rujuk pasien pada terapis, jika perlu"
+            ],
+            "edukasi": [
+              "Jelaskan lingkungan pada pasien",
+              "Ajarkan keluarga cara membantu pasien berkomunikasi"
             ]
           }
         }
@@ -229,14 +249,15 @@
           "code": "I.09260",
           "name": "Dukungan Koping Keluarga",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi respons emosional terhadap kondisi saat ini",
               "Identifikasi beban prognosis secara psikologis",
               "Identifikasi pemahaman tentang keputusan perawatan setelah pulang",
-              "Identifikasi kesesuaian antara harapan pasien,  keluarga, dan tenaga  kesehatan",
+              "Identifikasi kesesuaian antara harapan pasien,  keluarga, dan tenaga  kesehatan"
+            ],
+            "terapeutik": [
               "Dengarkan masalah, perasaan, dan pertanyaan keluarga",
               "Terima nilai-nilai keluarga dengan cara yang tidak menghakimi",
-              "Diskusikan rencana medis dan perawatan",
               "Fasilitasi pengungkapan perasaan antara pasien dan keluarga atau antar anggota keluarga",
               "Fasilitasi pengambilan keputusan dalam merencanakan perawatan jangka Panjang, jika perlu",
               "Fasilitasi anggota keluarga dalam mengidentifikasi dan menyelesaikan konflik nilai",
@@ -246,9 +267,12 @@
               "Bersikap sebagai pengganti keluarga untuk menenangkan pasien dan/atau jika keluarga tidak dapat memberikan perawatan",
               "Hargai dan dukung mekanisme koping adaptif yang digunakan",
               "Berikan kesempatan berkunjung bagi anggota keluarga",
-              "Informasikan kemajuan pasien secara berkala",
-              "Informasikan fasilitas perawatan Kesehatan yang tersedia",
               "Rujuk untuk terapi keluarga, jika perlu"
+            ],
+            "edukasi": [
+              "Diskusikan rencana medis dan perawatan",
+              "Informasikan kemajuan pasien secara berkala",
+              "Informasikan fasilitas perawatan Kesehatan yang tersedia"
             ]
           }
         },
@@ -256,17 +280,21 @@
           "code": "I.13496",
           "name": "Promosi Proses Efektif Keluarga",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi tipe proses keluarga",
               "Identifikasi masalah atau gangguan dalam proses keluarga",
-              "Identifikasi kebutuhan perawatan mandiri di rumah untuk klien dan tetap beradaptasi dengan pola hidup keluarga",
+              "Identifikasi kebutuhan perawatan mandiri di rumah untuk klien dan tetap beradaptasi dengan pola hidup keluarga"
+            ],
+            "terapeutik": [
               "Pertahankan interaksi yang berkelanjutan dengan anggota keluarga",
               "Motivasi anggota keluarga untuk melakukan aktivitas bersama seperti makan bersama, diskusi bersama keluarga",
               "Fasilitasi anggota keluarga melakukan kunjungan rumah sakit",
               "Susun jadwal aktivitas perawatan mandiri di rumah untuk mengurangi gangguan rutinitas keluarga",
-              "Jelaskan strategi mengembalikan kehidupan keluarga yang normal kepada anggota keluarga",
-              "Diskusikan dukungan sosial dari sekitar keluarga",
               "Latih keluarga manajemen waktu jika perawatan di rumah dibutuhkan"
+            ],
+            "edukasi": [
+              "Jelaskan strategi mengembalikan kehidupan keluarga yang normal kepada anggota keluarga",
+              "Diskusikan dukungan sosial dari sekitar keluarga"
             ]
           }
         },
@@ -274,7 +302,7 @@
           "code": "I.09322",
           "name": "Terapi Keluarga",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi Riwayat Kesehatan keluarga",
               "Identifikasi pola komunikasi keluarga",
               "Identifikasi cara keluarga memecahkan masalah",
@@ -289,16 +317,20 @@
               "Identifikasi kejadian saat ini atau akan terjadi yang mengancam keluarga",
               "Identifikasi kebutuhan dan harapan dalam keluarga",
               "Identifikasi hubungan hierarkis anggota keluarga",
-              "Monitor respons merugikan terhadap terapi",
+              "Monitor respons merugikan terhadap terapi"
+            ],
+            "terapeutik": [
               "Fasilitasi diskusi keluarga",
               "Fasilitasi strategi menurunkan stres",
               "Fasilitasi restrukturisasi sistem keluarga, jika sesuai",
+              "Rencanakan strategi menghentikan terapi"
+            ],
+            "edukasi": [
               "Diskusikan cara terbaik dalam menangani disfungsi perilaku dalam keluarga",
               "Diskusikan Batasan keluarga",
               "Diskusikan strategi penyelesaian masalah yang konstruktif",
               "Diskusikan rencana terapi dengan keluarga",
               "Diskusikan cara membudayakan perilaku baru",
-              "Rencanakan strategi menghentikan terapi",
               "Anjurkan berkomunikasi lebih efektif",
               "Anjurkan anggota memprioritaskan dan memilih masalah keluarga",
               "Anjurkan semua anggota keluarga berpartisipasi dalam pekerjaan rumah tangga Bersama-sama (mis: makan Bersama)",
@@ -312,7 +344,7 @@
     "D.0121": {
       "code": "D.0121",
       "name": "Isolasi Sosial",
-      "definition": "Isolasi sosial merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakmampuan untuk membina hubungan yang...",
+      "definition": "Ketidakmampuan untuk membina hubungan yang erat, hangat, terbuka, dan interdependen dengan orang lain",
       "signs_and_symptoms": {
         "subjective": [
           "Merasa ingin sendirian",
@@ -348,25 +380,29 @@
           "code": "I.13498",
           "name": "Promosi Sosialisasi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kemampuan melakukan interaksi dengan orang lain",
-              "Identifikasi hambatan melakukan interaksi dengan orang lain",
+              "Identifikasi hambatan melakukan interaksi dengan orang lain"
+            ],
+            "terapeutik": [
               "Motivasi meningkatkan keterlibatan dalam suatu hubungan",
               "Motivasi kesabaran dalam mengembangkan suatu hubungan",
               "Motivasi berpartisipasi dalam aktivitas baru dan kegiatan kelompok",
               "Motivasi berinteraksi di luar lingkungan (mis: jalan-jalan, ke toko buku)",
-              "Diskusikan kekuatan dan keterbatasan dalam berkomunikasi dengan orang lain",
-              "Diskusikan perencanaan kegiatan di masa depan",
               "Berikan umpan balik positif dalam perawatan diri",
               "Berikan umpan balik positif pada setiap peningkatan kemampuan",
+              "Latih bermain peran untuk meningkatkan keterampilan komunikasi",
+              "Latih mengekspresikan marah dengan tepat"
+            ],
+            "edukasi": [
+              "Diskusikan kekuatan dan keterbatasan dalam berkomunikasi dengan orang lain",
+              "Diskusikan perencanaan kegiatan di masa depan",
               "Anjurkan berinteraksi dengan orang lain secara bertahap",
               "Anjurkan ikut serta kegiatan sosial dan kemasyarakatan",
               "Anjurkan berbagi pengalaman dengan orang lain",
               "Anjurkan meningkatkan kejujuran diri dan menghormati hak orang lain",
               "Anjurkan penggunaan alat bantu (mis: kacamata dan alat bantu dengar)",
-              "Anjurkan membuat perencanaan kelompok kecil untuk kegiatan khusus",
-              "Latih bermain peran untuk meningkatkan keterampilan komunikasi",
-              "Latih mengekspresikan marah dengan tepat"
+              "Anjurkan membuat perencanaan kelompok kecil untuk kegiatan khusus"
             ]
           }
         },
@@ -374,13 +410,15 @@
           "code": "I.01026",
           "name": "Terapi Aktivitas",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi defisit tingkat aktivitas",
               "Identifikasi kemampuan berpartisipasi dalam aktivitas tertentu",
               "Identifikasi sumber daya untuk aktivitas yang diinginkan",
               "Identifikasi strategi meningkatkan partisipasi dalam aktivitas",
               "Identifikasi makna aktivitas rutin (mis: bekerja) dan waktu luang",
-              "Monitor respons emosional, fisik, sosial, dan spiritual terhadap aktivitas",
+              "Monitor respons emosional, fisik, sosial, dan spiritual terhadap aktivitas"
+            ],
+            "terapeutik": [
               "Fasilitasi fokus pada kemampuan, bukan defisit yang dialami",
               "Sepakati komitmen untuk meningkatkan frekuensi dan rentang aktivitas",
               "Fasilitasi memilih aktivitas dan tetapkan tujuan aktivitas yang konsisten sesuai kemampuan fisik, psikologis, dan sosial",
@@ -396,18 +434,22 @@
               "Fasilitasi aktivitas aktivitas dengan komponen memori implisit dan emosional (mis: kegiatan keagamaan khusus) untuk pasien demensia, jika sesuai",
               "Libatkan dalam permainan kelompok yang tidak kompetitif, terstruktur, dan aktif",
               "Tingkatkan keterlibatan dalam aktivitas rekreasi dan diversifikasi untuk menurunkan kecemasan (mis: vocal group, bola voli, tenis meja, jogging, berenang, tugas sederhana, permainan sederhana, tugas rutin, tugas rumah tangga, perawatan diri, dan teka-teki dan kartu)",
-              "Libatkan keluarga dalam aktivitas, jika perlu",
               "Fasilitasi mengembangkan motivasi dan penguatan diri",
               "Fasilitasi pasien dan keluarga memantau kemajuannya sendiri untuk mencapai tujuan",
               "Jadwalkan aktivitas dalam rutinitas sehari-hari",
               "Berikan penguatan positif atas partisipasi dalam aktivitas",
+              "Rujuk pada pusat atau program aktivitas komunitas, jika perlu"
+            ],
+            "edukasi": [
+              "Libatkan keluarga dalam aktivitas, jika perlu",
               "Jelaskan metode aktivitas fisik sehari-hari, jika perlu",
               "Ajarkan cara melakukan aktivitas yang dipilih",
               "Anjurkan melakukan aktivitas fisik, sosial, spiritual, dan kognitif dalam menjaga fungsi dan  Kesehatan",
               "Anjurkan terlibat dalam aktivitas kelompok atau terapi, jika sesuai",
-              "Anjurkan keluarga untuk memberi penguatan positif atas partisipasi dalam aktivitas",
-              "Kolaborasi dengan terapis okupasi dalam merencanakan dan memonitor program aktivitas, jika sesuai",
-              "Rujuk pada pusat atau program aktivitas komunitas, jika perlu"
+              "Anjurkan keluarga untuk memberi penguatan positif atas partisipasi dalam aktivitas"
+            ],
+            "kolaborasi": [
+              "Kolaborasi dengan terapis okupasi dalam merencanakan dan memonitor program aktivitas, jika sesuai"
             ]
           }
         }
@@ -417,7 +459,7 @@
     "D.0122": {
       "code": "D.0122",
       "name": "Kesiapan Peningkatan Menjadi Orang Tua",
-      "definition": "Kesiapan peningkatan menjadi orang tua merupakan diagnosis keperawatan yang didefinisikan sebagai pola pemberian lingkungan bagi...",
+      "definition": "Pola pemberian lingkungan bagi anak atau anggota keluarga yang cukup untuk memfasilitasi pertumbuhan dan perkembangan serta dapat ditingkatkan",
       "signs_and_symptoms": {
         "subjective": [
           "Mengekspresikan keinginan untuk meningkatkan peran menjadi orang tua"
@@ -441,14 +483,18 @@
           "code": "I.12466",
           "name": "Promosi Antisipasi Keluarga",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kemungkinan krisis situasi atau masalah perkembangan serta dampaknya pada kehidupan pasien dan keluarga",
-              "Identifikasi metode pemecahan masalah yang sering digunakan keluarga",
+              "Identifikasi metode pemecahan masalah yang sering digunakan keluarga"
+            ],
+            "terapeutik": [
               "Fasilitasi dalam memutus strategi pemecahan masalah yang dihadapi keluarga",
-              "Libatkan seluruh anggota keluarga dalam upaya antisipasi masalah Kesehatan, jika memungkinkan",
               "Buat jadwal aktivitas bersama keluarga terkait masalah  Kesehatan yang dihadapi",
-              "Jelaskan perkembangan dan perilaku yang normal pada  keluarga",
               "Kerjasama dengan tenaga Kesehatan terkait lainnya, jika perlu"
+            ],
+            "edukasi": [
+              "Libatkan seluruh anggota keluarga dalam upaya antisipasi masalah Kesehatan, jika memungkinkan",
+              "Jelaskan perkembangan dan perilaku yang normal pada  keluarga"
             ]
           }
         },
@@ -456,9 +502,11 @@
           "code": "I.13495",
           "name": "Promosi Pengasuhan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi keluarga risiko tinggi dalam program tindak lanjut",
-              "Monitor status Kesehatan anak dan status imunisasi anak",
+              "Monitor status Kesehatan anak dan status imunisasi anak"
+            ],
+            "terapeutik": [
               "Dukung ibu menerima dan melakukan perawatan pre natal secara teratur dan sedini mungkin",
               "Lakukan kunjungan rumah sesuai dengan tingkat risiko",
               "Fasilitasi orang tua dalam memiliki harapan yang realistis sesuai tingkat kemampuan dan perkembangan anak",
@@ -468,7 +516,9 @@
               "Fasilitasi orang tua dalam mengembangkan dan memelihara sistam dukungan sosial",
               "Sediakan media untuk mengembangkan keterampilan sosial dan koping",
               "Fasilitasi mengatur penitipan anak, jika perlu",
-              "Fasilitasi penggunaan kontrasepsi",
+              "Fasilitasi penggunaan kontrasepsi"
+            ],
+            "edukasi": [
               "Ajarkan orang tua untuk menanggapi isyarat bayi"
             ]
           }
@@ -479,7 +529,7 @@
     "D.0123": {
       "code": "D.0123",
       "name": "Kesiapan Peningkatan Proses Keluarga",
-      "definition": "Kesiapan peningkatan proses keluarga merupakan diagnosis keperawatan yang didefinisikan sebagai pola fungsi keluarga yang cukup untuk...",
+      "definition": "Pola fungsi keluarga yang cukup untuk mendukung kesejahteraan anggota keluarga dan dapat ditingkatkan",
       "signs_and_symptoms": {
         "subjective": [
           "Mengekspresikan keinginan untuk meningkatkan dinamika keluarga"
@@ -505,18 +555,22 @@
           "code": "I.13490",
           "name": "Promosi Keutuhan Keluarga",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi pemahaman keluarga terhadap masalah",
               "Identifikasi adanya konflik prioritas antar anggota keluarga",
               "Identifikasi mekanisme koping keluarga",
-              "Monitor hubungan antara anggota keluarga",
+              "Monitor hubungan antara anggota keluarga"
+            ],
+            "terapeutik": [
               "Hargai privasi keluarga",
               "Fasilitasi kunjungan keluarga",
               "Fasilitasi keluarga melakukan pengambilan keputusan dan pemecahan masalah",
               "Fasilitasi komunikasi terbuka antara setiap anggota keluarga",
-              "Informasikan kondisi pasien secara berkala kepada keluarga",
-              "Anjurkan anggota keluarga mempertahankan keharmonisan keluarga",
               "Rujuk untuk terapi keluarga, jika perlu"
+            ],
+            "edukasi": [
+              "Informasikan kondisi pasien secara berkala kepada keluarga",
+              "Anjurkan anggota keluarga mempertahankan keharmonisan keluarga"
             ]
           }
         },
@@ -524,17 +578,21 @@
           "code": "I.13496",
           "name": "Promosi Proses Efektif Keluarga",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi tipe proses keluarga",
               "Identifikasi masalah atau gangguan dalam proses keluarga",
-              "Identifikasi kebutuhan perawatan mandiri di rumah untuk klien dan tetap beradaptasi dengan pola hidup keluarga",
+              "Identifikasi kebutuhan perawatan mandiri di rumah untuk klien dan tetap beradaptasi dengan pola hidup keluarga"
+            ],
+            "terapeutik": [
               "Pertahankan interaksi yang berkelanjutan dengan anggota keluarga",
               "Motivasi anggota keluarga untuk melakukan aktivitas bersama seperti makan bersama, diskusi bersama keluarga",
               "Fasilitasi anggota keluarga melakukan kunjungan rumah sakit",
               "Susun jadwal aktivitas perawatan mandiri di rumah untuk mengurangi gangguan rutinitas keluarga",
-              "Jelaskan strategi mengembalikan kehidupan keluarga yang normal kepada anggota keluarga",
-              "Diskusikan dukungan sosial dari sekitar keluarga",
               "Latih keluarga manajemen waktu jika perawatan di rumah dibutuhkan"
+            ],
+            "edukasi": [
+              "Jelaskan strategi mengembalikan kehidupan keluarga yang normal kepada anggota keluarga",
+              "Diskusikan dukungan sosial dari sekitar keluarga"
             ]
           }
         }
@@ -544,7 +602,7 @@
     "D.0124": {
       "code": "D.0124",
       "name": "Ketegangan Peran Pemberi Asuhan",
-      "definition": "Ketegangan peran pemberi asuhan merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakmampuan untuk membina hubungan yang...",
+      "definition": "Ketidakmampuan untuk membina hubungan yang erat, hangat, terbuka, dan interdependen dengan orang lain",
       "signs_and_symptoms": {
         "subjective": [
           "Khawatir klien akan Kembali dirawat di rumah sakit",
@@ -577,12 +635,16 @@
           "code": "I.12402",
           "name": "Edukasi Pada Pengasuh",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi pemahaman dan kesiapan peran pengasuh",
-              "Identifikasi sumber dukungan dan kebutuhan istirahat pengasuh",
+              "Identifikasi sumber dukungan dan kebutuhan istirahat pengasuh"
+            ],
+            "terapeutik": [
               "Berikan dukungan pada pengasuh selama pasien mengalami kemunduran",
               "Dukung keterbatasan pengasuh dan diskusikan dengan pasien",
-              "Fasilitasi pengasuh untuk bertanya",
+              "Fasilitasi pengasuh untuk bertanya"
+            ],
+            "edukasi": [
               "Jelaskan dampak ketergantungan anak pada pengasuh",
               "Ajarkan pengasuh mengeksplorasi kekuatan dan kelemahannya",
               "Ajarkan pengasuh cara memberikan dukungan perawatan diri (mis: mandi, BAB/BAK, berpakaian/berhias, makan/minum)"
@@ -593,9 +655,11 @@
           "code": "I.13495",
           "name": "Promosi Pengasuhan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi keluarga risiko tinggi dalam program tindak lanjut",
-              "Monitor status Kesehatan anak dan status imunisasi anak",
+              "Monitor status Kesehatan anak dan status imunisasi anak"
+            ],
+            "terapeutik": [
               "Dukung ibu menerima dan melakukan perawatan pre natal secara teratur dan sedini mungkin",
               "Lakukan kunjungan rumah sesuai dengan tingkat risiko",
               "Fasilitasi orang tua dalam memiliki harapan yang realistis sesuai tingkat kemampuan dan perkembangan anak",
@@ -605,7 +669,9 @@
               "Fasilitasi orang tua dalam mengembangkan dan memelihara sistam dukungan sosial",
               "Sediakan media untuk mengembangkan keterampilan sosial dan koping",
               "Fasilitasi mengatur penitipan anak, jika perlu",
-              "Fasilitasi penggunaan kontrasepsi",
+              "Fasilitasi penggunaan kontrasepsi"
+            ],
+            "edukasi": [
               "Ajarkan orang tua untuk menanggapi isyarat bayi"
             ]
           }
@@ -616,7 +682,7 @@
     "D.0125": {
       "code": "D.0125",
       "name": "Penampilan Peran Tidak Efektif",
-      "definition": "Penampilan peran tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai pola perilaku yang berubah atau...",
+      "definition": "Pola perilaku yang berubah atau tidak sesuai dengan harapan, norma, dan lingkungan",
       "signs_and_symptoms": {
         "subjective": [
           "Merasa bingung menjalankan peran",
@@ -657,22 +723,26 @@
           "code": "I.13478",
           "name": "Dukungan Penampilan Peran",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi berbagai peran dan periode transisi sesuai tingkat perkembangan",
               "Identifikasi peran yang ada dalam keluarga",
-              "Identifikasi adanya peran yang tidak terpenuhi",
+              "Identifikasi adanya peran yang tidak terpenuhi"
+            ],
+            "terapeutik": [
               "Fasilitasi adaptasi peran keluarga terhadap perubahan peran yang tidak diinginkan",
               "Fasilitasi bermain peran dalam mengantisipasi reaksi orang lain terhadap perilaku",
               "Fasilitasi diskusi perubahan peran anak terhadap bayi baru lahir, jika perlu",
               "Fasilitasi diskusi tentang peran orang tua, jika perlu",
               "Fasilitasi diskusi tentang adaptasi peran saat anak meninggalkan rumah, jika perlu",
               "Fasilitasi diskusi harapan dengan keluarga dan peran timbal balik",
+              "Rujuk dalam kelompok untuk mempelajari peran baru"
+            ],
+            "edukasi": [
               "Diskusikan perilaku yang dibutuhkan untuk pengembangan peran",
               "Diskusikan perubahan peran yang diperlukan akibat penyakit atau ketidakmampuan",
               "Diskusikan perubahan peran dalam menerima ketergantungan orang tua",
               "Diskusikan strategi positif untuk mengelola perubahan peran",
-              "Ajarkan perilaku baru yang dibutuhkan oleh pasien/orang tua untuk memenuhi peran",
-              "Rujuk dalam kelompok untuk mempelajari peran baru"
+              "Ajarkan perilaku baru yang dibutuhkan oleh pasien/orang tua untuk memenuhi peran"
             ]
           }
         }
@@ -682,7 +752,7 @@
     "D.0126": {
       "code": "D.0126",
       "name": "Pencapaian Peran Menjadi Orang Tua",
-      "definition": "Pencapaian peran menjadi orang tua merupakan diagnosis keperawatan yang didefinisikan sebagai terjadinya proses interaktif antar...",
+      "definition": "Terjadinya proses interaktif antar anggota keluarga (suami-isteri, anggota keluarga dan bayi) yang ditunjukkan dengan perkembangan bayi yang optimal",
       "signs_and_symptoms": {
         "subjective": [
           "Tidak tersedia"
@@ -708,14 +778,18 @@
           "code": "I.12466",
           "name": "Promosi Antisipasi Keluarga",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kemungkinan krisis situasi atau masalah perkembangan serta dampaknya pada kehidupan pasien dan keluarga",
-              "Identifikasi metode pemecahan masalah yang sering digunakan keluarga",
+              "Identifikasi metode pemecahan masalah yang sering digunakan keluarga"
+            ],
+            "terapeutik": [
               "Fasilitasi dalam memutus strategi pemecahan masalah yang dihadapi keluarga",
-              "Libatkan seluruh anggota keluarga dalam upaya antisipasi masalah Kesehatan, jika memungkinkan",
               "Buat jadwal aktivitas bersama keluarga terkait masalah Kesehatan yang dihadapi",
-              "Jelaskan perkembangan dan perilaku yang normal pada keluarga",
               "Kerjasama dengan tenaga Kesehatan terkait lainnya, jika perlu"
+            ],
+            "edukasi": [
+              "Libatkan seluruh anggota keluarga dalam upaya antisipasi masalah Kesehatan, jika memungkinkan",
+              "Jelaskan perkembangan dan perilaku yang normal pada keluarga"
             ]
           }
         },
@@ -723,9 +797,11 @@
           "code": "I.13495",
           "name": "Promosi Pengasuhan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi keluarga risiko tinggi dalam program tindak lanjut",
-              "Monitor status Kesehatan anak dan status imunisasi anak",
+              "Monitor status Kesehatan anak dan status imunisasi anak"
+            ],
+            "terapeutik": [
               "Dukung ibu menerima dan melakukan perawatan pre natal secara teratur dan sedini mungkin",
               "Lakukan kunjungan rumah sesuai dengan tingkat risiko",
               "Fasilitasi orang tua dalam memiliki harapan yang realistis sesuai tingkat kemampuan dan perkembangan anak",
@@ -745,7 +821,7 @@
     "D.0127": {
       "code": "D.0127",
       "name": "Risiko Gangguan Perlekatan",
-      "definition": "Risiko gangguan perlekatan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami gangguan interaksi antara...",
+      "definition": "Berisiko mengalami gangguan interaksi antara orang tua atau orang terdekat dengan bayi/anak yang dapat mempengaruhi proses asah, asih, dan asuh",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -782,12 +858,16 @@
           "code": "I.10342",
           "name": "Promosi Perlekatan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor kegiatan menyusui",
               "Identifikasi kemampuan bayi menghisap dan menelan ASI",
               "Identifikasi payudara ibu (mis: bengkak, puting lecet, mastitis, nyeri pada payudara)",
-              "Monitor perlekatan saat menyusui (mis: areola bagian bawah lebih kecil daripada areola bagian atas, mulut  bayi terbuka lebar, bibir bayi berputar keluar dan dagu bayi menempel pada payudara ibu)",
-              "Hindari memegang kepala bayi",
+              "Monitor perlekatan saat menyusui (mis: areola bagian bawah lebih kecil daripada areola bagian atas, mulut  bayi terbuka lebar, bibir bayi berputar keluar dan dagu bayi menempel pada payudara ibu)"
+            ],
+            "terapeutik": [
+              "Hindari memegang kepala bayi"
+            ],
+            "edukasi": [
               "Diskusikan dengan ibu masalah selama proses menyusui",
               "Ajarkan ibu menopang seluruh tubuh bayi",
               "Anjurkan ibu melepas pakaian bagian atas agar bayi dapat menyentuh payudara ibu",
@@ -802,18 +882,22 @@
           "code": "I.13490",
           "name": "Promosi Keutuhan Keluarga",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi pemahaman keluarga terhadap masalah",
               "Identifikasi adanya konflik prioritas antar anggota keluarga",
               "Identifikasi mekanisme koping keluarga",
-              "Monitor hubungan antara anggota keluarga",
+              "Monitor hubungan antara anggota keluarga"
+            ],
+            "terapeutik": [
               "Hargai privasi keluarga",
               "Fasilitasi kunjungan keluarga",
               "Fasilitasi keluarga melakukan pengambilan keputusan dan pemecahan masalah",
               "Fasilitasi komunikasi terbuka antara setiap anggota keluarga",
-              "Informasikan kondisi pasien secara berkala kepada keluarga",
-              "Anjurkan anggota keluarga mempertahankan keharmonisan keluarga",
               "Rujuk untuk terapi keluarga, jika perlu"
+            ],
+            "edukasi": [
+              "Informasikan kondisi pasien secara berkala kepada keluarga",
+              "Anjurkan anggota keluarga mempertahankan keharmonisan keluarga"
             ]
           }
         }
@@ -823,7 +907,7 @@
     "D.0128": {
       "code": "D.0128",
       "name": "Risiko Proses Pengasuhan Tidak Efektif",
-      "definition": "Risiko proses pengasuhan tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami proses...",
+      "definition": "Berisiko mengalami proses kehamilan, persalinan, dan setelah melahirkan termasuk perawatan bayi baru lahir yang tidak sesuai dengan konteks norma dan harapan",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -855,18 +939,22 @@
           "code": "I.13490",
           "name": "Promosi Keutuhan Keluarga",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi pemahaman keluarga terhadap masalah",
               "Identifikasi adanya konflik prioritas antar anggota keluarga",
               "Identifikasi mekanisme koping keluarga",
-              "Monitor hubungan antara anggota keluarga",
+              "Monitor hubungan antara anggota keluarga"
+            ],
+            "terapeutik": [
               "Hargai privasi keluarga",
               "Fasilitasi kunjungan keluarga",
               "Fasilitasi keluarga melakukan pengambilan keputusan dan pemecahan masalah",
               "Fasilitasi komunikasi terbuka antara setiap anggota keluarga",
-              "Informasikan kondisi pasien secara berkala kepada keluarga",
-              "Anjurkan anggota keluarga mempertahankan keharmonisan keluarga",
               "Rujuk untuk terapi  keluarga, jika perlu"
+            ],
+            "edukasi": [
+              "Informasikan kondisi pasien secara berkala kepada keluarga",
+              "Anjurkan anggota keluarga mempertahankan keharmonisan keluarga"
             ]
           }
         },
@@ -874,12 +962,16 @@
           "code": "I.10342",
           "name": "Promosi Perlekatan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor kegiatan menyusui",
               "Identifikasi kemampuan  bayi menghisap dan menelan ASI",
               "Identifikasi payudara ibu (mis: bengkak, puting lecet, mastitis, nyeri pada payudara)",
-              "Monitor perlekatan saat menyusui (mis: areola bagian bawah lebih kecil daripada areola bagian atas, mulut bayi terbuka lebar, bibir bayi berputar keluar dan dagu bayi menempel pada payudara ibu)",
-              "Hindari memegang kepala bayi",
+              "Monitor perlekatan saat menyusui (mis: areola bagian bawah lebih kecil daripada areola bagian atas, mulut bayi terbuka lebar, bibir bayi berputar keluar dan dagu bayi menempel pada payudara ibu)"
+            ],
+            "terapeutik": [
+              "Hindari memegang kepala bayi"
+            ],
+            "edukasi": [
               "Diskusikan dengan ibu masalah selama proses menyusui",
               "Ajarkan ibu menopang seluruh tubuh bayi",
               "Anjurkan ibu melepas pakaian bagian atas agar bayi dapat menyentuh payudara ibu",

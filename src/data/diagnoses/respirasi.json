@@ -55,18 +55,24 @@
           "code": "I.01006",
           "name": "Latihan Batuk Efektif",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kemampuan batuk",
               "Monitor adanya retensi sputum",
               "Monitor tanda dan gejala infeksi saluran napas",
-              "Monitor input dan output cairan (misal: jumlah dan karakteristik)",
+              "Monitor input dan output cairan (misal: jumlah dan karakteristik)"
+            ],
+            "terapeutik": [
               "Atur posisi semi-fowler dan fowler",
               "Pasang perlak dan bengkok di pangkuan pasien",
               "Buang sekret pada tempat sputum",
+              "Anjutkan batuk dengan kuat langsung setelah Tarik napas dalam yang ke-3"
+            ],
+            "edukasi": [
               "Jelaskan tujuan dan prosedur batuk efektif",
               "Anjurkan Tarik napas dalam melalui hidung selama 4 detik, ditahan selama 2 detik, kemudian keluarkan dari mulut dengan bibir mencucu (dibulatkan) selama 8 detik",
-              "Anjurkan mengulangi Tarik napas dalam hingga 3 kali",
-              "Anjutkan batuk dengan kuat langsung setelah Tarik napas dalam yang ke-3",
+              "Anjurkan mengulangi Tarik napas dalam hingga 3 kali"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian mukolitik atau ekspektoran, jika perlu."
             ]
           }
@@ -75,10 +81,12 @@
           "code": "I.01011",
           "name": "Manajemen Jalan Napas",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor pola napas (frekuensi, kedalaman, usaha napas)",
               "Monitor bunyi napas tambahan (misalnya: gurgling, mengi, wheezing, ronchi kering)",
-              "Monitor sputum (jumlah, warna, aroma)",
+              "Monitor sputum (jumlah, warna, aroma)"
+            ],
+            "terapeutik": [
               "Pertahankan kepatenan jalan napas dengan head-tilt dan chin-lift (jaw thrust jika curiga trauma fraktur servikal)",
               "Posisikan semi-fowler atau fowler",
               "Berikan minum hangat",
@@ -86,9 +94,13 @@
               "Lakukan penghisapan lendir kurang dari 15 detik",
               "Lakukan hiperoksigenasi sebelum penghisapan endotrakeal",
               "Keluarkan sumbatan benda padat dengan forsep McGill",
-              "Berikan oksigen, jika perlu",
+              "Berikan oksigen, jika perlu"
+            ],
+            "edukasi": [
               "Anjurkan asupan cairan 2000 ml/hari, jika tidak ada kontraindikasi",
-              "Ajarkan Teknik batuk efektif",
+              "Ajarkan Teknik batuk efektif"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian bronkodilator, ekspektoran, mukolitik, jika perlu."
             ]
           }
@@ -97,7 +109,7 @@
           "code": "I.01014",
           "name": "Pemantauan Respirasi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor frekuensi, irama, kedalaman dan upaya napas",
               "Monitor pola napas (seperti bradypnea, takipnea, hiperventilasi, kussmaul, Cheyne-stokes, biot, ataksik)",
               "Monitor kemampuan batuk efektif",
@@ -107,9 +119,13 @@
               "Auskultasi bunyi napas",
               "Monitor saturasi oksigen",
               "Monitor nilai analisa gas darah",
-              "Monitor hasil x-ray thoraks",
+              "Monitor hasil x-ray thoraks"
+            ],
+            "terapeutik": [
               "Atur interval pemantauan respirasi sesuai kondisi pasien",
-              "Dokumentasikan hasil pemantauan",
+              "Dokumentasikan hasil pemantauan"
+            ],
+            "edukasi": [
               "Jelaskan tujuan dan prosedur pemantauan",
               "Informasikan hasil pemantauan, jika perlu."
             ]
@@ -165,19 +181,25 @@
           "code": "I.01021",
           "name": "Penyapihan Ventilasi Mekanik",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Periksa kemampuan untuk disapih (meliputi: hemodinamik stabil, kondisi optimal, bebas infeksi)",
               "Monitor predictor kemampuan untuk mentolerir penyapihan (mis. Tingkat kemampuan bernapas, kapasitas vital, Vd/Vt, MVV, kekuatan inspirasi, FEV1, tekanan inspirasi negatif)",
               "Monitor tanda-tanda kelelahan otot pernapasan (misal: kenaikan PaCO2 mendadak, napas cepat dan dangkal, Gerakan dinding abdomen paradoks), hipoksemia, dan hipoksia jaringan saat penyapihan)",
-              "Monitor status cairan dan elektrolit",
+              "Monitor status cairan dan elektrolit"
+            ],
+            "terapeutik": [
               "Posisikan semi-fowler (30 – 45 derajat)",
               "Lakukan pengisapan jalan napas, jika perlu",
               "Berikan fisioterapi dada, jika perlu",
               "Lakukan ujicoba penyapihan (30 – 120 menit dengan napas spontan yang dibantu ventilator)",
               "Gunakan Teknik relaksasi, jika perlu",
               "Hindari pemberian sedasi farmakologis selama percobaan penyapihan",
-              "Berikan dukungan psikologis",
-              "Ajarkan cara pengontrolan napas saat penyapihan",
+              "Berikan dukungan psikologis"
+            ],
+            "edukasi": [
+              "Ajarkan cara pengontrolan napas saat penyapihan"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian obat yang meningkatkan kepatenan jalan napas dan pertukaran gas."
             ]
           }
@@ -185,9 +207,7 @@
         {
           "code": "I.01014",
           "name": "Pemantauan Respirasi",
-          "tindakan": {
-            "terapeutik": []
-          }
+          "tindakan": {}
         }
       ],
       "category": "Respirasi"
@@ -226,16 +246,12 @@
         {
           "code": "I.01014",
           "name": "Pemantauan Respirasi",
-          "tindakan": {
-            "terapeutik": []
-          }
+          "tindakan": {}
         },
         {
           "code": "I.01026",
           "name": "Terapi Oksigen",
-          "tindakan": {
-            "terapeutik": []
-          }
+          "tindakan": {}
         }
       ],
       "category": "Respirasi"
@@ -275,18 +291,24 @@
           "code": "I.01002",
           "name": "Dukungan Ventilasi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi adanya kelelahan otot bantu napas",
               "Identifikasi efek perubahan posisi terhadap status pernapasan",
-              "Monitor status respirasi dan oksigenasi (misal: frekuensi dan kedalaman napas, penggunaan otot bantu napas, bunyi napas tambahan, saturasi oksigen)",
+              "Monitor status respirasi dan oksigenasi (misal: frekuensi dan kedalaman napas, penggunaan otot bantu napas, bunyi napas tambahan, saturasi oksigen)"
+            ],
+            "terapeutik": [
               "Pertahankan kepatenan jalan napas",
               "Berikan posisi semi-fowler dan fowler",
               "Fasilitasi mengubah posisi senyaman mungkin",
               "Berikan oksigenasi sesuai kebutuhan (misal: nasal kanul, masker wajah, masker rebreathing atau non-rebreathing)",
-              "Gunakan bag-valve mask, jika perlu",
+              "Gunakan bag-valve mask, jika perlu"
+            ],
+            "edukasi": [
               "Ajarkan melakukan Teknik relaksasi napas dalam",
               "Ajarkan mengubah posisi secara mandiri",
-              "Ajarkan Teknik batuk efektif",
+              "Ajarkan Teknik batuk efektif"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian bronkodilator, jika perlu"
             ]
           }
@@ -295,7 +317,7 @@
           "code": "I.01014",
           "name": "Pemantauan Respirasi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor frekuensi, irama, kedalaman dan upaya napas",
               "Monitor pola napas (seperti bradypnea, takipnea, hiperventilasi, kussmaul, Cheyne-stokes, biot, ataksik)",
               "Monitor kemampuan batuk efektif",
@@ -305,9 +327,13 @@
               "Auskultasi bunyi napas",
               "Monitor saturasi oksigen",
               "Monitor nilai analisa gas darah",
-              "Monitor hasil x-ray thoraks",
+              "Monitor hasil x-ray thoraks"
+            ],
+            "terapeutik": [
               "Atur interval pemantauan respirasi sesuai kondisi pasien",
-              "Dokumentasikan hasil pemantauan",
+              "Dokumentasikan hasil pemantauan"
+            ],
+            "edukasi": [
               "Jelaskan tujuan dan prosedur pemantauan",
               "Informasikan hasil pemantauan, jika perlu."
             ]
@@ -361,16 +387,12 @@
         {
           "code": "I.01011",
           "name": "Manajemen Jalan Napas",
-          "tindakan": {
-            "terapeutik": []
-          }
+          "tindakan": {}
         },
         {
           "code": "I.01014",
           "name": "Pemantauan Respirasi",
-          "tindakan": {
-            "terapeutik": []
-          }
+          "tindakan": {}
         }
       ],
       "category": "Respirasi"
@@ -415,16 +437,12 @@
         {
           "code": "I.01011",
           "name": "Manajemen Jalan Napas",
-          "tindakan": {
-            "terapeutik": []
-          }
+          "tindakan": {}
         },
         {
           "code": "I.01018",
           "name": "Pencegahan Aspirasi",
-          "tindakan": {
-            "terapeutik": []
-          }
+          "tindakan": {}
         }
       ],
       "category": "Respirasi"

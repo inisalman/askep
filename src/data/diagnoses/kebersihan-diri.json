@@ -5,7 +5,7 @@
     "D.0109": {
       "code": "D.0109",
       "name": "Defisit Perawatan Diri",
-      "definition": "Defisit perawatan diri merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakmampuan melakukan atau menyelesaikan...",
+      "definition": "Ketidakmampuan melakukan atau menyelesaikan aktivitas perawatan diri",
       "signs_and_symptoms": {
         "subjective": [
           "Menolak melakukan perawatan diri"
@@ -39,16 +39,20 @@
           "code": "I.11348",
           "name": "Dukungan Perawatan Diri",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kebiasaan aktivitas perawatan diri sesuai usia",
               "Monitor tingkat kemandirian",
-              "Identifikasi kebutuhan alat bantu kebersihan diri, berpakaian, berhias, dan makan",
+              "Identifikasi kebutuhan alat bantu kebersihan diri, berpakaian, berhias, dan makan"
+            ],
+            "terapeutik": [
               "Sediakan lingkungan yang terapeutik (mis: suasana hangat, rileks, privasi)",
               "Siapkan keperluan pribadi (mis: parfum sikat gigi, dan sabun mandi)",
               "Dampingi dalam melakukan perawatan diri sampai mandiri",
               "Fasilitasi untuk menerima keadaan ketergantungan",
               "Fasilitasi kemandirian, bantu jika tidak mampu melakukan perawatan diri",
-              "Jadwalkan rutinitas perawatan diri",
+              "Jadwalkan rutinitas perawatan diri"
+            ],
+            "edukasi": [
               "Anjurkan melakukan perawatan diri secara konsisten sesuai kemampuan"
             ]
           }
@@ -57,16 +61,20 @@
           "code": "I.11349",
           "name": "Dukungan Perawatan Diri: BAB/BAK",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kebiasaan BAB/BAK sesuai usia",
-              "Monitor integritas kulit pasien",
+              "Monitor integritas kulit pasien"
+            ],
+            "terapeutik": [
               "Buka pakaian yang diperlukan untuk memudahkan eliminasi",
               "Dukung penggunaan toilet/commode/pispot/urinal secara konsisten",
               "Jaga privasi selama eliminasi",
               "Ganti pakaian pasien setelah eliminasi, jika perlu",
               "Bersihkan alat bantu BAK/BAB setelah digunakan",
               "Latih BAK/BAB sesuai jadwal, jika perlu",
-              "Sediakan alat bantu (mis. kateter eksternal, urinal), jika perlu",
+              "Sediakan alat bantu (mis. kateter eksternal, urinal), jika perlu"
+            ],
+            "edukasi": [
               "Anjurkan BAK/BAB secara rutin",
               "Anjurkan ke kamar mandi/toilet, jika perlu"
             ]
@@ -76,15 +84,19 @@
           "code": "I.11350",
           "name": "Dukungan Perawatan Diri: Berpakaian",
           "tindakan": {
+            "observasi": [
+              "Identifikasi usia dan budaya dalam membantu berpakaian/berhias"
+            ],
             "terapeutik": [
-              "Identifikasi usia dan budaya dalam membantu berpakaian/berhias",
               "Sediakan pakaian pada tempat yang mudah dijangkau",
               "Sediakan pakaian pribadi, sesuai kebutuhan",
               "Fasilitasi mengenakan pakaian, jika perlu",
               "Fasilitasi berhias (mis: menyisir rambut, merapikan kumis/jenggot)",
               "Jaga privasi selama berpakaian",
               "Tawarkan untuk laundry, jika perlu",
-              "Berikan pujian terhadap kemampuan berpakaian secara mandiri",
+              "Berikan pujian terhadap kemampuan berpakaian secara mandiri"
+            ],
+            "edukasi": [
               "Informasikan pakaian yang tersedia untuk dipilih, jika perlu",
               "Ajarkan menggunakan pakaian, jika perlu"
             ]
@@ -94,10 +106,12 @@
           "code": "I.11351",
           "name": "Dukungan Perawatan Diri: Makan/Minum",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi diet yang dianjurkan",
               "Monitor kemampuan menelan",
-              "Monitor status hidrasi pasien, jika perlu",
+              "Monitor status hidrasi pasien, jika perlu"
+            ],
+            "terapeutik": [
               "Ciptakan lingkungan yang menyenangkan selama makan",
               "Atur posisi yang nyaman untuk makan/minum",
               "Lakukan oral hygiene sebelum makan, jika perlu",
@@ -106,8 +120,12 @@
               "Siapkan makanan dengan suhu yang meningkatkan nafsu makan",
               "Sediakan makanan dan minuman yang disukai",
               "Berikan bantuan saat makan/minum sesuai tingkat kemandirian, jika perlu",
-              "Motivasi untuk makan di ruang makan, jika tersedia",
-              "Jelaskan posisi makanan pada pasien yang mengalami gangguan penglihatan dengan menggunakan arah jarum jam (mis: sayur di jam 12, rendang di jam 3)",
+              "Motivasi untuk makan di ruang makan, jika tersedia"
+            ],
+            "edukasi": [
+              "Jelaskan posisi makanan pada pasien yang mengalami gangguan penglihatan dengan menggunakan arah jarum jam (mis: sayur di jam 12, rendang di jam 3)"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian obat (mis: analgesik, antiemetik), sesuai indikasi"
             ]
           }
@@ -116,17 +134,21 @@
           "code": "I.11352",
           "name": "Dukungan Perawatan Diri: Mandi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi usia dan budaya dalam membantu kebersihan diri",
               "Identifikasi jenis bantuan yang dibutuhkan",
               "Monitor kebersihan tubuh (mis: rambut, mulut, kulit, kuku)",
-              "Monitor integritas kulit",
+              "Monitor integritas kulit"
+            ],
+            "terapeutik": [
               "Sediakan peralatan mandi (mis: sabun, sikat gigi, shampoo, pelembab kulit)",
               "Sediakan lingkungan yang aman dan nyaman",
               "Fasilitasi menggosok gigi, sesuai kebutuhan",
               "Fasilitasi mandi, sesuai kebutuhan",
               "Pertahankan kebiasaan kebersihan diri",
-              "Berikan bantuan sesuai tingkat kemandirian",
+              "Berikan bantuan sesuai tingkat kemandirian"
+            ],
+            "edukasi": [
               "Jelaskan manfaat mandi dan dampak tidak mandi terhadap  Kesehatan",
               "Ajarkan kepada keluarga cara memandikan pasien, jika perlu"
             ]

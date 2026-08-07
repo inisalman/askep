@@ -5,7 +5,7 @@
     "D.0110": {
       "code": "D.0110",
       "name": "Defisit Kesehatan komunitas",
-      "definition": "Defisit kesehatan komunitas merupakan diagnosis keperawatan yang didefinisikan sebagai terdapatnya masalah Kesehatan atau faktor...",
+      "definition": "Terdapatnya masalah Kesehatan atau faktor risiko yang dapat mengganggu kesejahteraan pada suatu kelompok",
       "signs_and_symptoms": {
         "subjective": [
           "Tidak tersedia"
@@ -55,11 +55,13 @@
           "code": "I.14548",
           "name": "Pengembangan Kesehatan Masyarakat",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi masalah atau isu Kesehatan dan prioritasnya",
               "Identifikasi potensi atau aset dalam masyarakat terkait isu yang dihadapi",
               "Identifikasi kekuatan dan partner dalam pengembangan Kesehatan",
-              "Identifikasi pemimpin/tokoh dalam masyarakat",
+              "Identifikasi pemimpin/tokoh dalam masyarakat"
+            ],
+            "terapeutik": [
               "Berikan kesempatan kepada setiap anggota masyarakat untuk berpartisipasi sesuai aset yang dimiliki",
               "Libatkan anggota masyarakat untuk meningkatkan kesadaran terhadap isu dan masalah Kesehatan yang dihadapi",
               "Libatkan masyarakat dalam musyawarah untuk mendefinisikan isu Kesehatan dan mengembangkan rencana kerja",
@@ -79,10 +81,14 @@
           "code": "I.12472",
           "name": "Promosi Perilaku Upaya Kesehatan",
           "tindakan": {
+            "observasi": [
+              "Identifikasi perilaku upaya Kesehatan yang dapat ditingkatkan"
+            ],
             "terapeutik": [
-              "Identifikasi perilaku upaya Kesehatan yang dapat ditingkatkan",
               "Berikan lingkungan yang mendukung Kesehatan",
-              "Orientasi pelayanan Kesehatan yang dapat dimanfaatkan",
+              "Orientasi pelayanan Kesehatan yang dapat dimanfaatkan"
+            ],
+            "edukasi": [
               "Anjurkan persalinan ditolong oleh tenaga kesehatan",
               "Anjurkan memberi bayi ASI eksklusif",
               "Anjurkan menimbang balita setiap bulan",
@@ -102,7 +108,7 @@
     "D.0111": {
       "code": "D.0111",
       "name": "Defisit Pengetahuan",
-      "definition": "Defisit pengetahuan merupakan diagnosis keperawatan yang didefinisikan sebagai ketiadaan atau kurangnya informasi kognitif yang berkaitan...",
+      "definition": "Ketiadaan atau kurangnya informasi kognitif yang berkaitan dengan topik tertentu",
       "signs_and_symptoms": {
         "subjective": [
           "Menanyakan masalah yang dihadapi"
@@ -139,12 +145,16 @@
           "code": "I.12383",
           "name": "Edukasi Kesehatan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kesiapan dan kemampuan menerima informasi",
-              "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat",
+              "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat"
+            ],
+            "terapeutik": [
               "Sediakan materi dan media Pendidikan Kesehatan",
               "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
-              "Berikan kesempatan untuk bertanya",
+              "Berikan kesempatan untuk bertanya"
+            ],
+            "edukasi": [
               "Jelaskan faktor risiko yang dapat mempengaruhi Kesehatan",
               "Ajarkan perilaku hidup bersih dan sehat",
               "Ajarkan strategi yang dapat digunakan untuk meningkatkan perilaku hidup bersih dan sehat"
@@ -157,7 +167,7 @@
     "D.0112": {
       "code": "D.0112",
       "name": "Kesiapan Peningkatan Manajemen Kesehatan",
-      "definition": "Kesiapan peningkatan manajemen kesehatan merupakan diagnosis keperawatan yang didefinisikan sebagai pola pengaturan dan pengintegrasian...",
+      "definition": "Pola pengaturan dan pengintegrasian program Kesehatan ke dalam kehidupan sehari-hari yang cukup untuk memenuhi tujuan Kesehatan dan dapat ditingkatkan",
       "signs_and_symptoms": {
         "subjective": [
           "Mengekspresikan keinginan untuk mengelola masalah Kesehatan dan pencegahannya"
@@ -182,9 +192,11 @@
           "code": "I.12359",
           "name": "Bimbingan Antisipatif",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi metode penyelesaian masalah yang biasa digunakan",
-              "Identifikasi kemungkinan perkembangan atau krisis situasional yang akan terjadi serta dampaknya pada individu dan keluarga",
+              "Identifikasi kemungkinan perkembangan atau krisis situasional yang akan terjadi serta dampaknya pada individu dan keluarga"
+            ],
+            "terapeutik": [
               "Fasilitasi memutuskan bagaimana masalah akan diselesaikan",
               "Fasilitasi memutuskan siapa yang akan dilibatkan dalam  menyelesaikan masalah",
               "Gunakan contoh kasus untuk meningkatkan keterampilan menyelesaikan masalah",
@@ -193,12 +205,14 @@
               "Jadwalkan kunjungan pada setiap tahap perkembangan atau sesuai kebutuhan",
               "Jadwalkan tindak lanjut untuk memantau atau memberi dukungan",
               "Berikan nomor kontak yang dapat dihubungi, jika perlu",
-              "Libatkan keluarga dan pihak terkait, jika perlu",
               "Berikan referensi baik cetak ataupun elektronik (mis: materi pendidikan, pamflet)",
-              "Jelaskan perkembangan dan perilaku normal",
-              "Informasikan harapan yang realistis terkait perilaku pasien",
               "Latih Teknik koping yang dibutuhkan untuk mengatasi perkembangan atau krisis situasional",
               "Rujuk ke Lembaga pelayanan masyarakat, jika perlu"
+            ],
+            "edukasi": [
+              "Libatkan keluarga dan pihak terkait, jika perlu",
+              "Jelaskan perkembangan dan perilaku normal",
+              "Informasikan harapan yang realistis terkait perilaku pasien"
             ]
           }
         },
@@ -206,12 +220,16 @@
           "code": "I.12383",
           "name": "Edukasi Kesehatan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kesiapan dan kemampuan menerima informasi",
-              "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat",
+              "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat"
+            ],
+            "terapeutik": [
               "Sediakan materi dan media Pendidikan Kesehatan",
               "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
-              "Berikan kesempatan untuk bertanya",
+              "Berikan kesempatan untuk bertanya"
+            ],
+            "edukasi": [
               "Jelaskan faktor risiko yang dapat mempengaruhi Kesehatan",
               "Ajarkan perilaku hidup bersih dan sehat",
               "Ajarkan strategi yang dapat digunakan untuk meningkatkan perilaku hidup bersih dan sehat"
@@ -222,10 +240,12 @@
           "code": "I.14502",
           "name": "Identifikasi Risiko",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi risiko biologis, lingkungan, dan perilaku",
               "Identifikasi risiko secara berkala di masing-masing unit",
-              "Identifikasi risiko baru sesuai perencanaan yang telah ditetapkan",
+              "Identifikasi risiko baru sesuai perencanaan yang telah ditetapkan"
+            ],
+            "terapeutik": [
               "Tentukan metode pengelolaan risiko yang baik dan ekonomis",
               "Lakukan pengelolaan risiko secara efektif",
               "Lakukan update perencanaan secara regular (mis: bulanan, triwulan, tahunan)",
@@ -238,9 +258,10 @@
           "code": "I.12463",
           "name": "Manajemen Perilaku",
           "tindakan": {
+            "observasi": [
+              "Identifikasi harapan untuk mengendalikan perilaku"
+            ],
             "terapeutik": [
-              "Identifikasi harapan untuk mengendalikan perilaku",
-              "Diskusikan tanggung jawab terhadap perilaku",
               "Jadwalkan kegiatan terstruktur",
               "Ciptakan dan pertahankan lingkungan dan kegiatan perawatan konsisten setiap dinas",
               "Tingkatkan aktivitas fisik sesuai kemampuan",
@@ -252,7 +273,10 @@
               "Lakukan pengekangan fisik sesuai indikasi",
               "Hindari bersikap menyudutkan dan menghentikan pembicaraan",
               "Hindari sikap mengancam atau berdebat",
-              "Hindari berdebat atau menawar batas perilaku yang telah ditetapkan",
+              "Hindari berdebat atau menawar batas perilaku yang telah ditetapkan"
+            ],
+            "edukasi": [
+              "Diskusikan tanggung jawab terhadap perilaku",
               "Informasikan keluarga bahwa keluarga sebagai dasar pembentukan kognitif"
             ]
           }
@@ -261,22 +285,26 @@
           "code": "I.12464",
           "name": "Penentuan Tujuan Bersama",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi tujuan-tujuan yang akan dicapai",
-              "Identifikasi cara mencapai tujuan secara konstruktif",
+              "Identifikasi cara mencapai tujuan secara konstruktif"
+            ],
+            "terapeutik": [
               "Nyatakan tujuan dengan kalimat positif dan jelas",
               "Tetapkan skala pencapaian tujuan, jika perlu",
               "Fasilitasi memecah tujuan kompleks menjadi langkah kecil yang mudah dilakukan",
               "Berikan batasan pada peran perawat dan pasien secara jelas",
-              "Diskusikan sumber daya yang ada untuk memenuhi tujuan",
-              "Diskusikan pengembangan rencana untuk memenuhi tujuan",
               "Prioritaskan aktivitas yang dapat membantu pencapaian tujuan",
               "fasilitasi dalam mengidentifikasi hasil yang diharapkan untuk setiap tujuan",
               "Tetapkan batas waktu yang realistis",
-              "Diskusikan indikator pengukuran untuk setiap tujuan (mis: perilaku)",
               "Tetapkan evaluasi secara periodik untuk menilai kemajuan sesuai tujuan",
               "HItung skor pencapaian tujuan",
-              "Modifikasi rencana jika tujuan tidak tercapai",
+              "Modifikasi rencana jika tujuan tidak tercapai"
+            ],
+            "edukasi": [
+              "Diskusikan sumber daya yang ada untuk memenuhi tujuan",
+              "Diskusikan pengembangan rencana untuk memenuhi tujuan",
+              "Diskusikan indikator pengukuran untuk setiap tujuan (mis: perilaku)",
               "Anjurkan mengenal masalah yang dialami",
               "Anjurkan mengembangkan harapan realistis",
               "Anjurkan mengidentifikasi kekuatan dan kemampuan sendiri",
@@ -291,7 +319,7 @@
     "D.0113": {
       "code": "D.0113",
       "name": "Kesiapan Peningkatan Pengetahuan",
-      "definition": "Kesiapan peningkatan pengetahuan merupakan diagnosis keperawatan yang didefinisikan sebagai perkembangan informasi kognitif yang...",
+      "definition": "Perkembangan informasi kognitif yang berhubungan dengan topik spesifik cukup untuk memenuhi tujuan Kesehatan dan dapat ditingkatkan",
       "signs_and_symptoms": {
         "subjective": [
           "Mengungkapkan minat dalam belajar",
@@ -321,12 +349,16 @@
           "code": "I.12383",
           "name": "Edukasi Kesehatan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kesiapan dan kemampuan menerima informasi",
-              "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat",
+              "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat"
+            ],
+            "terapeutik": [
               "Sediakan materi dan media Pendidikan Kesehatan",
               "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
-              "Berikan kesempatan untuk bertanya",
+              "Berikan kesempatan untuk bertanya"
+            ],
+            "edukasi": [
               "Jelaskan faktor risiko yang dapat mempengaruhi Kesehatan",
               "Ajarkan perilaku hidup bersih dan sehat",
               "Ajarkan strategi yang dapat digunakan untuk meningkatkan perilaku hidup bersih dan sehat"
@@ -337,18 +369,22 @@
           "code": "I.12470",
           "name": "Promosi Kesiapan Penerimaan Informasi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi informasi yang akan disampaikan",
               "Identifikasi pemahaman tentang kondisi kesehatan saat ini",
-              "Identifikasi kesiapan menerima informasi",
+              "Identifikasi kesiapan menerima informasi"
+            ],
+            "terapeutik": [
               "Lakukan penguatan potensi pasien dan keluarga untuk menerima informasi",
-              "Libatkan pengambil keputusan dalam keluarga untuk menerima informasi",
               "Fasilitasi mengenali kondisi tubuh yang membutuhkan layanan keperawatan",
               "Dahulukan menyampaikan informasi baik (positif) sebelum menyampaikan informasi kurang baik (negatif) terkait kondisi pasien",
               "Berikan nomor kontak yang dapat dihubungi jika pasien membutuhkan bantuan",
               "Catat identitas dan nomor kontak pasien untuk mengingatkan atau follow up kondisi pasien",
               "Fasilitasi akses pelayanan pada saat dibutuhkan",
-              "Berikan informasi berupa alur, leaflet, atau gambar untuk memudahkan pasien mendapatkan informasi Kesehatan",
+              "Berikan informasi berupa alur, leaflet, atau gambar untuk memudahkan pasien mendapatkan informasi Kesehatan"
+            ],
+            "edukasi": [
+              "Libatkan pengambil keputusan dalam keluarga untuk menerima informasi",
               "Anjurkan keluarga mendampingi pasien selama fase akut, progresif, atau terminal, jika memungkinkan"
             ]
           }
@@ -395,11 +431,15 @@
           "code": "I.12361",
           "name": "Dukungan Kepatuhan Program Pengobatan",
           "tindakan": {
+            "observasi": [
+              "Identifikasi kepatuhan menjalani program pengobatan"
+            ],
             "terapeutik": [
-              "Identifikasi kepatuhan menjalani program pengobatan",
               "Buat komitmen menjalani program pengobatan dengan baik",
               "Buat jadwal pendampingan keluarga untuk bergantian menemani pasien selama menjalani program pengobatan, jika perlu",
-              "Dokumentasikan aktivitas selama menjalani program pengobatan",
+              "Dokumentasikan aktivitas selama menjalani program pengobatan"
+            ],
+            "edukasi": [
               "Diskusikan hal-hal yang dapat mendukung atau menghambat berjalannya program pengobatan",
               "Libatkan keluarga untuk mendukung program pengobatan yang dijalani",
               "Informasikan program pengobatan yang harus dijalani",
@@ -413,13 +453,17 @@
           "code": "I.09277",
           "name": "Dukungan tanggung jawab pada diri sendiri",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi persepsi tentang masalah Kesehatan",
-              "Monitor pelaksanaan tanggung jawab",
+              "Monitor pelaksanaan tanggung jawab"
+            ],
+            "terapeutik": [
               "Berikan kesempatan merasakan memiliki tanggung jawab",
               "Tingkatkan rasa tanggung jawab atas perilaku sendiri",
               "Hindari berdebat atau tawar menawar tentang perannya di ruang perawatan",
-              "Berikan penguatan dan umpan balik positif jika melaksanakan tanggung jawab atau mengubah perilaku",
+              "Berikan penguatan dan umpan balik positif jika melaksanakan tanggung jawab atau mengubah perilaku"
+            ],
+            "edukasi": [
               "Diskusikan tanggung jawab terhadap profesi pemberi asuhan",
               "Diskusikan konsekuensi tidak melaksanakan tanggung jawab"
             ]
@@ -429,14 +473,19 @@
           "code": "I.09311",
           "name": "Promosi Kesadaran Diri",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi keadaan emosional saat ini",
-              "Identifikasi respons yang ditunjukkan berbagai situasi",
+              "Identifikasi respons yang ditunjukkan berbagai situasi"
+            ],
+            "terapeutik": [
+              "Ungkapkan penyangkalan tentang kenyataan",
+              "Motivasi dalam meningkatkan kemampuan belajar",
+              "Latih kemampuan positif diri yang dimiliki"
+            ],
+            "edukasi": [
               "Diskusikan nilai-nilai yang berkontribusi terhadap konsep diri",
               "Diskusikan tentang pikiran, perilaku, atau respons terhadap kondisi",
               "Diskusikan dampak penyakit pada konsep diri",
-              "Ungkapkan penyangkalan tentang kenyataan",
-              "Motivasi dalam meningkatkan kemampuan belajar",
               "Anjurkan mengenali pikiran dan perasaan tentang diri",
               "Anjurkan menyadari bahwa setiap orang unik",
               "Anjurkan mengungkapkan perasaan (mis: marah atau depresi)",
@@ -446,8 +495,7 @@
               "Anjurkan mengidentifikasi situasi yang memicu kecemasan",
               "Anjurkan mengevaluasi Kembali persepsi negatif tentang diri",
               "Anjurkan dalam mengekspresikan diri dengan kelompok sebaya",
-              "Ajarkan cara membuat prioritas hidup",
-              "Latih kemampuan positif diri yang dimiliki"
+              "Ajarkan cara membuat prioritas hidup"
             ]
           }
         },
@@ -455,20 +503,17 @@
           "code": "I.09312",
           "name": "Promosi Koping",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
               "Identifikasi kemampuan yang dimiliki",
               "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
               "Identifikasi pemahaman proses penyakit",
               "Identifikasi dampak situasi terhadap peran dan hubungan",
               "Identifikasi metode penyelesaian masalah",
-              "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
-              "Diskusikan perubahan peran yang dialami",
+              "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial"
+            ],
+            "terapeutik": [
               "Gunakan pendekatan yang tenang dan meyakinkan",
-              "Diskusikan alasan mengkritik diri sendiri",
-              "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
-              "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
-              "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
               "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
               "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
               "Motivasi untuk menentukan harapan yang realistis",
@@ -479,7 +524,14 @@
               "Damping saat berduka (mis: penyakit kronis, kecacatan)",
               "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
               "Dukung penggunaan mekanisme pertahanan yang tepat",
-              "Kurangi rangsangan lingkungan yang mengancam",
+              "Kurangi rangsangan lingkungan yang mengancam"
+            ],
+            "edukasi": [
+              "Diskusikan perubahan peran yang dialami",
+              "Diskusikan alasan mengkritik diri sendiri",
+              "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+              "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+              "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
               "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
               "Anjurkan penggunaan sumber spiritual, jika perlu",
               "Anjurkan mengungkapkan perasaan dan persepsi",
@@ -494,7 +546,7 @@
     "D.0115": {
       "code": "D.0115",
       "name": "Manajemen Kesehatan Keluarga Tidak Efektif",
-      "definition": "Manajemen kesehatan keluarga tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai pola penanganan masalah Kesehatan...",
+      "definition": "Pola penanganan masalah Kesehatan dalam keluarga tidak memuaskan untuk memulihkan kondisi Kesehatan anggota keluarga",
       "signs_and_symptoms": {
         "subjective": [
           "Mengungkapkan tidak memahami masalah Kesehatan yang diderita",
@@ -527,14 +579,15 @@
           "code": "I.09260",
           "name": "Dukungan Koping Keluarga",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi respons emosional terhadap kondisi saat ini",
               "Identifikasi beban prognosis secara psikologis",
               "Identifikasi pemahaman tentang keputusan perawatan setelah pulang",
-              "Identifikasi kesesuaian antara harapan pasien, keluarga, dan tenaga kesehatan",
+              "Identifikasi kesesuaian antara harapan pasien, keluarga, dan tenaga kesehatan"
+            ],
+            "terapeutik": [
               "Dengarkan masalah, perasaan, dan pertanyaan keluarga",
               "Terima nilai-nilai keluarga dengan cara yang tidak menghakimi",
-              "Diskusikan rencana medis dan perawatan",
               "Fasilitasi pengungkapan perasaan antara pasien dan keluarga atau antar anggota keluarga",
               "Fasilitasi pengambilan keputusan dalam merencanakan perawatan jangka Panjang, jika perlu",
               "Fasilitasi anggota keluarga dalam mengidentifikasi dan menyelesaikan konflik nilai",
@@ -544,9 +597,12 @@
               "Bersikap sebagai pengganti keluarga untuk menenangkan pasien dan/atau jika keluarga tidak dapat memberikan perawatan",
               "Hargai dan dukung mekanisme koping adaptif yang digunakan",
               "Berikan kesempatan berkunjung bagi anggota keluarga",
-              "Informasikan kemajuan pasien secara berkala",
-              "Informasikan fasilitas perawatan Kesehatan yang tersedia",
               "Rujuk untuk terapi keluarga, jika perlu"
+            ],
+            "edukasi": [
+              "Diskusikan rencana medis dan perawatan",
+              "Informasikan kemajuan pasien secara berkala",
+              "Informasikan fasilitas perawatan Kesehatan yang tersedia"
             ]
           }
         },
@@ -554,14 +610,18 @@
           "code": "I.13477",
           "name": "Dukungan Keluarga Merencanakan Perawatan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kebutuhan dan harapan keluarga tentang Kesehatan",
               "Identifikasi konsekuensi tidak melakukan Tindakan Bersama keluarga",
               "Identifikasi sumber-sumber yang dimiliki keluarga",
-              "Identifikasi Tindakan yang dapat dilakukan keluarga",
+              "Identifikasi Tindakan yang dapat dilakukan keluarga"
+            ],
+            "terapeutik": [
               "Motivasi pengembangan sikap dan emosi yang mendukung upaya Kesehatan",
               "Gunakan sarana dan fasilitas yang ada dalam keluarga",
-              "Ciptakan perubahan lingkungan rumah secara optimal",
+              "Ciptakan perubahan lingkungan rumah secara optimal"
+            ],
+            "edukasi": [
               "Informasikan fasilitas Kesehatan yang ada di lingkungan keluarga",
               "Anjurkan menggunakan fasilitas Kesehatan yang ada",
               "Ajarkan cara perawatan yang bisa dilakukan keluarga"
@@ -572,13 +632,17 @@
           "code": "I.12482",
           "name": "Koordinasi Diskusi Keluarga",
           "tindakan": {
+            "observasi": [
+              "Identifikasi gangguan Kesehatan setiap anggota keluarga"
+            ],
             "terapeutik": [
-              "Identifikasi gangguan Kesehatan setiap anggota keluarga",
               "Ciptakan suasana rumah yang sehat dan mendukung perkembangan kepribadian anggota keluarga",
               "Fasilitasi keluarga mendiskusikan masalah Kesehatan yang sedang dialami",
               "Pertahankan hubungan timbal balik antara keluarga dan fasilitas Kesehatan",
+              "Berikan perawatan kepada anggota keluarga yang sakit"
+            ],
+            "edukasi": [
               "Libatkan keluarga dalam mengambil keputusan untuk melakukan Tindakan yang tepat",
-              "Berikan perawatan kepada anggota keluarga yang sakit",
               "Anjurkan anggota keluarga dalam memanfaatkan sumber-sumber yang ada dalam masyarakat"
             ]
           }
@@ -587,16 +651,20 @@
           "code": "I.13486",
           "name": "Pendampingan Keluarga",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kebutuhan keluarga terkait masalah Kesehatan keluarga",
               "Identifikasi tugas Kesehatan keluarga yang terhambat",
-              "Identifikasi dukungan spiritual yang mungkin untuk keluarga",
+              "Identifikasi dukungan spiritual yang mungkin untuk keluarga"
+            ],
+            "terapeutik": [
               "Yakinkan keluarga bahwa anggota keluarganya akan diberikan pelayanan terbaik",
               "Berikan harapan yang realistis",
               "Bina hubungan saling percaya dengan keluarga",
               "Dengarkan keinginan dan perasaan keluarga",
               "Dukung mekanisme koping adaptif yang digunakan keluarga",
-              "Advokasi keluarga, jika perlu",
+              "Advokasi keluarga, jika perlu"
+            ],
+            "edukasi": [
               "Ajarkan mekanisme koping yang dapat dijalankan keluarga"
             ]
           }
@@ -645,18 +713,24 @@
           "code": "I.09265",
           "name": "Dukungan Pengambilan Keputusan",
           "tindakan": {
+            "observasi": [
+              "Identifikasi persepsi mengenai masalah dan informasi yang memicu konflik"
+            ],
             "terapeutik": [
-              "Identifikasi persepsi mengenai masalah dan informasi yang memicu konflik",
               "Fasilitasi mengklarifikasi nilai dan harapan yang membantu membuat pilihan",
-              "Diskusikan kelebihan dan kekurangan dari setiap solusi",
               "Fasilitasi melihat situasi secara realistic",
               "Motivasi mengungkapkan tujuan perawatan yang diharapkan",
               "Fasilitasi pengambilan keputusan secara kolaboratif",
               "Hormati hak pasien untuk menerima atau menolak informasi",
               "Fasilitasi menjelaskan keputusan kepada orang lain, jika perlu",
               "Fasilitasi hubungan antara pasien, keluarga, dan tenaga Kesehatan lainnya",
-              "Jelaskan alternatif solusi secara jelas",
-              "Berikan informasi yang diminta pasien",
+              "Berikan informasi yang diminta pasien"
+            ],
+            "edukasi": [
+              "Diskusikan kelebihan dan kekurangan dari setiap solusi",
+              "Jelaskan alternatif solusi secara jelas"
+            ],
+            "kolaborasi": [
               "Kolaborasi dengan tenaga Kesehatan lain dalam memfasilitasi pengambilan keputusan"
             ]
           }
@@ -665,13 +739,17 @@
           "code": "I.09277",
           "name": "Dukungan tanggung jawab pada diri sendiri",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi persepsi tentang masalah Kesehatan",
-              "Monitor pelaksanaan tanggung jawab",
+              "Monitor pelaksanaan tanggung jawab"
+            ],
+            "terapeutik": [
               "Berikan kesempatan merasakan memiliki tanggung jawab",
               "Tingkatkan rasa tanggung jawab atas perilaku sendiri",
               "Hindari berdebat atau tawar menawar tentang perannya di ruang perawatan",
-              "Berikan penguatan dan umpan balik positif jika melaksanakan tanggung jawab atau mengubah perilaku",
+              "Berikan penguatan dan umpan balik positif jika melaksanakan tanggung jawab atau mengubah perilaku"
+            ],
+            "edukasi": [
               "Diskusikan tanggung jawab terhadap profesi pemberi asuhan",
               "Diskusikan konsekuensi tidak melaksanakan tanggung jawab"
             ]
@@ -681,12 +759,16 @@
           "code": "I.12383",
           "name": "Edukasi Kesehatan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kesiapan dan kemampuan menerima informasi",
-              "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat",
+              "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat"
+            ],
+            "terapeutik": [
               "Sediakan materi dan media Pendidikan Kesehatan",
               "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
-              "Berikan kesempatan untuk bertanya",
+              "Berikan kesempatan untuk bertanya"
+            ],
+            "edukasi": [
               "Jelaskan faktor risiko yang dapat mempengaruhi Kesehatan",
               "Ajarkan perilaku hidup bersih dan sehat",
               "Ajarkan strategi yang dapat digunakan untuk meningkatkan perilaku hidup bersih dan sehat"
@@ -697,12 +779,16 @@
           "code": "I.14525",
           "name": "Pelibatan Keluarga",
           "tindakan": {
+            "observasi": [
+              "Identifikasi kesiapan keluarga untuk terlibat dalam perawatan"
+            ],
             "terapeutik": [
-              "Identifikasi kesiapan keluarga untuk terlibat dalam perawatan",
               "Ciptakan hubungan terapeutik pasien dengan keluarga dalam perawatan",
-              "Diskusikan cara perawatan di rumah (mis: kelompok, perawatan di rumah, atau rumah singgah)",
               "Motivasi keluarga mengembangkan aspek positif rencana perawatan",
-              "Fasilitasi keluarga membuat keputusan perawatan",
+              "Fasilitasi keluarga membuat keputusan perawatan"
+            ],
+            "edukasi": [
+              "Diskusikan cara perawatan di rumah (mis: kelompok, perawatan di rumah, atau rumah singgah)",
               "Jelaskan kondisi pasien kepada keluarga",
               "Informasikan tingkat ketergantungan pasien kepada keluarga",
               "Informasikan harapan pasien kepada keluarga",
@@ -717,7 +803,7 @@
     "D.0117": {
       "code": "D.0117",
       "name": "Pemeliharaan Kesehatan Tidak Efektif",
-      "definition": "Pemeliharaan kesehatan tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakmampuan mengidentifikasi...",
+      "definition": "Ketidakmampuan mengidentifikasi, mengelola, dan/atau menemukan bantuan untuk mempertahankan kesehatan",
       "signs_and_symptoms": {
         "subjective": [
           "Tidak tersedia"
@@ -753,12 +839,16 @@
           "code": "I.12383",
           "name": "Edukasi Kesehatan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kesiapan dan kemampuan menerima informasi",
-              "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat",
+              "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat"
+            ],
+            "terapeutik": [
               "Sediakan materi dan media Pendidikan  Kesehatan",
               "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
-              "Berikan kesempatan untuk bertanya",
+              "Berikan kesempatan untuk bertanya"
+            ],
+            "edukasi": [
               "Jelaskan faktor risiko yang dapat mempengaruhi Kesehatan",
               "Ajarkan perilaku hidup bersih dan sehat",
               "Ajarkan strategi yang dapat digunakan untuk meningkatkan perilaku hidup bersih dan sehat"
@@ -769,22 +859,26 @@
           "code": "I.09282",
           "name": "Kontrak Perilaku Positif",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kemampuan mental dan kognitif untuk membuat kontrak",
               "Identifikasi cara dan sumber daya terbaik untuk mencapai tujuan",
               "Identifikasi hambatan dalam menerapkan perilaku positif",
-              "Monitor pelaksanaan perilaku ketidaksesuaian dan kurang komitmen untuk memenuhi kontrak",
+              "Monitor pelaksanaan perilaku ketidaksesuaian dan kurang komitmen untuk memenuhi kontrak"
+            ],
+            "terapeutik": [
               "Ciptakan lingkungan yang terbuka untuk membuat kontrak perilaku",
               "Fasilitasi pembuatan kontrak tertulis",
+              "Tetapkan batas waktu yang dibutuhkan untuk pelaksanaan Tindakan yang realistis",
+              "Fasilitasi meninjau ulang kontrak dan tujuan, jika perlu",
+              "Pastikan kontrak ditandatangani oleh semua pihak yang terlibat, jika perlu"
+            ],
+            "edukasi": [
               "Diskusikan perilaku Kesehatan yang ingin diubah",
               "Diskusikan tujuan positif jangka pendek dan jangka Panjang yang realistis dan dapat dicapai",
               "Diskusikan pengembangan rencana perilaku positif",
               "Diskusikan cara mengamati perilaku (mis: tabel kemajuan perilaku)",
               "Diskusikan penghargaan yang diinginkan Ketika tujuan tercapai, jika perlu",
               "Diskusikan konsekuensi atau sanksi tidak memenuhi kontrak",
-              "Tetapkan batas waktu yang dibutuhkan untuk pelaksanaan Tindakan yang realistis",
-              "Fasilitasi meninjau ulang kontrak dan tujuan, jika perlu",
-              "Pastikan kontrak ditandatangani oleh semua pihak yang terlibat, jika perlu",
               "Libatkan keluarga dalam proses kontrak, jika perlu",
               "Anjurkan menuliskan tujuan sendiri, jika perlu"
             ]
@@ -794,22 +888,26 @@
           "code": "I.12464",
           "name": "Penentuan Tujuan Bersama",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi tujuan-tujuan yang akan dicapai",
-              "Identifikasi cara mencapai tujuan secara konstruktif",
+              "Identifikasi cara mencapai tujuan secara konstruktif"
+            ],
+            "terapeutik": [
               "Nyatakan tujuan dengan kalimat positif dan jelas",
               "Tetapkan skala pencapaian tujuan, jika perlu",
               "Fasilitasi memecah tujuan kompleks menjadi langkah kecil yang mudah dilakukan",
               "Berikan batasan pada peran perawat dan pasien secara jelas",
-              "Diskusikan sumber daya yang ada untuk memenuhi tujuan",
-              "Diskusikan pengembangan rencana untuk memenuhi tujuan",
               "Prioritaskan aktivitas yang dapat membantu pencapaian tujuan",
               "fasilitasi dalam mengidentifikasi hasil yang diharapkan untuk setiap tujuan",
               "Tetapkan batas waktu yang realistis",
-              "Diskusikan indikator pengukuran untuk setiap tujuan (mis: perilaku)",
               "Tetapkan evaluasi secara periodik untuk menilai kemajuan sesuai tujuan",
               "HItung skor pencapaian tujuan",
-              "Modifikasi rencana jika tujuan tidak tercapai",
+              "Modifikasi rencana jika tujuan tidak tercapai"
+            ],
+            "edukasi": [
+              "Diskusikan sumber daya yang ada untuk memenuhi tujuan",
+              "Diskusikan pengembangan rencana untuk memenuhi tujuan",
+              "Diskusikan indikator pengukuran untuk setiap tujuan (mis: perilaku)",
               "Anjurkan mengenal masalah yang dialami",
               "Anjurkan mengembangkan harapan realistis",
               "Anjurkan mengidentifikasi kekuatan dan kemampuan sendiri",
@@ -822,10 +920,14 @@
           "code": "I.12472",
           "name": "Promosi Perilaku Upaya Kesehatan",
           "tindakan": {
+            "observasi": [
+              "Identifikasi perilaku upaya Kesehatan yang dapat ditingkatkan"
+            ],
             "terapeutik": [
-              "Identifikasi perilaku upaya Kesehatan yang dapat ditingkatkan",
               "Berikan lingkungan yang mendukung Kesehatan",
-              "Orientasi pelayanan Kesehatan yang dapat dimanfaatkan",
+              "Orientasi pelayanan Kesehatan yang dapat dimanfaatkan"
+            ],
+            "edukasi": [
               "Anjurkan persalinan ditolong oleh tenaga kesehatan",
               "Anjurkan memberi bayi ASI eksklusif",
               "Anjurkan menimbang balita setiap bulan",

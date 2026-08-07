@@ -5,7 +5,7 @@
     "D.0018": {
       "code": "D.0018",
       "name": "Berat Badan Lebih",
-      "definition": "Berat badan lebih adalah diagnosis keperawatan yang didefinisikan sebagai akumulasi lemak berlebih atau abnormal yang tidak sesuai dengan...",
+      "definition": "Akumulasi lemak berlebih atau abnormal yang tidak sesuai dengan usia dan jenis kelamin",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": [
@@ -43,18 +43,22 @@
           "code": "I.03094",
           "name": "Konseling Nutrisi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kebiasaan makan dan perilaku makan yang akan diubah",
               "Identifikasi kemajuan modifikasi diet secara regular",
-              "Monitor intake dan output cairan, nilai hemoglobin, tekanan darah, kenaikan berat badan, dan kebiasaan membeli makanan",
+              "Monitor intake dan output cairan, nilai hemoglobin, tekanan darah, kenaikan berat badan, dan kebiasaan membeli makanan"
+            ],
+            "terapeutik": [
               "Bina hubungan terapeutik",
               "Sepakati lama waktu pemberian konseling",
               "Tetapkan tujuan jangka pendek dan jangka Panjang yang realistis",
               "Gunakan standar nutrisi sesuai program diet dalam mengevaluasi kecukupan asupan makanan",
               "Pertimbangkan faktor-faktor yang mempengaruhi pemenuhan kebutuhan  gizi (mis. Usia, tahap pertumbuhan dan perkembangan, penyakit)",
-              "Informasikan perlunya modifikasi diet (misal: penurunan atau penambahan berat badan, pembatasan natrium atau cairan, pengurangan kolesterol",
-              "Jelaskan program gizi dan persepsi pasien terhadap diet yang diprogramkan",
               "Rujuk pada ahli gizi, jika perlu"
+            ],
+            "edukasi": [
+              "Informasikan perlunya modifikasi diet (misal: penurunan atau penambahan berat badan, pembatasan natrium atau cairan, pengurangan kolesterol",
+              "Jelaskan program gizi dan persepsi pasien terhadap diet yang diprogramkan"
             ]
           }
         },
@@ -62,11 +66,15 @@
           "code": "I.03097",
           "name": "Manajemen berat badan",
           "tindakan": {
+            "observasi": [
+              "Identifikasi kondisi Kesehatan pasien yang dapat mempengaruhi berat badan"
+            ],
             "terapeutik": [
-              "Identifikasi kondisi Kesehatan pasien yang dapat mempengaruhi berat badan",
               "Hitung berat badan ideal pasien (LIHAT: kalkulator berat badan ideal)",
               "Hitung persentase lemak dan otot pasien",
-              "Fasilitasi menentukan target berat badan yang realistis",
+              "Fasilitasi menentukan target berat badan yang realistis"
+            ],
+            "edukasi": [
               "Jelaskan hubungan asupan makanan, Latihan, peningkatan, dan penurunan berat badan",
               "Jelaskan faktor risiko berat badan lebih dan berat badan kurang",
               "Anjurkan mencatat berat badan setiap minggu, jika perlu",
@@ -78,13 +86,15 @@
           "code": "I.05183",
           "name": "Promosi Latihan fisik",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi keyakinan Kesehatan tentang Latihan fisik",
               "Identifikasi pengalaman olahraga sebelumnya",
               "Identifikasi motivasi individu untuk memulai atau melanjutkan program olahraga",
               "Identifikasi hambatan untuk berolahraga",
               "Monitor kepatuhan menjalankan program Latihan",
-              "Monitor respons terhadap program latihan",
+              "Monitor respons terhadap program latihan"
+            ],
+            "terapeutik": [
               "Motivasi mengungkapkan perasaan tentang olahraga/kebutuhan berolahraga",
               "Motivasi memulai atau melanjutkan olahraga",
               "Fasilitasi dalam mengidentifikasi model peran positif untuk mempertahankan program Latihan",
@@ -93,14 +103,18 @@
               "Fasilitasi dalam menjadwalkan periode regular Latihan rutin mingguan",
               "Fasilitasi dalam mempertahankan kemajuan program Latihan",
               "Lakukan aktivitas olahraga Bersama pasien, jika perlu",
+              "Berikan umpan balik positif terhadap segala upaya yang dijalankan pasien"
+            ],
+            "edukasi": [
               "Libatkan keluarga dalam merencanakan dan memelihara program Latihan",
-              "Berikan umpan balik positif terhadap segala upaya yang dijalankan pasien",
               "Jelaskan manfaat Kesehatan dan efek fisiologis olahraga",
               "Jelaskan jenis Latihan yang sesuai dengan kondisi Kesehatan",
               "Jelaskan frekuensi, durasi, dan intensitas program Latihan yang diinginkan",
               "Ajarkan Latihan pemanasan dan pendinginan yang tepat",
               "Ajarkan Teknik menghindari cidera saat berolahraga",
-              "Ajarkan Teknik pernapasan yang tepat untuk memaksimalkan penyerapan oksigen selama Latihan fisik",
+              "Ajarkan Teknik pernapasan yang tepat untuk memaksimalkan penyerapan oksigen selama Latihan fisik"
+            ],
+            "kolaborasi": [
               "Kolaborasi dengan rehabilitasi medis atau ahli fisiologi olahraga, jika perlu"
             ]
           }
@@ -140,7 +154,7 @@
           "code": "I.03119",
           "name": "Manajemen Nutrisi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi status nutrisi",
               "Identifikasi alergi dan intoleransi makanan",
               "Identifikasi makanan yang disukai",
@@ -148,16 +162,22 @@
               "Identifikasi perlunya penggunaan selang nasogastrik",
               "Monitor asupan makanan",
               "Monitor berat badan",
-              "Monitor hasil pemeriksaan laboratorium",
+              "Monitor hasil pemeriksaan laboratorium"
+            ],
+            "terapeutik": [
               "Lakukan oral hygiene sebelum makan, jika perlu",
               "Fasilitasi menentukan pedoman diet (mis: piramida  makanan)",
               "Sajikan makanan secara menarik dan suhu yang sesuai",
               "Berikan makanan tinggi serat untuk mencegah konstipasi",
               "Berikan makanan tinggi kalori dan tinggi protein",
               "Berikan suplemen makanan, jika perlu",
-              "Hentikan pemberian makan melalui selang nasogastik jika asupan oral dapat ditoleransi",
+              "Hentikan pemberian makan melalui selang nasogastik jika asupan oral dapat ditoleransi"
+            ],
+            "edukasi": [
               "Ajarkan posisi duduk, jika mampu",
-              "Ajarkan diet yang diprogramkan",
+              "Ajarkan diet yang diprogramkan"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian medikasi sebelum makan (mis: Pereda nyeri, antiemetik), jika perlu",
               "Kolaborasi dengan ahli  gizi untuk menentukan jumlah kalori dan jenis nutrien yang dibutuhkan, jika perlu"
             ]
@@ -167,17 +187,21 @@
           "code": "I.03136",
           "name": "Promosi Berat Badan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kemungkinan penyebab BB kurang",
               "Monitor adanya mual dan muntah",
               "Monitor jumlah kalori yang di konsumsi sehari-hari",
               "Monitor berat badan",
-              "Monitor albumin, limfosit, dan elektrolit serum",
+              "Monitor albumin, limfosit, dan elektrolit serum"
+            ],
+            "terapeutik": [
               "Berikan perawatan mulut sebelum pemberian makan, jika perlu",
               "Sediakan makanan yang tepat sesuai kondisi pasien (mis: makanan dengan tekstur halus, makanan yang diblender, makanan cair yang diberikan melalui NGT atau gastrostomy, total parenteral nutrition sesuai indikasi)",
               "Hidangkan makanan secara menarik",
               "Berikan suplemen, jika perlu",
-              "Berikan pujian pada pasien/keluarga untuk peningkatan yang dicapai",
+              "Berikan pujian pada pasien/keluarga untuk peningkatan yang dicapai"
+            ],
+            "edukasi": [
               "Jelaskan jenis makanan yang bergizi tinggi, namun tetap terjangkau",
               "Jelaskan peningkatan asupan kalori yang dibutuhkan"
             ]
@@ -229,7 +253,7 @@
           "code": "I.03101",
           "name": "Manajemen Diare",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi penyebab diare (mis: inflamasi gastrointestinal, iritasi gastrointestinal, proses infeksi, malabsorpsi, ansietas, stres, obat-obatan, pemberian botol susu)",
               "Identifikasi Riwayat pemberian makanan",
               "Identifikasi gejala invaginasi (mis: tangisan keras, kepucatan pada bayi)",
@@ -237,15 +261,21 @@
               "Monitor tanda dan gejala hypovolemia (mis: takikardia, nadi teraba lemah, tekanan darah turun, turgor kulit turun, mukosa kulit kering, CRT melambat, BB menurun)",
               "Monitor iritasi dan ulserasi kulit di daerah perianal",
               "Monitor jumlah dan pengeluaran diare",
-              "Monitor keamanan penyiapan makanan",
+              "Monitor keamanan penyiapan makanan"
+            ],
+            "terapeutik": [
               "Berikan asupan cairan oral (mis: larutan garam gula, oralit, Pedialyte, renalyte)",
               "Pasang jalur intravena",
               "Berikan cairan intravena (mis: ringer asetat, ringer laktat), jika perlu",
               "Ambil sampel darah untuk pemeriksaan darah lengkap dan elektrolit",
-              "Ambil sampel feses untuk kultur, jika perlu",
+              "Ambil sampel feses untuk kultur, jika perlu"
+            ],
+            "edukasi": [
               "Anjurkan makanan porsi kecil dan sering secara bertahap",
               "Anjurkan menghindari makanan pembentuk gas, pedas, dan mengandung laktosa",
-              "Anjurkan melanjutkan pemberian ASI",
+              "Anjurkan melanjutkan pemberian ASI"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian obat antimotilitas (mis: loperamide, difenoksilat)",
               "Kolaborasi pemberian antispasmodik/spasmolitik (mis: papaverine, ekstrak belladonna, mebeverine)",
               "Kolaborasi pemberian obat pengeras feses (mis: atapugit, smektit, kaolin-pektin)"
@@ -256,7 +286,7 @@
           "code": "I.03101",
           "name": "Pemantauan Cairan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor frekuensi dan kekuatan nadi",
               "Monitor frekuensi napas",
               "Monitor tekanan darah",
@@ -269,11 +299,15 @@
               "Monitor intake dan output cairan",
               "Identifikasi tanda-tanda hypovolemia (mis: frekuensi nadi meningkat, nadi teraba lemah, tekanan darah menurun, tekanan nadi menyempit, turgor kulit menurun, membran mukosa kering, volume urin menurun, hematokrit meningkat, hasil, lemah, konsentrasi urin meningkat, berat badan menurun dalam waktu singkat)",
               "Identifikasi tanda-tanda hypervolemia (mis: dispnea, edema perifer, edema anasarca, JVP meningkat, CVP meningkat, refleks hepatojugular positif, berat badan menurun dalam waktu singkat)",
-              "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)",
+              "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)"
+            ],
+            "terapeutik": [
               "Atur interval waktu pemantauan sesuai dengan kondisi pasien",
               "Dokumentasikan hasil pemantauan",
-              "Jelaskan tujuan dan prosedur pemantauan",
               "Dokumentasikan hasil pemantauan"
+            ],
+            "edukasi": [
+              "Jelaskan tujuan dan prosedur pemantauan"
             ]
           }
         }
@@ -325,7 +359,7 @@
           "code": "I.03119",
           "name": "Manajemen Nutrisi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi status nutrisi",
               "Identifikasi alergi dan intoleransi makanan",
               "Identifikasi makanan yang disukai",
@@ -333,16 +367,22 @@
               "Identifikasi perlunya penggunaan selang nasogastrik",
               "Monitor asupan makanan",
               "Monitor berat badan",
-              "Monitor hasil pemeriksaan laboratorium",
+              "Monitor hasil pemeriksaan laboratorium"
+            ],
+            "terapeutik": [
               "Lakukan oral hygiene sebelum makan, jika perlu",
               "Fasilitasi menentukan pedoman diet (mis: piramida makanan)",
               "Sajikan makanan secara menarik dan suhu yang sesuai",
               "Berikan makanan tinggi serat untuk mencegah konstipasi",
               "Berikan makanan tinggi kalori dan tinggi protein",
               "Berikan suplemen makanan, jika perlu",
-              "Hentikan pemberian makan melalui selang nasogastik jika asupan oral dapat ditoleransi",
+              "Hentikan pemberian makan melalui selang nasogastik jika asupan oral dapat ditoleransi"
+            ],
+            "edukasi": [
               "Ajarkan posisi duduk, jika mampu",
-              "Ajarkan diet yang diprogramkan",
+              "Ajarkan diet yang diprogramkan"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian medikasi sebelum makan (mis: Pereda nyeri, antiemetik), jika perlu",
               "Kolaborasi dengan ahli  gizi untuk menentukan jumlah kalori dan jenis nutrien yang dibutuhkan, jika perlu"
             ]
@@ -352,14 +392,18 @@
           "code": "I.01018",
           "name": "Pengontrolan Infeksi",
           "tindakan": {
+            "observasi": [
+              "Identifikasi pasien-pasien yang mengalami penyakit infeksi menular"
+            ],
             "terapeutik": [
-              "Identifikasi pasien-pasien yang mengalami penyakit infeksi menular",
               "Terapkan kewaspadaan universal (mis: cuci tangan aseptic, gunakan alat pelindung diri seperti masker, sarung tangan, pelindung wajah, pelindung mata, apron, sepatu bot sesuai model transmisi mikroorganisme)",
               "Tempatkan pada ruang isolasi bertekanan positif untuk pasien yang mengalami penurunan imunitas",
               "Tempatkan pada ruang isolasi bertekanan negatif untuk pasien dengan resiko penyebaran infeksi via droplet atau udara",
               "Sterilisasi dan desinfeksi alat-alat, furniture, lantai, sesuai kebutuhan",
               "Gunakan hepafilter pada area khusus (mis: kamar operasi)",
-              "Berikan tanda khusus untuk pasien-pasien dengan penyakit menular",
+              "Berikan tanda khusus untuk pasien-pasien dengan penyakit menular"
+            ],
+            "edukasi": [
               "Ajarkan cara mencuci tangan dengan benar",
               "Ajarkan etika batuk dan/atau bersin"
             ]
@@ -371,7 +415,7 @@
     "D.0022": {
       "code": "D.0022",
       "name": "Hipervolemia",
-      "definition": "Hipervolemia merupakan diagnosis keperawatan yang didefinisikan sebagai peningkatan volume cairan intravaskular, interstitial, dan/atau...",
+      "definition": "Peningkatan volume cairan intravaskular, interstitial, dan/atau intraselular",
       "signs_and_symptoms": {
         "subjective": [
           "Ortopnea",
@@ -414,7 +458,7 @@
           "code": "I.03114",
           "name": "Manajemen Hipervolemia",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Periksa tanda dan gejala hypervolemia (mis: ortopnea, dispnea, edema, JVP/CVP meningkat, refleks hepatojugular positif, suara napas tambahan)",
               "Identifikasi penyebab hypervolemia",
               "Monitor status hemodinamik (mis: frekuensi jantung, tekanan darah, MAP, CVP, PAP, PCWP, CO, CI) jika tersedia",
@@ -422,13 +466,19 @@
               "Monitor tanda hemokonsentrasi (mis: kadar natrium, BUN, hematokrit, berat jenis urine)",
               "Monitor tanda peningkatan tekanan onkotik plasma (mis: kadar protein dan albumin meningkat)",
               "Monitor kecepatan infus secara ketat",
-              "Monitor efek samping diuretic (mis: hipotensi ortostatik, hypovolemia, hipokalemia, hiponatremia)",
+              "Monitor efek samping diuretic (mis: hipotensi ortostatik, hypovolemia, hipokalemia, hiponatremia)"
+            ],
+            "terapeutik": [
               "Timbang berat badan setiap hari pada waktu yang sama",
               "Batasi asupan cairan dan garam",
-              "Tinggikan kepala tempat tidur 30 – 40 derajat",
+              "Tinggikan kepala tempat tidur 30 – 40 derajat"
+            ],
+            "edukasi": [
               "Anjurkan melapor jika haluaran urin < 0,5 mL/kg/jam dalam 6 jam",
               "Anjurkan melapor jika BB bertambah > 1 kg dalam sehari",
-              "Ajarkan cara membatasi cairan",
+              "Ajarkan cara membatasi cairan"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian diuretic",
               "Kolaborasi penggantian kehilangan kalium akibat diuretic",
               "Kolaborasi pemberian continuous renal replacement therapy (CRRT) jika perlu"
@@ -439,7 +489,7 @@
           "code": "I.03101",
           "name": "Pemantauan Cairan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor frekuensi dan kekuatan nadi",
               "Monitor frekuensi napas",
               "Monitor tekanan darah",
@@ -452,11 +502,15 @@
               "Monitor intake dan output cairan",
               "Identifikasi tanda-tanda hypovolemia (mis: frekuensi nadi meningkat, nadi teraba lemah, tekanan darah menurun, tekanan nadi menyempit, turgor kulit menurun, membran mukosa kering, volume urin menurun, hematokrit meningkat, hasil, lemah, konsentrasi urin meningkat, berat badan menurun dalam waktu singkat)",
               "Identifikasi tanda-tanda hypervolemia (mis: dispnea, edema perifer, edema anasarca, JVP meningkat, CVP meningkat, refleks hepatojugular positif, berat badan menurun dalam waktu singkat)",
-              "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)",
+              "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)"
+            ],
+            "terapeutik": [
               "Atur interval waktu pemantauan sesuai dengan kondisi pasien",
               "Dokumentasikan hasil pemantauan",
-              "Jelaskan tujuan dan prosedur pemantauan",
               "Dokumentasikan hasil pemantauan"
+            ],
+            "edukasi": [
+              "Jelaskan tujuan dan prosedur pemantauan"
             ]
           }
         }
@@ -466,7 +520,7 @@
     "D.0023": {
       "code": "D.0023",
       "name": "Hipovolemia",
-      "definition": "Hipovolemia merupakan diagnosis keperawatan yang didefinisikan sebagai penurunan volume cairan intravaskular, interstitial, dan/atau...",
+      "definition": "Penurunan volume cairan intravaskular, interstitial, dan/atau intraselular",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": [
@@ -512,14 +566,20 @@
           "code": "I.03116",
           "name": "Manajemen Hipovolemia",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Periksa tanda dan gejala hipovolemia (mis: frekuensi nadi meningkat, nadi teraba lemah, tekanan darah menurun, tekanan nadi menyempit, turgor kulit menurun, membran mukosa kering, volume urin menurun, hematokrit meningkat, haus, lemah)",
-              "Monitor intake dan output cairan",
+              "Monitor intake dan output cairan"
+            ],
+            "terapeutik": [
               "Hitung kebutuhan cairan",
               "Berikan posisi modified Trendelenburg",
-              "Berikan asupan cairan oral",
+              "Berikan asupan cairan oral"
+            ],
+            "edukasi": [
               "Anjurkan memperbanyak asupan cairan oral",
-              "Anjurkan menghindari perubahan posisi mendadak",
+              "Anjurkan menghindari perubahan posisi mendadak"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian cairan IV isotonis (mis: NaCL, RL)",
               "Kolaborasi pemberian cairan IV hipotonis (mis: glukosa 2,5%, NaCl 0,4%)",
               "Kolaborasi pemberian cairan koloid (albumin, plasmanate)",
@@ -531,12 +591,14 @@
           "code": "I.03116",
           "name": "Manajemen Syok Hipovolemik",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor status kardiopulmonal (frekuensi dan kekuatan nadi, frekuensi napas, TD, MAP)",
               "Monitor status oksigenasi (oksimetri nadi, AGD)",
               "Monitor status cairan (masukan dan haluaran, turgor kulit, CRT)",
               "Periksa tingkat kesadaran dan respon pupil",
-              "Periksa seluruh permukaan tubuh terhadap adanya DOTS (deformity/deformitas, open wound/luka terbuka, tenderness/nyeri tekan, swelling/bengkak)",
+              "Periksa seluruh permukaan tubuh terhadap adanya DOTS (deformity/deformitas, open wound/luka terbuka, tenderness/nyeri tekan, swelling/bengkak)"
+            ],
+            "terapeutik": [
               "Pertahankan jalan napas paten",
               "Berikan oksigen untuk mempertahankan saturasi oksigen > 94%",
               "Persiapkan intubasi dan ventilasi mekanis, jika perlu",
@@ -545,7 +607,9 @@
               "Pasang jalur IV berukuran besar (mis: nomor 14 atau 16)",
               "Pasang kateter urin untuk menilai produksi urin",
               "Pasang selang nasogastrik untuk dekompresi lambung",
-              "Ambil sampel darah untuk pemeriksaan darah lengkap dan elektrolit",
+              "Ambil sampel darah untuk pemeriksaan darah lengkap dan elektrolit"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian infus cairan kristaloid 1 – 2 L pada dewasa",
               "Kolaborasi pemberian infus cairan kristaloid 20 mL/kgBB pada anak",
               "Kolaborasi pemberian transfusi darah, jika perlu"
@@ -558,7 +622,7 @@
     "D.0024": {
       "code": "D.0024",
       "name": "Ikterik Neonatus",
-      "definition": "Ikterik neonatus merupakan diagnosis keperawatan yang didefinisikan sebagai kulit dan membran mukosa neonatus menguning setelah 24...",
+      "definition": "Kulit dan membran mukosa neonatus menguning setelah 24 jam kelahiran akibat bilirubin tidak terkonjugasi masuk ke dalam sirkulasi",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": [
@@ -588,20 +652,26 @@
           "code": "I.03091",
           "name": "Fototerapi Neonatus",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor ikterik pada sklera dan kulit  bayi",
               "Identifikasi kebutuhan cairan sesuai dengan usia gestasi dan berat badan",
               "Monitor suhu dan tanda vital setiap 4 jam sekali",
-              "Monitor efek samping fototerapi (mis: hipertermi, diare, rush pada kulit, penurunan berat badan lebih dari  8 – 10%",
+              "Monitor efek samping fototerapi (mis: hipertermi, diare, rush pada kulit, penurunan berat badan lebih dari  8 – 10%"
+            ],
+            "terapeutik": [
               "Siapkan lampu fototerapi dan incubator atau kotak bayi",
               "Lepaskan pakaian bayi kecuali popok",
               "Berikan penutup mata (eye protector/biliband) pada bayi",
               "Ukur jarak antara lampu dan permukaan kulit bayi (30 cm atau tergantung spesifikasi lampu fototerapi)",
               "Biarkan tubuh bayi terpapar sinar fototerapi secara berkelanjutan",
               "Ganti segera alas dan popok bayi jika BAB/BAK",
-              "Gunakan linen berwarna putih agar memantulkan cahaya sebanyak mungkin",
+              "Gunakan linen berwarna putih agar memantulkan cahaya sebanyak mungkin"
+            ],
+            "edukasi": [
               "Anjurkan ibu menyusui sekitar 20 – 30 menit",
-              "Anjurkan ibu menyusui sesering mungkin",
+              "Anjurkan ibu menyusui sesering mungkin"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian darah vena bilirubin direk dan indirek"
             ]
           }
@@ -610,8 +680,10 @@
           "code": "I.10338",
           "name": "Perawatan Bayi",
           "tindakan": {
+            "observasi": [
+              "Monitor tanda-tanda vital bayi (terutama suhu 36°C – 37°C)"
+            ],
             "terapeutik": [
-              "Monitor tanda-tanda vital bayi (terutama suhu 36°C – 37°C)",
               "Mandikan bayi dengan suhu ruangan 21 – 24°C",
               "Mandikan bayi dalam waktu 5 – 10 menit dan 2 kali dalam sehari",
               "Rawat tali pusat secara terbuka (tali pusat tidak dibungkus apapun)",
@@ -619,7 +691,9 @@
               "Kenakan popok bayi di bawah umbilicus jika tali pusat belum terlepas",
               "Lakukan pemijatan bayi",
               "Ganti popok bayi jika basah",
-              "Kenakan pakaian bayi dari bahan katun",
+              "Kenakan pakaian bayi dari bahan katun"
+            ],
+            "edukasi": [
               "Anjurkan ibu menyusui sesuai kebutuhan bayi",
               "Ajarkan ibu cara merawat bayi di rumah",
               "Ajarkan cara pemberian makanan pendamping ASI pada bayi > 6 bulan"
@@ -665,15 +739,19 @@
           "code": "I.03098",
           "name": "Manajemen Cairan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor status hidrasi (mis: frekuensi nadi, kekuatan nadi, akral, pengisian kapiler, kelembaban mukosa, turgor kulit, tekanan darah)",
               "Monitor berat badan harian",
               "Monitor berat badan sebelum dan sesudah dialisis",
               "Monitor hasil pemeriksaan laboratorium (mis: hematokrit, Na, K, Cl, berat jenis urin, BUN)",
-              "Monitor status hemodinamik (mis: MAP, CVP, PAP, PCWP, jika tersedia)",
+              "Monitor status hemodinamik (mis: MAP, CVP, PAP, PCWP, jika tersedia)"
+            ],
+            "terapeutik": [
               "Catat intake-output dan hitung balans cairan 24 jam",
               "Berikan asupan cairan, sesuai kebutuhan",
-              "Berikan cairan intravena, jika perlu",
+              "Berikan cairan intravena, jika perlu"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian diuretik, jika perlu"
             ]
           }
@@ -682,7 +760,7 @@
           "code": "I.03101",
           "name": "Pemantauan Cairan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor frekuensi dan kekuatan nadi",
               "Monitor frekuensi napas",
               "Monitor tekanan darah",
@@ -695,11 +773,15 @@
               "Monitor intake dan output cairan",
               "Identifikasi tanda-tanda hypovolemia (mis: frekuensi nadi meningkat, nadi teraba lemah, tekanan darah menurun, tekanan nadi menyempit, turgor kulit menurun, membran mukosa kering, volume urin menurun, hematokrit meningkat, hasil, lemah, konsentrasi urin meningkat, berat badan menurun dalam waktu singkat)",
               "Identifikasi tanda-tanda hypervolemia (mis: dispnea, edema perifer, edema anasarca, JVP meningkat, CVP meningkat, refleks hepatojugular positif, berat badan menurun dalam waktu singkat)",
-              "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)",
+              "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)"
+            ],
+            "terapeutik": [
               "Atur interval waktu pemantauan sesuai dengan kondisi pasien",
               "Dokumentasikan hasil pemantauan",
-              "Jelaskan tujuan dan prosedur pemantauan",
               "Dokumentasikan hasil pemantauan"
+            ],
+            "edukasi": [
+              "Jelaskan tujuan dan prosedur pemantauan"
             ]
           }
         }
@@ -729,17 +811,21 @@
           "code": "I.12395",
           "name": "Edukasi Nutrisi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Periksa status gizi, status alergi, program diet, kebutuhan dan kemampuan pemenuhan kebutuhan gizi",
-              "Identifikasi kemampuan dan waktu yang tepat menerima informasi",
+              "Identifikasi kemampuan dan waktu yang tepat menerima informasi"
+            ],
+            "terapeutik": [
               "Persiapkan materi dan media seperti jenis-jenis nutrisi, tabel makanan penukar, cara mengelola, cara menakar makanan",
               "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
               "Berikan kesempatan untuk bertanya",
+              "Demonstrasikan cara membersihkan mulut",
+              "Demonstrasikan cara mengatur posisi saat makan"
+            ],
+            "edukasi": [
               "Jelaskan kepada pasien dan keluarga alergi makanan, makanan yang harus di hindari, kebutuhan jumlah kalori, jenis makanan yang dibutuhkan pasien",
               "Ajarkan cara melaksanakan diet sesuai program (mis: makanan tinggi protein, rendah garam, rendah kalori)",
               "Jelaskan hal-hal yang dilakukan sebelum memberikan makan (mis: perawatan mulut, penggunaan gigi palsu, obat-obat yang harus diberikan sebelum makan)",
-              "Demonstrasikan cara membersihkan mulut",
-              "Demonstrasikan cara mengatur posisi saat makan",
               "Ajarkan pasien/keluarga memonitor asupan kalori dan  makanan (mis: menggunakan buku harian)",
               "Ajarkan pasien dan keluarga memantau kondisi kekurangan  nutrisi",
               "Anjurkan mendemonstrasikan cara memberi makan, menghitung kalori, menyiapkan makanan sesuai program diet"
@@ -750,18 +836,22 @@
           "code": "I.03094",
           "name": "Konseling Nutrisi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kebiasaan makan dan perilaku makan yang akan diubah",
               "Identifikasi kemajuan modifikasi diet secara regular",
-              "Monitor intake dan output cairan, nilai hemoglobin, tekanan darah, kenaikan berat badan, dan kebiasaan membeli makanan",
+              "Monitor intake dan output cairan, nilai hemoglobin, tekanan darah, kenaikan berat badan, dan kebiasaan membeli makanan"
+            ],
+            "terapeutik": [
               "Bina hubungan terapeutik",
               "Sepakati lama waktu pemberian konseling",
               "Tetapkan tujuan jangka pendek dan jangka Panjang yang realistis",
               "Gunakan standar nutrisi sesuai program diet dalam mengevaluasi kecukupan asupan makanan",
               "Pertimbangkan faktor-faktor yang mempengaruhi pemenuhan kebutuhan gizi (mis. Usia, tahap pertumbuhan dan perkembangan, penyakit)",
-              "Informasikan perlunya modifikasi diet (misal: penurunan atau penambahan berat badan, pembatasan natrium atau cairan, pengurangan kolesterol",
-              "Jelaskan program gizi dan persepsi pasien terhadap diet yang diprogramkan",
               "Rujuk pada ahli gizi, jika perlu"
+            ],
+            "edukasi": [
+              "Informasikan perlunya modifikasi diet (misal: penurunan atau penambahan berat badan, pembatasan natrium atau cairan, pengurangan kolesterol",
+              "Jelaskan program gizi dan persepsi pasien terhadap diet yang diprogramkan"
             ]
           }
         }
@@ -815,21 +905,27 @@
           "code": "I.03115",
           "name": "Manajemen Hiperglikemia",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kemungkinan penyebab hiperglikemia",
               "Identifikasi situasi yang menyebabkan kebutuhan insulin meningkat (mis: penyakit kambuhan)",
               "Monitor kadar glukosa darah, jika perlu",
               "Monitor tanda dan gejala hiperglikemia (mis: polyuria, polydipsia, polifagia, kelemahan, malaise, pandangan kabur, sakit kepala)",
               "Monitor intake dan output cairan",
-              "Monitor keton urin, kadar Analisa gas darah, elektrolit, tekanan darah ortostatik dan frekuensi nadi",
+              "Monitor keton urin, kadar Analisa gas darah, elektrolit, tekanan darah ortostatik dan frekuensi nadi"
+            ],
+            "terapeutik": [
               "Berikan asupan cairan oral",
               "Konsultasi dengan medis jika tanda dan gejala hiperglikemia tetap ada atau memburuk",
-              "Fasilitasi ambulasi jika ada hipotensi ortostatik",
+              "Fasilitasi ambulasi jika ada hipotensi ortostatik"
+            ],
+            "edukasi": [
               "Anjurkan menghindari olahraga saat kadar glukosa darah lebih dari 250 mg/dL",
               "Anjurkan monitor kadar glukosa darah secara mandiri",
               "Anjurkan kepatuhan terhadap diet dan olahraga",
               "Ajarkan indikasi dan pentingnya pengujian keton urin, jika perlu",
-              "Ajarkan pengelolaan diabetes (mis: penggunaan insulin, obat oral, monitor asupan cairan, penggantian karbohidrat, dan bantuan professional kesehatan",
+              "Ajarkan pengelolaan diabetes (mis: penggunaan insulin, obat oral, monitor asupan cairan, penggantian karbohidrat, dan bantuan professional kesehatan"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian insulin, jika perlu",
               "Kolaborasi pemberian cairan IV, jika perlu",
               "Kolaborasi pemberian kalium, jika perlu"
@@ -840,22 +936,28 @@
           "code": "I.03115",
           "name": "Manajemen Hipoglikemia",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi tanda dan gejala hipoglikemia",
-              "Identifikasi kemungkinan penyebab hipoglikemia",
+              "Identifikasi kemungkinan penyebab hipoglikemia"
+            ],
+            "terapeutik": [
               "Berikan karbohidrat sederhana, jika perlu",
               "Berikan glucagon, jika perlu",
               "Berikan karbohidrat kompleks dan protein sesuai diet",
               "Pertahankan kepatenan jalan napas",
               "Pertahankan akses IV, jika perlu",
-              "Hubungi layanan medis darurat, jika perlu",
+              "Hubungi layanan medis darurat, jika perlu"
+            ],
+            "edukasi": [
               "Anjurkan membawa karbohidrat sederhana setiap saat",
               "Anjurkan memakai identitas darurat yang tepat",
               "Anjurkan monitor kadar glukosa darah",
               "Anjurkan berdiskusi dengan tim perawatan diabetes tentang penyesuaian program pengobatan",
               "Jelaskan interaksi antara diet, insulin/agen oral, dan olahraga",
               "Ajarkan pengelolaan hipoglikemia (mis: tanda dan gejala, faktor risiko, dan pengobatan hipoglikemia)",
-              "Ajarkan perawatan mandiri untuk mencegah hipoglikemia (mis: mengurangi insulin/agen oral dan/atau meningkatkan asupan makanan untuk berolahraga)",
+              "Ajarkan perawatan mandiri untuk mencegah hipoglikemia (mis: mengurangi insulin/agen oral dan/atau meningkatkan asupan makanan untuk berolahraga)"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian dekstrose, jika perlu",
               "Kolaborasi pemberian glukagon, jika perlu"
             ]
@@ -867,7 +969,7 @@
     "D.0028": {
       "code": "D.0028",
       "name": "Menyusui Efektif",
-      "definition": "Menyusui efektif merupakan diagnosis keperawatan yang didefinisikan sebagai pemberian ASI secara langsung dari payudara kepada bayi...",
+      "definition": "Pemberian ASI secara langsung dari payudara kepada bayi dan anak yang dapat memenuhi kebutuhan nutrisi",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": [
@@ -903,12 +1005,16 @@
           "code": "I.03093",
           "name": "Konseling Laktasi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi keadaan emosional ibu saat akan dilakukan konseling menyusui",
               "Identifikasi keinginan dan tujuan menyusui",
-              "Identifikasi permasalahan yang ibu alami selama proses menyusui",
+              "Identifikasi permasalahan yang ibu alami selama proses menyusui"
+            ],
+            "terapeutik": [
               "Gunakan Teknik mendengarkan aktif (mis: duduk sama tinggi, dengarkan permasalahan ibu)",
-              "Berikan pujian terhadap perilaku ibu yang benar",
+              "Berikan pujian terhadap perilaku ibu yang benar"
+            ],
+            "edukasi": [
               "Ajarkan Teknik menyusui yang tepat sesuai kebutuhan ibu."
             ]
           }
@@ -917,14 +1023,18 @@
           "code": "I.03135",
           "name": "Promosi ASI Eksklusif",
           "tindakan": {
+            "observasi": [
+              "Identifikasi kebutuhan laktasi bagi ibu pada antenatal, intranatal, dan postnatal"
+            ],
             "terapeutik": [
-              "Identifikasi kebutuhan laktasi bagi ibu pada antenatal, intranatal, dan postnatal",
               "Fasilitasi ibu melakukan IMD (inisiasi menyusu dini)",
               "Fasilitasi ibu untuk rawat gabung atau rooming in",
               "Gunakan sendok dan cangkir jika bayi belum bisa menyusu",
               "Dukung ibu menyusui dengan mendampingi ibu selama kegiatan menyusui berlangsung",
+              "Siapkan kelas menyusui pada masa prenatal minimal 2 kali dan periode pascapartum minimal 3 kali"
+            ],
+            "edukasi": [
               "Diskusikan dengan keluarga tentang ASI eksklusif",
-              "Siapkan kelas menyusui pada masa prenatal minimal 2 kali dan periode pascapartum minimal 3 kali",
               "Jelaskan manfaat menyusui bagi ibu dan bayi",
               "Jelaskan pentingnya menyusui di malam hari untuk mempertahankan dan meningkatkan produksi ASI",
               "Jelaskan tanda-tanda bayi cukup ASI (mis: berat badan meningkat, BAK lebih dari 10 kali/hari, warna urine tidak pekat)",
@@ -940,16 +1050,20 @@
           "code": "I.03138",
           "name": "Promosi Laktasi",
           "tindakan": {
+            "observasi": [
+              "Identifikasi kebutuhan laktasi bagi ibu, dan bayi"
+            ],
             "terapeutik": [
-              "Identifikasi kebutuhan laktasi bagi ibu, dan bayi",
               "Fasilitasi ibu saat melakukan IMD (inisiasi menyusu dini)",
               "Fasilitasi ibu untuk rawat gabung atau rooming in",
               "Gunakan sendok dan cangkir jika bayi belum bisa menyusu",
               "Damping ibu selama kegiatan menyusui berlangsung",
+              "Adakan kelas edukasi tentang manfaat dan posisi menyusui pada masa prenatal dan periode post partum"
+            ],
+            "edukasi": [
               "Jelaskan pentingnya menyusui sampai 2 tahun",
               "Jelaskan manfaat rawat gabung (rooming in)",
               "Anjurkan ibu menyusui minimal 2 kali selama hamil, dan setelah melahirkan 3-4 kali",
-              "Adakan kelas edukasi tentang manfaat dan posisi menyusui pada masa prenatal dan periode post partum",
               "Anjurkan ibu menjaga produksi ASI dengan memerah ASI",
               "Anjurkan ibu untuk memberikan nutrisi kepada bayi hanya dengan ASI eksklusif selama 6 bulan dan dilanjurkan sampai 2 tahun",
               "Anjurkan ibu memberikan makanan pendamping ASI setelah 6 bulan",
@@ -1012,15 +1126,19 @@
           "code": "I.12393",
           "name": "Edukasi Menyusui",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kesiapan dan kemampuan menerima informasi",
-              "Identifikasi tujuan atau keinginan menyusui",
+              "Identifikasi tujuan atau keinginan menyusui"
+            ],
+            "terapeutik": [
               "Sediakan materi dan media Pendidikan Kesehatan",
               "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
               "Berikan kesempatan untuk bertanya",
               "Dukung ibu meningkatkan kepercayaan diri dalam menyusui",
+              "Berikan konseling menyusui"
+            ],
+            "edukasi": [
               "Libatkan sistem pendukung: suami, keluarga, tenaga Kesehatan, dan masyarakat",
-              "Berikan konseling menyusui",
               "Jelaskan manfaat menyusui bagi ibu dan bayi",
               "Ajarkan 4 posisi menyusui dan perlekatan (latch on) dengan benar",
               "Ajarkan perawatan payudara antepartum dengan mengkompres dengan kapas yang telah diberikan minyak kelapa",
@@ -1032,12 +1150,16 @@
           "code": "I.03093",
           "name": "Konseling Laktasi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi keadaan emosional ibu saat akan dilakukan konseling menyusui",
               "Identifikasi keinginan dan tujuan menyusui",
-              "Identifikasi permasalahan yang ibu alami selama proses menyusui",
+              "Identifikasi permasalahan yang ibu alami selama proses menyusui"
+            ],
+            "terapeutik": [
               "Gunakan Teknik mendengarkan aktif (mis: duduk sama tinggi, dengarkan permasalahan ibu)",
-              "Berikan pujian terhadap perilaku ibu yang benar",
+              "Berikan pujian terhadap perilaku ibu yang benar"
+            ],
+            "edukasi": [
               "Ajarkan Teknik menyusui yang tepat sesuai kebutuhan ibu."
             ]
           }
@@ -1085,11 +1207,15 @@
           "code": "I.12365",
           "name": "Edukasi berat badan efektif",
           "tindakan": {
+            "observasi": [
+              "Identifikasi kesiapan dan kemampuan menerima informasi"
+            ],
             "terapeutik": [
-              "Identifikasi kesiapan dan kemampuan menerima informasi",
               "Sediakan materi dan media edukasi",
               "Jadwalkan Pendidikan  Kesehatan sesuai kesepakatan",
-              "Beri kesempatan pada keluarga untuk bertanya",
+              "Beri kesempatan pada keluarga untuk bertanya"
+            ],
+            "edukasi": [
               "Jelaskan hubungan asupan makanan, Latihan, peningkatan, dan penurunan berat badan",
               "Jelaskan kondisi medis yang dapat mempengaruhi berat badan",
               "Jelaskan risiko kondisi kegemukan (overweight) dan kurus (underweight)",
@@ -1102,11 +1228,15 @@
           "code": "I.03097",
           "name": "Manajemen berat badan",
           "tindakan": {
+            "observasi": [
+              "Identifikasi kondisi Kesehatan pasien yang dapat mempengaruhi berat badan"
+            ],
             "terapeutik": [
-              "Identifikasi kondisi Kesehatan pasien yang dapat mempengaruhi berat badan",
               "Hitung berat badan ideal pasien (lihat kalkulator berat badan ideal)",
               "Hitung persentase lemak dan otot pasien",
-              "Fasilitasi menentukan target berat badan yang realistis",
+              "Fasilitasi menentukan target berat badan yang realistis"
+            ],
+            "edukasi": [
               "Jelaskan hubungan asupan makanan, Latihan, peningkatan, dan penurunan berat badan",
               "Jelaskan faktor risiko berat badan lebih dan berat badan kurang",
               "Anjurkan mencatat berat badan setiap minggu, jika perlu",
@@ -1154,16 +1284,22 @@
           "code": "I.12369",
           "name": "Edukasi Diet",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kemampuan pasien dan keluarga menerima informasi",
               "Identifikasi tingkat pengetahuan saat ini",
               "Identifikasi kebiasaan pola makan saat ini dan masa lalu",
               "Identifikasi persepsi pasien dan keluarga tentang diet yang diprogramkan",
-              "Identifikasi keterbatasan finansial untuk menyediakan makanan",
+              "Identifikasi keterbatasan finansial untuk menyediakan makanan"
+            ],
+            "terapeutik": [
               "Persiapkan materi dan media dan alat peraga",
               "Jadwalkan waktu yang tepat untuk memberikan Pendidikan Kesehatan",
               "Berikan kesempatan pasien dan keluarga bertanya",
               "Sediakan rencana makan tertulis, jika perlu",
+              "Rekomendasikan resep makanan yang sesuai dengan diet, jika perlu",
+              "Rujuk ke ahli  gizi dan sertakan keluarga, jika perlu"
+            ],
+            "edukasi": [
               "Jelaskan tujuan kepatuhan diet terhadap Kesehatan",
               "Informasikan makanan yang diperbolehkan dan dilarang",
               "Informasikan kemungkinan interaksi obat dan makanan, jika perlu",
@@ -1171,9 +1307,7 @@
               "Anjurkan mengganti bahan makanan sesuai dengan diet yang diprogramkan",
               "Anjurkan melakukan olahraga sesuai toleransi",
               "Ajarkan cara membaca label dan memilih makanan yang sesuai",
-              "Ajarkan cara merencanakan makanan yang sesuai program",
-              "Rekomendasikan resep makanan yang sesuai dengan diet, jika perlu",
-              "Rujuk ke ahli  gizi dan sertakan keluarga, jika perlu"
+              "Ajarkan cara merencanakan makanan yang sesuai program"
             ]
           }
         },
@@ -1181,18 +1315,22 @@
           "code": "I.03094",
           "name": "Konseling Nutrisi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kebiasaan makan dan perilaku makan yang akan diubah",
               "Identifikasi kemajuan modifikasi diet secara regular",
-              "Monitor intake dan output cairan, nilai hemoglobin, tekanan darah, kenaikan berat badan, dan kebiasaan membeli makanan",
+              "Monitor intake dan output cairan, nilai hemoglobin, tekanan darah, kenaikan berat badan, dan kebiasaan membeli makanan"
+            ],
+            "terapeutik": [
               "Bina hubungan terapeutik",
               "Sepakati lama waktu pemberian konseling",
               "Tetapkan tujuan jangka pendek dan jangka Panjang yang realistis",
               "Gunakan standar nutrisi sesuai program diet dalam mengevaluasi kecukupan asupan makanan",
               "Pertimbangkan faktor-faktor yang mempengaruhi pemenuhan kebutuhan gizi (mis. Usia, tahap pertumbuhan dan perkembangan, penyakit)",
-              "Informasikan perlunya modifikasi diet (misal: penurunan atau penambahan berat badan, pembatasan natrium atau cairan, pengurangan kolesterol",
-              "Jelaskan program gizi dan persepsi pasien terhadap diet yang diprogramkan",
               "Rujuk pada ahli gizi, jika perlu"
+            ],
+            "edukasi": [
+              "Informasikan perlunya modifikasi diet (misal: penurunan atau penambahan berat badan, pembatasan natrium atau cairan, pengurangan kolesterol",
+              "Jelaskan program gizi dan persepsi pasien terhadap diet yang diprogramkan"
             ]
           }
         }
@@ -1202,7 +1340,7 @@
     "D.0032": {
       "code": "D.0032",
       "name": "Risiko Defisit Nutrisi",
-      "definition": "Risiko defisit nutrisi merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami asupan nutrisi tidak cukup untuk...",
+      "definition": "Berisiko mengalami asupan nutrisi tidak cukup untuk memenuhi kebutuhan metabolisme",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -1229,18 +1367,24 @@
           "code": "I.03111",
           "name": "Manajemen Gangguan Makan",
           "tindakan": {
+            "observasi": [
+              "Monitor asupan dan keluarnya makanan dan cairan serta kebutuhan kalori"
+            ],
             "terapeutik": [
-              "Monitor asupan dan keluarnya makanan dan cairan serta kebutuhan kalori",
               "Timbang berat badan secara rutin",
-              "Diskusikan perilaku makan dan jumlah aktivitas fisik (termasuk olahraga) yang sesuai",
               "Lakukan kontrak perilaku (mis: target berat badan, tanggungjawab perilaku)",
               "Damping ke kamar mandi untuk pengamatan perilaku memuntahkan Kembali makanan",
               "Berikan penguatan positif terhadap keberhasilan target dan perubahan perilaku",
               "Berikan konsekuensi jika tidak mencapai target sesuai kontrak",
-              "Rencanakan program pengobatan untuk perawatan di rumah (mis: medis, konseling)",
+              "Rencanakan program pengobatan untuk perawatan di rumah (mis: medis, konseling)"
+            ],
+            "edukasi": [
+              "Diskusikan perilaku makan dan jumlah aktivitas fisik (termasuk olahraga) yang sesuai",
               "Anjurkan membuat catatan harian tentang perasaan dan situasi pemicu pengeluaran makanan (mis: pengeluaran yang disengaja, muntah, aktivitas berlebihan)",
               "Ajarkan pengaturan diet yang tepat",
-              "Ajarkan keterampilan koping untuk penyelesaian masalah perilaku  makan",
+              "Ajarkan keterampilan koping untuk penyelesaian masalah perilaku  makan"
+            ],
+            "kolaborasi": [
               "Kolaborasi dengan ahli  gizi tentang target berat badan, kebutuhan kalori dan pilihan makanan"
             ]
           }
@@ -1249,7 +1393,7 @@
           "code": "I.03119",
           "name": "Manajemen Nutrisi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi status nutrisi",
               "Identifikasi alergi dan intoleransi makanan",
               "Identifikasi makanan yang disukai",
@@ -1257,16 +1401,22 @@
               "Identifikasi perlunya penggunaan selang nasogastrik",
               "Monitor asupan makanan",
               "Monitor berat badan",
-              "Monitor hasil pemeriksaan laboratorium",
+              "Monitor hasil pemeriksaan laboratorium"
+            ],
+            "terapeutik": [
               "Lakukan oral hygiene sebelum makan, jika perlu",
               "Fasilitasi menentukan pedoman diet (mis: piramida makanan)",
               "Sajikan makanan secara menarik dan suhu yang sesuai",
               "Berikan makanan tinggi serat untuk mencegah konstipasi",
               "Berikan makanan tinggi kalori dan tinggi protein",
               "Berikan suplemen makanan, jika perlu",
-              "Hentikan pemberian makan melalui selang nasogastik jika asupan oral dapat ditoleransi",
+              "Hentikan pemberian makan melalui selang nasogastik jika asupan oral dapat ditoleransi"
+            ],
+            "edukasi": [
               "Ajarkan posisi duduk, jika mampu",
-              "Ajarkan diet yang diprogramkan",
+              "Ajarkan diet yang diprogramkan"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian medikasi sebelum makan (mis: Pereda nyeri, antiemetik), jika perlu",
               "Kolaborasi dengan ahli gizi untuk menentukan jumlah kalori dan jenis nutrien yang dibutuhkan, jika perlu"
             ]
@@ -1278,7 +1428,7 @@
     "D.0033": {
       "code": "D.0033",
       "name": "Risiko Disfungsi Motilitas Gastrointestinal",
-      "definition": "Risiko disfungsi motilitas gastrointestinal merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami peningkatan....",
+      "definition": "Berisiko mengalami peningkatan, penurunan, tidak efektifnya aktivitas peristaltik gastrointestinal",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -1319,16 +1469,22 @@
           "code": "I.12369",
           "name": "Edukasi Diet",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kemampuan pasien dan keluarga menerima informasi",
               "Identifikasi tingkat pengetahuan saat ini",
               "Identifikasi kebiasaan pola makan saat ini dan masa lalu",
               "Identifikasi persepsi pasien dan keluarga tentang diet yang diprogramkan",
-              "Identifikasi keterbatasan finansial untuk menyediakan makanan",
+              "Identifikasi keterbatasan finansial untuk menyediakan makanan"
+            ],
+            "terapeutik": [
               "Persiapkan materi dan media dan alat peraga",
               "Jadwalkan waktu yang tepat untuk memberikan Pendidikan Kesehatan",
               "Berikan kesempatan pasien dan keluarga bertanya",
               "Sediakan rencana makan tertulis, jika perlu",
+              "Rekomendasikan resep makanan yang sesuai dengan diet, jika perlu",
+              "Rujuk ke ahli  gizi dan sertakan keluarga, jika perlu"
+            ],
+            "edukasi": [
               "Jelaskan tujuan kepatuhan diet terhadap Kesehatan",
               "Informasikan makanan yang diperbolehkan dan dilarang",
               "Informasikan kemungkinan interaksi obat dan makanan, jika perlu",
@@ -1336,9 +1492,7 @@
               "Anjurkan mengganti bahan makanan sesuai dengan diet yang diprogramkan",
               "Anjurkan melakukan olahraga sesuai toleransi",
               "Ajarkan cara membaca label dan memilih makanan yang sesuai",
-              "Ajarkan cara merencanakan makanan yang sesuai program",
-              "Rekomendasikan resep makanan yang sesuai dengan diet, jika perlu",
-              "Rujuk ke ahli  gizi dan sertakan keluarga, jika perlu"
+              "Ajarkan cara merencanakan makanan yang sesuai program"
             ]
           }
         },
@@ -1346,14 +1500,18 @@
           "code": "I.01018",
           "name": "Pengontrolan Infeksi",
           "tindakan": {
+            "observasi": [
+              "Identifikasi pasien-pasien yang mengalami penyakit infeksi menular"
+            ],
             "terapeutik": [
-              "Identifikasi pasien-pasien yang mengalami penyakit infeksi menular",
               "Terapkan kewaspadaan universal (mis: cuci tangan aseptic, gunakan alat pelindung diri seperti masker, sarung tangan, pelindung wajah, pelindung mata, apron, sepatu bot sesuai model transmisi mikroorganisme)",
               "Tempatkan pada ruang isolasi bertekanan positif untuk pasien yang mengalami penurunan imunitas",
               "Tempatkan pada ruang isolasi bertekanan negatif untuk pasien dengan resiko penyebaran infeksi via droplet atau udara",
               "Sterilisasi dan desinfeksi alat-alat, furniture, lantai, sesuai kebutuhan",
               "Gunakan hepafilter pada area khusus (mis: kamar operasi)",
-              "Berikan tanda khusus untuk pasien-pasien dengan penyakit menular",
+              "Berikan tanda khusus untuk pasien-pasien dengan penyakit menular"
+            ],
+            "edukasi": [
               "Ajarkan cara mencuci tangan dengan benar",
               "Ajarkan etika batuk dan/atau bersin"
             ]
@@ -1365,7 +1523,7 @@
     "D.0034": {
       "code": "D.0034",
       "name": "Risiko Hipovolemia",
-      "definition": "Risiko hipovolemia merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami penurunan volume cairan intravaskular...",
+      "definition": "Berisiko mengalami penurunan volume cairan intravaskular, interstitial, dan/atau intraselular",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -1406,14 +1564,20 @@
           "code": "I.03116",
           "name": "Manajemen hipovolemia",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Periksa tanda dan gejala hipovolemia (mis: frekuensi nadi meningkat, nadi teraba lemah, tekanan darah menurun, tekanan nadi menyempit, turgor kulit menurun, membran mukosa kering, volume urin menurun, hematokrit meningkat, haus, lemah)",
-              "Monitor intake dan output cairan",
+              "Monitor intake dan output cairan"
+            ],
+            "terapeutik": [
               "Hitung kebutuhan cairan",
               "Berikan posisi modified Trendelenburg",
-              "Berikan asupan cairan oral",
+              "Berikan asupan cairan oral"
+            ],
+            "edukasi": [
               "Anjurkan memperbanyak asupan cairan oral",
-              "Anjurkan menghindari perubahan posisi mendadak",
+              "Anjurkan menghindari perubahan posisi mendadak"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian cairan IV isotonis (mis: NaCL, RL)",
               "Kolaborasi pemberian cairan IV hipotonis (mis: glukosa 2,5%, NaCl 0,4%)",
               "Kolaborasi pemberian cairan koloid (albumin, plasmanate)",
@@ -1425,7 +1589,7 @@
           "code": "I.03121",
           "name": "Pemantauan Cairan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor frekuensi dan kekuatan nadi",
               "Monitor frekuensi napas",
               "Monitor tekanan darah",
@@ -1438,11 +1602,15 @@
               "Monitor intake dan output cairan",
               "Identifikasi tanda-tanda hypovolemia (mis: frekuensi nadi meningkat, nadi teraba lemah, tekanan darah menurun, tekanan nadi menyempit, turgor kulit menurun, membran mukosa kering, volume urin menurun, hematokrit meningkat, hasil, lemah, konsentrasi urin meningkat, berat badan menurun dalam waktu singkat)",
               "Identifikasi tanda-tanda hypervolemia (mis: dispnea, edema perifer, edema anasarca, JVP meningkat, CVP meningkat, refleks hepatojugular positif, berat badan menurun dalam waktu singkat)",
-              "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)",
+              "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)"
+            ],
+            "terapeutik": [
               "Atur interval waktu pemantauan sesuai dengan kondisi pasien",
               "Dokumentasikan hasil pemantauan",
-              "Jelaskan tujuan dan prosedur pemantauan",
               "Dokumentasikan hasil pemantauan"
+            ],
+            "edukasi": [
+              "Jelaskan tujuan dan prosedur pemantauan"
             ]
           }
         }
@@ -1452,7 +1620,7 @@
     "D.0035": {
       "code": "D.0035",
       "name": "Risiko Ikterik Neonatus",
-      "definition": "Risiko ikterik neonatus merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami kulit dan membran mukosa neonatus...",
+      "definition": "Berisiko mengalami kulit dan membran mukosa neonatus menguning setelah 24 jam kelahiran akibat bilirubin tidak terkonjugasi masuk ke dalam sirkulasi",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -1478,8 +1646,10 @@
           "code": "I.10338",
           "name": "Perawatan Bayi",
           "tindakan": {
+            "observasi": [
+              "Monitor tanda-tanda vital bayi (terutama suhu 36°C – 37°C)"
+            ],
             "terapeutik": [
-              "Monitor tanda-tanda vital bayi (terutama suhu 36°C – 37°C)",
               "Mandikan bayi dengan suhu ruangan 21 – 24°C",
               "Mandikan bayi dalam waktu 5 – 10 menit dan 2 kali dalam sehari",
               "Rawat tali pusat secara terbuka (tali pusat tidak dibungkus apapun)",
@@ -1487,7 +1657,9 @@
               "Kenakan popok bayi di bawah umbilicus jika tali pusat belum terlepas",
               "Lakukan pemijatan bayi",
               "Ganti popok bayi jika basah",
-              "Kenakan pakaian bayi dari bahan katun",
+              "Kenakan pakaian bayi dari bahan katun"
+            ],
+            "edukasi": [
               "Anjurkan ibu menyusui sesuai kebutuhan bayi",
               "Ajarkan ibu cara merawat bayi di rumah",
               "Ajarkan cara pemberian makanan pendamping ASI pada bayi > 6 bulan"
@@ -1498,9 +1670,11 @@
           "code": "I.03132",
           "name": "Perawatan Neonatus",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kondisi awal bayi setelah lahir (mis: kecukupan bulan, air ketuban jernih atau bercampur meconium, menangis spontan, tonus otot)",
-              "Monitor tanda vital bayi (terutama suhu)",
+              "Monitor tanda vital bayi (terutama suhu)"
+            ],
+            "terapeutik": [
               "Lakukan inisiasi menyusui dini (IMD) segera setelah bayi lahir",
               "Berikan vitamin K 1 mg intramuskuler untuk mencegah perdarahan",
               "Mandikan selama 5 – 10 menit, minimal sekali sehari",
@@ -1511,7 +1685,9 @@
               "Bersihkan tali pusat dengan air steril atau air matang",
               "Kenakan pakaian dari bahan katun",
               "Selimuti untuk mempertahankan kehangatan dan mencegah hipotermia",
-              "Ganti popok segera setelah basah",
+              "Ganti popok segera setelah basah"
+            ],
+            "edukasi": [
               "Anjurkan tidak membubuhi apapun pada tali pusat",
               "Anjurkan ibu menyusui bayi setiap 2 jam",
               "Anjurkan menyendawakan bayi setelah disusui",
@@ -1525,7 +1701,7 @@
     "D.0036": {
       "code": "D.0036",
       "name": "Risiko Ketidakseimbangan Cairan",
-      "definition": "Risiko ketidakseimbangan cairan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami penurunan, peningkatan...",
+      "definition": "Berisiko mengalami penurunan, peningkatan, atau percepatan perpindahan cairan dari intravaskuler, interstitial, atau intraseluler",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -1563,15 +1739,19 @@
           "code": "I.03098",
           "name": "Manajemen Cairan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor status hidrasi (mis: frekuensi nadi, kekuatan nadi, akral, pengisian kapiler, kelembaban mukosa, turgor kulit, tekanan darah)",
               "Monitor berat badan harian",
               "Monitor berat badan sebelum dan sesudah dialisis",
               "Monitor hasil pemeriksaan laboratorium (mis: hematokrit, Na, K, Cl, berat jenis urin, BUN)",
-              "Monitor status hemodinamik (mis: MAP, CVP, PAP, PCWP, jika tersedia)",
+              "Monitor status hemodinamik (mis: MAP, CVP, PAP, PCWP, jika tersedia)"
+            ],
+            "terapeutik": [
               "Catat intake-output dan hitung balans cairan 24 jam",
               "Berikan asupan cairan, sesuai kebutuhan",
-              "Berikan cairan intravena, jika perlu",
+              "Berikan cairan intravena, jika perlu"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian diuretik, jika perlu"
             ]
           }
@@ -1580,7 +1760,7 @@
           "code": "I.03121",
           "name": "Pemantauan Cairan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor frekuensi dan kekuatan nadi",
               "Monitor frekuensi napas",
               "Monitor tekanan darah",
@@ -1593,11 +1773,15 @@
               "Monitor intake dan output cairan",
               "Identifikasi tanda-tanda hypovolemia (mis: frekuensi nadi meningkat, nadi teraba lemah, tekanan darah menurun, tekanan nadi menyempit, turgor kulit menurun, membran mukosa kering, volume urin menurun, hematokrit meningkat, hasil, lemah, konsentrasi urin meningkat, berat badan menurun dalam waktu singkat)",
               "Identifikasi tanda-tanda hypervolemia (mis: dispnea, edema perifer, edema anasarca, JVP meningkat, CVP meningkat, refleks hepatojugular positif, berat badan menurun dalam waktu singkat)",
-              "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)",
+              "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)"
+            ],
+            "terapeutik": [
               "Atur interval waktu pemantauan sesuai dengan kondisi pasien",
               "Dokumentasikan hasil pemantauan",
-              "Jelaskan tujuan dan prosedur pemantauan",
               "Dokumentasikan hasil pemantauan"
+            ],
+            "edukasi": [
+              "Jelaskan tujuan dan prosedur pemantauan"
             ]
           }
         }
@@ -1607,7 +1791,7 @@
     "D.0037": {
       "code": "D.0037",
       "name": "Risiko Ketidakseimbangan Elektrolit",
-      "definition": "Risiko ketidakseimbangan elektrolit merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami perubahan kadar serum...",
+      "definition": "Berisiko mengalami perubahan kadar serum elektrolit",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -1636,7 +1820,7 @@
           "code": "I.03122",
           "name": "Pemantauan Elektrolit",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor kemungkinan penyebab ketidakseimbangan elektrolit",
               "Monitor kadar elektrolit serum",
               "Monitor mual, muntah, diare",
@@ -1648,9 +1832,13 @@
               "Monitor tanda dan gejala hipokalsemia (mis: peka rangsang, tanda Chvostek [spasme otot wajah] dan tanda Trousseau [spasme karpal], kram otot, interval QT memanjang)",
               "Monitor tanda dan gejala hiperkalsemia (mis: nyeri tulang, haus, anoreksia, letargi, kelemahan otot, segmen QT memendek, gelombang T lebar, komplek QRS lebar, interval PR memanjang)",
               "Monitor tanda dan gejala hypomagnesemia (mis: depresi pernapasan, apatis, tanda Chvostek, tanda Trousseau, konfusi, disritmia)",
-              "Monitor tanda gan gejala hypermagnesemia (mis: kelemahan otot, hiporefleks, bradikardia, depresi SSP, letargi, koma, depresi)",
+              "Monitor tanda gan gejala hypermagnesemia (mis: kelemahan otot, hiporefleks, bradikardia, depresi SSP, letargi, koma, depresi)"
+            ],
+            "terapeutik": [
               "Atur interval waktu pemantauan sesuai dengan kondisi pasien",
-              "Dokumentasikan hasil pemantauan",
+              "Dokumentasikan hasil pemantauan"
+            ],
+            "edukasi": [
               "Jelaskan tujuan dan prosedur pemantauan",
               "Informasikan hasil pemantauan, jika perlu"
             ]
@@ -1695,21 +1883,27 @@
           "code": "I.03115",
           "name": "Manajemen Hiperglikemia",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kemungkinan penyebab hiperglikemia",
               "Identifikasi situasi yang menyebabkan kebutuhan insulin meningkat (mis: penyakit kambuhan)",
               "Monitor kadar glukosa darah, jika perlu",
               "Monitor tanda dan gejala hiperglikemia (mis: polyuria, polydipsia, polifagia, kelemahan, malaise, pandangan kabur, sakit kepala)",
               "Monitor intake dan output cairan",
-              "Monitor keton urin, kadar Analisa gas darah, elektrolit, tekanan darah ortostatik dan frekuensi nadi",
+              "Monitor keton urin, kadar Analisa gas darah, elektrolit, tekanan darah ortostatik dan frekuensi nadi"
+            ],
+            "terapeutik": [
               "Berikan asupan cairan oral",
               "Konsultasi dengan medis jika tanda dan gejala hiperglikemia tetap ada atau memburuk",
-              "Fasilitasi ambulasi jika ada hipotensi ortostatik",
+              "Fasilitasi ambulasi jika ada hipotensi ortostatik"
+            ],
+            "edukasi": [
               "Anjurkan menghindari olahraga saat kadar glukosa darah lebih dari 250 mg/dL",
               "Anjurkan monitor kadar glukosa darah secara mandiri",
               "Anjurkan kepatuhan terhadap diet dan olahraga",
               "Ajarkan indikasi dan pentingnya pengujian keton urin, jika perlu",
-              "Ajarkan pengelolaan diabetes (mis: penggunaan insulin, obat oral, monitor asupan cairan, penggantian karbohidrat, dan bantuan professional  kesehatan",
+              "Ajarkan pengelolaan diabetes (mis: penggunaan insulin, obat oral, monitor asupan cairan, penggantian karbohidrat, dan bantuan professional  kesehatan"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian insulin, jika perlu",
               "Kolaborasi pemberian cairan IV, jika perlu",
               "Kolaborasi pemberian kalium, jika perlu"
@@ -1720,22 +1914,28 @@
           "code": "I.03115",
           "name": "Manajemen Hipoglikemia",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi tanda dan gejala hipoglikemia",
-              "Identifikasi kemungkinan penyebab hipoglikemia",
+              "Identifikasi kemungkinan penyebab hipoglikemia"
+            ],
+            "terapeutik": [
               "Berikan karbohidrat sederhana, jika perlu",
               "Berikan glucagon, jika perlu",
               "Berikan karbohidrat kompleks dan protein sesuai diet",
               "Pertahankan kepatenan jalan napas",
               "Pertahankan akses IV, jika perlu",
-              "Hubungi layanan medis darurat, jika perlu",
+              "Hubungi layanan medis darurat, jika perlu"
+            ],
+            "edukasi": [
               "Anjurkan membawa karbohidrat sederhana setiap saat",
               "Anjurkan memakai identitas darurat yang tepat",
               "Anjurkan monitor kadar glukosa darah",
               "Anjurkan berdiskusi dengan tim perawatan diabetes tentang penyesuaian program pengobatan",
               "Jelaskan interaksi antara diet, insulin/agen oral, dan olahraga",
               "Ajarkan pengelolaan hipoglikemia (mis: tanda dan gejala, faktor risiko, dan pengobatan hipoglikemia)",
-              "Ajarkan perawatan mandiri untuk mencegah hipoglikemia (mis: mengurangi insulin/agen oral dan/atau meningkatkan asupan makanan untuk berolahraga)",
+              "Ajarkan perawatan mandiri untuk mencegah hipoglikemia (mis: mengurangi insulin/agen oral dan/atau meningkatkan asupan makanan untuk berolahraga)"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian dekstrose, jika perlu",
               "Kolaborasi pemberian glukagon, jika perlu"
             ]
@@ -1783,22 +1983,28 @@
           "code": "I.02068",
           "name": "Pencegahan Syok",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor status kardiopulmonal (frekuensi dan kekuatan nadi, frekuensi napas, TD, MAP)",
               "Monitor status oksigenasi (oksimetri nadi, AGD)",
               "Monitor status cairan (masukan dan haluaran, turgor kulit, CRT)",
               "Monitor tingkat kesadaran dan respon pupil",
-              "Periksa Riwayat alergi",
+              "Periksa Riwayat alergi"
+            ],
+            "terapeutik": [
               "Berikan oksigen untuk mempertahankan saturasi oksigen > 94%",
               "Persiapkan intubasi dan ventilasi mekanis, jika perlu",
               "Pasang jalur IV, jika perlu",
               "Pasang kateter urin untuk menilai produksi urin, jika perlu",
-              "Lakukan skin test untuk mencegah reaksi alergi",
+              "Lakukan skin test untuk mencegah reaksi alergi"
+            ],
+            "edukasi": [
               "Jelaskan penyebab/faktor risiko syok",
               "Jelaskan tanda dan gejala awal syok",
               "Anjurkan melapor jika menemukan/merasakan tanda dan gejala awal syok",
               "Anjurkan memperbanyak asupan cairan oral",
-              "Anjurkan menghindari alergen",
+              "Anjurkan menghindari alergen"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian IV, jika perlu",
               "Kolaborasi pemberian transfusi darah, jika perlu",
               "Kolaborasi pemberian antiinflamasi, jika perlu"
@@ -1809,7 +2015,7 @@
           "code": "I.03121",
           "name": "Pemantauan Cairan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor frekuensi dan kekuatan nadi",
               "Monitor frekuensi napas",
               "Monitor tekanan darah",
@@ -1822,11 +2028,15 @@
               "Monitor intake dan output cairan",
               "Identifikasi tanda-tanda hypovolemia (mis: frekuensi nadi meningkat, nadi teraba lemah, tekanan darah menurun, tekanan nadi menyempit, turgor kulit menurun, membran mukosa kering, volume urin menurun, hematokrit meningkat, hasil, lemah, konsentrasi urin meningkat, berat badan menurun dalam waktu singkat)",
               "Identifikasi tanda-tanda hypervolemia (mis: dispnea, edema perifer, edema anasarca, JVP meningkat, CVP meningkat, refleks hepatojugular positif, berat badan menurun dalam waktu singkat)",
-              "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)",
+              "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)"
+            ],
+            "terapeutik": [
               "Atur interval waktu pemantauan sesuai dengan kondisi pasien",
               "Dokumentasikan hasil pemantauan",
-              "Jelaskan tujuan dan prosedur pemantauan",
               "Dokumentasikan hasil pemantauan"
+            ],
+            "edukasi": [
+              "Jelaskan tujuan dan prosedur pemantauan"
             ]
           }
         }

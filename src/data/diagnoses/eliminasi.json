@@ -53,16 +53,20 @@
           "code": "I.11349",
           "name": "Dukungan Perawatan Diri: BAB/BAK",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kebiasaan BAB/BAK sesuai usia",
-              "Monitor integritas kulit pasien",
+              "Monitor integritas kulit pasien"
+            ],
+            "terapeutik": [
               "Buka pakaian yang diperlukan untuk memudahkan eliminasi",
               "Dukung penggunaan toilet/commode/pispot/urinal secara konsisten",
               "Jaga privasi selama eliminasi",
               "Ganti pakaian pasien setelah eliminasi, jika perlu",
               "Bersihkan alat bantu BAK/BAB setelah digunakan",
               "Latih BAK/BAB sesuai jadwal, jika perlu",
-              "Sediakan alat bantu (mis. kateter eksternal, urinal), jika perlu",
+              "Sediakan alat bantu (mis. kateter eksternal, urinal), jika perlu"
+            ],
+            "edukasi": [
               "Anjurkan BAK/BAB secara rutin",
               "Anjurkan ke kamar mandi/toilet, jika perlu"
             ]
@@ -72,20 +76,26 @@
           "code": "I.04152",
           "name": "Manajemen Eliminasi Urin",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi tanda dan gejala retensi atau inkontinensia urin",
               "Identifikasi faktor yang menyebabkan retensi atau inkontinensia urin",
-              "Monitor eliminasi urin (mis. frekuensi, konsistensi, aroma, volume, dan warna)",
+              "Monitor eliminasi urin (mis. frekuensi, konsistensi, aroma, volume, dan warna)"
+            ],
+            "terapeutik": [
               "Catat waktu-waktu dan haluaran berkemih",
               "Batasi asupan cairan, jika perlu",
-              "Ambil sampel urin tengah (midstream) atau kultur",
+              "Ambil sampel urin tengah (midstream) atau kultur"
+            ],
+            "edukasi": [
               "Ajarkan tanda dan gejala infeksi saluran berkemih",
               "Ajarkan mengukur asupan cairan dan haluaran urin",
               "Ajarkan mengambil spesimen urin midstream",
               "Ajarkan mengenali tanda berkemih dan waktu yang tepat untuk berkemih",
               "Ajarkan terapi modalitas penguatan otot-otot panggul/berkemihan",
               "Anjurkan minum yang cukup, jika tidak ada kontraindikasi",
-              "Anjurkan mengurangi minum menjelang tidur",
+              "Anjurkan mengurangi minum menjelang tidur"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian obat supositoria uretra, jika perlu"
             ]
           }
@@ -94,14 +104,18 @@
           "code": "I.01018",
           "name": "Pengontrolan Infeksi",
           "tindakan": {
+            "observasi": [
+              "Identifikasi pasien-pasien yang mengalami penyakit infeksi menular"
+            ],
             "terapeutik": [
-              "Identifikasi pasien-pasien yang mengalami penyakit infeksi menular",
               "Terapkan kewaspadaan universal (mis: cuci tangan aseptic, gunakan alat pelindung diri seperti masker, sarung tangan, pelindung wajah, pelindung mata, apron, sepatu bot sesuai model transmisi mikroorganisme)",
               "Tempatkan pada ruang isolasi bertekanan positif untuk pasien yang mengalami penurunan imunitas",
               "Tempatkan pada ruang isolasi bertekanan negatif untuk pasien dengan resiko penyebaran infeksi via droplet atau udara",
               "Sterilisasi dan desinfeksi alat-alat, furniture, lantai, sesuai kebutuhan",
               "Gunakan hepafilter pada area khusus (mis: kamar operasi)",
-              "Berikan tanda khusus untuk pasien-pasien dengan penyakit menular",
+              "Berikan tanda khusus untuk pasien-pasien dengan penyakit menular"
+            ],
+            "edukasi": [
               "Ajarkan cara mencuci tangan dengan benar",
               "Ajarkan etika batuk dan/atau bersin"
             ]
@@ -113,7 +127,7 @@
     "D.0041": {
       "code": "D.0041",
       "name": "Inkontinensia Fekal",
-      "definition": "Inkontinensia fekal merupakan diagnosis keperawatan yang didefinisikan sebagai perubahan kebiasaan buang air besar dari pola normal yang...",
+      "definition": "Pengeluaran feses yang tidak terkendali",
       "signs_and_symptoms": {
         "subjective": [
           "Tidak mampu mengontrol pengeluaran feses",
@@ -148,16 +162,22 @@
           "code": "I.04150",
           "name": "Latihan eliminasi fekal",
           "tindakan": {
+            "observasi": [
+              "Monitor peristaltik usus secara teratur"
+            ],
             "terapeutik": [
-              "Monitor peristaltik usus secara teratur",
-              "Anjurkan waktu yang konsisten untuk buang air besar",
               "Berikan privasi, kenyamanan, dan posisi yang meningkatkan proses defekasi",
               "Gunakan enema rendah, jika perlu",
+              "Ubah program Latihan eliminasi fekal, jika perlu"
+            ],
+            "edukasi": [
+              "Anjurkan waktu yang konsisten untuk buang air besar",
               "Anjurkan dilatasi rektal digital, jika perlu",
-              "Ubah program Latihan eliminasi fekal, jika perlu",
               "Anjurkan mengkonsumsi makanan tertentu, sesuai program, atau hasil konsultasi",
               "Anjurkan asupan cairan yang adekuat sesuai kebutuhan",
-              "Anjurkan olahraga sesuai toleransi",
+              "Anjurkan olahraga sesuai toleransi"
+            ],
+            "kolaborasi": [
               "Kolaborasi penggunaan supositoria, jika perlu"
             ]
           }
@@ -166,21 +186,27 @@
           "code": "I.04162",
           "name": "Perawatan Inkontinensia Fekal",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi penyebab inkontinensia fekal baik fisik maupun psikologis (mis: gangguan saraf motoric bawah, penurunan tonus otot, gangguan sfingter rectum, diare kronis, gangguan kognitif, stress berlebihan)",
               "Identifikasi perubahan frekuensi defekasi dan konsistensi feses",
               "Monitor kondisi kulit perianal",
               "Monitor keadekuatan evakuasi feses",
               "Monitor diet dan kebutuhan cairan",
-              "Monitor efek samping pemberian obat",
+              "Monitor efek samping pemberian obat"
+            ],
+            "terapeutik": [
               "Bersihkan daerah perianal dengan sabun dan air",
               "Jaga kebersihan tempat tidur dan pakaian",
               "Laksanakan program Latihan usus (bowel training), jika perlu",
               "Jadwalkan BAB di tempat tidur, jika perlu",
               "Berikan celana pelindung/pembalut/popok, sesuai kebutuhan",
-              "Hindari makanan yang menyebabkan diare",
+              "Hindari makanan yang menyebabkan diare"
+            ],
+            "edukasi": [
               "Jelaskan definisi, jenis inkontinensia, penyebab inkontinensia fekal",
-              "Anjurkan mencatat karakteristik feses",
+              "Anjurkan mencatat karakteristik feses"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian obat diare (mis: Ioperamide, atropine)"
             ]
           }
@@ -227,8 +253,10 @@
           "code": "I.04148",
           "name": "Kateterisasi Urin",
           "tindakan": {
+            "observasi": [
+              "Periksa kondisi pasien (mis: kesadaran, tanda-tanda vital, daerah perineal, distensi kandung kemih, inkontinensia urin, refleks berkemih)"
+            ],
             "terapeutik": [
-              "Periksa kondisi pasien (mis: kesadaran, tanda-tanda vital, daerah perineal, distensi kandung kemih, inkontinensia urin, refleks berkemih)",
               "Siapkan peralatan, bahan-bahan, dan ruangan Tindakan",
               "Siapkan pasien: bebaskan pakaian bawah dan posisikan dorsal rekumben (untuk Wanita) dan supine (untuk laki-laki)",
               "Pasang sarung tangan",
@@ -238,7 +266,9 @@
               "Isi balon dengan NaCl 0,9% sesuai anjuran pabrik",
               "Fiksasi selang kateter diatas simpisis atau di paha",
               "Pastikan urin bag ditempatkan lebih rendah dari kandung kemih",
-              "Berikan label waktu pemasangan",
+              "Berikan label waktu pemasangan"
+            ],
+            "edukasi": [
               "Jelaskan tujuan dan prosedur pemasangan kateter urin",
               "Anjurkan menarik napas saat insersi selang kateter"
             ]
@@ -248,14 +278,19 @@
           "code": "I.04163",
           "name": "Perawatan Inkontinensia Urin",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi penyebab inkontinensia urin (mis: disfungsi neurologis, gangguan medulla spinalis, gangguan refleks destrusor, obat-obatan, usia, Riwayat operasi, gangguan fungsi kognitif)",
               "Identifikasi perasaan dan persepsi pasien terhadap inkontinensia urin yang dialaminya",
-              "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih",
+              "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih"
+            ],
+            "terapeutik": [
               "Bersihkan daerah genital dan kulit sekitar secara rutin",
               "Berikan pujian atas keberhasilan mencegah inkontinensia",
               "Buat jadwal konsumsi obat-obat diuretik",
               "Ambil sampel urin untuk pemeriksaan urin lengkap atau kultur",
+              "Rujuk ke ahli inkontinensia, jika perlu"
+            ],
+            "edukasi": [
               "Jelaskan definisi, jenis inkontinensia, penyebab inkontinensia urin",
               "Jelaskan program penanganan inkontinensia urin",
               "Jelaskan jenis pakaian dan lingkungan yang mendukung proses berkemih",
@@ -263,8 +298,7 @@
               "Ajarkan memantau cairan keluar dan masuk serta pola eliminasi urin",
               "Anjurkan minum minimal 1500 cc/hari, jika tidak ada kontraindikasi",
               "Anjurkan menghindari kopi, minuman bersoda, teh dan cokelat",
-              "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi",
-              "Rujuk ke ahli inkontinensia, jika perlu"
+              "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi"
             ]
           }
         }
@@ -274,7 +308,7 @@
     "D.0043": {
       "code": "D.0043",
       "name": "Inkontinensia Urin Berlebih",
-      "definition": "Inkontinensia urin berlebih merupakan diagnosis keperawatan yang didefinisikan sebagai kehilangan urin yang tidak terkendali akibat ...",
+      "definition": "Pengeluaran urin berlebihan yang tidak terkendali",
       "signs_and_symptoms": {
         "subjective": [
           "Residu volume urin setelah berkemih atau keluhan kebocoran sedikit urin",
@@ -310,8 +344,10 @@
           "code": "I.04148",
           "name": "Kateterisasi Urin",
           "tindakan": {
+            "observasi": [
+              "Periksa kondisi pasien (mis: kesadaran, tanda-tanda vital, daerah perineal, distensi kandung kemih, inkontinensia urin, refleks berkemih)"
+            ],
             "terapeutik": [
-              "Periksa kondisi pasien (mis: kesadaran, tanda-tanda vital, daerah perineal, distensi kandung kemih, inkontinensia urin, refleks berkemih)",
               "Siapkan peralatan, bahan-bahan, dan ruangan Tindakan",
               "Siapkan pasien: bebaskan pakaian bawah dan posisikan dorsal rekumben (untuk Wanita) dan supine (untuk laki-laki)",
               "Pasang sarung tangan",
@@ -321,7 +357,9 @@
               "Isi balon dengan NaCl 0,9% sesuai anjuran pabrik",
               "Fiksasi selang kateter diatas simpisis atau di paha",
               "Pastikan urin bag ditempatkan lebih rendah dari kandung kemih",
-              "Berikan label waktu pemasangan",
+              "Berikan label waktu pemasangan"
+            ],
+            "edukasi": [
               "Jelaskan tujuan dan prosedur pemasangan kateter urin",
               "Anjurkan menarik napas saat insersi selang kateter"
             ]
@@ -331,14 +369,19 @@
           "code": "I.04163",
           "name": "Perawatan Inkontinensia Urin",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi penyebab inkontinensia urin (mis: disfungsi neurologis, gangguan medulla spinalis, gangguan refleks destrusor, obat-obatan, usia, Riwayat operasi, gangguan fungsi kognitif)",
               "Identifikasi perasaan dan persepsi pasien terhadap inkontinensia urin yang dialaminya",
-              "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih",
+              "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih"
+            ],
+            "terapeutik": [
               "Bersihkan daerah genital dan kulit sekitar secara rutin",
               "Berikan pujian atas keberhasilan mencegah inkontinensia",
               "Buat jadwal konsumsi obat-obat diuretik",
               "Ambil sampel urin untuk pemeriksaan urin lengkap atau kultur",
+              "Rujuk ke ahli inkontinensia, jika perlu"
+            ],
+            "edukasi": [
               "Jelaskan definisi, jenis inkontinensia, penyebab inkontinensia urin",
               "Jelaskan program penanganan inkontinensia urin",
               "Jelaskan jenis pakaian dan lingkungan yang mendukung proses berkemih",
@@ -346,8 +389,7 @@
               "Ajarkan memantau cairan keluar dan masuk serta pola eliminasi urin",
               "Anjurkan minum minimal 1500 cc/hari, jika tidak ada kontraindikasi",
               "Anjurkan menghindari kopi, minuman bersoda, teh dan cokelat",
-              "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi",
-              "Rujuk ke ahli inkontinensia, jika perlu"
+              "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi"
             ]
           }
         }
@@ -357,7 +399,7 @@
     "D.0044": {
       "code": "D.0044",
       "name": "Inkontinensia Urin Fungsional",
-      "definition": "Inkontinensia urin fungsional merupakan diagnosis keperawatan yang didefinisikan sebagai pengeluaran urin tidak terkendali karena...",
+      "definition": "Pengeluaran urin yang tidak terkendali akibat hambatan fungsional",
       "signs_and_symptoms": {
         "subjective": [
           "Mengompol sebelum mencapai atau selama usaha mencapai toilet"
@@ -395,12 +437,16 @@
           "code": "I.04149",
           "name": "Latihan Berkemih",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Periksa kembali penyebab gangguan berkemih (mis: kognitif, kehilangan ekstremitas/fungsi ekstremitas, kehilangan penglihatan)",
-              "Monitor pola dan kemampuan berkemih",
+              "Monitor pola dan kemampuan berkemih"
+            ],
+            "terapeutik": [
               "Hindari penggunaan kateter indwelling",
               "Siapkan area toilet yang aman",
-              "Sediakan peralatan yang dibutuhkan dekat dan mudah dijangkau (mis: kursi komode, pispot, urinal)",
+              "Sediakan peralatan yang dibutuhkan dekat dan mudah dijangkau (mis: kursi komode, pispot, urinal)"
+            ],
+            "edukasi": [
               "Jelaskan arah-arah menuju kamar mandi/toilet pada pasien dengan gangguan penglihatan",
               "Anjurkan intake cairan adekuat untuk mendukung output urin",
               "Anjurkan aliminasi normal dengan beraktivitas dan olahraga sesuai kemampuan"
@@ -411,14 +457,19 @@
           "code": "I.04163",
           "name": "Perawatan Inkontinensia Urin",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi penyebab inkontinensia urin (mis: disfungsi neurologis, gangguan medulla spinalis, gangguan refleks destrusor, obat-obatan, usia, Riwayat operasi, gangguan fungsi kognitif)",
               "Identifikasi perasaan dan persepsi pasien terhadap inkontinensia urin yang dialaminya",
-              "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih",
+              "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih"
+            ],
+            "terapeutik": [
               "Bersihkan daerah genital dan kulit sekitar secara rutin",
               "Berikan pujian atas keberhasilan mencegah inkontinensia",
               "Buat jadwal konsumsi obat-obat diuretik",
               "Ambil sampel urin untuk pemeriksaan urin lengkap atau kultur",
+              "Rujuk ke ahli inkontinensia, jika perlu"
+            ],
+            "edukasi": [
               "Jelaskan definisi, jenis inkontinensia, penyebab inkontinensia urin",
               "Jelaskan program penanganan inkontinensia urin",
               "Jelaskan jenis pakaian dan lingkungan yang mendukung proses berkemih",
@@ -426,8 +477,7 @@
               "Ajarkan memantau cairan keluar dan masuk serta pola eliminasi urin",
               "Anjurkan minum minimal 1500 cc/hari, jika tidak ada kontraindikasi",
               "Anjurkan menghindari kopi, minuman bersoda, teh dan cokelat",
-              "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi",
-              "Rujuk ke ahli inkontinensia, jika perlu"
+              "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi"
             ]
           }
         }
@@ -437,7 +487,7 @@
     "D.0045": {
       "code": "D.0045",
       "name": "Inkontinensia Urin Refleks",
-      "definition": "Inkontinensia urin refleks merupakan diagnosis keperawatan yang didefinisikan sebagai pengeluaran urin yang tidak terkendali pada saat ...",
+      "definition": "Pengeluaran urin yang tidak terkendali karena refleks spinal",
       "signs_and_symptoms": {
         "subjective": [
           "Tidak mengalami sensasi berkemih",
@@ -475,8 +525,10 @@
           "code": "I.04148",
           "name": "Kateterisasi Urin",
           "tindakan": {
+            "observasi": [
+              "Periksa kondisi pasien (mis: kesadaran, tanda-tanda vital, daerah perineal, distensi kandung kemih, inkontinensia urin, refleks berkemih)"
+            ],
             "terapeutik": [
-              "Periksa kondisi pasien (mis: kesadaran, tanda-tanda vital, daerah perineal, distensi kandung kemih, inkontinensia urin, refleks berkemih)",
               "Siapkan peralatan, bahan-bahan, dan ruangan Tindakan",
               "Siapkan pasien: bebaskan pakaian bawah dan posisikan dorsal rekumben (untuk Wanita) dan supine (untuk laki-laki)",
               "Pasang sarung tangan",
@@ -486,7 +538,9 @@
               "Isi balon dengan NaCl 0,9% sesuai anjuran pabrik",
               "Fiksasi selang kateter diatas simpisis atau di paha",
               "Pastikan urin bag ditempatkan lebih rendah dari kandung kemih",
-              "Berikan label waktu pemasangan",
+              "Berikan label waktu pemasangan"
+            ],
+            "edukasi": [
               "Jelaskan tujuan dan prosedur pemasangan kateter urin",
               "Anjurkan menarik napas saat insersi selang kateter"
             ]
@@ -496,14 +550,19 @@
           "code": "I.04163",
           "name": "Perawatan Inkontinensia Urin",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi penyebab inkontinensia urin (mis: disfungsi neurologis, gangguan medulla spinalis, gangguan refleks destrusor, obat-obatan, usia, Riwayat operasi, gangguan fungsi kognitif)",
               "Identifikasi perasaan dan persepsi pasien terhadap inkontinensia urin yang dialaminya",
-              "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih",
+              "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih"
+            ],
+            "terapeutik": [
               "Bersihkan daerah genital dan kulit sekitar secara rutin",
               "Berikan pujian atas keberhasilan mencegah inkontinensia",
               "Buat jadwal konsumsi obat-obat diuretik",
               "Ambil sampel urin untuk pemeriksaan urin lengkap atau kultur",
+              "Rujuk ke ahli inkontinensia, jika perlu"
+            ],
+            "edukasi": [
               "Jelaskan definisi, jenis inkontinensia, penyebab inkontinensia urin",
               "Jelaskan program penanganan inkontinensia urin",
               "Jelaskan jenis pakaian dan lingkungan yang mendukung proses berkemih",
@@ -511,8 +570,7 @@
               "Ajarkan memantau cairan keluar dan masuk serta pola eliminasi urin",
               "Anjurkan minum minimal 1500 cc/hari, jika tidak ada kontraindikasi",
               "Anjurkan menghindari kopi, minuman bersoda, teh dan cokelat",
-              "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi",
-              "Rujuk ke ahli inkontinensia, jika perlu"
+              "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi"
             ]
           }
         }
@@ -522,7 +580,7 @@
     "D.0046": {
       "code": "D.0046",
       "name": "Inkontinensia Urin Stres",
-      "definition": "Inkontinensia urin stres merupakan diagnosis keperawatan yang didefinisikan sebagai kebocoran urin mendadak dan tidak dapat...",
+      "definition": "Pengeluaran urin yang tidak terkendali saat aktivitas meningkat",
       "signs_and_symptoms": {
         "subjective": [
           "Mengeluh keluar urin < 50 ml saat tekanan abdominal meningkat (mis: saat berdiri, bersin, tertawa, berlari, atau mengangkat benda berat)"
@@ -558,15 +616,21 @@
           "code": "I.07215",
           "name": "Latihan Otot Panggul",
           "tindakan": {
+            "observasi": [
+              "Monitor pengeluaran urin"
+            ],
             "terapeutik": [
-              "Monitor pengeluaran urin",
-              "Berikan reinforcement positif selama melakukan Latihan dengan benar",
+              "Berikan reinforcement positif selama melakukan Latihan dengan benar"
+            ],
+            "edukasi": [
               "Anjurkan berbaring",
               "Anjurkan tidak mengkontraksikan perut, kaki, dan bokong saat melakukan Latihan otot panggul",
               "Anjurkan menambah durasi kontraksi-relaksasi 10 detik dengan siklus 10-20 kali, dilakukan 3-4 kali sehari",
               "Ajarkan mengkontraksikan sekitar otot uretra dan anus seperti menahan BAB/BAK selama 5 detik kemudian dikendurkan dan direlaksasikan dengan siklus 10 kali",
               "Ajarkan mengevaluasi Latihan yang dilakukan dengan cara menghentikan urin sesaat saat BAK, seminggu sekali.",
-              "Anjurkan Latihan selama 6-12 minggu",
+              "Anjurkan Latihan selama 6-12 minggu"
+            ],
+            "kolaborasi": [
               "Kolaborasi rehabilitasi medik untuk mengukur kekuatan kontraksi otot dasar panggul, jika perlu"
             ]
           }
@@ -575,14 +639,19 @@
           "code": "I.04163",
           "name": "Perawatan Inkontinensia Urin",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi penyebab inkontinensia urin (mis: disfungsi neurologis, gangguan medulla spinalis, gangguan refleks destrusor, obat-obatan, usia, Riwayat operasi, gangguan fungsi kognitif)",
               "Identifikasi perasaan dan persepsi pasien terhadap inkontinensia urin yang dialaminya",
-              "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih",
+              "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih"
+            ],
+            "terapeutik": [
               "Bersihkan daerah genital dan kulit sekitar secara rutin",
               "Berikan pujian atas keberhasilan mencegah inkontinensia",
               "Buat jadwal konsumsi obat-obat diuretik",
               "Ambil sampel urin untuk pemeriksaan urin lengkap atau kultur",
+              "Rujuk ke ahli inkontinensia, jika perlu"
+            ],
+            "edukasi": [
               "Jelaskan definisi, jenis inkontinensia, penyebab inkontinensia urin",
               "Jelaskan program penanganan inkontinensia urin",
               "Jelaskan jenis pakaian dan lingkungan yang mendukung proses berkemih",
@@ -590,8 +659,7 @@
               "Ajarkan memantau cairan keluar dan masuk serta pola eliminasi urin",
               "Anjurkan minum minimal 1500 cc/hari, jika tidak ada kontraindikasi",
               "Anjurkan menghindari kopi, minuman bersoda, teh dan cokelat",
-              "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi",
-              "Rujuk ke ahli inkontinensia, jika perlu"
+              "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi"
             ]
           }
         }
@@ -601,7 +669,7 @@
     "D.0047": {
       "code": "D.0047",
       "name": "Inkontinensia Urin Urgensi",
-      "definition": "Inkontinensia urin urgensi merupakan diagnosis keperawatan yang didefinisikan sebagai keluarnya urin tidak terkendali sesaat setelah...",
+      "definition": "Pengeluaran urin yang tidak terkendali karena rasa urgensi",
       "signs_and_symptoms": {
         "subjective": [
           "Keinginan berkemih yang kuat disertai dengan inkontinensia"
@@ -636,12 +704,16 @@
           "code": "I.04149",
           "name": "Latihan Berkemih",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Periksa kembali penyebab gangguan berkemih (mis: kognitif, kehilangan ekstremitas/fungsi ekstremitas, kehilangan penglihatan)",
-              "Monitor pola dan kemampuan berkemih",
+              "Monitor pola dan kemampuan berkemih"
+            ],
+            "terapeutik": [
               "Hindari penggunaan kateter indwelling",
               "Siapkan area toilet yang aman",
-              "Sediakan peralatan yang dibutuhkan dekat dan mudah dijangkau (mis: kursi komode, pispot, urinal)",
+              "Sediakan peralatan yang dibutuhkan dekat dan mudah dijangkau (mis: kursi komode, pispot, urinal)"
+            ],
+            "edukasi": [
               "Jelaskan arah-arah menuju kamar mandi/toilet pada pasien dengan gangguan penglihatan",
               "Anjurkan intake cairan adekuat untuk mendukung output urin",
               "Anjurkan aliminasi normal dengan beraktivitas dan olahraga sesuai kemampuan"
@@ -652,14 +724,19 @@
           "code": "I.04163",
           "name": "Perawatan Inkontinensia Urin",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi penyebab inkontinensia urin (mis: disfungsi neurologis, gangguan medulla spinalis, gangguan refleks destrusor, obat-obatan, usia, Riwayat operasi, gangguan fungsi kognitif)",
               "Identifikasi perasaan dan persepsi pasien terhadap inkontinensia urin yang dialaminya",
-              "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih",
+              "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih"
+            ],
+            "terapeutik": [
               "Bersihkan daerah genital dan kulit sekitar secara rutin",
               "Berikan pujian atas keberhasilan mencegah inkontinensia",
               "Buat jadwal konsumsi obat-obat diuretik",
               "Ambil sampel urin untuk pemeriksaan urin lengkap atau kultur",
+              "Rujuk ke ahli inkontinensia, jika perlu"
+            ],
+            "edukasi": [
               "Jelaskan definisi, jenis inkontinensia, penyebab inkontinensia urin",
               "Jelaskan program penanganan inkontinensia urin",
               "Jelaskan jenis pakaian dan lingkungan yang mendukung proses berkemih",
@@ -667,8 +744,7 @@
               "Ajarkan memantau cairan keluar dan masuk serta pola eliminasi urin",
               "Anjurkan minum minimal 1500 cc/hari, jika tidak ada kontraindikasi",
               "Anjurkan menghindari kopi, minuman bersoda, teh dan cokelat",
-              "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi",
-              "Rujuk ke ahli inkontinensia, jika perlu"
+              "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi"
             ]
           }
         }
@@ -678,7 +754,7 @@
     "D.0048": {
       "code": "D.0048",
       "name": "Kesiapan Peningkatan Eliminasi Urin",
-      "definition": "Kesiapan peningkatan eliminasi urin merupakan diagnosis keperawatan yang didefinisikan sebagai pola fungsi sistem perkemihan yang...",
+      "definition": "Pola eliminasi urin yang cukup dan dapat ditingkatkan",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": [
@@ -707,20 +783,26 @@
           "code": "I.04152",
           "name": "Manajemen Eliminasi Urin",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi tanda dan gejala retensi atau inkontinensia urin",
               "Identifikasi faktor yang menyebabkan retensi atau inkontinensia urin",
-              "Monitor eliminasi urin (mis. frekuensi, konsistensi, aroma, volume, dan warna)",
+              "Monitor eliminasi urin (mis. frekuensi, konsistensi, aroma, volume, dan warna)"
+            ],
+            "terapeutik": [
               "Catat waktu-waktu dan haluaran berkemih",
               "Batasi asupan cairan, jika perlu",
-              "Ambil sampel urin tengah (midstream) atau kultur",
+              "Ambil sampel urin tengah (midstream) atau kultur"
+            ],
+            "edukasi": [
               "Ajarkan tanda dan gejala infeksi saluran berkemih",
               "Ajarkan mengukur asupan cairan dan haluaran urin",
               "Ajarkan mengambil spesimen urin midstream",
               "Ajarkan mengenali tanda berkemih dan waktu yang tepat untuk berkemih",
               "Ajarkan terapi modalitas penguatan otot-otot panggul/berkemihan",
               "Anjurkan minum yang cukup, jika tidak ada kontraindikasi",
-              "Anjurkan mengurangi minum menjelang tidur",
+              "Anjurkan mengurangi minum menjelang tidur"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian obat supositoria uretra, jika perlu"
             ]
           }
@@ -731,7 +813,7 @@
     "D.0049": {
       "code": "D.0049",
       "name": "Konstipasi",
-      "definition": "Konstipasi merupakan diagnosis keperawatan yang didefinisikan sebagai penurunan defekasi normal yang disertai pengeluaran feses sulit dan...",
+      "definition": "Pengeluaran feses yang keras dan sulit",
       "signs_and_symptoms": {
         "subjective": [
           "Defekasi kurang dari 2 kali seminggu",
@@ -779,20 +861,26 @@
           "code": "I.04151",
           "name": "Manajemen Eliminasi Fekal",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi masalah usus dan penggunaan  obat pencahar",
               "Identifikasi pengobatan yang berefek pada kondisi gastrointestinal",
               "Monitor buang air besar (mis: warna, frekuensi, konsistensi, volume)",
-              "Monitor tanda dan gejala diare, konstipasi, atau impaksi",
+              "Monitor tanda dan gejala diare, konstipasi, atau impaksi"
+            ],
+            "terapeutik": [
               "Berikan air hangat setelah makan",
               "Jadwalkan waktu defekasi Bersama pasien",
-              "Sediakan makanan tinggi serat",
+              "Sediakan makanan tinggi serat"
+            ],
+            "edukasi": [
               "Jelaskan jenis makanan yang membantu meningkatkan keteraturan peristaltik usus",
               "Anjurkan mencatat warna, frekuensi, konsistensi, volume feses",
               "Anjurkan meningkatkan aktivitas fisik, sesuai toleransi",
               "Anjurkan pengurangan asupan makanan yang meningkatkan pembentukan gas",
               "Anjurkan mengkonsumsi makanan yang mengandung tinggi serat",
-              "Anjurkan meningkatkan asupan cairan, jika tidak ada kontraindikasi",
+              "Anjurkan meningkatkan asupan cairan, jika tidak ada kontraindikasi"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian obat supositoria anal, jika perlu"
             ]
           }
@@ -801,20 +889,26 @@
           "code": "I.04155",
           "name": "Manajemen Konstipasi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Periksa tanda dan gejala konstipasi",
               "Periksa pergerakan usus, karakteristik feses (konsistensi, bentuk, volume,  dan warna)",
               "Identifikasi faktor risiko konstipasi (mis: obat-obatan, tirah baring, dan diet rendah serat",
-              "Monitor tanda dan gejala rupture usus dan/atau peritonitis",
-              "Anjurkan diet tinggi serat",
+              "Monitor tanda dan gejala rupture usus dan/atau peritonitis"
+            ],
+            "terapeutik": [
               "Lakukan masase abdomen, jika perlu",
               "Lakukan evaluasi feses secara manual, jika perlu",
               "Berikan enema atau irigasi, jika perlu",
+              "Latih buang air besar secara teratur",
+              "Konsultasi dengan tim medis tentang penurunan/peningkatan frekuensi suara usus"
+            ],
+            "edukasi": [
+              "Anjurkan diet tinggi serat",
               "Jelaskan etiologi masalah dan alasan Tindakan",
               "Anjurkan peningkatan asupan cairan, jika tidak ada kontraindikasi",
-              "Latih buang air besar secara teratur",
-              "Ajarkan cara mengatasi konstipasi/impaksi",
-              "Konsultasi dengan tim medis tentang penurunan/peningkatan frekuensi suara usus",
+              "Ajarkan cara mengatasi konstipasi/impaksi"
+            ],
+            "kolaborasi": [
               "Kolaborasi penggunaan obat pencahar, jika perlu"
             ]
           }
@@ -862,8 +956,10 @@
           "code": "I.04148",
           "name": "Kateterisasi Urin",
           "tindakan": {
+            "observasi": [
+              "Periksa kondisi pasien (mis: kesadaran, tanda-tanda vital, daerah perineal, distensi kandung kemih, inkontinensia urin, refleks berkemih)"
+            ],
             "terapeutik": [
-              "Periksa kondisi pasien (mis: kesadaran, tanda-tanda vital, daerah perineal, distensi kandung kemih, inkontinensia urin, refleks berkemih)",
               "Siapkan peralatan, bahan-bahan, dan ruangan Tindakan",
               "Siapkan pasien: bebaskan pakaian bawah dan posisikan dorsal rekumben (untuk Wanita) dan supine (untuk laki-laki)",
               "Pasang sarung tangan",
@@ -873,7 +969,9 @@
               "Isi balon dengan NaCl 0,9% sesuai anjuran pabrik",
               "Fiksasi selang kateter diatas simpisis atau di paha",
               "Pastikan urin bag ditempatkan lebih rendah dari kandung kemih",
-              "Berikan label waktu pemasangan",
+              "Berikan label waktu pemasangan"
+            ],
+            "edukasi": [
               "Jelaskan tujuan dan prosedur pemasangan kateter urin",
               "Anjurkan menarik napas saat insersi selang kateter"
             ]
@@ -885,7 +983,7 @@
     "D.0051": {
       "code": "D.0051",
       "name": "Risiko Inkontinensia Urin Urgensi",
-      "definition": "Risiko inkontinensia urin urgensi merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami pengeluaran urin yang...",
+      "definition": "Berisiko mengalami pengeluaran urin yang tidak terkendali karena rasa urgensi",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -918,20 +1016,26 @@
           "code": "I.04152",
           "name": "Manajemen Eliminasi Urin",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi tanda dan gejala retensi atau inkontinensia urin",
               "Identifikasi faktor yang menyebabkan retensi atau inkontinensia urin",
-              "Monitor eliminasi urin (mis. frekuensi, konsistensi, aroma, volume, dan warna)",
+              "Monitor eliminasi urin (mis. frekuensi, konsistensi, aroma, volume, dan warna)"
+            ],
+            "terapeutik": [
               "Catat waktu-waktu dan haluaran berkemih",
               "Batasi asupan cairan, jika perlu",
-              "Ambil sampel urin tengah (midstream) atau kultur",
+              "Ambil sampel urin tengah (midstream) atau kultur"
+            ],
+            "edukasi": [
               "Ajarkan tanda dan gejala infeksi saluran berkemih",
               "Ajarkan mengukur asupan cairan dan haluaran urin",
               "Ajarkan mengambil spesimen urin midstream",
               "Ajarkan mengenali tanda berkemih dan waktu yang tepat untuk berkemih",
               "Ajarkan terapi modalitas penguatan otot-otot panggul/berkemihan",
               "Anjurkan minum yang cukup, jika tidak ada kontraindikasi",
-              "Anjurkan mengurangi minum menjelang tidur",
+              "Anjurkan mengurangi minum menjelang tidur"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian obat supositoria uretra, jika perlu"
             ]
           }
@@ -984,21 +1088,27 @@
           "code": "I.04160",
           "name": "Pencegahan Konstipasi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi faktor risiko konstipasi (mis: asupan serat tidak adekuat, asupan cairan tidak adekuat, aganglionik, kelemahan otot abdomen, aktivitas fisik kurang).",
               "Monitor tanda dan gejala konstipasi (mis: defekasi kurang 2 kali seminggu, defekasi lama/sulit, feses keras, peristaltik menurun)",
               "Identifikasi status kognitif untuk mengkomunikasikan kebutuhan",
-              "Identifikasi penggunaan obat-obatan yang menyebabkan konstipasi",
+              "Identifikasi penggunaan obat-obatan yang menyebabkan konstipasi"
+            ],
+            "terapeutik": [
               "Batasi minuman yang mengandung kafein dan alkohol",
               "Jadwalkan rutinitas BAK",
               "Lakukan masase abdomen",
-              "Berikan terapi akupresur",
+              "Berikan terapi akupresur"
+            ],
+            "edukasi": [
               "Jelaskan penyebab dan faktor risiko konstipasi",
               "Anjurkan minum air putih sesuai kebutuhan (1500 – 2000 ml/hari)",
               "Anjurkan mengkonsumsi makanan berserat (25 – 30 gram/hari)",
               "Anjurkan meningkatkan aktivitas fisik sesuai kebutuhan",
               "Anjurkan berjalan 15 – 20 menit 1 – 2 kali/hari",
-              "Anjurkan berjongkok untuk memfasilitasi proses BAB",
+              "Anjurkan berjongkok untuk memfasilitasi proses BAB"
+            ],
+            "kolaborasi": [
               "Kolaborasi dengan ahli gizi, jika perlu"
             ]
           }

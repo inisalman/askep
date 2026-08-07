@@ -5,7 +5,7 @@
     "D.0053": {
       "code": "D.0053",
       "name": "Disorganisasi Perilaku Bayi",
-      "definition": "Disorganisasi perilaku bayi merupakan diagnosis keperawatan yang didefinisikan sebagai disintegrasi respon fisiologis dan neurobehaviour...",
+      "definition": "Disintegrasi respon fisiologis dan neurobehaviour bayi terhadap lingkungan",
       "signs_and_symptoms": {
         "subjective": [
           "Tidak tersedia"
@@ -45,8 +45,10 @@
           "code": "I.10338",
           "name": "Perawatan Bayi",
           "tindakan": {
+            "observasi": [
+              "Monitor tanda-tanda vital bayi (terutama suhu 36°C – 37°C)"
+            ],
             "terapeutik": [
-              "Monitor tanda-tanda vital bayi (terutama suhu 36°C – 37°C)",
               "Mandikan bayi dengan suhu ruangan 21 – 24°C",
               "Mandikan  bayi dalam waktu 5 – 10 menit dan 2 kali dalam sehari",
               "Rawat tali pusat secara terbuka (tali pusat tidak dibungkus apapun)",
@@ -54,7 +56,9 @@
               "Kenakan popok bayi di bawah umbilicus jika tali pusat belum terlepas",
               "Lakukan pemijatan bayi",
               "Ganti popok bayi jika basah",
-              "Kenakan pakaian bayi dari bahan katun",
+              "Kenakan pakaian bayi dari bahan katun"
+            ],
+            "edukasi": [
               "Anjurkan ibu menyusui sesuai kebutuhan bayi",
               "Ajarkan ibu cara merawat bayi di rumah",
               "Ajarkan cara pemberian makanan pendamping ASI pada bayi > 6 bulan"
@@ -67,7 +71,7 @@
     "D.0054": {
       "code": "D.0054",
       "name": "Gangguan Mobilitas Fisik",
-      "definition": "Gangguan mobilitas fisik merupakan diagnosis keperawatan yang didefinisikan sebagai keterbatasan dalam gerakan fisik dari satu atau...",
+      "definition": "Keterbatasan dalam melakukan pergerakan fisik secara mandiri",
       "signs_and_symptoms": {
         "subjective": [
           "Mengeluh sulit menggerakkan ekstremitas"
@@ -114,13 +118,17 @@
           "code": "I.06171",
           "name": "Dukungan Ambulasi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi adanya nyeri atau keluhan fisik lainnya",
               "Identifikasi toleransi fisik melakukan ambulasi",
               "Monitor frekuensi jantung dan tekanan darah sebelum memulai ambulasi",
-              "Monitor kondisi umum selama melakukan ambulasi",
+              "Monitor kondisi umum selama melakukan ambulasi"
+            ],
+            "terapeutik": [
               "Fasilitasi aktivitas ambulasi dengan alat bantu (mis: tongkat, kruk)",
-              "Fasilitasi melakukan mobilisasi  fisik, jika perlu",
+              "Fasilitasi melakukan mobilisasi  fisik, jika perlu"
+            ],
+            "edukasi": [
               "Libatkan keluarga untuk membantu pasien dalam meningkatkan ambulasi",
               "Jelaskan tujuan dan prosedur ambulasi",
               "Anjurkan melakukan ambulasi dini",
@@ -132,13 +140,17 @@
           "code": "I.05173",
           "name": "Dukungan Mobilisasi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi adanya nyeri atau keluhan fisik lainnya",
               "Identifikasi toleransi fisik melakukan pergerakan",
               "Monitor frekuensi jantung dan tekanan darah sebelum memulai mobilisasi",
-              "Monitor kondisi umum selama melakukan mobilisasi",
+              "Monitor kondisi umum selama melakukan mobilisasi"
+            ],
+            "terapeutik": [
               "Fasilitasi aktivitas mobilisasi dengan alat bantu (mis: pagar tempat tidur)",
-              "Fasilitasi melakukan pergerakan, jika perlu",
+              "Fasilitasi melakukan pergerakan, jika perlu"
+            ],
+            "edukasi": [
               "Libatkan keluarga untuk membantu pasien dalam meningkatkan pergerakan",
               "Jelaskan tujuan dan prosedur mobilisasi",
               "Anjurkan melakukan mobilisasi dini",
@@ -152,7 +164,7 @@
     "D.0055": {
       "code": "D.0055",
       "name": "Gangguan Pola Tidur",
-      "definition": "Gangguan pola tidur merupakan diagnosis keperawatan yang didefinisikan sebagai gangguan kualitas dan kuantitas waktu tidur akibat...",
+      "definition": "Gangguan pada pola tidur yang menyebabkan ketidaknyamanan",
       "signs_and_symptoms": {
         "subjective": [
           "Mengeluh sulit tidur",
@@ -183,17 +195,21 @@
           "code": "I.05174",
           "name": "Dukungan Tidur",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi pola aktivitas dan tidur",
               "Identifikasi faktor pengganggu tidur (fisik dan/atau psikologis)",
               "Identifikasi makanan dan minuman yang mengganggu tidur (mis: kopi, teh, alcohol, makan mendekati waktu tidur, minum banyak air sebelum tidur)",
-              "Identifikasi obat tidur yang dikonsumsi",
+              "Identifikasi obat tidur yang dikonsumsi"
+            ],
+            "terapeutik": [
               "Modifikasi lingkungan (mis: pencahayaan, kebisingan, suhu, matras, dan tempat tidur)",
               "Batasi waktu tidur siang, jika perlu",
               "Fasilitasi menghilangkan stress sebelum tidur",
               "Tetapkan jadwal tidur rutin",
               "Lakukan prosedur untuk meningkatkan kenyamanan (mis: pijat, pengaturan posisi, terapi akupresur)",
-              "Sesuaikan jadwal pemberian obat dan/atau Tindakan untuk menunjang siklus tidur-terjaga",
+              "Sesuaikan jadwal pemberian obat dan/atau Tindakan untuk menunjang siklus tidur-terjaga"
+            ],
+            "edukasi": [
               "Jelaskan pentingnya tidur cukup selama sakit",
               "Anjurkan menepati kebiasaan waktu tidur",
               "Anjurkan menghindari makanan/minuman yang mengganggu tidur",
@@ -207,11 +223,15 @@
           "code": "I.12362",
           "name": "Edukasi Aktivitas dan Istirahat",
           "tindakan": {
+            "observasi": [
+              "Identifikasi kesiapan dan kemampuan menerima informasi"
+            ],
             "terapeutik": [
-              "Identifikasi kesiapan dan kemampuan menerima informasi",
               "Sediakan materi dan media pengaturan aktivitas dan istirahat",
               "Jadwalkan pemberian Pendidikan  Kesehatan sesuai kesepakatan",
-              "Berikan kesempatan kepada pasien dan keluarga untuk bertanya",
+              "Berikan kesempatan kepada pasien dan keluarga untuk bertanya"
+            ],
+            "edukasi": [
               "Jelaskan pentingnya melakukan aktivitas fisik/olahraga secara rutin",
               "Anjurkan terlibat dalam aktivitas kelompok, aktivitas bermain atau aktivitas lainnya",
               "Anjurkan menyusun jadwal aktivitas dan istirahat",
@@ -257,19 +277,25 @@
           "code": "I.05178",
           "name": "Manajemen Energi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi gangguan fungsi tubuh yang mengakibatkan kelelahan",
               "Monitor kelelahan fisik dan emosional",
               "Monitor pola dan jam tidur",
-              "Monitor lokasi dan ketidaknyamanan selama melakukan aktivitas",
+              "Monitor lokasi dan ketidaknyamanan selama melakukan aktivitas"
+            ],
+            "terapeutik": [
               "Sediakan lingkungan nyaman dan rendah stimulus (mis: cahaya, suara, kunjungan)",
               "Lakukan latihan rentang gerak pasif dan/atau aktif",
               "Berikan aktivitas distraksi yang menenangkan",
-              "Fasilitasi duduk di sisi tempat tidur, jika tidak dapat berpindah atau berjalan",
+              "Fasilitasi duduk di sisi tempat tidur, jika tidak dapat berpindah atau berjalan"
+            ],
+            "edukasi": [
               "Anjurkan tirah baring",
               "Anjurkan melakukan aktivitas secara bertahap",
               "Anjurkan menghubungi perawat jika tanda dan gejala kelelahan tidak berkurang",
-              "Ajarkan strategi koping untuk mengurangi kelelahan",
+              "Ajarkan strategi koping untuk mengurangi kelelahan"
+            ],
+            "kolaborasi": [
               "Kolaborasi dengan ahli gizi tentang cara meningkatkan asupan makanan"
             ]
           }
@@ -278,13 +304,15 @@
           "code": "I.01026",
           "name": "Terapi Aktivitas",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi defisit tingkat aktivitas",
               "Identifikasi kemampuan berpartisipasi dalam aktivitas tertentu",
               "Identifikasi sumber daya untuk aktivitas yang diinginkan",
               "Identifikasi strategi meningkatkan partisipasi dalam aktivitas",
               "Identifikasi makna aktivitas rutin (mis: bekerja) dan waktu luang",
-              "Monitor respons emosional, fisik, sosial, dan spiritual terhadap aktivitas",
+              "Monitor respons emosional, fisik, sosial, dan spiritual terhadap aktivitas"
+            ],
+            "terapeutik": [
               "Fasilitasi fokus pada kemampuan, bukan defisit yang dialami",
               "Sepakati komitmen untuk meningkatkan frekuensi dan rentang aktivitas",
               "Fasilitasi memilih aktivitas dan tetapkan tujuan aktivitas yang konsisten sesuai kemampuan fisik, psikologis, dan sosial",
@@ -300,18 +328,22 @@
               "Fasilitasi aktivitas aktivitas dengan komponen memori implisit dan emosional (mis: kegiatan keagamaan khusus) untuk pasien demensia, jika sesuai",
               "Libatkan dalam permainan kelompok yang tidak kompetitif, terstruktur, dan aktif",
               "Tingkatkan keterlibatan dalam aktivitas rekreasi dan diversifikasi untuk menurunkan kecemasan (mis: vocal group, bola voli, tenis meja, jogging, berenang, tugas sederhana, permainan sederhana, tugas rutin, tugas rumah tangga, perawatan diri, dan teka-teki dan kartu)",
-              "Libatkan keluarga dalam aktivitas, jika perlu",
               "Fasilitasi mengembangkan motivasi dan penguatan diri",
               "Fasilitasi pasien dan keluarga memantau kemajuannya sendiri untuk mencapai tujuan",
               "Jadwalkan aktivitas dalam rutinitas sehari-hari",
               "Berikan penguatan positif atas partisipasi dalam aktivitas",
+              "Rujuk pada pusat atau program aktivitas komunitas, jika perlu"
+            ],
+            "edukasi": [
+              "Libatkan keluarga dalam aktivitas, jika perlu",
               "Jelaskan metode aktivitas fisik sehari-hari, jika perlu",
               "Ajarkan cara melakukan aktivitas yang dipilih",
               "Anjurkan melakukan aktivitas fisik, sosial, spiritual, dan kognitif dalam menjaga fungsi dan Kesehatan",
               "Anjurkan terlibat dalam aktivitas kelompok atau terapi, jika sesuai",
-              "Anjurkan keluarga untuk memberi penguatan positif atas partisipasi dalam aktivitas",
-              "Kolaborasi dengan terapis okupasi dalam merencanakan dan memonitor program aktivitas, jika sesuai",
-              "Rujuk pada pusat atau program aktivitas komunitas, jika perlu"
+              "Anjurkan keluarga untuk memberi penguatan positif atas partisipasi dalam aktivitas"
+            ],
+            "kolaborasi": [
+              "Kolaborasi dengan terapis okupasi dalam merencanakan dan memonitor program aktivitas, jika sesuai"
             ]
           }
         }
@@ -321,7 +353,7 @@
     "D.0057": {
       "code": "D.0057",
       "name": "Keletihan",
-      "definition": "Keletihan merupakan diagnosis keperawatan yang didefinisikan sebagai penurunan kapasitas kerja fisik dan mental yang...",
+      "definition": "Perasaan lelah yang berkelanjutan dan tidak hilang dengan istirahat",
       "signs_and_symptoms": {
         "subjective": [
           "Merasa energi tidak pulih walaupun telah tidur",
@@ -358,11 +390,15 @@
           "code": "I.12362",
           "name": "Edukasi Aktivitas dan Istirahat",
           "tindakan": {
+            "observasi": [
+              "Identifikasi kesiapan dan kemampuan menerima informasi"
+            ],
             "terapeutik": [
-              "Identifikasi kesiapan dan kemampuan menerima informasi",
               "Sediakan materi dan media pengaturan aktivitas dan istirahat",
               "Jadwalkan pemberian Pendidikan  Kesehatan sesuai kesepakatan",
-              "Berikan kesempatan kepada pasien dan keluarga untuk bertanya",
+              "Berikan kesempatan kepada pasien dan keluarga untuk bertanya"
+            ],
+            "edukasi": [
               "Jelaskan pentingnya melakukan aktivitas fisik/olahraga secara rutin",
               "Anjurkan terlibat dalam aktivitas kelompok, aktivitas bermain atau aktivitas lainnya",
               "Anjurkan menyusun jadwal aktivitas dan istirahat",
@@ -375,19 +411,25 @@
           "code": "I.05178",
           "name": "Manajemen Energi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi gangguan fungsi tubuh yang mengakibatkan kelelahan",
               "Monitor kelelahan fisik dan emosional",
               "Monitor pola dan jam tidur",
-              "Monitor lokasi dan ketidaknyamanan selama melakukan aktivitas",
+              "Monitor lokasi dan ketidaknyamanan selama melakukan aktivitas"
+            ],
+            "terapeutik": [
               "Sediakan lingkungan nyaman dan rendah stimulus (mis: cahaya, suara, kunjungan)",
               "Lakukan latihan rentang gerak pasif dan/atau aktif",
               "Berikan aktivitas distraksi yang menenangkan",
-              "Fasilitasi duduk di sisi tempat tidur, jika tidak dapat berpindah atau berjalan",
+              "Fasilitasi duduk di sisi tempat tidur, jika tidak dapat berpindah atau berjalan"
+            ],
+            "edukasi": [
               "Anjurkan tirah baring",
               "Anjurkan melakukan aktivitas secara bertahap",
               "Anjurkan menghubungi perawat jika tanda dan gejala kelelahan tidak berkurang",
-              "Ajarkan strategi koping untuk mengurangi kelelahan",
+              "Ajarkan strategi koping untuk mengurangi kelelahan"
+            ],
+            "kolaborasi": [
               "Kolaborasi dengan ahli gizi tentang cara meningkatkan asupan makanan"
             ]
           }
@@ -398,7 +440,7 @@
     "D.0058": {
       "code": "D.0058",
       "name": "Kesiapan Peningkatan Tidur",
-      "definition": "Kesiapan peningkatan tidur merupakan diagnosis keperawatan yang didefinisikan sebagai pola penurunan kesadaran alamiah dan periodik yang...",
+      "definition": "Pola penurunan kesadaran alamiah dan periodik yang memungkinkan istirahat adekuat dan dapat ditingkatkan",
       "signs_and_symptoms": {
         "subjective": [
           "Mengekspresikan keinginan untuk meningkatkan tidur",
@@ -425,17 +467,21 @@
           "code": "I.05174",
           "name": "Dukungan Tidur",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi pola aktivitas dan tidur",
               "Identifikasi faktor pengganggu tidur (fisik dan/atau psikologis)",
               "Identifikasi makanan dan minuman yang mengganggu tidur (mis: kopi, teh, alcohol, makan mendekati waktu tidur, minum banyak air sebelum tidur)",
-              "Identifikasi obat tidur yang dikonsumsi",
+              "Identifikasi obat tidur yang dikonsumsi"
+            ],
+            "terapeutik": [
               "Modifikasi lingkungan (mis: pencahayaan, kebisingan, suhu, matras, dan tempat tidur)",
               "Batasi waktu tidur siang, jika perlu",
               "Fasilitasi menghilangkan stress sebelum tidur",
               "Tetapkan jadwal tidur rutin",
               "Lakukan prosedur untuk meningkatkan kenyamanan (mis: pijat, pengaturan posisi, terapi akupresur)",
-              "Sesuaikan jadwal pemberian obat dan/atau Tindakan untuk menunjang siklus tidur-terjaga",
+              "Sesuaikan jadwal pemberian obat dan/atau Tindakan untuk menunjang siklus tidur-terjaga"
+            ],
+            "edukasi": [
               "Jelaskan pentingnya tidur cukup selama sakit",
               "Anjurkan menepati kebiasaan waktu tidur",
               "Anjurkan menghindari makanan/minuman yang mengganggu tidur",
@@ -449,11 +495,15 @@
           "code": "I.12362",
           "name": "Edukasi Aktivitas dan Istirahat",
           "tindakan": {
+            "observasi": [
+              "Identifikasi kesiapan dan kemampuan menerima informasi"
+            ],
             "terapeutik": [
-              "Identifikasi kesiapan dan kemampuan menerima informasi",
               "Sediakan materi dan media pengaturan aktivitas dan istirahat",
               "Jadwalkan pemberian Pendidikan  Kesehatan sesuai kesepakatan",
-              "Berikan kesempatan kepada pasien dan keluarga untuk bertanya",
+              "Berikan kesempatan kepada pasien dan keluarga untuk bertanya"
+            ],
+            "edukasi": [
               "Jelaskan pentingnya melakukan aktivitas fisik/olahraga secara rutin",
               "Anjurkan terlibat dalam aktivitas kelompok, aktivitas bermain atau aktivitas lainnya",
               "Anjurkan menyusun jadwal aktivitas dan istirahat",
@@ -468,7 +518,7 @@
     "D.0059": {
       "code": "D.0059",
       "name": "Risiko Disorganisasi Perilaku Bayi",
-      "definition": "Risiko disorganisasi perilaku bayi merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami disintegrasi respon...",
+      "definition": "Berisiko mengalami disintegrasi respon fisiologis dan neurobehaviour bayi terhadap lingkungan",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -496,11 +546,15 @@
           "code": "I.12379",
           "name": "Edukasi Keamanan Bayi",
           "tindakan": {
+            "observasi": [
+              "Identifikasi kesiapan dan kemampuan menerima informasi"
+            ],
             "terapeutik": [
-              "Identifikasi kesiapan dan kemampuan menerima informasi",
               "Sediakan materi dan media Pendidikan kesehatan",
               "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
-              "Berikan kesempatan untuk bertanya",
+              "Berikan kesempatan untuk bertanya"
+            ],
+            "edukasi": [
               "Anjurkan selalu mengawasi bayi",
               "Anjurkan tidak meninggalkan bayinya sendirian",
               "Anjurkan menjauhkan benda yang berisiko membahayakan bayi (mis: kantung plastic, karet, tali, kain, benda-benda kecil, benda tajam, pembersih lantai)",
@@ -518,8 +572,10 @@
           "code": "I.10338",
           "name": "Perawatan Bayi",
           "tindakan": {
+            "observasi": [
+              "Monitor tanda-tanda vital bayi (terutama suhu 36°C – 37°C)"
+            ],
             "terapeutik": [
-              "Monitor tanda-tanda vital bayi (terutama suhu 36°C – 37°C)",
               "Mandikan bayi dengan suhu ruangan 21 – 24°C",
               "Mandikan bayi dalam waktu 5 – 10 menit dan 2 kali dalam sehari",
               "Rawat tali pusat secara terbuka (tali pusat tidak dibungkus apapun)",
@@ -527,7 +583,9 @@
               "Kenakan popok bayi di bawah umbilicus jika tali pusat belum terlepas",
               "Lakukan pemijatan bayi",
               "Ganti popok bayi jika basah",
-              "Kenakan pakaian bayi dari bahan katun",
+              "Kenakan pakaian bayi dari bahan katun"
+            ],
+            "edukasi": [
               "Anjurkan ibu menyusui sesuai kebutuhan bayi",
               "Ajarkan ibu cara merawat bayi di rumah",
               "Ajarkan cara pemberian makanan pendamping ASI pada bayi > 6 bulan"
@@ -540,7 +598,7 @@
     "D.0060": {
       "code": "D.0060",
       "name": "Risiko Intoleransi Aktivitas",
-      "definition": "Risiko intoleransi aktivitas merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami ketidakcukupan energi untuk...",
+      "definition": "Berisiko mengalami ketidakcukupan energi untuk melakukan aktivitas sehari-hari",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -567,19 +625,25 @@
           "code": "I.05178",
           "name": "Manajemen Energi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi gangguan fungsi tubuh yang mengakibatkan kelelahan",
               "Monitor kelelahan fisik dan emosional",
               "Monitor pola dan jam tidur",
-              "Monitor lokasi dan ketidaknyamanan selama melakukan aktivitas",
+              "Monitor lokasi dan ketidaknyamanan selama melakukan aktivitas"
+            ],
+            "terapeutik": [
               "Sediakan lingkungan nyaman dan rendah stimulus (mis: cahaya, suara, kunjungan)",
               "Lakukan latihan rentang gerak pasif dan/atau aktif",
               "Berikan aktivitas distraksi yang menenangkan",
-              "Fasilitasi duduk di sisi tempat tidur, jika tidak dapat berpindah atau berjalan",
+              "Fasilitasi duduk di sisi tempat tidur, jika tidak dapat berpindah atau berjalan"
+            ],
+            "edukasi": [
               "Anjurkan tirah baring",
               "Anjurkan melakukan aktivitas secara bertahap",
               "Anjurkan menghubungi perawat jika tanda dan gejala kelelahan tidak berkurang",
-              "Ajarkan strategi koping untuk mengurangi kelelahan",
+              "Ajarkan strategi koping untuk mengurangi kelelahan"
+            ],
+            "kolaborasi": [
               "Kolaborasi dengan ahli gizi tentang cara meningkatkan asupan makanan"
             ]
           }
@@ -588,13 +652,15 @@
           "code": "I.05183",
           "name": "Promosi Latihan fisik",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi keyakinan  Kesehatan tentang Latihan fisik",
               "Identifikasi pengalaman olahraga sebelumnya",
               "Identifikasi motivasi individu untuk memulai atau melanjutkan program olahraga",
               "Identifikasi hambatan untuk berolahraga",
               "Monitor kepatuhan menjalankan program Latihan",
-              "Monitor respons terhadap program latihan",
+              "Monitor respons terhadap program latihan"
+            ],
+            "terapeutik": [
               "Motivasi mengungkapkan perasaan tentang olahraga/kebutuhan berolahraga",
               "Motivasi memulai atau melanjutkan olahraga",
               "Fasilitasi dalam mengidentifikasi model peran positif untuk mempertahankan program Latihan",
@@ -603,14 +669,18 @@
               "Fasilitasi dalam menjadwalkan periode regular Latihan rutin mingguan",
               "Fasilitasi dalam mempertahankan kemajuan program Latihan",
               "Lakukan aktivitas olahraga Bersama pasien, jika perlu",
+              "Berikan umpan balik positif terhadap segala upaya yang dijalankan pasien"
+            ],
+            "edukasi": [
               "Libatkan keluarga dalam merencanakan dan memelihara program Latihan",
-              "Berikan umpan balik positif terhadap segala upaya yang dijalankan pasien",
               "Jelaskan manfaat Kesehatan dan efek fisiologis olahraga",
               "Jelaskan jenis Latihan yang sesuai dengan kondisi Kesehatan",
               "Jelaskan frekuensi, durasi, dan intensitas program Latihan yang diinginkan",
               "Ajarkan Latihan pemanasan dan pendinginan yang tepat",
               "Ajarkan Teknik menghindari cidera saat berolahraga",
-              "Ajarkan Teknik pernapasan yang tepat untuk memaksimalkan penyerapan oksigen selama Latihan fisik",
+              "Ajarkan Teknik pernapasan yang tepat untuk memaksimalkan penyerapan oksigen selama Latihan fisik"
+            ],
+            "kolaborasi": [
               "Kolaborasi dengan rehabilitasi medis atau ahli fisiologi olahraga, jika perlu"
             ]
           }

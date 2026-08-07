@@ -7,7 +7,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "bersihan-jalan-napas-tidak-efektif",
   "kode": "D.0001",
   "nama": "Bersihan Jalan Napas Tidak Efektif",
-  "definisi": "Bersihan jalan napas tidak efektif adalah ketidakmampuan membersihkan sekret atau obstruksi jalan nafas untuk mempertahankan jalan nafas",
+  "definisi": "ketidakmampuan membersihkan sekret atau obstruksi jalan nafas untuk mempertahankan jalan nafas tetap paten",
   "kategori": "Respirasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -68,18 +68,24 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.01006",
       "nama": "Latihan Batuk Efektif",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kemampuan batuk",
           "Monitor adanya retensi sputum",
           "Monitor tanda dan gejala infeksi saluran napas",
-          "Monitor input dan output cairan (misal: jumlah dan karakteristik)",
+          "Monitor input dan output cairan (misal: jumlah dan karakteristik)"
+        ],
+        "terapeutik": [
           "Atur posisi semi-fowler dan fowler",
           "Pasang perlak dan bengkok di pangkuan pasien",
           "Buang sekret pada tempat sputum",
+          "Anjutkan batuk dengan kuat langsung setelah Tarik napas dalam yang ke-3"
+        ],
+        "edukasi": [
           "Jelaskan tujuan dan prosedur batuk efektif",
           "Anjurkan Tarik napas dalam melalui hidung selama 4 detik, ditahan selama 2 detik, kemudian keluarkan dari mulut dengan bibir mencucu (dibulatkan) selama 8 detik",
-          "Anjurkan mengulangi Tarik napas dalam hingga 3 kali",
-          "Anjutkan batuk dengan kuat langsung setelah Tarik napas dalam yang ke-3",
+          "Anjurkan mengulangi Tarik napas dalam hingga 3 kali"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian mukolitik atau ekspektoran, jika perlu."
         ]
       }
@@ -88,10 +94,12 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.01011",
       "nama": "Manajemen Jalan Napas",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor pola napas (frekuensi, kedalaman, usaha napas)",
           "Monitor bunyi napas tambahan (misalnya: gurgling, mengi, wheezing, ronchi kering)",
-          "Monitor sputum (jumlah, warna, aroma)",
+          "Monitor sputum (jumlah, warna, aroma)"
+        ],
+        "terapeutik": [
           "Pertahankan kepatenan jalan napas dengan head-tilt dan chin-lift (jaw thrust jika curiga trauma fraktur servikal)",
           "Posisikan semi-fowler atau fowler",
           "Berikan minum hangat",
@@ -99,9 +107,13 @@ export const allDiagnosesData: Diagnosis[] = [
           "Lakukan penghisapan lendir kurang dari 15 detik",
           "Lakukan hiperoksigenasi sebelum penghisapan endotrakeal",
           "Keluarkan sumbatan benda padat dengan forsep McGill",
-          "Berikan oksigen, jika perlu",
+          "Berikan oksigen, jika perlu"
+        ],
+        "edukasi": [
           "Anjurkan asupan cairan 2000 ml/hari, jika tidak ada kontraindikasi",
-          "Ajarkan Teknik batuk efektif",
+          "Ajarkan Teknik batuk efektif"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian bronkodilator, ekspektoran, mukolitik, jika perlu."
         ]
       }
@@ -110,7 +122,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.01014",
       "nama": "Pemantauan Respirasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor frekuensi, irama, kedalaman dan upaya napas",
           "Monitor pola napas (seperti bradypnea, takipnea, hiperventilasi, kussmaul, Cheyne-stokes, biot, ataksik)",
           "Monitor kemampuan batuk efektif",
@@ -120,9 +132,13 @@ export const allDiagnosesData: Diagnosis[] = [
           "Auskultasi bunyi napas",
           "Monitor saturasi oksigen",
           "Monitor nilai analisa gas darah",
-          "Monitor hasil x-ray thoraks",
+          "Monitor hasil x-ray thoraks"
+        ],
+        "terapeutik": [
           "Atur interval pemantauan respirasi sesuai kondisi pasien",
-          "Dokumentasikan hasil pemantauan",
+          "Dokumentasikan hasil pemantauan"
+        ],
+        "edukasi": [
           "Jelaskan tujuan dan prosedur pemantauan",
           "Informasikan hasil pemantauan, jika perlu."
         ]
@@ -135,7 +151,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "gangguan-penyapihan-ventilator",
   "kode": "D.0002",
   "nama": "Gangguan Penyapihan Ventilator",
-  "definisi": "Gangguan penyapihan ventilator adalah ketidakmampuan beradaptasi dengan pengurangan bantuan ventilator mekanik yang menghambat penyapihan.",
+  "definisi": "ketidakmampuan beradaptasi dengan pengurangan bantuan ventilator mekanik yang dapat menghambat dan memperlama proses penyapihan",
   "kategori": "Respirasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -187,19 +203,25 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.01021",
       "nama": "Penyapihan Ventilasi Mekanik",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Periksa kemampuan untuk disapih (meliputi: hemodinamik stabil, kondisi optimal, bebas infeksi)",
           "Monitor predictor kemampuan untuk mentolerir penyapihan (mis. Tingkat kemampuan bernapas, kapasitas vital, Vd/Vt, MVV, kekuatan inspirasi, FEV1, tekanan inspirasi negatif)",
           "Monitor tanda-tanda kelelahan otot pernapasan (misal: kenaikan PaCO2 mendadak, napas cepat dan dangkal, Gerakan dinding abdomen paradoks), hipoksemia, dan hipoksia jaringan saat penyapihan)",
-          "Monitor status cairan dan elektrolit",
+          "Monitor status cairan dan elektrolit"
+        ],
+        "terapeutik": [
           "Posisikan semi-fowler (30 – 45 derajat)",
           "Lakukan pengisapan jalan napas, jika perlu",
           "Berikan fisioterapi dada, jika perlu",
           "Lakukan ujicoba penyapihan (30 – 120 menit dengan napas spontan yang dibantu ventilator)",
           "Gunakan Teknik relaksasi, jika perlu",
           "Hindari pemberian sedasi farmakologis selama percobaan penyapihan",
-          "Berikan dukungan psikologis",
-          "Ajarkan cara pengontrolan napas saat penyapihan",
+          "Berikan dukungan psikologis"
+        ],
+        "edukasi": [
+          "Ajarkan cara pengontrolan napas saat penyapihan"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat yang meningkatkan kepatenan jalan napas dan pertukaran gas."
         ]
       }
@@ -207,9 +229,7 @@ export const allDiagnosesData: Diagnosis[] = [
     {
       "kode": "I.01014",
       "nama": "Pemantauan Respirasi",
-      "tindakan": {
-        "terapeutik": []
-      }
+      "tindakan": {}
     }
   ]
 },
@@ -218,7 +238,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "gangguan-pertukaran-gas",
   "kode": "D.0003",
   "nama": "Gangguan Pertukaran Gas",
-  "definisi": "Gangguan pertukaran gas adalah kelebihan atau kekurangan oksigenasi dan/atau eliminasi karbondioksida pada membran alveolus-kapiler.",
+  "definisi": "kelebihan atau kekurangan oksigenasi dan/atau eliminasi karbondioksida pada membran alveolus-kapiler",
   "kategori": "Respirasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -258,16 +278,12 @@ export const allDiagnosesData: Diagnosis[] = [
     {
       "kode": "I.01014",
       "nama": "Pemantauan Respirasi",
-      "tindakan": {
-        "terapeutik": []
-      }
+      "tindakan": {}
     },
     {
       "kode": "I.01026",
       "nama": "Terapi Oksigen",
-      "tindakan": {
-        "terapeutik": []
-      }
+      "tindakan": {}
     }
   ]
 },
@@ -276,7 +292,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "gangguan-ventilasi-spontan",
   "kode": "D.0004",
   "nama": "Gangguan Ventilasi Spontan",
-  "definisi": "Gangguan ventilasi spontan adalah penurunan cadangan energi yang mengakibatkan individu tidak mampu bernapas secara adekuat.",
+  "definisi": "Penurunan cadangan energi yang mengakibatkan individu tidak mampu bernapas secara adekuat",
   "kategori": "Respirasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -315,18 +331,24 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.01002",
       "nama": "Dukungan Ventilasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi adanya kelelahan otot bantu napas",
           "Identifikasi efek perubahan posisi terhadap status pernapasan",
-          "Monitor status respirasi dan oksigenasi (misal: frekuensi dan kedalaman napas, penggunaan otot bantu napas, bunyi napas tambahan, saturasi oksigen)",
+          "Monitor status respirasi dan oksigenasi (misal: frekuensi dan kedalaman napas, penggunaan otot bantu napas, bunyi napas tambahan, saturasi oksigen)"
+        ],
+        "terapeutik": [
           "Pertahankan kepatenan jalan napas",
           "Berikan posisi semi-fowler dan fowler",
           "Fasilitasi mengubah posisi senyaman mungkin",
           "Berikan oksigenasi sesuai kebutuhan (misal: nasal kanul, masker wajah, masker rebreathing atau non-rebreathing)",
-          "Gunakan bag-valve mask, jika perlu",
+          "Gunakan bag-valve mask, jika perlu"
+        ],
+        "edukasi": [
           "Ajarkan melakukan Teknik relaksasi napas dalam",
           "Ajarkan mengubah posisi secara mandiri",
-          "Ajarkan Teknik batuk efektif",
+          "Ajarkan Teknik batuk efektif"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian bronkodilator, jika perlu"
         ]
       }
@@ -335,7 +357,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.01014",
       "nama": "Pemantauan Respirasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor frekuensi, irama, kedalaman dan upaya napas",
           "Monitor pola napas (seperti bradypnea, takipnea, hiperventilasi, kussmaul, Cheyne-stokes, biot, ataksik)",
           "Monitor kemampuan batuk efektif",
@@ -345,9 +367,13 @@ export const allDiagnosesData: Diagnosis[] = [
           "Auskultasi bunyi napas",
           "Monitor saturasi oksigen",
           "Monitor nilai analisa gas darah",
-          "Monitor hasil x-ray thoraks",
+          "Monitor hasil x-ray thoraks"
+        ],
+        "terapeutik": [
           "Atur interval pemantauan respirasi sesuai kondisi pasien",
-          "Dokumentasikan hasil pemantauan",
+          "Dokumentasikan hasil pemantauan"
+        ],
+        "edukasi": [
           "Jelaskan tujuan dan prosedur pemantauan",
           "Informasikan hasil pemantauan, jika perlu."
         ]
@@ -360,7 +386,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "pola-napas-tidak-efektif",
   "kode": "D.0005",
   "nama": "Pola Napas Tidak Efektif",
-  "definisi": "Pola napas tidak efektif adalah inspirasi dan/atau ekspirasi yang tidak memberikan ventilasi adekuat. Pola napas tidak efektif dapat terjadi",
+  "definisi": "Inspirasi dan/atau ekspirasi yang tidak memberikan ventilasi adekuat",
   "kategori": "Respirasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -410,16 +436,12 @@ export const allDiagnosesData: Diagnosis[] = [
     {
       "kode": "I.01011",
       "nama": "Manajemen Jalan Napas",
-      "tindakan": {
-        "terapeutik": []
-      }
+      "tindakan": {}
     },
     {
       "kode": "I.01014",
       "nama": "Pemantauan Respirasi",
-      "tindakan": {
-        "terapeutik": []
-      }
+      "tindakan": {}
     }
   ]
 },
@@ -428,7 +450,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-aspirasi",
   "kode": "D.0006",
   "nama": "Risiko Aspirasi",
-  "definisi": "Risiko aspirasi didefinisikan sebagai risiko mengalami masuknya benda cair atau padat ke dalam saluran trakeobronkhial akibat",
+  "definisi": "Risiko mengalami masuknya sekresi gastrointestinal, sekresi orofaring, benda cair atau padat ke dalam saluran trakeobronkhial akibat disfungsi mekanisme protektif saluran napas",
   "kategori": "Respirasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -472,16 +494,12 @@ export const allDiagnosesData: Diagnosis[] = [
     {
       "kode": "I.01011",
       "nama": "Manajemen Jalan Napas",
-      "tindakan": {
-        "terapeutik": []
-      }
+      "tindakan": {}
     },
     {
       "kode": "I.01018",
       "nama": "Pencegahan Aspirasi",
-      "tindakan": {
-        "terapeutik": []
-      }
+      "tindakan": {}
     }
   ]
 },
@@ -490,7 +508,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "gangguan-sirkulasi-spontan",
   "kode": "D.0007",
   "nama": "Gangguan Sirkulasi Spontan",
-  "definisi": "Diagnosis gangguan sirkulasi spontan adalah ketidakmampuan untuk mempertahankan sirkulasi yang adekuat untuk menunjang kehidupan.",
+  "definisi": "ketidakmampuan untuk mempertahankan sirkulasi yang adekuat untuk menunjang kehidupan",
   "kategori": "Sirkulasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -528,8 +546,10 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02038",
       "nama": "Manajemen Defibrilasi",
       "tindakan": {
+        "observasi": [
+          "Periksa irama pada monitor setelah RJP 2 menit"
+        ],
         "terapeutik": [
-          "Periksa irama pada monitor setelah RJP 2 menit",
           "Lakukan resusitasi jantung paru (RJP) hingga mesin defibrillator siap",
           "Siapkan dan hidupkan mesin defibrillator",
           "Pasang monitor EKG",
@@ -550,18 +570,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03139",
       "nama": "Resusitasi Cairan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kelas syok untuk estimasi kehilangan darah",
           "Monitor status hemodinamik",
           "Monitor status oksigen",
           "Monitor kelebihan cairan",
           "Monitor output cairan tubuh (mis. Urin, cairan nasogastric, cairan selang dada)",
           "Monitor nilai BUN, kreatinin, protein total, dan albumin, jika perlu",
-          "Monitor tanda dan gejala edema paru",
+          "Monitor tanda dan gejala edema paru"
+        ],
+        "terapeutik": [
           "Pasang jalur IV berukuran besar (mis. nomor 14 atau 16)",
           "Berikan infus cairan kristaloid 1-2 L pada dewasa",
           "Berikan infus cairan kristaloid 20 mL/KgBB pada anak",
-          "Lakukan cross matching produk darah",
+          "Lakukan cross matching produk darah"
+        ],
+        "kolaborasi": [
           "Kolaborasi penentuan jenis dan jumlah cairan (mis: kristaloid, koloid)",
           "Kolaborasi pemberian produk darah"
         ]
@@ -571,10 +595,12 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02083",
       "nama": "Resusitasi Jantung Paru",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi keamanan penolong, lingkungan dan pasien",
           "Identifikasi respon pasien (mis: memanggil pasien, menepuk bahu pasien)",
-          "Monitor nadi karotis dan napas setiap 2 menit atau 5 siklus RJP",
+          "Monitor nadi karotis dan napas setiap 2 menit atau 5 siklus RJP"
+        ],
+        "terapeutik": [
           "Pakai alat pelindung diri",
           "Aktifkan emergency medical system atau berteriak minta tolong",
           "Posisikan pasien telentang di tempat datar dan keras",
@@ -587,8 +613,12 @@ export const allDiagnosesData: Diagnosis[] = [
           "Bersihkan dan buka jalan napas dengan head-tilt chin-lift atau jaw thrust (jika curiga cedera servikal)",
           "Berikan bantuan napas dengan menggunakan bag valve mask dengan Teknik EC-Clamp",
           "Kombinasikan kompresi dan ventilasi selama 2 menit atau sebanyak 5 siklus",
-          "Hentikan RJP jika ditemukan ada tanda-tanda kehidupan, penolong yang lebih mahir datang, ditemukan adanya tanda-tanda kematian biologis, do not resuscitation (DNR).",
-          "Jelaskan tujuan dan prosedur Tindakan kepada keluarga atau pengantar pasien",
+          "Hentikan RJP jika ditemukan ada tanda-tanda kehidupan, penolong yang lebih mahir datang, ditemukan adanya tanda-tanda kematian biologis, do not resuscitation (DNR)."
+        ],
+        "edukasi": [
+          "Jelaskan tujuan dan prosedur Tindakan kepada keluarga atau pengantar pasien"
+        ],
+        "kolaborasi": [
           "Kolaborasi tim medis untuk bantuan hidup lanjut."
         ]
       }
@@ -600,7 +630,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "penurunan-curah-jantung",
   "kode": "D.0008",
   "nama": "Penurunan Curah Jantung",
-  "definisi": "Penurunan curah jantung adalah ketidakadekuatan jantung memompa darah untuk memenuhi kebutuhan metabolisme tubuh. Berikut adalah askep",
+  "definisi": "ketidakmampuan jantung memompa darah untuk memenuhi kebutuhan metabolisme tubuh",
   "kategori": "Sirkulasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -666,7 +696,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02075",
       "nama": "Perawatan Jantung",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi tanda/gejala primer penurunan curah jantung (meliputi: dispnea, kelelahan, edema, ortopnea, PND, peningkatan CVP).",
           "Identifikasi tanda/gejala sekunder penurunan curah jantung (meliputi: peningkatan berat badan, hepatomegaly, distensi vena jugularis, palpitasi, ronkhi basah, oliguria, batuk, kulit pucat)",
           "Monitor tekanan darah (termasuk tekanan darah ortostatik, jika perlu)",
@@ -679,7 +709,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Monitor nilai laboratorium jantung (mis: elektrolit, enzim jantung, BNP, NTpro-BNP)",
           "Monitor fungsi alat pacu jantung",
           "Periksa tekanan darah dan frekuensi nadi sebelum dan sesudah aktivitas",
-          "Periksa tekanan darah dan frekuensi nadi sebelum pemberian obat (mis: beta blocker, ACE Inhibitor, calcium channel blocker, digoksin)",
+          "Periksa tekanan darah dan frekuensi nadi sebelum pemberian obat (mis: beta blocker, ACE Inhibitor, calcium channel blocker, digoksin)"
+        ],
+        "terapeutik": [
           "Posisikan pasien semi-fowler atau fowler dengan kaki ke bawah atau posisi nyaman",
           "Berikan diet jantung yang sesuai (mis: batasi asupan kafein, natrium, kolesterol, dan makanan tinggi lemak)",
           "Gunakan stocking elastis atau pneumatik intermitten, sesuai indikasi",
@@ -687,13 +719,17 @@ export const allDiagnosesData: Diagnosis[] = [
           "Berikan terapi relaksasi untuk mengurangi stress, jika perlu",
           "Berikan dukungan emosional dan spiritual",
           "Berikan oksigen untuk mempertahankan saturasi oksigen > 94%",
+          "Rujuk ke program rehabilitasi jantung"
+        ],
+        "edukasi": [
           "Anjurkan beraktivitas fisik sesuai toleransi",
           "Anjurkan beraktivitas fisik secara bertahap",
           "Anjurkan berhenti merokok",
           "Ajarkan pasien dan keluarga mengukur berat badan harian",
-          "Ajarkan pasien dan keluarga mengukur intake dan output cairan harian",
-          "Kolaborasi pemberian antiaritmia, jika perlu",
-          "Rujuk ke program rehabilitasi jantung"
+          "Ajarkan pasien dan keluarga mengukur intake dan output cairan harian"
+        ],
+        "kolaborasi": [
+          "Kolaborasi pemberian antiaritmia, jika perlu"
         ]
       }
     },
@@ -701,25 +737,31 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02076",
       "nama": "Perawatan Jantung Akut",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi karakteristik nyeri dada (meliputi faktor pemicu dan Pereda, kualitas, lokasi, radiasi, skala, durasi, dan frekuensi)",
           "Monitor aritmia (kelainan irama dan frekuensi)",
           "Monitor EKG 12 sadapan untuk perubahan ST dan T",
           "Monitor elektrolit yang dapat meningkatkan risiko aritmia (mis: kalium, magnesium serum)",
           "Monitor enzim jantung (mis: CK, CK-MB, Troponin T, Troponin I)",
           "Monitor saturasi oksigen",
-          "Identifikasi stratifikasi pada sindrom koroner akut (mis: skor TIMI, Killip, Crusade)",
+          "Identifikasi stratifikasi pada sindrom koroner akut (mis: skor TIMI, Killip, Crusade)"
+        ],
+        "terapeutik": [
           "Pertahankan tirah baring minimal 12 jam",
           "Pasang akses intravena",
           "Puasakan hingga bebas nyeri",
           "Berikan terapi relaksasi untuk mengurangi ansietas dan stress",
           "Sediakan lingkungan yang kondusif untuk beristirahat dan pemulihan",
           "Siapkan menjalani intervensi koroner perkutan, jika perlu",
-          "Berikan dukungan emosional dan spiritual",
+          "Berikan dukungan emosional dan spiritual"
+        ],
+        "edukasi": [
           "Anjurkan segera melaporkan nyeri dada",
           "Anjurkan menghindari manuver Valsava (mis: mengedan saat BAB atau batuk)",
           "Jelaskan Tindakan yang dijalani pasien",
-          "Ajarkan Teknik menurunkan kecemasan dan ketakutan",
+          "Ajarkan Teknik menurunkan kecemasan dan ketakutan"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian antiplatelet, jika perlu",
           "Kolaborasi pemberian antianginal (mis: nitrogliserin, beta blocker, calcium channel blocker)",
           "Kolaborasi pemberian morfin, jika perlu",
@@ -737,7 +779,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "perfusi-perifer-tidak-efektif",
   "kode": "D.0009",
   "nama": "Perfusi Perifer Tidak Efektif",
-  "definisi": "Perfusi perifer tidak efektif adalah penurunan sirkulasi darah pada level kapiler yang dapat mengganggu metabolisme tubuh.",
+  "definisi": "Penurunan sirkulasi darah pada level kapiler yang dapat mengganggu metabolisme tubuh",
   "kategori": "Sirkulasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -782,16 +824,20 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02079",
       "nama": "Perawatan Sirkulasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Periksa sirkulasi perifer (mis: nadi perifer, edema, pengisian kapiler, warna, suhu, ankle-brachial index)",
           "Identifikasi faktor risiko gangguan sirkulasi (mis: diabetes, perokok, orang tua, hipertensi, dan kadar kolesterol tinggi)",
-          "Monitor panas, kemerahan, nyeri, atau bengkak pada ekstremitas",
+          "Monitor panas, kemerahan, nyeri, atau bengkak pada ekstremitas"
+        ],
+        "terapeutik": [
           "Hindari pemasangan infus, atau pengambilan darah di area keterbatasan perfusi",
           "Hindari pengukuran tekanan darah pada ekstremitas dengan keterbatasan perfusi",
           "Hindari penekanan dan pemasangan tourniquet pada area yang cidera",
           "Lakukan pencegahan infeksi",
           "Lakukan perawatan kaki dan kuku",
-          "Lakukan hidrasi",
+          "Lakukan hidrasi"
+        ],
+        "edukasi": [
           "Anjurkan berhenti merokok",
           "Anjurkan berolahraga rutin",
           "Anjurkan mengecek air mandi untuk menghindari kulit terbakar",
@@ -809,7 +855,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.06195",
       "nama": "Manajemen Sensasi Perifer",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab perubahan sensasi",
           "Identifikasi penggunaan alat pengikat, prosthesis, sepatu, dan pakaian",
           "Periksa perbedaan sensasi tajam atau tumpul",
@@ -817,11 +863,17 @@ export const allDiagnosesData: Diagnosis[] = [
           "Periksa kemampuan mengidentifikasi lokasi dan tekstur benda",
           "Monitor terjadinya parestesia, jika perlu",
           "Monitor perubahan kulit",
-          "Monitor adanya tromboplebitis dan tromboemboli vena",
-          "Hindai pemakaian benda-benda yang berlebihan suhunya (terlalu panas atau dingin)",
+          "Monitor adanya tromboplebitis dan tromboemboli vena"
+        ],
+        "terapeutik": [
+          "Hindai pemakaian benda-benda yang berlebihan suhunya (terlalu panas atau dingin)"
+        ],
+        "edukasi": [
           "Anjurkan penggunaan thermometer untuk menguji suhu air",
           "Anjurkan penggunaan sarung tangan termal saat memasak",
-          "Anjurkan memakai sepatu lembut dan bertumit rendah",
+          "Anjurkan memakai sepatu lembut dan bertumit rendah"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian analgesik, jika perlu",
           "Kolaborasi pemberian kortikosteroid, jika perlu"
         ]
@@ -834,7 +886,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-gangguan-sirkulasi-spontan",
   "kode": "D.0010",
   "nama": "Risiko Gangguan Sirkulasi Spontan",
-  "definisi": "Risiko gangguan sirkulasi spontan didefinisikan sebagai risiko mengalami ketidakmampuan untuk mempertahankan sirkulasi yang adekuat",
+  "definisi": "Risiko mengalami ketidakmampuan untuk mempertahankan sirkulasi yang adekuat untuk menunjang kehidupan",
   "kategori": "Sirkulasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -880,25 +932,31 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02076",
       "nama": "Perawatan Jantung Akut",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi karakteristik nyeri dada (meliputi faktor pemicu dan Pereda, kualitas, lokasi, radiasi, skala, durasi, dan frekuensi)",
           "Monitor aritmia (kelainan irama dan frekuensi)",
           "Monitor EKG 12 sadapan untuk perubahan ST dan T",
           "Monitor elektrolit yang dapat meningkatkan risiko aritmia (mis: kalium, magnesium serum)",
           "Monitor enzim jantung (mis: CK, CK-MB, Troponin T, Troponin I)",
           "Monitor saturasi oksigen",
-          "Identifikasi stratifikasi pada sindrom koroner akut (mis: skor TIMI, Killip, Crusade)",
+          "Identifikasi stratifikasi pada sindrom koroner akut (mis: skor TIMI, Killip, Crusade)"
+        ],
+        "terapeutik": [
           "Pertahankan tirah baring minimal 12 jam",
           "Pasang akses intravena",
           "Puasakan hingga bebas nyeri",
           "Berikan terapi relaksasi untuk mengurangi ansietas dan stress",
           "Sediakan lingkungan yang kondusif untuk beristirahat dan pemulihan",
           "Siapkan menjalani intervensi koroner perkutan, jika perlu",
-          "Berikan dukungan emosional dan spiritual",
+          "Berikan dukungan emosional dan spiritual"
+        ],
+        "edukasi": [
           "Anjurkan segera melaporkan nyeri dada",
           "Anjurkan menghindari manuver Valsava (mis: mengedan saat BAB atau batuk)",
           "Jelaskan Tindakan yang dijalani pasien",
-          "Ajarkan Teknik menurunkan kecemasan dan ketakutan",
+          "Ajarkan Teknik menurunkan kecemasan dan ketakutan"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian antiplatelet, jika perlu",
           "Kolaborasi pemberian antianginal (mis: nitrogliserin, beta blocker, calcium channel blocker)",
           "Kolaborasi pemberian morfin, jika perlu",
@@ -913,18 +971,24 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02080",
       "nama": "Pertolongan Pertama",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi keamanan penolong, pasien dan lingkungan",
           "Identifikasi respon pasien dengan AVPU (alert, verbal, pain, unresponsive)",
           "Monitor tanda-tanda vital",
-          "Monitor karakteristik luka (mis: drainase, warna, ukuran, bau)",
+          "Monitor karakteristik luka (mis: drainase, warna, ukuran, bau)"
+        ],
+        "terapeutik": [
           "Meminta pertolongan, jika perlu",
           "Lakukan RICE (rest, ice, compression, elevation) pada cidera otot ekstremitas",
           "Lakukan penghentian perdarahan (mis: penekanan, balut tekan, pengaturan posisi)",
           "Bersihkan kulit dari racun atau bahan kimia yang menempel dengan sabun dan air mengalir",
           "Lepaskan sengatan dari kulit",
-          "Lepaskan gigitan serangga dari kulit menggunakan pinset atau alat yang sesuai",
-          "Ajarkan Teknik perawatan luka",
+          "Lepaskan gigitan serangga dari kulit menggunakan pinset atau alat yang sesuai"
+        ],
+        "edukasi": [
+          "Ajarkan Teknik perawatan luka"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat-obatan (mis: antibiotik profilaksis, vaksin, antihistamin, antiinflamasi, dan analgetic), jika perlu"
         ]
       }
@@ -936,7 +1000,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-penurunan-curah-jantung",
   "kode": "D.0011",
   "nama": "Risiko Penurunan Curah Jantung",
-  "definisi": "Risiko penurunan curah jantung didefinisikan sebagai risiko mengalami pemompaan jantung yang tidak adekuat untuk memenuhi kebutuhan...",
+  "definisi": "Risiko mengalami pemompaan jantung yang tidak adekuat untuk memenuhi kebutuhan metabolisme tubuh",
   "kategori": "Sirkulasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -986,7 +1050,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02075",
       "nama": "Perawatan Jantung",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi tanda/gejala primer penurunan curah jantung (meliputi: dispnea, kelelahan, edema, ortopnea, PND, peningkatan CVP).",
           "Identifikasi tanda/gejala sekunder penurunan curah jantung (meliputi: peningkatan berat badan, hepatomegaly, distensi vena jugularis, palpitasi, ronkhi basah, oliguria, batuk, kulit pucat)",
           "Monitor tekanan darah (termasuk tekanan darah ortostatik, jika perlu)",
@@ -999,7 +1063,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Monitor nilai laboratorium jantung (mis: elektrolit, enzim jantung, BNP, NTpro-BNP)",
           "Monitor fungsi alat pacu jantung",
           "Periksa tekanan darah dan frekuensi nadi sebelum dan sesudah aktivitas",
-          "Periksa tekanan darah dan frekuensi nadi sebelum pemberian obat (mis: beta blocker, ACE Inhibitor, calcium channel blocker, digoksin)",
+          "Periksa tekanan darah dan frekuensi nadi sebelum pemberian obat (mis: beta blocker, ACE Inhibitor, calcium channel blocker, digoksin)"
+        ],
+        "terapeutik": [
           "Posisikan pasien semi-fowler atau fowler dengan kaki ke bawah atau posisi nyaman",
           "Berikan diet jantung yang sesuai (mis: batasi asupan kafein, natrium, kolesterol, dan makanan tinggi lemak)",
           "Gunakan stocking elastis atau pneumatik intermitten, sesuai indikasi",
@@ -1007,13 +1073,17 @@ export const allDiagnosesData: Diagnosis[] = [
           "Berikan terapi relaksasi untuk mengurangi stress, jika perlu",
           "Berikan dukungan emosional dan spiritual",
           "Berikan oksigen untuk mempertahankan saturasi oksigen > 94%",
+          "Rujuk ke program rehabilitasi jantung"
+        ],
+        "edukasi": [
           "Anjurkan beraktivitas fisik sesuai toleransi",
           "Anjurkan beraktivitas fisik secara bertahap",
           "Anjurkan berhenti merokok",
           "Ajarkan pasien dan keluarga mengukur berat badan harian",
-          "Ajarkan pasien dan keluarga mengukur intake dan output cairan harian",
-          "Kolaborasi pemberian antiaritmia, jika perlu",
-          "Rujuk ke program rehabilitasi jantung"
+          "Ajarkan pasien dan keluarga mengukur intake dan output cairan harian"
+        ],
+        "kolaborasi": [
+          "Kolaborasi pemberian antiaritmia, jika perlu"
         ]
       }
     },
@@ -1021,25 +1091,31 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02076",
       "nama": "Perawatan Jantung Akut",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi karakteristik nyeri dada (meliputi faktor pemicu dan Pereda, kualitas, lokasi, radiasi, skala, durasi, dan frekuensi)",
           "Monitor aritmia (kelainan irama dan frekuensi)",
           "Monitor EKG 12 sadapan untuk perubahan ST dan T",
           "Monitor elektrolit yang dapat meningkatkan risiko aritmia (mis: kalium, magnesium serum)",
           "Monitor enzim jantung (mis: CK, CK-MB, Troponin T, Troponin I)",
           "Monitor saturasi oksigen",
-          "Identifikasi stratifikasi pada sindrom koroner akut (mis: skor TIMI, Killip, Crusade)",
+          "Identifikasi stratifikasi pada sindrom koroner akut (mis: skor TIMI, Killip, Crusade)"
+        ],
+        "terapeutik": [
           "Pertahankan tirah baring minimal 12 jam",
           "Pasang akses intravena",
           "Puasakan hingga bebas nyeri",
           "Berikan terapi relaksasi untuk mengurangi ansietas dan stress",
           "Sediakan lingkungan yang kondusif untuk beristirahat dan pemulihan",
           "Siapkan menjalani intervensi koroner perkutan, jika perlu",
-          "Berikan dukungan emosional dan spiritual",
+          "Berikan dukungan emosional dan spiritual"
+        ],
+        "edukasi": [
           "Anjurkan segera melaporkan nyeri dada",
           "Anjurkan menghindari manuver Valsava (mis: mengedan saat BAB atau batuk)",
           "Jelaskan Tindakan yang dijalani pasien",
-          "Ajarkan Teknik menurunkan kecemasan dan ketakutan",
+          "Ajarkan Teknik menurunkan kecemasan dan ketakutan"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian antiplatelet, jika perlu",
           "Kolaborasi pemberian antianginal (mis: nitrogliserin, beta blocker, calcium channel blocker)",
           "Kolaborasi pemberian morfin, jika perlu",
@@ -1057,7 +1133,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-perdarahan",
   "kode": "D.0012",
   "nama": "Risiko Perdarahan",
-  "definisi": "Risiko perdarahan adalah diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami kehilangan darah baik internal maupun eksternal",
+  "definisi": "Berisiko mengalami kehilangan darah baik internal maupun eksternal",
   "kategori": "Sirkulasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -1101,21 +1177,27 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02067",
       "nama": "Pencegahan Perdarahan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor tanda dan gejala perdarahan",
           "Monitor nilai hematokrit/hemoglobin sebelum dan setelah kehilangan darah",
           "Monitor tanda-tanda vital ortostatik",
-          "Monitor koagulasi (mis: prothrombin time (PT), partial thromboplastin time (PTT), fibrinogen, degradasi fibrin dan/atau platelet)",
+          "Monitor koagulasi (mis: prothrombin time (PT), partial thromboplastin time (PTT), fibrinogen, degradasi fibrin dan/atau platelet)"
+        ],
+        "terapeutik": [
           "Pertahankan bed rest selama perdarahan",
           "Batasi tindakan invasive, jika perlu",
           "Gunakan kasur pencegah decubitus",
-          "Hindari pengukuran suhu rektal",
+          "Hindari pengukuran suhu rektal"
+        ],
+        "edukasi": [
           "Jelaskan tanda dan gejala perdarahan",
           "Anjurkan menggunakan kaus kaki saat ambulasi",
           "Anjurkan meningkatkan asupan cairan untuk menghindari konstipasi",
           "Anjurkan menghindari aspirin atau antikoagulan",
           "Anjurkan meningkatkan asupan makanan dan vitamin K",
-          "Anjurkan segera melapor jika terjadi perdarahan",
+          "Anjurkan segera melapor jika terjadi perdarahan"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat pengontrol perdarahan, jika perlu",
           "Kolaborasi pemberian produk darah, jika perlu",
           "Kolaborasi pemberian pelunak tinja, jika perlu"
@@ -1129,7 +1211,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-perfusi-gastrointestinal-tidak-efektif",
   "kode": "D.0013",
   "nama": "Risiko Perfusi Gastrointestinal Tidak Efektif",
-  "definisi": "Risiko perfusi gastrointestinal tidak efektif adalah didefinisikan sebagai berisiko mengalami penurunan sirkulasi gastrointestinal.",
+  "definisi": "Berisiko mengalami penurunan sirkulasi gastrointestinal",
   "kategori": "Sirkulasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -1174,7 +1256,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02040",
       "nama": "Manajemen Perdarahan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab perdarahan",
           "Periksa adanya darah pada muntah, sputum, feses, urin, pengeluaran NGT, dan drainase luka, jika perlu",
           "Periksa ukuran dan karakteristik hematoma, jika ada",
@@ -1184,15 +1266,21 @@ export const allDiagnosesData: Diagnosis[] = [
           "Monitor intake dan output cairan",
           "Monitor koagulasi darah (prothrombin time (PT), partial tromboplastin time (PTT), fibrinogen, degradasi fibrin, dan jumlah trombosit), jika ada",
           "Monitor deliveri oksigen jaringan (mis: PaO2, SaO2, hemoglobin, dan curah jantung)",
-          "Monitor tanda dan gejala perdarahan masif",
+          "Monitor tanda dan gejala perdarahan masif"
+        ],
+        "terapeutik": [
           "Istirahatkan area yang mengalami perdarahan",
           "Berikan kompres dingin, jika perlu",
           "Lakukan penekanan atau balut tekan, jika perlu",
           "Tinggikan ekstremitas yang mengalami perdarahan",
-          "Pertahankan akses IV",
+          "Pertahankan akses IV"
+        ],
+        "edukasi": [
           "Jelaskan tanda-tanda perdarahan",
           "Anjurkan melapor jika menemukan tanda-tanda perdarahan",
-          "Anjurkan membatasi aktivitas",
+          "Anjurkan membatasi aktivitas"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian cairan, jika perlu",
           "Kolaborasi pemberian transfusi darah, jika perlu"
         ]
@@ -1202,18 +1290,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03094",
       "nama": "Konseling Nutrisi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kebiasaan makan dan perilaku makan yang akan diubah",
           "Identifikasi kemajuan modifikasi diet secara regular",
-          "Monitor intake dan output cairan, nilai hemoglobin, tekanan darah, kenaikan berat badan, dan kebiasaan membeli makanan",
+          "Monitor intake dan output cairan, nilai hemoglobin, tekanan darah, kenaikan berat badan, dan kebiasaan membeli makanan"
+        ],
+        "terapeutik": [
           "Bina hubungan terapeutik",
           "Sepakati lama waktu pemberian konseling",
           "Tetapkan tujuan jangka pendek dan jangka Panjang yang realistis",
           "Gunakan standar nutrisi sesuai program diet dalam mengevaluasi kecukupan asupan makanan",
           "Pertimbangkan faktor-faktor yang mempengaruhi pemenuhan kebutuhan  gizi (mis. Usia, tahap pertumbuhan dan perkembangan, penyakit)",
-          "Informasikan perlunya modifikasi diet (misal: penurunan atau penambahan berat badan, pembatasan natrium atau cairan, pengurangan kolesterol",
-          "Jelaskan program gizi dan persepsi pasien terhadap diet yang diprogramkan",
           "Rujuk pada ahli gizi, jika perlu"
+        ],
+        "edukasi": [
+          "Informasikan perlunya modifikasi diet (misal: penurunan atau penambahan berat badan, pembatasan natrium atau cairan, pengurangan kolesterol",
+          "Jelaskan program gizi dan persepsi pasien terhadap diet yang diprogramkan"
         ]
       }
     }
@@ -1224,7 +1316,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-perfusi-miokard-tidak-efektif",
   "kode": "D.0014",
   "nama": "Risiko Perfusi Miokard Tidak Efektif",
-  "definisi": "Risiko perfusi miokard tidak efektif didefinisikan sebagai berisiko mengalami penurunan sirkulasi arteri koroner yang dapat mengganggu...",
+  "definisi": "Berisiko mengalami penurunan sirkulasi arteri koroner yang dapat mengganggu metabolisme miokard",
   "kategori": "Sirkulasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -1270,7 +1362,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02035",
       "nama": "Manajemen Aritmia",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Periksa onset dan pemicu aritmia",
           "Identifikasi jenis aritmia",
           "Monitor frekuensi dan durasi aritmia",
@@ -1278,16 +1370,20 @@ export const allDiagnosesData: Diagnosis[] = [
           "Monitor respon hemodinamik akibat aritmia",
           "Monitor saturasi oksigen",
           "Monitor kadar elektrolit",
+          "Periksa interval QT sebelum dan sesudah pemberian obat yang dapat memperpanjang interval QT"
+        ],
+        "terapeutik": [
           "Berikan lingkungan yang tenang",
           "Pasang jalan napas buatan (mis. OPA, NPA, LMA, ETT), jika perlu",
           "Pasang akses intravena",
           "Pasang monitor jantung",
           "Rekam EKG 12 sadapan",
-          "Periksa interval QT sebelum dan sesudah pemberian obat yang dapat memperpanjang interval QT",
           "Lakukan maneuver valsava",
           "Lakukan masase karotis unilateral",
           "Berikan oksigen, sesuai indikasi",
-          "Siapkan pemasangan ICD (implantable cardioverter defibrillator)",
+          "Siapkan pemasangan ICD (implantable cardioverter defibrillator)"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian antiaritmia, jika perlu",
           "Kolaborasi pemberian kardioversi, jika perlu",
           "Kolaborasi pemberian defibrilasi, jika perlu"
@@ -1298,7 +1394,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02051",
       "nama": "Manajemen Syok Kardiogenik",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor status kardiopulmonal (frekuensi dan kekuatan nadi, frekuensi napas, TD, MAP)",
           "Monitor status oksigenasi (oksimetri nadi, AGD)",
           "Monitor status cairan (masukan dan haluaran, turgor kulit, CRT)",
@@ -1307,13 +1403,17 @@ export const allDiagnosesData: Diagnosis[] = [
           "Monitor EKG 12 lead",
           "Monitor rontgen dada (mis: kongesti paru, edema paru, pembesaran jantung)",
           "Monitor enzim jantung (mis: CK, CKMB, Troponin)",
-          "Identifikasi penyebab masalah utama (mis: volume, pompa atau irama)",
+          "Identifikasi penyebab masalah utama (mis: volume, pompa atau irama)"
+        ],
+        "terapeutik": [
           "Pertahankan jalan napas paten",
           "Berikan oksigen untuk mempertahankan saturasi oksigen > 94%",
           "Persiapkan intubasi dan ventilasi mekanis, jika perlu",
           "Pasang jalur IV",
           "Pasang kateter urin untuk menilai produksi urin",
-          "Pasang selang nasogastrik untuk dekompresi lambung, jika perlu",
+          "Pasang selang nasogastrik untuk dekompresi lambung, jika perlu"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian inotropik (mis: dobutamine), jika TDS 70 – 100 mmHg tanpa disertai tanda/gejala syok",
           "Kolaborasi pemberian vasopressor (mis: dopamine), jika TDS 70 – 100 mmHg disertai tanda/gejala syok",
           "Kolaborasi pemberian vasopressor (mis: norefinefrin), jika TDS < 70 mmHg",
@@ -1326,24 +1426,30 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02066",
       "nama": "Pencegahan Emboli",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Periksa Riwayat penyakit secara rinci untuk melihat faktor risiko (mis: pascaoperasi, fraktur, kemoterapi, kehamilan, pasca persalinan, imobilisasi, kelumpuhan, edema ekstremitas, PPOK, stroke, Riwayat DVT sebelumnya)",
           "Periksa trias Virchow (stasis vena, hiperkoagulabilitas, dan trauma yang mengakibatkan kerusakan intima pembuluh darah)",
           "Monitor adanya gejala baru dari mengi (hemoptisis, nyeri saat inspirasi, nyeri pleuritik)",
-          "Monitor sirkulasi perifer (mis: nadi perifer, edema, CRT, warna, suhu, dan adanya rasa sakit pada ekstremitas)",
+          "Monitor sirkulasi perifer (mis: nadi perifer, edema, CRT, warna, suhu, dan adanya rasa sakit pada ekstremitas)"
+        ],
+        "terapeutik": [
           "Posisikan anggota tubuh yang beresiko emboli 20 derajat diatas posisi jantung",
           "Pasangkan stoking atau alat kompresi pneumatic intermitten",
           "Lepaskan stoking atau alat kompresi pneumatic intermiten selama 15-20 menit setiap 8 jam",
           "Lakukan Latihan rentang gejak aktif dan pasif",
           "Lakukan perubahan posisi setiap 2 jam",
-          "Hindari memijat atau menekan otot ekstremitas",
+          "Hindari memijat atau menekan otot ekstremitas"
+        ],
+        "edukasi": [
           "Anjurkan melakukan fleksi dan ekstensi kaki paling sedikit 10 kali setiap jam",
           "Anjurkan melaporkan perdarahan yang berlebihan (mis: mimisan yang tidak biasa, muntah darah, urin berdarah, gusi berdarah, perdarahan pervaginam, perdarahan menstruasi yang berat, feses berdarah), nyeri atau bengkak yang tidak biasa, warna biru atau ungu pada jari kaki, nyeri di jari kaki, bisul atau bitnik putih di mulut atau tenggorokan.",
           "Anjurkan berhenti merokok",
           "Anjurkan minum obat antikoagulan sesuai dengan waktu dan dosis",
           "Anjurkan asupan makanan yang tinggi vitamik K",
           "Ajarkan menghindari duduk dengan kaki menyilang atau duduk lama dengan kaki tergantung",
-          "Ajarkan melakukan tindakan pencegahan (mis: berjalan, banyak minum, hindari alkohol, hindari imobilitas jangka Panjang)",
+          "Ajarkan melakukan tindakan pencegahan (mis: berjalan, banyak minum, hindari alkohol, hindari imobilitas jangka Panjang)"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian trombolitik, jika perlu",
           "Kolaborasi pemberian antikoagulan dosis rendah atau antiplatelet dosis tinggi (mis: heparin, clopidogrel, warfarin, aspirin, dipyridamole, dekstran), jika perlu",
           "Kolaborasi pemberian prometazin intravena dalam larutan NaCl 0,9% 25 cc – 50cc dengan aliran lambat"
@@ -1354,7 +1460,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02075",
       "nama": "Perawatan Jantung",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi tanda/gejala primer penurunan curah jantung (meliputi: dispnea, kelelahan, edema, ortopnea, PND, peningkatan CVP).",
           "Identifikasi tanda/gejala sekunder penurunan curah jantung (meliputi: peningkatan berat badan, hepatomegaly, distensi vena jugularis, palpitasi, ronkhi basah, oliguria, batuk, kulit pucat)",
           "Monitor tekanan darah (termasuk tekanan darah ortostatik, jika perlu)",
@@ -1367,7 +1473,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Monitor nilai laboratorium jantung (mis: elektrolit, enzim jantung, BNP, NTpro-BNP)",
           "Monitor fungsi alat pacu jantung",
           "Periksa tekanan darah dan frekuensi nadi sebelum dan sesudah aktivitas",
-          "Periksa tekanan darah dan frekuensi nadi sebelum pemberian obat (mis: beta blocker, ACE Inhibitor, calcium channel blocker, digoksin)",
+          "Periksa tekanan darah dan frekuensi nadi sebelum pemberian obat (mis: beta blocker, ACE Inhibitor, calcium channel blocker, digoksin)"
+        ],
+        "terapeutik": [
           "Posisikan pasien semi-fowler atau fowler dengan kaki ke bawah atau posisi nyaman",
           "Berikan diet jantung yang sesuai (mis: batasi asupan kafein, natrium, kolesterol, dan makanan tinggi lemak)",
           "Gunakan stocking elastis atau pneumatik intermitten, sesuai indikasi",
@@ -1375,13 +1483,17 @@ export const allDiagnosesData: Diagnosis[] = [
           "Berikan terapi relaksasi untuk mengurangi stress, jika perlu",
           "Berikan dukungan emosional dan spiritual",
           "Berikan oksigen untuk mempertahankan saturasi oksigen > 94%",
+          "Rujuk ke program rehabilitasi jantung"
+        ],
+        "edukasi": [
           "Anjurkan beraktivitas fisik sesuai toleransi",
           "Anjurkan beraktivitas fisik secara bertahap",
           "Anjurkan berhenti merokok",
           "Ajarkan pasien dan keluarga mengukur berat badan harian",
-          "Ajarkan pasien dan keluarga mengukur intake dan output cairan harian",
-          "Kolaborasi pemberian antiaritmia, jika perlu",
-          "Rujuk ke program rehabilitasi jantung"
+          "Ajarkan pasien dan keluarga mengukur intake dan output cairan harian"
+        ],
+        "kolaborasi": [
+          "Kolaborasi pemberian antiaritmia, jika perlu"
         ]
       }
     }
@@ -1392,7 +1504,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-perfusi-perifer-tidak-efektif",
   "kode": "D.0015",
   "nama": "Risiko Perfusi Perifer Tidak Efektif",
-  "definisi": "Risiko perfusi perifer tidak efektif didefinisikan sebagai berisiko mengalami penurunan sirkulasi darah pada level kapiler yang dapat...",
+  "definisi": "Berisiko mengalami penurunan sirkulasi darah pada level kapiler yang dapat mengganggu metabolisme tubuh",
   "kategori": "Sirkulasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -1430,22 +1542,28 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02068",
       "nama": "Pencegahan Syok",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor status kardiopulmonal (frekuensi dan kekuatan nadi, frekuensi napas, TD, MAP)",
           "Monitor status oksigenasi (oksimetri nadi, AGD)",
           "Monitor status cairan (masukan dan haluaran, turgor kulit, CRT)",
           "Monitor tingkat kesadaran dan respon pupil",
-          "Periksa Riwayat alergi",
+          "Periksa Riwayat alergi"
+        ],
+        "terapeutik": [
           "Berikan oksigen untuk mempertahankan saturasi oksigen > 94%",
           "Persiapkan intubasi dan ventilasi mekanis, jika perlu",
           "Pasang jalur IV, jika perlu",
           "Pasang kateter urin untuk menilai produksi urin, jika perlu",
-          "Lakukan skin test untuk mencegah reaksi alergi",
+          "Lakukan skin test untuk mencegah reaksi alergi"
+        ],
+        "edukasi": [
           "Jelaskan penyebab/faktor risiko syok",
           "Jelaskan tanda dan gejala awal syok",
           "Anjurkan melapor jika menemukan/merasakan tanda dan gejala awal syok",
           "Anjurkan memperbanyak asupan cairan oral",
-          "Anjurkan menghindari alergen",
+          "Anjurkan menghindari alergen"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian IV, jika perlu",
           "Kolaborasi pemberian transfusi darah, jika perlu",
           "Kolaborasi pemberian antiinflamasi, jika perlu"
@@ -1456,16 +1574,20 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02079",
       "nama": "Perawatan Sirkulasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Periksa sirkulasi perifer (mis: nadi perifer, edema, pengisian kapiler, warna, suhu, ankle-brachial index)",
           "Identifikasi faktor risiko gangguan sirkulasi (mis: diabetes, perokok, orang tua, hipertensi, dan kadar kolesterol tinggi)",
-          "Monitor panas, kemerahan, nyeri, atau bengkak pada ekstremitas",
+          "Monitor panas, kemerahan, nyeri, atau bengkak pada ekstremitas"
+        ],
+        "terapeutik": [
           "Hindari pemasangan infus, atau pengambilan darah di area keterbatasan perfusi",
           "Hindari pengukuran tekanan darah pada ekstremitas dengan keterbatasan perfusi",
           "Hindari penekanan dan pemasangan tourniquet pada area yang cidera",
           "Lakukan pencegahan infeksi",
           "Lakukan perawatan kaki dan kuku",
-          "Lakukan hidrasi",
+          "Lakukan hidrasi"
+        ],
+        "edukasi": [
           "Anjurkan berhenti merokok",
           "Anjurkan berolahraga rutin",
           "Anjurkan mengecek air mandi untuk menghindari kulit terbakar",
@@ -1486,7 +1608,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-perfusi-renal-tidak-efektif",
   "kode": "D.0016",
   "nama": "Risiko Perfusi Renal Tidak Efektif",
-  "definisi": "Risiko perfusi renal tidak efektif didefinisikan sebagai berisiko mengalami penurunan sirkulasi darah ke ginjal.",
+  "definisi": "Berisiko mengalami penurunan sirkulasi darah ke ginjal",
   "kategori": "Sirkulasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -1536,22 +1658,28 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02068",
       "nama": "Pencegahan Syok",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor status kardiopulmonal (frekuensi dan kekuatan nadi, frekuensi napas, TD, MAP)",
           "Monitor status oksigenasi (oksimetri nadi, AGD)",
           "Monitor status cairan (masukan dan haluaran, turgor kulit, CRT)",
           "Monitor tingkat kesadaran dan respon pupil",
-          "Periksa Riwayat alergi",
+          "Periksa Riwayat alergi"
+        ],
+        "terapeutik": [
           "Berikan oksigen untuk mempertahankan saturasi oksigen > 94%",
           "Persiapkan intubasi dan ventilasi mekanis, jika perlu",
           "Pasang jalur IV, jika perlu",
           "Pasang kateter urin untuk menilai produksi urin, jika perlu",
-          "Lakukan skin test untuk mencegah reaksi alergi",
+          "Lakukan skin test untuk mencegah reaksi alergi"
+        ],
+        "edukasi": [
           "Jelaskan penyebab/faktor risiko syok",
           "Jelaskan tanda dan gejala awal syok",
           "Anjurkan melapor jika menemukan/merasakan tanda dan gejala awal syok",
           "Anjurkan memperbanyak asupan cairan oral",
-          "Anjurkan menghindari alergen",
+          "Anjurkan menghindari alergen"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian IV, jika perlu",
           "Kolaborasi pemberian transfusi darah, jika perlu",
           "Kolaborasi pemberian antiinflamasi, jika perlu"
@@ -1562,7 +1690,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02040",
       "nama": "Manajemen Perdarahan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab perdarahan",
           "Periksa adanya darah pada muntah, sputum, feses, urin, pengeluaran NGT, dan drainase luka, jika perlu",
           "Periksa ukuran dan karakteristik hematoma, jika ada",
@@ -1572,15 +1700,21 @@ export const allDiagnosesData: Diagnosis[] = [
           "Monitor intake dan output cairan",
           "Monitor koagulasi darah (prothrombin time (PT), partial tromboplastin time (PTT), fibrinogen, degradasi fibrin, dan jumlah trombosit), jika ada",
           "Monitor deliveri oksigen jaringan (mis: PaO2, SaO2, hemoglobin, dan curah jantung)",
-          "Monitor tanda dan gejala perdarahan masif",
+          "Monitor tanda dan gejala perdarahan masif"
+        ],
+        "terapeutik": [
           "Istirahatkan area yang mengalami perdarahan",
           "Berikan kompres dingin, jika perlu",
           "Lakukan penekanan atau balut tekan, jika perlu",
           "Tinggikan ekstremitas yang mengalami perdarahan",
-          "Pertahankan akses IV",
+          "Pertahankan akses IV"
+        ],
+        "edukasi": [
           "Jelaskan tanda-tanda perdarahan",
           "Anjurkan melapor jika menemukan tanda-tanda perdarahan",
-          "Anjurkan membatasi aktivitas",
+          "Anjurkan membatasi aktivitas"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian cairan, jika perlu",
           "Kolaborasi pemberian transfusi darah, jika perlu"
         ]
@@ -1593,7 +1727,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-perfusi-serebral-tidak-efektif",
   "kode": "D.0017",
   "nama": "Risiko Perfusi Serebral Tidak Efektif",
-  "definisi": "Risiko perfusi serebral tidak efektif didefinisikan sebagai berisiko mengalami penurunan sirkulasi darah ke otak.",
+  "definisi": "Berisiko mengalami penurunan sirkulasi darah ke otak",
   "kategori": "Sirkulasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -1649,7 +1783,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.06194",
       "nama": "Manajemen Peningkatan Tekanan Intrakranial",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab peningkatan TIK (misalnya: lesi, gangguan metabolism, edema serebral)",
           "Monitor tanda/gejala peningkatan TIK (misalnya: tekanan darah meningkat, tekanan nadi melebar, bradikardia, pola napas ireguler, kesadaran menurun)",
           "Monitor MAP (mean arterial pressure) (LIHAT: Kalkulator MAP)",
@@ -1660,7 +1794,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Monitor gelombang ICP",
           "Monitor status pernapasan",
           "Monitor intake dan output cairan",
-          "Monitor cairan serebro-spinalis (mis. Warna, konsistensi)",
+          "Monitor cairan serebro-spinalis (mis. Warna, konsistensi)"
+        ],
+        "terapeutik": [
           "Minimalkan stimulus dengan menyediakan lingkungan yang tenang",
           "Berikan posisi semi fowler",
           "Hindari manuver valsava",
@@ -1668,7 +1804,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Hindari penggunaan PEEP",
           "Hindari pemberian cairan IV hipotonik",
           "Atur ventilator agar PaCO2 optimal",
-          "Pertahankan suhu tubuh normal",
+          "Pertahankan suhu tubuh normal"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian sedasi dan antikonvulsan, jika perlu",
           "Kolaborasi pemberian diuretik osmosis, jika perlu",
           "Kolaborasi pemberian pelunak tinja, jika perlu"
@@ -1679,7 +1817,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.06198",
       "nama": "Pemantauan Tekanan Intrakranial",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab peningkatan TIK (mis: lesi menempati ruang, gangguan metabolisme, edema serebral, peningkatan tekanan vena, obstruksi cairan serebrospinal, hipertensi intracranial idiopatik)",
           "Monitor peningkatan TS",
           "Monitor pelebaran tekanan nadi (selisih TDS dan TDD)",
@@ -1690,14 +1828,18 @@ export const allDiagnosesData: Diagnosis[] = [
           "Monitor kadar CO2 dan pertahankan dalam rentang yang diindikasikan",
           "Monitor tekanan perfusi serebral",
           "Monitor jumlah, kecepatan, dan karakteristik drainase cairan serebrospinal",
-          "Monitor efek stimulus lingkungan terhadap TIK",
+          "Monitor efek stimulus lingkungan terhadap TIK"
+        ],
+        "terapeutik": [
           "Ambil sampel drainase cairan serebrospinal",
           "Kalibrasi transduser",
           "Pertahankan sterilitas sistem pemantauan",
           "Pertahankan posisi kepala dan leher netral",
           "Bilas sistem pemantauan, jika perlu",
           "Atur interval pemantauan sesuai kondisi pasien",
-          "Dokumentasikan hasil pemantauan",
+          "Dokumentasikan hasil pemantauan"
+        ],
+        "edukasi": [
           "Jelaskan tujuan dan prosedur pemantauan",
           "Informasikan hasil pemantauan, jika perlu"
         ]
@@ -1710,7 +1852,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "berat-badan-lebih",
   "kode": "D.0018",
   "nama": "Berat Badan Lebih",
-  "definisi": "Berat badan lebih adalah diagnosis keperawatan yang didefinisikan sebagai akumulasi lemak berlebih atau abnormal yang tidak sesuai dengan...",
+  "definisi": "Akumulasi lemak berlebih atau abnormal yang tidak sesuai dengan usia dan jenis kelamin",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [],
@@ -1751,18 +1893,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03094",
       "nama": "Konseling Nutrisi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kebiasaan makan dan perilaku makan yang akan diubah",
           "Identifikasi kemajuan modifikasi diet secara regular",
-          "Monitor intake dan output cairan, nilai hemoglobin, tekanan darah, kenaikan berat badan, dan kebiasaan membeli makanan",
+          "Monitor intake dan output cairan, nilai hemoglobin, tekanan darah, kenaikan berat badan, dan kebiasaan membeli makanan"
+        ],
+        "terapeutik": [
           "Bina hubungan terapeutik",
           "Sepakati lama waktu pemberian konseling",
           "Tetapkan tujuan jangka pendek dan jangka Panjang yang realistis",
           "Gunakan standar nutrisi sesuai program diet dalam mengevaluasi kecukupan asupan makanan",
           "Pertimbangkan faktor-faktor yang mempengaruhi pemenuhan kebutuhan  gizi (mis. Usia, tahap pertumbuhan dan perkembangan, penyakit)",
-          "Informasikan perlunya modifikasi diet (misal: penurunan atau penambahan berat badan, pembatasan natrium atau cairan, pengurangan kolesterol",
-          "Jelaskan program gizi dan persepsi pasien terhadap diet yang diprogramkan",
           "Rujuk pada ahli gizi, jika perlu"
+        ],
+        "edukasi": [
+          "Informasikan perlunya modifikasi diet (misal: penurunan atau penambahan berat badan, pembatasan natrium atau cairan, pengurangan kolesterol",
+          "Jelaskan program gizi dan persepsi pasien terhadap diet yang diprogramkan"
         ]
       }
     },
@@ -1770,11 +1916,15 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03097",
       "nama": "Manajemen berat badan",
       "tindakan": {
+        "observasi": [
+          "Identifikasi kondisi Kesehatan pasien yang dapat mempengaruhi berat badan"
+        ],
         "terapeutik": [
-          "Identifikasi kondisi Kesehatan pasien yang dapat mempengaruhi berat badan",
           "Hitung berat badan ideal pasien (LIHAT: kalkulator berat badan ideal)",
           "Hitung persentase lemak dan otot pasien",
-          "Fasilitasi menentukan target berat badan yang realistis",
+          "Fasilitasi menentukan target berat badan yang realistis"
+        ],
+        "edukasi": [
           "Jelaskan hubungan asupan makanan, Latihan, peningkatan, dan penurunan berat badan",
           "Jelaskan faktor risiko berat badan lebih dan berat badan kurang",
           "Anjurkan mencatat berat badan setiap minggu, jika perlu",
@@ -1786,13 +1936,15 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.05183",
       "nama": "Promosi Latihan fisik",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi keyakinan Kesehatan tentang Latihan fisik",
           "Identifikasi pengalaman olahraga sebelumnya",
           "Identifikasi motivasi individu untuk memulai atau melanjutkan program olahraga",
           "Identifikasi hambatan untuk berolahraga",
           "Monitor kepatuhan menjalankan program Latihan",
-          "Monitor respons terhadap program latihan",
+          "Monitor respons terhadap program latihan"
+        ],
+        "terapeutik": [
           "Motivasi mengungkapkan perasaan tentang olahraga/kebutuhan berolahraga",
           "Motivasi memulai atau melanjutkan olahraga",
           "Fasilitasi dalam mengidentifikasi model peran positif untuk mempertahankan program Latihan",
@@ -1801,14 +1953,18 @@ export const allDiagnosesData: Diagnosis[] = [
           "Fasilitasi dalam menjadwalkan periode regular Latihan rutin mingguan",
           "Fasilitasi dalam mempertahankan kemajuan program Latihan",
           "Lakukan aktivitas olahraga Bersama pasien, jika perlu",
+          "Berikan umpan balik positif terhadap segala upaya yang dijalankan pasien"
+        ],
+        "edukasi": [
           "Libatkan keluarga dalam merencanakan dan memelihara program Latihan",
-          "Berikan umpan balik positif terhadap segala upaya yang dijalankan pasien",
           "Jelaskan manfaat Kesehatan dan efek fisiologis olahraga",
           "Jelaskan jenis Latihan yang sesuai dengan kondisi Kesehatan",
           "Jelaskan frekuensi, durasi, dan intensitas program Latihan yang diinginkan",
           "Ajarkan Latihan pemanasan dan pendinginan yang tepat",
           "Ajarkan Teknik menghindari cidera saat berolahraga",
-          "Ajarkan Teknik pernapasan yang tepat untuk memaksimalkan penyerapan oksigen selama Latihan fisik",
+          "Ajarkan Teknik pernapasan yang tepat untuk memaksimalkan penyerapan oksigen selama Latihan fisik"
+        ],
+        "kolaborasi": [
           "Kolaborasi dengan rehabilitasi medis atau ahli fisiologi olahraga, jika perlu"
         ]
       }
@@ -1820,7 +1976,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "defisit-nutrisi",
   "kode": "D.0019",
   "nama": "Defisit Nutrisi",
-  "definisi": "Defisit nutrisi merupakan diagnosis keperawatan yang didefinisikan sebagai asupan nutrisi tidak cukup untuk memenuhi kebutuhan metabolisme. ",
+  "definisi": "Asupan nutrisi tidak cukup untuk memenuhi kebutuhan metabolisme",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [
@@ -1857,7 +2013,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03119",
       "nama": "Manajemen Nutrisi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi status nutrisi",
           "Identifikasi alergi dan intoleransi makanan",
           "Identifikasi makanan yang disukai",
@@ -1865,16 +2021,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Identifikasi perlunya penggunaan selang nasogastrik",
           "Monitor asupan makanan",
           "Monitor berat badan",
-          "Monitor hasil pemeriksaan laboratorium",
+          "Monitor hasil pemeriksaan laboratorium"
+        ],
+        "terapeutik": [
           "Lakukan oral hygiene sebelum makan, jika perlu",
           "Fasilitasi menentukan pedoman diet (mis: piramida  makanan)",
           "Sajikan makanan secara menarik dan suhu yang sesuai",
           "Berikan makanan tinggi serat untuk mencegah konstipasi",
           "Berikan makanan tinggi kalori dan tinggi protein",
           "Berikan suplemen makanan, jika perlu",
-          "Hentikan pemberian makan melalui selang nasogastik jika asupan oral dapat ditoleransi",
+          "Hentikan pemberian makan melalui selang nasogastik jika asupan oral dapat ditoleransi"
+        ],
+        "edukasi": [
           "Ajarkan posisi duduk, jika mampu",
-          "Ajarkan diet yang diprogramkan",
+          "Ajarkan diet yang diprogramkan"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian medikasi sebelum makan (mis: Pereda nyeri, antiemetik), jika perlu",
           "Kolaborasi dengan ahli  gizi untuk menentukan jumlah kalori dan jenis nutrien yang dibutuhkan, jika perlu"
         ]
@@ -1884,17 +2046,21 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03136",
       "nama": "Promosi Berat Badan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kemungkinan penyebab BB kurang",
           "Monitor adanya mual dan muntah",
           "Monitor jumlah kalori yang di konsumsi sehari-hari",
           "Monitor berat badan",
-          "Monitor albumin, limfosit, dan elektrolit serum",
+          "Monitor albumin, limfosit, dan elektrolit serum"
+        ],
+        "terapeutik": [
           "Berikan perawatan mulut sebelum pemberian makan, jika perlu",
           "Sediakan makanan yang tepat sesuai kondisi pasien (mis: makanan dengan tekstur halus, makanan yang diblender, makanan cair yang diberikan melalui NGT atau gastrostomy, total parenteral nutrition sesuai indikasi)",
           "Hidangkan makanan secara menarik",
           "Berikan suplemen, jika perlu",
-          "Berikan pujian pada pasien/keluarga untuk peningkatan yang dicapai",
+          "Berikan pujian pada pasien/keluarga untuk peningkatan yang dicapai"
+        ],
+        "edukasi": [
           "Jelaskan jenis makanan yang bergizi tinggi, namun tetap terjangkau",
           "Jelaskan peningkatan asupan kalori yang dibutuhkan"
         ]
@@ -1907,7 +2073,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "diare",
   "kode": "D.0020",
   "nama": "Diare",
-  "definisi": "Diare adalah diagnosis keperawatan yang didefinisikan sebagai pengeluaran feses yang sering, lunak, dan tidak berbentuk.",
+  "definisi": "Pengeluaran feses yang sering, lunak, dan tidak berbentuk",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [
@@ -1954,7 +2120,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03101",
       "nama": "Manajemen Diare",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab diare (mis: inflamasi gastrointestinal, iritasi gastrointestinal, proses infeksi, malabsorpsi, ansietas, stres, obat-obatan, pemberian botol susu)",
           "Identifikasi Riwayat pemberian makanan",
           "Identifikasi gejala invaginasi (mis: tangisan keras, kepucatan pada bayi)",
@@ -1962,15 +2128,21 @@ export const allDiagnosesData: Diagnosis[] = [
           "Monitor tanda dan gejala hypovolemia (mis: takikardia, nadi teraba lemah, tekanan darah turun, turgor kulit turun, mukosa kulit kering, CRT melambat, BB menurun)",
           "Monitor iritasi dan ulserasi kulit di daerah perianal",
           "Monitor jumlah dan pengeluaran diare",
-          "Monitor keamanan penyiapan makanan",
+          "Monitor keamanan penyiapan makanan"
+        ],
+        "terapeutik": [
           "Berikan asupan cairan oral (mis: larutan garam gula, oralit, Pedialyte, renalyte)",
           "Pasang jalur intravena",
           "Berikan cairan intravena (mis: ringer asetat, ringer laktat), jika perlu",
           "Ambil sampel darah untuk pemeriksaan darah lengkap dan elektrolit",
-          "Ambil sampel feses untuk kultur, jika perlu",
+          "Ambil sampel feses untuk kultur, jika perlu"
+        ],
+        "edukasi": [
           "Anjurkan makanan porsi kecil dan sering secara bertahap",
           "Anjurkan menghindari makanan pembentuk gas, pedas, dan mengandung laktosa",
-          "Anjurkan melanjutkan pemberian ASI",
+          "Anjurkan melanjutkan pemberian ASI"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat antimotilitas (mis: loperamide, difenoksilat)",
           "Kolaborasi pemberian antispasmodik/spasmolitik (mis: papaverine, ekstrak belladonna, mebeverine)",
           "Kolaborasi pemberian obat pengeras feses (mis: atapugit, smektit, kaolin-pektin)"
@@ -1981,7 +2153,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03101",
       "nama": "Pemantauan Cairan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor frekuensi dan kekuatan nadi",
           "Monitor frekuensi napas",
           "Monitor tekanan darah",
@@ -1994,11 +2166,15 @@ export const allDiagnosesData: Diagnosis[] = [
           "Monitor intake dan output cairan",
           "Identifikasi tanda-tanda hypovolemia (mis: frekuensi nadi meningkat, nadi teraba lemah, tekanan darah menurun, tekanan nadi menyempit, turgor kulit menurun, membran mukosa kering, volume urin menurun, hematokrit meningkat, hasil, lemah, konsentrasi urin meningkat, berat badan menurun dalam waktu singkat)",
           "Identifikasi tanda-tanda hypervolemia (mis: dispnea, edema perifer, edema anasarca, JVP meningkat, CVP meningkat, refleks hepatojugular positif, berat badan menurun dalam waktu singkat)",
-          "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)",
+          "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)"
+        ],
+        "terapeutik": [
           "Atur interval waktu pemantauan sesuai dengan kondisi pasien",
           "Dokumentasikan hasil pemantauan",
-          "Jelaskan tujuan dan prosedur pemantauan",
           "Dokumentasikan hasil pemantauan"
+        ],
+        "edukasi": [
+          "Jelaskan tujuan dan prosedur pemantauan"
         ]
       }
     }
@@ -2009,7 +2185,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "disfungsi-motilitas-gastrointestinal",
   "kode": "D.0021",
   "nama": "Disfungsi Motilitas Gastrointestinal",
-  "definisi": "Disfungsi motilitas gastrointestinal adalah peningkatan, penurunan, tidak efektif atau kurangnya aktivitas peristaltik gastrointestinal.",
+  "definisi": "Peningkatan, penurunan, tidak efektif atau kurangnya aktivitas peristaltik gastrointestinal",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [
@@ -2059,7 +2235,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03119",
       "nama": "Manajemen Nutrisi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi status nutrisi",
           "Identifikasi alergi dan intoleransi makanan",
           "Identifikasi makanan yang disukai",
@@ -2067,16 +2243,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Identifikasi perlunya penggunaan selang nasogastrik",
           "Monitor asupan makanan",
           "Monitor berat badan",
-          "Monitor hasil pemeriksaan laboratorium",
+          "Monitor hasil pemeriksaan laboratorium"
+        ],
+        "terapeutik": [
           "Lakukan oral hygiene sebelum makan, jika perlu",
           "Fasilitasi menentukan pedoman diet (mis: piramida makanan)",
           "Sajikan makanan secara menarik dan suhu yang sesuai",
           "Berikan makanan tinggi serat untuk mencegah konstipasi",
           "Berikan makanan tinggi kalori dan tinggi protein",
           "Berikan suplemen makanan, jika perlu",
-          "Hentikan pemberian makan melalui selang nasogastik jika asupan oral dapat ditoleransi",
+          "Hentikan pemberian makan melalui selang nasogastik jika asupan oral dapat ditoleransi"
+        ],
+        "edukasi": [
           "Ajarkan posisi duduk, jika mampu",
-          "Ajarkan diet yang diprogramkan",
+          "Ajarkan diet yang diprogramkan"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian medikasi sebelum makan (mis: Pereda nyeri, antiemetik), jika perlu",
           "Kolaborasi dengan ahli  gizi untuk menentukan jumlah kalori dan jenis nutrien yang dibutuhkan, jika perlu"
         ]
@@ -2086,14 +2268,18 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.01018",
       "nama": "Pengontrolan Infeksi",
       "tindakan": {
+        "observasi": [
+          "Identifikasi pasien-pasien yang mengalami penyakit infeksi menular"
+        ],
         "terapeutik": [
-          "Identifikasi pasien-pasien yang mengalami penyakit infeksi menular",
           "Terapkan kewaspadaan universal (mis: cuci tangan aseptic, gunakan alat pelindung diri seperti masker, sarung tangan, pelindung wajah, pelindung mata, apron, sepatu bot sesuai model transmisi mikroorganisme)",
           "Tempatkan pada ruang isolasi bertekanan positif untuk pasien yang mengalami penurunan imunitas",
           "Tempatkan pada ruang isolasi bertekanan negatif untuk pasien dengan resiko penyebaran infeksi via droplet atau udara",
           "Sterilisasi dan desinfeksi alat-alat, furniture, lantai, sesuai kebutuhan",
           "Gunakan hepafilter pada area khusus (mis: kamar operasi)",
-          "Berikan tanda khusus untuk pasien-pasien dengan penyakit menular",
+          "Berikan tanda khusus untuk pasien-pasien dengan penyakit menular"
+        ],
+        "edukasi": [
           "Ajarkan cara mencuci tangan dengan benar",
           "Ajarkan etika batuk dan/atau bersin"
         ]
@@ -2106,7 +2292,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "hipervolemia",
   "kode": "D.0022",
   "nama": "Hipervolemia",
-  "definisi": "Hipervolemia merupakan diagnosis keperawatan yang didefinisikan sebagai peningkatan volume cairan intravaskular, interstitial, dan/atau...",
+  "definisi": "Peningkatan volume cairan intravaskular, interstitial, dan/atau intraselular",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [
@@ -2156,7 +2342,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03114",
       "nama": "Manajemen Hipervolemia",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Periksa tanda dan gejala hypervolemia (mis: ortopnea, dispnea, edema, JVP/CVP meningkat, refleks hepatojugular positif, suara napas tambahan)",
           "Identifikasi penyebab hypervolemia",
           "Monitor status hemodinamik (mis: frekuensi jantung, tekanan darah, MAP, CVP, PAP, PCWP, CO, CI) jika tersedia",
@@ -2164,13 +2350,19 @@ export const allDiagnosesData: Diagnosis[] = [
           "Monitor tanda hemokonsentrasi (mis: kadar natrium, BUN, hematokrit, berat jenis urine)",
           "Monitor tanda peningkatan tekanan onkotik plasma (mis: kadar protein dan albumin meningkat)",
           "Monitor kecepatan infus secara ketat",
-          "Monitor efek samping diuretic (mis: hipotensi ortostatik, hypovolemia, hipokalemia, hiponatremia)",
+          "Monitor efek samping diuretic (mis: hipotensi ortostatik, hypovolemia, hipokalemia, hiponatremia)"
+        ],
+        "terapeutik": [
           "Timbang berat badan setiap hari pada waktu yang sama",
           "Batasi asupan cairan dan garam",
-          "Tinggikan kepala tempat tidur 30 – 40 derajat",
+          "Tinggikan kepala tempat tidur 30 – 40 derajat"
+        ],
+        "edukasi": [
           "Anjurkan melapor jika haluaran urin < 0,5 mL/kg/jam dalam 6 jam",
           "Anjurkan melapor jika BB bertambah > 1 kg dalam sehari",
-          "Ajarkan cara membatasi cairan",
+          "Ajarkan cara membatasi cairan"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian diuretic",
           "Kolaborasi penggantian kehilangan kalium akibat diuretic",
           "Kolaborasi pemberian continuous renal replacement therapy (CRRT) jika perlu"
@@ -2181,7 +2373,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03101",
       "nama": "Pemantauan Cairan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor frekuensi dan kekuatan nadi",
           "Monitor frekuensi napas",
           "Monitor tekanan darah",
@@ -2194,11 +2386,15 @@ export const allDiagnosesData: Diagnosis[] = [
           "Monitor intake dan output cairan",
           "Identifikasi tanda-tanda hypovolemia (mis: frekuensi nadi meningkat, nadi teraba lemah, tekanan darah menurun, tekanan nadi menyempit, turgor kulit menurun, membran mukosa kering, volume urin menurun, hematokrit meningkat, hasil, lemah, konsentrasi urin meningkat, berat badan menurun dalam waktu singkat)",
           "Identifikasi tanda-tanda hypervolemia (mis: dispnea, edema perifer, edema anasarca, JVP meningkat, CVP meningkat, refleks hepatojugular positif, berat badan menurun dalam waktu singkat)",
-          "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)",
+          "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)"
+        ],
+        "terapeutik": [
           "Atur interval waktu pemantauan sesuai dengan kondisi pasien",
           "Dokumentasikan hasil pemantauan",
-          "Jelaskan tujuan dan prosedur pemantauan",
           "Dokumentasikan hasil pemantauan"
+        ],
+        "edukasi": [
+          "Jelaskan tujuan dan prosedur pemantauan"
         ]
       }
     }
@@ -2209,7 +2405,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "hipovolemia",
   "kode": "D.0023",
   "nama": "Hipovolemia",
-  "definisi": "Hipovolemia merupakan diagnosis keperawatan yang didefinisikan sebagai penurunan volume cairan intravaskular, interstitial, dan/atau...",
+  "definisi": "Penurunan volume cairan intravaskular, interstitial, dan/atau intraselular",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [
@@ -2262,14 +2458,20 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03116",
       "nama": "Manajemen Hipovolemia",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Periksa tanda dan gejala hipovolemia (mis: frekuensi nadi meningkat, nadi teraba lemah, tekanan darah menurun, tekanan nadi menyempit, turgor kulit menurun, membran mukosa kering, volume urin menurun, hematokrit meningkat, haus, lemah)",
-          "Monitor intake dan output cairan",
+          "Monitor intake dan output cairan"
+        ],
+        "terapeutik": [
           "Hitung kebutuhan cairan",
           "Berikan posisi modified Trendelenburg",
-          "Berikan asupan cairan oral",
+          "Berikan asupan cairan oral"
+        ],
+        "edukasi": [
           "Anjurkan memperbanyak asupan cairan oral",
-          "Anjurkan menghindari perubahan posisi mendadak",
+          "Anjurkan menghindari perubahan posisi mendadak"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian cairan IV isotonis (mis: NaCL, RL)",
           "Kolaborasi pemberian cairan IV hipotonis (mis: glukosa 2,5%, NaCl 0,4%)",
           "Kolaborasi pemberian cairan koloid (albumin, plasmanate)",
@@ -2281,12 +2483,14 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03116",
       "nama": "Manajemen Syok Hipovolemik",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor status kardiopulmonal (frekuensi dan kekuatan nadi, frekuensi napas, TD, MAP)",
           "Monitor status oksigenasi (oksimetri nadi, AGD)",
           "Monitor status cairan (masukan dan haluaran, turgor kulit, CRT)",
           "Periksa tingkat kesadaran dan respon pupil",
-          "Periksa seluruh permukaan tubuh terhadap adanya DOTS (deformity/deformitas, open wound/luka terbuka, tenderness/nyeri tekan, swelling/bengkak)",
+          "Periksa seluruh permukaan tubuh terhadap adanya DOTS (deformity/deformitas, open wound/luka terbuka, tenderness/nyeri tekan, swelling/bengkak)"
+        ],
+        "terapeutik": [
           "Pertahankan jalan napas paten",
           "Berikan oksigen untuk mempertahankan saturasi oksigen > 94%",
           "Persiapkan intubasi dan ventilasi mekanis, jika perlu",
@@ -2295,7 +2499,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Pasang jalur IV berukuran besar (mis: nomor 14 atau 16)",
           "Pasang kateter urin untuk menilai produksi urin",
           "Pasang selang nasogastrik untuk dekompresi lambung",
-          "Ambil sampel darah untuk pemeriksaan darah lengkap dan elektrolit",
+          "Ambil sampel darah untuk pemeriksaan darah lengkap dan elektrolit"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian infus cairan kristaloid 1 – 2 L pada dewasa",
           "Kolaborasi pemberian infus cairan kristaloid 20 mL/kgBB pada anak",
           "Kolaborasi pemberian transfusi darah, jika perlu"
@@ -2309,7 +2515,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "ikterik-neonatus",
   "kode": "D.0024",
   "nama": "Ikterik Neonatus",
-  "definisi": "Ikterik neonatus merupakan diagnosis keperawatan yang didefinisikan sebagai kulit dan membran mukosa neonatus menguning setelah 24...",
+  "definisi": "Kulit dan membran mukosa neonatus menguning setelah 24 jam kelahiran akibat bilirubin tidak terkonjugasi masuk ke dalam sirkulasi",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [
@@ -2346,20 +2552,26 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03091",
       "nama": "Fototerapi Neonatus",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor ikterik pada sklera dan kulit  bayi",
           "Identifikasi kebutuhan cairan sesuai dengan usia gestasi dan berat badan",
           "Monitor suhu dan tanda vital setiap 4 jam sekali",
-          "Monitor efek samping fototerapi (mis: hipertermi, diare, rush pada kulit, penurunan berat badan lebih dari  8 – 10%",
+          "Monitor efek samping fototerapi (mis: hipertermi, diare, rush pada kulit, penurunan berat badan lebih dari  8 – 10%"
+        ],
+        "terapeutik": [
           "Siapkan lampu fototerapi dan incubator atau kotak bayi",
           "Lepaskan pakaian bayi kecuali popok",
           "Berikan penutup mata (eye protector/biliband) pada bayi",
           "Ukur jarak antara lampu dan permukaan kulit bayi (30 cm atau tergantung spesifikasi lampu fototerapi)",
           "Biarkan tubuh bayi terpapar sinar fototerapi secara berkelanjutan",
           "Ganti segera alas dan popok bayi jika BAB/BAK",
-          "Gunakan linen berwarna putih agar memantulkan cahaya sebanyak mungkin",
+          "Gunakan linen berwarna putih agar memantulkan cahaya sebanyak mungkin"
+        ],
+        "edukasi": [
           "Anjurkan ibu menyusui sekitar 20 – 30 menit",
-          "Anjurkan ibu menyusui sesering mungkin",
+          "Anjurkan ibu menyusui sesering mungkin"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian darah vena bilirubin direk dan indirek"
         ]
       }
@@ -2368,8 +2580,10 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.10338",
       "nama": "Perawatan Bayi",
       "tindakan": {
+        "observasi": [
+          "Monitor tanda-tanda vital bayi (terutama suhu 36°C – 37°C)"
+        ],
         "terapeutik": [
-          "Monitor tanda-tanda vital bayi (terutama suhu 36°C – 37°C)",
           "Mandikan bayi dengan suhu ruangan 21 – 24°C",
           "Mandikan bayi dalam waktu 5 – 10 menit dan 2 kali dalam sehari",
           "Rawat tali pusat secara terbuka (tali pusat tidak dibungkus apapun)",
@@ -2377,7 +2591,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Kenakan popok bayi di bawah umbilicus jika tali pusat belum terlepas",
           "Lakukan pemijatan bayi",
           "Ganti popok bayi jika basah",
-          "Kenakan pakaian bayi dari bahan katun",
+          "Kenakan pakaian bayi dari bahan katun"
+        ],
+        "edukasi": [
           "Anjurkan ibu menyusui sesuai kebutuhan bayi",
           "Ajarkan ibu cara merawat bayi di rumah",
           "Ajarkan cara pemberian makanan pendamping ASI pada bayi > 6 bulan"
@@ -2391,7 +2607,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "kesiapan-peningkatan-keseimbangan-cairan",
   "kode": "D.0025",
   "nama": "Kesiapan Peningkatan Keseimbangan Cairan",
-  "definisi": "Kesiapan peningkatan keseimbangan cairan adalah pola ekuilibrium antara volume cairan dan komposisi kimia cairan tubuh yang cukup untuk",
+  "definisi": "Pola ekuilibrium antara volume cairan dan komposisi kimia cairan tubuh yang cukup untuk memenuhi kebutuhan fisik dan dapat ditingkatkan",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [
@@ -2432,15 +2648,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03098",
       "nama": "Manajemen Cairan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor status hidrasi (mis: frekuensi nadi, kekuatan nadi, akral, pengisian kapiler, kelembaban mukosa, turgor kulit, tekanan darah)",
           "Monitor berat badan harian",
           "Monitor berat badan sebelum dan sesudah dialisis",
           "Monitor hasil pemeriksaan laboratorium (mis: hematokrit, Na, K, Cl, berat jenis urin, BUN)",
-          "Monitor status hemodinamik (mis: MAP, CVP, PAP, PCWP, jika tersedia)",
+          "Monitor status hemodinamik (mis: MAP, CVP, PAP, PCWP, jika tersedia)"
+        ],
+        "terapeutik": [
           "Catat intake-output dan hitung balans cairan 24 jam",
           "Berikan asupan cairan, sesuai kebutuhan",
-          "Berikan cairan intravena, jika perlu",
+          "Berikan cairan intravena, jika perlu"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian diuretik, jika perlu"
         ]
       }
@@ -2449,7 +2669,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03101",
       "nama": "Pemantauan Cairan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor frekuensi dan kekuatan nadi",
           "Monitor frekuensi napas",
           "Monitor tekanan darah",
@@ -2462,11 +2682,15 @@ export const allDiagnosesData: Diagnosis[] = [
           "Monitor intake dan output cairan",
           "Identifikasi tanda-tanda hypovolemia (mis: frekuensi nadi meningkat, nadi teraba lemah, tekanan darah menurun, tekanan nadi menyempit, turgor kulit menurun, membran mukosa kering, volume urin menurun, hematokrit meningkat, hasil, lemah, konsentrasi urin meningkat, berat badan menurun dalam waktu singkat)",
           "Identifikasi tanda-tanda hypervolemia (mis: dispnea, edema perifer, edema anasarca, JVP meningkat, CVP meningkat, refleks hepatojugular positif, berat badan menurun dalam waktu singkat)",
-          "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)",
+          "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)"
+        ],
+        "terapeutik": [
           "Atur interval waktu pemantauan sesuai dengan kondisi pasien",
           "Dokumentasikan hasil pemantauan",
-          "Jelaskan tujuan dan prosedur pemantauan",
           "Dokumentasikan hasil pemantauan"
+        ],
+        "edukasi": [
+          "Jelaskan tujuan dan prosedur pemantauan"
         ]
       }
     }
@@ -2477,7 +2701,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "kesiapan-peningkatan-nutrisi",
   "kode": "D.0026",
   "nama": "Kesiapan Peningkatan Nutrisi",
-  "definisi": "Kesiapan peningkatan nutrisi adalah pola asupan nutrisi yang cukup untuk memenuhi kebutuhan metabolisme dan dapat ditingkatkan.",
+  "definisi": "Pola asupan nutrisi yang cukup untuk memenuhi kebutuhan metabolisme dan dapat ditingkatkan",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [
@@ -2505,17 +2729,21 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12395",
       "nama": "Edukasi Nutrisi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Periksa status gizi, status alergi, program diet, kebutuhan dan kemampuan pemenuhan kebutuhan gizi",
-          "Identifikasi kemampuan dan waktu yang tepat menerima informasi",
+          "Identifikasi kemampuan dan waktu yang tepat menerima informasi"
+        ],
+        "terapeutik": [
           "Persiapkan materi dan media seperti jenis-jenis nutrisi, tabel makanan penukar, cara mengelola, cara menakar makanan",
           "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
           "Berikan kesempatan untuk bertanya",
+          "Demonstrasikan cara membersihkan mulut",
+          "Demonstrasikan cara mengatur posisi saat makan"
+        ],
+        "edukasi": [
           "Jelaskan kepada pasien dan keluarga alergi makanan, makanan yang harus di hindari, kebutuhan jumlah kalori, jenis makanan yang dibutuhkan pasien",
           "Ajarkan cara melaksanakan diet sesuai program (mis: makanan tinggi protein, rendah garam, rendah kalori)",
           "Jelaskan hal-hal yang dilakukan sebelum memberikan makan (mis: perawatan mulut, penggunaan gigi palsu, obat-obat yang harus diberikan sebelum makan)",
-          "Demonstrasikan cara membersihkan mulut",
-          "Demonstrasikan cara mengatur posisi saat makan",
           "Ajarkan pasien/keluarga memonitor asupan kalori dan  makanan (mis: menggunakan buku harian)",
           "Ajarkan pasien dan keluarga memantau kondisi kekurangan  nutrisi",
           "Anjurkan mendemonstrasikan cara memberi makan, menghitung kalori, menyiapkan makanan sesuai program diet"
@@ -2526,18 +2754,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03094",
       "nama": "Konseling Nutrisi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kebiasaan makan dan perilaku makan yang akan diubah",
           "Identifikasi kemajuan modifikasi diet secara regular",
-          "Monitor intake dan output cairan, nilai hemoglobin, tekanan darah, kenaikan berat badan, dan kebiasaan membeli makanan",
+          "Monitor intake dan output cairan, nilai hemoglobin, tekanan darah, kenaikan berat badan, dan kebiasaan membeli makanan"
+        ],
+        "terapeutik": [
           "Bina hubungan terapeutik",
           "Sepakati lama waktu pemberian konseling",
           "Tetapkan tujuan jangka pendek dan jangka Panjang yang realistis",
           "Gunakan standar nutrisi sesuai program diet dalam mengevaluasi kecukupan asupan makanan",
           "Pertimbangkan faktor-faktor yang mempengaruhi pemenuhan kebutuhan gizi (mis. Usia, tahap pertumbuhan dan perkembangan, penyakit)",
-          "Informasikan perlunya modifikasi diet (misal: penurunan atau penambahan berat badan, pembatasan natrium atau cairan, pengurangan kolesterol",
-          "Jelaskan program gizi dan persepsi pasien terhadap diet yang diprogramkan",
           "Rujuk pada ahli gizi, jika perlu"
+        ],
+        "edukasi": [
+          "Informasikan perlunya modifikasi diet (misal: penurunan atau penambahan berat badan, pembatasan natrium atau cairan, pengurangan kolesterol",
+          "Jelaskan program gizi dan persepsi pasien terhadap diet yang diprogramkan"
         ]
       }
     }
@@ -2548,7 +2780,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "ketidakstabilan-kadar-glukosa-darah",
   "kode": "D.0027",
   "nama": "Ketidakstabilan Kadar Glukosa Darah",
-  "definisi": "Ketidakstabilan kadar glukosa darah adalah variasi kadar glukosa darah naik atau turun dari rentang normal.",
+  "definisi": "Variasi kadar glukosa darah naik atau turun dari rentang normal",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [
@@ -2599,21 +2831,27 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03115",
       "nama": "Manajemen Hiperglikemia",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kemungkinan penyebab hiperglikemia",
           "Identifikasi situasi yang menyebabkan kebutuhan insulin meningkat (mis: penyakit kambuhan)",
           "Monitor kadar glukosa darah, jika perlu",
           "Monitor tanda dan gejala hiperglikemia (mis: polyuria, polydipsia, polifagia, kelemahan, malaise, pandangan kabur, sakit kepala)",
           "Monitor intake dan output cairan",
-          "Monitor keton urin, kadar Analisa gas darah, elektrolit, tekanan darah ortostatik dan frekuensi nadi",
+          "Monitor keton urin, kadar Analisa gas darah, elektrolit, tekanan darah ortostatik dan frekuensi nadi"
+        ],
+        "terapeutik": [
           "Berikan asupan cairan oral",
           "Konsultasi dengan medis jika tanda dan gejala hiperglikemia tetap ada atau memburuk",
-          "Fasilitasi ambulasi jika ada hipotensi ortostatik",
+          "Fasilitasi ambulasi jika ada hipotensi ortostatik"
+        ],
+        "edukasi": [
           "Anjurkan menghindari olahraga saat kadar glukosa darah lebih dari 250 mg/dL",
           "Anjurkan monitor kadar glukosa darah secara mandiri",
           "Anjurkan kepatuhan terhadap diet dan olahraga",
           "Ajarkan indikasi dan pentingnya pengujian keton urin, jika perlu",
-          "Ajarkan pengelolaan diabetes (mis: penggunaan insulin, obat oral, monitor asupan cairan, penggantian karbohidrat, dan bantuan professional kesehatan",
+          "Ajarkan pengelolaan diabetes (mis: penggunaan insulin, obat oral, monitor asupan cairan, penggantian karbohidrat, dan bantuan professional kesehatan"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian insulin, jika perlu",
           "Kolaborasi pemberian cairan IV, jika perlu",
           "Kolaborasi pemberian kalium, jika perlu"
@@ -2624,22 +2862,28 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03115",
       "nama": "Manajemen Hipoglikemia",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi tanda dan gejala hipoglikemia",
-          "Identifikasi kemungkinan penyebab hipoglikemia",
+          "Identifikasi kemungkinan penyebab hipoglikemia"
+        ],
+        "terapeutik": [
           "Berikan karbohidrat sederhana, jika perlu",
           "Berikan glucagon, jika perlu",
           "Berikan karbohidrat kompleks dan protein sesuai diet",
           "Pertahankan kepatenan jalan napas",
           "Pertahankan akses IV, jika perlu",
-          "Hubungi layanan medis darurat, jika perlu",
+          "Hubungi layanan medis darurat, jika perlu"
+        ],
+        "edukasi": [
           "Anjurkan membawa karbohidrat sederhana setiap saat",
           "Anjurkan memakai identitas darurat yang tepat",
           "Anjurkan monitor kadar glukosa darah",
           "Anjurkan berdiskusi dengan tim perawatan diabetes tentang penyesuaian program pengobatan",
           "Jelaskan interaksi antara diet, insulin/agen oral, dan olahraga",
           "Ajarkan pengelolaan hipoglikemia (mis: tanda dan gejala, faktor risiko, dan pengobatan hipoglikemia)",
-          "Ajarkan perawatan mandiri untuk mencegah hipoglikemia (mis: mengurangi insulin/agen oral dan/atau meningkatkan asupan makanan untuk berolahraga)",
+          "Ajarkan perawatan mandiri untuk mencegah hipoglikemia (mis: mengurangi insulin/agen oral dan/atau meningkatkan asupan makanan untuk berolahraga)"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian dekstrose, jika perlu",
           "Kolaborasi pemberian glukagon, jika perlu"
         ]
@@ -2652,7 +2896,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "menyusui-efektif",
   "kode": "D.0028",
   "nama": "Menyusui Efektif",
-  "definisi": "Menyusui efektif merupakan diagnosis keperawatan yang didefinisikan sebagai pemberian ASI secara langsung dari payudara kepada bayi...",
+  "definisi": "Pemberian ASI secara langsung dari payudara kepada bayi dan anak yang dapat memenuhi kebutuhan nutrisi",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [
@@ -2696,12 +2940,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03093",
       "nama": "Konseling Laktasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi keadaan emosional ibu saat akan dilakukan konseling menyusui",
           "Identifikasi keinginan dan tujuan menyusui",
-          "Identifikasi permasalahan yang ibu alami selama proses menyusui",
+          "Identifikasi permasalahan yang ibu alami selama proses menyusui"
+        ],
+        "terapeutik": [
           "Gunakan Teknik mendengarkan aktif (mis: duduk sama tinggi, dengarkan permasalahan ibu)",
-          "Berikan pujian terhadap perilaku ibu yang benar",
+          "Berikan pujian terhadap perilaku ibu yang benar"
+        ],
+        "edukasi": [
           "Ajarkan Teknik menyusui yang tepat sesuai kebutuhan ibu."
         ]
       }
@@ -2710,14 +2958,18 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03135",
       "nama": "Promosi ASI Eksklusif",
       "tindakan": {
+        "observasi": [
+          "Identifikasi kebutuhan laktasi bagi ibu pada antenatal, intranatal, dan postnatal"
+        ],
         "terapeutik": [
-          "Identifikasi kebutuhan laktasi bagi ibu pada antenatal, intranatal, dan postnatal",
           "Fasilitasi ibu melakukan IMD (inisiasi menyusu dini)",
           "Fasilitasi ibu untuk rawat gabung atau rooming in",
           "Gunakan sendok dan cangkir jika bayi belum bisa menyusu",
           "Dukung ibu menyusui dengan mendampingi ibu selama kegiatan menyusui berlangsung",
+          "Siapkan kelas menyusui pada masa prenatal minimal 2 kali dan periode pascapartum minimal 3 kali"
+        ],
+        "edukasi": [
           "Diskusikan dengan keluarga tentang ASI eksklusif",
-          "Siapkan kelas menyusui pada masa prenatal minimal 2 kali dan periode pascapartum minimal 3 kali",
           "Jelaskan manfaat menyusui bagi ibu dan bayi",
           "Jelaskan pentingnya menyusui di malam hari untuk mempertahankan dan meningkatkan produksi ASI",
           "Jelaskan tanda-tanda bayi cukup ASI (mis: berat badan meningkat, BAK lebih dari 10 kali/hari, warna urine tidak pekat)",
@@ -2733,16 +2985,20 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03138",
       "nama": "Promosi Laktasi",
       "tindakan": {
+        "observasi": [
+          "Identifikasi kebutuhan laktasi bagi ibu, dan bayi"
+        ],
         "terapeutik": [
-          "Identifikasi kebutuhan laktasi bagi ibu, dan bayi",
           "Fasilitasi ibu saat melakukan IMD (inisiasi menyusu dini)",
           "Fasilitasi ibu untuk rawat gabung atau rooming in",
           "Gunakan sendok dan cangkir jika bayi belum bisa menyusu",
           "Damping ibu selama kegiatan menyusui berlangsung",
+          "Adakan kelas edukasi tentang manfaat dan posisi menyusui pada masa prenatal dan periode post partum"
+        ],
+        "edukasi": [
           "Jelaskan pentingnya menyusui sampai 2 tahun",
           "Jelaskan manfaat rawat gabung (rooming in)",
           "Anjurkan ibu menyusui minimal 2 kali selama hamil, dan setelah melahirkan 3-4 kali",
-          "Adakan kelas edukasi tentang manfaat dan posisi menyusui pada masa prenatal dan periode post partum",
           "Anjurkan ibu menjaga produksi ASI dengan memerah ASI",
           "Anjurkan ibu untuk memberikan nutrisi kepada bayi hanya dengan ASI eksklusif selama 6 bulan dan dilanjurkan sampai 2 tahun",
           "Anjurkan ibu memberikan makanan pendamping ASI setelah 6 bulan",
@@ -2757,7 +3013,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "menyusui-tidak-efektif",
   "kode": "D.0029",
   "nama": "Menyusui Tidak Efektif",
-  "definisi": "Menyusui tidak efektif merupakan kondisi dimana ibu dan bayi mengalami ketidakpuasan atau kesukaran pada proses menyusui.",
+  "definisi": "Kondisi dimana ibu dan bayi mengalami ketidakpuasan atau kesukaran pada proses menyusui",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [
@@ -2814,15 +3070,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12393",
       "nama": "Edukasi Menyusui",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kesiapan dan kemampuan menerima informasi",
-          "Identifikasi tujuan atau keinginan menyusui",
+          "Identifikasi tujuan atau keinginan menyusui"
+        ],
+        "terapeutik": [
           "Sediakan materi dan media Pendidikan Kesehatan",
           "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
           "Berikan kesempatan untuk bertanya",
           "Dukung ibu meningkatkan kepercayaan diri dalam menyusui",
+          "Berikan konseling menyusui"
+        ],
+        "edukasi": [
           "Libatkan sistem pendukung: suami, keluarga, tenaga Kesehatan, dan masyarakat",
-          "Berikan konseling menyusui",
           "Jelaskan manfaat menyusui bagi ibu dan bayi",
           "Ajarkan 4 posisi menyusui dan perlekatan (latch on) dengan benar",
           "Ajarkan perawatan payudara antepartum dengan mengkompres dengan kapas yang telah diberikan minyak kelapa",
@@ -2834,12 +3094,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03093",
       "nama": "Konseling Laktasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi keadaan emosional ibu saat akan dilakukan konseling menyusui",
           "Identifikasi keinginan dan tujuan menyusui",
-          "Identifikasi permasalahan yang ibu alami selama proses menyusui",
+          "Identifikasi permasalahan yang ibu alami selama proses menyusui"
+        ],
+        "terapeutik": [
           "Gunakan Teknik mendengarkan aktif (mis: duduk sama tinggi, dengarkan permasalahan ibu)",
-          "Berikan pujian terhadap perilaku ibu yang benar",
+          "Berikan pujian terhadap perilaku ibu yang benar"
+        ],
+        "edukasi": [
           "Ajarkan Teknik menyusui yang tepat sesuai kebutuhan ibu."
         ]
       }
@@ -2851,7 +3115,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "obesitas",
   "kode": "D.0030",
   "nama": "Obesitas",
-  "definisi": "Obesitas merupakan diagnosis keperawatan yang didefinisikan sebagai akumulasi lemak berlebih yang tidak sesuai dengan usia dan jenis kelamin",
+  "definisi": "Akumulasi lemak berlebih yang tidak sesuai dengan usia dan jenis kelamin, serta melampaui kondisi berat badan lebih",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [
@@ -2895,11 +3159,15 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12365",
       "nama": "Edukasi berat badan efektif",
       "tindakan": {
+        "observasi": [
+          "Identifikasi kesiapan dan kemampuan menerima informasi"
+        ],
         "terapeutik": [
-          "Identifikasi kesiapan dan kemampuan menerima informasi",
           "Sediakan materi dan media edukasi",
           "Jadwalkan Pendidikan  Kesehatan sesuai kesepakatan",
-          "Beri kesempatan pada keluarga untuk bertanya",
+          "Beri kesempatan pada keluarga untuk bertanya"
+        ],
+        "edukasi": [
           "Jelaskan hubungan asupan makanan, Latihan, peningkatan, dan penurunan berat badan",
           "Jelaskan kondisi medis yang dapat mempengaruhi berat badan",
           "Jelaskan risiko kondisi kegemukan (overweight) dan kurus (underweight)",
@@ -2912,11 +3180,15 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03097",
       "nama": "Manajemen berat badan",
       "tindakan": {
+        "observasi": [
+          "Identifikasi kondisi Kesehatan pasien yang dapat mempengaruhi berat badan"
+        ],
         "terapeutik": [
-          "Identifikasi kondisi Kesehatan pasien yang dapat mempengaruhi berat badan",
           "Hitung berat badan ideal pasien (lihat kalkulator berat badan ideal)",
           "Hitung persentase lemak dan otot pasien",
-          "Fasilitasi menentukan target berat badan yang realistis",
+          "Fasilitasi menentukan target berat badan yang realistis"
+        ],
+        "edukasi": [
           "Jelaskan hubungan asupan makanan, Latihan, peningkatan, dan penurunan berat badan",
           "Jelaskan faktor risiko berat badan lebih dan berat badan kurang",
           "Anjurkan mencatat berat badan setiap minggu, jika perlu",
@@ -2931,7 +3203,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-berat-badan-lebih",
   "kode": "D.0031",
   "nama": "Risiko Berat Badan Lebih",
-  "definisi": "Risiko Berat badan lebih adalah diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami akumulasi lemak berlebih atau abnormal",
+  "definisi": "Berisiko mengalami akumulasi lemak berlebih atau abnormal yang tidak sesuai dengan usia dan jenis kelamin",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [],
@@ -2968,16 +3240,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12369",
       "nama": "Edukasi Diet",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kemampuan pasien dan keluarga menerima informasi",
           "Identifikasi tingkat pengetahuan saat ini",
           "Identifikasi kebiasaan pola makan saat ini dan masa lalu",
           "Identifikasi persepsi pasien dan keluarga tentang diet yang diprogramkan",
-          "Identifikasi keterbatasan finansial untuk menyediakan makanan",
+          "Identifikasi keterbatasan finansial untuk menyediakan makanan"
+        ],
+        "terapeutik": [
           "Persiapkan materi dan media dan alat peraga",
           "Jadwalkan waktu yang tepat untuk memberikan Pendidikan Kesehatan",
           "Berikan kesempatan pasien dan keluarga bertanya",
           "Sediakan rencana makan tertulis, jika perlu",
+          "Rekomendasikan resep makanan yang sesuai dengan diet, jika perlu",
+          "Rujuk ke ahli  gizi dan sertakan keluarga, jika perlu"
+        ],
+        "edukasi": [
           "Jelaskan tujuan kepatuhan diet terhadap Kesehatan",
           "Informasikan makanan yang diperbolehkan dan dilarang",
           "Informasikan kemungkinan interaksi obat dan makanan, jika perlu",
@@ -2985,9 +3263,7 @@ export const allDiagnosesData: Diagnosis[] = [
           "Anjurkan mengganti bahan makanan sesuai dengan diet yang diprogramkan",
           "Anjurkan melakukan olahraga sesuai toleransi",
           "Ajarkan cara membaca label dan memilih makanan yang sesuai",
-          "Ajarkan cara merencanakan makanan yang sesuai program",
-          "Rekomendasikan resep makanan yang sesuai dengan diet, jika perlu",
-          "Rujuk ke ahli  gizi dan sertakan keluarga, jika perlu"
+          "Ajarkan cara merencanakan makanan yang sesuai program"
         ]
       }
     },
@@ -2995,18 +3271,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03094",
       "nama": "Konseling Nutrisi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kebiasaan makan dan perilaku makan yang akan diubah",
           "Identifikasi kemajuan modifikasi diet secara regular",
-          "Monitor intake dan output cairan, nilai hemoglobin, tekanan darah, kenaikan berat badan, dan kebiasaan membeli makanan",
+          "Monitor intake dan output cairan, nilai hemoglobin, tekanan darah, kenaikan berat badan, dan kebiasaan membeli makanan"
+        ],
+        "terapeutik": [
           "Bina hubungan terapeutik",
           "Sepakati lama waktu pemberian konseling",
           "Tetapkan tujuan jangka pendek dan jangka Panjang yang realistis",
           "Gunakan standar nutrisi sesuai program diet dalam mengevaluasi kecukupan asupan makanan",
           "Pertimbangkan faktor-faktor yang mempengaruhi pemenuhan kebutuhan gizi (mis. Usia, tahap pertumbuhan dan perkembangan, penyakit)",
-          "Informasikan perlunya modifikasi diet (misal: penurunan atau penambahan berat badan, pembatasan natrium atau cairan, pengurangan kolesterol",
-          "Jelaskan program gizi dan persepsi pasien terhadap diet yang diprogramkan",
           "Rujuk pada ahli gizi, jika perlu"
+        ],
+        "edukasi": [
+          "Informasikan perlunya modifikasi diet (misal: penurunan atau penambahan berat badan, pembatasan natrium atau cairan, pengurangan kolesterol",
+          "Jelaskan program gizi dan persepsi pasien terhadap diet yang diprogramkan"
         ]
       }
     }
@@ -3017,7 +3297,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-defisit-nutrisi",
   "kode": "D.0032",
   "nama": "Risiko Defisit Nutrisi",
-  "definisi": "Risiko defisit nutrisi merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami asupan nutrisi tidak cukup untuk...",
+  "definisi": "Berisiko mengalami asupan nutrisi tidak cukup untuk memenuhi kebutuhan metabolisme",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [
@@ -3052,18 +3332,24 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03111",
       "nama": "Manajemen Gangguan Makan",
       "tindakan": {
+        "observasi": [
+          "Monitor asupan dan keluarnya makanan dan cairan serta kebutuhan kalori"
+        ],
         "terapeutik": [
-          "Monitor asupan dan keluarnya makanan dan cairan serta kebutuhan kalori",
           "Timbang berat badan secara rutin",
-          "Diskusikan perilaku makan dan jumlah aktivitas fisik (termasuk olahraga) yang sesuai",
           "Lakukan kontrak perilaku (mis: target berat badan, tanggungjawab perilaku)",
           "Damping ke kamar mandi untuk pengamatan perilaku memuntahkan Kembali makanan",
           "Berikan penguatan positif terhadap keberhasilan target dan perubahan perilaku",
           "Berikan konsekuensi jika tidak mencapai target sesuai kontrak",
-          "Rencanakan program pengobatan untuk perawatan di rumah (mis: medis, konseling)",
+          "Rencanakan program pengobatan untuk perawatan di rumah (mis: medis, konseling)"
+        ],
+        "edukasi": [
+          "Diskusikan perilaku makan dan jumlah aktivitas fisik (termasuk olahraga) yang sesuai",
           "Anjurkan membuat catatan harian tentang perasaan dan situasi pemicu pengeluaran makanan (mis: pengeluaran yang disengaja, muntah, aktivitas berlebihan)",
           "Ajarkan pengaturan diet yang tepat",
-          "Ajarkan keterampilan koping untuk penyelesaian masalah perilaku  makan",
+          "Ajarkan keterampilan koping untuk penyelesaian masalah perilaku  makan"
+        ],
+        "kolaborasi": [
           "Kolaborasi dengan ahli  gizi tentang target berat badan, kebutuhan kalori dan pilihan makanan"
         ]
       }
@@ -3072,7 +3358,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03119",
       "nama": "Manajemen Nutrisi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi status nutrisi",
           "Identifikasi alergi dan intoleransi makanan",
           "Identifikasi makanan yang disukai",
@@ -3080,16 +3366,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Identifikasi perlunya penggunaan selang nasogastrik",
           "Monitor asupan makanan",
           "Monitor berat badan",
-          "Monitor hasil pemeriksaan laboratorium",
+          "Monitor hasil pemeriksaan laboratorium"
+        ],
+        "terapeutik": [
           "Lakukan oral hygiene sebelum makan, jika perlu",
           "Fasilitasi menentukan pedoman diet (mis: piramida makanan)",
           "Sajikan makanan secara menarik dan suhu yang sesuai",
           "Berikan makanan tinggi serat untuk mencegah konstipasi",
           "Berikan makanan tinggi kalori dan tinggi protein",
           "Berikan suplemen makanan, jika perlu",
-          "Hentikan pemberian makan melalui selang nasogastik jika asupan oral dapat ditoleransi",
+          "Hentikan pemberian makan melalui selang nasogastik jika asupan oral dapat ditoleransi"
+        ],
+        "edukasi": [
           "Ajarkan posisi duduk, jika mampu",
-          "Ajarkan diet yang diprogramkan",
+          "Ajarkan diet yang diprogramkan"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian medikasi sebelum makan (mis: Pereda nyeri, antiemetik), jika perlu",
           "Kolaborasi dengan ahli gizi untuk menentukan jumlah kalori dan jenis nutrien yang dibutuhkan, jika perlu"
         ]
@@ -3102,7 +3394,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-disfungsi-motilitas-gastrointestinal",
   "kode": "D.0033",
   "nama": "Risiko Disfungsi Motilitas Gastrointestinal",
-  "definisi": "Risiko disfungsi motilitas gastrointestinal merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami peningkatan....",
+  "definisi": "Berisiko mengalami peningkatan, penurunan, tidak efektifnya aktivitas peristaltik gastrointestinal",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [
@@ -3151,16 +3443,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12369",
       "nama": "Edukasi Diet",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kemampuan pasien dan keluarga menerima informasi",
           "Identifikasi tingkat pengetahuan saat ini",
           "Identifikasi kebiasaan pola makan saat ini dan masa lalu",
           "Identifikasi persepsi pasien dan keluarga tentang diet yang diprogramkan",
-          "Identifikasi keterbatasan finansial untuk menyediakan makanan",
+          "Identifikasi keterbatasan finansial untuk menyediakan makanan"
+        ],
+        "terapeutik": [
           "Persiapkan materi dan media dan alat peraga",
           "Jadwalkan waktu yang tepat untuk memberikan Pendidikan Kesehatan",
           "Berikan kesempatan pasien dan keluarga bertanya",
           "Sediakan rencana makan tertulis, jika perlu",
+          "Rekomendasikan resep makanan yang sesuai dengan diet, jika perlu",
+          "Rujuk ke ahli  gizi dan sertakan keluarga, jika perlu"
+        ],
+        "edukasi": [
           "Jelaskan tujuan kepatuhan diet terhadap Kesehatan",
           "Informasikan makanan yang diperbolehkan dan dilarang",
           "Informasikan kemungkinan interaksi obat dan makanan, jika perlu",
@@ -3168,9 +3466,7 @@ export const allDiagnosesData: Diagnosis[] = [
           "Anjurkan mengganti bahan makanan sesuai dengan diet yang diprogramkan",
           "Anjurkan melakukan olahraga sesuai toleransi",
           "Ajarkan cara membaca label dan memilih makanan yang sesuai",
-          "Ajarkan cara merencanakan makanan yang sesuai program",
-          "Rekomendasikan resep makanan yang sesuai dengan diet, jika perlu",
-          "Rujuk ke ahli  gizi dan sertakan keluarga, jika perlu"
+          "Ajarkan cara merencanakan makanan yang sesuai program"
         ]
       }
     },
@@ -3178,14 +3474,18 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.01018",
       "nama": "Pengontrolan Infeksi",
       "tindakan": {
+        "observasi": [
+          "Identifikasi pasien-pasien yang mengalami penyakit infeksi menular"
+        ],
         "terapeutik": [
-          "Identifikasi pasien-pasien yang mengalami penyakit infeksi menular",
           "Terapkan kewaspadaan universal (mis: cuci tangan aseptic, gunakan alat pelindung diri seperti masker, sarung tangan, pelindung wajah, pelindung mata, apron, sepatu bot sesuai model transmisi mikroorganisme)",
           "Tempatkan pada ruang isolasi bertekanan positif untuk pasien yang mengalami penurunan imunitas",
           "Tempatkan pada ruang isolasi bertekanan negatif untuk pasien dengan resiko penyebaran infeksi via droplet atau udara",
           "Sterilisasi dan desinfeksi alat-alat, furniture, lantai, sesuai kebutuhan",
           "Gunakan hepafilter pada area khusus (mis: kamar operasi)",
-          "Berikan tanda khusus untuk pasien-pasien dengan penyakit menular",
+          "Berikan tanda khusus untuk pasien-pasien dengan penyakit menular"
+        ],
+        "edukasi": [
           "Ajarkan cara mencuci tangan dengan benar",
           "Ajarkan etika batuk dan/atau bersin"
         ]
@@ -3198,7 +3498,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-hipovolemia",
   "kode": "D.0034",
   "nama": "Risiko Hipovolemia",
-  "definisi": "Risiko hipovolemia merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami penurunan volume cairan intravaskular...",
+  "definisi": "Berisiko mengalami penurunan volume cairan intravaskular, interstitial, dan/atau intraselular",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [
@@ -3246,14 +3546,20 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03116",
       "nama": "Manajemen hipovolemia",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Periksa tanda dan gejala hipovolemia (mis: frekuensi nadi meningkat, nadi teraba lemah, tekanan darah menurun, tekanan nadi menyempit, turgor kulit menurun, membran mukosa kering, volume urin menurun, hematokrit meningkat, haus, lemah)",
-          "Monitor intake dan output cairan",
+          "Monitor intake dan output cairan"
+        ],
+        "terapeutik": [
           "Hitung kebutuhan cairan",
           "Berikan posisi modified Trendelenburg",
-          "Berikan asupan cairan oral",
+          "Berikan asupan cairan oral"
+        ],
+        "edukasi": [
           "Anjurkan memperbanyak asupan cairan oral",
-          "Anjurkan menghindari perubahan posisi mendadak",
+          "Anjurkan menghindari perubahan posisi mendadak"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian cairan IV isotonis (mis: NaCL, RL)",
           "Kolaborasi pemberian cairan IV hipotonis (mis: glukosa 2,5%, NaCl 0,4%)",
           "Kolaborasi pemberian cairan koloid (albumin, plasmanate)",
@@ -3265,7 +3571,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03121",
       "nama": "Pemantauan Cairan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor frekuensi dan kekuatan nadi",
           "Monitor frekuensi napas",
           "Monitor tekanan darah",
@@ -3278,11 +3584,15 @@ export const allDiagnosesData: Diagnosis[] = [
           "Monitor intake dan output cairan",
           "Identifikasi tanda-tanda hypovolemia (mis: frekuensi nadi meningkat, nadi teraba lemah, tekanan darah menurun, tekanan nadi menyempit, turgor kulit menurun, membran mukosa kering, volume urin menurun, hematokrit meningkat, hasil, lemah, konsentrasi urin meningkat, berat badan menurun dalam waktu singkat)",
           "Identifikasi tanda-tanda hypervolemia (mis: dispnea, edema perifer, edema anasarca, JVP meningkat, CVP meningkat, refleks hepatojugular positif, berat badan menurun dalam waktu singkat)",
-          "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)",
+          "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)"
+        ],
+        "terapeutik": [
           "Atur interval waktu pemantauan sesuai dengan kondisi pasien",
           "Dokumentasikan hasil pemantauan",
-          "Jelaskan tujuan dan prosedur pemantauan",
           "Dokumentasikan hasil pemantauan"
+        ],
+        "edukasi": [
+          "Jelaskan tujuan dan prosedur pemantauan"
         ]
       }
     }
@@ -3293,7 +3603,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-ikterik-neonatus",
   "kode": "D.0035",
   "nama": "Risiko Ikterik Neonatus",
-  "definisi": "Risiko ikterik neonatus merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami kulit dan membran mukosa neonatus...",
+  "definisi": "Berisiko mengalami kulit dan membran mukosa neonatus menguning setelah 24 jam kelahiran akibat bilirubin tidak terkonjugasi masuk ke dalam sirkulasi",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [
@@ -3326,8 +3636,10 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.10338",
       "nama": "Perawatan Bayi",
       "tindakan": {
+        "observasi": [
+          "Monitor tanda-tanda vital bayi (terutama suhu 36°C – 37°C)"
+        ],
         "terapeutik": [
-          "Monitor tanda-tanda vital bayi (terutama suhu 36°C – 37°C)",
           "Mandikan bayi dengan suhu ruangan 21 – 24°C",
           "Mandikan bayi dalam waktu 5 – 10 menit dan 2 kali dalam sehari",
           "Rawat tali pusat secara terbuka (tali pusat tidak dibungkus apapun)",
@@ -3335,7 +3647,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Kenakan popok bayi di bawah umbilicus jika tali pusat belum terlepas",
           "Lakukan pemijatan bayi",
           "Ganti popok bayi jika basah",
-          "Kenakan pakaian bayi dari bahan katun",
+          "Kenakan pakaian bayi dari bahan katun"
+        ],
+        "edukasi": [
           "Anjurkan ibu menyusui sesuai kebutuhan bayi",
           "Ajarkan ibu cara merawat bayi di rumah",
           "Ajarkan cara pemberian makanan pendamping ASI pada bayi > 6 bulan"
@@ -3346,9 +3660,11 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03132",
       "nama": "Perawatan Neonatus",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kondisi awal bayi setelah lahir (mis: kecukupan bulan, air ketuban jernih atau bercampur meconium, menangis spontan, tonus otot)",
-          "Monitor tanda vital bayi (terutama suhu)",
+          "Monitor tanda vital bayi (terutama suhu)"
+        ],
+        "terapeutik": [
           "Lakukan inisiasi menyusui dini (IMD) segera setelah bayi lahir",
           "Berikan vitamin K 1 mg intramuskuler untuk mencegah perdarahan",
           "Mandikan selama 5 – 10 menit, minimal sekali sehari",
@@ -3359,7 +3675,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Bersihkan tali pusat dengan air steril atau air matang",
           "Kenakan pakaian dari bahan katun",
           "Selimuti untuk mempertahankan kehangatan dan mencegah hipotermia",
-          "Ganti popok segera setelah basah",
+          "Ganti popok segera setelah basah"
+        ],
+        "edukasi": [
           "Anjurkan tidak membubuhi apapun pada tali pusat",
           "Anjurkan ibu menyusui bayi setiap 2 jam",
           "Anjurkan menyendawakan bayi setelah disusui",
@@ -3374,7 +3692,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-ketidakseimbangan-cairan",
   "kode": "D.0036",
   "nama": "Risiko Ketidakseimbangan Cairan",
-  "definisi": "Risiko ketidakseimbangan cairan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami penurunan, peningkatan...",
+  "definisi": "Berisiko mengalami penurunan, peningkatan, atau percepatan perpindahan cairan dari intravaskuler, interstitial, atau intraseluler",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [
@@ -3420,15 +3738,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03098",
       "nama": "Manajemen Cairan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor status hidrasi (mis: frekuensi nadi, kekuatan nadi, akral, pengisian kapiler, kelembaban mukosa, turgor kulit, tekanan darah)",
           "Monitor berat badan harian",
           "Monitor berat badan sebelum dan sesudah dialisis",
           "Monitor hasil pemeriksaan laboratorium (mis: hematokrit, Na, K, Cl, berat jenis urin, BUN)",
-          "Monitor status hemodinamik (mis: MAP, CVP, PAP, PCWP, jika tersedia)",
+          "Monitor status hemodinamik (mis: MAP, CVP, PAP, PCWP, jika tersedia)"
+        ],
+        "terapeutik": [
           "Catat intake-output dan hitung balans cairan 24 jam",
           "Berikan asupan cairan, sesuai kebutuhan",
-          "Berikan cairan intravena, jika perlu",
+          "Berikan cairan intravena, jika perlu"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian diuretik, jika perlu"
         ]
       }
@@ -3437,7 +3759,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03121",
       "nama": "Pemantauan Cairan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor frekuensi dan kekuatan nadi",
           "Monitor frekuensi napas",
           "Monitor tekanan darah",
@@ -3450,11 +3772,15 @@ export const allDiagnosesData: Diagnosis[] = [
           "Monitor intake dan output cairan",
           "Identifikasi tanda-tanda hypovolemia (mis: frekuensi nadi meningkat, nadi teraba lemah, tekanan darah menurun, tekanan nadi menyempit, turgor kulit menurun, membran mukosa kering, volume urin menurun, hematokrit meningkat, hasil, lemah, konsentrasi urin meningkat, berat badan menurun dalam waktu singkat)",
           "Identifikasi tanda-tanda hypervolemia (mis: dispnea, edema perifer, edema anasarca, JVP meningkat, CVP meningkat, refleks hepatojugular positif, berat badan menurun dalam waktu singkat)",
-          "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)",
+          "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)"
+        ],
+        "terapeutik": [
           "Atur interval waktu pemantauan sesuai dengan kondisi pasien",
           "Dokumentasikan hasil pemantauan",
-          "Jelaskan tujuan dan prosedur pemantauan",
           "Dokumentasikan hasil pemantauan"
+        ],
+        "edukasi": [
+          "Jelaskan tujuan dan prosedur pemantauan"
         ]
       }
     }
@@ -3465,7 +3791,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-ketidakseimbangan-elektrolit",
   "kode": "D.0037",
   "nama": "Risiko Ketidakseimbangan Elektrolit",
-  "definisi": "Risiko ketidakseimbangan elektrolit merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami perubahan kadar serum...",
+  "definisi": "Berisiko mengalami perubahan kadar serum elektrolit",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [],
@@ -3497,7 +3823,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03122",
       "nama": "Pemantauan Elektrolit",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor kemungkinan penyebab ketidakseimbangan elektrolit",
           "Monitor kadar elektrolit serum",
           "Monitor mual, muntah, diare",
@@ -3509,9 +3835,13 @@ export const allDiagnosesData: Diagnosis[] = [
           "Monitor tanda dan gejala hipokalsemia (mis: peka rangsang, tanda Chvostek [spasme otot wajah] dan tanda Trousseau [spasme karpal], kram otot, interval QT memanjang)",
           "Monitor tanda dan gejala hiperkalsemia (mis: nyeri tulang, haus, anoreksia, letargi, kelemahan otot, segmen QT memendek, gelombang T lebar, komplek QRS lebar, interval PR memanjang)",
           "Monitor tanda dan gejala hypomagnesemia (mis: depresi pernapasan, apatis, tanda Chvostek, tanda Trousseau, konfusi, disritmia)",
-          "Monitor tanda gan gejala hypermagnesemia (mis: kelemahan otot, hiporefleks, bradikardia, depresi SSP, letargi, koma, depresi)",
+          "Monitor tanda gan gejala hypermagnesemia (mis: kelemahan otot, hiporefleks, bradikardia, depresi SSP, letargi, koma, depresi)"
+        ],
+        "terapeutik": [
           "Atur interval waktu pemantauan sesuai dengan kondisi pasien",
-          "Dokumentasikan hasil pemantauan",
+          "Dokumentasikan hasil pemantauan"
+        ],
+        "edukasi": [
           "Jelaskan tujuan dan prosedur pemantauan",
           "Informasikan hasil pemantauan, jika perlu"
         ]
@@ -3524,7 +3854,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-ketidakstabilan-kadar-glukosa-darah",
   "kode": "D.0038",
   "nama": "Risiko Ketidakstabilan Kadar Glukosa Darah",
-  "definisi": "Risiko ketidakstabilan kadar glukosa darah merupakan diagnosis keperawatan yang didefinisikan sebagai risiko terhadap variasi kadar glukosa",
+  "definisi": "Risiko terhadap variasi kadar glukosa darah naik atau turun dari rentang normal",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [
@@ -3564,21 +3894,27 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03115",
       "nama": "Manajemen Hiperglikemia",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kemungkinan penyebab hiperglikemia",
           "Identifikasi situasi yang menyebabkan kebutuhan insulin meningkat (mis: penyakit kambuhan)",
           "Monitor kadar glukosa darah, jika perlu",
           "Monitor tanda dan gejala hiperglikemia (mis: polyuria, polydipsia, polifagia, kelemahan, malaise, pandangan kabur, sakit kepala)",
           "Monitor intake dan output cairan",
-          "Monitor keton urin, kadar Analisa gas darah, elektrolit, tekanan darah ortostatik dan frekuensi nadi",
+          "Monitor keton urin, kadar Analisa gas darah, elektrolit, tekanan darah ortostatik dan frekuensi nadi"
+        ],
+        "terapeutik": [
           "Berikan asupan cairan oral",
           "Konsultasi dengan medis jika tanda dan gejala hiperglikemia tetap ada atau memburuk",
-          "Fasilitasi ambulasi jika ada hipotensi ortostatik",
+          "Fasilitasi ambulasi jika ada hipotensi ortostatik"
+        ],
+        "edukasi": [
           "Anjurkan menghindari olahraga saat kadar glukosa darah lebih dari 250 mg/dL",
           "Anjurkan monitor kadar glukosa darah secara mandiri",
           "Anjurkan kepatuhan terhadap diet dan olahraga",
           "Ajarkan indikasi dan pentingnya pengujian keton urin, jika perlu",
-          "Ajarkan pengelolaan diabetes (mis: penggunaan insulin, obat oral, monitor asupan cairan, penggantian karbohidrat, dan bantuan professional  kesehatan",
+          "Ajarkan pengelolaan diabetes (mis: penggunaan insulin, obat oral, monitor asupan cairan, penggantian karbohidrat, dan bantuan professional  kesehatan"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian insulin, jika perlu",
           "Kolaborasi pemberian cairan IV, jika perlu",
           "Kolaborasi pemberian kalium, jika perlu"
@@ -3589,22 +3925,28 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03115",
       "nama": "Manajemen Hipoglikemia",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi tanda dan gejala hipoglikemia",
-          "Identifikasi kemungkinan penyebab hipoglikemia",
+          "Identifikasi kemungkinan penyebab hipoglikemia"
+        ],
+        "terapeutik": [
           "Berikan karbohidrat sederhana, jika perlu",
           "Berikan glucagon, jika perlu",
           "Berikan karbohidrat kompleks dan protein sesuai diet",
           "Pertahankan kepatenan jalan napas",
           "Pertahankan akses IV, jika perlu",
-          "Hubungi layanan medis darurat, jika perlu",
+          "Hubungi layanan medis darurat, jika perlu"
+        ],
+        "edukasi": [
           "Anjurkan membawa karbohidrat sederhana setiap saat",
           "Anjurkan memakai identitas darurat yang tepat",
           "Anjurkan monitor kadar glukosa darah",
           "Anjurkan berdiskusi dengan tim perawatan diabetes tentang penyesuaian program pengobatan",
           "Jelaskan interaksi antara diet, insulin/agen oral, dan olahraga",
           "Ajarkan pengelolaan hipoglikemia (mis: tanda dan gejala, faktor risiko, dan pengobatan hipoglikemia)",
-          "Ajarkan perawatan mandiri untuk mencegah hipoglikemia (mis: mengurangi insulin/agen oral dan/atau meningkatkan asupan makanan untuk berolahraga)",
+          "Ajarkan perawatan mandiri untuk mencegah hipoglikemia (mis: mengurangi insulin/agen oral dan/atau meningkatkan asupan makanan untuk berolahraga)"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian dekstrose, jika perlu",
           "Kolaborasi pemberian glukagon, jika perlu"
         ]
@@ -3617,7 +3959,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-syok",
   "kode": "D.0039",
   "nama": "Risiko Syok",
-  "definisi": "Risiko syok merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami ketidakcukupan aliran darah ke jaringan tubuh",
+  "definisi": "Berisiko mengalami ketidakcukupan aliran darah ke jaringan tubuh, yang dapat mengakibatkan disfungsi seluler yang mengancam jiwa",
   "kategori": "Nutrisi/Cairan",
   "tipe": "Aktual",
   "keluhan": [],
@@ -3656,22 +3998,28 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02068",
       "nama": "Pencegahan Syok",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor status kardiopulmonal (frekuensi dan kekuatan nadi, frekuensi napas, TD, MAP)",
           "Monitor status oksigenasi (oksimetri nadi, AGD)",
           "Monitor status cairan (masukan dan haluaran, turgor kulit, CRT)",
           "Monitor tingkat kesadaran dan respon pupil",
-          "Periksa Riwayat alergi",
+          "Periksa Riwayat alergi"
+        ],
+        "terapeutik": [
           "Berikan oksigen untuk mempertahankan saturasi oksigen > 94%",
           "Persiapkan intubasi dan ventilasi mekanis, jika perlu",
           "Pasang jalur IV, jika perlu",
           "Pasang kateter urin untuk menilai produksi urin, jika perlu",
-          "Lakukan skin test untuk mencegah reaksi alergi",
+          "Lakukan skin test untuk mencegah reaksi alergi"
+        ],
+        "edukasi": [
           "Jelaskan penyebab/faktor risiko syok",
           "Jelaskan tanda dan gejala awal syok",
           "Anjurkan melapor jika menemukan/merasakan tanda dan gejala awal syok",
           "Anjurkan memperbanyak asupan cairan oral",
-          "Anjurkan menghindari alergen",
+          "Anjurkan menghindari alergen"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian IV, jika perlu",
           "Kolaborasi pemberian transfusi darah, jika perlu",
           "Kolaborasi pemberian antiinflamasi, jika perlu"
@@ -3682,7 +4030,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03121",
       "nama": "Pemantauan Cairan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor frekuensi dan kekuatan nadi",
           "Monitor frekuensi napas",
           "Monitor tekanan darah",
@@ -3695,11 +4043,15 @@ export const allDiagnosesData: Diagnosis[] = [
           "Monitor intake dan output cairan",
           "Identifikasi tanda-tanda hypovolemia (mis: frekuensi nadi meningkat, nadi teraba lemah, tekanan darah menurun, tekanan nadi menyempit, turgor kulit menurun, membran mukosa kering, volume urin menurun, hematokrit meningkat, hasil, lemah, konsentrasi urin meningkat, berat badan menurun dalam waktu singkat)",
           "Identifikasi tanda-tanda hypervolemia (mis: dispnea, edema perifer, edema anasarca, JVP meningkat, CVP meningkat, refleks hepatojugular positif, berat badan menurun dalam waktu singkat)",
-          "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)",
+          "Identifikasi faktor risiko ketidakseimbagnan cairan (mis: prosedur pembedahan mayor, trauma/perdarahan, luka bakar, apheresis, obstruksi intestinal, peradangan pancreas, penyakit ginjal dan kelenjar, disfungsi intestinal)"
+        ],
+        "terapeutik": [
           "Atur interval waktu pemantauan sesuai dengan kondisi pasien",
           "Dokumentasikan hasil pemantauan",
-          "Jelaskan tujuan dan prosedur pemantauan",
           "Dokumentasikan hasil pemantauan"
+        ],
+        "edukasi": [
+          "Jelaskan tujuan dan prosedur pemantauan"
         ]
       }
     }
@@ -3710,7 +4062,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "gangguan-eliminasi-urin",
   "kode": "D.0040",
   "nama": "Gangguan Eliminasi Urin",
-  "definisi": "Gangguan eliminasi urin merupakan diagnosis keperawatan yang didefinisikan sebagai disfungsi eliminasi urin.",
+  "definisi": "Gangguan pada eliminasi urin",
   "kategori": "Eliminasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -3765,16 +4117,20 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.11349",
       "nama": "Dukungan Perawatan Diri: BAB/BAK",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kebiasaan BAB/BAK sesuai usia",
-          "Monitor integritas kulit pasien",
+          "Monitor integritas kulit pasien"
+        ],
+        "terapeutik": [
           "Buka pakaian yang diperlukan untuk memudahkan eliminasi",
           "Dukung penggunaan toilet/commode/pispot/urinal secara konsisten",
           "Jaga privasi selama eliminasi",
           "Ganti pakaian pasien setelah eliminasi, jika perlu",
           "Bersihkan alat bantu BAK/BAB setelah digunakan",
           "Latih BAK/BAB sesuai jadwal, jika perlu",
-          "Sediakan alat bantu (mis. kateter eksternal, urinal), jika perlu",
+          "Sediakan alat bantu (mis. kateter eksternal, urinal), jika perlu"
+        ],
+        "edukasi": [
           "Anjurkan BAK/BAB secara rutin",
           "Anjurkan ke kamar mandi/toilet, jika perlu"
         ]
@@ -3784,20 +4140,26 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.04152",
       "nama": "Manajemen Eliminasi Urin",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi tanda dan gejala retensi atau inkontinensia urin",
           "Identifikasi faktor yang menyebabkan retensi atau inkontinensia urin",
-          "Monitor eliminasi urin (mis. frekuensi, konsistensi, aroma, volume, dan warna)",
+          "Monitor eliminasi urin (mis. frekuensi, konsistensi, aroma, volume, dan warna)"
+        ],
+        "terapeutik": [
           "Catat waktu-waktu dan haluaran berkemih",
           "Batasi asupan cairan, jika perlu",
-          "Ambil sampel urin tengah (midstream) atau kultur",
+          "Ambil sampel urin tengah (midstream) atau kultur"
+        ],
+        "edukasi": [
           "Ajarkan tanda dan gejala infeksi saluran berkemih",
           "Ajarkan mengukur asupan cairan dan haluaran urin",
           "Ajarkan mengambil spesimen urin midstream",
           "Ajarkan mengenali tanda berkemih dan waktu yang tepat untuk berkemih",
           "Ajarkan terapi modalitas penguatan otot-otot panggul/berkemihan",
           "Anjurkan minum yang cukup, jika tidak ada kontraindikasi",
-          "Anjurkan mengurangi minum menjelang tidur",
+          "Anjurkan mengurangi minum menjelang tidur"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat supositoria uretra, jika perlu"
         ]
       }
@@ -3806,14 +4168,18 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.01018",
       "nama": "Pengontrolan Infeksi",
       "tindakan": {
+        "observasi": [
+          "Identifikasi pasien-pasien yang mengalami penyakit infeksi menular"
+        ],
         "terapeutik": [
-          "Identifikasi pasien-pasien yang mengalami penyakit infeksi menular",
           "Terapkan kewaspadaan universal (mis: cuci tangan aseptic, gunakan alat pelindung diri seperti masker, sarung tangan, pelindung wajah, pelindung mata, apron, sepatu bot sesuai model transmisi mikroorganisme)",
           "Tempatkan pada ruang isolasi bertekanan positif untuk pasien yang mengalami penurunan imunitas",
           "Tempatkan pada ruang isolasi bertekanan negatif untuk pasien dengan resiko penyebaran infeksi via droplet atau udara",
           "Sterilisasi dan desinfeksi alat-alat, furniture, lantai, sesuai kebutuhan",
           "Gunakan hepafilter pada area khusus (mis: kamar operasi)",
-          "Berikan tanda khusus untuk pasien-pasien dengan penyakit menular",
+          "Berikan tanda khusus untuk pasien-pasien dengan penyakit menular"
+        ],
+        "edukasi": [
           "Ajarkan cara mencuci tangan dengan benar",
           "Ajarkan etika batuk dan/atau bersin"
         ]
@@ -3826,7 +4192,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "inkontinensia-fekal",
   "kode": "D.0041",
   "nama": "Inkontinensia Fekal",
-  "definisi": "Inkontinensia fekal merupakan diagnosis keperawatan yang didefinisikan sebagai perubahan kebiasaan buang air besar dari pola normal yang...",
+  "definisi": "Pengeluaran feses yang tidak terkendali",
   "kategori": "Eliminasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -3868,16 +4234,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.04150",
       "nama": "Latihan eliminasi fekal",
       "tindakan": {
+        "observasi": [
+          "Monitor peristaltik usus secara teratur"
+        ],
         "terapeutik": [
-          "Monitor peristaltik usus secara teratur",
-          "Anjurkan waktu yang konsisten untuk buang air besar",
           "Berikan privasi, kenyamanan, dan posisi yang meningkatkan proses defekasi",
           "Gunakan enema rendah, jika perlu",
+          "Ubah program Latihan eliminasi fekal, jika perlu"
+        ],
+        "edukasi": [
+          "Anjurkan waktu yang konsisten untuk buang air besar",
           "Anjurkan dilatasi rektal digital, jika perlu",
-          "Ubah program Latihan eliminasi fekal, jika perlu",
           "Anjurkan mengkonsumsi makanan tertentu, sesuai program, atau hasil konsultasi",
           "Anjurkan asupan cairan yang adekuat sesuai kebutuhan",
-          "Anjurkan olahraga sesuai toleransi",
+          "Anjurkan olahraga sesuai toleransi"
+        ],
+        "kolaborasi": [
           "Kolaborasi penggunaan supositoria, jika perlu"
         ]
       }
@@ -3886,21 +4258,27 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.04162",
       "nama": "Perawatan Inkontinensia Fekal",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab inkontinensia fekal baik fisik maupun psikologis (mis: gangguan saraf motoric bawah, penurunan tonus otot, gangguan sfingter rectum, diare kronis, gangguan kognitif, stress berlebihan)",
           "Identifikasi perubahan frekuensi defekasi dan konsistensi feses",
           "Monitor kondisi kulit perianal",
           "Monitor keadekuatan evakuasi feses",
           "Monitor diet dan kebutuhan cairan",
-          "Monitor efek samping pemberian obat",
+          "Monitor efek samping pemberian obat"
+        ],
+        "terapeutik": [
           "Bersihkan daerah perianal dengan sabun dan air",
           "Jaga kebersihan tempat tidur dan pakaian",
           "Laksanakan program Latihan usus (bowel training), jika perlu",
           "Jadwalkan BAB di tempat tidur, jika perlu",
           "Berikan celana pelindung/pembalut/popok, sesuai kebutuhan",
-          "Hindari makanan yang menyebabkan diare",
+          "Hindari makanan yang menyebabkan diare"
+        ],
+        "edukasi": [
           "Jelaskan definisi, jenis inkontinensia, penyebab inkontinensia fekal",
-          "Anjurkan mencatat karakteristik feses",
+          "Anjurkan mencatat karakteristik feses"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat diare (mis: Ioperamide, atropine)"
         ]
       }
@@ -3912,7 +4290,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "inkontinensia-urin-berlanjut",
   "kode": "D.0042",
   "nama": "Inkontinensia Urin Berlanjut",
-  "definisi": "Inkontinensia urin berlanjut merupakan diagnosis keperawatan yang didefinisikan sebagai pengeluaran urin tidak terkendali",
+  "definisi": "Pengeluaran urin yang tidak terkendali yang berlangsung lama",
   "kategori": "Eliminasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -3955,8 +4333,10 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.04148",
       "nama": "Kateterisasi Urin",
       "tindakan": {
+        "observasi": [
+          "Periksa kondisi pasien (mis: kesadaran, tanda-tanda vital, daerah perineal, distensi kandung kemih, inkontinensia urin, refleks berkemih)"
+        ],
         "terapeutik": [
-          "Periksa kondisi pasien (mis: kesadaran, tanda-tanda vital, daerah perineal, distensi kandung kemih, inkontinensia urin, refleks berkemih)",
           "Siapkan peralatan, bahan-bahan, dan ruangan Tindakan",
           "Siapkan pasien: bebaskan pakaian bawah dan posisikan dorsal rekumben (untuk Wanita) dan supine (untuk laki-laki)",
           "Pasang sarung tangan",
@@ -3966,7 +4346,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Isi balon dengan NaCl 0,9% sesuai anjuran pabrik",
           "Fiksasi selang kateter diatas simpisis atau di paha",
           "Pastikan urin bag ditempatkan lebih rendah dari kandung kemih",
-          "Berikan label waktu pemasangan",
+          "Berikan label waktu pemasangan"
+        ],
+        "edukasi": [
           "Jelaskan tujuan dan prosedur pemasangan kateter urin",
           "Anjurkan menarik napas saat insersi selang kateter"
         ]
@@ -3976,14 +4358,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.04163",
       "nama": "Perawatan Inkontinensia Urin",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab inkontinensia urin (mis: disfungsi neurologis, gangguan medulla spinalis, gangguan refleks destrusor, obat-obatan, usia, Riwayat operasi, gangguan fungsi kognitif)",
           "Identifikasi perasaan dan persepsi pasien terhadap inkontinensia urin yang dialaminya",
-          "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih",
+          "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih"
+        ],
+        "terapeutik": [
           "Bersihkan daerah genital dan kulit sekitar secara rutin",
           "Berikan pujian atas keberhasilan mencegah inkontinensia",
           "Buat jadwal konsumsi obat-obat diuretik",
           "Ambil sampel urin untuk pemeriksaan urin lengkap atau kultur",
+          "Rujuk ke ahli inkontinensia, jika perlu"
+        ],
+        "edukasi": [
           "Jelaskan definisi, jenis inkontinensia, penyebab inkontinensia urin",
           "Jelaskan program penanganan inkontinensia urin",
           "Jelaskan jenis pakaian dan lingkungan yang mendukung proses berkemih",
@@ -3991,8 +4378,7 @@ export const allDiagnosesData: Diagnosis[] = [
           "Ajarkan memantau cairan keluar dan masuk serta pola eliminasi urin",
           "Anjurkan minum minimal 1500 cc/hari, jika tidak ada kontraindikasi",
           "Anjurkan menghindari kopi, minuman bersoda, teh dan cokelat",
-          "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi",
-          "Rujuk ke ahli inkontinensia, jika perlu"
+          "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi"
         ]
       }
     }
@@ -4003,7 +4389,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "inkontinensia-urin-berlebih",
   "kode": "D.0043",
   "nama": "Inkontinensia Urin Berlebih",
-  "definisi": "Inkontinensia urin berlebih merupakan diagnosis keperawatan yang didefinisikan sebagai kehilangan urin yang tidak terkendali akibat ...",
+  "definisi": "Pengeluaran urin berlebihan yang tidak terkendali",
   "kategori": "Eliminasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -4046,8 +4432,10 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.04148",
       "nama": "Kateterisasi Urin",
       "tindakan": {
+        "observasi": [
+          "Periksa kondisi pasien (mis: kesadaran, tanda-tanda vital, daerah perineal, distensi kandung kemih, inkontinensia urin, refleks berkemih)"
+        ],
         "terapeutik": [
-          "Periksa kondisi pasien (mis: kesadaran, tanda-tanda vital, daerah perineal, distensi kandung kemih, inkontinensia urin, refleks berkemih)",
           "Siapkan peralatan, bahan-bahan, dan ruangan Tindakan",
           "Siapkan pasien: bebaskan pakaian bawah dan posisikan dorsal rekumben (untuk Wanita) dan supine (untuk laki-laki)",
           "Pasang sarung tangan",
@@ -4057,7 +4445,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Isi balon dengan NaCl 0,9% sesuai anjuran pabrik",
           "Fiksasi selang kateter diatas simpisis atau di paha",
           "Pastikan urin bag ditempatkan lebih rendah dari kandung kemih",
-          "Berikan label waktu pemasangan",
+          "Berikan label waktu pemasangan"
+        ],
+        "edukasi": [
           "Jelaskan tujuan dan prosedur pemasangan kateter urin",
           "Anjurkan menarik napas saat insersi selang kateter"
         ]
@@ -4067,14 +4457,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.04163",
       "nama": "Perawatan Inkontinensia Urin",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab inkontinensia urin (mis: disfungsi neurologis, gangguan medulla spinalis, gangguan refleks destrusor, obat-obatan, usia, Riwayat operasi, gangguan fungsi kognitif)",
           "Identifikasi perasaan dan persepsi pasien terhadap inkontinensia urin yang dialaminya",
-          "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih",
+          "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih"
+        ],
+        "terapeutik": [
           "Bersihkan daerah genital dan kulit sekitar secara rutin",
           "Berikan pujian atas keberhasilan mencegah inkontinensia",
           "Buat jadwal konsumsi obat-obat diuretik",
           "Ambil sampel urin untuk pemeriksaan urin lengkap atau kultur",
+          "Rujuk ke ahli inkontinensia, jika perlu"
+        ],
+        "edukasi": [
           "Jelaskan definisi, jenis inkontinensia, penyebab inkontinensia urin",
           "Jelaskan program penanganan inkontinensia urin",
           "Jelaskan jenis pakaian dan lingkungan yang mendukung proses berkemih",
@@ -4082,8 +4477,7 @@ export const allDiagnosesData: Diagnosis[] = [
           "Ajarkan memantau cairan keluar dan masuk serta pola eliminasi urin",
           "Anjurkan minum minimal 1500 cc/hari, jika tidak ada kontraindikasi",
           "Anjurkan menghindari kopi, minuman bersoda, teh dan cokelat",
-          "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi",
-          "Rujuk ke ahli inkontinensia, jika perlu"
+          "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi"
         ]
       }
     }
@@ -4094,7 +4488,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "inkontinensia-urin-fungsional",
   "kode": "D.0044",
   "nama": "Inkontinensia Urin Fungsional",
-  "definisi": "Inkontinensia urin fungsional merupakan diagnosis keperawatan yang didefinisikan sebagai pengeluaran urin tidak terkendali karena...",
+  "definisi": "Pengeluaran urin yang tidak terkendali akibat hambatan fungsional",
   "kategori": "Eliminasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -4139,12 +4533,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.04149",
       "nama": "Latihan Berkemih",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Periksa kembali penyebab gangguan berkemih (mis: kognitif, kehilangan ekstremitas/fungsi ekstremitas, kehilangan penglihatan)",
-          "Monitor pola dan kemampuan berkemih",
+          "Monitor pola dan kemampuan berkemih"
+        ],
+        "terapeutik": [
           "Hindari penggunaan kateter indwelling",
           "Siapkan area toilet yang aman",
-          "Sediakan peralatan yang dibutuhkan dekat dan mudah dijangkau (mis: kursi komode, pispot, urinal)",
+          "Sediakan peralatan yang dibutuhkan dekat dan mudah dijangkau (mis: kursi komode, pispot, urinal)"
+        ],
+        "edukasi": [
           "Jelaskan arah-arah menuju kamar mandi/toilet pada pasien dengan gangguan penglihatan",
           "Anjurkan intake cairan adekuat untuk mendukung output urin",
           "Anjurkan aliminasi normal dengan beraktivitas dan olahraga sesuai kemampuan"
@@ -4155,14 +4553,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.04163",
       "nama": "Perawatan Inkontinensia Urin",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab inkontinensia urin (mis: disfungsi neurologis, gangguan medulla spinalis, gangguan refleks destrusor, obat-obatan, usia, Riwayat operasi, gangguan fungsi kognitif)",
           "Identifikasi perasaan dan persepsi pasien terhadap inkontinensia urin yang dialaminya",
-          "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih",
+          "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih"
+        ],
+        "terapeutik": [
           "Bersihkan daerah genital dan kulit sekitar secara rutin",
           "Berikan pujian atas keberhasilan mencegah inkontinensia",
           "Buat jadwal konsumsi obat-obat diuretik",
           "Ambil sampel urin untuk pemeriksaan urin lengkap atau kultur",
+          "Rujuk ke ahli inkontinensia, jika perlu"
+        ],
+        "edukasi": [
           "Jelaskan definisi, jenis inkontinensia, penyebab inkontinensia urin",
           "Jelaskan program penanganan inkontinensia urin",
           "Jelaskan jenis pakaian dan lingkungan yang mendukung proses berkemih",
@@ -4170,8 +4573,7 @@ export const allDiagnosesData: Diagnosis[] = [
           "Ajarkan memantau cairan keluar dan masuk serta pola eliminasi urin",
           "Anjurkan minum minimal 1500 cc/hari, jika tidak ada kontraindikasi",
           "Anjurkan menghindari kopi, minuman bersoda, teh dan cokelat",
-          "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi",
-          "Rujuk ke ahli inkontinensia, jika perlu"
+          "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi"
         ]
       }
     }
@@ -4182,7 +4584,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "inkontinensia-urin-refleks",
   "kode": "D.0045",
   "nama": "Inkontinensia Urin Refleks",
-  "definisi": "Inkontinensia urin refleks merupakan diagnosis keperawatan yang didefinisikan sebagai pengeluaran urin yang tidak terkendali pada saat ...",
+  "definisi": "Pengeluaran urin yang tidak terkendali karena refleks spinal",
   "kategori": "Eliminasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -4227,8 +4629,10 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.04148",
       "nama": "Kateterisasi Urin",
       "tindakan": {
+        "observasi": [
+          "Periksa kondisi pasien (mis: kesadaran, tanda-tanda vital, daerah perineal, distensi kandung kemih, inkontinensia urin, refleks berkemih)"
+        ],
         "terapeutik": [
-          "Periksa kondisi pasien (mis: kesadaran, tanda-tanda vital, daerah perineal, distensi kandung kemih, inkontinensia urin, refleks berkemih)",
           "Siapkan peralatan, bahan-bahan, dan ruangan Tindakan",
           "Siapkan pasien: bebaskan pakaian bawah dan posisikan dorsal rekumben (untuk Wanita) dan supine (untuk laki-laki)",
           "Pasang sarung tangan",
@@ -4238,7 +4642,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Isi balon dengan NaCl 0,9% sesuai anjuran pabrik",
           "Fiksasi selang kateter diatas simpisis atau di paha",
           "Pastikan urin bag ditempatkan lebih rendah dari kandung kemih",
-          "Berikan label waktu pemasangan",
+          "Berikan label waktu pemasangan"
+        ],
+        "edukasi": [
           "Jelaskan tujuan dan prosedur pemasangan kateter urin",
           "Anjurkan menarik napas saat insersi selang kateter"
         ]
@@ -4248,14 +4654,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.04163",
       "nama": "Perawatan Inkontinensia Urin",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab inkontinensia urin (mis: disfungsi neurologis, gangguan medulla spinalis, gangguan refleks destrusor, obat-obatan, usia, Riwayat operasi, gangguan fungsi kognitif)",
           "Identifikasi perasaan dan persepsi pasien terhadap inkontinensia urin yang dialaminya",
-          "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih",
+          "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih"
+        ],
+        "terapeutik": [
           "Bersihkan daerah genital dan kulit sekitar secara rutin",
           "Berikan pujian atas keberhasilan mencegah inkontinensia",
           "Buat jadwal konsumsi obat-obat diuretik",
           "Ambil sampel urin untuk pemeriksaan urin lengkap atau kultur",
+          "Rujuk ke ahli inkontinensia, jika perlu"
+        ],
+        "edukasi": [
           "Jelaskan definisi, jenis inkontinensia, penyebab inkontinensia urin",
           "Jelaskan program penanganan inkontinensia urin",
           "Jelaskan jenis pakaian dan lingkungan yang mendukung proses berkemih",
@@ -4263,8 +4674,7 @@ export const allDiagnosesData: Diagnosis[] = [
           "Ajarkan memantau cairan keluar dan masuk serta pola eliminasi urin",
           "Anjurkan minum minimal 1500 cc/hari, jika tidak ada kontraindikasi",
           "Anjurkan menghindari kopi, minuman bersoda, teh dan cokelat",
-          "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi",
-          "Rujuk ke ahli inkontinensia, jika perlu"
+          "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi"
         ]
       }
     }
@@ -4275,7 +4685,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "inkontinensia-urin-stres",
   "kode": "D.0046",
   "nama": "Inkontinensia Urin Stres",
-  "definisi": "Inkontinensia urin stres merupakan diagnosis keperawatan yang didefinisikan sebagai kebocoran urin mendadak dan tidak dapat...",
+  "definisi": "Pengeluaran urin yang tidak terkendali saat aktivitas meningkat",
   "kategori": "Eliminasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -4318,15 +4728,21 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.07215",
       "nama": "Latihan Otot Panggul",
       "tindakan": {
+        "observasi": [
+          "Monitor pengeluaran urin"
+        ],
         "terapeutik": [
-          "Monitor pengeluaran urin",
-          "Berikan reinforcement positif selama melakukan Latihan dengan benar",
+          "Berikan reinforcement positif selama melakukan Latihan dengan benar"
+        ],
+        "edukasi": [
           "Anjurkan berbaring",
           "Anjurkan tidak mengkontraksikan perut, kaki, dan bokong saat melakukan Latihan otot panggul",
           "Anjurkan menambah durasi kontraksi-relaksasi 10 detik dengan siklus 10-20 kali, dilakukan 3-4 kali sehari",
           "Ajarkan mengkontraksikan sekitar otot uretra dan anus seperti menahan BAB/BAK selama 5 detik kemudian dikendurkan dan direlaksasikan dengan siklus 10 kali",
           "Ajarkan mengevaluasi Latihan yang dilakukan dengan cara menghentikan urin sesaat saat BAK, seminggu sekali.",
-          "Anjurkan Latihan selama 6-12 minggu",
+          "Anjurkan Latihan selama 6-12 minggu"
+        ],
+        "kolaborasi": [
           "Kolaborasi rehabilitasi medik untuk mengukur kekuatan kontraksi otot dasar panggul, jika perlu"
         ]
       }
@@ -4335,14 +4751,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.04163",
       "nama": "Perawatan Inkontinensia Urin",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab inkontinensia urin (mis: disfungsi neurologis, gangguan medulla spinalis, gangguan refleks destrusor, obat-obatan, usia, Riwayat operasi, gangguan fungsi kognitif)",
           "Identifikasi perasaan dan persepsi pasien terhadap inkontinensia urin yang dialaminya",
-          "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih",
+          "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih"
+        ],
+        "terapeutik": [
           "Bersihkan daerah genital dan kulit sekitar secara rutin",
           "Berikan pujian atas keberhasilan mencegah inkontinensia",
           "Buat jadwal konsumsi obat-obat diuretik",
           "Ambil sampel urin untuk pemeriksaan urin lengkap atau kultur",
+          "Rujuk ke ahli inkontinensia, jika perlu"
+        ],
+        "edukasi": [
           "Jelaskan definisi, jenis inkontinensia, penyebab inkontinensia urin",
           "Jelaskan program penanganan inkontinensia urin",
           "Jelaskan jenis pakaian dan lingkungan yang mendukung proses berkemih",
@@ -4350,8 +4771,7 @@ export const allDiagnosesData: Diagnosis[] = [
           "Ajarkan memantau cairan keluar dan masuk serta pola eliminasi urin",
           "Anjurkan minum minimal 1500 cc/hari, jika tidak ada kontraindikasi",
           "Anjurkan menghindari kopi, minuman bersoda, teh dan cokelat",
-          "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi",
-          "Rujuk ke ahli inkontinensia, jika perlu"
+          "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi"
         ]
       }
     }
@@ -4362,7 +4782,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "inkontinensia-urin-urgensi",
   "kode": "D.0047",
   "nama": "Inkontinensia Urin Urgensi",
-  "definisi": "Inkontinensia urin urgensi merupakan diagnosis keperawatan yang didefinisikan sebagai keluarnya urin tidak terkendali sesaat setelah...",
+  "definisi": "Pengeluaran urin yang tidak terkendali karena rasa urgensi",
   "kategori": "Eliminasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -4404,12 +4824,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.04149",
       "nama": "Latihan Berkemih",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Periksa kembali penyebab gangguan berkemih (mis: kognitif, kehilangan ekstremitas/fungsi ekstremitas, kehilangan penglihatan)",
-          "Monitor pola dan kemampuan berkemih",
+          "Monitor pola dan kemampuan berkemih"
+        ],
+        "terapeutik": [
           "Hindari penggunaan kateter indwelling",
           "Siapkan area toilet yang aman",
-          "Sediakan peralatan yang dibutuhkan dekat dan mudah dijangkau (mis: kursi komode, pispot, urinal)",
+          "Sediakan peralatan yang dibutuhkan dekat dan mudah dijangkau (mis: kursi komode, pispot, urinal)"
+        ],
+        "edukasi": [
           "Jelaskan arah-arah menuju kamar mandi/toilet pada pasien dengan gangguan penglihatan",
           "Anjurkan intake cairan adekuat untuk mendukung output urin",
           "Anjurkan aliminasi normal dengan beraktivitas dan olahraga sesuai kemampuan"
@@ -4420,14 +4844,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.04163",
       "nama": "Perawatan Inkontinensia Urin",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab inkontinensia urin (mis: disfungsi neurologis, gangguan medulla spinalis, gangguan refleks destrusor, obat-obatan, usia, Riwayat operasi, gangguan fungsi kognitif)",
           "Identifikasi perasaan dan persepsi pasien terhadap inkontinensia urin yang dialaminya",
-          "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih",
+          "Monitor keefektifan obat, pembedahan, dan terapi modalitas berkemih"
+        ],
+        "terapeutik": [
           "Bersihkan daerah genital dan kulit sekitar secara rutin",
           "Berikan pujian atas keberhasilan mencegah inkontinensia",
           "Buat jadwal konsumsi obat-obat diuretik",
           "Ambil sampel urin untuk pemeriksaan urin lengkap atau kultur",
+          "Rujuk ke ahli inkontinensia, jika perlu"
+        ],
+        "edukasi": [
           "Jelaskan definisi, jenis inkontinensia, penyebab inkontinensia urin",
           "Jelaskan program penanganan inkontinensia urin",
           "Jelaskan jenis pakaian dan lingkungan yang mendukung proses berkemih",
@@ -4435,8 +4864,7 @@ export const allDiagnosesData: Diagnosis[] = [
           "Ajarkan memantau cairan keluar dan masuk serta pola eliminasi urin",
           "Anjurkan minum minimal 1500 cc/hari, jika tidak ada kontraindikasi",
           "Anjurkan menghindari kopi, minuman bersoda, teh dan cokelat",
-          "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi",
-          "Rujuk ke ahli inkontinensia, jika perlu"
+          "Anjurkan konsumsi buah dan sayur untuk menghindari konstipasi"
         ]
       }
     }
@@ -4447,7 +4875,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "kesiapan-peningkatan-eliminasi-urin",
   "kode": "D.0048",
   "nama": "Kesiapan Peningkatan Eliminasi Urin",
-  "definisi": "Kesiapan peningkatan eliminasi urin merupakan diagnosis keperawatan yang didefinisikan sebagai pola fungsi sistem perkemihan yang...",
+  "definisi": "Pola eliminasi urin yang cukup dan dapat ditingkatkan",
   "kategori": "Eliminasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -4483,20 +4911,26 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.04152",
       "nama": "Manajemen Eliminasi Urin",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi tanda dan gejala retensi atau inkontinensia urin",
           "Identifikasi faktor yang menyebabkan retensi atau inkontinensia urin",
-          "Monitor eliminasi urin (mis. frekuensi, konsistensi, aroma, volume, dan warna)",
+          "Monitor eliminasi urin (mis. frekuensi, konsistensi, aroma, volume, dan warna)"
+        ],
+        "terapeutik": [
           "Catat waktu-waktu dan haluaran berkemih",
           "Batasi asupan cairan, jika perlu",
-          "Ambil sampel urin tengah (midstream) atau kultur",
+          "Ambil sampel urin tengah (midstream) atau kultur"
+        ],
+        "edukasi": [
           "Ajarkan tanda dan gejala infeksi saluran berkemih",
           "Ajarkan mengukur asupan cairan dan haluaran urin",
           "Ajarkan mengambil spesimen urin midstream",
           "Ajarkan mengenali tanda berkemih dan waktu yang tepat untuk berkemih",
           "Ajarkan terapi modalitas penguatan otot-otot panggul/berkemihan",
           "Anjurkan minum yang cukup, jika tidak ada kontraindikasi",
-          "Anjurkan mengurangi minum menjelang tidur",
+          "Anjurkan mengurangi minum menjelang tidur"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat supositoria uretra, jika perlu"
         ]
       }
@@ -4508,7 +4942,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "konstipasi",
   "kode": "D.0049",
   "nama": "Konstipasi",
-  "definisi": "Konstipasi merupakan diagnosis keperawatan yang didefinisikan sebagai penurunan defekasi normal yang disertai pengeluaran feses sulit dan...",
+  "definisi": "Pengeluaran feses yang keras dan sulit",
   "kategori": "Eliminasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -4563,20 +4997,26 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.04151",
       "nama": "Manajemen Eliminasi Fekal",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi masalah usus dan penggunaan  obat pencahar",
           "Identifikasi pengobatan yang berefek pada kondisi gastrointestinal",
           "Monitor buang air besar (mis: warna, frekuensi, konsistensi, volume)",
-          "Monitor tanda dan gejala diare, konstipasi, atau impaksi",
+          "Monitor tanda dan gejala diare, konstipasi, atau impaksi"
+        ],
+        "terapeutik": [
           "Berikan air hangat setelah makan",
           "Jadwalkan waktu defekasi Bersama pasien",
-          "Sediakan makanan tinggi serat",
+          "Sediakan makanan tinggi serat"
+        ],
+        "edukasi": [
           "Jelaskan jenis makanan yang membantu meningkatkan keteraturan peristaltik usus",
           "Anjurkan mencatat warna, frekuensi, konsistensi, volume feses",
           "Anjurkan meningkatkan aktivitas fisik, sesuai toleransi",
           "Anjurkan pengurangan asupan makanan yang meningkatkan pembentukan gas",
           "Anjurkan mengkonsumsi makanan yang mengandung tinggi serat",
-          "Anjurkan meningkatkan asupan cairan, jika tidak ada kontraindikasi",
+          "Anjurkan meningkatkan asupan cairan, jika tidak ada kontraindikasi"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat supositoria anal, jika perlu"
         ]
       }
@@ -4585,20 +5025,26 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.04155",
       "nama": "Manajemen Konstipasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Periksa tanda dan gejala konstipasi",
           "Periksa pergerakan usus, karakteristik feses (konsistensi, bentuk, volume,  dan warna)",
           "Identifikasi faktor risiko konstipasi (mis: obat-obatan, tirah baring, dan diet rendah serat",
-          "Monitor tanda dan gejala rupture usus dan/atau peritonitis",
-          "Anjurkan diet tinggi serat",
+          "Monitor tanda dan gejala rupture usus dan/atau peritonitis"
+        ],
+        "terapeutik": [
           "Lakukan masase abdomen, jika perlu",
           "Lakukan evaluasi feses secara manual, jika perlu",
           "Berikan enema atau irigasi, jika perlu",
+          "Latih buang air besar secara teratur",
+          "Konsultasi dengan tim medis tentang penurunan/peningkatan frekuensi suara usus"
+        ],
+        "edukasi": [
+          "Anjurkan diet tinggi serat",
           "Jelaskan etiologi masalah dan alasan Tindakan",
           "Anjurkan peningkatan asupan cairan, jika tidak ada kontraindikasi",
-          "Latih buang air besar secara teratur",
-          "Ajarkan cara mengatasi konstipasi/impaksi",
-          "Konsultasi dengan tim medis tentang penurunan/peningkatan frekuensi suara usus",
+          "Ajarkan cara mengatasi konstipasi/impaksi"
+        ],
+        "kolaborasi": [
           "Kolaborasi penggunaan obat pencahar, jika perlu"
         ]
       }
@@ -4610,7 +5056,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "retensi-urin",
   "kode": "D.0050",
   "nama": "Retensi Urin",
-  "definisi": "Retensi urin merupakan diagnosis keperawatan yang didefinisikan sebagai pengosongan kandung kemih yang tidak lengkap.",
+  "definisi": "Ketidakmampuan mengosongkan kandung kemih",
   "kategori": "Eliminasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -4654,8 +5100,10 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.04148",
       "nama": "Kateterisasi Urin",
       "tindakan": {
+        "observasi": [
+          "Periksa kondisi pasien (mis: kesadaran, tanda-tanda vital, daerah perineal, distensi kandung kemih, inkontinensia urin, refleks berkemih)"
+        ],
         "terapeutik": [
-          "Periksa kondisi pasien (mis: kesadaran, tanda-tanda vital, daerah perineal, distensi kandung kemih, inkontinensia urin, refleks berkemih)",
           "Siapkan peralatan, bahan-bahan, dan ruangan Tindakan",
           "Siapkan pasien: bebaskan pakaian bawah dan posisikan dorsal rekumben (untuk Wanita) dan supine (untuk laki-laki)",
           "Pasang sarung tangan",
@@ -4665,7 +5113,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Isi balon dengan NaCl 0,9% sesuai anjuran pabrik",
           "Fiksasi selang kateter diatas simpisis atau di paha",
           "Pastikan urin bag ditempatkan lebih rendah dari kandung kemih",
-          "Berikan label waktu pemasangan",
+          "Berikan label waktu pemasangan"
+        ],
+        "edukasi": [
           "Jelaskan tujuan dan prosedur pemasangan kateter urin",
           "Anjurkan menarik napas saat insersi selang kateter"
         ]
@@ -4678,7 +5128,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-inkontinensia-urin-urgensi",
   "kode": "D.0051",
   "nama": "Risiko Inkontinensia Urin Urgensi",
-  "definisi": "Risiko inkontinensia urin urgensi merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami pengeluaran urin yang...",
+  "definisi": "Berisiko mengalami pengeluaran urin yang tidak terkendali karena rasa urgensi",
   "kategori": "Eliminasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -4718,20 +5168,26 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.04152",
       "nama": "Manajemen Eliminasi Urin",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi tanda dan gejala retensi atau inkontinensia urin",
           "Identifikasi faktor yang menyebabkan retensi atau inkontinensia urin",
-          "Monitor eliminasi urin (mis. frekuensi, konsistensi, aroma, volume, dan warna)",
+          "Monitor eliminasi urin (mis. frekuensi, konsistensi, aroma, volume, dan warna)"
+        ],
+        "terapeutik": [
           "Catat waktu-waktu dan haluaran berkemih",
           "Batasi asupan cairan, jika perlu",
-          "Ambil sampel urin tengah (midstream) atau kultur",
+          "Ambil sampel urin tengah (midstream) atau kultur"
+        ],
+        "edukasi": [
           "Ajarkan tanda dan gejala infeksi saluran berkemih",
           "Ajarkan mengukur asupan cairan dan haluaran urin",
           "Ajarkan mengambil spesimen urin midstream",
           "Ajarkan mengenali tanda berkemih dan waktu yang tepat untuk berkemih",
           "Ajarkan terapi modalitas penguatan otot-otot panggul/berkemihan",
           "Anjurkan minum yang cukup, jika tidak ada kontraindikasi",
-          "Anjurkan mengurangi minum menjelang tidur",
+          "Anjurkan mengurangi minum menjelang tidur"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat supositoria uretra, jika perlu"
         ]
       }
@@ -4743,7 +5199,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-konstipasi",
   "kode": "D.0052",
   "nama": "Risiko Konstipasi",
-  "definisi": "Risiko konstipasi merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami penurunan frekuensi normal defekasi disertai",
+  "definisi": "Berisiko mengalami pengeluaran feses yang keras dan sulit",
   "kategori": "Eliminasi",
   "tipe": "Aktual",
   "keluhan": [
@@ -4792,21 +5248,27 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.04160",
       "nama": "Pencegahan Konstipasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi faktor risiko konstipasi (mis: asupan serat tidak adekuat, asupan cairan tidak adekuat, aganglionik, kelemahan otot abdomen, aktivitas fisik kurang).",
           "Monitor tanda dan gejala konstipasi (mis: defekasi kurang 2 kali seminggu, defekasi lama/sulit, feses keras, peristaltik menurun)",
           "Identifikasi status kognitif untuk mengkomunikasikan kebutuhan",
-          "Identifikasi penggunaan obat-obatan yang menyebabkan konstipasi",
+          "Identifikasi penggunaan obat-obatan yang menyebabkan konstipasi"
+        ],
+        "terapeutik": [
           "Batasi minuman yang mengandung kafein dan alkohol",
           "Jadwalkan rutinitas BAK",
           "Lakukan masase abdomen",
-          "Berikan terapi akupresur",
+          "Berikan terapi akupresur"
+        ],
+        "edukasi": [
           "Jelaskan penyebab dan faktor risiko konstipasi",
           "Anjurkan minum air putih sesuai kebutuhan (1500 – 2000 ml/hari)",
           "Anjurkan mengkonsumsi makanan berserat (25 – 30 gram/hari)",
           "Anjurkan meningkatkan aktivitas fisik sesuai kebutuhan",
           "Anjurkan berjalan 15 – 20 menit 1 – 2 kali/hari",
-          "Anjurkan berjongkok untuk memfasilitasi proses BAB",
+          "Anjurkan berjongkok untuk memfasilitasi proses BAB"
+        ],
+        "kolaborasi": [
           "Kolaborasi dengan ahli gizi, jika perlu"
         ]
       }
@@ -4818,7 +5280,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "disorganisasi-perilaku-bayi",
   "kode": "D.0053",
   "nama": "Disorganisasi Perilaku Bayi",
-  "definisi": "Disorganisasi perilaku bayi merupakan diagnosis keperawatan yang didefinisikan sebagai disintegrasi respon fisiologis dan neurobehaviour...",
+  "definisi": "Disintegrasi respon fisiologis dan neurobehaviour bayi terhadap lingkungan",
   "kategori": "Aktivitas dan Istirahat",
   "tipe": "Aktual",
   "keluhan": [
@@ -4865,8 +5327,10 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.10338",
       "nama": "Perawatan Bayi",
       "tindakan": {
+        "observasi": [
+          "Monitor tanda-tanda vital bayi (terutama suhu 36°C – 37°C)"
+        ],
         "terapeutik": [
-          "Monitor tanda-tanda vital bayi (terutama suhu 36°C – 37°C)",
           "Mandikan bayi dengan suhu ruangan 21 – 24°C",
           "Mandikan  bayi dalam waktu 5 – 10 menit dan 2 kali dalam sehari",
           "Rawat tali pusat secara terbuka (tali pusat tidak dibungkus apapun)",
@@ -4874,7 +5338,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Kenakan popok bayi di bawah umbilicus jika tali pusat belum terlepas",
           "Lakukan pemijatan bayi",
           "Ganti popok bayi jika basah",
-          "Kenakan pakaian bayi dari bahan katun",
+          "Kenakan pakaian bayi dari bahan katun"
+        ],
+        "edukasi": [
           "Anjurkan ibu menyusui sesuai kebutuhan bayi",
           "Ajarkan ibu cara merawat bayi di rumah",
           "Ajarkan cara pemberian makanan pendamping ASI pada bayi > 6 bulan"
@@ -4888,7 +5354,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "gangguan-mobilitas-fisik",
   "kode": "D.0054",
   "nama": "Gangguan Mobilitas Fisik",
-  "definisi": "Gangguan mobilitas fisik merupakan diagnosis keperawatan yang didefinisikan sebagai keterbatasan dalam gerakan fisik dari satu atau...",
+  "definisi": "Keterbatasan dalam melakukan pergerakan fisik secara mandiri",
   "kategori": "Aktivitas dan Istirahat",
   "tipe": "Aktual",
   "keluhan": [
@@ -4943,13 +5409,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.06171",
       "nama": "Dukungan Ambulasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi adanya nyeri atau keluhan fisik lainnya",
           "Identifikasi toleransi fisik melakukan ambulasi",
           "Monitor frekuensi jantung dan tekanan darah sebelum memulai ambulasi",
-          "Monitor kondisi umum selama melakukan ambulasi",
+          "Monitor kondisi umum selama melakukan ambulasi"
+        ],
+        "terapeutik": [
           "Fasilitasi aktivitas ambulasi dengan alat bantu (mis: tongkat, kruk)",
-          "Fasilitasi melakukan mobilisasi  fisik, jika perlu",
+          "Fasilitasi melakukan mobilisasi  fisik, jika perlu"
+        ],
+        "edukasi": [
           "Libatkan keluarga untuk membantu pasien dalam meningkatkan ambulasi",
           "Jelaskan tujuan dan prosedur ambulasi",
           "Anjurkan melakukan ambulasi dini",
@@ -4961,13 +5431,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.05173",
       "nama": "Dukungan Mobilisasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi adanya nyeri atau keluhan fisik lainnya",
           "Identifikasi toleransi fisik melakukan pergerakan",
           "Monitor frekuensi jantung dan tekanan darah sebelum memulai mobilisasi",
-          "Monitor kondisi umum selama melakukan mobilisasi",
+          "Monitor kondisi umum selama melakukan mobilisasi"
+        ],
+        "terapeutik": [
           "Fasilitasi aktivitas mobilisasi dengan alat bantu (mis: pagar tempat tidur)",
-          "Fasilitasi melakukan pergerakan, jika perlu",
+          "Fasilitasi melakukan pergerakan, jika perlu"
+        ],
+        "edukasi": [
           "Libatkan keluarga untuk membantu pasien dalam meningkatkan pergerakan",
           "Jelaskan tujuan dan prosedur mobilisasi",
           "Anjurkan melakukan mobilisasi dini",
@@ -4982,7 +5456,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "gangguan-pola-tidur",
   "kode": "D.0055",
   "nama": "Gangguan Pola Tidur",
-  "definisi": "Gangguan pola tidur merupakan diagnosis keperawatan yang didefinisikan sebagai gangguan kualitas dan kuantitas waktu tidur akibat...",
+  "definisi": "Gangguan pada pola tidur yang menyebabkan ketidaknyamanan",
   "kategori": "Aktivitas dan Istirahat",
   "tipe": "Aktual",
   "keluhan": [
@@ -5020,17 +5494,21 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.05174",
       "nama": "Dukungan Tidur",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi pola aktivitas dan tidur",
           "Identifikasi faktor pengganggu tidur (fisik dan/atau psikologis)",
           "Identifikasi makanan dan minuman yang mengganggu tidur (mis: kopi, teh, alcohol, makan mendekati waktu tidur, minum banyak air sebelum tidur)",
-          "Identifikasi obat tidur yang dikonsumsi",
+          "Identifikasi obat tidur yang dikonsumsi"
+        ],
+        "terapeutik": [
           "Modifikasi lingkungan (mis: pencahayaan, kebisingan, suhu, matras, dan tempat tidur)",
           "Batasi waktu tidur siang, jika perlu",
           "Fasilitasi menghilangkan stress sebelum tidur",
           "Tetapkan jadwal tidur rutin",
           "Lakukan prosedur untuk meningkatkan kenyamanan (mis: pijat, pengaturan posisi, terapi akupresur)",
-          "Sesuaikan jadwal pemberian obat dan/atau Tindakan untuk menunjang siklus tidur-terjaga",
+          "Sesuaikan jadwal pemberian obat dan/atau Tindakan untuk menunjang siklus tidur-terjaga"
+        ],
+        "edukasi": [
           "Jelaskan pentingnya tidur cukup selama sakit",
           "Anjurkan menepati kebiasaan waktu tidur",
           "Anjurkan menghindari makanan/minuman yang mengganggu tidur",
@@ -5044,11 +5522,15 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12362",
       "nama": "Edukasi Aktivitas dan Istirahat",
       "tindakan": {
+        "observasi": [
+          "Identifikasi kesiapan dan kemampuan menerima informasi"
+        ],
         "terapeutik": [
-          "Identifikasi kesiapan dan kemampuan menerima informasi",
           "Sediakan materi dan media pengaturan aktivitas dan istirahat",
           "Jadwalkan pemberian Pendidikan  Kesehatan sesuai kesepakatan",
-          "Berikan kesempatan kepada pasien dan keluarga untuk bertanya",
+          "Berikan kesempatan kepada pasien dan keluarga untuk bertanya"
+        ],
+        "edukasi": [
           "Jelaskan pentingnya melakukan aktivitas fisik/olahraga secara rutin",
           "Anjurkan terlibat dalam aktivitas kelompok, aktivitas bermain atau aktivitas lainnya",
           "Anjurkan menyusun jadwal aktivitas dan istirahat",
@@ -5064,7 +5546,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "intoleransi-aktivitas",
   "kode": "D.0056",
   "nama": "Intoleransi Aktivitas",
-  "definisi": "Intoleransi aktivitas merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakcukupan energi untuk melakukan aktivitas sehari-hari.",
+  "definisi": "Ketidakcukupan energi untuk melakukan aktivitas sehari-hari",
   "kategori": "Aktivitas dan Istirahat",
   "tipe": "Aktual",
   "keluhan": [
@@ -5102,19 +5584,25 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.05178",
       "nama": "Manajemen Energi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi gangguan fungsi tubuh yang mengakibatkan kelelahan",
           "Monitor kelelahan fisik dan emosional",
           "Monitor pola dan jam tidur",
-          "Monitor lokasi dan ketidaknyamanan selama melakukan aktivitas",
+          "Monitor lokasi dan ketidaknyamanan selama melakukan aktivitas"
+        ],
+        "terapeutik": [
           "Sediakan lingkungan nyaman dan rendah stimulus (mis: cahaya, suara, kunjungan)",
           "Lakukan latihan rentang gerak pasif dan/atau aktif",
           "Berikan aktivitas distraksi yang menenangkan",
-          "Fasilitasi duduk di sisi tempat tidur, jika tidak dapat berpindah atau berjalan",
+          "Fasilitasi duduk di sisi tempat tidur, jika tidak dapat berpindah atau berjalan"
+        ],
+        "edukasi": [
           "Anjurkan tirah baring",
           "Anjurkan melakukan aktivitas secara bertahap",
           "Anjurkan menghubungi perawat jika tanda dan gejala kelelahan tidak berkurang",
-          "Ajarkan strategi koping untuk mengurangi kelelahan",
+          "Ajarkan strategi koping untuk mengurangi kelelahan"
+        ],
+        "kolaborasi": [
           "Kolaborasi dengan ahli gizi tentang cara meningkatkan asupan makanan"
         ]
       }
@@ -5123,13 +5611,15 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.01026",
       "nama": "Terapi Aktivitas",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi defisit tingkat aktivitas",
           "Identifikasi kemampuan berpartisipasi dalam aktivitas tertentu",
           "Identifikasi sumber daya untuk aktivitas yang diinginkan",
           "Identifikasi strategi meningkatkan partisipasi dalam aktivitas",
           "Identifikasi makna aktivitas rutin (mis: bekerja) dan waktu luang",
-          "Monitor respons emosional, fisik, sosial, dan spiritual terhadap aktivitas",
+          "Monitor respons emosional, fisik, sosial, dan spiritual terhadap aktivitas"
+        ],
+        "terapeutik": [
           "Fasilitasi fokus pada kemampuan, bukan defisit yang dialami",
           "Sepakati komitmen untuk meningkatkan frekuensi dan rentang aktivitas",
           "Fasilitasi memilih aktivitas dan tetapkan tujuan aktivitas yang konsisten sesuai kemampuan fisik, psikologis, dan sosial",
@@ -5145,18 +5635,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Fasilitasi aktivitas aktivitas dengan komponen memori implisit dan emosional (mis: kegiatan keagamaan khusus) untuk pasien demensia, jika sesuai",
           "Libatkan dalam permainan kelompok yang tidak kompetitif, terstruktur, dan aktif",
           "Tingkatkan keterlibatan dalam aktivitas rekreasi dan diversifikasi untuk menurunkan kecemasan (mis: vocal group, bola voli, tenis meja, jogging, berenang, tugas sederhana, permainan sederhana, tugas rutin, tugas rumah tangga, perawatan diri, dan teka-teki dan kartu)",
-          "Libatkan keluarga dalam aktivitas, jika perlu",
           "Fasilitasi mengembangkan motivasi dan penguatan diri",
           "Fasilitasi pasien dan keluarga memantau kemajuannya sendiri untuk mencapai tujuan",
           "Jadwalkan aktivitas dalam rutinitas sehari-hari",
           "Berikan penguatan positif atas partisipasi dalam aktivitas",
+          "Rujuk pada pusat atau program aktivitas komunitas, jika perlu"
+        ],
+        "edukasi": [
+          "Libatkan keluarga dalam aktivitas, jika perlu",
           "Jelaskan metode aktivitas fisik sehari-hari, jika perlu",
           "Ajarkan cara melakukan aktivitas yang dipilih",
           "Anjurkan melakukan aktivitas fisik, sosial, spiritual, dan kognitif dalam menjaga fungsi dan Kesehatan",
           "Anjurkan terlibat dalam aktivitas kelompok atau terapi, jika sesuai",
-          "Anjurkan keluarga untuk memberi penguatan positif atas partisipasi dalam aktivitas",
-          "Kolaborasi dengan terapis okupasi dalam merencanakan dan memonitor program aktivitas, jika sesuai",
-          "Rujuk pada pusat atau program aktivitas komunitas, jika perlu"
+          "Anjurkan keluarga untuk memberi penguatan positif atas partisipasi dalam aktivitas"
+        ],
+        "kolaborasi": [
+          "Kolaborasi dengan terapis okupasi dalam merencanakan dan memonitor program aktivitas, jika sesuai"
         ]
       }
     }
@@ -5167,7 +5661,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "keletihan",
   "kode": "D.0057",
   "nama": "Keletihan",
-  "definisi": "Keletihan merupakan diagnosis keperawatan yang didefinisikan sebagai penurunan kapasitas kerja fisik dan mental yang...",
+  "definisi": "Perasaan lelah yang berkelanjutan dan tidak hilang dengan istirahat",
   "kategori": "Aktivitas dan Istirahat",
   "tipe": "Aktual",
   "keluhan": [
@@ -5212,11 +5706,15 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12362",
       "nama": "Edukasi Aktivitas dan Istirahat",
       "tindakan": {
+        "observasi": [
+          "Identifikasi kesiapan dan kemampuan menerima informasi"
+        ],
         "terapeutik": [
-          "Identifikasi kesiapan dan kemampuan menerima informasi",
           "Sediakan materi dan media pengaturan aktivitas dan istirahat",
           "Jadwalkan pemberian Pendidikan  Kesehatan sesuai kesepakatan",
-          "Berikan kesempatan kepada pasien dan keluarga untuk bertanya",
+          "Berikan kesempatan kepada pasien dan keluarga untuk bertanya"
+        ],
+        "edukasi": [
           "Jelaskan pentingnya melakukan aktivitas fisik/olahraga secara rutin",
           "Anjurkan terlibat dalam aktivitas kelompok, aktivitas bermain atau aktivitas lainnya",
           "Anjurkan menyusun jadwal aktivitas dan istirahat",
@@ -5229,19 +5727,25 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.05178",
       "nama": "Manajemen Energi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi gangguan fungsi tubuh yang mengakibatkan kelelahan",
           "Monitor kelelahan fisik dan emosional",
           "Monitor pola dan jam tidur",
-          "Monitor lokasi dan ketidaknyamanan selama melakukan aktivitas",
+          "Monitor lokasi dan ketidaknyamanan selama melakukan aktivitas"
+        ],
+        "terapeutik": [
           "Sediakan lingkungan nyaman dan rendah stimulus (mis: cahaya, suara, kunjungan)",
           "Lakukan latihan rentang gerak pasif dan/atau aktif",
           "Berikan aktivitas distraksi yang menenangkan",
-          "Fasilitasi duduk di sisi tempat tidur, jika tidak dapat berpindah atau berjalan",
+          "Fasilitasi duduk di sisi tempat tidur, jika tidak dapat berpindah atau berjalan"
+        ],
+        "edukasi": [
           "Anjurkan tirah baring",
           "Anjurkan melakukan aktivitas secara bertahap",
           "Anjurkan menghubungi perawat jika tanda dan gejala kelelahan tidak berkurang",
-          "Ajarkan strategi koping untuk mengurangi kelelahan",
+          "Ajarkan strategi koping untuk mengurangi kelelahan"
+        ],
+        "kolaborasi": [
           "Kolaborasi dengan ahli gizi tentang cara meningkatkan asupan makanan"
         ]
       }
@@ -5253,7 +5757,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "kesiapan-peningkatan-tidur",
   "kode": "D.0058",
   "nama": "Kesiapan Peningkatan Tidur",
-  "definisi": "Kesiapan peningkatan tidur merupakan diagnosis keperawatan yang didefinisikan sebagai pola penurunan kesadaran alamiah dan periodik yang...",
+  "definisi": "Pola penurunan kesadaran alamiah dan periodik yang memungkinkan istirahat adekuat dan dapat ditingkatkan",
   "kategori": "Aktivitas dan Istirahat",
   "tipe": "Aktual",
   "keluhan": [
@@ -5287,17 +5791,21 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.05174",
       "nama": "Dukungan Tidur",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi pola aktivitas dan tidur",
           "Identifikasi faktor pengganggu tidur (fisik dan/atau psikologis)",
           "Identifikasi makanan dan minuman yang mengganggu tidur (mis: kopi, teh, alcohol, makan mendekati waktu tidur, minum banyak air sebelum tidur)",
-          "Identifikasi obat tidur yang dikonsumsi",
+          "Identifikasi obat tidur yang dikonsumsi"
+        ],
+        "terapeutik": [
           "Modifikasi lingkungan (mis: pencahayaan, kebisingan, suhu, matras, dan tempat tidur)",
           "Batasi waktu tidur siang, jika perlu",
           "Fasilitasi menghilangkan stress sebelum tidur",
           "Tetapkan jadwal tidur rutin",
           "Lakukan prosedur untuk meningkatkan kenyamanan (mis: pijat, pengaturan posisi, terapi akupresur)",
-          "Sesuaikan jadwal pemberian obat dan/atau Tindakan untuk menunjang siklus tidur-terjaga",
+          "Sesuaikan jadwal pemberian obat dan/atau Tindakan untuk menunjang siklus tidur-terjaga"
+        ],
+        "edukasi": [
           "Jelaskan pentingnya tidur cukup selama sakit",
           "Anjurkan menepati kebiasaan waktu tidur",
           "Anjurkan menghindari makanan/minuman yang mengganggu tidur",
@@ -5311,11 +5819,15 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12362",
       "nama": "Edukasi Aktivitas dan Istirahat",
       "tindakan": {
+        "observasi": [
+          "Identifikasi kesiapan dan kemampuan menerima informasi"
+        ],
         "terapeutik": [
-          "Identifikasi kesiapan dan kemampuan menerima informasi",
           "Sediakan materi dan media pengaturan aktivitas dan istirahat",
           "Jadwalkan pemberian Pendidikan  Kesehatan sesuai kesepakatan",
-          "Berikan kesempatan kepada pasien dan keluarga untuk bertanya",
+          "Berikan kesempatan kepada pasien dan keluarga untuk bertanya"
+        ],
+        "edukasi": [
           "Jelaskan pentingnya melakukan aktivitas fisik/olahraga secara rutin",
           "Anjurkan terlibat dalam aktivitas kelompok, aktivitas bermain atau aktivitas lainnya",
           "Anjurkan menyusun jadwal aktivitas dan istirahat",
@@ -5331,7 +5843,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-disorganisasi-perilaku-bayi",
   "kode": "D.0059",
   "nama": "Risiko Disorganisasi Perilaku Bayi",
-  "definisi": "Risiko disorganisasi perilaku bayi merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami disintegrasi respon...",
+  "definisi": "Berisiko mengalami disintegrasi respon fisiologis dan neurobehaviour bayi terhadap lingkungan",
   "kategori": "Aktivitas dan Istirahat",
   "tipe": "Aktual",
   "keluhan": [
@@ -5366,11 +5878,15 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12379",
       "nama": "Edukasi Keamanan Bayi",
       "tindakan": {
+        "observasi": [
+          "Identifikasi kesiapan dan kemampuan menerima informasi"
+        ],
         "terapeutik": [
-          "Identifikasi kesiapan dan kemampuan menerima informasi",
           "Sediakan materi dan media Pendidikan kesehatan",
           "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
-          "Berikan kesempatan untuk bertanya",
+          "Berikan kesempatan untuk bertanya"
+        ],
+        "edukasi": [
           "Anjurkan selalu mengawasi bayi",
           "Anjurkan tidak meninggalkan bayinya sendirian",
           "Anjurkan menjauhkan benda yang berisiko membahayakan bayi (mis: kantung plastic, karet, tali, kain, benda-benda kecil, benda tajam, pembersih lantai)",
@@ -5388,8 +5904,10 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.10338",
       "nama": "Perawatan Bayi",
       "tindakan": {
+        "observasi": [
+          "Monitor tanda-tanda vital bayi (terutama suhu 36°C – 37°C)"
+        ],
         "terapeutik": [
-          "Monitor tanda-tanda vital bayi (terutama suhu 36°C – 37°C)",
           "Mandikan bayi dengan suhu ruangan 21 – 24°C",
           "Mandikan bayi dalam waktu 5 – 10 menit dan 2 kali dalam sehari",
           "Rawat tali pusat secara terbuka (tali pusat tidak dibungkus apapun)",
@@ -5397,7 +5915,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Kenakan popok bayi di bawah umbilicus jika tali pusat belum terlepas",
           "Lakukan pemijatan bayi",
           "Ganti popok bayi jika basah",
-          "Kenakan pakaian bayi dari bahan katun",
+          "Kenakan pakaian bayi dari bahan katun"
+        ],
+        "edukasi": [
           "Anjurkan ibu menyusui sesuai kebutuhan bayi",
           "Ajarkan ibu cara merawat bayi di rumah",
           "Ajarkan cara pemberian makanan pendamping ASI pada bayi > 6 bulan"
@@ -5411,7 +5931,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-intoleransi-aktivitas",
   "kode": "D.0060",
   "nama": "Risiko Intoleransi Aktivitas",
-  "definisi": "Risiko intoleransi aktivitas merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami ketidakcukupan energi untuk...",
+  "definisi": "Berisiko mengalami ketidakcukupan energi untuk melakukan aktivitas sehari-hari",
   "kategori": "Aktivitas dan Istirahat",
   "tipe": "Aktual",
   "keluhan": [
@@ -5445,19 +5965,25 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.05178",
       "nama": "Manajemen Energi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi gangguan fungsi tubuh yang mengakibatkan kelelahan",
           "Monitor kelelahan fisik dan emosional",
           "Monitor pola dan jam tidur",
-          "Monitor lokasi dan ketidaknyamanan selama melakukan aktivitas",
+          "Monitor lokasi dan ketidaknyamanan selama melakukan aktivitas"
+        ],
+        "terapeutik": [
           "Sediakan lingkungan nyaman dan rendah stimulus (mis: cahaya, suara, kunjungan)",
           "Lakukan latihan rentang gerak pasif dan/atau aktif",
           "Berikan aktivitas distraksi yang menenangkan",
-          "Fasilitasi duduk di sisi tempat tidur, jika tidak dapat berpindah atau berjalan",
+          "Fasilitasi duduk di sisi tempat tidur, jika tidak dapat berpindah atau berjalan"
+        ],
+        "edukasi": [
           "Anjurkan tirah baring",
           "Anjurkan melakukan aktivitas secara bertahap",
           "Anjurkan menghubungi perawat jika tanda dan gejala kelelahan tidak berkurang",
-          "Ajarkan strategi koping untuk mengurangi kelelahan",
+          "Ajarkan strategi koping untuk mengurangi kelelahan"
+        ],
+        "kolaborasi": [
           "Kolaborasi dengan ahli gizi tentang cara meningkatkan asupan makanan"
         ]
       }
@@ -5466,13 +5992,15 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.05183",
       "nama": "Promosi Latihan fisik",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi keyakinan  Kesehatan tentang Latihan fisik",
           "Identifikasi pengalaman olahraga sebelumnya",
           "Identifikasi motivasi individu untuk memulai atau melanjutkan program olahraga",
           "Identifikasi hambatan untuk berolahraga",
           "Monitor kepatuhan menjalankan program Latihan",
-          "Monitor respons terhadap program latihan",
+          "Monitor respons terhadap program latihan"
+        ],
+        "terapeutik": [
           "Motivasi mengungkapkan perasaan tentang olahraga/kebutuhan berolahraga",
           "Motivasi memulai atau melanjutkan olahraga",
           "Fasilitasi dalam mengidentifikasi model peran positif untuk mempertahankan program Latihan",
@@ -5481,14 +6009,18 @@ export const allDiagnosesData: Diagnosis[] = [
           "Fasilitasi dalam menjadwalkan periode regular Latihan rutin mingguan",
           "Fasilitasi dalam mempertahankan kemajuan program Latihan",
           "Lakukan aktivitas olahraga Bersama pasien, jika perlu",
+          "Berikan umpan balik positif terhadap segala upaya yang dijalankan pasien"
+        ],
+        "edukasi": [
           "Libatkan keluarga dalam merencanakan dan memelihara program Latihan",
-          "Berikan umpan balik positif terhadap segala upaya yang dijalankan pasien",
           "Jelaskan manfaat Kesehatan dan efek fisiologis olahraga",
           "Jelaskan jenis Latihan yang sesuai dengan kondisi Kesehatan",
           "Jelaskan frekuensi, durasi, dan intensitas program Latihan yang diinginkan",
           "Ajarkan Latihan pemanasan dan pendinginan yang tepat",
           "Ajarkan Teknik menghindari cidera saat berolahraga",
-          "Ajarkan Teknik pernapasan yang tepat untuk memaksimalkan penyerapan oksigen selama Latihan fisik",
+          "Ajarkan Teknik pernapasan yang tepat untuk memaksimalkan penyerapan oksigen selama Latihan fisik"
+        ],
+        "kolaborasi": [
           "Kolaborasi dengan rehabilitasi medis atau ahli fisiologi olahraga, jika perlu"
         ]
       }
@@ -5500,7 +6032,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "disrefleksia-otonom",
   "kode": "D.0061",
   "nama": "Disrefleksia Otonom",
-  "definisi": "Disrefleksia otonom merupakan diagnosis keperawatan yang didefinisikan sebagai respon sistem saraf simpatis yang terjadi secara spontan dan...",
+  "definisi": "Respon sistem saraf simpatis yang terjadi secara spontan dan mengancam jiwa terhadap stimulus berbahaya akibat cidera medulla spinalis pada T7 atau diatasnya",
   "kategori": "Neurosensori",
   "tipe": "Aktual",
   "keluhan": [],
@@ -5537,19 +6069,25 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.06190",
       "nama": "Manajemen Disrefleksia",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi rangsangan yang dapat memicu disrefleksia (mis: distensi kandung kemih, kalkuli ginjal, infeksi, impaksi feses, pemeriksaan rektal, supositoria, kerusakan kulit)",
           "Identifikasi penyebab pemicu disrefleksia (mis: distensi kandung kemih, impaksi feses, lesi kulit, stoking suportif, dan pengikat perut)",
           "Monitor tanda dan gejala disleksia otonom (mis: hipertensi paroksismal, bradikardia, takikardia, diaphoresis diatas tingkat cidera, pucat dibawah tingkat cidera, sakit kepala, mengigil tanpa demam, ereksi pilomotor, dan nyeri dada)",
           "Monitor kepatenan kateter urin, jika terpasang",
           "Monitor terjadinya hiperrefleksia",
-          "Monitor tanda-tanda vital",
+          "Monitor tanda-tanda vital"
+        ],
+        "terapeutik": [
           "Minimalkan rangsangan yang dapat memicu disrefleksia",
           "Berikan posisi fowler, jika perlu",
-          "Pasang kateter urin, jika perlu",
+          "Pasang kateter urin, jika perlu"
+        ],
+        "edukasi": [
           "Jelaskan penyebab dan gejala disrefleksia",
           "Jelaskan penanganan dan pencegahan disrefleksia",
-          "Anjurkan pasien dan/atau keluarga jika mengalami tanda dan gejala disrefleksia",
+          "Anjurkan pasien dan/atau keluarga jika mengalami tanda dan gejala disrefleksia"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian agen antihipertensi intravena, sesuai indikasi"
         ]
       }
@@ -5561,7 +6099,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "gangguan-memori",
   "kode": "D.0062",
   "nama": "Gangguan Memori",
-  "definisi": "Gangguan memori merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakmampuan mengingat beberapa informasi atau perilaku.",
+  "definisi": "Ketidakmampuan mengingat beberapa informasi atau perilaku",
   "kategori": "Neurosensori",
   "tipe": "Aktual",
   "keluhan": [
@@ -5610,20 +6148,24 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.06188",
       "nama": "Latihan Memori",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi masalah memori yang dialami",
           "Identifikasi kesalahan terhadap orientasi",
-          "Monitor perilaku dan perubahan memori selama terapi",
+          "Monitor perilaku dan perubahan memori selama terapi"
+        ],
+        "terapeutik": [
           "Rencanakan metode mengajar sesuai kemampuan pasien",
           "Stimulasi memori dengan mengulang pikiran yang terakhir kali diucapkan, jika perlu",
           "Koreksi kesalahan orientasi",
           "Fasilitasi mengingat Kembali pengalaman masa lalu, jika perlu",
-          "Fasilitasi tugas pembelajaran (mis: mengingat informasi verbal dan gambar)",
           "Fasilitasi kemampuan konsentrasi (mis: bermain kartu pasangan), jika perlu",
           "Stimulasi menggunakan memori pada peristiwa yang baru terjadi (mis: bertanya ke mana saja ia pergi akhir-akhir ini), jika perlu",
-          "Jelaskan tujuan dan prosedur Latihan",
-          "Ajarkan Teknik memori yang tepat (mis: imajinasi visual, perangkat mnemonic, permainan memori, isyarat memori, Teknik asosiasi, membuat daftar, computer, papan nama)",
           "Rujuk pada terapi okupasi, jika perlu"
+        ],
+        "edukasi": [
+          "Fasilitasi tugas pembelajaran (mis: mengingat informasi verbal dan gambar)",
+          "Jelaskan tujuan dan prosedur Latihan",
+          "Ajarkan Teknik memori yang tepat (mis: imajinasi visual, perangkat mnemonic, permainan memori, isyarat memori, Teknik asosiasi, membuat daftar, computer, papan nama)"
         ]
       }
     },
@@ -5631,9 +6173,11 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09297",
       "nama": "Orientasi Realita",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor perubahan orientasi",
-          "Monitor perubahan kognitif dan perilaku",
+          "Monitor perubahan kognitif dan perilaku"
+        ],
+        "terapeutik": [
           "Perkenalkan nama saat memulai interaksi",
           "Orientasikan orang, tempat, dan waktu",
           "Hadirkan realita (mis: beri penjelasan alternatif, hindari perdebatan)",
@@ -5642,7 +6186,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Gunakan simbol dalam mengorientasikan lingkungan (mis: tanda, gambar, warna)",
           "Libatkan dalam terapi kelompok orientasi",
           "Berikan waktu istirahat dan tidur yang cukup, sesuai kebutuhan",
-          "Fasilitasi akses informasi (mis: televisi, surat kabad, radio), jika perlu",
+          "Fasilitasi akses informasi (mis: televisi, surat kabad, radio), jika perlu"
+        ],
+        "edukasi": [
           "Anjurkan perawatan diri secara mandiri",
           "Anjurkan penggunaan alat bantu (mis: kacamata, alat bantu dengar, gigi palsu)",
           "Ajarkan keluarga dalam perawatan orientasi lansia"
@@ -5656,7 +6202,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "gangguan-menelan",
   "kode": "D.0063",
   "nama": "Gangguan Menelan",
-  "definisi": "Gangguan menelan merupakan diagnosis keperawatan yang didefinisikan sebagai fungsi menelan abnormal akibat defisit struktur atau...",
+  "definisi": "Fungsi menelan abnormal akibat defisit struktur atau fungsi oral, faring, atau esofagus",
   "kategori": "Neurosensori",
   "tipe": "Aktual",
   "keluhan": [
@@ -5708,10 +6254,12 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.11351",
       "nama": "Dukungan Perawatan Diri: Makan/Minum",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi diet yang dianjurkan",
           "Monitor kemampuan menelan",
-          "Monitor status hidrasi pasien, jika perlu",
+          "Monitor status hidrasi pasien, jika perlu"
+        ],
+        "terapeutik": [
           "Ciptakan lingkungan yang menyenangkan selama makan",
           "Atur posisi yang nyaman untuk makan/minum",
           "Lakukan oral hygiene sebelum makan, jika perlu",
@@ -5720,8 +6268,12 @@ export const allDiagnosesData: Diagnosis[] = [
           "Siapkan makanan dengan suhu yang meningkatkan nafsu makan",
           "Sediakan makanan dan minuman yang disukai",
           "Berikan bantuan saat makan/minum sesuai tingkat kemandirian, jika perlu",
-          "Motivasi untuk makan di ruang makan, jika tersedia",
-          "Jelaskan posisi makanan pada pasien yang mengalami gangguan penglihatan dengan menggunakan arah jarum jam (mis: sayur di jam 12, rendang di jam 3)",
+          "Motivasi untuk makan di ruang makan, jika tersedia"
+        ],
+        "edukasi": [
+          "Jelaskan posisi makanan pada pasien yang mengalami gangguan penglihatan dengan menggunakan arah jarum jam (mis: sayur di jam 12, rendang di jam 3)"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat (mis: analgesik, antiemetik), sesuai indikasi"
         ]
       }
@@ -5730,12 +6282,14 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.01018",
       "nama": "Pencegahan Aspirasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor tingkat kesadaran, batuk, muntah, dan kemampuan menelan",
           "Monitor status pernapasan",
           "Monitor bunyi napas, terutama setelah makan/minum",
           "Periksa residu gaster sebelum memberi asupan oral",
-          "Periksa kepatenan selang nasogastric sebelum memberi asupan oral",
+          "Periksa kepatenan selang nasogastric sebelum memberi asupan oral"
+        ],
+        "terapeutik": [
           "Posisikan semi fowler (30 – 45 derajat) 30 menit sebelum memberi asupan oral",
           "Pertahankan posisi semi fowler (30 – 45 derajat) pada pasien tidak sadar",
           "Pertahankan kepatenan jalan napas (mis. Teknik head-tilt chin-lift, jaw thrust, in line)",
@@ -5744,10 +6298,14 @@ export const allDiagnosesData: Diagnosis[] = [
           "Sediakan suction di ruangan",
           "Hindari memberi makan melalui selang gastrointestinal, jika residu banyak",
           "Berikan makanan dengan ukuran kecil dan lunak",
-          "Berikan obat oral dalam bentuk cair",
+          "Berikan obat oral dalam bentuk cair"
+        ],
+        "edukasi": [
           "Ajarkan makan secara perlahan",
           "Ajarkan strategi mencegah aspirasi",
-          "Ajarkan Teknik mengunyah atau menelan, jika perlu",
+          "Ajarkan Teknik mengunyah atau menelan, jika perlu"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian bronkodilator, jika perlu"
         ]
       }
@@ -5759,7 +6317,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "konfusi-akut",
   "kode": "D.0064",
   "nama": "Konfusi Akut",
-  "definisi": "Konfusi akut merupakan diagnosis keperawatan yang didefinisikan sebagai gangguan kesadaran, perhatian, kognitif, dan persepsi yang...",
+  "definisi": "Gangguan kesadaran, perhatian, kognitif, dan persepsi yang reversible, berlangsung tiba-tiba, dan singkat",
   "kategori": "Neurosensori",
   "tipe": "Aktual",
   "keluhan": [
@@ -5805,10 +6363,12 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.06189",
       "nama": "Manajemen Delirium",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi faktor risiko delirium (mis: usia >75 tahun, disfungsi kognitif, gangguan penglihatan/pendengaran, penurunan kemampuan fungsional, infeksi, hipo/hipertemia, hipoksia, malnutrisi, efek obat, toksin, gangguan tidur, stres)",
           "Identifikasi tipe delirium (mis: hipoaktif, hiperaktif, campuran)",
-          "Monitor status neurologis dan tingkat delirium",
+          "Monitor status neurologis dan tingkat delirium"
+        ],
+        "terapeutik": [
           "Berikan pencahayaan yang baik",
           "Sediakan jam dan kalender yang mudah dibaca",
           "Hindari stimulus sensorik berlebihan (mis: televisi, pengumuman interkom)",
@@ -5821,9 +6381,13 @@ export const allDiagnosesData: Diagnosis[] = [
           "Lakukan reorientasi",
           "Sediakan lingkungan fisik dan rutinitas harian yang konsisten",
           "Gunakan isyarat lingkungan untuk stimulasi memori, reorientasi, dan meningkatkan perilaku yang sesuai (mis: tanda, gambar, jam, kalender, dan kode warna pada lingkungan)",
-          "Berikan informasi baru secara perlahan, sedikit demi sedikit, diulang-ulang",
+          "Berikan informasi baru secara perlahan, sedikit demi sedikit, diulang-ulang"
+        ],
+        "edukasi": [
           "Anjurkan kunjungan keluarga, jika perlu",
-          "Anjurkan penggunaan alat bantu sensorik (mis: kacamata, alat bantu dengar, dan gigi palsu)",
+          "Anjurkan penggunaan alat bantu sensorik (mis: kacamata, alat bantu dengar, dan gigi palsu)"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat ansietas atau agitasi, jika perlu"
         ]
       }
@@ -5832,18 +6396,24 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09288",
       "nama": "Manajemen Halusinasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor perilaku yang mengindikasikan halusinasi",
           "Monitor dan sesuaikan tingkat aktivitas dan stimulasi lingkungan",
-          "Monitor isi halusinasi (mis: kekerasan atau membahayakan diri)",
+          "Monitor isi halusinasi (mis: kekerasan atau membahayakan diri)"
+        ],
+        "terapeutik": [
           "Pertahankan lingkungan yang aman",
           "Lakukan Tindakan keselamatan Ketika tidak dapat mengontrol perilaku (mis: limit setting, pembatasan wilayah, pengekangan fisik, seklusi)",
+          "Hindari perdebatan tentang validitas halusinasi"
+        ],
+        "edukasi": [
           "Diskusikan perasaan dan respons terhadap halusinasi",
-          "Hindari perdebatan tentang validitas halusinasi",
           "Anjurkan memonitor sendiri situasi terjadinya halusinasi",
           "Anjurkan bicara pada orang yang dipercaya untuk memberi dukungan dan umpan balik korektif terhadap halusinasi",
           "Anjurkan melakukan distraksi (mis: mendengarkan music, melakukan aktivitas dan Teknik relaksasi)",
-          "Ajarkan pasien dan keluarga cara mengontrol halusinasi",
+          "Ajarkan pasien dan keluarga cara mengontrol halusinasi"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat antipsikotik dan antiansietas, jika perlu"
         ]
       }
@@ -5852,23 +6422,29 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09291",
       "nama": "Manajemen Penyalahgunaan Zat",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab ketergantungan atau penyalahgunaan zat",
           "Identifikasi perilaku denial tidak efektif",
           "Periksa tanda dan gejala intoksikasi",
-          "Periksa pasien dan abrang bawaannya secara acak",
+          "Periksa pasien dan abrang bawaannya secara acak"
+        ],
+        "terapeutik": [
           "Penuhi kebutuhan dasar seperti keamanan, kebersihaan diri, kenyamanan, lingkungan tenang",
           "Perbaiki kesalahan konsepsi, tidak menyalahkan orang lain",
           "Pertahankan disiplin diri dengan pengawasan ketat",
           "Berikan Batasan pada perilaku manipulative",
           "Batasi akses penggunaan zat",
-          "Hadapi secara konsisten, tidak menghakimi dan menghukum",
+          "Hadapi secara konsisten, tidak menghakimi dan menghukum"
+        ],
+        "edukasi": [
           "Anjurkan berfokus pada saat ini dan masa depan, bukan masa lalu",
           "Anjurkan pasien dan keluarga mengikuti peraturan ketat rumah sakit secara efektif (mis: tidak menyelundupkan obat)",
           "Anjurkan mengikuti program kelompok",
           "Anjurkan untuk berobat jalan secara teratur dan mematuhi pengobatan saat pulang",
           "Ajarkan keterampilan pencegahan kekambuhan, keterampilan suportif dan tugas perkembangan",
-          "Jelaskan bahaya menggunakan alat invasive untuk memasukan zat dalam tubuh (mis: abses, HIV)",
+          "Jelaskan bahaya menggunakan alat invasive untuk memasukan zat dalam tubuh (mis: abses, HIV)"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian substitusi, sesuai indikasi"
         ]
       }
@@ -5880,7 +6456,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "konfusi-kronis",
   "kode": "D.0065",
   "nama": "Konfusi Kronis",
-  "definisi": "Konfusi kronis merupakan diagnosis keperawatan yang didefinisikan sebagai gangguan kesadaran, perhatian, kognitif, dan persepsi yang...",
+  "definisi": "Gangguan kesadaran, perhatian, kognitif, dan persepsi yang ireversible, berlangsung lama, dan/atau progresif",
   "kategori": "Neurosensori",
   "tipe": "Aktual",
   "keluhan": [
@@ -5926,10 +6502,12 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.06189",
       "nama": "Manajemen Delirium",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi faktor risiko delirium (mis: usia >75 tahun, disfungsi kognitif, gangguan penglihatan/pendengaran, penurunan kemampuan fungsional, infeksi, hipo/hipertemia, hipoksia, malnutrisi, efek obat, toksin, gangguan tidur, stres)",
           "Identifikasi tipe delirium (mis: hipoaktif, hiperaktif, campuran)",
-          "Monitor status neurologis dan tingkat delirium",
+          "Monitor status neurologis dan tingkat delirium"
+        ],
+        "terapeutik": [
           "Berikan pencahayaan yang baik",
           "Sediakan jam dan kalender yang mudah dibaca",
           "Hindari stimulus sensorik berlebihan (mis: televisi, pengumuman interkom)",
@@ -5942,9 +6520,13 @@ export const allDiagnosesData: Diagnosis[] = [
           "Lakukan reorientasi",
           "Sediakan lingkungan fisik dan rutinitas harian yang konsisten",
           "Gunakan isyarat lingkungan untuk stimulasi memori, reorientasi, dan meningkatkan perilaku yang sesuai (mis: tanda, gambar, jam, kalender, dan kode warna pada lingkungan)",
-          "Berikan informasi baru secara perlahan, sedikit demi sedikit, diulang-ulang",
+          "Berikan informasi baru secara perlahan, sedikit demi sedikit, diulang-ulang"
+        ],
+        "edukasi": [
           "Anjurkan kunjungan keluarga, jika perlu",
-          "Anjurkan penggunaan alat bantu sensorik (mis: kacamata, alat bantu dengar, dan gigi palsu)",
+          "Anjurkan penggunaan alat bantu sensorik (mis: kacamata, alat bantu dengar, dan gigi palsu)"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat ansietas atau agitasi, jika perlu"
         ]
       }
@@ -5953,15 +6535,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09286",
       "nama": "Manajemen Demensia",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi Riwayat fisik, sosial, psikologis, dan kebiasaan",
-          "Identifikasi pola aktivitas (mis: tidur, minum obat, eliminasi, asupan oral, perawatan diri)",
+          "Identifikasi pola aktivitas (mis: tidur, minum obat, eliminasi, asupan oral, perawatan diri)"
+        ],
+        "terapeutik": [
           "Sediakan lingkungan aman, nyaman, konsisten, dan rendah stimulus (mis: music tenang, dekorasi sederhana, pencahayaan memadai, makan Bersama pasien lain)",
           "Orientasikan waktu, tempat, dan orang",
           "Gunakan distraksi untuk mengatasi masalah perilaku",
-          "Libatkan keluarga dalam merencanakan, menyediakan, dan mengevaluasi perawatan",
           "Fasilitasi orientasi dengan simbol-simbol (mis: dekorasi, papan petunjuk, foto diberi nama, huruf besar)",
-          "Libatkan kegiatan individua tau kelompok sesuai kemampuan kognitif dan minat",
+          "Libatkan kegiatan individua tau kelompok sesuai kemampuan kognitif dan minat"
+        ],
+        "edukasi": [
+          "Libatkan keluarga dalam merencanakan, menyediakan, dan mengevaluasi perawatan",
           "Anjurkan memperbanyak istirahat",
           "Ajarkan keluarga cara perawatan demensia"
         ]
@@ -5971,9 +6557,11 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09332",
       "nama": "Terapi Validasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi tahap gangguan kognitif (mis: malorientasi, bingung waktu, repetitif, atau vegetasi)",
-          "Monitor dan refleksikan gestur",
+          "Monitor dan refleksikan gestur"
+        ],
+        "terapeutik": [
           "Hindari menggunakan strategi validasi jika bingung disebabkan oleh penyebab akut, reversible, atau tahap vegetasi",
           "Dengarkan dengan empati",
           "Tahan diri untuk mengkoreksi atau menentang persepsi dan pengalaman pasien",
@@ -5983,7 +6571,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Pertahankan kontak mata",
           "Gunakan sentuhan suportif (mis: sentuhan lembut ke pipi, bahu, lengan, atau tangan)",
           "Gunakan Bahasa dan gaya komunikasi pasien (mis: pendengaran, visual, kinestetik)",
-          "Libatkan dalam kegiatan sesuai kebutuhan",
+          "Libatkan dalam kegiatan sesuai kebutuhan"
+        ],
+        "edukasi": [
           "Anjurkan mengekspresikan emosi sesuai pengalaman (mis: cinta, takut, sedih)",
           "Anjurkan melakukan kegiatan bernyanyi dan bermain musik yang familiar",
           "Anjurkan mengenang peristiwa sebelumnya untuk mengidentifikasi metode koping yang pernah digunakan sebelumnya"
@@ -5997,7 +6587,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "penurunan-kapasitas-adaptif-intrakranial",
   "kode": "D.0066",
   "nama": "Penurunan Kapasitas Adaptif Intrakranial",
-  "definisi": "Penurunan kapasitas adaptif intrakranial merupakan diagnosis keperawatan yang didefinisikan sebagai gangguan mekanisme dinamika intrakranial..",
+  "definisi": "Gangguan mekanisme dinamika intrakranial dalam melakukan kompensasi terhadap stimulus yang dapat menurunkan kapasitas intrakranial",
   "kategori": "Neurosensori",
   "tipe": "Aktual",
   "keluhan": [
@@ -6044,7 +6634,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.06194",
       "nama": "Manajemen Peningkatan Tekanan Intrakranial",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab peningkatan TIK (misalnya: lesi, gangguan metabolism, edema serebral)",
           "Monitor tanda/gejala peningkatan TIK (misalnya: tekanan darah meningkat, tekanan nadi melebar, bradikardia, pola napas ireguler, kesadaran menurun)",
           "Monitor MAP (mean arterial pressure) (LIHAT: Kalkulator MAP)",
@@ -6055,7 +6645,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Monitor gelombang ICP",
           "Monitor status pernapasan",
           "Monitor intake dan output cairan",
-          "Monitor cairan serebro-spinalis (mis. Warna, konsistensi)",
+          "Monitor cairan serebro-spinalis (mis. Warna, konsistensi)"
+        ],
+        "terapeutik": [
           "Minimalkan stimulus dengan menyediakan lingkungan yang tenang",
           "Berikan posisi semi fowler",
           "Hindari manuver valsava",
@@ -6063,7 +6655,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Hindari penggunaan PEEP",
           "Hindari pemberian cairan IV hipotonik",
           "Atur ventilator agar PaCO2 optimal",
-          "Pertahankan suhu tubuh normal",
+          "Pertahankan suhu tubuh normal"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian sedasi dan antikonvulsan, jika perlu",
           "Kolaborasi pemberian diuretik osmosis, jika perlu",
           "Kolaborasi pemberian pelunak tinja, jika perlu"
@@ -6074,7 +6668,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.06198",
       "nama": "Pemantauan Tekanan Intrakranial",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab peningkatan TIK (mis: lesi menempati ruang, gangguan metabolisme, edema serebral, peningkatan tekanan vena, obstruksi cairan serebrospinal, hipertensi intracranial idiopatik)",
           "Monitor peningkatan TS",
           "Monitor pelebaran tekanan nadi (selisih TDS dan TDD)",
@@ -6085,14 +6679,18 @@ export const allDiagnosesData: Diagnosis[] = [
           "Monitor kadar CO2 dan pertahankan dalam rentang yang diindikasikan",
           "Monitor tekanan perfusi serebral",
           "Monitor jumlah, kecepatan, dan karakteristik drainase cairan serebrospinal",
-          "Monitor efek stimulus lingkungan terhadap TIK",
+          "Monitor efek stimulus lingkungan terhadap TIK"
+        ],
+        "terapeutik": [
           "Ambil sampel drainase cairan serebrospinal",
           "Kalibrasi transduser",
           "Pertahankan sterilitas sistem pemantauan",
           "Pertahankan posisi kepala dan leher netral",
           "Bilas sistem pemantauan, jika perlu",
           "Atur interval pemantauan sesuai kondisi pasien",
-          "Dokumentasikan hasil pemantauan",
+          "Dokumentasikan hasil pemantauan"
+        ],
+        "edukasi": [
           "Jelaskan tujuan dan prosedur pemantauan",
           "Informasikan hasil pemantauan, jika perlu"
         ]
@@ -6105,7 +6703,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-disfungsi-neurovaskuler-perifer",
   "kode": "D.0067",
   "nama": "Risiko Disfungsi Neurovaskuler Perifer",
-  "definisi": "Risiko disfungsi neurovaskuler perifer merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami gangguan...",
+  "definisi": "Berisiko mengalami gangguan sirkulasi, sensasi, dan pergerakan pada ekstremitas",
   "kategori": "Neurosensori",
   "tipe": "Aktual",
   "keluhan": [],
@@ -6140,7 +6738,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.06195",
       "nama": "Manajemen Sensasi Perifer",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab perubahan sensasi",
           "Identifikasi penggunaan alat pengikat, prosthesis, sepatu, dan pakaian",
           "Periksa perbedaan sensasi tajam atau tumpul",
@@ -6148,11 +6746,17 @@ export const allDiagnosesData: Diagnosis[] = [
           "Periksa kemampuan mengidentifikasi lokasi dan tekstur benda",
           "Monitor terjadinya parestesia, jika perlu",
           "Monitor perubahan kulit",
-          "Monitor adanya tromboplebitis dan tromboemboli vena",
-          "Hindai pemakaian benda-benda yang berlebihan suhunya (terlalu panas atau dingin)",
+          "Monitor adanya tromboplebitis dan tromboemboli vena"
+        ],
+        "terapeutik": [
+          "Hindai pemakaian benda-benda yang berlebihan suhunya (terlalu panas atau dingin)"
+        ],
+        "edukasi": [
           "Anjurkan penggunaan thermometer untuk menguji suhu air",
           "Anjurkan penggunaan sarung tangan termal saat memasak",
-          "Anjurkan memakai sepatu lembut dan bertumit rendah",
+          "Anjurkan memakai sepatu lembut dan bertumit rendah"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian analgesik, jika perlu",
           "Kolaborasi pemberian kortikosteroid, jika perlu"
         ]
@@ -6162,9 +6766,11 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.01019",
       "nama": "Pengaturan Posisi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor status oksigenasi sebelum dan sesudah mengubah posisi",
-          "Monitor alat traksi agar selalu tepat",
+          "Monitor alat traksi agar selalu tepat"
+        ],
+        "terapeutik": [
           "Tempatkan pada matras/tempat tidur terapeutik yang tepat",
           "Tempatkan pada posisi terapeutik",
           "Tempatkan objek yang sering digunakan dalam jangkauan",
@@ -6189,9 +6795,13 @@ export const allDiagnosesData: Diagnosis[] = [
           "Minimalkan gesekan dan tarikan saat mengubah posisi",
           "Ubah posisi setiap 2 jam",
           "Ubah posisi dengan Teknik log roll",
-          "Pertahankan posisi dan integritas traksi",
+          "Pertahankan posisi dan integritas traksi"
+        ],
+        "edukasi": [
           "Informasikan saat akan dilakukan perubahan posisi",
-          "Ajarkan cara menggunakan postur yang baik dan mekanika tubuh yang baik selama melakukan perubahan posisi",
+          "Ajarkan cara menggunakan postur yang baik dan mekanika tubuh yang baik selama melakukan perubahan posisi"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian premedikasi sebelum mengubah posisi, jika perlu"
         ]
       }
@@ -6203,7 +6813,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-konfusi-akut",
   "kode": "D.0068",
   "nama": "Risiko Konfusi Akut",
-  "definisi": "Risiko konfusi akut merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami gangguan kesadaran, perhatian, kognisi....",
+  "definisi": "Berisiko mengalami gangguan kesadaran, perhatian, kognisi, dan persepsi yang reversible dan terjadi dalam periode waktu singkat",
   "kategori": "Neurosensori",
   "tipe": "Aktual",
   "keluhan": [
@@ -6252,25 +6862,31 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.08238",
       "nama": "Manajemen Nyeri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi lokasi, karakteristik, durasi, frekuensi, kualitas, intensitas nyeri",
           "Identifikasi skala nyeri",
-          "Idenfitikasi respon nyeri non verbal",
           "Identifikasi faktor yang memperberat dan memperingan nyeri",
           "Identifikasi pengetahuan dan keyakinan tentang nyeri",
           "Identifikasi pengaruh budaya terhadap respon nyeri",
           "Identifikasi pengaruh nyeri pada kualitas hidup",
           "Monitor keberhasilan terapi komplementer yang sudah diberikan",
           "Monitor efek samping penggunaan analgetik",
+          "Idenfitikasi respon nyeri non verbal"
+        ],
+        "terapeutik": [
           "Berikan Teknik nonfarmakologis untuk mengurangi nyeri (mis: TENS, hypnosis, akupresur, terapi music, biofeedback, terapi pijat, aromaterapi, Teknik imajinasi terbimbing, kompres hangat/dingin, terapi bermain)",
           "Kontrol lingkungan yang memperberat rasa nyeri (mis: suhu ruangan, pencahayaan, kebisingan)",
           "Fasilitasi istirahat dan tidur",
-          "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri",
+          "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri"
+        ],
+        "edukasi": [
           "Jelaskan penyebab, periode, dan pemicu nyeri",
           "Jelaskan strategi meredakan nyeri",
           "Anjurkan memonitor nyeri secara mandiri",
           "Anjurkan menggunakan analgesik secara tepat",
-          "Ajarkan Teknik farmakologis untuk mengurangi nyeri",
+          "Ajarkan Teknik farmakologis untuk mengurangi nyeri"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian analgetik, jika perlu"
         ]
       }
@@ -6279,15 +6895,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09286",
       "nama": "Manajemen Demensia",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi Riwayat fisik, sosial, psikologis, dan kebiasaan",
-          "Identifikasi pola aktivitas (mis: tidur, minum obat, eliminasi, asupan oral, perawatan diri)",
+          "Identifikasi pola aktivitas (mis: tidur, minum obat, eliminasi, asupan oral, perawatan diri)"
+        ],
+        "terapeutik": [
           "Sediakan lingkungan aman, nyaman, konsisten, dan rendah stimulus (mis: music tenang, dekorasi sederhana, pencahayaan memadai, makan Bersama pasien lain)",
           "Orientasikan waktu, tempat, dan orang",
           "Gunakan distraksi untuk mengatasi masalah perilaku",
-          "Libatkan keluarga dalam merencanakan, menyediakan, dan mengevaluasi perawatan",
           "Fasilitasi orientasi dengan simbol-simbol (mis: dekorasi, papan petunjuk, foto diberi nama, huruf besar)",
-          "Libatkan kegiatan individua tau kelompok sesuai kemampuan kognitif dan minat",
+          "Libatkan kegiatan individua tau kelompok sesuai kemampuan kognitif dan minat"
+        ],
+        "edukasi": [
+          "Libatkan keluarga dalam merencanakan, menyediakan, dan mengevaluasi perawatan",
           "Anjurkan memperbanyak istirahat",
           "Ajarkan keluarga cara perawatan demensia"
         ]
@@ -6297,18 +6917,24 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14539",
       "nama": "Pencegahan Infeksi",
       "tindakan": {
+        "observasi": [
+          "Monitor tanda dan gejala infeksi lokal dan sistemik"
+        ],
         "terapeutik": [
-          "Monitor tanda dan gejala infeksi lokal dan sistemik",
           "Batasi jumlah pengunjung",
           "Berikan perawatan kulit pada area edema",
           "Cuci tangan sebelum dan sesudah kontak dengan pasien dan lingkungan pasien",
-          "Pertahankan teknik aseptic pada pasien berisiko tinggi",
+          "Pertahankan teknik aseptic pada pasien berisiko tinggi"
+        ],
+        "edukasi": [
           "Jelaskan tanda dan gejala infeksi",
           "Ajarkan cara mencuci tangan dengan benar",
           "Ajarkan etika batuk",
           "Ajarkan cara memeriksa kondisi luka atau luka operasi",
           "Anjurkan meningkatkan asupan nutrisi",
-          "Anjurkan meningkatkan asupan cairan",
+          "Anjurkan meningkatkan asupan cairan"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian imunisasi, jika perlu"
         ]
       }
@@ -6320,7 +6946,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "disfungsi-seksual",
   "kode": "D.0069",
   "nama": "Disfungsi Seksual",
-  "definisi": "Disfungsi seksual merupakan diagnosis keperawatan yang didefinisikan sebagai perubahan fungsi seksual selama fase respon seksual berupa...",
+  "definisi": "Perubahan fungsi seksual selama fase respon seksual berupa hasrat, terangsang, orgasme, dan/atau relaksasi yang dirasa tidak memuaskan, tidak bermakna, atau tidak adekuat",
   "kategori": "Reproduksi dan Seksualitas",
   "tipe": "Aktual",
   "keluhan": [
@@ -6374,12 +7000,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12447",
       "nama": "Edukasi Seksualitas",
       "tindakan": {
+        "observasi": [
+          "Identifikasi kesiapan dan kemampuan menerima informasi"
+        ],
         "terapeutik": [
-          "Identifikasi kesiapan dan kemampuan menerima informasi",
           "Sediakan materi dan media Pendidikan Kesehatan",
           "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
           "Berikan kesempatan untuk bertanya",
-          "Fasilitasi kesadaran keluarga terhadap anak dan remaja serta pengaruh media",
+          "Fasilitasi kesadaran keluarga terhadap anak dan remaja serta pengaruh media"
+        ],
+        "edukasi": [
           "Jelaskan anatomi dan fisiologi sistem reproduksi laki-laki dan perempuan",
           "Jelaskan perkembangan seksualitas sepanjang siklus kehidupan",
           "Jelaskan perkembangan emosi masa anak dan remaja",
@@ -6396,16 +7026,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.07214",
       "nama": "Konseling Seksualitas",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi tingkat pengetahuan, masalah sistem reproduksi, masalah seksualitas, dan penyakit menular seksual",
           "Identifikasi waktu disfungsi seksual dan kemungkinan penyebab",
-          "Monitor stres, kecemasan, depresi, dan penyebab disfungsi seksual",
+          "Monitor stres, kecemasan, depresi, dan penyebab disfungsi seksual"
+        ],
+        "terapeutik": [
           "Fasilitasi komunikasi antara pasien dan pasangan",
           "Berikan kesempatan kepada pasangan untuk menceritakan permasalahan seksual",
           "Berikan pujian terhadap perilaku yang benar",
-          "Berikan saran yang sesuai kebutuhan pasangan dengan menggunakan Bahasa yang mudah diterima, dipahami, dan tidak menghakimi",
+          "Berikan saran yang sesuai kebutuhan pasangan dengan menggunakan Bahasa yang mudah diterima, dipahami, dan tidak menghakimi"
+        ],
+        "edukasi": [
           "Jelaskan efek pengobatan,  Kesehatan dan penyakit terhadap disfungsi seksual",
-          "Informasikan pentingnya modifikasi pada aktivitas seksual",
+          "Informasikan pentingnya modifikasi pada aktivitas seksual"
+        ],
+        "kolaborasi": [
           "Kolaborasi dengan spesialis seksologi, jika perlu"
         ]
       }
@@ -6417,7 +7053,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "kesiapan-persalinan",
   "kode": "D.0070",
   "nama": "Kesiapan Persalinan",
-  "definisi": "Kesiapan persalinan merupakan diagnosis keperawatan yang didefinisikan sebagai pola mempersiapkan, mempertahankan, dan memperkuat proses...",
+  "definisi": "Pola mempersiapkan, mempertahankan, dan memperkuat proses kehamilan dan persalinan serta perawatan bayi baru lahir",
   "kategori": "Reproduksi dan Seksualitas",
   "tipe": "Aktual",
   "keluhan": [
@@ -6459,13 +7095,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12437",
       "nama": "Edukasi Persalinan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi tingkat pengetahuan ibu",
-          "Identifikasi pemahaman ibu tentang persalinan",
+          "Identifikasi pemahaman ibu tentang persalinan"
+        ],
+        "terapeutik": [
           "Sediakan materi dan media Pendidikan Kesehatan",
           "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
           "Berikan kesempatan untuk bertanya",
-          "Berikan reinforcement positif terhadap perubahan perilaku ibu",
+          "Berikan reinforcement positif terhadap perubahan perilaku ibu"
+        ],
+        "edukasi": [
           "Jelaskan metode persalinan yang ibu inginkan",
           "Jelaskan persiapan dan tempat persalinan",
           "Anjurkan ibu mengikuti kelas ibu hamil pada usia  kehamilan lebih dari 36 minggu",
@@ -6483,7 +7123,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "pola-seksual-tidak-efektif",
   "kode": "D.0071",
   "nama": "Pola Seksual Tidak Efektif",
-  "definisi": "Pola seksual tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai kekhawatiran individu melakukan hubungan seksual yang..",
+  "definisi": "Kekhawatiran individu melakukan hubungan seksual yang berisiko menyebabkan perubahan Kesehatan",
   "kategori": "Reproduksi dan Seksualitas",
   "tipe": "Aktual",
   "keluhan": [
@@ -6528,12 +7168,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12447",
       "nama": "Edukasi Seksualitas",
       "tindakan": {
+        "observasi": [
+          "Identifikasi kesiapan dan kemampuan menerima informasi"
+        ],
         "terapeutik": [
-          "Identifikasi kesiapan dan kemampuan menerima informasi",
           "Sediakan materi dan media Pendidikan  Kesehatan",
           "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
           "Berikan kesempatan untuk bertanya",
-          "Fasilitasi kesadaran keluarga terhadap anak dan remaja serta pengaruh media",
+          "Fasilitasi kesadaran keluarga terhadap anak dan remaja serta pengaruh media"
+        ],
+        "edukasi": [
           "Jelaskan anatomi dan fisiologi sistem reproduksi laki-laki dan perempuan",
           "Jelaskan perkembangan seksualitas sepanjang siklus kehidupan",
           "Jelaskan perkembangan emosi masa anak dan remaja",
@@ -6550,16 +7194,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.07214",
       "nama": "Konseling Seksualitas",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi tingkat pengetahuan, masalah sistem reproduksi, masalah seksualitas, dan penyakit menular seksual",
           "Identifikasi waktu disfungsi seksual dan kemungkinan penyebab",
-          "Monitor stres, kecemasan, depresi, dan penyebab disfungsi seksual",
+          "Monitor stres, kecemasan, depresi, dan penyebab disfungsi seksual"
+        ],
+        "terapeutik": [
           "Fasilitasi komunikasi antara pasien dan pasangan",
           "Berikan kesempatan kepada pasangan untuk menceritakan permasalahan seksual",
           "Berikan pujian terhadap perilaku yang benar",
-          "Berikan saran yang sesuai kebutuhan pasangan dengan menggunakan Bahasa yang mudah diterima, dipahami, dan tidak menghakimi",
+          "Berikan saran yang sesuai kebutuhan pasangan dengan menggunakan Bahasa yang mudah diterima, dipahami, dan tidak menghakimi"
+        ],
+        "edukasi": [
           "Jelaskan efek pengobatan, Kesehatan dan penyakit terhadap disfungsi seksual",
-          "Informasikan pentingnya modifikasi pada aktivitas seksual",
+          "Informasikan pentingnya modifikasi pada aktivitas seksual"
+        ],
+        "kolaborasi": [
           "Kolaborasi dengan spesialis seksologi, jika perlu"
         ]
       }
@@ -6571,7 +7221,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-disfungsi-seksual",
   "kode": "D.0072",
   "nama": "Risiko Disfungsi Seksual",
-  "definisi": "Risiko disfungsi seksual merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami perubahan fungsi seksual selama fase..",
+  "definisi": "Berisiko mengalami perubahan fungsi seksual selama fase respon seksual berupa hasrat, terangsang, orgasme dan relaksasi yang dipandang tidak memuaskan, tidak bermakna/tidak adekuat",
   "kategori": "Reproduksi dan Seksualitas",
   "tipe": "Aktual",
   "keluhan": [
@@ -6620,12 +7270,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12447",
       "nama": "Edukasi Seksualitas",
       "tindakan": {
+        "observasi": [
+          "Identifikasi kesiapan dan kemampuan menerima informasi"
+        ],
         "terapeutik": [
-          "Identifikasi kesiapan dan kemampuan menerima informasi",
           "Sediakan materi dan media Pendidikan Kesehatan",
           "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
           "Berikan kesempatan untuk bertanya",
-          "Fasilitasi kesadaran keluarga terhadap anak dan remaja serta pengaruh media",
+          "Fasilitasi kesadaran keluarga terhadap anak dan remaja serta pengaruh media"
+        ],
+        "edukasi": [
           "Jelaskan anatomi dan fisiologi sistem reproduksi laki-laki dan perempuan",
           "Jelaskan perkembangan seksualitas sepanjang siklus kehidupan",
           "Jelaskan perkembangan emosi masa anak dan remaja",
@@ -6642,16 +7296,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.07214",
       "nama": "Konseling Seksualitas",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi tingkat pengetahuan, masalah sistem reproduksi, masalah seksualitas, dan penyakit menular seksual",
           "Identifikasi waktu disfungsi seksual dan kemungkinan penyebab",
-          "Monitor stres, kecemasan, depresi, dan penyebab disfungsi seksual",
+          "Monitor stres, kecemasan, depresi, dan penyebab disfungsi seksual"
+        ],
+        "terapeutik": [
           "Fasilitasi komunikasi antara pasien dan pasangan",
           "Berikan kesempatan kepada pasangan untuk menceritakan permasalahan seksual",
           "Berikan pujian terhadap perilaku yang benar",
-          "Berikan saran yang sesuai kebutuhan pasangan dengan menggunakan Bahasa yang mudah diterima, dipahami, dan tidak menghakimi",
+          "Berikan saran yang sesuai kebutuhan pasangan dengan menggunakan Bahasa yang mudah diterima, dipahami, dan tidak menghakimi"
+        ],
+        "edukasi": [
           "Jelaskan efek pengobatan,  Kesehatan dan penyakit terhadap disfungsi seksual",
-          "Informasikan pentingnya modifikasi pada aktivitas seksual",
+          "Informasikan pentingnya modifikasi pada aktivitas seksual"
+        ],
+        "kolaborasi": [
           "Kolaborasi dengan spesialis seksologi, jika perlu"
         ]
       }
@@ -6663,7 +7323,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-kehamilan-tidak-dikehendaki",
   "kode": "D.0073",
   "nama": "Risiko Kehamilan Tidak Dikehendaki",
-  "definisi": "Risiko kehamilan tidak dikehendaki merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami kehamilan yang tidak...",
+  "definisi": "Berisiko mengalami kehamilan yang tidak diharapkan baik karena alasan waktu yang tidak tepat atau karena kehamilan yang tidak diinginkan",
   "kategori": "Reproduksi dan Seksualitas",
   "tipe": "Aktual",
   "keluhan": [],
@@ -6695,15 +7355,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12381",
       "nama": "Edukasi Keluarga Berencana",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kesiapan dan kemampuan menerima informasi",
-          "Identifikasi pengetahuan tentang alat kontrasepsi",
+          "Identifikasi pengetahuan tentang alat kontrasepsi"
+        ],
+        "terapeutik": [
           "Sediakan materi dan media Pendidikan Kesehatan",
           "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
           "Berikan kesempatan untuk bertanya",
           "Lakukan penapisan pada ibu dan pasangan untuk penggunaan alat kontrasepsi",
           "Lakukan pemeriksaan fisik",
-          "Fasilitasi ibu dan pasangan dalam mengambil keputusan menggunakan alat kontrasepsi",
+          "Fasilitasi ibu dan pasangan dalam mengambil keputusan menggunakan alat kontrasepsi"
+        ],
+        "edukasi": [
           "Diskusikan pertimbangan agama, budaya, perkembangan, sosial ekonomi terhadap pemilihan alat kontrasepsi",
           "Jelaskan tentang sistem reproduksi",
           "Jelaskan metode-metode alat kontrasepsi",
@@ -6715,18 +7379,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.07216",
       "nama": "Manajemen Kehamilan Tidak Dikehendaki",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi nilai-nilai dan keyakinan terhadap kehamilan",
-          "Identifikasi pilihan terhadap  kehamilannya",
+          "Identifikasi pilihan terhadap  kehamilannya"
+        ],
+        "terapeutik": [
           "Fasilitasi mengungkapkan perasaan",
-          "Diskusikan nilai-nilai dan keyakinan yang keliru terhadap kehamilan",
-          "Diskusikan konflik yang terjadi dengan adanya kehamilan",
           "Fasilitasi mengembangkan Teknik penyelesaian masalah",
           "Berikan konseling kehamilan",
           "Fasilitasi mengidentifikasi sistem pendukung",
-          "Informasikan pentingnya meningkatkan status nutrisi selama kehamilan",
-          "Informasikan perubahan yang terjadi selama kehamilan",
           "Rujuk jika mengalami komplikasi kehamilan"
+        ],
+        "edukasi": [
+          "Diskusikan nilai-nilai dan keyakinan yang keliru terhadap kehamilan",
+          "Diskusikan konflik yang terjadi dengan adanya kehamilan",
+          "Informasikan pentingnya meningkatkan status nutrisi selama kehamilan",
+          "Informasikan perubahan yang terjadi selama kehamilan"
         ]
       }
     }
@@ -6737,7 +7405,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "gangguan-rasa-nyaman",
   "kode": "D.0074",
   "nama": "Gangguan Rasa Nyaman",
-  "definisi": "Gangguan rasa nyaman merupakan diagnosis keperawatan yang didefinisikan sebagai perasaan kurang senang, lega, dan sempurna dalam...",
+  "definisi": "Perasaan kurang senang, lega, dan sempurna dalam dimensi fisik, psikospiritual, lingkungan, dan sosial",
   "kategori": "Nyeri dan Kenyamanan",
   "tipe": "Aktual",
   "keluhan": [
@@ -6775,25 +7443,31 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.08238",
       "nama": "Manajemen Nyeri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi lokasi, karakteristik, durasi, frekuensi, kualitas, intensitas nyeri",
           "Identifikasi skala nyeri",
-          "Idenfitikasi respon nyeri non verbal",
           "Identifikasi faktor yang memperberat dan memperingan nyeri",
           "Identifikasi pengetahuan dan keyakinan tentang nyeri",
           "Identifikasi pengaruh budaya terhadap respon nyeri",
           "Identifikasi pengaruh nyeri pada kualitas hidup",
           "Monitor keberhasilan terapi komplementer yang sudah diberikan",
           "Monitor efek samping penggunaan analgetik",
+          "Idenfitikasi respon nyeri non verbal"
+        ],
+        "terapeutik": [
           "Berikan Teknik nonfarmakologis untuk mengurangi nyeri (mis: TENS, hypnosis, akupresur, terapi music, biofeedback, terapi pijat, aromaterapi, Teknik imajinasi terbimbing, kompres hangat/dingin, terapi bermain)",
           "Kontrol lingkungan yang memperberat rasa nyeri (mis: suhu ruangan, pencahayaan, kebisingan)",
           "Fasilitasi istirahat dan tidur",
-          "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri",
+          "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri"
+        ],
+        "edukasi": [
           "Jelaskan penyebab, periode, dan pemicu nyeri",
           "Jelaskan strategi meredakan nyeri",
           "Anjurkan memonitor nyeri secara mandiri",
           "Anjurkan menggunakan analgesik secara tepat",
-          "Ajarkan Teknik farmakologis untuk mengurangi nyeri",
+          "Ajarkan Teknik farmakologis untuk mengurangi nyeri"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian analgetik, jika perlu"
         ]
       }
@@ -6802,9 +7476,11 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.01019",
       "nama": "Pengaturan Posisi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor status oksigenasi sebelum dan sesudah mengubah posisi",
-          "Monitor alat traksi agar selalu tepat",
+          "Monitor alat traksi agar selalu tepat"
+        ],
+        "terapeutik": [
           "Tempatkan pada matras/tempat tidur terapeutik yang tepat",
           "Tempatkan pada posisi terapeutik",
           "Tempatkan objek yang sering digunakan dalam jangkauan",
@@ -6829,9 +7505,13 @@ export const allDiagnosesData: Diagnosis[] = [
           "Minimalkan gesekan dan tarikan saat mengubah posisi",
           "Ubah posisi setiap 2 jam",
           "Ubah posisi dengan Teknik log roll",
-          "Pertahankan posisi dan integritas traksi",
+          "Pertahankan posisi dan integritas traksi"
+        ],
+        "edukasi": [
           "Informasikan saat akan dilakukan perubahan posisi",
-          "Ajarkan cara menggunakan postur yang baik dan mekanika tubuh yang baik selama melakukan perubahan posisi",
+          "Ajarkan cara menggunakan postur yang baik dan mekanika tubuh yang baik selama melakukan perubahan posisi"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian premedikasi sebelum mengubah posisi, jika perlu"
         ]
       }
@@ -6840,23 +7520,27 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09326",
       "nama": "Terapi relaksasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penurunan tingkat energi, ketidakmampuan berkonsentrasi, atau gejala lain yang mengganggu kemampuan kognitif",
           "Identifikasi Teknik relaksasi yang pernah efektif digunakan",
           "Identifikasi kesediaan, kemampuan, dan penggunaan Teknik sebelumnya",
           "Periksa ketegangan otot, frekuensi nadi, tekanan darah, dan suhu sebelum dan sesudah Latihan",
-          "Monitor respons terhadap terapi relaksasi",
+          "Monitor respons terhadap terapi relaksasi"
+        ],
+        "terapeutik": [
           "Ciptakan lingkungan tenang dan tanpa gangguan dengan pencahayaan dan suhu ruang nyaman, jika memungkinkan",
           "Berikan informasi tertulis tentang persiapan dan prosedur teknik relaksasi",
           "Gunakan pakaian longgar",
           "Gunakan nada suara lembut dengan irama lambat dan berirama",
           "Gunakan relaksasi sebagai strategi penunjang dengan analgetik atau Tindakan medis lain, jika sesuai",
+          "Demonstrasikan dan latih Teknik relaksasi (mis: napas dalam, peregangan, atau imajinasi terbimbing)"
+        ],
+        "edukasi": [
           "Jelaskan tujuan, manfaat, Batasan, dan jenis relaksasi yang tersedia (mis: musik, meditasi, napas dalam, relaksasi otot progresif)",
           "Jelaskan secara rinci intervensi relaksasi yang dipilih",
           "Anjurkan mengambil posisi nyaman",
           "Anjurkan rileks dan merasakan sensasi relaksasi",
-          "Anjurkan sering mengulangi atau melatih Teknik yang dipilih",
-          "Demonstrasikan dan latih Teknik relaksasi (mis: napas dalam, peregangan, atau imajinasi terbimbing)"
+          "Anjurkan sering mengulangi atau melatih Teknik yang dipilih"
         ]
       }
     }
@@ -6867,7 +7551,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "ketidaknyamanan-pasca-partum",
   "kode": "D.0075",
   "nama": "Ketidaknyamanan Pasca Partum",
-  "definisi": "Ketidaknyamanan pasca partum merupakan diagnosis keperawatan yang didefinisikan sebagai perasaan tidak nyaman yang berhubungan dengan...",
+  "definisi": "Perasaan tidak nyaman yang berhubungan dengan kondisi setelah melahirkan",
   "kategori": "Nyeri dan Kenyamanan",
   "tipe": "Aktual",
   "keluhan": [
@@ -6910,25 +7594,31 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.08238",
       "nama": "Manajemen Nyeri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi lokasi, karakteristik, durasi, frekuensi, kualitas, intensitas nyeri",
           "Identifikasi skala nyeri",
-          "Idenfitikasi respon nyeri non verbal",
           "Identifikasi faktor yang memperberat dan memperingan nyeri",
           "Identifikasi pengetahuan dan keyakinan tentang nyeri",
           "Identifikasi pengaruh budaya terhadap respon nyeri",
           "Identifikasi pengaruh nyeri pada kualitas hidup",
           "Monitor keberhasilan terapi komplementer yang sudah diberikan",
           "Monitor efek samping penggunaan analgetik",
+          "Idenfitikasi respon nyeri non verbal"
+        ],
+        "terapeutik": [
           "Berikan Teknik nonfarmakologis untuk mengurangi nyeri (mis: TENS, hypnosis, akupresur, terapi music, biofeedback, terapi pijat, aromaterapi, Teknik imajinasi terbimbing, kompres hangat/dingin, terapi bermain)",
           "Kontrol lingkungan yang memperberat rasa nyeri (mis: suhu ruangan, pencahayaan, kebisingan)",
           "Fasilitasi istirahat dan tidur",
-          "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri",
+          "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri"
+        ],
+        "edukasi": [
           "Jelaskan penyebab, periode, dan pemicu nyeri",
           "Jelaskan strategi meredakan nyeri",
           "Anjurkan memonitor nyeri secara mandiri",
           "Anjurkan menggunakan analgesik secara tepat",
-          "Ajarkan Teknik farmakologis untuk mengurangi nyeri",
+          "Ajarkan Teknik farmakologis untuk mengurangi nyeri"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian analgetik, jika perlu"
         ]
       }
@@ -6937,23 +7627,27 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09326",
       "nama": "Terapi relaksasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penurunan tingkat energi, ketidakmampuan berkonsentrasi, atau gejala lain yang mengganggu kemampuan kognitif",
           "Identifikasi Teknik relaksasi yang pernah efektif digunakan",
           "Identifikasi kesediaan, kemampuan, dan penggunaan Teknik sebelumnya",
           "Periksa ketegangan otot, frekuensi nadi, tekanan darah, dan suhu sebelum dan sesudah Latihan",
-          "Monitor respons terhadap terapi relaksasi",
+          "Monitor respons terhadap terapi relaksasi"
+        ],
+        "terapeutik": [
           "Ciptakan lingkungan tenang dan tanpa gangguan dengan pencahayaan dan suhu ruang nyaman, jika memungkinkan",
           "Berikan informasi tertulis tentang persiapan dan prosedur teknik relaksasi",
           "Gunakan pakaian longgar",
           "Gunakan nada suara lembut dengan irama lambat dan berirama",
           "Gunakan relaksasi sebagai strategi penunjang dengan analgetik atau Tindakan medis lain, jika sesuai",
+          "Demonstrasikan dan latih Teknik relaksasi (mis: napas dalam, peregangan, atau imajinasi terbimbing)"
+        ],
+        "edukasi": [
           "Jelaskan tujuan, manfaat, Batasan, dan jenis relaksasi yang tersedia (mis: musik, meditasi, napas dalam, relaksasi otot progresif)",
           "Jelaskan secara rinci intervensi relaksasi yang dipilih",
           "Anjurkan mengambil posisi nyaman",
           "Anjurkan rileks dan merasakan sensasi relaksasi",
-          "Anjurkan sering mengulangi atau melatih Teknik yang dipilih",
-          "Demonstrasikan dan latih Teknik relaksasi (mis: napas dalam, peregangan, atau imajinasi terbimbing)"
+          "Anjurkan sering mengulangi atau melatih Teknik yang dipilih"
         ]
       }
     }
@@ -6964,7 +7658,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "nausea",
   "kode": "D.0076",
   "nama": "Nausea",
-  "definisi": "Nausea merupakan diagnosis keperawatan yang didefinisikan sebagai perasaan tidak nyaman pada bagian belakang tenggorok atau lambung yang...",
+  "definisi": "Perasaan tidak nyaman pada bagian belakang tenggorok atau lambung yang dapat mengakibatkan muntah",
   "kategori": "Nyeri dan Kenyamanan",
   "tipe": "Aktual",
   "keluhan": [
@@ -7014,21 +7708,27 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03117",
       "nama": "Manajemen Mual",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi pengalaman mual",
           "Identifikasi isyarat nonverbal ketidaknyamanan (mis: bayi, anak-anak, dan mereka yang tidak dapat berkomunikasi secara efektif)",
           "Identifikasi dampak mual terhadap kualitas hidup (mis: nafsu makan, aktivitas, kinerja, tanggung jawab peran, dan tidur)",
           "Identifikasi faktor penyebab mual (mis: pengobatan dan prosedur)",
           "Identifikasi antiemetik untuk mencegah mual (kecuali mual pada kehamilan)",
-          "Monitor mual (mis: frekuensi, durasi, dan tingkat keparahan)",
+          "Monitor mual (mis: frekuensi, durasi, dan tingkat keparahan)"
+        ],
+        "terapeutik": [
           "Kendalikan faktor lingkungan penyebab mual (mis: bau tidak sedap, suara, dan rangsangan visual yang tidak menyenangkan)",
           "Kurangi atau hilangkan keadaan penyebab mual (mis: kecemasan, ketakutan, kelelahan)",
           "Berikan makanan dalam jumlah kecil dan menarik",
-          "Berikan makanan dingin, cairan bening, tidak berbau, dan tidak berwarna, jika perlu",
+          "Berikan makanan dingin, cairan bening, tidak berbau, dan tidak berwarna, jika perlu"
+        ],
+        "edukasi": [
           "Anjurkan istirahat dan tidur yang cukup",
           "Anjurkan sering membersihkan mulut, kecuali jika merangsang mual",
           "Anjurkan makanan tinggi karbohidrat, dan rendah lemak",
-          "Ajarkan penggunaan teknik non farmakologis untuk mengatasi mual (mis: biofeedback, hipnosis, relaksasi, terapi musik, akupresur)",
+          "Ajarkan penggunaan teknik non farmakologis untuk mengatasi mual (mis: biofeedback, hipnosis, relaksasi, terapi musik, akupresur)"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat antiemetik, jika perlu"
         ]
       }
@@ -7037,13 +7737,15 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03118",
       "nama": "Manajemen Muntah",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi pengalaman muntah",
           "Identifikasi isyarat nonverbal ketidaknyamanan (mis: bayi, anak-anak, dan mereka yang tidak dapat berkomunikasi secara efektif)",
           "Identifikasi dampak muntah terhadap kualitas hidup (mis: nafsu makan, aktivitas, kinerja, tanggung jawab peran, dan tidur)",
           "Identifikasi faktor penyebab muntah (mis: pengobatan dan prosedur)",
           "Identifikasi antiemetik untuk mencegah muntah (kecuali muntah pada kehamilan)",
-          "Monitor muntah (mis: frekuensi, durasi, dan tingkat keparahan)",
+          "Monitor muntah (mis: frekuensi, durasi, dan tingkat keparahan)"
+        ],
+        "terapeutik": [
           "Kontrol lingkungan penyebab muntah (mis: bau tidak sedap, suara, dan stimulasi visual yang tidak menyenangkan)",
           "Kurangi atau hilangkan keadaan penyebab muntah (mis: kecemasan, ketakutan)",
           "Atur posisi untuk mencegah aspirasi",
@@ -7051,10 +7753,14 @@ export const allDiagnosesData: Diagnosis[] = [
           "Bersihkan mulut dan hidung",
           "Berikan dukungan fisik saat muntah (mis: membantu membungkuk atau menundukkan kepala)",
           "Berikan kenyamanan selama muntah (mis: kompres dingin di dahi, atau sediakan pakaian kering dan bersih)",
-          "Berikan cairan yang tidak mengandung karbonasi minimal 30 menit setelah muntah",
+          "Berikan cairan yang tidak mengandung karbonasi minimal 30 menit setelah muntah"
+        ],
+        "edukasi": [
           "Anjurkan membawa kantong plastik untuk menampung muntah",
           "Anjurkan memperbanyak istirahat",
-          "Ajarkan penggunaan Teknik non farmakologis untuk mengelola muntah (mis: biofeedback, hipnosis, relaksasi, terapi musik, akupresur)",
+          "Ajarkan penggunaan Teknik non farmakologis untuk mengelola muntah (mis: biofeedback, hipnosis, relaksasi, terapi musik, akupresur)"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat antiemetik, jika perlu"
         ]
       }
@@ -7066,7 +7772,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "nyeri-akut",
   "kode": "D.0077",
   "nama": "Nyeri Akut",
-  "definisi": "Nyeri akut merupakan diagnosis keperawatan yang didefinisikan sebagai pengalaman sensorik atau emosional yang berkaitan dengan kerusakan...",
+  "definisi": "Pengalaman sensorik atau emosional yang berkaitan dengan kerusakan jaringan aktual atau fungsional, dengan onset mendadak atau lambat dan berintensitas ringan hingga berat yang berlangsung kurang dari 3 bulan",
   "kategori": "Nyeri dan Kenyamanan",
   "tipe": "Aktual",
   "keluhan": [
@@ -7109,25 +7815,31 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.08238",
       "nama": "Manajemen Nyeri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi lokasi, karakteristik, durasi, frekuensi, kualitas, intensitas nyeri",
           "Identifikasi skala nyeri",
-          "Idenfitikasi respon nyeri non verbal",
           "Identifikasi faktor yang memperberat dan memperingan nyeri",
           "Identifikasi pengetahuan dan keyakinan tentang nyeri",
           "Identifikasi pengaruh budaya terhadap respon nyeri",
           "Identifikasi pengaruh nyeri pada kualitas hidup",
           "Monitor keberhasilan terapi komplementer yang sudah diberikan",
           "Monitor efek samping penggunaan analgetik",
+          "Idenfitikasi respon nyeri non verbal"
+        ],
+        "terapeutik": [
           "Berikan Teknik nonfarmakologis untuk mengurangi nyeri (mis: TENS, hypnosis, akupresur, terapi music, biofeedback, terapi pijat, aromaterapi, Teknik imajinasi terbimbing, kompres hangat/dingin, terapi bermain)",
           "Kontrol lingkungan yang memperberat rasa nyeri (mis: suhu ruangan, pencahayaan, kebisingan)",
           "Fasilitasi istirahat dan tidur",
-          "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri",
+          "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri"
+        ],
+        "edukasi": [
           "Jelaskan penyebab, periode, dan pemicu nyeri",
           "Jelaskan strategi meredakan nyeri",
           "Anjurkan memonitor nyeri secara mandiri",
           "Anjurkan menggunakan analgesik secara tepat",
-          "Ajarkan Teknik farmakologis untuk mengurangi nyeri",
+          "Ajarkan Teknik farmakologis untuk mengurangi nyeri"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian analgetik, jika perlu"
         ]
       }
@@ -7136,17 +7848,23 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.08243",
       "nama": "Pemberian Analgesik",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi karakteristik nyeri (mis: pencetus, pereda, kualitas, lokasi, intensitas, frekuensi, durasi)",
           "Identifikasi Riwayat alergi  obat",
           "Identifikasi kesesuaian jenis analgesik (mis: narkotika, non-narkotik, atau NSAID) dengan tingkat keparahan nyeri",
           "Monitor tanda-tanda vital sebelum dan sesudah pemberian analgesik",
-          "Monitor efektifitas analgesik",
-          "Diskusikan jenis analgesik yang disukai untuk mencapai analgesia optimal, jika perlu",
+          "Monitor efektifitas analgesik"
+        ],
+        "terapeutik": [
           "Pertimbangkan penggunaan infus kontinu, atau bolus opioid untuk mempertahankan kadar dalam serum",
           "Tetapkan target efektifitas analgesik untuk mengoptimalkan respons pasien",
-          "Dokumentasikan respons terhadap efek analgesik dan efek yang tidak diinginkan",
-          "Jelaskan efek terapi dan efek samping obat",
+          "Dokumentasikan respons terhadap efek analgesik dan efek yang tidak diinginkan"
+        ],
+        "edukasi": [
+          "Diskusikan jenis analgesik yang disukai untuk mencapai analgesia optimal, jika perlu",
+          "Jelaskan efek terapi dan efek samping obat"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian dosis dan jenis analgesik, sesuai indikasi"
         ]
       }
@@ -7158,7 +7876,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "nyeri-kronis",
   "kode": "D.0078",
   "nama": "Nyeri Kronis",
-  "definisi": "Nyeri kronis merupakan diagnosis keperawatan yang didefinisikan sebagai pengalaman sensorik atau emosional yang berkaitan dengan...",
+  "definisi": "Pengalaman sensorik atau emosional yang berkaitan dengan kerusakan jaringan aktual atau fungsional, dengan onset mendadak atau lambat dan berintensitas ringan hingga berat dan konstan, yang berlangsung lebih dari 3 bulan",
   "kategori": "Nyeri dan Kenyamanan",
   "tipe": "Aktual",
   "keluhan": [
@@ -7209,25 +7927,31 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.08238",
       "nama": "Manajemen Nyeri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi lokasi, karakteristik, durasi, frekuensi, kualitas, intensitas nyeri",
           "Identifikasi skala nyeri",
-          "Idenfitikasi respon nyeri non verbal",
           "Identifikasi faktor yang memperberat dan memperingan nyeri",
           "Identifikasi pengetahuan dan keyakinan tentang nyeri",
           "Identifikasi pengaruh budaya terhadap respon nyeri",
           "Identifikasi pengaruh nyeri pada kualitas hidup",
           "Monitor keberhasilan terapi komplementer yang sudah diberikan",
           "Monitor efek samping penggunaan analgetik",
+          "Idenfitikasi respon nyeri non verbal"
+        ],
+        "terapeutik": [
           "Berikan Teknik nonfarmakologis untuk mengurangi nyeri (mis: TENS, hypnosis, akupresur, terapi music, biofeedback, terapi pijat, aromaterapi, Teknik imajinasi terbimbing, kompres hangat/dingin, terapi bermain)",
           "Kontrol lingkungan yang memperberat rasa nyeri (mis: suhu ruangan, pencahayaan, kebisingan)",
           "Fasilitasi istirahat dan tidur",
-          "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri",
+          "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri"
+        ],
+        "edukasi": [
           "Jelaskan penyebab, periode, dan pemicu nyeri",
           "Jelaskan strategi meredakan nyeri",
           "Anjurkan memonitor nyeri secara mandiri",
           "Anjurkan menggunakan analgesik secara tepat",
-          "Ajarkan Teknik farmakologis untuk mengurangi nyeri",
+          "Ajarkan Teknik farmakologis untuk mengurangi nyeri"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian analgetik, jika perlu"
         ]
       }
@@ -7236,22 +7960,28 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.08245",
       "nama": "Perawatan kenyamanan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi gejala yang tidak menyenangkan (mis: mual, nyeri, gatal, sesak)",
           "Identifikasi pemahaman tentang kondisi, situasi dan perasaannya",
-          "Identifikasi masalah emosional dan spiritual",
+          "Identifikasi masalah emosional dan spiritual"
+        ],
+        "terapeutik": [
           "Berikan posisi yang nyaman",
           "Berikan kompres dingin atau hangat",
           "Ciptakan lingkungan yang nyaman",
           "Berikan pemijatan",
           "Berikan terapi akupresur",
           "Berikan terapi hipnosis",
-          "Dukung keluarga dan pengasuh terlibat dalam terapi/pengobatan",
+          "Dukung keluarga dan pengasuh terlibat dalam terapi/pengobatan"
+        ],
+        "edukasi": [
           "Diskusikan mengenai situasi dan pilihan terapi/pengobatan yang diinginkan",
           "Jelaskan mengenai kondisi dan pilihan terapi/pengobatan",
           "Ajarkan terapi relaksasi",
           "Ajarkan Latihan pernapasan",
-          "Ajarkan Teknik distraksi dan imajinasi terbimbing",
+          "Ajarkan Teknik distraksi dan imajinasi terbimbing"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian analgesik, antipruritus, antihistamin, jika perlu"
         ]
       }
@@ -7260,23 +7990,27 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09326",
       "nama": "Terapi relaksasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penurunan tingkat energi, ketidakmampuan berkonsentrasi, atau gejala lain yang mengganggu kemampuan kognitif",
           "Identifikasi Teknik relaksasi yang pernah efektif digunakan",
           "Identifikasi kesediaan, kemampuan, dan penggunaan Teknik sebelumnya",
           "Periksa ketegangan otot, frekuensi nadi, tekanan darah, dan suhu sebelum dan sesudah Latihan",
-          "Monitor respons terhadap terapi relaksasi",
+          "Monitor respons terhadap terapi relaksasi"
+        ],
+        "terapeutik": [
           "Ciptakan lingkungan tenang dan tanpa gangguan dengan pencahayaan dan suhu ruang nyaman, jika memungkinkan",
           "Berikan informasi tertulis tentang persiapan dan prosedur teknik relaksasi",
           "Gunakan pakaian longgar",
           "Gunakan nada suara lembut dengan irama lambat dan berirama",
           "Gunakan relaksasi sebagai strategi penunjang dengan analgetik atau Tindakan medis lain, jika sesuai",
+          "Demonstrasikan dan latih Teknik relaksasi (mis: napas dalam, peregangan, atau imajinasi terbimbing)"
+        ],
+        "edukasi": [
           "Jelaskan tujuan, manfaat, Batasan, dan jenis relaksasi yang tersedia (mis: musik, meditasi, napas dalam, relaksasi otot progresif)",
           "Jelaskan secara rinci intervensi relaksasi yang dipilih",
           "Anjurkan mengambil posisi nyaman",
           "Anjurkan rileks dan merasakan sensasi relaksasi",
-          "Anjurkan sering mengulangi atau melatih Teknik yang dipilih",
-          "Demonstrasikan dan latih Teknik relaksasi (mis: napas dalam, peregangan, atau imajinasi terbimbing)"
+          "Anjurkan sering mengulangi atau melatih Teknik yang dipilih"
         ]
       }
     }
@@ -7287,7 +8021,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "nyeri-melahirkan",
   "kode": "D.0079",
   "nama": "Nyeri Melahirkan",
-  "definisi": "Nyeri melahirkan merupakan diagnosis keperawatan yang didefinisikan sebagai pengalaman sensorik atau emosional yang bervariasi dari...",
+  "definisi": "Pengalaman sensorik atau emosional yang bervariasi dari menyenangkan sampai tidak menyenangkan yang berhubungan dengan persalinan",
   "kategori": "Nyeri dan Kenyamanan",
   "tipe": "Aktual",
   "keluhan": [
@@ -7327,25 +8061,31 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.08238",
       "nama": "Manajemen Nyeri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi lokasi, karakteristik, durasi, frekuensi, kualitas, intensitas nyeri",
           "Identifikasi skala nyeri",
-          "Idenfitikasi respon nyeri non verbal",
           "Identifikasi faktor yang memperberat dan memperingan nyeri",
           "Identifikasi pengetahuan dan keyakinan tentang nyeri",
           "Identifikasi pengaruh budaya terhadap respon nyeri",
           "Identifikasi pengaruh nyeri pada kualitas hidup",
           "Monitor keberhasilan terapi komplementer yang sudah diberikan",
           "Monitor efek samping penggunaan analgetik",
+          "Idenfitikasi respon nyeri non verbal"
+        ],
+        "terapeutik": [
           "Berikan Teknik nonfarmakologis untuk mengurangi nyeri (mis: TENS, hypnosis, akupresur, terapi music, biofeedback, terapi pijat, aromaterapi, Teknik imajinasi terbimbing, kompres hangat/dingin, terapi bermain)",
           "Kontrol lingkungan yang memperberat rasa nyeri (mis: suhu ruangan, pencahayaan, kebisingan)",
           "Fasilitasi istirahat dan tidur",
-          "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri",
+          "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri"
+        ],
+        "edukasi": [
           "Jelaskan penyebab, periode, dan pemicu nyeri",
           "Jelaskan strategi meredakan nyeri",
           "Anjurkan memonitor nyeri secara mandiri",
           "Anjurkan menggunakan analgesik secara tepat",
-          "Ajarkan Teknik farmakologis untuk mengurangi nyeri",
+          "Ajarkan Teknik farmakologis untuk mengurangi nyeri"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian analgetik, jika perlu"
         ]
       }
@@ -7354,9 +8094,11 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.01019",
       "nama": "Pengaturan Posisi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor status oksigenasi sebelum dan sesudah mengubah posisi",
-          "Monitor alat traksi agar selalu tepat",
+          "Monitor alat traksi agar selalu tepat"
+        ],
+        "terapeutik": [
           "Tempatkan pada matras/tempat tidur terapeutik yang tepat",
           "Tempatkan pada posisi terapeutik",
           "Tempatkan objek yang sering digunakan dalam jangkauan",
@@ -7381,9 +8123,13 @@ export const allDiagnosesData: Diagnosis[] = [
           "Minimalkan gesekan dan tarikan saat mengubah posisi",
           "Ubah posisi setiap 2 jam",
           "Ubah posisi dengan Teknik log roll",
-          "Pertahankan posisi dan integritas traksi",
+          "Pertahankan posisi dan integritas traksi"
+        ],
+        "edukasi": [
           "Informasikan saat akan dilakukan perubahan posisi",
-          "Ajarkan cara menggunakan postur yang baik dan mekanika tubuh yang baik selama melakukan perubahan posisi",
+          "Ajarkan cara menggunakan postur yang baik dan mekanika tubuh yang baik selama melakukan perubahan posisi"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian premedikasi sebelum mengubah posisi, jika perlu"
         ]
       }
@@ -7392,23 +8138,27 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09326",
       "nama": "Terapi relaksasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penurunan tingkat energi, ketidakmampuan berkonsentrasi, atau gejala lain yang mengganggu kemampuan kognitif",
           "Identifikasi Teknik relaksasi yang pernah efektif digunakan",
           "Identifikasi kesediaan, kemampuan, dan penggunaan Teknik sebelumnya",
           "Periksa ketegangan otot, frekuensi nadi, tekanan darah, dan suhu sebelum dan sesudah Latihan",
-          "Monitor respons terhadap terapi relaksasi",
+          "Monitor respons terhadap terapi relaksasi"
+        ],
+        "terapeutik": [
           "Ciptakan lingkungan tenang dan tanpa gangguan dengan pencahayaan dan suhu ruang nyaman, jika memungkinkan",
           "Berikan informasi tertulis tentang persiapan dan prosedur teknik relaksasi",
           "Gunakan pakaian longgar",
           "Gunakan nada suara lembut dengan irama lambat dan berirama",
           "Gunakan relaksasi sebagai strategi penunjang dengan analgetik atau Tindakan medis lain, jika sesuai",
+          "Demonstrasikan dan latih Teknik relaksasi (mis: napas dalam, peregangan, atau imajinasi terbimbing)"
+        ],
+        "edukasi": [
           "Jelaskan tujuan, manfaat, Batasan, dan jenis relaksasi yang tersedia (mis: musik, meditasi, napas dalam, relaksasi otot progresif)",
           "Jelaskan secara rinci intervensi relaksasi yang dipilih",
           "Anjurkan mengambil posisi nyaman",
           "Anjurkan rileks dan merasakan sensasi relaksasi",
-          "Anjurkan sering mengulangi atau melatih Teknik yang dipilih",
-          "Demonstrasikan dan latih Teknik relaksasi (mis: napas dalam, peregangan, atau imajinasi terbimbing)"
+          "Anjurkan sering mengulangi atau melatih Teknik yang dipilih"
         ]
       }
     }
@@ -7419,7 +8169,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "ansietas",
   "kode": "D.0080",
   "nama": "Ansietas",
-  "definisi": "Ansietas merupakan diagnosis keperawatan yang didefinisikan sebagai kondisi emosi dan pengalaman subyektif individu terhadap objek yang...",
+  "definisi": "Kondisi emosi dan pengalaman subyektif individu terhadap objek yang tidak jelas dan spesifik akibat antisipasi bahaya yang memungkinkan individu melakukan Tindakan untuk menghadapi ancaman",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -7471,10 +8221,12 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09314",
       "nama": "Reduksi Ansietas",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi saat tingkat ansietas berubah (mis: kondisi, waktu, stresor)",
           "Identifikasi kemampuan mengambil keputusan",
-          "Monitor tanda-tanda ansietas (verbal dan nonverbal)",
+          "Monitor tanda-tanda ansietas (verbal dan nonverbal)"
+        ],
+        "terapeutik": [
           "Ciptakan suasana terapeutik untuk menumbuhkan kepercayaan",
           "Temani pasien untuk mengurangi kecemasan, jika memungkinkan",
           "Pahami situasi yang membuat ansietas",
@@ -7482,15 +8234,19 @@ export const allDiagnosesData: Diagnosis[] = [
           "Gunakan pendekatan yang tenang dan meyakinkan",
           "Tempatkan barang pribadi yang memberikan kenyamanan",
           "Motivasi mengidentifikasi situasi yang memicu kecemasan",
+          "Latih kegiatan pengalihan untuk mengurangi ketegangan",
+          "Latih penggunaan mekanisme pertahanan diri yang tepat",
+          "Latih Teknik relaksasi"
+        ],
+        "edukasi": [
           "Diskusikan perencanaan realistis tentang peristiwa yang akan datang",
           "Jelaskan prosedur, termasuk sensasi yang mungkin dialami",
           "Informasikan secara faktual mengenai diagnosis, pengobatan, dan prognosis",
           "Anjurkan keluarga untuk tetap Bersama pasien, jika perlu",
           "Anjurkan melakukan kegiatan yang tidak kompetitif, sesuai kebutuhan",
-          "Anjurkan mengungkapkan perasaan dan persepsi",
-          "Latih kegiatan pengalihan untuk mengurangi ketegangan",
-          "Latih penggunaan mekanisme pertahanan diri yang tepat",
-          "Latih Teknik relaksasi",
+          "Anjurkan mengungkapkan perasaan dan persepsi"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat antiansietas, jika perlu"
         ]
       }
@@ -7499,23 +8255,27 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09326",
       "nama": "Terapi relaksasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penurunan tingkat energi, ketidakmampuan berkonsentrasi, atau gejala lain yang mengganggu kemampuan kognitif",
           "Identifikasi Teknik relaksasi yang pernah efektif digunakan",
           "Identifikasi kesediaan, kemampuan, dan penggunaan Teknik sebelumnya",
           "Periksa ketegangan otot, frekuensi nadi, tekanan darah, dan suhu sebelum dan sesudah Latihan",
-          "Monitor respons terhadap terapi relaksasi",
+          "Monitor respons terhadap terapi relaksasi"
+        ],
+        "terapeutik": [
           "Ciptakan lingkungan tenang dan tanpa gangguan dengan pencahayaan dan suhu ruang nyaman, jika memungkinkan",
           "Berikan informasi tertulis tentang persiapan dan prosedur teknik relaksasi",
           "Gunakan pakaian longgar",
           "Gunakan nada suara lembut dengan irama lambat dan berirama",
           "Gunakan relaksasi sebagai strategi penunjang dengan analgetik atau Tindakan medis lain, jika sesuai",
+          "Demonstrasikan dan latih Teknik relaksasi (mis: napas dalam, peregangan, atau imajinasi terbimbing)"
+        ],
+        "edukasi": [
           "Jelaskan tujuan, manfaat, Batasan, dan jenis relaksasi yang tersedia (mis: musik, meditasi, napas dalam, relaksasi otot progresif)",
           "Jelaskan secara rinci intervensi relaksasi yang dipilih",
           "Anjurkan mengambil posisi nyaman",
           "Anjurkan rileks dan merasakan sensasi relaksasi",
-          "Anjurkan sering mengulangi atau melatih Teknik yang dipilih",
-          "Demonstrasikan dan latih Teknik relaksasi (mis: napas dalam, peregangan, atau imajinasi terbimbing)"
+          "Anjurkan sering mengulangi atau melatih Teknik yang dipilih"
         ]
       }
     }
@@ -7526,7 +8286,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "berduka",
   "kode": "D.0081",
   "nama": "Berduka",
-  "definisi": "Berduka merupakan diagnosis keperawatan yang didefinisikan sebagai respon psikososial yang ditunjukkan oleh klien akibat kehilangan...",
+  "definisi": "Respon psikososial yang ditunjukkan oleh klien akibat kehilangan (orang, objek, fungsi, status, bagian tubuh, atau hubungan)",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -7571,16 +8331,20 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09274",
       "nama": "Dukungan Proses Berduka",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kehilangan yang dihadapi",
           "Identifikasi proses berduka yang dialami",
           "Identifikasi sifat keterikatan pada benda yang hilang atau orang yang meninggal",
-          "Identifikasi reaksi awal terhadap kehilangan",
+          "Identifikasi reaksi awal terhadap kehilangan"
+        ],
+        "terapeutik": [
           "Tunjukan sikap menerima dan empati",
           "Motivasi agar mau mengungkapkan perasaan kehilangan",
           "Motivasi untuk menguatkan dukungan  keluarga atau orang terdekat",
           "Fasilitasi melakukan kebiasaan sesuai dengan budaya, agama, dan norma sosial",
-          "Fasilitasi mengekspresikan perasaan dengan cara yang nyaman (mis: membaca buku, menulis, menggambar, atau bermain)",
+          "Fasilitasi mengekspresikan perasaan dengan cara yang nyaman (mis: membaca buku, menulis, menggambar, atau bermain)"
+        ],
+        "edukasi": [
           "Diskusikan strategi koping yang dapat digunakan",
           "Jelaskan kepada pasien dan keluarga bahwa sikap mengingkari, marah, tawar menawar, depresi, dan menerima adalah wajar dalam menghadapi kehilangan",
           "Anjurkan mengidentifikasi ketakutan terbesar pada kehilangan",
@@ -7593,19 +8357,23 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09256",
       "nama": "Dukungan Emosional",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi fungsi marah, frustrasi, dan amuk bagi pasien",
-          "Identifikasi hal yang telah memicu emosi",
+          "Identifikasi hal yang telah memicu emosi"
+        ],
+        "terapeutik": [
           "Fasilitasi mengungkapkan perasaan cemas, marah, atau sedih",
           "Buat pernyataan suportif atau empati selama fase berduka",
           "Lakukan sentuhan untuk memberikan dukungan (mis: merangkul, menepuk-nepuk)",
           "Tetap Bersama pasien dan pastikan keamanan selama ansietas, jika perlu",
           "Kurangi tuntutan berpikir saat sakit atau lelah",
+          "Rujuk untuk konseling, jika perlu"
+        ],
+        "edukasi": [
           "Jelaskan konsekuensi tidak menghadapi rasa bersalah dan malu",
           "Anjurkan mengungkapkan perasaan yang dialami (mis: ansietas, marah, sedih)",
           "Anjurkan mengungkapkan pengalaman emosional sebelumnya dan pola respons yang biasa digunakan",
-          "Ajarkan penggunaan mekanisme pertahanan yang tepat",
-          "Rujuk untuk konseling, jika perlu"
+          "Ajarkan penggunaan mekanisme pertahanan yang tepat"
         ]
       }
     }
@@ -7616,7 +8384,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "distres-spiritual",
   "kode": "D.0082",
   "nama": "Distres Spiritual",
-  "definisi": "Distres spiritual merupakan diagnosis keperawatan yang didefinisikan sebagai gangguan pada keyakinan atau sistem nilai berupa kesulitan...",
+  "definisi": "Gangguan pada keyakinan atau sistem nilai berupa kesulitan merasakan makna dan tujuan hidup melalui hubungan dengan diri, orang lain, lingkungan, atau Tuhan",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -7663,21 +8431,25 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09276",
       "nama": "Dukungan Spiritual",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi perasaan khawatir, kesepian, dan ketidakberdayaan",
           "Identifikasi pandangan tentang hubungan antara spiritual dan  Kesehatan",
           "Identifikasi harapan dan kekuatan pasien",
-          "Identifikasi ketaatan dalam beragama",
+          "Identifikasi ketaatan dalam beragama"
+        ],
+        "terapeutik": [
           "Berikan kesempatan mengekspresikan perasaan tentang penyakit dan kematian",
           "Berikan kesempatan mengekspresikan dan meredakan marah secara tepat",
           "Yakinkan bahwa  perawat bersedia mendukung selama masa ketidakberdayaan",
           "Sediakan privasi dan waktu tentang untuk aktivitas spiritual",
-          "Diskusikan keyakinan tentang makna dan tujuan hidup, jika perlu",
           "Fasilitasi melakukan kegiatan ibadah",
+          "Atur kunjungan dengan rohaniawan (mis: uztadz, pendeta, romo, biksu)"
+        ],
+        "edukasi": [
+          "Diskusikan keyakinan tentang makna dan tujuan hidup, jika perlu",
           "Anjurkan berinteraksi dengan keluarga, teman, dan/atau orang lain",
           "Anjurkan berpartisipasi dalam kelompok pendukung",
-          "Ajarkan metode relaksasi, meditasi, dan imajinasi terbimbing",
-          "Atur kunjungan dengan rohaniawan (mis: uztadz, pendeta, romo, biksu)"
+          "Ajarkan metode relaksasi, meditasi, dan imajinasi terbimbing"
         ]
       }
     },
@@ -7685,20 +8457,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09312",
       "nama": "Promosi Koping",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
           "Identifikasi kemampuan yang dimiliki",
           "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
           "Identifikasi pemahaman proses penyakit",
           "Identifikasi dampak situasi terhadap peran dan hubungan",
           "Identifikasi metode penyelesaian masalah",
-          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
-          "Diskusikan perubahan peran yang dialami",
+          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial"
+        ],
+        "terapeutik": [
           "Gunakan pendekatan yang tenang dan meyakinkan",
-          "Diskusikan alasan mengkritik diri sendiri",
-          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
-          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
-          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
           "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
           "Motivasi untuk menentukan harapan yang realistis",
@@ -7710,15 +8479,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
           "Dukung penggunaan mekanisme pertahanan yang tepat",
           "Kurangi rangsangan lingkungan yang mengancam",
+          "Latih penggunaan Teknik relaksasi",
+          "Latih keterampilan sosial, sesuai kebutuhan",
+          "Latih mengembangkan penilaian obyektif"
+        ],
+        "edukasi": [
+          "Diskusikan perubahan peran yang dialami",
+          "Diskusikan alasan mengkritik diri sendiri",
+          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
           "Anjurkan penggunaan sumber spiritual, jika perlu",
           "Anjurkan mengungkapkan perasaan dan persepsi",
           "Anjurkan keluarga terlibat",
           "Anjurkan membuat tujuan yang lebih spesifik",
-          "Ajarkan cara memecahkan masalah secara konstruktif",
-          "Latih penggunaan Teknik relaksasi",
-          "Latih keterampilan sosial, sesuai kebutuhan",
-          "Latih mengembangkan penilaian obyektif"
+          "Ajarkan cara memecahkan masalah secara konstruktif"
         ]
       }
     }
@@ -7729,7 +8505,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "gangguan-citra-tubuh",
   "kode": "D.0083",
   "nama": "Gangguan Citra Tubuh",
-  "definisi": "Gangguan citra tubuh merupakan diagnosis keperawatan yang didefinisikan sebagai perubahan persepsi tentang penampilan, struktur, dan...",
+  "definisi": "Perubahan persepsi tentang penampilan, struktur, dan fungsi fisik individu",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -7770,12 +8546,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09305",
       "nama": "Promosi Citra Tubuh",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi harapan citra tubuh berdasarkan tahap perkembangan",
           "Identifikasi budaya, agama, jenis kelamin, dan umur terkait citra tubuh",
           "Identifikasi perubahan citra tubuh yang mengakibatkan isolasi sosial",
           "Monitor frekuensi pernyataan kritik terhadap diri sendiri",
-          "Monitor apakah pasien bisa melihat bagian tubuh yang berubah",
+          "Monitor apakah pasien bisa melihat bagian tubuh yang berubah"
+        ],
+        "terapeutik": [
+          "Latih fungsi tubuh yang dimiliki",
+          "Latih peningkatan penampilan diri (mis: berdandan)",
+          "Latih pengungkapan kemampuan diri kepada orang lain maupun kelompok"
+        ],
+        "edukasi": [
           "Diskusikan perubahan tubuh dan fungsinya",
           "Diskusikan perbedaan penampilan fisik terhadap harga diri",
           "Diskusikan perubahan akibat pubertas, kehamilan, dan penuaan",
@@ -7785,10 +8568,7 @@ export const allDiagnosesData: Diagnosis[] = [
           "Jelaskan kepada keluarga tentang perawatan perubahan citra tubuh",
           "Anjurkan mengungkapkan gambaran diri sendiri terhadap citra tubuh",
           "Anjurkan menggunakan alat bantu (mis: pakaian, wig, kosmetik)",
-          "Anjurkan mengikuti kelompok pendukung (mis: kelompok sebaya)",
-          "Latih fungsi tubuh yang dimiliki",
-          "Latih peningkatan penampilan diri (mis: berdandan)",
-          "Latih pengungkapan kemampuan diri kepada orang lain maupun kelompok"
+          "Anjurkan mengikuti kelompok pendukung (mis: kelompok sebaya)"
         ]
       }
     },
@@ -7796,20 +8576,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09312",
       "nama": "Promosi Koping",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
           "Identifikasi kemampuan yang dimiliki",
           "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
           "Identifikasi pemahaman proses penyakit",
           "Identifikasi dampak situasi terhadap peran dan hubungan",
           "Identifikasi metode penyelesaian masalah",
-          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
-          "Diskusikan perubahan peran yang dialami",
+          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial"
+        ],
+        "terapeutik": [
           "Gunakan pendekatan yang tenang dan meyakinkan",
-          "Diskusikan alasan mengkritik diri sendiri",
-          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
-          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
-          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
           "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
           "Motivasi untuk menentukan harapan yang realistis",
@@ -7821,15 +8598,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
           "Dukung penggunaan mekanisme pertahanan yang tepat",
           "Kurangi rangsangan lingkungan yang mengancam",
+          "Latih penggunaan Teknik relaksasi",
+          "Latih keterampilan sosial, sesuai kebutuhan",
+          "Latih mengembangkan penilaian obyektif"
+        ],
+        "edukasi": [
+          "Diskusikan perubahan peran yang dialami",
+          "Diskusikan alasan mengkritik diri sendiri",
+          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
           "Anjurkan penggunaan sumber spiritual, jika perlu",
           "Anjurkan mengungkapkan perasaan dan persepsi",
           "Anjurkan keluarga terlibat",
           "Anjurkan membuat tujuan yang lebih spesifik",
-          "Ajarkan cara memecahkan masalah secara konstruktif",
-          "Latih penggunaan Teknik relaksasi",
-          "Latih keterampilan sosial, sesuai kebutuhan",
-          "Latih mengembangkan penilaian obyektif"
+          "Ajarkan cara memecahkan masalah secara konstruktif"
         ]
       }
     }
@@ -7840,7 +8624,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "gangguan-identitas-diri",
   "kode": "D.0084",
   "nama": "Gangguan Identitas Diri",
-  "definisi": "Gangguan identitas diri merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakmampuan mempertahankan keutuhan...",
+  "definisi": "Ketidakmampuan mempertahankan keutuhan persepsi terhadap identitas diri",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -7888,9 +8672,11 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09297",
       "nama": "Orientasi Realita",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor perubahan orientasi",
-          "Monitor perubahan kognitif dan perilaku",
+          "Monitor perubahan kognitif dan perilaku"
+        ],
+        "terapeutik": [
           "Perkenalkan nama saat memulai interaksi",
           "Orientasikan orang, tempat, dan waktu",
           "Hadirkan realita (mis: beri penjelasan alternatif, hindari perdebatan)",
@@ -7899,7 +8685,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Gunakan simbol dalam mengorientasikan lingkungan (mis: tanda, gambar, warna)",
           "Libatkan dalam terapi kelompok orientasi",
           "Berikan waktu istirahat dan tidur yang cukup, sesuai kebutuhan",
-          "Fasilitasi akses informasi (mis: televisi, surat kabad, radio), jika perlu",
+          "Fasilitasi akses informasi (mis: televisi, surat kabad, radio), jika perlu"
+        ],
+        "edukasi": [
           "Anjurkan perawatan diri secara mandiri",
           "Anjurkan penggunaan alat bantu (mis: kacamata, alat bantu dengar, gigi palsu)",
           "Ajarkan keluarga dalam perawatan orientasi lansia"
@@ -7910,14 +8698,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09311",
       "nama": "Promosi Kesadaran Diri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi keadaan emosional saat ini",
-          "Identifikasi respons yang ditunjukkan berbagai situasi",
+          "Identifikasi respons yang ditunjukkan berbagai situasi"
+        ],
+        "terapeutik": [
+          "Ungkapkan penyangkalan tentang kenyataan",
+          "Motivasi dalam meningkatkan kemampuan belajar",
+          "Latih kemampuan positif diri yang dimiliki"
+        ],
+        "edukasi": [
           "Diskusikan nilai-nilai yang berkontribusi terhadap konsep diri",
           "Diskusikan tentang pikiran, perilaku, atau respons terhadap kondisi",
           "Diskusikan dampak penyakit pada konsep diri",
-          "Ungkapkan penyangkalan tentang kenyataan",
-          "Motivasi dalam meningkatkan kemampuan belajar",
           "Anjurkan mengenali pikiran dan perasaan tentang diri",
           "Anjurkan menyadari bahwa setiap orang unik",
           "Anjurkan mengungkapkan perasaan (mis: marah atau depresi)",
@@ -7927,8 +8720,7 @@ export const allDiagnosesData: Diagnosis[] = [
           "Anjurkan mengidentifikasi situasi yang memicu kecemasan",
           "Anjurkan mengevaluasi Kembali persepsi negatif tentang diri",
           "Anjurkan dalam mengekspresikan diri dengan kelompok sebaya",
-          "Ajarkan cara membuat prioritas hidup",
-          "Latih kemampuan positif diri yang dimiliki"
+          "Ajarkan cara membuat prioritas hidup"
         ]
       }
     },
@@ -7936,20 +8728,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09312",
       "nama": "Promosi Koping",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
           "Identifikasi kemampuan yang dimiliki",
           "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
           "Identifikasi pemahaman proses penyakit",
           "Identifikasi dampak situasi terhadap peran dan hubungan",
           "Identifikasi metode penyelesaian masalah",
-          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
-          "Diskusikan perubahan peran yang dialami",
+          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial"
+        ],
+        "terapeutik": [
           "Gunakan pendekatan yang tenang dan meyakinkan",
-          "Diskusikan alasan mengkritik diri sendiri",
-          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
-          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
-          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
           "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
           "Motivasi untuk menentukan harapan yang realistis",
@@ -7961,15 +8750,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
           "Dukung penggunaan mekanisme pertahanan yang tepat",
           "Kurangi rangsangan lingkungan yang mengancam",
+          "Latih penggunaan Teknik relaksasi",
+          "Latih keterampilan sosial, sesuai kebutuhan",
+          "Latih mengembangkan penilaian obyektif"
+        ],
+        "edukasi": [
+          "Diskusikan perubahan peran yang dialami",
+          "Diskusikan alasan mengkritik diri sendiri",
+          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
           "Anjurkan penggunaan sumber spiritual, jika perlu",
           "Anjurkan mengungkapkan perasaan dan persepsi",
           "Anjurkan keluarga terlibat",
           "Anjurkan membuat tujuan yang lebih spesifik",
-          "Ajarkan cara memecahkan masalah secara konstruktif",
-          "Latih penggunaan Teknik relaksasi",
-          "Latih keterampilan sosial, sesuai kebutuhan",
-          "Latih mengembangkan penilaian obyektif"
+          "Ajarkan cara memecahkan masalah secara konstruktif"
         ]
       }
     }
@@ -7980,7 +8776,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "gangguan-persepsi-sensori",
   "kode": "D.0085",
   "nama": "Gangguan Persepsi Sensori",
-  "definisi": "Gangguan persepsi sensori merupakan diagnosis keperawatan yang didefinisikan sebagai perubahan persepsi terhadap stimulus baik internal...",
+  "definisi": "Perubahan persepsi terhadap stimulus baik internal maupun eksternal yang disertai dengan respon yang berkurang, berlebihan, atau terdistorsi",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -8028,18 +8824,24 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09288",
       "nama": "Manajemen Halusinasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor perilaku yang mengindikasikan halusinasi",
           "Monitor dan sesuaikan tingkat aktivitas dan stimulasi lingkungan",
-          "Monitor isi halusinasi (mis: kekerasan atau membahayakan diri)",
+          "Monitor isi halusinasi (mis: kekerasan atau membahayakan diri)"
+        ],
+        "terapeutik": [
           "Pertahankan lingkungan yang aman",
           "Lakukan Tindakan keselamatan Ketika tidak dapat mengontrol perilaku (mis: limit setting, pembatasan wilayah, pengekangan fisik, seklusi)",
+          "Hindari perdebatan tentang validitas halusinasi"
+        ],
+        "edukasi": [
           "Diskusikan perasaan dan respons terhadap halusinasi",
-          "Hindari perdebatan tentang validitas halusinasi",
           "Anjurkan memonitor sendiri situasi terjadinya halusinasi",
           "Anjurkan bicara pada orang yang dipercaya untuk memberi dukungan dan umpan balik korektif terhadap halusinasi",
           "Anjurkan melakukan distraksi (mis: mendengarkan music, melakukan aktivitas dan Teknik relaksasi)",
-          "Ajarkan pasien dan keluarga cara mengontrol halusinasi",
+          "Ajarkan pasien dan keluarga cara mengontrol halusinasi"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat antipsikotik dan antiansietas, jika perlu"
         ]
       }
@@ -8048,13 +8850,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.08241",
       "nama": "Minimalisasi Rangsangan",
       "tindakan": {
+        "observasi": [
+          "Periksa status mental, status sensori, dan tingkat kenyamanan (mis: nyeri, kelelahan)"
+        ],
         "terapeutik": [
-          "Periksa status mental, status sensori, dan tingkat kenyamanan (mis: nyeri, kelelahan)",
-          "Diskusikan tingkat toleransi terhadap beban sensori (mis: bising, terlalu terang)",
           "Batasi stimulus lingkungan (mis: cahaya, suara, aktivitas)",
           "Jadwalkan aktivitas harian dan waktu istirahat",
-          "Kombinasikan prosedur/Tindakan dalam satu waktu, sesuai kebutuhan",
-          "Ajarkan cara meminimalisasi stimulus (mis: mengatur pencahayaan ruangan, mengurangi kebisingan, membatasi kunjungan)",
+          "Kombinasikan prosedur/Tindakan dalam satu waktu, sesuai kebutuhan"
+        ],
+        "edukasi": [
+          "Diskusikan tingkat toleransi terhadap beban sensori (mis: bising, terlalu terang)",
+          "Ajarkan cara meminimalisasi stimulus (mis: mengatur pencahayaan ruangan, mengurangi kebisingan, membatasi kunjungan)"
+        ],
+        "kolaborasi": [
           "Kolaborasi dalam meminimalkan prosedur/tindakan",
           "Kolaborasi pemberian obat yang mempengaruhi persepsi stimulus"
         ]
@@ -8064,18 +8872,24 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09301",
       "nama": "Pengekangan Kimiawi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kebutuhan untuk dilakukan pengekangan (mis: agitasi, kekerasan)",
           "Monitor Riwayat pengobatan dan alergi",
           "Monitor respon sebelum dan sesudah pengekangan",
           "Monitor tingkat kesadaran, tanda-tanda vital, warna kulit, suhu, sensasi dan kondisi secara berkala",
-          "Monitor kebutuhan nutrisi, cairan, dan eliminasi",
+          "Monitor kebutuhan nutrisi, cairan, dan eliminasi"
+        ],
+        "terapeutik": [
           "Lakukan supervisi dan survelensi dalam memonitor Tindakan",
           "Beri posisi nyaman untuk mencegah aspirasi dan kerusakan kulit",
           "Ubah posisi tubuh secara periodik",
+          "Latih rentang gerak sendi sesuai kondisi pasien"
+        ],
+        "edukasi": [
           "Libatkan pasien dan/atau keluarga dalam membuat keputusan",
-          "Jelaskan tujuan dan prosedur pengekangan",
-          "Latih rentang gerak sendi sesuai kondisi pasien",
+          "Jelaskan tujuan dan prosedur pengekangan"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian agen psikotropika untuk pengekangan kimiawi"
         ]
       }
@@ -8087,7 +8901,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "harga-diri-rendah-kronis",
   "kode": "D.0086",
   "nama": "Harga Diri Rendah Kronis",
-  "definisi": "Harga diri rendah kronis merupakan diagnosis keperawatan yang didefinisikan sebagai evaluasi atau perasaan negatif terhadap...",
+  "definisi": "Evaluasi atau perasaan negatif terhadap diri sendiri atau ketidakmampuan klien seperti tidak berarti, tidak berharga, tidak berdaya, yang berlangsung dalam waktu lama dan terus menerus",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -8141,9 +8955,10 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12463",
       "nama": "Manajemen Perilaku",
       "tindakan": {
+        "observasi": [
+          "Identifikasi harapan untuk mengendalikan perilaku"
+        ],
         "terapeutik": [
-          "Identifikasi harapan untuk mengendalikan perilaku",
-          "Diskusikan tanggung jawab terhadap perilaku",
           "Jadwalkan kegiatan terstruktur",
           "Ciptakan dan pertahankan lingkungan dan kegiatan perawatan konsisten setiap dinas",
           "Tingkatkan aktivitas fisik sesuai kemampuan",
@@ -8155,7 +8970,10 @@ export const allDiagnosesData: Diagnosis[] = [
           "Lakukan pengekangan fisik sesuai indikasi",
           "Hindari bersikap menyudutkan dan menghentikan pembicaraan",
           "Hindari sikap mengancam atau berdebat",
-          "Hindari berdebat atau menawar batas perilaku yang telah ditetapkan",
+          "Hindari berdebat atau menawar batas perilaku yang telah ditetapkan"
+        ],
+        "edukasi": [
+          "Diskusikan tanggung jawab terhadap perilaku",
           "Informasikan keluarga bahwa keluarga sebagai dasar pembentukan kognitif"
         ]
       }
@@ -8164,12 +8982,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09308",
       "nama": "Promosi Harga Diri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi budaya, agama, ras, jenis kelamin, dan usia terhadap harga diri",
           "Monitor verbalisasi yang merendahkan diri sendiri",
-          "Monitor tingkat harga diri setiap waktu, sesuai kebutuhan",
+          "Monitor tingkat harga diri setiap waktu, sesuai kebutuhan"
+        ],
+        "terapeutik": [
           "Motivasi terlibat dalam verbalisasi positif untuk diri sendiri",
           "Motivasi menerima tantangan atau hal baru",
+          "Berikan umpan balik positif atas peningkatan mencapai tujuan",
+          "Fasilitasi lingkungan dan aktivitas yang meningkatkan diri",
+          "Latih peningkatan tanggung jawab untuk diri sendiri",
+          "Latih pernyataan/kemampuan positif diri",
+          "Latih cara berfikir dan berperilaku positif",
+          "Latih meningkatkan kepercayaan pada kemampuan dalam menangani situasi"
+        ],
+        "edukasi": [
           "Diskusikan pernyataan tentang harga diri",
           "Diskusikan kepercayaan terhadap penilaian diri",
           "Diskusikan pengalaman yang meningkatkan harga diri",
@@ -8177,18 +9005,12 @@ export const allDiagnosesData: Diagnosis[] = [
           "Diskusikan alasan mengkritik diri atau rasa bersalah",
           "Diskusikan penetapan tujuan realistis untuk mencapai harga diri yang lebih tinggi",
           "Diskusikan Bersama keluarga untuk menetapkan harapan dan Batasan yang jelas",
-          "Berikan umpan balik positif atas peningkatan mencapai tujuan",
-          "Fasilitasi lingkungan dan aktivitas yang meningkatkan diri",
           "Jelaskan kepada keluarga pentingnya dukungan dalam perkembangan konsep positif diri pasien",
           "Anjurkan mengidentifikasi kekuatan yang dimiliki",
           "Anjurkan mempertahankan kontak mata saat berkomunikasi dengan orang lain",
           "Anjurkan membuka diri terhadap kritik negatif",
           "Anjurkan mengevaluasi perilaku",
-          "Ajarkan cara mengatasi bullying",
-          "Latih peningkatan tanggung jawab untuk diri sendiri",
-          "Latih pernyataan/kemampuan positif diri",
-          "Latih cara berfikir dan berperilaku positif",
-          "Latih meningkatkan kepercayaan pada kemampuan dalam menangani situasi"
+          "Ajarkan cara mengatasi bullying"
         ]
       }
     },
@@ -8196,20 +9018,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09312",
       "nama": "Promosi Koping",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
           "Identifikasi kemampuan yang dimiliki",
           "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
           "Identifikasi pemahaman proses penyakit",
           "Identifikasi dampak situasi terhadap peran dan hubungan",
           "Identifikasi metode penyelesaian masalah",
-          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
-          "Diskusikan perubahan peran yang dialami",
+          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial"
+        ],
+        "terapeutik": [
           "Gunakan pendekatan yang tenang dan meyakinkan",
-          "Diskusikan alasan mengkritik diri sendiri",
-          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
-          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
-          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
           "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
           "Motivasi untuk menentukan harapan yang realistis",
@@ -8221,15 +9040,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
           "Dukung penggunaan mekanisme pertahanan yang tepat",
           "Kurangi rangsangan lingkungan yang mengancam",
+          "Latih penggunaan Teknik relaksasi",
+          "Latih keterampilan sosial, sesuai kebutuhan",
+          "Latih mengembangkan penilaian obyektif"
+        ],
+        "edukasi": [
+          "Diskusikan perubahan peran yang dialami",
+          "Diskusikan alasan mengkritik diri sendiri",
+          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
           "Anjurkan penggunaan sumber spiritual, jika perlu",
           "Anjurkan mengungkapkan perasaan dan persepsi",
           "Anjurkan keluarga terlibat",
           "Anjurkan membuat tujuan yang lebih spesifik",
-          "Ajarkan cara memecahkan masalah secara konstruktif",
-          "Latih penggunaan Teknik relaksasi",
-          "Latih keterampilan sosial, sesuai kebutuhan",
-          "Latih mengembangkan penilaian obyektif"
+          "Ajarkan cara memecahkan masalah secara konstruktif"
         ]
       }
     }
@@ -8240,7 +9066,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "harga-diri-rendah-situasional",
   "kode": "D.0087",
   "nama": "Harga Diri Rendah Situasional",
-  "definisi": "Harga diri rendah situasional merupakan diagnosis keperawatan yang didefinisikan sebagai evaluasi atau perasaan negatif terhadap...",
+  "definisi": "Evaluasi atau perasaan negatif terhadap diri sendiri atau ketidakmampuan klien sebagai respon terhadap situasi saat ini",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -8291,9 +9117,10 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12463",
       "nama": "Manajemen Perilaku",
       "tindakan": {
+        "observasi": [
+          "Identifikasi harapan untuk mengendalikan perilaku"
+        ],
         "terapeutik": [
-          "Identifikasi harapan untuk mengendalikan perilaku",
-          "Diskusikan tanggung jawab terhadap perilaku",
           "Jadwalkan kegiatan terstruktur",
           "Ciptakan dan pertahankan lingkungan dan kegiatan perawatan konsisten setiap dinas",
           "Tingkatkan aktivitas fisik sesuai kemampuan",
@@ -8305,7 +9132,10 @@ export const allDiagnosesData: Diagnosis[] = [
           "Lakukan pengekangan fisik sesuai indikasi",
           "Hindari bersikap menyudutkan dan menghentikan pembicaraan",
           "Hindari sikap mengancam atau berdebat",
-          "Hindari berdebat atau menawar batas perilaku yang telah ditetapkan",
+          "Hindari berdebat atau menawar batas perilaku yang telah ditetapkan"
+        ],
+        "edukasi": [
+          "Diskusikan tanggung jawab terhadap perilaku",
           "Informasikan keluarga bahwa keluarga sebagai dasar pembentukan kognitif"
         ]
       }
@@ -8314,12 +9144,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09308",
       "nama": "Promosi Harga Diri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi budaya, agama, ras, jenis kelamin, dan usia terhadap harga diri",
           "Monitor verbalisasi yang merendahkan diri sendiri",
-          "Monitor tingkat harga diri setiap waktu, sesuai kebutuhan",
+          "Monitor tingkat harga diri setiap waktu, sesuai kebutuhan"
+        ],
+        "terapeutik": [
           "Motivasi terlibat dalam verbalisasi positif untuk diri sendiri",
           "Motivasi menerima tantangan atau hal baru",
+          "Berikan umpan balik positif atas peningkatan mencapai tujuan",
+          "Fasilitasi lingkungan dan aktivitas yang meningkatkan diri",
+          "Latih peningkatan tanggung jawab untuk diri sendiri",
+          "Latih pernyataan/kemampuan positif diri",
+          "Latih cara berfikir dan berperilaku positif",
+          "Latih meningkatkan kepercayaan pada kemampuan dalam menangani situasi"
+        ],
+        "edukasi": [
           "Diskusikan pernyataan tentang harga diri",
           "Diskusikan kepercayaan terhadap penilaian diri",
           "Diskusikan pengalaman yang meningkatkan harga diri",
@@ -8327,18 +9167,12 @@ export const allDiagnosesData: Diagnosis[] = [
           "Diskusikan alasan mengkritik diri atau rasa bersalah",
           "Diskusikan penetapan tujuan realistis untuk mencapai harga diri yang lebih tinggi",
           "Diskusikan Bersama keluarga untuk menetapkan harapan dan Batasan yang jelas",
-          "Berikan umpan balik positif atas peningkatan mencapai tujuan",
-          "Fasilitasi lingkungan dan aktivitas yang meningkatkan diri",
           "Jelaskan kepada keluarga pentingnya dukungan dalam perkembangan konsep positif diri pasien",
           "Anjurkan mengidentifikasi kekuatan yang dimiliki",
           "Anjurkan mempertahankan kontak mata saat berkomunikasi dengan orang lain",
           "Anjurkan membuka diri terhadap kritik negatif",
           "Anjurkan mengevaluasi perilaku",
-          "Ajarkan cara mengatasi bullying",
-          "Latih peningkatan tanggung jawab untuk diri sendiri",
-          "Latih pernyataan/kemampuan positif diri",
-          "Latih cara berfikir dan berperilaku positif",
-          "Latih meningkatkan kepercayaan pada kemampuan dalam menangani situasi"
+          "Ajarkan cara mengatasi bullying"
         ]
       }
     },
@@ -8346,20 +9180,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09312",
       "nama": "Promosi Koping",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
           "Identifikasi kemampuan yang dimiliki",
           "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
           "Identifikasi pemahaman proses penyakit",
           "Identifikasi dampak situasi terhadap peran dan hubungan",
           "Identifikasi metode penyelesaian masalah",
-          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
-          "Diskusikan perubahan peran yang dialami",
+          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial"
+        ],
+        "terapeutik": [
           "Gunakan pendekatan yang tenang dan meyakinkan",
-          "Diskusikan alasan mengkritik diri sendiri",
-          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
-          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
-          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
           "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
           "Motivasi untuk menentukan harapan yang realistis",
@@ -8371,15 +9202,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
           "Dukung penggunaan mekanisme pertahanan yang tepat",
           "Kurangi rangsangan lingkungan yang mengancam",
+          "Latih penggunaan Teknik relaksasi",
+          "Latih keterampilan sosial, sesuai kebutuhan",
+          "Latih mengembangkan penilaian obyektif"
+        ],
+        "edukasi": [
+          "Diskusikan perubahan peran yang dialami",
+          "Diskusikan alasan mengkritik diri sendiri",
+          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
           "Anjurkan penggunaan sumber spiritual, jika perlu",
           "Anjurkan mengungkapkan perasaan dan persepsi",
           "Anjurkan keluarga terlibat",
           "Anjurkan membuat tujuan yang lebih spesifik",
-          "Ajarkan cara memecahkan masalah secara konstruktif",
-          "Latih penggunaan Teknik relaksasi",
-          "Latih keterampilan sosial, sesuai kebutuhan",
-          "Latih mengembangkan penilaian obyektif"
+          "Ajarkan cara memecahkan masalah secara konstruktif"
         ]
       }
     }
@@ -8390,7 +9228,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "keputusasaan",
   "kode": "D.0088",
   "nama": "Keputusasaan",
-  "definisi": "Keputusasaan merupakan diagnosis keperawatan yang didefinisikan sebagai kondisi individu yang memandang adanya keterbatasan atau...",
+  "definisi": "Kondisi individu yang memandang adanya keterbatasan atau tidak tersedianya alternatif pemecahan pada masalah yang dihadapi",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -8428,19 +9266,23 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09256",
       "nama": "Dukungan Emosional",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi fungsi marah, frustrasi, dan amuk bagi pasien",
-          "Identifikasi hal yang telah memicu emosi",
+          "Identifikasi hal yang telah memicu emosi"
+        ],
+        "terapeutik": [
           "Fasilitasi mengungkapkan perasaan cemas, marah, atau sedih",
           "Buat pernyataan suportif atau empati selama fase berduka",
           "Lakukan sentuhan untuk memberikan dukungan (mis: merangkul, menepuk-nepuk)",
           "Tetap Bersama pasien dan pastikan keamanan selama ansietas, jika perlu",
           "Kurangi tuntutan berpikir saat sakit atau lelah",
+          "Rujuk untuk konseling, jika perlu"
+        ],
+        "edukasi": [
           "Jelaskan konsekuensi tidak menghadapi rasa bersalah dan malu",
           "Anjurkan mengungkapkan perasaan yang dialami (mis: ansietas, marah, sedih)",
           "Anjurkan mengungkapkan pengalaman emosional sebelumnya dan pola respons yang biasa digunakan",
-          "Ajarkan penggunaan mekanisme pertahanan yang tepat",
-          "Rujuk untuk konseling, jika perlu"
+          "Ajarkan penggunaan mekanisme pertahanan yang tepat"
         ]
       }
     },
@@ -8448,20 +9290,24 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09307",
       "nama": "Promosi Harapan",
       "tindakan": {
+        "observasi": [
+          "Identifikasi harapan pasien dan keluarga dalam pencapaian hidup"
+        ],
         "terapeutik": [
-          "Identifikasi harapan pasien dan keluarga dalam pencapaian hidup",
           "Sadarkan bahwa kondisi yang dialami memiliki nilai penting",
           "Pandu mengingat Kembali kenangan yang menyenangkan",
-          "Libatkan pasien secara aktif dalam perawatan",
           "Kembangkan rencana perawatan yang melibatkan tingkat pencapaian tujuan sederhana sampai dengan kompleks",
           "Berikan kesempatan kepada pasien dan keluarga terlibat dengan dukungan kelompok",
           "Ciptakan lingkungan yang memudahkan mempraktikkan kebutuhan spiritual",
-          "Anjurkan mengungkapkan perasaan terhdap kondisi dengan realistis",
-          "Anjurkan mempertahankan hubungan (mis: menyebutkan nama orang yang dicintai)",
-          "Anjurkan mempertahankan hubungan terapeutik dengan orang lain",
           "Latih menyusun tujuan yang sesuai dengan harapan",
           "Latih cara mengembangkan spiritual diri",
           "Latih cara mengenang dan menikmati masa lalu (mis: prestasi, pengalaman)"
+        ],
+        "edukasi": [
+          "Libatkan pasien secara aktif dalam perawatan",
+          "Anjurkan mengungkapkan perasaan terhdap kondisi dengan realistis",
+          "Anjurkan mempertahankan hubungan (mis: menyebutkan nama orang yang dicintai)",
+          "Anjurkan mempertahankan hubungan terapeutik dengan orang lain"
         ]
       }
     },
@@ -8469,20 +9315,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09312",
       "nama": "Promosi Koping",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
           "Identifikasi kemampuan yang dimiliki",
           "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
           "Identifikasi pemahaman proses penyakit",
           "Identifikasi dampak situasi terhadap peran dan hubungan",
           "Identifikasi metode penyelesaian masalah",
-          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
-          "Diskusikan perubahan peran yang dialami",
+          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial"
+        ],
+        "terapeutik": [
           "Gunakan pendekatan yang tenang dan meyakinkan",
-          "Diskusikan alasan mengkritik diri sendiri",
-          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
-          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
-          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
           "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
           "Motivasi untuk menentukan harapan yang realistis",
@@ -8494,15 +9337,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
           "Dukung penggunaan mekanisme pertahanan yang tepat",
           "Kurangi rangsangan lingkungan yang mengancam",
+          "Latih penggunaan Teknik relaksasi",
+          "Latih keterampilan sosial, sesuai kebutuhan",
+          "Latih mengembangkan penilaian obyektif"
+        ],
+        "edukasi": [
+          "Diskusikan perubahan peran yang dialami",
+          "Diskusikan alasan mengkritik diri sendiri",
+          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
           "Anjurkan penggunaan sumber spiritual, jika perlu",
           "Anjurkan mengungkapkan perasaan dan persepsi",
           "Anjurkan keluarga terlibat",
           "Anjurkan membuat tujuan yang lebih spesifik",
-          "Ajarkan cara memecahkan masalah secara konstruktif",
-          "Latih penggunaan Teknik relaksasi",
-          "Latih keterampilan sosial, sesuai kebutuhan",
-          "Latih mengembangkan penilaian obyektif"
+          "Ajarkan cara memecahkan masalah secara konstruktif"
         ]
       }
     }
@@ -8513,7 +9363,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "kesiapan-peningkatan-konsep-diri",
   "kode": "D.0089",
   "nama": "Kesiapan Peningkatan Konsep Diri",
-  "definisi": "Kesiapan peningkatan konsep diri merupakan diagnosis keperawatan yang didefinisikan sebagai pola persepsi diri yang cukup untuk merasa...",
+  "definisi": "Pola persepsi diri yang cukup untuk merasa sejahtera dan dapat ditingkatkan",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [],
@@ -8543,12 +9393,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09308",
       "nama": "Promosi Harga Diri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi budaya, agama, ras, jenis kelamin, dan usia terhadap harga diri",
           "Monitor verbalisasi yang merendahkan diri sendiri",
-          "Monitor tingkat harga diri setiap waktu, sesuai kebutuhan",
+          "Monitor tingkat harga diri setiap waktu, sesuai kebutuhan"
+        ],
+        "terapeutik": [
           "Motivasi terlibat dalam verbalisasi positif untuk diri sendiri",
           "Motivasi menerima tantangan atau hal baru",
+          "Berikan umpan balik positif atas peningkatan mencapai tujuan",
+          "Fasilitasi lingkungan dan aktivitas yang meningkatkan diri",
+          "Latih peningkatan tanggung jawab untuk diri sendiri",
+          "Latih pernyataan/kemampuan positif diri",
+          "Latih cara berfikir dan berperilaku positif",
+          "Latih meningkatkan kepercayaan pada kemampuan dalam menangani situasi"
+        ],
+        "edukasi": [
           "Diskusikan pernyataan tentang harga diri",
           "Diskusikan kepercayaan terhadap penilaian diri",
           "Diskusikan pengalaman yang meningkatkan harga diri",
@@ -8556,18 +9416,12 @@ export const allDiagnosesData: Diagnosis[] = [
           "Diskusikan alasan mengkritik diri atau rasa bersalah",
           "Diskusikan penetapan tujuan realistis untuk mencapai harga diri yang lebih tinggi",
           "Diskusikan Bersama keluarga untuk menetapkan harapan dan Batasan yang jelas",
-          "Berikan umpan balik positif atas peningkatan mencapai tujuan",
-          "Fasilitasi lingkungan dan aktivitas yang meningkatkan diri",
           "Jelaskan kepada keluarga pentingnya dukungan dalam perkembangan konsep positif diri pasien",
           "Anjurkan mengidentifikasi kekuatan yang dimiliki",
           "Anjurkan mempertahankan kontak mata saat berkomunikasi dengan orang lain",
           "Anjurkan membuka diri terhadap kritik negatif",
           "Anjurkan mengevaluasi perilaku",
-          "Ajarkan cara mengatasi bullying",
-          "Latih peningkatan tanggung jawab untuk diri sendiri",
-          "Latih pernyataan/kemampuan positif diri",
-          "Latih cara berfikir dan berperilaku positif",
-          "Latih meningkatkan kepercayaan pada kemampuan dalam menangani situasi"
+          "Ajarkan cara mengatasi bullying"
         ]
       }
     },
@@ -8575,14 +9429,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09311",
       "nama": "Promosi Kesadaran Diri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi keadaan emosional saat ini",
-          "Identifikasi respons yang ditunjukkan berbagai situasi",
+          "Identifikasi respons yang ditunjukkan berbagai situasi"
+        ],
+        "terapeutik": [
+          "Ungkapkan penyangkalan tentang kenyataan",
+          "Motivasi dalam meningkatkan kemampuan belajar",
+          "Latih kemampuan positif diri yang dimiliki"
+        ],
+        "edukasi": [
           "Diskusikan nilai-nilai yang berkontribusi terhadap konsep diri",
           "Diskusikan tentang pikiran, perilaku, atau respons terhadap kondisi",
           "Diskusikan dampak penyakit pada konsep diri",
-          "Ungkapkan penyangkalan tentang kenyataan",
-          "Motivasi dalam meningkatkan kemampuan belajar",
           "Anjurkan mengenali pikiran dan perasaan tentang diri",
           "Anjurkan menyadari bahwa setiap orang unik",
           "Anjurkan mengungkapkan perasaan (mis: marah atau depresi)",
@@ -8592,8 +9451,7 @@ export const allDiagnosesData: Diagnosis[] = [
           "Anjurkan mengidentifikasi situasi yang memicu kecemasan",
           "Anjurkan mengevaluasi Kembali persepsi negatif tentang diri",
           "Anjurkan dalam mengekspresikan diri dengan kelompok sebaya",
-          "Ajarkan cara membuat prioritas hidup",
-          "Latih kemampuan positif diri yang dimiliki"
+          "Ajarkan cara membuat prioritas hidup"
         ]
       }
     },
@@ -8601,20 +9459,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09312",
       "nama": "Promosi Koping",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
           "Identifikasi kemampuan yang dimiliki",
           "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
           "Identifikasi pemahaman proses penyakit",
           "Identifikasi dampak situasi terhadap peran dan hubungan",
           "Identifikasi metode penyelesaian masalah",
-          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
-          "Diskusikan perubahan peran yang dialami",
+          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial"
+        ],
+        "terapeutik": [
           "Gunakan pendekatan yang tenang dan meyakinkan",
-          "Diskusikan alasan mengkritik diri sendiri",
-          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
-          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
-          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
           "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
           "Motivasi untuk menentukan harapan yang realistis",
@@ -8626,15 +9481,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
           "Dukung penggunaan mekanisme pertahanan yang tepat",
           "Kurangi rangsangan lingkungan yang mengancam",
+          "Latih penggunaan Teknik relaksasi",
+          "Latih keterampilan sosial, sesuai kebutuhan",
+          "Latih mengembangkan penilaian obyektif"
+        ],
+        "edukasi": [
+          "Diskusikan perubahan peran yang dialami",
+          "Diskusikan alasan mengkritik diri sendiri",
+          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
           "Anjurkan penggunaan sumber spiritual, jika perlu",
           "Anjurkan mengungkapkan perasaan dan persepsi",
           "Anjurkan keluarga terlibat",
           "Anjurkan membuat tujuan yang lebih spesifik",
-          "Ajarkan cara memecahkan masalah secara konstruktif",
-          "Latih penggunaan Teknik relaksasi",
-          "Latih keterampilan sosial, sesuai kebutuhan",
-          "Latih mengembangkan penilaian obyektif"
+          "Ajarkan cara memecahkan masalah secara konstruktif"
         ]
       }
     }
@@ -8645,7 +9507,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "kesiapan-peningkatan-koping-keluarga",
   "kode": "D.0090",
   "nama": "Kesiapan Peningkatan Koping Keluarga",
-  "definisi": "Kesiapan peningkatan koping keluarga merupakan diagnosis keperawatan yang didefinisikan sebagai pola adaptasi anggota keluarga dalam...",
+  "definisi": "Pola adaptasi anggota keluarga dalam mengatasi situasi yang dialami klien secara efektif dan menunjukkan keinginan serta kesiapan untuk meningkatkan Kesehatan keluarga dan klien",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -8678,14 +9540,15 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09260",
       "nama": "Dukungan Koping Keluarga",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi respons emosional terhadap kondisi saat ini",
           "Identifikasi beban prognosis secara psikologis",
           "Identifikasi pemahaman tentang keputusan perawatan setelah pulang",
-          "Identifikasi kesesuaian antara harapan pasien, keluarga, dan tenaga kesehatan",
+          "Identifikasi kesesuaian antara harapan pasien, keluarga, dan tenaga kesehatan"
+        ],
+        "terapeutik": [
           "Dengarkan masalah, perasaan, dan pertanyaan keluarga",
           "Terima nilai-nilai keluarga dengan cara yang tidak menghakimi",
-          "Diskusikan rencana medis dan perawatan",
           "Fasilitasi pengungkapan perasaan antara pasien dan  keluarga atau antar anggota keluarga",
           "Fasilitasi pengambilan keputusan dalam merencanakan perawatan jangka Panjang, jika perlu",
           "Fasilitasi anggota keluarga dalam mengidentifikasi dan menyelesaikan konflik nilai",
@@ -8695,9 +9558,12 @@ export const allDiagnosesData: Diagnosis[] = [
           "Bersikap sebagai pengganti keluarga untuk menenangkan pasien dan/atau jika keluarga tidak dapat memberikan perawatan",
           "Hargai dan dukung mekanisme koping adaptif yang digunakan",
           "Berikan kesempatan berkunjung bagi anggota keluarga",
-          "Informasikan kemajuan pasien secara berkala",
-          "Informasikan fasilitas perawatan  Kesehatan yang tersedia",
           "Rujuk untuk terapi keluarga, jika perlu"
+        ],
+        "edukasi": [
+          "Diskusikan rencana medis dan perawatan",
+          "Informasikan kemajuan pasien secara berkala",
+          "Informasikan fasilitas perawatan  Kesehatan yang tersedia"
         ]
       }
     },
@@ -8705,12 +9571,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14525",
       "nama": "Pelibatan Keluarga",
       "tindakan": {
+        "observasi": [
+          "Identifikasi kesiapan keluarga untuk terlibat dalam perawatan"
+        ],
         "terapeutik": [
-          "Identifikasi kesiapan keluarga untuk terlibat dalam perawatan",
           "Ciptakan hubungan terapeutik pasien dengan keluarga dalam perawatan",
-          "Diskusikan cara perawatan di rumah (mis: kelompok, perawatan di rumah, atau rumah singgah)",
           "Motivasi keluarga mengembangkan aspek positif rencana perawatan",
-          "Fasilitasi keluarga membuat keputusan perawatan",
+          "Fasilitasi keluarga membuat keputusan perawatan"
+        ],
+        "edukasi": [
+          "Diskusikan cara perawatan di rumah (mis: kelompok, perawatan di rumah, atau rumah singgah)",
           "Jelaskan kondisi pasien kepada keluarga",
           "Informasikan tingkat ketergantungan pasien kepada keluarga",
           "Informasikan harapan pasien kepada keluarga",
@@ -8723,20 +9593,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09312",
       "nama": "Promosi Koping",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
           "Identifikasi kemampuan yang dimiliki",
           "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
           "Identifikasi pemahaman proses penyakit",
           "Identifikasi dampak situasi terhadap peran dan hubungan",
           "Identifikasi metode penyelesaian masalah",
-          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
-          "Diskusikan perubahan peran yang dialami",
+          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial"
+        ],
+        "terapeutik": [
           "Gunakan pendekatan yang tenang dan meyakinkan",
-          "Diskusikan alasan mengkritik diri sendiri",
-          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
-          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
-          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
           "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
           "Motivasi untuk menentukan harapan yang realistis",
@@ -8748,15 +9615,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
           "Dukung penggunaan mekanisme pertahanan yang tepat",
           "Kurangi rangsangan lingkungan yang mengancam",
+          "Latih penggunaan Teknik relaksasi",
+          "Latih keterampilan sosial, sesuai kebutuhan",
+          "Latih mengembangkan penilaian obyektif"
+        ],
+        "edukasi": [
+          "Diskusikan perubahan peran yang dialami",
+          "Diskusikan alasan mengkritik diri sendiri",
+          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
           "Anjurkan penggunaan sumber spiritual, jika perlu",
           "Anjurkan mengungkapkan perasaan dan persepsi",
           "Anjurkan keluarga terlibat",
           "Anjurkan membuat tujuan yang lebih spesifik",
-          "Ajarkan cara memecahkan masalah secara konstruktif",
-          "Latih penggunaan Teknik relaksasi",
-          "Latih keterampilan sosial, sesuai kebutuhan",
-          "Latih mengembangkan penilaian obyektif"
+          "Ajarkan cara memecahkan masalah secara konstruktif"
         ]
       }
     }
@@ -8767,7 +9641,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "kesiapan-peningkatan-koping-komunitas",
   "kode": "D.0091",
   "nama": "Kesiapan Peningkatan Koping Komunitas",
-  "definisi": "Kesiapan peningkatan koping komunitas merupakan diagnosis keperawatan yang didefinisikan sebagai pola adaptasi dan penyelesaian masalah...",
+  "definisi": "Pola adaptasi dan penyelesaian masalah komunitas yang memuaskan untuk memenuhi tuntutan atau kebutuhan masyarakat, serta dapat ditingkatkan untuk penatalaksanaan masalah saat ini dan mendatang",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -8802,11 +9676,13 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09258",
       "nama": "Dukungan Kelompok",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi masalah yang sebenarnya dialami kelompok",
           "Identifikasi kelompok memiliki masalah yang sama",
           "Identifikasi hambatan menghadiri sesi kelompok (mis: stigma, cemas, tidak aman)",
-          "Identifikasi aturan dan norma yang perlu di modifikasi pada sesi selanjutnya, jika perlu",
+          "Identifikasi aturan dan norma yang perlu di modifikasi pada sesi selanjutnya, jika perlu"
+        ],
+        "terapeutik": [
           "Siapkan lingkungan terapeutik dan rileks",
           "Bentuk kelompok dengan pengalaman dan masalah yang sama",
           "Mulai sesi kelompok dengan mengenalkan semua anggota kelompok dan terapis",
@@ -8814,7 +9690,6 @@ export const allDiagnosesData: Diagnosis[] = [
           "Buat aturan dan norma dalam kelompok, terutama kerahasiaan dalam kelompok",
           "Sepakati jumlah sesi yang diperlukan dalam kelompok",
           "Bangun rasa tanggung jawab dalam kelompok",
-          "Diskusikan penyelesaian masalah dalam kelompok",
           "Berikan kesempatan individu untuk berhenti sejenak saat merasa distres akibat topik tertentu sampai mampu berpartisipasi Kembali",
           "Berikan kesempatan istirahat di setiap sesi untuk memfasilitasi percakapan individual dalam kelompok",
           "Berikan kesempatan saling mendukung dalam kelompok terkait masalah dan penyelesaian masalah",
@@ -8822,7 +9697,10 @@ export const allDiagnosesData: Diagnosis[] = [
           "Hindari percakapan ofensif, tidak sensitive, seksual atau humor yang tidak perlu/tidak pada tempatnya",
           "Sediakan media untuk kebutuhan berkomunikasi di luar kelompok (mis: email, telepon, SMS, WA)",
           "Lakukan refleksi manfaat dukungan kelompok pada setiap awal dan akhir pertemuan",
-          "Akhiri kegiatan sesuai sesi yang disepakati",
+          "Akhiri kegiatan sesuai sesi yang disepakati"
+        ],
+        "edukasi": [
+          "Diskusikan penyelesaian masalah dalam kelompok",
           "Anjurkan anggota kelompok mendengarkan dan memberi dukungan saat mendiskusikan masalah dan perasaan",
           "Anjurkan bersikap jujur dalam menceritakan perasaan dan masalah",
           "Anjurkan setiap anggota kelompok mengemukakan ketidakpuasan, keluhan, kritik dalam kelompok dengan cara santun",
@@ -8835,19 +9713,25 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09313",
       "nama": "Promosi Sistem Pendukung",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi respon psikologis terhadap situasi dan ketersedian sistem pendukung",
           "Identifikasi sumber daya untuk ketersediaan pengasuh",
-          "Monitor situasi keluarga saat ini dan sistem pendukung",
+          "Monitor situasi keluarga saat ini dan sistem pendukung"
+        ],
+        "terapeutik": [
           "Berikan dukungan dan caring dalam pelayanan",
           "Motivasi berpartisipasi dalam kegiatan sosial dan masyarakat",
           "Motivasi membina hubungan dengan pihak yang memiliki kebutuhan yang sama",
+          "Rujuk ke kelompok swadaya"
+        ],
+        "edukasi": [
           "Libatkan keluarga, orang penting, dan teman dalam perawatan",
           "Jelaskan hambatan pada sistem pendukung",
           "Informasikan jaringan sosial yang tersedia",
           "Informasikan tingkat sistem pendukung (mis: keluarga, teman, dan masyarakat)",
-          "Anjurkan keluarga terlibat dalam perawatan",
-          "Rujuk ke kelompok swadaya",
+          "Anjurkan keluarga terlibat dalam perawatan"
+        ],
+        "kolaborasi": [
           "Kolaborasi dengan program pencegahan atau pengobatan berbasis masyarakat, jika perlu"
         ]
       }
@@ -8859,7 +9743,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "ketidakberdayaan",
   "kode": "D.0092",
   "nama": "Ketidakberdayaan",
-  "definisi": "Ketidakberdayaan merupakan diagnosis keperawatan yang didefinisikan sebagai persepsi bahwa tindakan seseorang tidak akan mempengaruhi...",
+  "definisi": "Persepsi bahwa tindakan seseorang tidak akan mempengaruhi hasil secara signifikan; persepsi kurang kontrol pada situasi saat ini atau yang akan datang",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -8894,20 +9778,24 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09307",
       "nama": "Promosi Harapan",
       "tindakan": {
+        "observasi": [
+          "Identifikasi harapan pasien dan keluarga dalam pencapaian hidup"
+        ],
         "terapeutik": [
-          "Identifikasi harapan pasien dan keluarga dalam pencapaian hidup",
           "Sadarkan bahwa kondisi yang dialami memiliki nilai penting",
           "Pandu mengingat Kembali kenangan yang menyenangkan",
-          "Libatkan pasien secara aktif dalam perawatan",
           "Kembangkan rencana perawatan yang melibatkan tingkat pencapaian tujuan sederhana sampai dengan kompleks",
           "Berikan kesempatan kepada pasien dan keluarga terlibat dengan dukungan kelompok",
           "Ciptakan lingkungan yang memudahkan mempraktikkan kebutuhan spiritual",
-          "Anjurkan mengungkapkan perasaan terhdap kondisi dengan realistis",
-          "Anjurkan mempertahankan hubungan (mis: menyebutkan nama orang yang dicintai)",
-          "Anjurkan mempertahankan hubungan terapeutik dengan orang lain",
           "Latih menyusun tujuan yang sesuai dengan harapan",
           "Latih cara mengembangkan spiritual diri",
           "Latih cara mengenang dan menikmati masa lalu (mis: prestasi, pengalaman)"
+        ],
+        "edukasi": [
+          "Libatkan pasien secara aktif dalam perawatan",
+          "Anjurkan mengungkapkan perasaan terhdap kondisi dengan realistis",
+          "Anjurkan mempertahankan hubungan (mis: menyebutkan nama orang yang dicintai)",
+          "Anjurkan mempertahankan hubungan terapeutik dengan orang lain"
         ]
       }
     },
@@ -8915,20 +9803,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09312",
       "nama": "Promosi Koping",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
           "Identifikasi kemampuan yang dimiliki",
           "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
           "Identifikasi pemahaman proses penyakit",
           "Identifikasi dampak situasi terhadap peran dan hubungan",
           "Identifikasi metode penyelesaian masalah",
-          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
-          "Diskusikan perubahan peran yang dialami",
+          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial"
+        ],
+        "terapeutik": [
           "Gunakan pendekatan yang tenang dan meyakinkan",
-          "Diskusikan alasan mengkritik diri sendiri",
-          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
-          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
-          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
           "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
           "Motivasi untuk menentukan harapan yang realistis",
@@ -8940,15 +9825,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
           "Dukung penggunaan mekanisme pertahanan yang tepat",
           "Kurangi rangsangan lingkungan yang mengancam",
+          "Latih penggunaan Teknik relaksasi",
+          "Latih keterampilan sosial, sesuai kebutuhan",
+          "Latih mengembangkan penilaian obyektif"
+        ],
+        "edukasi": [
+          "Diskusikan perubahan peran yang dialami",
+          "Diskusikan alasan mengkritik diri sendiri",
+          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
           "Anjurkan penggunaan sumber spiritual, jika perlu",
           "Anjurkan mengungkapkan perasaan dan persepsi",
           "Anjurkan keluarga terlibat",
           "Anjurkan membuat tujuan yang lebih spesifik",
-          "Ajarkan cara memecahkan masalah secara konstruktif",
-          "Latih penggunaan Teknik relaksasi",
-          "Latih keterampilan sosial, sesuai kebutuhan",
-          "Latih mengembangkan penilaian obyektif"
+          "Ajarkan cara memecahkan masalah secara konstruktif"
         ]
       }
     }
@@ -8959,7 +9851,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "ketidakmampuan-koping-keluarga",
   "kode": "D.0093",
   "nama": "Ketidakmampuan Koping Keluarga",
-  "definisi": "Ketidakmampuan koping keluarga merupakan diagnosis keperawatan yang didefinisikan sebagai perilaku orang terdekat (anggota keluarga atau...",
+  "definisi": "Perilaku orang terdekat (anggota keluarga atau orang berarti) yang membatasi kemampuan dirinya dan klien untuk beradaptasi dengan masalah Kesehatan yang dihadapi klien",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -9001,14 +9893,15 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09260",
       "nama": "Dukungan Koping Keluarga",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi respons emosional terhadap kondisi saat ini",
           "Identifikasi beban prognosis secara psikologis",
           "Identifikasi pemahaman tentang keputusan perawatan setelah pulang",
-          "Identifikasi kesesuaian antara harapan pasien, keluarga, dan tenaga  kesehatan",
+          "Identifikasi kesesuaian antara harapan pasien, keluarga, dan tenaga  kesehatan"
+        ],
+        "terapeutik": [
           "Dengarkan masalah, perasaan, dan pertanyaan keluarga",
           "Terima nilai-nilai keluarga dengan cara yang tidak menghakimi",
-          "Diskusikan rencana medis dan perawatan",
           "Fasilitasi pengungkapan perasaan antara pasien dan keluarga atau antar anggota keluarga",
           "Fasilitasi pengambilan keputusan dalam merencanakan perawatan jangka Panjang, jika perlu",
           "Fasilitasi anggota keluarga dalam mengidentifikasi dan menyelesaikan konflik nilai",
@@ -9018,9 +9911,12 @@ export const allDiagnosesData: Diagnosis[] = [
           "Bersikap sebagai pengganti keluarga untuk menenangkan pasien dan/atau jika keluarga tidak dapat memberikan perawatan",
           "Hargai dan dukung mekanisme koping adaptif yang digunakan",
           "Berikan kesempatan berkunjung bagi anggota keluarga",
-          "Informasikan kemajuan pasien secara berkala",
-          "Informasikan fasilitas perawatan Kesehatan yang tersedia",
           "Rujuk untuk terapi keluarga, jika perlu"
+        ],
+        "edukasi": [
+          "Diskusikan rencana medis dan perawatan",
+          "Informasikan kemajuan pasien secara berkala",
+          "Informasikan fasilitas perawatan Kesehatan yang tersedia"
         ]
       }
     },
@@ -9028,20 +9924,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09312",
       "nama": "Promosi Koping",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
           "Identifikasi kemampuan yang dimiliki",
           "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
           "Identifikasi pemahaman proses penyakit",
           "Identifikasi dampak situasi terhadap peran dan hubungan",
           "Identifikasi metode penyelesaian masalah",
-          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
-          "Diskusikan perubahan peran yang dialami",
+          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial"
+        ],
+        "terapeutik": [
           "Gunakan pendekatan yang tenang dan meyakinkan",
-          "Diskusikan alasan mengkritik diri sendiri",
-          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
-          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
-          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
           "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
           "Motivasi untuk menentukan harapan yang realistis",
@@ -9053,15 +9946,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
           "Dukung penggunaan mekanisme pertahanan yang tepat",
           "Kurangi rangsangan lingkungan yang mengancam",
+          "Latih penggunaan Teknik relaksasi",
+          "Latih keterampilan sosial, sesuai kebutuhan",
+          "Latih mengembangkan penilaian obyektif"
+        ],
+        "edukasi": [
+          "Diskusikan perubahan peran yang dialami",
+          "Diskusikan alasan mengkritik diri sendiri",
+          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
           "Anjurkan penggunaan sumber spiritual, jika perlu",
           "Anjurkan mengungkapkan perasaan dan persepsi",
           "Anjurkan keluarga terlibat",
           "Anjurkan membuat tujuan yang lebih spesifik",
-          "Ajarkan cara memecahkan masalah secara konstruktif",
-          "Latih penggunaan Teknik relaksasi",
-          "Latih keterampilan sosial, sesuai kebutuhan",
-          "Latih mengembangkan penilaian obyektif"
+          "Ajarkan cara memecahkan masalah secara konstruktif"
         ]
       }
     }
@@ -9072,7 +9972,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "koping-defensif",
   "kode": "D.0094",
   "nama": "Koping Defensif",
-  "definisi": "Koping defensif merupakan diagnosis keperawatan yang didefinisikan sebagai proyeksi evaluasi diri untuk melindungi diri dari....",
+  "definisi": "Proyeksi evaluasi diri untuk melindungi diri dari ancaman terhadap harga diri",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -9121,12 +10021,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09308",
       "nama": "Promosi Harga Diri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi budaya, agama, ras, jenis kelamin, dan usia terhadap harga diri",
           "Monitor verbalisasi yang merendahkan diri sendiri",
-          "Monitor tingkat harga diri setiap waktu, sesuai kebutuhan",
+          "Monitor tingkat harga diri setiap waktu, sesuai kebutuhan"
+        ],
+        "terapeutik": [
           "Motivasi terlibat dalam verbalisasi positif untuk diri sendiri",
           "Motivasi menerima tantangan atau hal baru",
+          "Berikan umpan balik positif atas peningkatan mencapai tujuan",
+          "Fasilitasi lingkungan dan aktivitas yang meningkatkan diri",
+          "Latih peningkatan tanggung jawab untuk diri sendiri",
+          "Latih pernyataan/kemampuan positif diri",
+          "Latih cara berfikir dan berperilaku positif",
+          "Latih meningkatkan kepercayaan pada kemampuan dalam menangani situasi"
+        ],
+        "edukasi": [
           "Diskusikan pernyataan tentang harga diri",
           "Diskusikan kepercayaan terhadap penilaian diri",
           "Diskusikan pengalaman yang meningkatkan harga diri",
@@ -9134,18 +10044,12 @@ export const allDiagnosesData: Diagnosis[] = [
           "Diskusikan alasan mengkritik diri atau rasa bersalah",
           "Diskusikan penetapan tujuan realistis untuk mencapai harga diri yang lebih tinggi",
           "Diskusikan Bersama keluarga untuk menetapkan harapan dan Batasan yang jelas",
-          "Berikan umpan balik positif atas peningkatan mencapai tujuan",
-          "Fasilitasi lingkungan dan aktivitas yang meningkatkan diri",
           "Jelaskan kepada keluarga pentingnya dukungan dalam perkembangan konsep positif diri pasien",
           "Anjurkan mengidentifikasi kekuatan yang dimiliki",
           "Anjurkan mempertahankan kontak mata saat berkomunikasi dengan orang lain",
           "Anjurkan membuka diri terhadap kritik negatif",
           "Anjurkan mengevaluasi perilaku",
-          "Ajarkan cara mengatasi bullying",
-          "Latih peningkatan tanggung jawab untuk diri sendiri",
-          "Latih pernyataan/kemampuan positif diri",
-          "Latih cara berfikir dan berperilaku positif",
-          "Latih meningkatkan kepercayaan pada kemampuan dalam menangani situasi"
+          "Ajarkan cara mengatasi bullying"
         ]
       }
     },
@@ -9153,14 +10057,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09311",
       "nama": "Promosi Kesadaran Diri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi keadaan emosional saat ini",
-          "Identifikasi respons yang ditunjukkan berbagai situasi",
+          "Identifikasi respons yang ditunjukkan berbagai situasi"
+        ],
+        "terapeutik": [
+          "Ungkapkan penyangkalan tentang kenyataan",
+          "Motivasi dalam meningkatkan kemampuan belajar",
+          "Latih kemampuan positif diri yang dimiliki"
+        ],
+        "edukasi": [
           "Diskusikan nilai-nilai yang berkontribusi terhadap konsep diri",
           "Diskusikan tentang pikiran, perilaku, atau respons terhadap kondisi",
           "Diskusikan dampak penyakit pada konsep diri",
-          "Ungkapkan penyangkalan tentang kenyataan",
-          "Motivasi dalam meningkatkan kemampuan belajar",
           "Anjurkan mengenali pikiran dan perasaan tentang diri",
           "Anjurkan menyadari bahwa setiap orang unik",
           "Anjurkan mengungkapkan perasaan (mis: marah atau depresi)",
@@ -9170,8 +10079,7 @@ export const allDiagnosesData: Diagnosis[] = [
           "Anjurkan mengidentifikasi situasi yang memicu kecemasan",
           "Anjurkan mengevaluasi Kembali persepsi negatif tentang diri",
           "Anjurkan dalam mengekspresikan diri dengan kelompok sebaya",
-          "Ajarkan cara membuat prioritas hidup",
-          "Latih kemampuan positif diri yang dimiliki"
+          "Ajarkan cara membuat prioritas hidup"
         ]
       }
     },
@@ -9179,20 +10087,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09312",
       "nama": "Promosi Koping",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
           "Identifikasi kemampuan yang dimiliki",
           "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
           "Identifikasi pemahaman proses penyakit",
           "Identifikasi dampak situasi terhadap peran dan hubungan",
           "Identifikasi metode penyelesaian masalah",
-          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
-          "Diskusikan perubahan peran yang dialami",
+          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial"
+        ],
+        "terapeutik": [
           "Gunakan pendekatan yang tenang dan meyakinkan",
-          "Diskusikan alasan mengkritik diri sendiri",
-          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
-          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
-          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
           "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
           "Motivasi untuk menentukan harapan yang realistis",
@@ -9204,15 +10109,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
           "Dukung penggunaan mekanisme pertahanan yang tepat",
           "Kurangi rangsangan lingkungan yang mengancam",
+          "Latih penggunaan Teknik relaksasi",
+          "Latih keterampilan sosial, sesuai kebutuhan",
+          "Latih mengembangkan penilaian obyektif"
+        ],
+        "edukasi": [
+          "Diskusikan perubahan peran yang dialami",
+          "Diskusikan alasan mengkritik diri sendiri",
+          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
           "Anjurkan penggunaan sumber spiritual, jika perlu",
           "Anjurkan mengungkapkan perasaan dan persepsi",
           "Anjurkan keluarga terlibat",
           "Anjurkan membuat tujuan yang lebih spesifik",
-          "Ajarkan cara memecahkan masalah secara konstruktif",
-          "Latih penggunaan Teknik relaksasi",
-          "Latih keterampilan sosial, sesuai kebutuhan",
-          "Latih mengembangkan penilaian obyektif"
+          "Ajarkan cara memecahkan masalah secara konstruktif"
         ]
       }
     }
@@ -9223,7 +10135,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "koping-komunitas-tidak-efektif",
   "kode": "D.0095",
   "nama": "Koping Komunitas Tidak Efektif",
-  "definisi": "Koping komunitas tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai pola adaptasi komunitas dan penyelesaian...",
+  "definisi": "Pola adaptasi komunitas dan penyelesaian masalah yang tidak memuaskan untuk memenuhi tuntutan atau kebutuhan masyarakat",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -9265,12 +10177,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12383",
       "nama": "Edukasi Kesehatan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kesiapan dan kemampuan menerima informasi",
-          "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat",
+          "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat"
+        ],
+        "terapeutik": [
           "Sediakan materi dan media Pendidikan  Kesehatan",
           "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
-          "Berikan kesempatan untuk bertanya",
+          "Berikan kesempatan untuk bertanya"
+        ],
+        "edukasi": [
           "Jelaskan faktor risiko yang dapat mempengaruhi Kesehatan",
           "Ajarkan perilaku hidup bersih dan sehat",
           "Ajarkan strategi yang dapat digunakan untuk meningkatkan perilaku hidup bersih dan sehat"
@@ -9281,13 +10197,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14515",
       "nama": "Manajemen Lingkungan Komunitas",
       "tindakan": {
+        "observasi": [
+          "Identifikasi faktor risiko Kesehatan yang diketahui"
+        ],
         "terapeutik": [
           "Lakukan skrining risiko gangguan Kesehatan lingkungan",
-          "Identifikasi faktor risiko Kesehatan yang diketahui",
           "Libatkan partisipasi masyarakat dalam memelihara keamanan lingkungan",
           "Promosikan kebijakan pemerintah untuk mengurangi risiko penyakit",
-          "Berikan Pendidikan Kesehatan untuk kelompok risiko",
-          "Informasikan layanan Kesehatan ke individu, keluarga, kelompok berisiko dan masyarakat",
+          "Berikan Pendidikan Kesehatan untuk kelompok risiko"
+        ],
+        "edukasi": [
+          "Informasikan layanan Kesehatan ke individu, keluarga, kelompok berisiko dan masyarakat"
+        ],
+        "kolaborasi": [
           "Kolaborasi dalam tim multidisiplin untuk mengidentifikasi ancaman keamanan di masyarakat",
           "Kolaborasi dengan tim Kesehatan lain dalam program Kesehatan komunitas untuk menghadapi risiko yang diketahui",
           "Kolaborasi dalam pegnembangan program aksi masyarakat",
@@ -9299,11 +10221,13 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14548",
       "nama": "Pengembangan Kesehatan Masyarakat",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi masalah atau isu Kesehatan dan prioritasnya",
           "Identifikasi potensi atau aset dalam masyarakat terkait isu yang dihadapi",
           "Identifikasi kekuatan dan partner dalam pengembangan Kesehatan",
-          "Identifikasi pemimpin/tokoh dalam masyarakat",
+          "Identifikasi pemimpin/tokoh dalam masyarakat"
+        ],
+        "terapeutik": [
           "Berikan kesempatan kepada setiap anggota masyarakat untuk berpartisipasi sesuai aset yang dimiliki",
           "Libatkan anggota masyarakat untuk meningkatkan kesadaran terhadap isu dan masalah Kesehatan yang dihadapi",
           "Libatkan masyarakat dalam musyawarah untuk mendefinisikan isu Kesehatan dan mengembangkan rencana kerja",
@@ -9326,7 +10250,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "koping-tidak-efektif",
   "kode": "D.0096",
   "nama": "Koping Tidak Efektif",
-  "definisi": "Koping tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakmampuan menilai dan merespons stresor dan/atau...",
+  "definisi": "Ketidakmampuan menilai dan merespons stresor dan/atau ketidakmampuan menggunakan sumber-sumber yang ada untuk mengatasi masalah",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -9375,18 +10299,24 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09265",
       "nama": "Dukungan Pengambilan Keputusan",
       "tindakan": {
+        "observasi": [
+          "Identifikasi persepsi mengenai masalah dan informasi yang memicu konflik"
+        ],
         "terapeutik": [
-          "Identifikasi persepsi mengenai masalah dan informasi yang memicu konflik",
           "Fasilitasi mengklarifikasi nilai dan harapan yang membantu membuat pilihan",
-          "Diskusikan kelebihan dan kekurangan dari setiap solusi",
           "Fasilitasi melihat situasi secara realistic",
           "Motivasi mengungkapkan tujuan perawatan yang diharapkan",
           "Fasilitasi pengambilan keputusan secara kolaboratif",
           "Hormati hak pasien untuk menerima atau menolak informasi",
           "Fasilitasi menjelaskan keputusan kepada orang lain, jika perlu",
           "Fasilitasi hubungan antara pasien, keluarga, dan tenaga Kesehatan lainnya",
-          "Jelaskan alternatif solusi secara jelas",
-          "Berikan informasi yang diminta pasien",
+          "Berikan informasi yang diminta pasien"
+        ],
+        "edukasi": [
+          "Diskusikan kelebihan dan kekurangan dari setiap solusi",
+          "Jelaskan alternatif solusi secara jelas"
+        ],
+        "kolaborasi": [
           "Kolaborasi dengan tenaga Kesehatan lain dalam memfasilitasi pengambilan keputusan"
         ]
       }
@@ -9395,22 +10325,26 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.13478",
       "nama": "Dukungan Penampilan Peran",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi berbagai peran dan periode transisi sesuai tingkat perkembangan",
           "Identifikasi peran yang ada dalam keluarga",
-          "Identifikasi adanya peran yang tidak terpenuhi",
+          "Identifikasi adanya peran yang tidak terpenuhi"
+        ],
+        "terapeutik": [
           "Fasilitasi adaptasi peran keluarga terhadap perubahan peran yang tidak diinginkan",
           "Fasilitasi bermain peran dalam mengantisipasi reaksi orang lain terhadap perilaku",
           "Fasilitasi diskusi perubahan peran anak terhadap bayi baru lahir, jika perlu",
           "Fasilitasi diskusi tentang peran orang tua, jika perlu",
           "Fasilitasi diskusi tentang adaptasi peran saat anak meninggalkan rumah, jika perlu",
           "Fasilitasi diskusi harapan dengan keluarga dan peran timbal balik",
+          "Rujuk dalam kelompok untuk mempelajari peran baru"
+        ],
+        "edukasi": [
           "Diskusikan perilaku yang dibutuhkan untuk pengembangan peran",
           "Diskusikan perubahan peran yang diperlukan akibat penyakit atau ketidakmampuan",
           "Diskusikan perubahan peran dalam menerima ketergantungan orang tua",
           "Diskusikan strategi positif untuk mengelola perubahan peran",
-          "Ajarkan perilaku baru yang dibutuhkan oleh pasien/orang tua untuk memenuhi peran",
-          "Rujuk dalam kelompok untuk mempelajari peran baru"
+          "Ajarkan perilaku baru yang dibutuhkan oleh pasien/orang tua untuk memenuhi peran"
         ]
       }
     },
@@ -9418,20 +10352,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09312",
       "nama": "Promosi Koping",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
           "Identifikasi kemampuan yang dimiliki",
           "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
           "Identifikasi pemahaman proses penyakit",
           "Identifikasi dampak situasi terhadap peran dan hubungan",
           "Identifikasi metode penyelesaian masalah",
-          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
-          "Diskusikan perubahan peran yang dialami",
+          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial"
+        ],
+        "terapeutik": [
           "Gunakan pendekatan yang tenang dan meyakinkan",
-          "Diskusikan alasan mengkritik diri sendiri",
-          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
-          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
-          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
           "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
           "Motivasi untuk menentukan harapan yang realistis",
@@ -9443,15 +10374,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
           "Dukung penggunaan mekanisme pertahanan yang tepat",
           "Kurangi rangsangan lingkungan yang mengancam",
+          "Latih penggunaan Teknik relaksasi",
+          "Latih keterampilan sosial, sesuai kebutuhan",
+          "Latih mengembangkan penilaian obyektif"
+        ],
+        "edukasi": [
+          "Diskusikan perubahan peran yang dialami",
+          "Diskusikan alasan mengkritik diri sendiri",
+          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
           "Anjurkan penggunaan sumber spiritual, jika perlu",
           "Anjurkan mengungkapkan perasaan dan persepsi",
           "Anjurkan keluarga terlibat",
           "Anjurkan membuat tujuan yang lebih spesifik",
-          "Ajarkan cara memecahkan masalah secara konstruktif",
-          "Latih penggunaan Teknik relaksasi",
-          "Latih keterampilan sosial, sesuai kebutuhan",
-          "Latih mengembangkan penilaian obyektif"
+          "Ajarkan cara memecahkan masalah secara konstruktif"
         ]
       }
     }
@@ -9462,7 +10400,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "penurunan-koping-keluarga",
   "kode": "D.0097",
   "nama": "Penurunan Koping Keluarga",
-  "definisi": "Penurunan koping keluarga merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakadekuatan atau ketidakefektifan dukungan, rasa...",
+  "definisi": "Ketidakadekuatan atau ketidakefektifan dukungan, rasa nyaman, bantuan dan motivasi orang terdekat yang dibutuhkan klien untuk mengelola atau mengatasi masalah kesehatannya",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -9512,14 +10450,15 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09260",
       "nama": "Dukungan Koping Keluarga",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi respons emosional terhadap kondisi saat ini",
           "Identifikasi beban prognosis secara psikologis",
           "Identifikasi pemahaman tentang keputusan perawatan setelah pulang",
-          "Identifikasi kesesuaian antara harapan pasien, keluarga, dan tenaga kesehatan",
+          "Identifikasi kesesuaian antara harapan pasien, keluarga, dan tenaga kesehatan"
+        ],
+        "terapeutik": [
           "Dengarkan masalah, perasaan, dan pertanyaan keluarga",
           "Terima nilai-nilai keluarga dengan cara yang tidak menghakimi",
-          "Diskusikan rencana medis dan perawatan",
           "Fasilitasi pengungkapan perasaan antara pasien dan keluarga atau antar anggota keluarga",
           "Fasilitasi pengambilan keputusan dalam merencanakan perawatan jangka Panjang, jika perlu",
           "Fasilitasi anggota keluarga dalam mengidentifikasi dan menyelesaikan konflik nilai",
@@ -9529,9 +10468,12 @@ export const allDiagnosesData: Diagnosis[] = [
           "Bersikap sebagai pengganti keluarga untuk menenangkan pasien dan/atau jika keluarga tidak dapat memberikan perawatan",
           "Hargai dan dukung mekanisme koping adaptif yang digunakan",
           "Berikan kesempatan berkunjung bagi anggota keluarga",
-          "Informasikan kemajuan pasien secara berkala",
-          "Informasikan fasilitas perawatan Kesehatan yang tersedia",
           "Rujuk untuk terapi keluarga, jika perlu"
+        ],
+        "edukasi": [
+          "Diskusikan rencana medis dan perawatan",
+          "Informasikan kemajuan pasien secara berkala",
+          "Informasikan fasilitas perawatan Kesehatan yang tersedia"
         ]
       }
     },
@@ -9539,20 +10481,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09312",
       "nama": "Promosi Koping",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
           "Identifikasi kemampuan yang dimiliki",
           "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
           "Identifikasi pemahaman proses penyakit",
           "Identifikasi dampak situasi terhadap peran dan hubungan",
           "Identifikasi metode penyelesaian masalah",
-          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
-          "Diskusikan perubahan peran yang dialami",
+          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial"
+        ],
+        "terapeutik": [
           "Gunakan pendekatan yang tenang dan meyakinkan",
-          "Diskusikan alasan mengkritik diri sendiri",
-          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
-          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
-          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
           "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
           "Motivasi untuk menentukan harapan yang realistis",
@@ -9564,15 +10503,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
           "Dukung penggunaan mekanisme pertahanan yang tepat",
           "Kurangi rangsangan lingkungan yang mengancam",
+          "Latih penggunaan Teknik relaksasi",
+          "Latih keterampilan sosial, sesuai kebutuhan",
+          "Latih mengembangkan penilaian obyektif"
+        ],
+        "edukasi": [
+          "Diskusikan perubahan peran yang dialami",
+          "Diskusikan alasan mengkritik diri sendiri",
+          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
           "Anjurkan penggunaan sumber spiritual, jika perlu",
           "Anjurkan mengungkapkan perasaan dan persepsi",
           "Anjurkan keluarga terlibat",
           "Anjurkan membuat tujuan yang lebih spesifik",
-          "Ajarkan cara memecahkan masalah secara konstruktif",
-          "Latih penggunaan Teknik relaksasi",
-          "Latih keterampilan sosial, sesuai kebutuhan",
-          "Latih mengembangkan penilaian obyektif"
+          "Ajarkan cara memecahkan masalah secara konstruktif"
         ]
       }
     }
@@ -9583,7 +10529,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "penyangkalan-tidak-efektif",
   "kode": "D.0098",
   "nama": "Penyangkalan Tidak Efektif",
-  "definisi": "Penyangkalan tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai upaya mengingkari pemahaman atau makna suatu...",
+  "definisi": "Upaya mengingkari pemahaman atau makna suatu peristiwa secara sadar atau tidak sadar untuk menurunkan kecemasan/ketakutan yang dapat menyebabkan gangguan Kesehatan",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -9623,14 +10569,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09311",
       "nama": "Promosi Kesadaran Diri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi keadaan emosional saat ini",
-          "Identifikasi respons yang ditunjukkan berbagai situasi",
+          "Identifikasi respons yang ditunjukkan berbagai situasi"
+        ],
+        "terapeutik": [
+          "Ungkapkan penyangkalan tentang kenyataan",
+          "Motivasi dalam meningkatkan kemampuan belajar",
+          "Latih kemampuan positif diri yang dimiliki"
+        ],
+        "edukasi": [
           "Diskusikan nilai-nilai yang berkontribusi terhadap konsep diri",
           "Diskusikan tentang pikiran, perilaku, atau respons terhadap kondisi",
           "Diskusikan dampak penyakit pada konsep diri",
-          "Ungkapkan penyangkalan tentang kenyataan",
-          "Motivasi dalam meningkatkan kemampuan belajar",
           "Anjurkan mengenali pikiran dan perasaan tentang diri",
           "Anjurkan menyadari bahwa setiap orang unik",
           "Anjurkan mengungkapkan perasaan (mis: marah atau depresi)",
@@ -9640,8 +10591,7 @@ export const allDiagnosesData: Diagnosis[] = [
           "Anjurkan mengidentifikasi situasi yang memicu kecemasan",
           "Anjurkan mengevaluasi Kembali persepsi negatif tentang diri",
           "Anjurkan dalam mengekspresikan diri dengan kelompok sebaya",
-          "Ajarkan cara membuat prioritas hidup",
-          "Latih kemampuan positif diri yang dimiliki"
+          "Ajarkan cara membuat prioritas hidup"
         ]
       }
     },
@@ -9649,20 +10599,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09312",
       "nama": "Promosi Koping",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
           "Identifikasi kemampuan yang dimiliki",
           "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
           "Identifikasi pemahaman proses penyakit",
           "Identifikasi dampak situasi terhadap peran dan hubungan",
           "Identifikasi metode penyelesaian masalah",
-          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
-          "Diskusikan perubahan peran yang dialami",
+          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial"
+        ],
+        "terapeutik": [
           "Gunakan pendekatan yang tenang dan meyakinkan",
-          "Diskusikan alasan mengkritik diri sendiri",
-          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
-          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
-          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
           "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
           "Motivasi untuk menentukan harapan yang realistis",
@@ -9674,15 +10621,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
           "Dukung penggunaan mekanisme pertahanan yang tepat",
           "Kurangi rangsangan lingkungan yang mengancam",
+          "Latih penggunaan Teknik relaksasi",
+          "Latih keterampilan sosial, sesuai kebutuhan",
+          "Latih mengembangkan penilaian obyektif"
+        ],
+        "edukasi": [
+          "Diskusikan perubahan peran yang dialami",
+          "Diskusikan alasan mengkritik diri sendiri",
+          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
           "Anjurkan penggunaan sumber spiritual, jika perlu",
           "Anjurkan mengungkapkan perasaan dan persepsi",
           "Anjurkan keluarga terlibat",
           "Anjurkan membuat tujuan yang lebih spesifik",
-          "Ajarkan cara memecahkan masalah secara konstruktif",
-          "Latih penggunaan Teknik relaksasi",
-          "Latih keterampilan sosial, sesuai kebutuhan",
-          "Latih mengembangkan penilaian obyektif"
+          "Ajarkan cara memecahkan masalah secara konstruktif"
         ]
       }
     }
@@ -9693,7 +10647,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "perilaku-kesehatan-cenderung-berisiko",
   "kode": "D.0099",
   "nama": "Perilaku Kesehatan Cenderung Berisiko",
-  "definisi": "Perilaku Kesehatan cenderung berisiko merupakan diagnosis keperawatan yang didefinisikan sebagai hambatan kemampuan dalam...",
+  "definisi": "Hambatan kemampuan dalam mengubah gaya hidup/perilaku untuk memperbaiki status Kesehatan",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [],
@@ -9730,10 +10684,14 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12472",
       "nama": "Promosi Perilaku Upaya Kesehatan",
       "tindakan": {
+        "observasi": [
+          "Identifikasi perilaku upaya Kesehatan yang dapat ditingkatkan"
+        ],
         "terapeutik": [
-          "Identifikasi perilaku upaya Kesehatan yang dapat ditingkatkan",
           "Berikan lingkungan yang mendukung Kesehatan",
-          "Orientasi pelayanan Kesehatan yang dapat dimanfaatkan",
+          "Orientasi pelayanan Kesehatan yang dapat dimanfaatkan"
+        ],
+        "edukasi": [
           "Anjurkan persalinan ditolong oleh tenaga kesehatan",
           "Anjurkan memberi bayi ASI eksklusif",
           "Anjurkan menimbang balita setiap bulan",
@@ -9754,7 +10712,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risko-distres-spiritual",
   "kode": "D.0100",
   "nama": "Risko Distres Spiritual",
-  "definisi": "Risiko distres spiritual merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami gangguan keyakinan atau sistem...",
+  "definisi": "Berisiko mengalami gangguan keyakinan atau sistem nilai pada individu atau kelompok berupa kekuatan, harapan, dan makna hidup",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -9808,10 +10766,12 @@ export const allDiagnosesData: Diagnosis[] = [
           "Fasilitasi mengidentifikasi hambatan dalam pengenalan diri",
           "Fasilitasi mengeksplorasi keyakinan terkait pemulihan tubuh, pikiran, dan jiwa",
           "Fasilitasi hubungan persahabatan dengan orang lain dan pelayanan keagamaan",
-          "Anjurkan membuat komitmen spiritual berdasarkan keyakinan dan nilai",
-          "Anjurkan berpartisipasi dalam kegiatan ibadah (hari raya, ritual) dan meditasi",
           "Rujuk pada pemuka agama/kelompok agama, jika perlu",
           "Rujuk kepada kelompok pendukung, swabantu, atau program  spiritual, jika perlu"
+        ],
+        "edukasi": [
+          "Anjurkan membuat komitmen spiritual berdasarkan keyakinan dan nilai",
+          "Anjurkan berpartisipasi dalam kegiatan ibadah (hari raya, ritual) dan meditasi"
         ]
       }
     },
@@ -9819,9 +10779,11 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09306",
       "nama": "Promosi Dukungan Spiritual",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi keyakinan tentang makna dan tujuan hidup, sesuai kebutuhan",
-          "Identifikasi perspektif spiritual, sesuai kebutuhan",
+          "Identifikasi perspektif spiritual, sesuai kebutuhan"
+        ],
+        "terapeutik": [
           "Perlakukan pasien dengan bermartabat dan terhormat",
           "Tunjukkan keterbukaan, empati, dan kesediaan mendengarkan perasaan pasien",
           "Yakinkan bahwa perawat selalu ada dan mendukung",
@@ -9833,7 +10795,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Motivasi berpartisipasi dalam kelompok pendukung",
           "Motivasi mengekspresikan perasaan (mis: kesepian, tidak berdaya, ansietas)",
           "Motivasi penggunaan sumber spiritual, jika perlu",
-          "Jadwalkan kunjungan pembimbing spiritual, jika perlu",
+          "Jadwalkan kunjungan pembimbing spiritual, jika perlu"
+        ],
+        "edukasi": [
           "Anjurkan mengingat kenangan hidup",
           "Anjurkan untuk berdoa",
           "Anjurkan penggunaan media spiritual (mis: televisi, buku)",
@@ -9848,7 +10812,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-harga-diri-rendah-kronis",
   "kode": "D.0101",
   "nama": "Risiko Harga Diri Rendah Kronis",
-  "definisi": "Risiko harga diri rendah kronis merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami evaluasi atau perasaan...",
+  "definisi": "Berisiko mengalami evaluasi atau perasaan negatif terhadap diri sendiri atau kemampuan klien yang berlangsung dalam waktu lama dan terus menerus",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -9894,12 +10858,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09308",
       "nama": "Promosi Harga Diri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi budaya, agama, ras, jenis kelamin, dan usia terhadap harga diri",
           "Monitor verbalisasi yang merendahkan diri sendiri",
-          "Monitor tingkat harga diri setiap waktu, sesuai kebutuhan",
+          "Monitor tingkat harga diri setiap waktu, sesuai kebutuhan"
+        ],
+        "terapeutik": [
           "Motivasi terlibat dalam verbalisasi positif untuk diri sendiri",
           "Motivasi menerima tantangan atau hal baru",
+          "Berikan umpan balik positif atas peningkatan mencapai tujuan",
+          "Fasilitasi lingkungan dan aktivitas yang meningkatkan diri",
+          "Latih peningkatan tanggung jawab untuk diri sendiri",
+          "Latih pernyataan/kemampuan positif diri",
+          "Latih cara berfikir dan berperilaku positif",
+          "Latih meningkatkan kepercayaan pada kemampuan dalam menangani situasi"
+        ],
+        "edukasi": [
           "Diskusikan pernyataan tentang harga diri",
           "Diskusikan kepercayaan terhadap penilaian diri",
           "Diskusikan pengalaman yang meningkatkan harga diri",
@@ -9907,18 +10881,12 @@ export const allDiagnosesData: Diagnosis[] = [
           "Diskusikan alasan mengkritik diri atau rasa bersalah",
           "Diskusikan penetapan tujuan realistis untuk mencapai harga diri yang lebih tinggi",
           "Diskusikan Bersama keluarga untuk menetapkan harapan dan Batasan yang jelas",
-          "Berikan umpan balik positif atas peningkatan mencapai tujuan",
-          "Fasilitasi lingkungan dan aktivitas yang meningkatkan diri",
           "Jelaskan kepada keluarga pentingnya dukungan dalam perkembangan konsep positif diri pasien",
           "Anjurkan mengidentifikasi kekuatan yang dimiliki",
           "Anjurkan mempertahankan kontak mata saat berkomunikasi dengan orang lain",
           "Anjurkan membuka diri terhadap kritik negatif",
           "Anjurkan mengevaluasi perilaku",
-          "Ajarkan cara mengatasi bullying",
-          "Latih peningkatan tanggung jawab untuk diri sendiri",
-          "Latih pernyataan/kemampuan positif diri",
-          "Latih cara berfikir dan berperilaku positif",
-          "Latih meningkatkan kepercayaan pada kemampuan dalam menangani situasi"
+          "Ajarkan cara mengatasi bullying"
         ]
       }
     },
@@ -9926,20 +10894,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09312",
       "nama": "Promosi Koping",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
           "Identifikasi kemampuan yang dimiliki",
           "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
           "Identifikasi pemahaman proses penyakit",
           "Identifikasi dampak situasi terhadap peran dan hubungan",
           "Identifikasi metode penyelesaian masalah",
-          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
-          "Diskusikan perubahan peran yang dialami",
+          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial"
+        ],
+        "terapeutik": [
           "Gunakan pendekatan yang tenang dan meyakinkan",
-          "Diskusikan alasan mengkritik diri sendiri",
-          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
-          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
-          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
           "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
           "Motivasi untuk menentukan harapan yang realistis",
@@ -9951,15 +10916,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
           "Dukung penggunaan mekanisme pertahanan yang tepat",
           "Kurangi rangsangan lingkungan yang mengancam",
+          "Latih penggunaan Teknik relaksasi",
+          "Latih keterampilan sosial, sesuai kebutuhan",
+          "Latih mengembangkan penilaian obyektif"
+        ],
+        "edukasi": [
+          "Diskusikan perubahan peran yang dialami",
+          "Diskusikan alasan mengkritik diri sendiri",
+          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
           "Anjurkan penggunaan sumber spiritual, jika perlu",
           "Anjurkan mengungkapkan perasaan dan persepsi",
           "Anjurkan keluarga terlibat",
           "Anjurkan membuat tujuan yang lebih spesifik",
-          "Ajarkan cara memecahkan masalah secara konstruktif",
-          "Latih penggunaan Teknik relaksasi",
-          "Latih keterampilan sosial, sesuai kebutuhan",
-          "Latih mengembangkan penilaian obyektif"
+          "Ajarkan cara memecahkan masalah secara konstruktif"
         ]
       }
     },
@@ -9967,25 +10939,29 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.13498",
       "nama": "Promosi Sosialisasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kemampuan melakukan interaksi dengan orang lain",
-          "Identifikasi hambatan melakukan interaksi dengan orang lain",
+          "Identifikasi hambatan melakukan interaksi dengan orang lain"
+        ],
+        "terapeutik": [
           "Motivasi meningkatkan keterlibatan dalam suatu hubungan",
           "Motivasi kesabaran dalam mengembangkan suatu hubungan",
           "Motivasi berpartisipasi dalam aktivitas baru dan kegiatan kelompok",
           "Motivasi berinteraksi di luar lingkungan (mis: jalan-jalan, ke toko buku)",
-          "Diskusikan kekuatan dan keterbatasan dalam berkomunikasi dengan orang lain",
-          "Diskusikan perencanaan kegiatan di masa depan",
           "Berikan umpan balik positif dalam perawatan diri",
           "Berikan umpan balik positif pada setiap peningkatan kemampuan",
+          "Latih bermain peran untuk meningkatkan keterampilan komunikasi",
+          "Latih mengekspresikan marah dengan tepat"
+        ],
+        "edukasi": [
+          "Diskusikan kekuatan dan keterbatasan dalam berkomunikasi dengan orang lain",
+          "Diskusikan perencanaan kegiatan di masa depan",
           "Anjurkan berinteraksi dengan orang lain secara bertahap",
           "Anjurkan ikut serta kegiatan sosial dan kemasyarakatan",
           "Anjurkan berbagi pengalaman dengan orang lain",
           "Anjurkan meningkatkan kejujuran diri dan menghormati hak orang lain",
           "Anjurkan penggunaan alat bantu (mis: kacamata dan alat bantu dengar)",
-          "Anjurkan membuat perencanaan kelompok kecil untuk kegiatan khusus",
-          "Latih bermain peran untuk meningkatkan keterampilan komunikasi",
-          "Latih mengekspresikan marah dengan tepat"
+          "Anjurkan membuat perencanaan kelompok kecil untuk kegiatan khusus"
         ]
       }
     }
@@ -9996,7 +10972,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-harga-diri-rendah-situasional",
   "kode": "D.0102",
   "nama": "Risiko Harga Diri Rendah Situasional",
-  "definisi": "Risiko harga diri rendah situasional merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami evaluasi atau perasaan...",
+  "definisi": "Berisiko mengalami evaluasi atau perasaan negatif terhadap diri sendiri atau kemampuan klien sebagai respon terhadap situasi saat ini",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -10046,22 +11022,26 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.13478",
       "nama": "Dukungan Penampilan Peran",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi berbagai peran dan periode transisi sesuai tingkat perkembangan",
           "Identifikasi peran yang ada dalam keluarga",
-          "Identifikasi adanya peran yang tidak terpenuhi",
+          "Identifikasi adanya peran yang tidak terpenuhi"
+        ],
+        "terapeutik": [
           "Fasilitasi adaptasi peran keluarga terhadap perubahan peran yang tidak diinginkan",
           "Fasilitasi bermain peran dalam mengantisipasi reaksi orang lain terhadap perilaku",
           "Fasilitasi diskusi perubahan peran anak terhadap bayi baru lahir, jika perlu",
           "Fasilitasi diskusi tentang peran orang tua, jika perlu",
           "Fasilitasi diskusi tentang adaptasi peran saat anak meninggalkan rumah, jika perlu",
           "Fasilitasi diskusi harapan dengan keluarga dan peran timbal balik",
+          "Rujuk dalam kelompok untuk mempelajari peran baru"
+        ],
+        "edukasi": [
           "Diskusikan perilaku yang dibutuhkan untuk pengembangan peran",
           "Diskusikan perubahan peran yang diperlukan akibat penyakit atau ketidakmampuan",
           "Diskusikan perubahan peran dalam menerima ketergantungan orang tua",
           "Diskusikan strategi positif untuk mengelola perubahan peran",
-          "Ajarkan perilaku baru yang dibutuhkan oleh pasien/orang tua untuk memenuhi peran",
-          "Rujuk dalam kelompok untuk mempelajari peran baru"
+          "Ajarkan perilaku baru yang dibutuhkan oleh pasien/orang tua untuk memenuhi peran"
         ]
       }
     },
@@ -10069,12 +11049,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09308",
       "nama": "Promosi Harga Diri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi budaya, agama, ras, jenis kelamin, dan usia terhadap harga diri",
           "Monitor verbalisasi yang merendahkan diri sendiri",
-          "Monitor tingkat harga diri setiap waktu, sesuai kebutuhan",
+          "Monitor tingkat harga diri setiap waktu, sesuai kebutuhan"
+        ],
+        "terapeutik": [
           "Motivasi terlibat dalam verbalisasi positif untuk diri sendiri",
           "Motivasi menerima tantangan atau hal baru",
+          "Berikan umpan balik positif atas peningkatan mencapai tujuan",
+          "Fasilitasi lingkungan dan aktivitas yang meningkatkan diri",
+          "Latih peningkatan tanggung jawab untuk diri sendiri",
+          "Latih pernyataan/kemampuan positif diri",
+          "Latih cara berfikir dan berperilaku positif",
+          "Latih meningkatkan kepercayaan pada kemampuan dalam menangani situasi"
+        ],
+        "edukasi": [
           "Diskusikan pernyataan tentang harga diri",
           "Diskusikan kepercayaan terhadap penilaian diri",
           "Diskusikan pengalaman yang meningkatkan harga diri",
@@ -10082,18 +11072,12 @@ export const allDiagnosesData: Diagnosis[] = [
           "Diskusikan alasan mengkritik diri atau rasa bersalah",
           "Diskusikan penetapan tujuan realistis untuk mencapai harga diri yang lebih tinggi",
           "Diskusikan Bersama keluarga untuk menetapkan harapan dan Batasan yang jelas",
-          "Berikan umpan balik positif atas peningkatan mencapai tujuan",
-          "Fasilitasi lingkungan dan aktivitas yang meningkatkan diri",
           "Jelaskan kepada keluarga pentingnya dukungan dalam perkembangan konsep positif diri pasien",
           "Anjurkan mengidentifikasi kekuatan yang dimiliki",
           "Anjurkan mempertahankan kontak mata saat berkomunikasi dengan orang lain",
           "Anjurkan membuka diri terhadap kritik negatif",
           "Anjurkan mengevaluasi perilaku",
-          "Ajarkan cara mengatasi bullying",
-          "Latih peningkatan tanggung jawab untuk diri sendiri",
-          "Latih pernyataan/kemampuan positif diri",
-          "Latih cara berfikir dan berperilaku positif",
-          "Latih meningkatkan kepercayaan pada kemampuan dalam menangani situasi"
+          "Ajarkan cara mengatasi bullying"
         ]
       }
     },
@@ -10101,14 +11085,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09311",
       "nama": "Promosi Kesadaran Diri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi keadaan emosional saat ini",
-          "Identifikasi respons yang ditunjukkan berbagai situasi",
+          "Identifikasi respons yang ditunjukkan berbagai situasi"
+        ],
+        "terapeutik": [
+          "Ungkapkan penyangkalan tentang kenyataan",
+          "Motivasi dalam meningkatkan kemampuan belajar",
+          "Latih kemampuan positif diri yang dimiliki"
+        ],
+        "edukasi": [
           "Diskusikan nilai-nilai yang berkontribusi terhadap konsep diri",
           "Diskusikan tentang pikiran, perilaku, atau respons terhadap kondisi",
           "Diskusikan dampak penyakit pada konsep diri",
-          "Ungkapkan penyangkalan tentang kenyataan",
-          "Motivasi dalam meningkatkan kemampuan belajar",
           "Anjurkan mengenali pikiran dan perasaan tentang diri",
           "Anjurkan menyadari bahwa setiap orang unik",
           "Anjurkan mengungkapkan perasaan (mis: marah atau depresi)",
@@ -10118,8 +11107,7 @@ export const allDiagnosesData: Diagnosis[] = [
           "Anjurkan mengidentifikasi situasi yang memicu kecemasan",
           "Anjurkan mengevaluasi Kembali persepsi negatif tentang diri",
           "Anjurkan dalam mengekspresikan diri dengan kelompok sebaya",
-          "Ajarkan cara membuat prioritas hidup",
-          "Latih kemampuan positif diri yang dimiliki"
+          "Ajarkan cara membuat prioritas hidup"
         ]
       }
     }
@@ -10130,7 +11118,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-ketidakberdayaan",
   "kode": "D.0103",
   "nama": "Risiko Ketidakberdayaan",
-  "definisi": "Risiko ketidakberdayaan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami persepsi bahwa tindakan...",
+  "definisi": "Berisiko mengalami persepsi bahwa tindakan seseorang tidak akan mempengaruhi hasil secara signifikan; persepsi kurang kontrol pada situasi saat ini atau yang akan datang",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [
@@ -10169,20 +11157,24 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09307",
       "nama": "Promosi Harapan",
       "tindakan": {
+        "observasi": [
+          "Identifikasi harapan pasien dan keluarga dalam pencapaian hidup"
+        ],
         "terapeutik": [
-          "Identifikasi harapan pasien dan keluarga dalam pencapaian hidup",
           "Sadarkan bahwa kondisi yang dialami memiliki nilai penting",
           "Pandu mengingat Kembali kenangan yang menyenangkan",
-          "Libatkan pasien secara aktif dalam perawatan",
           "Kembangkan rencana perawatan yang melibatkan tingkat pencapaian tujuan sederhana sampai dengan kompleks",
           "Berikan kesempatan kepada pasien dan keluarga terlibat dengan dukungan kelompok",
           "Ciptakan lingkungan yang memudahkan mempraktikkan kebutuhan spiritual",
-          "Anjurkan mengungkapkan perasaan terhdap kondisi dengan realistis",
-          "Anjurkan mempertahankan hubungan (mis: menyebutkan nama orang yang dicintai)",
-          "Anjurkan mempertahankan hubungan terapeutik dengan orang lain",
           "Latih menyusun tujuan yang sesuai dengan harapan",
           "Latih cara mengembangkan spiritual diri",
           "Latih cara mengenang dan menikmati masa lalu (mis: prestasi, pengalaman)"
+        ],
+        "edukasi": [
+          "Libatkan pasien secara aktif dalam perawatan",
+          "Anjurkan mengungkapkan perasaan terhdap kondisi dengan realistis",
+          "Anjurkan mempertahankan hubungan (mis: menyebutkan nama orang yang dicintai)",
+          "Anjurkan mempertahankan hubungan terapeutik dengan orang lain"
         ]
       }
     },
@@ -10190,20 +11182,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09312",
       "nama": "Promosi Koping",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
           "Identifikasi kemampuan yang dimiliki",
           "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
           "Identifikasi pemahaman proses penyakit",
           "Identifikasi dampak situasi terhadap peran dan hubungan",
           "Identifikasi metode penyelesaian masalah",
-          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
-          "Diskusikan perubahan peran yang dialami",
+          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial"
+        ],
+        "terapeutik": [
           "Gunakan pendekatan yang tenang dan meyakinkan",
-          "Diskusikan alasan mengkritik diri sendiri",
-          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
-          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
-          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
           "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
           "Motivasi untuk menentukan harapan yang realistis",
@@ -10215,15 +11204,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
           "Dukung penggunaan mekanisme pertahanan yang tepat",
           "Kurangi rangsangan lingkungan yang mengancam",
+          "Latih penggunaan Teknik relaksasi",
+          "Latih keterampilan sosial, sesuai kebutuhan",
+          "Latih mengembangkan penilaian obyektif"
+        ],
+        "edukasi": [
+          "Diskusikan perubahan peran yang dialami",
+          "Diskusikan alasan mengkritik diri sendiri",
+          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
           "Anjurkan penggunaan sumber spiritual, jika perlu",
           "Anjurkan mengungkapkan perasaan dan persepsi",
           "Anjurkan keluarga terlibat",
           "Anjurkan membuat tujuan yang lebih spesifik",
-          "Ajarkan cara memecahkan masalah secara konstruktif",
-          "Latih penggunaan Teknik relaksasi",
-          "Latih keterampilan sosial, sesuai kebutuhan",
-          "Latih mengembangkan penilaian obyektif"
+          "Ajarkan cara memecahkan masalah secara konstruktif"
         ]
       }
     }
@@ -10234,7 +11230,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "sindrom-pasca-trauma",
   "kode": "D.0104",
   "nama": "Sindrom Pasca Trauma",
-  "definisi": "Sindrom pasca trauma merupakan diagnosis keperawatan yang didefinisikan sebagai respon maladaptif yang berkelanjutan terhadap...",
+  "definisi": "Respon maladaptif yang berkelanjutan terhadap kejadian trauma",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [],
@@ -10276,16 +11272,20 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09274",
       "nama": "Dukungan Proses Berduka",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kehilangan yang dihadapi",
           "Identifikasi proses berduka yang dialami",
           "Identifikasi sifat keterikatan pada benda yang hilang atau orang yang meninggal",
-          "Identifikasi reaksi awal terhadap kehilangan",
+          "Identifikasi reaksi awal terhadap kehilangan"
+        ],
+        "terapeutik": [
           "Tunjukan sikap menerima dan empati",
           "Motivasi agar mau mengungkapkan perasaan kehilangan",
           "Motivasi untuk menguatkan dukungan keluarga atau orang terdekat",
           "Fasilitasi melakukan kebiasaan sesuai dengan budaya, agama, dan norma sosial",
-          "Fasilitasi mengekspresikan perasaan dengan cara yang nyaman (mis: membaca buku, menulis, menggambar, atau bermain)",
+          "Fasilitasi mengekspresikan perasaan dengan cara yang nyaman (mis: membaca buku, menulis, menggambar, atau bermain)"
+        ],
+        "edukasi": [
           "Diskusikan strategi koping yang dapat digunakan",
           "Jelaskan kepada pasien dan keluarga bahwa sikap mengingkari, marah, tawar menawar, depresi, dan menerima adalah wajar dalam menghadapi kehilangan",
           "Anjurkan mengidentifikasi ketakutan terbesar pada kehilangan",
@@ -10298,10 +11298,12 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09314",
       "nama": "Reduksi Ansietas",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi saat tingkat ansietas berubah (mis: kondisi, waktu, stresor)",
           "Identifikasi kemampuan mengambil keputusan",
-          "Monitor tanda-tanda ansietas (verbal dan nonverbal)",
+          "Monitor tanda-tanda ansietas (verbal dan nonverbal)"
+        ],
+        "terapeutik": [
           "Ciptakan suasana terapeutik untuk menumbuhkan kepercayaan",
           "Temani pasien untuk mengurangi kecemasan, jika memungkinkan",
           "Pahami situasi yang membuat ansietas",
@@ -10309,15 +11311,19 @@ export const allDiagnosesData: Diagnosis[] = [
           "Gunakan pendekatan yang tenang dan meyakinkan",
           "Tempatkan barang pribadi yang memberikan kenyamanan",
           "Motivasi mengidentifikasi situasi yang memicu kecemasan",
+          "Latih kegiatan pengalihan untuk mengurangi ketegangan",
+          "Latih penggunaan mekanisme pertahanan diri yang tepat",
+          "Latih Teknik relaksasi"
+        ],
+        "edukasi": [
           "Diskusikan perencanaan realistis tentang peristiwa yang akan datang",
           "Jelaskan prosedur, termasuk sensasi yang mungkin dialami",
           "Informasikan secara faktual mengenai diagnosis, pengobatan, dan prognosis",
           "Anjurkan keluarga untuk tetap Bersama pasien, jika perlu",
           "Anjurkan melakukan kegiatan yang tidak kompetitif, sesuai kebutuhan",
-          "Anjurkan mengungkapkan perasaan dan persepsi",
-          "Latih kegiatan pengalihan untuk mengurangi ketegangan",
-          "Latih penggunaan mekanisme pertahanan diri yang tepat",
-          "Latih Teknik relaksasi",
+          "Anjurkan mengungkapkan perasaan dan persepsi"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat antiansietas, jika perlu"
         ]
       }
@@ -10329,7 +11335,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "waham",
   "kode": "D.0105",
   "nama": "Waham",
-  "definisi": "Waham merupakan diagnosis keperawatan yang didefinisikan sebagai keyakinan yang keliru tentang isi pikiran yang dipertahankan secara...",
+  "definisi": "Keyakinan yang keliru tentang isi pikiran yang dipertahankan secara kuat atau terus menerus namun tidak sesuai dengan kenyataan",
   "kategori": "Integritas ego",
   "tipe": "Aktual",
   "keluhan": [],
@@ -10365,21 +11371,27 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09295",
       "nama": "Manajemen Waham",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor waham yang isinya membahayakan diri sendiri, orang lain, dan lingkungan",
-          "Monitor efek terapeutik dan efek samping obat",
+          "Monitor efek terapeutik dan efek samping obat"
+        ],
+        "terapeutik": [
           "Bina hubungan interpersonal saling percaya",
           "Tunjukkan sikap tidak menghakimi secara konsisten",
-          "Diskusikan waham dengan berfokus pada perasaan yang mendasari waham (“Anda terlihat seperti sedang merasa ketakutan”)",
           "Hindari perdebatan tentang keyakinan yang keliru, nyatakan keraguan sesuai fakta",
           "Hindari memperkuat gagasan waham",
           "Sediakan lingkungan aman dan nyaman",
           "Berikan aktivitas rekreasi dan pengalihan sesuai kebutuhan",
           "Lakukan intervensi pengontrolan perilaku waham (Mis: limit setting, pembatasan wilayah, pengekangan fisik, atau seklusi)",
+          "Latih manajemen stres"
+        ],
+        "edukasi": [
+          "Diskusikan waham dengan berfokus pada perasaan yang mendasari waham (“Anda terlihat seperti sedang merasa ketakutan”)",
           "Anjurkan mengungkapkan dan memvalidasi waham (uji realitas) dengan orang yang dipercaya (pemberi asuhan/keluarga)",
           "Anjurkan melakukan rutinitas harian secara konsisten",
-          "Latih manajemen stres",
-          "Jelaskan tentang waham serta penyakit terkait (mis: delirium, skizofrenia, atau depresi), cara mengatasi dan obat yang diberikan",
+          "Jelaskan tentang waham serta penyakit terkait (mis: delirium, skizofrenia, atau depresi), cara mengatasi dan obat yang diberikan"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat, sesuai indikasi"
         ]
       }
@@ -10388,9 +11400,11 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09297",
       "nama": "Orientasi Realita",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor perubahan orientasi",
-          "Monitor perubahan kognitif dan perilaku",
+          "Monitor perubahan kognitif dan perilaku"
+        ],
+        "terapeutik": [
           "Perkenalkan nama saat memulai interaksi",
           "Orientasikan orang, tempat, dan waktu",
           "Hadirkan realita (mis: beri penjelasan alternatif, hindari perdebatan)",
@@ -10399,7 +11413,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Gunakan simbol dalam mengorientasikan lingkungan (mis: tanda, gambar, warna)",
           "Libatkan dalam terapi kelompok orientasi",
           "Berikan waktu istirahat dan tidur yang cukup, sesuai kebutuhan",
-          "Fasilitasi akses informasi (mis: televisi, surat kabad, radio), jika perlu",
+          "Fasilitasi akses informasi (mis: televisi, surat kabad, radio), jika perlu"
+        ],
+        "edukasi": [
           "Anjurkan perawatan diri secara mandiri",
           "Anjurkan penggunaan alat bantu (mis: kacamata, alat bantu dengar, gigi palsu)",
           "Ajarkan keluarga dalam perawatan orientasi lansia"
@@ -10413,7 +11429,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "gangguan-tumbuh-kembang",
   "kode": "D.0106",
   "nama": "Gangguan Tumbuh Kembang",
-  "definisi": "Gangguan tumbuh kembang merupakan diagnosis keperawatan yang didefinisikan sebagai kondisi individu mengalami gangguan kemampuan...",
+  "definisi": "Kondisi individu mengalami gangguan kemampuan bertumbuh dan berkembang sesuai dengan kelompok usia",
   "kategori": "Pertumbuhan dan Perkembangan",
   "tipe": "Aktual",
   "keluhan": [
@@ -10451,9 +11467,11 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.10339",
       "nama": "Perawatan perkembangan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi pencapaian tugas perkembangan anak",
-          "Identifikasi isyarat perilaku dan fisiologis yang ditunjukkan bayi (mis: lapar, tidak nyaman)",
+          "Identifikasi isyarat perilaku dan fisiologis yang ditunjukkan bayi (mis: lapar, tidak nyaman)"
+        ],
+        "terapeutik": [
           "Pertahankan sentuhan seminimal mungkin pada bayi premature",
           "Berikan sentuhan yang bersifat gentle dan tidak ragu-ragu",
           "Minimalkan nyeri",
@@ -10468,12 +11486,14 @@ export const allDiagnosesData: Diagnosis[] = [
           "Bernyanyi Bersama anak lagu-lagu yang disukai",
           "Bacakan cerita atau dongeng",
           "Dukung partisipasi anak di sekolah, ekstrakulikuler dan aktivitas komunitas",
+          "Rujuk untuk konseling, jika perlu"
+        ],
+        "edukasi": [
           "Jelaskan orang tua dan/atau pengasuh tentang milestone perkembangan anak dan perilaku anak",
           "Anjurkan orang tua menyentuh dan menggendong bayinya",
           "Anjurkan orang tua berinteraksi dengan anaknya",
           "Ajarkan anak keterampilan berinteraksi",
-          "Ajarkan anak teknik asertif",
-          "Rujuk untuk konseling, jika perlu"
+          "Ajarkan anak teknik asertif"
         ]
       }
     },
@@ -10481,8 +11501,10 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.10340",
       "nama": "Promosi perkembangan anak",
       "tindakan": {
+        "observasi": [
+          "Identifikasi kebutuhan khusus anak dan kemampuan adaptasi anak"
+        ],
         "terapeutik": [
-          "Identifikasi kebutuhan khusus anak dan kemampuan adaptasi anak",
           "Fasilitasi hubungan anak dengan teman sebaya",
           "Dukung anak berinteraksi dengan anak lain",
           "Dukung anak mengekpresikan perasaannya secara positif",
@@ -10491,16 +11513,18 @@ export const allDiagnosesData: Diagnosis[] = [
           "Berikan mainan yang sesuai dengan usia anak",
           "Bernyanyi Bersama anak lagu-lagu yang disukai anak",
           "Bacakan cerita/dongeng untuk anak",
-          "Diskusikan bersama remaja tujuan dan harapannya",
           "Sediakan kesempatan dan alat-alat untuk menggambar, melukis, dan mewarnai",
           "Sediakan mainan berupa puzzle dan maze",
+          "Demonstrasikan kegiatan yang meningkatkan perkembangan pada pengasuh",
+          "Rujuk untuk konseling, jika perlu"
+        ],
+        "edukasi": [
+          "Diskusikan bersama remaja tujuan dan harapannya",
           "Jelaskan nama-nama benda obyek yang ada di lingkungan sekitar",
           "Ajarkan pengasuh milestones perkembangan dan perilaku yang dibentuk",
           "Ajarkan sikap kooperatif, bukan kompetisi diantara anak",
           "Ajarkan anak cara meminta bantuan dari anak lain, jika perlu",
-          "Ajarkan teknik asertif pada anak dan remaja",
-          "Demonstrasikan kegiatan yang meningkatkan perkembangan pada pengasuh",
-          "Rujuk untuk konseling, jika perlu"
+          "Ajarkan teknik asertif pada anak dan remaja"
         ]
       }
     },
@@ -10508,8 +11532,10 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.10341",
       "nama": "Promosi perkembangan remaja",
       "tindakan": {
+        "observasi": [
+          "Identifikasi tahap perkembangan remaja"
+        ],
         "terapeutik": [
-          "Identifikasi tahap perkembangan remaja",
           "Sediakan bimbingan dan konseling  Kesehatan remaja pada remaja dan keluarga/orang tua/pengasuh",
           "Tingkatkan personal hygiene dan penampilan diri",
           "Dukung partisipasi dalam olahraga yang aman secara teratur",
@@ -10520,10 +11546,12 @@ export const allDiagnosesData: Diagnosis[] = [
           "Dukung respons anti-kekerasan dalam menyelesaikan konflik",
           "Dukung perkembangan dan pertahankan hubungan sosial",
           "Dukung aktivitas ekstrakulikuler",
+          "Rujuk untuk konseling atau hipnoterapi, jika perlu"
+        ],
+        "edukasi": [
           "Jelaskan perkembangan normal remaja",
           "Ajarkan untuk mengenali masalah Kesehatan dan penyimpangan pada masa remaja (mis: anemia, masalah Kesehatan gigi, kematangan seksual abnormal, alkohol, rokok, penyalahgunaan obat-obatan, gangguan citra tubuh, harga diri rendah)",
-          "Ajarkan strategi pencegahan penyalahgunaan obat, alkohol, dan rokok.",
-          "Rujuk untuk konseling atau hipnoterapi, jika perlu"
+          "Ajarkan strategi pencegahan penyalahgunaan obat, alkohol, dan rokok."
         ]
       }
     }
@@ -10534,7 +11562,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-gangguan-perkembangan",
   "kode": "D.0107",
   "nama": "Risiko Gangguan Perkembangan",
-  "definisi": "Risiko gangguan perkembangan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami gangguan untuk berkembang sesuai...",
+  "definisi": "Berisiko mengalami gangguan untuk berkembang sesuai dengan kelompok usianya",
   "kategori": "Pertumbuhan dan Perkembangan",
   "tipe": "Aktual",
   "keluhan": [],
@@ -10579,8 +11607,10 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.10340",
       "nama": "Promosi perkembangan anak",
       "tindakan": {
+        "observasi": [
+          "Identifikasi kebutuhan khusus anak dan kemampuan adaptasi anak"
+        ],
         "terapeutik": [
-          "Identifikasi kebutuhan khusus anak dan kemampuan adaptasi anak",
           "Fasilitasi hubungan anak dengan teman sebaya",
           "Dukung anak berinteraksi dengan anak lain",
           "Dukung anak mengekpresikan perasaannya secara positif",
@@ -10589,16 +11619,18 @@ export const allDiagnosesData: Diagnosis[] = [
           "Berikan mainan yang sesuai dengan usia anak",
           "Bernyanyi Bersama anak lagu-lagu yang disukai anak",
           "Bacakan cerita/dongeng untuk anak",
-          "Diskusikan bersama remaja tujuan dan harapannya",
           "Sediakan kesempatan dan alat-alat untuk menggambar, melukis, dan mewarnai",
           "Sediakan mainan berupa puzzle dan maze",
+          "Demonstrasikan kegiatan yang meningkatkan perkembangan pada pengasuh",
+          "Rujuk untuk konseling, jika perlu"
+        ],
+        "edukasi": [
+          "Diskusikan bersama remaja tujuan dan harapannya",
           "Jelaskan nama-nama benda obyek yang ada di lingkungan sekitar",
           "Ajarkan pengasuh milestones perkembangan dan perilaku yang dibentuk",
           "Ajarkan sikap kooperatif, bukan kompetisi diantara anak",
           "Ajarkan anak cara meminta bantuan dari anak lain, jika perlu",
-          "Ajarkan teknik asertif pada anak dan remaja",
-          "Demonstrasikan kegiatan yang meningkatkan perkembangan pada pengasuh",
-          "Rujuk untuk konseling, jika perlu"
+          "Ajarkan teknik asertif pada anak dan remaja"
         ]
       }
     },
@@ -10606,8 +11638,10 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.10341",
       "nama": "Promosi perkembangan remaja",
       "tindakan": {
+        "observasi": [
+          "Identifikasi tahap perkembangan remaja"
+        ],
         "terapeutik": [
-          "Identifikasi tahap perkembangan remaja",
           "Sediakan bimbingan dan konseling  Kesehatan remaja pada remaja dan keluarga/orang tua/pengasuh",
           "Tingkatkan personal hygiene dan penampilan diri",
           "Dukung partisipasi dalam olahraga yang aman secara teratur",
@@ -10618,10 +11652,12 @@ export const allDiagnosesData: Diagnosis[] = [
           "Dukung respons anti-kekerasan dalam menyelesaikan konflik",
           "Dukung perkembangan dan pertahankan hubungan sosial",
           "Dukung aktivitas ekstrakulikuler",
+          "Rujuk untuk konseling atau hipnoterapi, jika perlu"
+        ],
+        "edukasi": [
           "Jelaskan perkembangan normal remaja",
           "Ajarkan untuk mengenali masalah Kesehatan dan penyimpangan pada masa remaja (mis: anemia, masalah Kesehatan gigi, kematangan seksual abnormal, alkohol, rokok, penyalahgunaan obat-obatan, gangguan citra tubuh, harga diri rendah)",
-          "Ajarkan strategi pencegahan penyalahgunaan obat, alkohol, dan rokok.",
-          "Rujuk untuk konseling atau hipnoterapi, jika perlu"
+          "Ajarkan strategi pencegahan penyalahgunaan obat, alkohol, dan rokok."
         ]
       }
     }
@@ -10632,7 +11668,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-gangguan-pertumbuhan",
   "kode": "D.0108",
   "nama": "Risiko Gangguan Pertumbuhan",
-  "definisi": "Risiko gangguan pertumbuhan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami gangguan untuk bertumbuh sesuai...",
+  "definisi": "Berisiko mengalami gangguan untuk bertumbuh sesuai dengan kelompok usianya",
   "kategori": "Pertumbuhan dan Perkembangan",
   "tipe": "Aktual",
   "keluhan": [],
@@ -10668,8 +11704,10 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14581",
       "nama": "Skrining kesehatan",
       "tindakan": {
+        "observasi": [
+          "Identifikasi target populasi skrining kesehatan"
+        ],
         "terapeutik": [
-          "Identifikasi target populasi skrining kesehatan",
           "Lakukan informed consent skrining Kesehatan",
           "Sediakan akses layanan skrining (mis: waktu dan tempat)",
           "Jadwalkan waktu skrining Kesehatan",
@@ -10677,9 +11715,11 @@ export const allDiagnosesData: Diagnosis[] = [
           "Sediakan lingkungan yang nyaman selama prosedur skrining Kesehatan",
           "Lakukan anamnesia, Riwayat Kesehatan, faktor risiko, dan pengobatan, jika perlu",
           "Lakukan pemeriksaan fisik, sesuai indikasi",
-          "Jelaskan tujuan dan prosedur skrining Kesehatan",
-          "Informasikan hasil skrining Kesehatan",
           "Rujuk untuk pemeriksaan diagnostik lanjut (mis: pap smear, mamografi, prostat, EKG), jika perlu."
+        ],
+        "edukasi": [
+          "Jelaskan tujuan dan prosedur skrining Kesehatan",
+          "Informasikan hasil skrining Kesehatan"
         ]
       }
     },
@@ -10687,7 +11727,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03119",
       "nama": "Manajemen Nutrisi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi status nutrisi",
           "Identifikasi alergi dan intoleransi makanan",
           "Identifikasi makanan yang disukai",
@@ -10695,16 +11735,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Identifikasi perlunya penggunaan selang nasogastrik",
           "Monitor asupan makanan",
           "Monitor berat badan",
-          "Monitor hasil pemeriksaan laboratorium",
+          "Monitor hasil pemeriksaan laboratorium"
+        ],
+        "terapeutik": [
           "Lakukan oral hygiene sebelum makan, jika perlu",
           "Fasilitasi menentukan pedoman diet (mis: piramida makanan)",
           "Sajikan makanan secara menarik dan suhu yang sesuai",
           "Berikan makanan tinggi serat untuk mencegah konstipasi",
           "Berikan makanan tinggi kalori dan tinggi protein",
           "Berikan suplemen makanan, jika perlu",
-          "Hentikan pemberian makan melalui selang nasogastik jika asupan oral dapat ditoleransi",
+          "Hentikan pemberian makan melalui selang nasogastik jika asupan oral dapat ditoleransi"
+        ],
+        "edukasi": [
           "Ajarkan posisi duduk, jika mampu",
-          "Ajarkan diet yang diprogramkan",
+          "Ajarkan diet yang diprogramkan"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian medikasi sebelum makan (mis: Pereda nyeri, antiemetik), jika perlu",
           "Kolaborasi dengan ahli  gizi untuk menentukan jumlah kalori dan jenis nutrien yang dibutuhkan, jika perlu"
         ]
@@ -10717,7 +11763,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "defisit-perawatan-diri",
   "kode": "D.0109",
   "nama": "Defisit Perawatan Diri",
-  "definisi": "Defisit perawatan diri merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakmampuan melakukan atau menyelesaikan...",
+  "definisi": "Ketidakmampuan melakukan atau menyelesaikan aktivitas perawatan diri",
   "kategori": "Kebersihan Diri",
   "tipe": "Aktual",
   "keluhan": [
@@ -10760,16 +11806,20 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.11348",
       "nama": "Dukungan Perawatan Diri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kebiasaan aktivitas perawatan diri sesuai usia",
           "Monitor tingkat kemandirian",
-          "Identifikasi kebutuhan alat bantu kebersihan diri, berpakaian, berhias, dan makan",
+          "Identifikasi kebutuhan alat bantu kebersihan diri, berpakaian, berhias, dan makan"
+        ],
+        "terapeutik": [
           "Sediakan lingkungan yang terapeutik (mis: suasana hangat, rileks, privasi)",
           "Siapkan keperluan pribadi (mis: parfum sikat gigi, dan sabun mandi)",
           "Dampingi dalam melakukan perawatan diri sampai mandiri",
           "Fasilitasi untuk menerima keadaan ketergantungan",
           "Fasilitasi kemandirian, bantu jika tidak mampu melakukan perawatan diri",
-          "Jadwalkan rutinitas perawatan diri",
+          "Jadwalkan rutinitas perawatan diri"
+        ],
+        "edukasi": [
           "Anjurkan melakukan perawatan diri secara konsisten sesuai kemampuan"
         ]
       }
@@ -10778,16 +11828,20 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.11349",
       "nama": "Dukungan Perawatan Diri: BAB/BAK",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kebiasaan BAB/BAK sesuai usia",
-          "Monitor integritas kulit pasien",
+          "Monitor integritas kulit pasien"
+        ],
+        "terapeutik": [
           "Buka pakaian yang diperlukan untuk memudahkan eliminasi",
           "Dukung penggunaan toilet/commode/pispot/urinal secara konsisten",
           "Jaga privasi selama eliminasi",
           "Ganti pakaian pasien setelah eliminasi, jika perlu",
           "Bersihkan alat bantu BAK/BAB setelah digunakan",
           "Latih BAK/BAB sesuai jadwal, jika perlu",
-          "Sediakan alat bantu (mis. kateter eksternal, urinal), jika perlu",
+          "Sediakan alat bantu (mis. kateter eksternal, urinal), jika perlu"
+        ],
+        "edukasi": [
           "Anjurkan BAK/BAB secara rutin",
           "Anjurkan ke kamar mandi/toilet, jika perlu"
         ]
@@ -10797,15 +11851,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.11350",
       "nama": "Dukungan Perawatan Diri: Berpakaian",
       "tindakan": {
+        "observasi": [
+          "Identifikasi usia dan budaya dalam membantu berpakaian/berhias"
+        ],
         "terapeutik": [
-          "Identifikasi usia dan budaya dalam membantu berpakaian/berhias",
           "Sediakan pakaian pada tempat yang mudah dijangkau",
           "Sediakan pakaian pribadi, sesuai kebutuhan",
           "Fasilitasi mengenakan pakaian, jika perlu",
           "Fasilitasi berhias (mis: menyisir rambut, merapikan kumis/jenggot)",
           "Jaga privasi selama berpakaian",
           "Tawarkan untuk laundry, jika perlu",
-          "Berikan pujian terhadap kemampuan berpakaian secara mandiri",
+          "Berikan pujian terhadap kemampuan berpakaian secara mandiri"
+        ],
+        "edukasi": [
           "Informasikan pakaian yang tersedia untuk dipilih, jika perlu",
           "Ajarkan menggunakan pakaian, jika perlu"
         ]
@@ -10815,10 +11873,12 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.11351",
       "nama": "Dukungan Perawatan Diri: Makan/Minum",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi diet yang dianjurkan",
           "Monitor kemampuan menelan",
-          "Monitor status hidrasi pasien, jika perlu",
+          "Monitor status hidrasi pasien, jika perlu"
+        ],
+        "terapeutik": [
           "Ciptakan lingkungan yang menyenangkan selama makan",
           "Atur posisi yang nyaman untuk makan/minum",
           "Lakukan oral hygiene sebelum makan, jika perlu",
@@ -10827,8 +11887,12 @@ export const allDiagnosesData: Diagnosis[] = [
           "Siapkan makanan dengan suhu yang meningkatkan nafsu makan",
           "Sediakan makanan dan minuman yang disukai",
           "Berikan bantuan saat makan/minum sesuai tingkat kemandirian, jika perlu",
-          "Motivasi untuk makan di ruang makan, jika tersedia",
-          "Jelaskan posisi makanan pada pasien yang mengalami gangguan penglihatan dengan menggunakan arah jarum jam (mis: sayur di jam 12, rendang di jam 3)",
+          "Motivasi untuk makan di ruang makan, jika tersedia"
+        ],
+        "edukasi": [
+          "Jelaskan posisi makanan pada pasien yang mengalami gangguan penglihatan dengan menggunakan arah jarum jam (mis: sayur di jam 12, rendang di jam 3)"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat (mis: analgesik, antiemetik), sesuai indikasi"
         ]
       }
@@ -10837,17 +11901,21 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.11352",
       "nama": "Dukungan Perawatan Diri: Mandi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi usia dan budaya dalam membantu kebersihan diri",
           "Identifikasi jenis bantuan yang dibutuhkan",
           "Monitor kebersihan tubuh (mis: rambut, mulut, kulit, kuku)",
-          "Monitor integritas kulit",
+          "Monitor integritas kulit"
+        ],
+        "terapeutik": [
           "Sediakan peralatan mandi (mis: sabun, sikat gigi, shampoo, pelembab kulit)",
           "Sediakan lingkungan yang aman dan nyaman",
           "Fasilitasi menggosok gigi, sesuai kebutuhan",
           "Fasilitasi mandi, sesuai kebutuhan",
           "Pertahankan kebiasaan kebersihan diri",
-          "Berikan bantuan sesuai tingkat kemandirian",
+          "Berikan bantuan sesuai tingkat kemandirian"
+        ],
+        "edukasi": [
           "Jelaskan manfaat mandi dan dampak tidak mandi terhadap  Kesehatan",
           "Ajarkan kepada keluarga cara memandikan pasien, jika perlu"
         ]
@@ -10860,7 +11928,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "defisit-kesehatan-komunitas",
   "kode": "D.0110",
   "nama": "Defisit Kesehatan komunitas",
-  "definisi": "Defisit kesehatan komunitas merupakan diagnosis keperawatan yang didefinisikan sebagai terdapatnya masalah Kesehatan atau faktor...",
+  "definisi": "Terdapatnya masalah Kesehatan atau faktor risiko yang dapat mengganggu kesejahteraan pada suatu kelompok",
   "kategori": "Penyuluhan dan Pembelajaran",
   "tipe": "Aktual",
   "keluhan": [],
@@ -10913,11 +11981,13 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14548",
       "nama": "Pengembangan Kesehatan Masyarakat",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi masalah atau isu Kesehatan dan prioritasnya",
           "Identifikasi potensi atau aset dalam masyarakat terkait isu yang dihadapi",
           "Identifikasi kekuatan dan partner dalam pengembangan Kesehatan",
-          "Identifikasi pemimpin/tokoh dalam masyarakat",
+          "Identifikasi pemimpin/tokoh dalam masyarakat"
+        ],
+        "terapeutik": [
           "Berikan kesempatan kepada setiap anggota masyarakat untuk berpartisipasi sesuai aset yang dimiliki",
           "Libatkan anggota masyarakat untuk meningkatkan kesadaran terhadap isu dan masalah Kesehatan yang dihadapi",
           "Libatkan masyarakat dalam musyawarah untuk mendefinisikan isu Kesehatan dan mengembangkan rencana kerja",
@@ -10937,10 +12007,14 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12472",
       "nama": "Promosi Perilaku Upaya Kesehatan",
       "tindakan": {
+        "observasi": [
+          "Identifikasi perilaku upaya Kesehatan yang dapat ditingkatkan"
+        ],
         "terapeutik": [
-          "Identifikasi perilaku upaya Kesehatan yang dapat ditingkatkan",
           "Berikan lingkungan yang mendukung Kesehatan",
-          "Orientasi pelayanan Kesehatan yang dapat dimanfaatkan",
+          "Orientasi pelayanan Kesehatan yang dapat dimanfaatkan"
+        ],
+        "edukasi": [
           "Anjurkan persalinan ditolong oleh tenaga kesehatan",
           "Anjurkan memberi bayi ASI eksklusif",
           "Anjurkan menimbang balita setiap bulan",
@@ -10961,7 +12035,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "defisit-pengetahuan",
   "kode": "D.0111",
   "nama": "Defisit Pengetahuan",
-  "definisi": "Defisit pengetahuan merupakan diagnosis keperawatan yang didefinisikan sebagai ketiadaan atau kurangnya informasi kognitif yang berkaitan...",
+  "definisi": "Ketiadaan atau kurangnya informasi kognitif yang berkaitan dengan topik tertentu",
   "kategori": "Penyuluhan dan Pembelajaran",
   "tipe": "Aktual",
   "keluhan": [
@@ -11005,12 +12079,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12383",
       "nama": "Edukasi Kesehatan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kesiapan dan kemampuan menerima informasi",
-          "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat",
+          "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat"
+        ],
+        "terapeutik": [
           "Sediakan materi dan media Pendidikan Kesehatan",
           "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
-          "Berikan kesempatan untuk bertanya",
+          "Berikan kesempatan untuk bertanya"
+        ],
+        "edukasi": [
           "Jelaskan faktor risiko yang dapat mempengaruhi Kesehatan",
           "Ajarkan perilaku hidup bersih dan sehat",
           "Ajarkan strategi yang dapat digunakan untuk meningkatkan perilaku hidup bersih dan sehat"
@@ -11024,7 +12102,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "kesiapan-peningkatan-manajemen-kesehatan",
   "kode": "D.0112",
   "nama": "Kesiapan Peningkatan Manajemen Kesehatan",
-  "definisi": "Kesiapan peningkatan manajemen kesehatan merupakan diagnosis keperawatan yang didefinisikan sebagai pola pengaturan dan pengintegrasian...",
+  "definisi": "Pola pengaturan dan pengintegrasian program Kesehatan ke dalam kehidupan sehari-hari yang cukup untuk memenuhi tujuan Kesehatan dan dapat ditingkatkan",
   "kategori": "Penyuluhan dan Pembelajaran",
   "tipe": "Aktual",
   "keluhan": [
@@ -11056,9 +12134,11 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12359",
       "nama": "Bimbingan Antisipatif",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi metode penyelesaian masalah yang biasa digunakan",
-          "Identifikasi kemungkinan perkembangan atau krisis situasional yang akan terjadi serta dampaknya pada individu dan keluarga",
+          "Identifikasi kemungkinan perkembangan atau krisis situasional yang akan terjadi serta dampaknya pada individu dan keluarga"
+        ],
+        "terapeutik": [
           "Fasilitasi memutuskan bagaimana masalah akan diselesaikan",
           "Fasilitasi memutuskan siapa yang akan dilibatkan dalam  menyelesaikan masalah",
           "Gunakan contoh kasus untuk meningkatkan keterampilan menyelesaikan masalah",
@@ -11067,12 +12147,14 @@ export const allDiagnosesData: Diagnosis[] = [
           "Jadwalkan kunjungan pada setiap tahap perkembangan atau sesuai kebutuhan",
           "Jadwalkan tindak lanjut untuk memantau atau memberi dukungan",
           "Berikan nomor kontak yang dapat dihubungi, jika perlu",
-          "Libatkan keluarga dan pihak terkait, jika perlu",
           "Berikan referensi baik cetak ataupun elektronik (mis: materi pendidikan, pamflet)",
-          "Jelaskan perkembangan dan perilaku normal",
-          "Informasikan harapan yang realistis terkait perilaku pasien",
           "Latih Teknik koping yang dibutuhkan untuk mengatasi perkembangan atau krisis situasional",
           "Rujuk ke Lembaga pelayanan masyarakat, jika perlu"
+        ],
+        "edukasi": [
+          "Libatkan keluarga dan pihak terkait, jika perlu",
+          "Jelaskan perkembangan dan perilaku normal",
+          "Informasikan harapan yang realistis terkait perilaku pasien"
         ]
       }
     },
@@ -11080,12 +12162,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12383",
       "nama": "Edukasi Kesehatan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kesiapan dan kemampuan menerima informasi",
-          "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat",
+          "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat"
+        ],
+        "terapeutik": [
           "Sediakan materi dan media Pendidikan Kesehatan",
           "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
-          "Berikan kesempatan untuk bertanya",
+          "Berikan kesempatan untuk bertanya"
+        ],
+        "edukasi": [
           "Jelaskan faktor risiko yang dapat mempengaruhi Kesehatan",
           "Ajarkan perilaku hidup bersih dan sehat",
           "Ajarkan strategi yang dapat digunakan untuk meningkatkan perilaku hidup bersih dan sehat"
@@ -11096,10 +12182,12 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14502",
       "nama": "Identifikasi Risiko",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi risiko biologis, lingkungan, dan perilaku",
           "Identifikasi risiko secara berkala di masing-masing unit",
-          "Identifikasi risiko baru sesuai perencanaan yang telah ditetapkan",
+          "Identifikasi risiko baru sesuai perencanaan yang telah ditetapkan"
+        ],
+        "terapeutik": [
           "Tentukan metode pengelolaan risiko yang baik dan ekonomis",
           "Lakukan pengelolaan risiko secara efektif",
           "Lakukan update perencanaan secara regular (mis: bulanan, triwulan, tahunan)",
@@ -11112,9 +12200,10 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12463",
       "nama": "Manajemen Perilaku",
       "tindakan": {
+        "observasi": [
+          "Identifikasi harapan untuk mengendalikan perilaku"
+        ],
         "terapeutik": [
-          "Identifikasi harapan untuk mengendalikan perilaku",
-          "Diskusikan tanggung jawab terhadap perilaku",
           "Jadwalkan kegiatan terstruktur",
           "Ciptakan dan pertahankan lingkungan dan kegiatan perawatan konsisten setiap dinas",
           "Tingkatkan aktivitas fisik sesuai kemampuan",
@@ -11126,7 +12215,10 @@ export const allDiagnosesData: Diagnosis[] = [
           "Lakukan pengekangan fisik sesuai indikasi",
           "Hindari bersikap menyudutkan dan menghentikan pembicaraan",
           "Hindari sikap mengancam atau berdebat",
-          "Hindari berdebat atau menawar batas perilaku yang telah ditetapkan",
+          "Hindari berdebat atau menawar batas perilaku yang telah ditetapkan"
+        ],
+        "edukasi": [
+          "Diskusikan tanggung jawab terhadap perilaku",
           "Informasikan keluarga bahwa keluarga sebagai dasar pembentukan kognitif"
         ]
       }
@@ -11135,22 +12227,26 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12464",
       "nama": "Penentuan Tujuan Bersama",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi tujuan-tujuan yang akan dicapai",
-          "Identifikasi cara mencapai tujuan secara konstruktif",
+          "Identifikasi cara mencapai tujuan secara konstruktif"
+        ],
+        "terapeutik": [
           "Nyatakan tujuan dengan kalimat positif dan jelas",
           "Tetapkan skala pencapaian tujuan, jika perlu",
           "Fasilitasi memecah tujuan kompleks menjadi langkah kecil yang mudah dilakukan",
           "Berikan batasan pada peran perawat dan pasien secara jelas",
-          "Diskusikan sumber daya yang ada untuk memenuhi tujuan",
-          "Diskusikan pengembangan rencana untuk memenuhi tujuan",
           "Prioritaskan aktivitas yang dapat membantu pencapaian tujuan",
           "fasilitasi dalam mengidentifikasi hasil yang diharapkan untuk setiap tujuan",
           "Tetapkan batas waktu yang realistis",
-          "Diskusikan indikator pengukuran untuk setiap tujuan (mis: perilaku)",
           "Tetapkan evaluasi secara periodik untuk menilai kemajuan sesuai tujuan",
           "HItung skor pencapaian tujuan",
-          "Modifikasi rencana jika tujuan tidak tercapai",
+          "Modifikasi rencana jika tujuan tidak tercapai"
+        ],
+        "edukasi": [
+          "Diskusikan sumber daya yang ada untuk memenuhi tujuan",
+          "Diskusikan pengembangan rencana untuk memenuhi tujuan",
+          "Diskusikan indikator pengukuran untuk setiap tujuan (mis: perilaku)",
           "Anjurkan mengenal masalah yang dialami",
           "Anjurkan mengembangkan harapan realistis",
           "Anjurkan mengidentifikasi kekuatan dan kemampuan sendiri",
@@ -11166,7 +12262,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "kesiapan-peningkatan-pengetahuan",
   "kode": "D.0113",
   "nama": "Kesiapan Peningkatan Pengetahuan",
-  "definisi": "Kesiapan peningkatan pengetahuan merupakan diagnosis keperawatan yang didefinisikan sebagai perkembangan informasi kognitif yang...",
+  "definisi": "Perkembangan informasi kognitif yang berhubungan dengan topik spesifik cukup untuk memenuhi tujuan Kesehatan dan dapat ditingkatkan",
   "kategori": "Penyuluhan dan Pembelajaran",
   "tipe": "Aktual",
   "keluhan": [
@@ -11203,12 +12299,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12383",
       "nama": "Edukasi Kesehatan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kesiapan dan kemampuan menerima informasi",
-          "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat",
+          "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat"
+        ],
+        "terapeutik": [
           "Sediakan materi dan media Pendidikan Kesehatan",
           "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
-          "Berikan kesempatan untuk bertanya",
+          "Berikan kesempatan untuk bertanya"
+        ],
+        "edukasi": [
           "Jelaskan faktor risiko yang dapat mempengaruhi Kesehatan",
           "Ajarkan perilaku hidup bersih dan sehat",
           "Ajarkan strategi yang dapat digunakan untuk meningkatkan perilaku hidup bersih dan sehat"
@@ -11219,18 +12319,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12470",
       "nama": "Promosi Kesiapan Penerimaan Informasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi informasi yang akan disampaikan",
           "Identifikasi pemahaman tentang kondisi kesehatan saat ini",
-          "Identifikasi kesiapan menerima informasi",
+          "Identifikasi kesiapan menerima informasi"
+        ],
+        "terapeutik": [
           "Lakukan penguatan potensi pasien dan keluarga untuk menerima informasi",
-          "Libatkan pengambil keputusan dalam keluarga untuk menerima informasi",
           "Fasilitasi mengenali kondisi tubuh yang membutuhkan layanan keperawatan",
           "Dahulukan menyampaikan informasi baik (positif) sebelum menyampaikan informasi kurang baik (negatif) terkait kondisi pasien",
           "Berikan nomor kontak yang dapat dihubungi jika pasien membutuhkan bantuan",
           "Catat identitas dan nomor kontak pasien untuk mengingatkan atau follow up kondisi pasien",
           "Fasilitasi akses pelayanan pada saat dibutuhkan",
-          "Berikan informasi berupa alur, leaflet, atau gambar untuk memudahkan pasien mendapatkan informasi Kesehatan",
+          "Berikan informasi berupa alur, leaflet, atau gambar untuk memudahkan pasien mendapatkan informasi Kesehatan"
+        ],
+        "edukasi": [
+          "Libatkan pengambil keputusan dalam keluarga untuk menerima informasi",
           "Anjurkan keluarga mendampingi pasien selama fase akut, progresif, atau terminal, jika memungkinkan"
         ]
       }
@@ -11242,7 +12346,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "ketidakpatuhan",
   "kode": "D.0114",
   "nama": "Ketidakpatuhan",
-  "definisi": "Ketidakpatuhan merupakan diagnosis keperawatan yang didefinisikan sebagai perilaku individu dan/atau pemberi asuhan tidak mengikuti rencana",
+  "definisi": "Perilaku individu dan/atau pemberi asuhan tidak mengikuti rencana perawatan/pengobatan yang disepakati dengan tenaga Kesehatan, sehingga menyebabkan hasil perawatan/pengobatan tidak efektif",
   "kategori": "Penyuluhan dan Pembelajaran",
   "tipe": "Aktual",
   "keluhan": [],
@@ -11281,11 +12385,15 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12361",
       "nama": "Dukungan Kepatuhan Program Pengobatan",
       "tindakan": {
+        "observasi": [
+          "Identifikasi kepatuhan menjalani program pengobatan"
+        ],
         "terapeutik": [
-          "Identifikasi kepatuhan menjalani program pengobatan",
           "Buat komitmen menjalani program pengobatan dengan baik",
           "Buat jadwal pendampingan keluarga untuk bergantian menemani pasien selama menjalani program pengobatan, jika perlu",
-          "Dokumentasikan aktivitas selama menjalani program pengobatan",
+          "Dokumentasikan aktivitas selama menjalani program pengobatan"
+        ],
+        "edukasi": [
           "Diskusikan hal-hal yang dapat mendukung atau menghambat berjalannya program pengobatan",
           "Libatkan keluarga untuk mendukung program pengobatan yang dijalani",
           "Informasikan program pengobatan yang harus dijalani",
@@ -11299,13 +12407,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09277",
       "nama": "Dukungan tanggung jawab pada diri sendiri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi persepsi tentang masalah Kesehatan",
-          "Monitor pelaksanaan tanggung jawab",
+          "Monitor pelaksanaan tanggung jawab"
+        ],
+        "terapeutik": [
           "Berikan kesempatan merasakan memiliki tanggung jawab",
           "Tingkatkan rasa tanggung jawab atas perilaku sendiri",
           "Hindari berdebat atau tawar menawar tentang perannya di ruang perawatan",
-          "Berikan penguatan dan umpan balik positif jika melaksanakan tanggung jawab atau mengubah perilaku",
+          "Berikan penguatan dan umpan balik positif jika melaksanakan tanggung jawab atau mengubah perilaku"
+        ],
+        "edukasi": [
           "Diskusikan tanggung jawab terhadap profesi pemberi asuhan",
           "Diskusikan konsekuensi tidak melaksanakan tanggung jawab"
         ]
@@ -11315,14 +12427,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09311",
       "nama": "Promosi Kesadaran Diri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi keadaan emosional saat ini",
-          "Identifikasi respons yang ditunjukkan berbagai situasi",
+          "Identifikasi respons yang ditunjukkan berbagai situasi"
+        ],
+        "terapeutik": [
+          "Ungkapkan penyangkalan tentang kenyataan",
+          "Motivasi dalam meningkatkan kemampuan belajar",
+          "Latih kemampuan positif diri yang dimiliki"
+        ],
+        "edukasi": [
           "Diskusikan nilai-nilai yang berkontribusi terhadap konsep diri",
           "Diskusikan tentang pikiran, perilaku, atau respons terhadap kondisi",
           "Diskusikan dampak penyakit pada konsep diri",
-          "Ungkapkan penyangkalan tentang kenyataan",
-          "Motivasi dalam meningkatkan kemampuan belajar",
           "Anjurkan mengenali pikiran dan perasaan tentang diri",
           "Anjurkan menyadari bahwa setiap orang unik",
           "Anjurkan mengungkapkan perasaan (mis: marah atau depresi)",
@@ -11332,8 +12449,7 @@ export const allDiagnosesData: Diagnosis[] = [
           "Anjurkan mengidentifikasi situasi yang memicu kecemasan",
           "Anjurkan mengevaluasi Kembali persepsi negatif tentang diri",
           "Anjurkan dalam mengekspresikan diri dengan kelompok sebaya",
-          "Ajarkan cara membuat prioritas hidup",
-          "Latih kemampuan positif diri yang dimiliki"
+          "Ajarkan cara membuat prioritas hidup"
         ]
       }
     },
@@ -11341,20 +12457,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09312",
       "nama": "Promosi Koping",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
           "Identifikasi kemampuan yang dimiliki",
           "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
           "Identifikasi pemahaman proses penyakit",
           "Identifikasi dampak situasi terhadap peran dan hubungan",
           "Identifikasi metode penyelesaian masalah",
-          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
-          "Diskusikan perubahan peran yang dialami",
+          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial"
+        ],
+        "terapeutik": [
           "Gunakan pendekatan yang tenang dan meyakinkan",
-          "Diskusikan alasan mengkritik diri sendiri",
-          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
-          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
-          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
           "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
           "Motivasi untuk menentukan harapan yang realistis",
@@ -11365,7 +12478,14 @@ export const allDiagnosesData: Diagnosis[] = [
           "Damping saat berduka (mis: penyakit kronis, kecacatan)",
           "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
           "Dukung penggunaan mekanisme pertahanan yang tepat",
-          "Kurangi rangsangan lingkungan yang mengancam",
+          "Kurangi rangsangan lingkungan yang mengancam"
+        ],
+        "edukasi": [
+          "Diskusikan perubahan peran yang dialami",
+          "Diskusikan alasan mengkritik diri sendiri",
+          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
           "Anjurkan penggunaan sumber spiritual, jika perlu",
           "Anjurkan mengungkapkan perasaan dan persepsi",
@@ -11381,7 +12501,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "manajemen-kesehatan-keluarga-tidak-efektif",
   "kode": "D.0115",
   "nama": "Manajemen Kesehatan Keluarga Tidak Efektif",
-  "definisi": "Manajemen kesehatan keluarga tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai pola penanganan masalah Kesehatan...",
+  "definisi": "Pola penanganan masalah Kesehatan dalam keluarga tidak memuaskan untuk memulihkan kondisi Kesehatan anggota keluarga",
   "kategori": "Penyuluhan dan Pembelajaran",
   "tipe": "Aktual",
   "keluhan": [
@@ -11421,14 +12541,15 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09260",
       "nama": "Dukungan Koping Keluarga",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi respons emosional terhadap kondisi saat ini",
           "Identifikasi beban prognosis secara psikologis",
           "Identifikasi pemahaman tentang keputusan perawatan setelah pulang",
-          "Identifikasi kesesuaian antara harapan pasien, keluarga, dan tenaga kesehatan",
+          "Identifikasi kesesuaian antara harapan pasien, keluarga, dan tenaga kesehatan"
+        ],
+        "terapeutik": [
           "Dengarkan masalah, perasaan, dan pertanyaan keluarga",
           "Terima nilai-nilai keluarga dengan cara yang tidak menghakimi",
-          "Diskusikan rencana medis dan perawatan",
           "Fasilitasi pengungkapan perasaan antara pasien dan keluarga atau antar anggota keluarga",
           "Fasilitasi pengambilan keputusan dalam merencanakan perawatan jangka Panjang, jika perlu",
           "Fasilitasi anggota keluarga dalam mengidentifikasi dan menyelesaikan konflik nilai",
@@ -11438,9 +12559,12 @@ export const allDiagnosesData: Diagnosis[] = [
           "Bersikap sebagai pengganti keluarga untuk menenangkan pasien dan/atau jika keluarga tidak dapat memberikan perawatan",
           "Hargai dan dukung mekanisme koping adaptif yang digunakan",
           "Berikan kesempatan berkunjung bagi anggota keluarga",
-          "Informasikan kemajuan pasien secara berkala",
-          "Informasikan fasilitas perawatan Kesehatan yang tersedia",
           "Rujuk untuk terapi keluarga, jika perlu"
+        ],
+        "edukasi": [
+          "Diskusikan rencana medis dan perawatan",
+          "Informasikan kemajuan pasien secara berkala",
+          "Informasikan fasilitas perawatan Kesehatan yang tersedia"
         ]
       }
     },
@@ -11448,14 +12572,18 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.13477",
       "nama": "Dukungan Keluarga Merencanakan Perawatan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kebutuhan dan harapan keluarga tentang Kesehatan",
           "Identifikasi konsekuensi tidak melakukan Tindakan Bersama keluarga",
           "Identifikasi sumber-sumber yang dimiliki keluarga",
-          "Identifikasi Tindakan yang dapat dilakukan keluarga",
+          "Identifikasi Tindakan yang dapat dilakukan keluarga"
+        ],
+        "terapeutik": [
           "Motivasi pengembangan sikap dan emosi yang mendukung upaya Kesehatan",
           "Gunakan sarana dan fasilitas yang ada dalam keluarga",
-          "Ciptakan perubahan lingkungan rumah secara optimal",
+          "Ciptakan perubahan lingkungan rumah secara optimal"
+        ],
+        "edukasi": [
           "Informasikan fasilitas Kesehatan yang ada di lingkungan keluarga",
           "Anjurkan menggunakan fasilitas Kesehatan yang ada",
           "Ajarkan cara perawatan yang bisa dilakukan keluarga"
@@ -11466,13 +12594,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12482",
       "nama": "Koordinasi Diskusi Keluarga",
       "tindakan": {
+        "observasi": [
+          "Identifikasi gangguan Kesehatan setiap anggota keluarga"
+        ],
         "terapeutik": [
-          "Identifikasi gangguan Kesehatan setiap anggota keluarga",
           "Ciptakan suasana rumah yang sehat dan mendukung perkembangan kepribadian anggota keluarga",
           "Fasilitasi keluarga mendiskusikan masalah Kesehatan yang sedang dialami",
           "Pertahankan hubungan timbal balik antara keluarga dan fasilitas Kesehatan",
+          "Berikan perawatan kepada anggota keluarga yang sakit"
+        ],
+        "edukasi": [
           "Libatkan keluarga dalam mengambil keputusan untuk melakukan Tindakan yang tepat",
-          "Berikan perawatan kepada anggota keluarga yang sakit",
           "Anjurkan anggota keluarga dalam memanfaatkan sumber-sumber yang ada dalam masyarakat"
         ]
       }
@@ -11481,16 +12613,20 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.13486",
       "nama": "Pendampingan Keluarga",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kebutuhan keluarga terkait masalah Kesehatan keluarga",
           "Identifikasi tugas Kesehatan keluarga yang terhambat",
-          "Identifikasi dukungan spiritual yang mungkin untuk keluarga",
+          "Identifikasi dukungan spiritual yang mungkin untuk keluarga"
+        ],
+        "terapeutik": [
           "Yakinkan keluarga bahwa anggota keluarganya akan diberikan pelayanan terbaik",
           "Berikan harapan yang realistis",
           "Bina hubungan saling percaya dengan keluarga",
           "Dengarkan keinginan dan perasaan keluarga",
           "Dukung mekanisme koping adaptif yang digunakan keluarga",
-          "Advokasi keluarga, jika perlu",
+          "Advokasi keluarga, jika perlu"
+        ],
+        "edukasi": [
           "Ajarkan mekanisme koping yang dapat dijalankan keluarga"
         ]
       }
@@ -11502,7 +12638,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "manajemen-kesehatan-tidak-efektif",
   "kode": "D.0116",
   "nama": "Manajemen Kesehatan Tidak Efektif",
-  "definisi": "Manajemen kesehatan tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai pola pengaturan dan pengintegrasian penanganan..",
+  "definisi": "Pola pengaturan dan pengintegrasian penanganan masalah kesehatan ke dalam kebiasaan hidup sehari-hari tidak memuaskan untuk mencapai status kesehatan yang diharapkan",
   "kategori": "Penyuluhan dan Pembelajaran",
   "tipe": "Aktual",
   "keluhan": [
@@ -11547,18 +12683,24 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09265",
       "nama": "Dukungan Pengambilan Keputusan",
       "tindakan": {
+        "observasi": [
+          "Identifikasi persepsi mengenai masalah dan informasi yang memicu konflik"
+        ],
         "terapeutik": [
-          "Identifikasi persepsi mengenai masalah dan informasi yang memicu konflik",
           "Fasilitasi mengklarifikasi nilai dan harapan yang membantu membuat pilihan",
-          "Diskusikan kelebihan dan kekurangan dari setiap solusi",
           "Fasilitasi melihat situasi secara realistic",
           "Motivasi mengungkapkan tujuan perawatan yang diharapkan",
           "Fasilitasi pengambilan keputusan secara kolaboratif",
           "Hormati hak pasien untuk menerima atau menolak informasi",
           "Fasilitasi menjelaskan keputusan kepada orang lain, jika perlu",
           "Fasilitasi hubungan antara pasien, keluarga, dan tenaga Kesehatan lainnya",
-          "Jelaskan alternatif solusi secara jelas",
-          "Berikan informasi yang diminta pasien",
+          "Berikan informasi yang diminta pasien"
+        ],
+        "edukasi": [
+          "Diskusikan kelebihan dan kekurangan dari setiap solusi",
+          "Jelaskan alternatif solusi secara jelas"
+        ],
+        "kolaborasi": [
           "Kolaborasi dengan tenaga Kesehatan lain dalam memfasilitasi pengambilan keputusan"
         ]
       }
@@ -11567,13 +12709,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09277",
       "nama": "Dukungan tanggung jawab pada diri sendiri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi persepsi tentang masalah Kesehatan",
-          "Monitor pelaksanaan tanggung jawab",
+          "Monitor pelaksanaan tanggung jawab"
+        ],
+        "terapeutik": [
           "Berikan kesempatan merasakan memiliki tanggung jawab",
           "Tingkatkan rasa tanggung jawab atas perilaku sendiri",
           "Hindari berdebat atau tawar menawar tentang perannya di ruang perawatan",
-          "Berikan penguatan dan umpan balik positif jika melaksanakan tanggung jawab atau mengubah perilaku",
+          "Berikan penguatan dan umpan balik positif jika melaksanakan tanggung jawab atau mengubah perilaku"
+        ],
+        "edukasi": [
           "Diskusikan tanggung jawab terhadap profesi pemberi asuhan",
           "Diskusikan konsekuensi tidak melaksanakan tanggung jawab"
         ]
@@ -11583,12 +12729,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12383",
       "nama": "Edukasi Kesehatan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kesiapan dan kemampuan menerima informasi",
-          "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat",
+          "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat"
+        ],
+        "terapeutik": [
           "Sediakan materi dan media Pendidikan Kesehatan",
           "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
-          "Berikan kesempatan untuk bertanya",
+          "Berikan kesempatan untuk bertanya"
+        ],
+        "edukasi": [
           "Jelaskan faktor risiko yang dapat mempengaruhi Kesehatan",
           "Ajarkan perilaku hidup bersih dan sehat",
           "Ajarkan strategi yang dapat digunakan untuk meningkatkan perilaku hidup bersih dan sehat"
@@ -11599,12 +12749,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14525",
       "nama": "Pelibatan Keluarga",
       "tindakan": {
+        "observasi": [
+          "Identifikasi kesiapan keluarga untuk terlibat dalam perawatan"
+        ],
         "terapeutik": [
-          "Identifikasi kesiapan keluarga untuk terlibat dalam perawatan",
           "Ciptakan hubungan terapeutik pasien dengan keluarga dalam perawatan",
-          "Diskusikan cara perawatan di rumah (mis: kelompok, perawatan di rumah, atau rumah singgah)",
           "Motivasi keluarga mengembangkan aspek positif rencana perawatan",
-          "Fasilitasi keluarga membuat keputusan perawatan",
+          "Fasilitasi keluarga membuat keputusan perawatan"
+        ],
+        "edukasi": [
+          "Diskusikan cara perawatan di rumah (mis: kelompok, perawatan di rumah, atau rumah singgah)",
           "Jelaskan kondisi pasien kepada keluarga",
           "Informasikan tingkat ketergantungan pasien kepada keluarga",
           "Informasikan harapan pasien kepada keluarga",
@@ -11620,7 +12774,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "pemeliharaan-kesehatan-tidak-efektif",
   "kode": "D.0117",
   "nama": "Pemeliharaan Kesehatan Tidak Efektif",
-  "definisi": "Pemeliharaan kesehatan tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakmampuan mengidentifikasi...",
+  "definisi": "Ketidakmampuan mengidentifikasi, mengelola, dan/atau menemukan bantuan untuk mempertahankan kesehatan",
   "kategori": "Penyuluhan dan Pembelajaran",
   "tipe": "Aktual",
   "keluhan": [],
@@ -11659,12 +12813,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12383",
       "nama": "Edukasi Kesehatan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kesiapan dan kemampuan menerima informasi",
-          "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat",
+          "Identifikasi faktor-faktor yang dapat meningkatkan dan menurunkan motivasi perilaku hidup bersih dan sehat"
+        ],
+        "terapeutik": [
           "Sediakan materi dan media Pendidikan  Kesehatan",
           "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
-          "Berikan kesempatan untuk bertanya",
+          "Berikan kesempatan untuk bertanya"
+        ],
+        "edukasi": [
           "Jelaskan faktor risiko yang dapat mempengaruhi Kesehatan",
           "Ajarkan perilaku hidup bersih dan sehat",
           "Ajarkan strategi yang dapat digunakan untuk meningkatkan perilaku hidup bersih dan sehat"
@@ -11675,22 +12833,26 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09282",
       "nama": "Kontrak Perilaku Positif",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kemampuan mental dan kognitif untuk membuat kontrak",
           "Identifikasi cara dan sumber daya terbaik untuk mencapai tujuan",
           "Identifikasi hambatan dalam menerapkan perilaku positif",
-          "Monitor pelaksanaan perilaku ketidaksesuaian dan kurang komitmen untuk memenuhi kontrak",
+          "Monitor pelaksanaan perilaku ketidaksesuaian dan kurang komitmen untuk memenuhi kontrak"
+        ],
+        "terapeutik": [
           "Ciptakan lingkungan yang terbuka untuk membuat kontrak perilaku",
           "Fasilitasi pembuatan kontrak tertulis",
+          "Tetapkan batas waktu yang dibutuhkan untuk pelaksanaan Tindakan yang realistis",
+          "Fasilitasi meninjau ulang kontrak dan tujuan, jika perlu",
+          "Pastikan kontrak ditandatangani oleh semua pihak yang terlibat, jika perlu"
+        ],
+        "edukasi": [
           "Diskusikan perilaku Kesehatan yang ingin diubah",
           "Diskusikan tujuan positif jangka pendek dan jangka Panjang yang realistis dan dapat dicapai",
           "Diskusikan pengembangan rencana perilaku positif",
           "Diskusikan cara mengamati perilaku (mis: tabel kemajuan perilaku)",
           "Diskusikan penghargaan yang diinginkan Ketika tujuan tercapai, jika perlu",
           "Diskusikan konsekuensi atau sanksi tidak memenuhi kontrak",
-          "Tetapkan batas waktu yang dibutuhkan untuk pelaksanaan Tindakan yang realistis",
-          "Fasilitasi meninjau ulang kontrak dan tujuan, jika perlu",
-          "Pastikan kontrak ditandatangani oleh semua pihak yang terlibat, jika perlu",
           "Libatkan keluarga dalam proses kontrak, jika perlu",
           "Anjurkan menuliskan tujuan sendiri, jika perlu"
         ]
@@ -11700,22 +12862,26 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12464",
       "nama": "Penentuan Tujuan Bersama",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi tujuan-tujuan yang akan dicapai",
-          "Identifikasi cara mencapai tujuan secara konstruktif",
+          "Identifikasi cara mencapai tujuan secara konstruktif"
+        ],
+        "terapeutik": [
           "Nyatakan tujuan dengan kalimat positif dan jelas",
           "Tetapkan skala pencapaian tujuan, jika perlu",
           "Fasilitasi memecah tujuan kompleks menjadi langkah kecil yang mudah dilakukan",
           "Berikan batasan pada peran perawat dan pasien secara jelas",
-          "Diskusikan sumber daya yang ada untuk memenuhi tujuan",
-          "Diskusikan pengembangan rencana untuk memenuhi tujuan",
           "Prioritaskan aktivitas yang dapat membantu pencapaian tujuan",
           "fasilitasi dalam mengidentifikasi hasil yang diharapkan untuk setiap tujuan",
           "Tetapkan batas waktu yang realistis",
-          "Diskusikan indikator pengukuran untuk setiap tujuan (mis: perilaku)",
           "Tetapkan evaluasi secara periodik untuk menilai kemajuan sesuai tujuan",
           "HItung skor pencapaian tujuan",
-          "Modifikasi rencana jika tujuan tidak tercapai",
+          "Modifikasi rencana jika tujuan tidak tercapai"
+        ],
+        "edukasi": [
+          "Diskusikan sumber daya yang ada untuk memenuhi tujuan",
+          "Diskusikan pengembangan rencana untuk memenuhi tujuan",
+          "Diskusikan indikator pengukuran untuk setiap tujuan (mis: perilaku)",
           "Anjurkan mengenal masalah yang dialami",
           "Anjurkan mengembangkan harapan realistis",
           "Anjurkan mengidentifikasi kekuatan dan kemampuan sendiri",
@@ -11728,10 +12894,14 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12472",
       "nama": "Promosi Perilaku Upaya Kesehatan",
       "tindakan": {
+        "observasi": [
+          "Identifikasi perilaku upaya Kesehatan yang dapat ditingkatkan"
+        ],
         "terapeutik": [
-          "Identifikasi perilaku upaya Kesehatan yang dapat ditingkatkan",
           "Berikan lingkungan yang mendukung Kesehatan",
-          "Orientasi pelayanan Kesehatan yang dapat dimanfaatkan",
+          "Orientasi pelayanan Kesehatan yang dapat dimanfaatkan"
+        ],
+        "edukasi": [
           "Anjurkan persalinan ditolong oleh tenaga kesehatan",
           "Anjurkan memberi bayi ASI eksklusif",
           "Anjurkan menimbang balita setiap bulan",
@@ -11752,7 +12922,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "gangguan-interaksi-sosial",
   "kode": "D.0118",
   "nama": "Gangguan Interaksi Sosial",
-  "definisi": "Gangguan interaksi sosial merupakan diagnosis keperawatan yang didefinisikan sebagai kuantitas dan/atau kualitas sosial yang kurang atau...",
+  "definisi": "Kuantitas dan/atau kualitas sosial yang kurang atau berlebih",
   "kategori": "Interaksi Sosial",
   "tipe": "Aktual",
   "keluhan": [
@@ -11801,18 +12971,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.13484",
       "nama": "Modifikasi Perilaku Keterampilan Sosial",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab kurangnya keterampilan sosial",
-          "Identifikasi focus pelatihan keterampilan sosial",
+          "Identifikasi focus pelatihan keterampilan sosial"
+        ],
+        "terapeutik": [
           "Motivasi untuk berlatih keterampilan sosial",
           "Beri umpan balik positif (mis: pujian atau penghargaan) terhadap kemampuan sosialisasi",
+          "Edukasi keluarga untuk dukungan keterampilan sosial",
+          "Latih keterampilan sosial secara bertahap"
+        ],
+        "edukasi": [
           "Libatkan keluarga selama Latihan keterampilan sosial, jika perlu",
           "Jelaskan tujuan melatih keterampilan sosial",
           "Jelaskan respons dan konsekuensi keterampilan sosial",
           "Anjurkan mengungkapkan perasaan akibat masalah yang dialami",
-          "Anjurkan mengevaluasi pencapaian setiap interaksi",
-          "Edukasi keluarga untuk dukungan keterampilan sosial",
-          "Latih keterampilan sosial secara bertahap"
+          "Anjurkan mengevaluasi pencapaian setiap interaksi"
         ]
       }
     },
@@ -11820,25 +12994,29 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.13498",
       "nama": "Promosi Sosialisasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kemampuan melakukan interaksi dengan orang lain",
-          "Identifikasi hambatan melakukan interaksi dengan orang lain",
+          "Identifikasi hambatan melakukan interaksi dengan orang lain"
+        ],
+        "terapeutik": [
           "Motivasi meningkatkan keterlibatan dalam suatu hubungan",
           "Motivasi kesabaran dalam mengembangkan suatu hubungan",
           "Motivasi berpartisipasi dalam aktivitas baru dan kegiatan kelompok",
           "Motivasi berinteraksi di luar lingkungan (mis: jalan-jalan, ke toko buku)",
-          "Diskusikan kekuatan dan keterbatasan dalam berkomunikasi dengan orang lain",
-          "Diskusikan perencanaan kegiatan di masa depan",
           "Berikan umpan balik positif dalam perawatan diri",
           "Berikan umpan balik positif pada setiap peningkatan kemampuan",
+          "Latih bermain peran untuk meningkatkan keterampilan komunikasi",
+          "Latih mengekspresikan marah dengan tepat"
+        ],
+        "edukasi": [
+          "Diskusikan kekuatan dan keterbatasan dalam berkomunikasi dengan orang lain",
+          "Diskusikan perencanaan kegiatan di masa depan",
           "Anjurkan berinteraksi dengan orang lain secara bertahap",
           "Anjurkan ikut serta kegiatan sosial dan kemasyarakatan",
           "Anjurkan berbagi pengalaman dengan orang lain",
           "Anjurkan meningkatkan kejujuran diri dan menghormati hak orang lain",
           "Anjurkan penggunaan alat bantu (mis: kacamata dan alat bantu dengar)",
-          "Anjurkan membuat perencanaan kelompok kecil untuk kegiatan khusus",
-          "Latih bermain peran untuk meningkatkan keterampilan komunikasi",
-          "Latih mengekspresikan marah dengan tepat"
+          "Anjurkan membuat perencanaan kelompok kecil untuk kegiatan khusus"
         ]
       }
     }
@@ -11849,7 +13027,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "gangguan-komunikasi-verbal",
   "kode": "D.0119",
   "nama": "Gangguan Komunikasi Verbal",
-  "definisi": "Gangguan komunikasi verbal merupakan diagnosis keperawatan yang didefinisikan sebagai penurunan, perlambatan, atau ketiadaan kemampuan...",
+  "definisi": "Penurunan, perlambatan, atau ketiadaan kemampuan untuk menerima, memproses, mengirim, dan/atau menggunakan sistem simbol",
   "kategori": "Interaksi Sosial",
   "tipe": "Aktual",
   "keluhan": [
@@ -11889,20 +13067,24 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.13492",
       "nama": "Promosi Komunikasi: Defisit Bicara",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor kecepatan, tekanan, kuantitias, volume, dan diksi bicara",
           "Monitor progress kognitif, anatomis, dan fisiologis yang berkaitan dengan bicara (mis: memori, pendengaran, dan Bahasa)",
           "Monitor frustasi, marah, depresi, atau hal lain yang mengganggu bicara",
-          "Identifikasi perilaku emosional dan fisik sebagai bentuk komunikasi",
+          "Identifikasi perilaku emosional dan fisik sebagai bentuk komunikasi"
+        ],
+        "terapeutik": [
           "Gunakan metode komunikasi alternatif (mis: menulis, mata berkedip, papan komunikasi dengan gambar dan huruf, isyarat tangan, dan komputer)",
           "Sesuaikan gaya komunikasi dengan kebutuhan (mis: berdiri di depan pasien, dengarkan dengan seksama, tunjukkan satu gagasan atau pemikiran sekaligus,  bicaralah dengan perlahan sambal menghindari teriakan, gunakan komunikasi tertulis, atau meminta bantuan keluarga untuk memahami ucapan pasien)",
           "Modifikasi lingkungan untuk meminimalkan bantuan",
           "Ulangi apa yang disampaikan pasien",
           "Berikan dukungan psikologis",
           "Gunakan juru bicara, jika perlu",
-          "Anjurkan berbicara perlahan",
-          "Ajarkan pasien dan keluarga proses kognitif, anatomis, dan fisiologis yang berhubungan dengan kemampuan bicara",
           "Rujuk ke ahli patologi bicara atau terapis"
+        ],
+        "edukasi": [
+          "Anjurkan berbicara perlahan",
+          "Ajarkan pasien dan keluarga proses kognitif, anatomis, dan fisiologis yang berhubungan dengan kemampuan bicara"
         ]
       }
     },
@@ -11910,10 +13092,12 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.13493",
       "nama": "Promosi Komunikasi: Defisit Pendengaran",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Periksa kemampuan pendengaran",
           "Monitor akumulasi serumen berlebihan",
-          "Identifikasi metode komunikasi yang disukai pasien (mis: lisan, tulisan, Gerakan bibir, Bahasa isyarat)",
+          "Identifikasi metode komunikasi yang disukai pasien (mis: lisan, tulisan, Gerakan bibir, Bahasa isyarat)"
+        ],
+        "terapeutik": [
           "Gunakan Bahasa sederhana",
           "Gunakan Bahasa Isyarat, jika perlu",
           "Verifikasi apa yang dikatakan atau ditulis pasien",
@@ -11924,7 +13108,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Hindari kebisingan saat berkomunikasi",
           "Hindari berkomunikasi lebih dari 1 meter dari pasien",
           "Lakukan irigasi telinga, jika perlu",
-          "Pertahankan kebersihan telinga",
+          "Pertahankan kebersihan telinga"
+        ],
+        "edukasi": [
           "Anjurkan menyampaikan pesan dengan isyarat",
           "Ajarkan cara membersihkan serumen dengan tepat"
         ]
@@ -11934,9 +13120,11 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.13494",
       "nama": "Promosi Komunikasi: Defisit Visual",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Periksa kemampuan penglihatan",
-          "Monitor dampak gangguan penglihatan (mis: risiko cidera, depresi, kegelisahan, kemampuan melakukan aktivitas sehari-hari",
+          "Monitor dampak gangguan penglihatan (mis: risiko cidera, depresi, kegelisahan, kemampuan melakukan aktivitas sehari-hari"
+        ],
+        "terapeutik": [
           "Fasilitasi peningkatan stimulasi indra lainnya (mis: aroma, rasa, tekstur makanan)",
           "Pastikan kaca mata atau lensa kontak berfungsi dengan baik",
           "Sediakan pencahayaan cukup",
@@ -11946,9 +13134,11 @@ export const allDiagnosesData: Diagnosis[] = [
           "Fasilitasi membaca surat, surat kabar, atau media informasi lainnya",
           "Gunakan warna terang dan kontras di lingkungan",
           "Sediakan kaca pembesar, jika perlu",
-          "Jelaskan lingkungan pada pasien",
-          "Ajarkan keluarga cara membantu pasien berkomunikasi",
           "Rujuk pasien pada terapis, jika perlu"
+        ],
+        "edukasi": [
+          "Jelaskan lingkungan pada pasien",
+          "Ajarkan keluarga cara membantu pasien berkomunikasi"
         ]
       }
     }
@@ -11959,7 +13149,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "gangguan-proses-keluarga",
   "kode": "D.0120",
   "nama": "Gangguan Proses Keluarga",
-  "definisi": "Gangguan proses keluarga merupakan diagnosis keperawatan yang didefinisikan sebagai perubahan dalam hubungan atau fungsi keluarga.",
+  "definisi": "Perubahan dalam hubungan atau fungsi keluarga",
   "kategori": "Interaksi Sosial",
   "tipe": "Aktual",
   "keluhan": [
@@ -11999,14 +13189,15 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09260",
       "nama": "Dukungan Koping Keluarga",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi respons emosional terhadap kondisi saat ini",
           "Identifikasi beban prognosis secara psikologis",
           "Identifikasi pemahaman tentang keputusan perawatan setelah pulang",
-          "Identifikasi kesesuaian antara harapan pasien,  keluarga, dan tenaga  kesehatan",
+          "Identifikasi kesesuaian antara harapan pasien,  keluarga, dan tenaga  kesehatan"
+        ],
+        "terapeutik": [
           "Dengarkan masalah, perasaan, dan pertanyaan keluarga",
           "Terima nilai-nilai keluarga dengan cara yang tidak menghakimi",
-          "Diskusikan rencana medis dan perawatan",
           "Fasilitasi pengungkapan perasaan antara pasien dan keluarga atau antar anggota keluarga",
           "Fasilitasi pengambilan keputusan dalam merencanakan perawatan jangka Panjang, jika perlu",
           "Fasilitasi anggota keluarga dalam mengidentifikasi dan menyelesaikan konflik nilai",
@@ -12016,9 +13207,12 @@ export const allDiagnosesData: Diagnosis[] = [
           "Bersikap sebagai pengganti keluarga untuk menenangkan pasien dan/atau jika keluarga tidak dapat memberikan perawatan",
           "Hargai dan dukung mekanisme koping adaptif yang digunakan",
           "Berikan kesempatan berkunjung bagi anggota keluarga",
-          "Informasikan kemajuan pasien secara berkala",
-          "Informasikan fasilitas perawatan Kesehatan yang tersedia",
           "Rujuk untuk terapi keluarga, jika perlu"
+        ],
+        "edukasi": [
+          "Diskusikan rencana medis dan perawatan",
+          "Informasikan kemajuan pasien secara berkala",
+          "Informasikan fasilitas perawatan Kesehatan yang tersedia"
         ]
       }
     },
@@ -12026,17 +13220,21 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.13496",
       "nama": "Promosi Proses Efektif Keluarga",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi tipe proses keluarga",
           "Identifikasi masalah atau gangguan dalam proses keluarga",
-          "Identifikasi kebutuhan perawatan mandiri di rumah untuk klien dan tetap beradaptasi dengan pola hidup keluarga",
+          "Identifikasi kebutuhan perawatan mandiri di rumah untuk klien dan tetap beradaptasi dengan pola hidup keluarga"
+        ],
+        "terapeutik": [
           "Pertahankan interaksi yang berkelanjutan dengan anggota keluarga",
           "Motivasi anggota keluarga untuk melakukan aktivitas bersama seperti makan bersama, diskusi bersama keluarga",
           "Fasilitasi anggota keluarga melakukan kunjungan rumah sakit",
           "Susun jadwal aktivitas perawatan mandiri di rumah untuk mengurangi gangguan rutinitas keluarga",
-          "Jelaskan strategi mengembalikan kehidupan keluarga yang normal kepada anggota keluarga",
-          "Diskusikan dukungan sosial dari sekitar keluarga",
           "Latih keluarga manajemen waktu jika perawatan di rumah dibutuhkan"
+        ],
+        "edukasi": [
+          "Jelaskan strategi mengembalikan kehidupan keluarga yang normal kepada anggota keluarga",
+          "Diskusikan dukungan sosial dari sekitar keluarga"
         ]
       }
     },
@@ -12044,7 +13242,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09322",
       "nama": "Terapi Keluarga",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi Riwayat Kesehatan keluarga",
           "Identifikasi pola komunikasi keluarga",
           "Identifikasi cara keluarga memecahkan masalah",
@@ -12059,16 +13257,20 @@ export const allDiagnosesData: Diagnosis[] = [
           "Identifikasi kejadian saat ini atau akan terjadi yang mengancam keluarga",
           "Identifikasi kebutuhan dan harapan dalam keluarga",
           "Identifikasi hubungan hierarkis anggota keluarga",
-          "Monitor respons merugikan terhadap terapi",
+          "Monitor respons merugikan terhadap terapi"
+        ],
+        "terapeutik": [
           "Fasilitasi diskusi keluarga",
           "Fasilitasi strategi menurunkan stres",
           "Fasilitasi restrukturisasi sistem keluarga, jika sesuai",
+          "Rencanakan strategi menghentikan terapi"
+        ],
+        "edukasi": [
           "Diskusikan cara terbaik dalam menangani disfungsi perilaku dalam keluarga",
           "Diskusikan Batasan keluarga",
           "Diskusikan strategi penyelesaian masalah yang konstruktif",
           "Diskusikan rencana terapi dengan keluarga",
           "Diskusikan cara membudayakan perilaku baru",
-          "Rencanakan strategi menghentikan terapi",
           "Anjurkan berkomunikasi lebih efektif",
           "Anjurkan anggota memprioritaskan dan memilih masalah keluarga",
           "Anjurkan semua anggota keluarga berpartisipasi dalam pekerjaan rumah tangga Bersama-sama (mis: makan Bersama)",
@@ -12083,7 +13285,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "isolasi-sosial",
   "kode": "D.0121",
   "nama": "Isolasi Sosial",
-  "definisi": "Isolasi sosial merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakmampuan untuk membina hubungan yang...",
+  "definisi": "Ketidakmampuan untuk membina hubungan yang erat, hangat, terbuka, dan interdependen dengan orang lain",
   "kategori": "Interaksi Sosial",
   "tipe": "Aktual",
   "keluhan": [
@@ -12126,25 +13328,29 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.13498",
       "nama": "Promosi Sosialisasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kemampuan melakukan interaksi dengan orang lain",
-          "Identifikasi hambatan melakukan interaksi dengan orang lain",
+          "Identifikasi hambatan melakukan interaksi dengan orang lain"
+        ],
+        "terapeutik": [
           "Motivasi meningkatkan keterlibatan dalam suatu hubungan",
           "Motivasi kesabaran dalam mengembangkan suatu hubungan",
           "Motivasi berpartisipasi dalam aktivitas baru dan kegiatan kelompok",
           "Motivasi berinteraksi di luar lingkungan (mis: jalan-jalan, ke toko buku)",
-          "Diskusikan kekuatan dan keterbatasan dalam berkomunikasi dengan orang lain",
-          "Diskusikan perencanaan kegiatan di masa depan",
           "Berikan umpan balik positif dalam perawatan diri",
           "Berikan umpan balik positif pada setiap peningkatan kemampuan",
+          "Latih bermain peran untuk meningkatkan keterampilan komunikasi",
+          "Latih mengekspresikan marah dengan tepat"
+        ],
+        "edukasi": [
+          "Diskusikan kekuatan dan keterbatasan dalam berkomunikasi dengan orang lain",
+          "Diskusikan perencanaan kegiatan di masa depan",
           "Anjurkan berinteraksi dengan orang lain secara bertahap",
           "Anjurkan ikut serta kegiatan sosial dan kemasyarakatan",
           "Anjurkan berbagi pengalaman dengan orang lain",
           "Anjurkan meningkatkan kejujuran diri dan menghormati hak orang lain",
           "Anjurkan penggunaan alat bantu (mis: kacamata dan alat bantu dengar)",
-          "Anjurkan membuat perencanaan kelompok kecil untuk kegiatan khusus",
-          "Latih bermain peran untuk meningkatkan keterampilan komunikasi",
-          "Latih mengekspresikan marah dengan tepat"
+          "Anjurkan membuat perencanaan kelompok kecil untuk kegiatan khusus"
         ]
       }
     },
@@ -12152,13 +13358,15 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.01026",
       "nama": "Terapi Aktivitas",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi defisit tingkat aktivitas",
           "Identifikasi kemampuan berpartisipasi dalam aktivitas tertentu",
           "Identifikasi sumber daya untuk aktivitas yang diinginkan",
           "Identifikasi strategi meningkatkan partisipasi dalam aktivitas",
           "Identifikasi makna aktivitas rutin (mis: bekerja) dan waktu luang",
-          "Monitor respons emosional, fisik, sosial, dan spiritual terhadap aktivitas",
+          "Monitor respons emosional, fisik, sosial, dan spiritual terhadap aktivitas"
+        ],
+        "terapeutik": [
           "Fasilitasi fokus pada kemampuan, bukan defisit yang dialami",
           "Sepakati komitmen untuk meningkatkan frekuensi dan rentang aktivitas",
           "Fasilitasi memilih aktivitas dan tetapkan tujuan aktivitas yang konsisten sesuai kemampuan fisik, psikologis, dan sosial",
@@ -12174,18 +13382,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Fasilitasi aktivitas aktivitas dengan komponen memori implisit dan emosional (mis: kegiatan keagamaan khusus) untuk pasien demensia, jika sesuai",
           "Libatkan dalam permainan kelompok yang tidak kompetitif, terstruktur, dan aktif",
           "Tingkatkan keterlibatan dalam aktivitas rekreasi dan diversifikasi untuk menurunkan kecemasan (mis: vocal group, bola voli, tenis meja, jogging, berenang, tugas sederhana, permainan sederhana, tugas rutin, tugas rumah tangga, perawatan diri, dan teka-teki dan kartu)",
-          "Libatkan keluarga dalam aktivitas, jika perlu",
           "Fasilitasi mengembangkan motivasi dan penguatan diri",
           "Fasilitasi pasien dan keluarga memantau kemajuannya sendiri untuk mencapai tujuan",
           "Jadwalkan aktivitas dalam rutinitas sehari-hari",
           "Berikan penguatan positif atas partisipasi dalam aktivitas",
+          "Rujuk pada pusat atau program aktivitas komunitas, jika perlu"
+        ],
+        "edukasi": [
+          "Libatkan keluarga dalam aktivitas, jika perlu",
           "Jelaskan metode aktivitas fisik sehari-hari, jika perlu",
           "Ajarkan cara melakukan aktivitas yang dipilih",
           "Anjurkan melakukan aktivitas fisik, sosial, spiritual, dan kognitif dalam menjaga fungsi dan  Kesehatan",
           "Anjurkan terlibat dalam aktivitas kelompok atau terapi, jika sesuai",
-          "Anjurkan keluarga untuk memberi penguatan positif atas partisipasi dalam aktivitas",
-          "Kolaborasi dengan terapis okupasi dalam merencanakan dan memonitor program aktivitas, jika sesuai",
-          "Rujuk pada pusat atau program aktivitas komunitas, jika perlu"
+          "Anjurkan keluarga untuk memberi penguatan positif atas partisipasi dalam aktivitas"
+        ],
+        "kolaborasi": [
+          "Kolaborasi dengan terapis okupasi dalam merencanakan dan memonitor program aktivitas, jika sesuai"
         ]
       }
     }
@@ -12196,7 +13408,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "kesiapan-peningkatan-menjadi-orang-tua",
   "kode": "D.0122",
   "nama": "Kesiapan Peningkatan Menjadi Orang Tua",
-  "definisi": "Kesiapan peningkatan menjadi orang tua merupakan diagnosis keperawatan yang didefinisikan sebagai pola pemberian lingkungan bagi...",
+  "definisi": "Pola pemberian lingkungan bagi anak atau anggota keluarga yang cukup untuk memfasilitasi pertumbuhan dan perkembangan serta dapat ditingkatkan",
   "kategori": "Interaksi Sosial",
   "tipe": "Aktual",
   "keluhan": [
@@ -12227,14 +13439,18 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12466",
       "nama": "Promosi Antisipasi Keluarga",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kemungkinan krisis situasi atau masalah perkembangan serta dampaknya pada kehidupan pasien dan keluarga",
-          "Identifikasi metode pemecahan masalah yang sering digunakan keluarga",
+          "Identifikasi metode pemecahan masalah yang sering digunakan keluarga"
+        ],
+        "terapeutik": [
           "Fasilitasi dalam memutus strategi pemecahan masalah yang dihadapi keluarga",
-          "Libatkan seluruh anggota keluarga dalam upaya antisipasi masalah Kesehatan, jika memungkinkan",
           "Buat jadwal aktivitas bersama keluarga terkait masalah  Kesehatan yang dihadapi",
-          "Jelaskan perkembangan dan perilaku yang normal pada  keluarga",
           "Kerjasama dengan tenaga Kesehatan terkait lainnya, jika perlu"
+        ],
+        "edukasi": [
+          "Libatkan seluruh anggota keluarga dalam upaya antisipasi masalah Kesehatan, jika memungkinkan",
+          "Jelaskan perkembangan dan perilaku yang normal pada  keluarga"
         ]
       }
     },
@@ -12242,9 +13458,11 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.13495",
       "nama": "Promosi Pengasuhan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi keluarga risiko tinggi dalam program tindak lanjut",
-          "Monitor status Kesehatan anak dan status imunisasi anak",
+          "Monitor status Kesehatan anak dan status imunisasi anak"
+        ],
+        "terapeutik": [
           "Dukung ibu menerima dan melakukan perawatan pre natal secara teratur dan sedini mungkin",
           "Lakukan kunjungan rumah sesuai dengan tingkat risiko",
           "Fasilitasi orang tua dalam memiliki harapan yang realistis sesuai tingkat kemampuan dan perkembangan anak",
@@ -12254,7 +13472,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Fasilitasi orang tua dalam mengembangkan dan memelihara sistam dukungan sosial",
           "Sediakan media untuk mengembangkan keterampilan sosial dan koping",
           "Fasilitasi mengatur penitipan anak, jika perlu",
-          "Fasilitasi penggunaan kontrasepsi",
+          "Fasilitasi penggunaan kontrasepsi"
+        ],
+        "edukasi": [
           "Ajarkan orang tua untuk menanggapi isyarat bayi"
         ]
       }
@@ -12266,7 +13486,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "kesiapan-peningkatan-proses-keluarga",
   "kode": "D.0123",
   "nama": "Kesiapan Peningkatan Proses Keluarga",
-  "definisi": "Kesiapan peningkatan proses keluarga merupakan diagnosis keperawatan yang didefinisikan sebagai pola fungsi keluarga yang cukup untuk...",
+  "definisi": "Pola fungsi keluarga yang cukup untuk mendukung kesejahteraan anggota keluarga dan dapat ditingkatkan",
   "kategori": "Interaksi Sosial",
   "tipe": "Aktual",
   "keluhan": [
@@ -12299,18 +13519,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.13490",
       "nama": "Promosi Keutuhan Keluarga",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi pemahaman keluarga terhadap masalah",
           "Identifikasi adanya konflik prioritas antar anggota keluarga",
           "Identifikasi mekanisme koping keluarga",
-          "Monitor hubungan antara anggota keluarga",
+          "Monitor hubungan antara anggota keluarga"
+        ],
+        "terapeutik": [
           "Hargai privasi keluarga",
           "Fasilitasi kunjungan keluarga",
           "Fasilitasi keluarga melakukan pengambilan keputusan dan pemecahan masalah",
           "Fasilitasi komunikasi terbuka antara setiap anggota keluarga",
-          "Informasikan kondisi pasien secara berkala kepada keluarga",
-          "Anjurkan anggota keluarga mempertahankan keharmonisan keluarga",
           "Rujuk untuk terapi keluarga, jika perlu"
+        ],
+        "edukasi": [
+          "Informasikan kondisi pasien secara berkala kepada keluarga",
+          "Anjurkan anggota keluarga mempertahankan keharmonisan keluarga"
         ]
       }
     },
@@ -12318,17 +13542,21 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.13496",
       "nama": "Promosi Proses Efektif Keluarga",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi tipe proses keluarga",
           "Identifikasi masalah atau gangguan dalam proses keluarga",
-          "Identifikasi kebutuhan perawatan mandiri di rumah untuk klien dan tetap beradaptasi dengan pola hidup keluarga",
+          "Identifikasi kebutuhan perawatan mandiri di rumah untuk klien dan tetap beradaptasi dengan pola hidup keluarga"
+        ],
+        "terapeutik": [
           "Pertahankan interaksi yang berkelanjutan dengan anggota keluarga",
           "Motivasi anggota keluarga untuk melakukan aktivitas bersama seperti makan bersama, diskusi bersama keluarga",
           "Fasilitasi anggota keluarga melakukan kunjungan rumah sakit",
           "Susun jadwal aktivitas perawatan mandiri di rumah untuk mengurangi gangguan rutinitas keluarga",
-          "Jelaskan strategi mengembalikan kehidupan keluarga yang normal kepada anggota keluarga",
-          "Diskusikan dukungan sosial dari sekitar keluarga",
           "Latih keluarga manajemen waktu jika perawatan di rumah dibutuhkan"
+        ],
+        "edukasi": [
+          "Jelaskan strategi mengembalikan kehidupan keluarga yang normal kepada anggota keluarga",
+          "Diskusikan dukungan sosial dari sekitar keluarga"
         ]
       }
     }
@@ -12339,7 +13567,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "ketegangan-peran-pemberi-asuhan",
   "kode": "D.0124",
   "nama": "Ketegangan Peran Pemberi Asuhan",
-  "definisi": "Ketegangan peran pemberi asuhan merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakmampuan untuk membina hubungan yang...",
+  "definisi": "Ketidakmampuan untuk membina hubungan yang erat, hangat, terbuka, dan interdependen dengan orang lain",
   "kategori": "Interaksi Sosial",
   "tipe": "Aktual",
   "keluhan": [],
@@ -12375,12 +13603,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12402",
       "nama": "Edukasi Pada Pengasuh",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi pemahaman dan kesiapan peran pengasuh",
-          "Identifikasi sumber dukungan dan kebutuhan istirahat pengasuh",
+          "Identifikasi sumber dukungan dan kebutuhan istirahat pengasuh"
+        ],
+        "terapeutik": [
           "Berikan dukungan pada pengasuh selama pasien mengalami kemunduran",
           "Dukung keterbatasan pengasuh dan diskusikan dengan pasien",
-          "Fasilitasi pengasuh untuk bertanya",
+          "Fasilitasi pengasuh untuk bertanya"
+        ],
+        "edukasi": [
           "Jelaskan dampak ketergantungan anak pada pengasuh",
           "Ajarkan pengasuh mengeksplorasi kekuatan dan kelemahannya",
           "Ajarkan pengasuh cara memberikan dukungan perawatan diri (mis: mandi, BAB/BAK, berpakaian/berhias, makan/minum)"
@@ -12391,9 +13623,11 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.13495",
       "nama": "Promosi Pengasuhan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi keluarga risiko tinggi dalam program tindak lanjut",
-          "Monitor status Kesehatan anak dan status imunisasi anak",
+          "Monitor status Kesehatan anak dan status imunisasi anak"
+        ],
+        "terapeutik": [
           "Dukung ibu menerima dan melakukan perawatan pre natal secara teratur dan sedini mungkin",
           "Lakukan kunjungan rumah sesuai dengan tingkat risiko",
           "Fasilitasi orang tua dalam memiliki harapan yang realistis sesuai tingkat kemampuan dan perkembangan anak",
@@ -12403,7 +13637,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Fasilitasi orang tua dalam mengembangkan dan memelihara sistam dukungan sosial",
           "Sediakan media untuk mengembangkan keterampilan sosial dan koping",
           "Fasilitasi mengatur penitipan anak, jika perlu",
-          "Fasilitasi penggunaan kontrasepsi",
+          "Fasilitasi penggunaan kontrasepsi"
+        ],
+        "edukasi": [
           "Ajarkan orang tua untuk menanggapi isyarat bayi"
         ]
       }
@@ -12415,7 +13651,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "penampilan-peran-tidak-efektif",
   "kode": "D.0125",
   "nama": "Penampilan Peran Tidak Efektif",
-  "definisi": "Penampilan peran tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai pola perilaku yang berubah atau...",
+  "definisi": "Pola perilaku yang berubah atau tidak sesuai dengan harapan, norma, dan lingkungan",
   "kategori": "Interaksi Sosial",
   "tipe": "Aktual",
   "keluhan": [],
@@ -12459,22 +13695,26 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.13478",
       "nama": "Dukungan Penampilan Peran",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi berbagai peran dan periode transisi sesuai tingkat perkembangan",
           "Identifikasi peran yang ada dalam keluarga",
-          "Identifikasi adanya peran yang tidak terpenuhi",
+          "Identifikasi adanya peran yang tidak terpenuhi"
+        ],
+        "terapeutik": [
           "Fasilitasi adaptasi peran keluarga terhadap perubahan peran yang tidak diinginkan",
           "Fasilitasi bermain peran dalam mengantisipasi reaksi orang lain terhadap perilaku",
           "Fasilitasi diskusi perubahan peran anak terhadap bayi baru lahir, jika perlu",
           "Fasilitasi diskusi tentang peran orang tua, jika perlu",
           "Fasilitasi diskusi tentang adaptasi peran saat anak meninggalkan rumah, jika perlu",
           "Fasilitasi diskusi harapan dengan keluarga dan peran timbal balik",
+          "Rujuk dalam kelompok untuk mempelajari peran baru"
+        ],
+        "edukasi": [
           "Diskusikan perilaku yang dibutuhkan untuk pengembangan peran",
           "Diskusikan perubahan peran yang diperlukan akibat penyakit atau ketidakmampuan",
           "Diskusikan perubahan peran dalam menerima ketergantungan orang tua",
           "Diskusikan strategi positif untuk mengelola perubahan peran",
-          "Ajarkan perilaku baru yang dibutuhkan oleh pasien/orang tua untuk memenuhi peran",
-          "Rujuk dalam kelompok untuk mempelajari peran baru"
+          "Ajarkan perilaku baru yang dibutuhkan oleh pasien/orang tua untuk memenuhi peran"
         ]
       }
     }
@@ -12485,7 +13725,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "pencapaian-peran-menjadi-orang-tua",
   "kode": "D.0126",
   "nama": "Pencapaian Peran Menjadi Orang Tua",
-  "definisi": "Pencapaian peran menjadi orang tua merupakan diagnosis keperawatan yang didefinisikan sebagai terjadinya proses interaktif antar...",
+  "definisi": "Terjadinya proses interaktif antar anggota keluarga (suami-isteri, anggota keluarga dan bayi) yang ditunjukkan dengan perkembangan bayi yang optimal",
   "kategori": "Interaksi Sosial",
   "tipe": "Aktual",
   "keluhan": [
@@ -12518,14 +13758,18 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12466",
       "nama": "Promosi Antisipasi Keluarga",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kemungkinan krisis situasi atau masalah perkembangan serta dampaknya pada kehidupan pasien dan keluarga",
-          "Identifikasi metode pemecahan masalah yang sering digunakan keluarga",
+          "Identifikasi metode pemecahan masalah yang sering digunakan keluarga"
+        ],
+        "terapeutik": [
           "Fasilitasi dalam memutus strategi pemecahan masalah yang dihadapi keluarga",
-          "Libatkan seluruh anggota keluarga dalam upaya antisipasi masalah Kesehatan, jika memungkinkan",
           "Buat jadwal aktivitas bersama keluarga terkait masalah Kesehatan yang dihadapi",
-          "Jelaskan perkembangan dan perilaku yang normal pada keluarga",
           "Kerjasama dengan tenaga Kesehatan terkait lainnya, jika perlu"
+        ],
+        "edukasi": [
+          "Libatkan seluruh anggota keluarga dalam upaya antisipasi masalah Kesehatan, jika memungkinkan",
+          "Jelaskan perkembangan dan perilaku yang normal pada keluarga"
         ]
       }
     },
@@ -12533,9 +13777,11 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.13495",
       "nama": "Promosi Pengasuhan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi keluarga risiko tinggi dalam program tindak lanjut",
-          "Monitor status Kesehatan anak dan status imunisasi anak",
+          "Monitor status Kesehatan anak dan status imunisasi anak"
+        ],
+        "terapeutik": [
           "Dukung ibu menerima dan melakukan perawatan pre natal secara teratur dan sedini mungkin",
           "Lakukan kunjungan rumah sesuai dengan tingkat risiko",
           "Fasilitasi orang tua dalam memiliki harapan yang realistis sesuai tingkat kemampuan dan perkembangan anak",
@@ -12556,7 +13802,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-gangguan-perlekatan",
   "kode": "D.0127",
   "nama": "Risiko Gangguan Perlekatan",
-  "definisi": "Risiko gangguan perlekatan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami gangguan interaksi antara...",
+  "definisi": "Berisiko mengalami gangguan interaksi antara orang tua atau orang terdekat dengan bayi/anak yang dapat mempengaruhi proses asah, asih, dan asuh",
   "kategori": "Interaksi Sosial",
   "tipe": "Aktual",
   "keluhan": [
@@ -12600,12 +13846,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.10342",
       "nama": "Promosi Perlekatan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor kegiatan menyusui",
           "Identifikasi kemampuan bayi menghisap dan menelan ASI",
           "Identifikasi payudara ibu (mis: bengkak, puting lecet, mastitis, nyeri pada payudara)",
-          "Monitor perlekatan saat menyusui (mis: areola bagian bawah lebih kecil daripada areola bagian atas, mulut  bayi terbuka lebar, bibir bayi berputar keluar dan dagu bayi menempel pada payudara ibu)",
-          "Hindari memegang kepala bayi",
+          "Monitor perlekatan saat menyusui (mis: areola bagian bawah lebih kecil daripada areola bagian atas, mulut  bayi terbuka lebar, bibir bayi berputar keluar dan dagu bayi menempel pada payudara ibu)"
+        ],
+        "terapeutik": [
+          "Hindari memegang kepala bayi"
+        ],
+        "edukasi": [
           "Diskusikan dengan ibu masalah selama proses menyusui",
           "Ajarkan ibu menopang seluruh tubuh bayi",
           "Anjurkan ibu melepas pakaian bagian atas agar bayi dapat menyentuh payudara ibu",
@@ -12620,18 +13870,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.13490",
       "nama": "Promosi Keutuhan Keluarga",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi pemahaman keluarga terhadap masalah",
           "Identifikasi adanya konflik prioritas antar anggota keluarga",
           "Identifikasi mekanisme koping keluarga",
-          "Monitor hubungan antara anggota keluarga",
+          "Monitor hubungan antara anggota keluarga"
+        ],
+        "terapeutik": [
           "Hargai privasi keluarga",
           "Fasilitasi kunjungan keluarga",
           "Fasilitasi keluarga melakukan pengambilan keputusan dan pemecahan masalah",
           "Fasilitasi komunikasi terbuka antara setiap anggota keluarga",
-          "Informasikan kondisi pasien secara berkala kepada keluarga",
-          "Anjurkan anggota keluarga mempertahankan keharmonisan keluarga",
           "Rujuk untuk terapi keluarga, jika perlu"
+        ],
+        "edukasi": [
+          "Informasikan kondisi pasien secara berkala kepada keluarga",
+          "Anjurkan anggota keluarga mempertahankan keharmonisan keluarga"
         ]
       }
     }
@@ -12642,7 +13896,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-proses-pengasuhan-tidak-efektif",
   "kode": "D.0128",
   "nama": "Risiko Proses Pengasuhan Tidak Efektif",
-  "definisi": "Risiko proses pengasuhan tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami proses...",
+  "definisi": "Berisiko mengalami proses kehamilan, persalinan, dan setelah melahirkan termasuk perawatan bayi baru lahir yang tidak sesuai dengan konteks norma dan harapan",
   "kategori": "Interaksi Sosial",
   "tipe": "Aktual",
   "keluhan": [],
@@ -12677,18 +13931,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.13490",
       "nama": "Promosi Keutuhan Keluarga",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi pemahaman keluarga terhadap masalah",
           "Identifikasi adanya konflik prioritas antar anggota keluarga",
           "Identifikasi mekanisme koping keluarga",
-          "Monitor hubungan antara anggota keluarga",
+          "Monitor hubungan antara anggota keluarga"
+        ],
+        "terapeutik": [
           "Hargai privasi keluarga",
           "Fasilitasi kunjungan keluarga",
           "Fasilitasi keluarga melakukan pengambilan keputusan dan pemecahan masalah",
           "Fasilitasi komunikasi terbuka antara setiap anggota keluarga",
-          "Informasikan kondisi pasien secara berkala kepada keluarga",
-          "Anjurkan anggota keluarga mempertahankan keharmonisan keluarga",
           "Rujuk untuk terapi  keluarga, jika perlu"
+        ],
+        "edukasi": [
+          "Informasikan kondisi pasien secara berkala kepada keluarga",
+          "Anjurkan anggota keluarga mempertahankan keharmonisan keluarga"
         ]
       }
     },
@@ -12696,12 +13954,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.10342",
       "nama": "Promosi Perlekatan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor kegiatan menyusui",
           "Identifikasi kemampuan  bayi menghisap dan menelan ASI",
           "Identifikasi payudara ibu (mis: bengkak, puting lecet, mastitis, nyeri pada payudara)",
-          "Monitor perlekatan saat menyusui (mis: areola bagian bawah lebih kecil daripada areola bagian atas, mulut bayi terbuka lebar, bibir bayi berputar keluar dan dagu bayi menempel pada payudara ibu)",
-          "Hindari memegang kepala bayi",
+          "Monitor perlekatan saat menyusui (mis: areola bagian bawah lebih kecil daripada areola bagian atas, mulut bayi terbuka lebar, bibir bayi berputar keluar dan dagu bayi menempel pada payudara ibu)"
+        ],
+        "terapeutik": [
+          "Hindari memegang kepala bayi"
+        ],
+        "edukasi": [
           "Diskusikan dengan ibu masalah selama proses menyusui",
           "Ajarkan ibu menopang seluruh tubuh bayi",
           "Anjurkan ibu melepas pakaian bagian atas agar bayi dapat menyentuh payudara ibu",
@@ -12719,7 +13981,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "gangguan-integritas-kulitjaringan",
   "kode": "D.0129",
   "nama": "Gangguan Integritas Kulit/Jaringan",
-  "definisi": "Gangguan integritas kulit/jaringan merupakan diagnosis keperawatan yang didefinisikan sebagai kerusakan kulit atau jaringan (membran mukosa...",
+  "definisi": "Kerusakan kulit (dermis dan/atau epidermis) atau jaringan (membran mukosa, kornea, fasia, otot, tendon, tulang, kartilago, kapsul sendi, dan/atau ligamen).",
   "kategori": "Keamanan dan Proteksi",
   "tipe": "Aktual",
   "keluhan": [
@@ -12764,14 +14026,18 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.11353",
       "nama": "Perawatan Integritas Kulit",
       "tindakan": {
+        "observasi": [
+          "Identifikasi penyebab gangguan integritas kulit (mis: perubahan sirkulasi, perubahan status nutrisi, penurunan kelembaban, suhu lingkungan ekstrim, penurunan mobilitas)"
+        ],
         "terapeutik": [
-          "Identifikasi penyebab gangguan integritas kulit (mis: perubahan sirkulasi, perubahan status nutrisi, penurunan kelembaban, suhu lingkungan ekstrim, penurunan mobilitas)",
           "Ubah posisi setiap 2 jam jika tirah baring",
           "Lakukan pemijatan pada area penonjolan tulang, jika perlu",
           "Bersihkan perineal dengan air hangat, terutama selama periode diare",
           "Gunakan produk berbahan petroleum atau minyak pada kulit kering",
           "Gunakan produk berbahan ringan/alami dan hipoalergik pada kulit sensitive",
-          "Hindari produk berbahan dasar alkohol pada kulit kering",
+          "Hindari produk berbahan dasar alkohol pada kulit kering"
+        ],
+        "edukasi": [
           "Anjurkan menggunakan pelembab (mis: lotion, serum)",
           "Anjurkan minum air yang cukup",
           "Anjurkan meningkatkan asupan nutrisi",
@@ -12786,9 +14052,11 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14564",
       "nama": "Perawatan Luka",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor karakteristik luka (mis: drainase, warna, ukuran , bau)",
-          "Monitor tanda-tanda infeksi",
+          "Monitor tanda-tanda infeksi"
+        ],
+        "terapeutik": [
           "Lepaskan balutan dan plester secara perlahan",
           "Cukur rambut di sekitar daerah luka, jika perlu",
           "Bersihkan dengan cairan NaCl atau pembersih nontoksik, sesuai kebutuhan",
@@ -12800,10 +14068,14 @@ export const allDiagnosesData: Diagnosis[] = [
           "Jadwalkan perubahan posisi setiap 2 jam atau sesuai kondisi pasien",
           "Berikan diet dengan kalori 30 – 35 kkal/kgBB/hari dan protein 1,25 – 1,5 g/kgBB/hari",
           "Berikan suplemen vitamin dan mineral (mis: vitamin A, vitamin C, Zinc, asam amino), sesuai indikasi",
-          "Berikan terapi TENS (stimulasi saraf transcutaneous), jika perlu",
+          "Berikan terapi TENS (stimulasi saraf transcutaneous), jika perlu"
+        ],
+        "edukasi": [
           "Jelaskan tanda dan gejala infeksi",
           "Anjurkan mengkonsumsi makanan tinggi kalori dan protein",
-          "Ajarkan prosedur perawatan luka secara mandiri",
+          "Ajarkan prosedur perawatan luka secara mandiri"
+        ],
+        "kolaborasi": [
           "Kolaborasi prosedur debridement (mis: enzimatik, biologis, mekanis, autolitik), jika perlu",
           "Kolaborasi pemberian antibiotik, jika perlu"
         ]
@@ -12816,7 +14088,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "hipertermia",
   "kode": "D.0130",
   "nama": "Hipertermia",
-  "definisi": "Hipertermia merupakan diagnosis keperawatan yang didefinisikan sebagai suhu tubuh meningkat diatas rentang normal tubuh.",
+  "definisi": "suhu tubuh meningkat diatas rentang normal tubuh",
   "kategori": "Keamanan dan Proteksi",
   "tipe": "Aktual",
   "keluhan": [],
@@ -12852,12 +14124,14 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.15506",
       "nama": "Manajemen Hipertermia",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab hipertermia (mis: dehidrasi, terpapar lingkungan panas, penggunaan inkubator)",
           "Monitor suhu tubuh",
           "Monitor kadar elektrolit",
           "Monitor haluaran urin",
-          "Monitor komplikasi akibat hipertermia",
+          "Monitor komplikasi akibat hipertermia"
+        ],
+        "terapeutik": [
           "Sediakan lingkungan yang dingin",
           "Longgarkan atau lepaskan pakaian",
           "Basahi dan kipasi permukaan tubuh",
@@ -12865,8 +14139,12 @@ export const allDiagnosesData: Diagnosis[] = [
           "Ganti linen setiap hari atau lebih sering jika mengalami hyperhidrosis (keringat berlebih)",
           "Lakukan pendinginan eksternal (mis: selimut hipotermia atau kompres dingin pada dahi, leher, dada, abdomen, aksila)",
           "Hindari pemberian antipiretik atau aspirin",
-          "Berikan oksigen, jika perlu",
-          "Anjurkan tirah baring",
+          "Berikan oksigen, jika perlu"
+        ],
+        "edukasi": [
+          "Anjurkan tirah baring"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian cairan dan elektrolit intravena, jika perlu"
         ]
       }
@@ -12875,12 +14153,14 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14578",
       "nama": "Regulasi Temperatur",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor suhu tubuh bayi sampai stabil (36,5 – 37,5°C)",
           "Monitor suhu tubuh anak tiap 2 jam, jika perlu",
           "Monitor tekanan darah, frekuensi pernapasan dan nadi",
           "Monitor warna dan suhu kulit",
-          "Monitor dan catat tanda dan gejala hipotermia atau hipertermia",
+          "Monitor dan catat tanda dan gejala hipotermia atau hipertermia"
+        ],
+        "terapeutik": [
           "Pasang alat pemantau suhu kontinu, jika perlu",
           "Tingkatkan asupan cairan dan nutrisi yang adekuat",
           "Bedong bayi segera setelah lahir untuk mencegah kehilangan panas",
@@ -12894,9 +14174,13 @@ export const allDiagnosesData: Diagnosis[] = [
           "Gunakan matras penghangat, selimut hangat, dan penghangat ruangan untuk menaikkan suhu tubuh, jika perlu",
           "Gunakan Kasur pendingin, water circulating blankets, ice pack, atau gel pad dan intravascular cooling cathetherization untuk menurunkan suhu tubuh",
           "Sesuaikan suhu lingkungan dengan kebutuhan pasien",
+          "Demonstrasikan Teknik perawatan metode kanguru (PMK) untuk bayi BBLR"
+        ],
+        "edukasi": [
           "Jelaskan cara pencegahan heat exhaustion dan heat stroke",
-          "Jelaskan cara pencegahan hipotermi karena terpapar udara dingin",
-          "Demonstrasikan Teknik perawatan metode kanguru (PMK) untuk bayi BBLR",
+          "Jelaskan cara pencegahan hipotermi karena terpapar udara dingin"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian antipiretik, jika perlu"
         ]
       }
@@ -12908,7 +14192,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "hipotermia",
   "kode": "D.0131",
   "nama": "Hipotermia",
-  "definisi": "Hipotermia merupakan diagnosis keperawatan yang didefinisikan sebagai suhu tubuh berada dibawah rentang normal tubuh",
+  "definisi": "suhu tubuh berada dibawah rentang normal tubuh",
   "kategori": "Keamanan dan Proteksi",
   "tipe": "Aktual",
   "keluhan": [],
@@ -12952,15 +14236,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14507",
       "nama": "Manajemen Hipotermia",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor suhu tubuh",
           "Identifikasi penyebab hipotermia (mis: terpapar suhu lingkungan rendah, pakaian tipis, kerusakan hipotalamus, penurunan laju metabolisme, kekurangan lemak subkutan)",
-          "Monitor tanda dan gejala akibat hipotermia (mis: hipotermia ringan: takipnea, disartria, menggigil, hipertensi, diuresis; hipotermia sedang: aritmia, hipotensi, apatis, koagulopati, refleks menurun; hipotermia berat: oliguria, refleks menghilang, edema paru, asam-basa abnormal)",
+          "Monitor tanda dan gejala akibat hipotermia (mis: hipotermia ringan: takipnea, disartria, menggigil, hipertensi, diuresis; hipotermia sedang: aritmia, hipotensi, apatis, koagulopati, refleks menurun; hipotermia berat: oliguria, refleks menghilang, edema paru, asam-basa abnormal)"
+        ],
+        "terapeutik": [
           "Sediakan lingkungan yang hangat (mis: atur suhu ruangan, inkubator)",
           "Ganti pakaian dan/atau linen yang basah",
           "Lakukan penghangatan pasif (mis: selimut, menutup kepala, pakaian tebal)",
           "Lakukan penghangatan aktif eksternal (mis: kompres hangat, botol hangat, selimut hangat, perawatan metode kangguru)",
-          "Lakukan penghangatan aktif internal (mis: infus cairan hangat, oksigen hangat, lavase peritoneal dengan cairan hangat)",
+          "Lakukan penghangatan aktif internal (mis: infus cairan hangat, oksigen hangat, lavase peritoneal dengan cairan hangat)"
+        ],
+        "edukasi": [
           "Anjurkan makan/minum hangat"
         ]
       }
@@ -12969,18 +14257,22 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14586",
       "nama": "Terapi Paparan Panas",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kontraindikasi penggunaan terapi (mis: penurunan atau tidak adanya sensasi, penurunan sirkulasi)",
           "Monitor suhu alat terapi",
           "Monitor kondisi kulit selama terapi",
           "Monitor kondisi umum, kenyamanan, dan keamanan selama terapi",
-          "Monitor respon pasien terhadap terapi",
+          "Monitor respon pasien terhadap terapi"
+        ],
+        "terapeutik": [
           "Pilih metode stimulasi yang nyaman dan mudah didapatkan (mis: botol air panas, bantal panas listrik, lilin paraffin, lampu)",
           "Pilih lokasi stimulus yang sesuai",
           "Bungkus alat terapi dengan menggunakan kain",
           "Gunakan kain lembab di sekitar area terapi",
           "Tentukan durasi terapi sesuai dengan respon pasien",
-          "Hindari melakukan terapi pada daerah yang mendapatkan terapi radiasi",
+          "Hindari melakukan terapi pada daerah yang mendapatkan terapi radiasi"
+        ],
+        "edukasi": [
           "Ajarkan cara mencegah kerusakan jaringan",
           "Ajarkan cara menyesuaikan suhu secara mandiri"
         ]
@@ -12993,7 +14285,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "perilaku-kekerasan",
   "kode": "D.0132",
   "nama": "Perilaku Kekerasan",
-  "definisi": "Perilaku kekerasan merupakan diagnosis keperawatan yang didefinisikan sebagai kemarahan yang diekspresikan secara berlebihan dan tidak...",
+  "definisi": "kemarahan yang diekspresikan secara berlebihan dan tidak terkendali secara verbal sampai dengan mencederai orang lain dan/atau merusak lingkungan",
   "kategori": "Keamanan dan Proteksi",
   "tipe": "Aktual",
   "keluhan": [
@@ -13042,16 +14334,20 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14513",
       "nama": "Manajemen Keselamatan Lingkungan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kebutuhan  keselamatan (mis: kondisi fisik, fungsi kognitif, dan Riwayat perilaku)",
-          "Monitor perubahan status keselamatan lingkungan",
+          "Monitor perubahan status keselamatan lingkungan"
+        ],
+        "terapeutik": [
           "Hilangkan bahaya keselamatan lingkungan (mis: fisik, biologi, kimia), jika memungkinkan",
           "Modifikasi lingkungan untuk meminimalkan bahaya dan risiko",
           "Sediakan alat bantu keamanan lingkungan (mis: commode chair dan pegangan tangan)",
           "Gunakan perangkat pelindung (mis: pengekangan fisik, rel samping, pintu terkunci, pagar)",
           "Hubungi pihak berwenang sesuai masalah komunitas (mis: puskesmas, polisi, damkar)",
           "Fasilitasi relokasi ke lingkungan yang aman",
-          "Lakukan program skrining bahaya lingkungan (mis: timbal)",
+          "Lakukan program skrining bahaya lingkungan (mis: timbal)"
+        ],
+        "edukasi": [
           "Ajarkan individu, keluarga, dan kelompok risiko tinggi bahaya lingkungan"
         ]
       }
@@ -13060,21 +14356,27 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09289",
       "nama": "Manajemen Mood",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi mood (mis: tanda, gejala, Riwayat penyakit)",
           "Identifikasi risiko keselamatan diri atau orang lain",
           "Monitor fungsi kognitif (mis: konsentrasi, memori, kemampuan membuat keputusan)",
-          "Monitor aktivitas dan tingkat stimulasi lingkungan",
+          "Monitor aktivitas dan tingkat stimulasi lingkungan"
+        ],
+        "terapeutik": [
           "Fasilitasi pengisian kuesioner self-report (mis: beck depression inventory, skala status fungsional), jika perlu",
           "Berikan kesempatan untuk menyampaikan perasaan dengan cara yang tepat (mis: sandsack, terapi seni, aktivitas fisik)",
+          "Rujuk untuk psikoterapi (mis: perilaku, hubungan interpersonal, keluarga, kelompok), jika perlu"
+        ],
+        "edukasi": [
           "Jelaskan tentang gangguan mood dan penanganannya",
           "Anjurkan berperan aktif dalam pengobatan dan rehabilitasi, jika perlu",
           "Anjurkan rawat inap sesuai indikasi (mis: risiko keselamatan, deficit perawatan diri, sosial)",
           "Ajarkan mengenali pemicu gangguan mood (mis: situasi stres, masalah fisik)",
           "Ajarkan memonitor mood secara mandiri (mis: skala tingkat 1 – 10, membuat jurnal)",
-          "Ajarkan keterampilan koping dan penyelesaian masalah baru",
-          "Kolaborasi pemberian obat, jika perlu",
-          "Rujuk untuk psikoterapi (mis: perilaku, hubungan interpersonal, keluarga, kelompok), jika perlu"
+          "Ajarkan keterampilan koping dan penyelesaian masalah baru"
+        ],
+        "kolaborasi": [
+          "Kolaborasi pemberian obat, jika perlu"
         ]
       }
     },
@@ -13082,22 +14384,28 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09290",
       "nama": "Manajemen Pengendalian Marah",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab/pemicu kemarahan",
           "Identifikasi harapan perilaku terhadap ekspresi kemaharan",
           "Monitor potensi agresi tidak konstruktif dan lakukan Tindakan sebelum agresif",
-          "Monitor kemajuan dengna membuat grafik, jika perlu",
+          "Monitor kemajuan dengna membuat grafik, jika perlu"
+        ],
+        "terapeutik": [
           "Gunakan pendekatan yang tenang dan meyakinkan",
           "Fasilitasi mengekpresikan marah secara adaptif",
           "Cegah kerusakan fisik akibat ekspresi marah (mis: menggunakan senjata)",
           "Cegah aktivitas pemicu agresi (mis: meninju tas, mondar-mandir, berolahraga berlebihan)",
           "Lakukan kontrol eksternal (mis: pengekangan, time-out, dan seklusi), jika perlu",
           "Dukung menerapkan strategi pengendalian marah dan ekspresi amarah adaptif",
-          "Berikan penguatan atas keberhasilan penerapan strategi pengendalian marah",
+          "Berikan penguatan atas keberhasilan penerapan strategi pengendalian marah"
+        ],
+        "edukasi": [
           "Jelaskan makna, fungsi marah, frustasi, dan respons marah",
           "Anjurkan meminta bantuan perawat atau keluarga selama ketegangan meningkat",
           "Ajarkan strategi untuk mencegah ekspresi marah maladaptif",
-          "Ajarkan metode untuk memodulasi pengalaman emosi yang kuat (mis: latihan asertif, Teknik relaksasi, jurnal, aktivitas penyaluran energi",
+          "Ajarkan metode untuk memodulasi pengalaman emosi yang kuat (mis: latihan asertif, Teknik relaksasi, jurnal, aktivitas penyaluran energi"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat, jika perlu"
         ]
       }
@@ -13106,9 +14414,10 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12463",
       "nama": "Manajemen Perilaku",
       "tindakan": {
+        "observasi": [
+          "Identifikasi harapan untuk mengendalikan perilaku"
+        ],
         "terapeutik": [
-          "Identifikasi harapan untuk mengendalikan perilaku",
-          "Diskusikan tanggung jawab terhadap perilaku",
           "Jadwalkan kegiatan terstruktur",
           "Ciptakan dan pertahankan lingkungan dan kegiatan perawatan konsisten setiap dinas",
           "Tingkatkan aktivitas fisik sesuai kemampuan",
@@ -13120,7 +14429,10 @@ export const allDiagnosesData: Diagnosis[] = [
           "Lakukan pengekangan fisik sesuai indikasi",
           "Hindari bersikap menyudutkan dan menghentikan pembicaraan",
           "Hindari sikap mengancam atau berdebat",
-          "Hindari berdebat atau menawar batas perilaku yang telah ditetapkan",
+          "Hindari berdebat atau menawar batas perilaku yang telah ditetapkan"
+        ],
+        "edukasi": [
+          "Diskusikan tanggung jawab terhadap perilaku",
           "Informasikan keluarga bahwa keluarga sebagai dasar pembentukan kognitif"
         ]
       }
@@ -13132,7 +14444,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "perlambatan-pemulihan-pascabedah",
   "kode": "D.0133",
   "nama": "Perlambatan Pemulihan Pascabedah",
-  "definisi": "Perlambatan pemulihan pascabedah merupakan diagnosis keperawatan yang didefinisikan sebagai pemanjangan jumlah...",
+  "definisi": "pemanjangan jumlah hari pascabedah untuk memulai dan melakukan aktivitas sehari-hari",
   "kategori": "Keamanan dan Proteksi",
   "tipe": "Aktual",
   "keluhan": [
@@ -13182,16 +14494,20 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.11348",
       "nama": "Dukungan Perawatan Diri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kebiasaan aktivitas perawatan diri sesuai usia",
           "Monitor tingkat kemandirian",
-          "Identifikasi kebutuhan alat bantu kebersihan diri, berpakaian, berhias, dan makan",
+          "Identifikasi kebutuhan alat bantu kebersihan diri, berpakaian, berhias, dan makan"
+        ],
+        "terapeutik": [
           "Sediakan lingkungan yang terapeutik (mis: suasana hangat, rileks, privasi)",
           "Siapkan keperluan pribadi (mis: parfum sikat gigi, dan sabun mandi)",
           "Dampingi dalam melakukan perawatan diri sampai mandiri",
           "Fasilitasi untuk menerima keadaan ketergantungan",
           "Fasilitasi kemandirian, bantu jika tidak mampu melakukan perawatan diri",
-          "Jadwalkan rutinitas perawatan diri",
+          "Jadwalkan rutinitas perawatan diri"
+        ],
+        "edukasi": [
           "Anjurkan melakukan perawatan diri secara konsisten sesuai kemampuan"
         ]
       }
@@ -13200,7 +14516,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03119",
       "nama": "Manajemen Nutrisi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi status nutrisi",
           "Identifikasi alergi dan intoleransi makanan",
           "Identifikasi makanan yang disukai",
@@ -13208,7 +14524,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Identifikasi perlunya penggunaan selang nasogastrik",
           "Monitor asupan makanan",
           "Monitor berat badan",
-          "Monitor hasil pemeriksaan laboratorium",
+          "Monitor hasil pemeriksaan laboratorium"
+        ],
+        "terapeutik": [
           "Lakukan oral hygiene sebelum makan, jika perlu",
           "Fasilitasi menentukan pedoman diet (mis: piramida makanan)",
           "Sajikan makanan secara menarik dan suhu yang sesuai",
@@ -13223,25 +14541,31 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.08238",
       "nama": "Manajemen Nyeri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi lokasi, karakteristik, durasi, frekuensi, kualitas, intensitas nyeri",
           "Identifikasi skala nyeri",
-          "Idenfitikasi respon nyeri non verbal",
           "Identifikasi faktor yang memperberat dan memperingan nyeri",
           "Identifikasi pengetahuan dan keyakinan tentang nyeri",
           "Identifikasi pengaruh budaya terhadap respon nyeri",
           "Identifikasi pengaruh nyeri pada kualitas hidup",
           "Monitor keberhasilan terapi komplementer yang sudah diberikan",
           "Monitor efek samping penggunaan analgetik",
+          "Idenfitikasi respon nyeri non verbal"
+        ],
+        "terapeutik": [
           "Berikan Teknik nonfarmakologis untuk mengurangi nyeri (mis: TENS, hypnosis, akupresur, terapi music, biofeedback, terapi pijat, aromaterapi, Teknik imajinasi terbimbing, kompres hangat/dingin, terapi bermain)",
           "Kontrol lingkungan yang memperberat rasa nyeri (mis: suhu ruangan, pencahayaan, kebisingan)",
           "Fasilitasi istirahat dan tidur",
-          "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri",
+          "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri"
+        ],
+        "edukasi": [
           "Jelaskan penyebab, periode, dan pemicu nyeri",
           "Jelaskan strategi meredakan nyeri",
           "Anjurkan memonitor nyeri secara mandiri",
           "Anjurkan menggunakan analgesik secara tepat",
-          "Ajarkan Teknik farmakologis untuk mengurangi nyeri",
+          "Ajarkan Teknik farmakologis untuk mengurangi nyeri"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian analgetik, jika perlu"
         ]
       }
@@ -13250,9 +14574,11 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14564",
       "nama": "Perawatan Luka",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor karakteristik luka (mis: drainase, warna, ukuran , bau)",
-          "Monitor tanda-tanda infeksi",
+          "Monitor tanda-tanda infeksi"
+        ],
+        "terapeutik": [
           "Lepaskan balutan dan plester secara perlahan",
           "Cukur rambut di sekitar daerah luka, jika perlu",
           "Bersihkan dengan cairan NaCl atau pembersih nontoksik, sesuai kebutuhan",
@@ -13264,10 +14590,14 @@ export const allDiagnosesData: Diagnosis[] = [
           "Jadwalkan perubahan posisi setiap 2 jam atau sesuai kondisi pasien",
           "Berikan diet dengan kalori 30 – 35 kkal/kgBB/hari dan protein 1,25 – 1,5 g/kgBB/hari",
           "Berikan suplemen vitamin dan mineral (mis: vitamin A, vitamin C, Zinc, asam amino), sesuai indikasi",
-          "Berikan terapi TENS (stimulasi saraf transcutaneous), jika perlu",
+          "Berikan terapi TENS (stimulasi saraf transcutaneous), jika perlu"
+        ],
+        "edukasi": [
           "Jelaskan tanda dan gejala infeksi",
           "Anjurkan mengkonsumsi makanan tinggi kalori dan protein",
-          "Ajarkan prosedur perawatan luka secara mandiri",
+          "Ajarkan prosedur perawatan luka secara mandiri"
+        ],
+        "kolaborasi": [
           "Kolaborasi prosedur debridement (mis: enzimatik, biologis, mekanis, autolitik), jika perlu",
           "Kolaborasi pemberian antibiotik, jika perlu"
         ]
@@ -13280,7 +14610,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-alergi",
   "kode": "D.0134",
   "nama": "Risiko Alergi",
-  "definisi": "Risiko alergi merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami stimulasi respon imunitas yang berlebihan akibat..",
+  "definisi": "berisiko mengalami stimulasi respon imunitas yang berlebihan akibat terpapar alergen",
   "kategori": "Keamanan dan Proteksi",
   "tipe": "Aktual",
   "keluhan": [
@@ -13311,13 +14641,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12445",
       "nama": "Edukasi Reaksi Alergi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kesiapan dan kemampuan menerima informasi",
-          "Monitor pemahaman pasien dan keluarga tentang alergi",
+          "Monitor pemahaman pasien dan keluarga tentang alergi"
+        ],
+        "terapeutik": [
           "Sediakan materi dan media Pendidikan  Kesehatan",
           "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
           "Fasilitasi mengenali penyebab alergi",
-          "Berikan kesempatan pasien dan keluarga bertanya",
+          "Berikan kesempatan pasien dan keluarga bertanya"
+        ],
+        "edukasi": [
           "Jelaskan definisi, penyebab, gejala, dan tanda alergi",
           "Jelaskan cara menghindari allergen (mis: tidak menggunakan karpet, menggunakan masker)",
           "Anjurkan pasien dan keluarga menyediakan obat alergi"
@@ -13328,14 +14662,20 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14535",
       "nama": "Pencegahan Alergi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi Riwayat alergi (obat, makanan, debu, udara)",
-          "Monitor terhadap reaksi obat, makanan, lateks, transfusi darah atau produk darah atau allergen lainnya",
+          "Monitor terhadap reaksi obat, makanan, lateks, transfusi darah atau produk darah atau allergen lainnya"
+        ],
+        "terapeutik": [
           "Berikan tanda alergi pada rekam medis",
           "Pasang gelang tanda alergi pada lengan",
           "Hentikan paparan allergen",
-          "Lakukan tes alergi sebelum pemberian obat",
-          "Ajarkan menghindari dan mencegah paparan alergen",
+          "Lakukan tes alergi sebelum pemberian obat"
+        ],
+        "edukasi": [
+          "Ajarkan menghindari dan mencegah paparan alergen"
+        ],
+        "kolaborasi": [
           "Kolaborasi dengan tenaga Kesehatan dalam pencegahan alergi (mis: dokter, ahli gizi)"
         ]
       }
@@ -13347,7 +14687,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-bunuh-diri",
   "kode": "D.0135",
   "nama": "Risiko Bunuh Diri",
-  "definisi": "Risiko bunuh diri merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko melakukan upaya menyakiti diri sendiri untuk...",
+  "definisi": "Risiko melakukan upaya menyakiti diri sendiri untuk mengakhiri kehidupan",
   "kategori": "Keamanan dan Proteksi",
   "tipe": "Aktual",
   "keluhan": [
@@ -13381,21 +14721,27 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09289",
       "nama": "Manajemen Mood",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi mood (mis: tanda, gejala, Riwayat penyakit)",
           "Identifikasi risiko keselamatan diri atau orang lain",
           "Monitor fungsi kognitif (mis: konsentrasi, memori, kemampuan membuat keputusan)",
-          "Monitor aktivitas dan tingkat stimulasi lingkungan",
+          "Monitor aktivitas dan tingkat stimulasi lingkungan"
+        ],
+        "terapeutik": [
           "Fasilitasi pengisian kuesioner self-report (mis: beck depression inventory, skala status fungsional), jika perlu",
           "Berikan kesempatan untuk menyampaikan perasaan dengan cara yang tepat (mis: sandsack, terapi seni, aktivitas fisik)",
+          "Rujuk untuk psikoterapi (mis: perilaku, hubungan interpersonal, keluarga, kelompok), jika perlu"
+        ],
+        "edukasi": [
           "Jelaskan tentang gangguan mood dan penanganannya",
           "Anjurkan berperan aktif dalam pengobatan dan rehabilitasi, jika perlu",
           "Anjurkan rawat inap sesuai indikasi (mis: risiko  keselamatan, deficit perawatan diri, sosial)",
           "Ajarkan mengenali pemicu gangguan mood (mis: situasi stres, masalah fisik)",
           "Ajarkan memonitor mood secara mandiri (mis: skala tingkat 1 – 10, membuat jurnal)",
-          "Ajarkan keterampilan koping dan penyelesaian masalah baru",
-          "Kolaborasi pemberian obat, jika perlu",
-          "Rujuk untuk psikoterapi (mis: perilaku, hubungan interpersonal, keluarga, kelompok), jika perlu"
+          "Ajarkan keterampilan koping dan penyelesaian masalah baru"
+        ],
+        "kolaborasi": [
+          "Kolaborasi pemberian obat, jika perlu"
         ]
       }
     },
@@ -13403,28 +14749,34 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14538",
       "nama": "Pencegahan Bunuh Diri",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi gejala risiko bunuh diri (mis: gangguan mood, halusinasi, delusi, panik, penyalahgunaan zat, kesedihan, gangguan kepribadian)",
           "Identifikasi keinginan dan pikiran rencana bunuh diri",
           "Monitor lingkungan bebas bahaya secara rutin (mis: barang pribadi, pisau cukur, jendela)",
-          "Monitor adanya perubahan mood atau perilaku",
+          "Monitor adanya perubahan mood atau perilaku"
+        ],
+        "terapeutik": [
           "Libatkan dalam perencanaan perawatan mandiri",
-          "Libatkan keluarga dalam perencanaan perawatan",
           "Lakukan pendekatan langsung dan tidak menghakimi saat membahas bunuh diri",
           "Berikan lingkungan dengan pengamanan ketat dan mudah dipantau (mis: tempat tidur dekat ruang  perawat)",
           "Tingkatkan pengawasan pada kondisi tertentu (mis: rapat staf, pergantian shift)",
           "Lakukan intervensi perlindungan (mis: pembatasan area, pengekangan fisik), jika diperlukan",
           "Hindari diskusi berulang tentang bunuh diri sebelumnya, diskusi berorientasi pada masa sekarang dan masa depan",
-          "Diskusikan rencana menghadapi ide bunuh diri di masa depan (mis: orang yang dihubungi, ke mana mencari bantuan)",
           "Pastikan obat ditelan",
+          "Latih pencegahan risiko bunuh diri (mis: latihan asertif, relaksasi otot progresif)",
+          "Rujuk ke pelayanan kesehatan mental, jika perlu"
+        ],
+        "edukasi": [
+          "Libatkan keluarga dalam perencanaan perawatan",
+          "Diskusikan rencana menghadapi ide bunuh diri di masa depan (mis: orang yang dihubungi, ke mana mencari bantuan)",
           "Anjurkan mendiskusikan perasaan yang dialami kepada orang lain",
           "Anjurkan menggunakan sumber pendukung (mis: layanan spiritual, penyedia layanan)",
           "Jelaskan tindakan pencegahan bunuh diri kepada keluarga atau orang terdekat",
-          "Informasikan sumber daya masyarakat dan program yang tersedia",
-          "Latih pencegahan risiko bunuh diri (mis: latihan asertif, relaksasi otot progresif)",
+          "Informasikan sumber daya masyarakat dan program yang tersedia"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat antiansietas, atau antipsikotik, sesuai indikasi",
-          "Kolaborasi tindakan keselamatan kepada PPA",
-          "Rujuk ke pelayanan kesehatan mental, jika perlu"
+          "Kolaborasi tindakan keselamatan kepada PPA"
         ]
       }
     }
@@ -13435,7 +14787,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-cedera",
   "kode": "D.0136",
   "nama": "Risiko Cedera",
-  "definisi": "Risiko cedera merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami bahaya atau kerusakan fisik yang...",
+  "definisi": "berisiko mengalami bahaya atau kerusakan fisik yang menyebabkan seseorang tidak lagi sepenuhnya sehat atau dalam kondisi baik",
   "kategori": "Keamanan dan Proteksi",
   "tipe": "Aktual",
   "keluhan": [
@@ -13476,16 +14828,20 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14513",
       "nama": "Manajemen Keselamatan Lingkungan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kebutuhan keselamatan (mis: kondisi fisik, fungsi kognitif, dan Riwayat perilaku)",
-          "Monitor perubahan status keselamatan lingkungan",
+          "Monitor perubahan status keselamatan lingkungan"
+        ],
+        "terapeutik": [
           "Hilangkan bahaya keselamatan lingkungan (mis: fisik, biologi, kimia), jika memungkinkan",
           "Modifikasi lingkungan untuk meminimalkan bahaya dan risiko",
           "Sediakan alat bantu keamanan lingkungan (mis: commode chair dan pegangan tangan)",
           "Gunakan perangkat pelindung (mis: pengekangan fisik, rel samping, pintu terkunci, pagar)",
           "Hubungi pihak berwenang sesuai masalah komunitas (mis: puskesmas, polisi, damkar)",
           "Fasilitasi relokasi ke lingkungan yang aman",
-          "Lakukan program skrining bahaya lingkungan (mis: timbal)",
+          "Lakukan program skrining bahaya lingkungan (mis: timbal)"
+        ],
+        "edukasi": [
           "Ajarkan individu, keluarga, dan kelompok risiko tinggi bahaya lingkungan"
         ]
       }
@@ -13494,10 +14850,12 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14537",
       "nama": "Pencegahan Cedera",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi area lingkungan yang berpotensi menyebabkan cedera",
           "Identifikasi obat yang berpotensi menyebabkan cedera",
-          "Identifikasi kesesuaian alas kaki atau stoking elastis pada ekstremitas bawah",
+          "Identifikasi kesesuaian alas kaki atau stoking elastis pada ekstremitas bawah"
+        ],
+        "terapeutik": [
           "Sediakan pencahayaan yang memadai",
           "Gunakan lampu tidur selama jam tidur",
           "Sosialisasikan pasien dan keluarga dengan lingkungan ruang rawat (mis: penggunaan telepon, tempat tidur, penerangan ruangan, dan lokasi kamar mandi)",
@@ -13510,10 +14868,12 @@ export const allDiagnosesData: Diagnosis[] = [
           "Pastikan roda tempat tidur atau kursi roda dalam kondisi terkunci",
           "Gunakan pengaman tempat tidur sesuai dengan kebijakan fasilitas pelayanan  Kesehatan",
           "Pertimbangkan penggunaan alarm elektronik pribadi atau alarm sensor pada tempat tidur atau kursi",
+          "Tingkatkan frekuensi observasi dan pengawasan pasien, sesuai kebutuhan"
+        ],
+        "edukasi": [
           "Diskusikan mengenai latihan dan terapi fisik yang diperlukan",
           "Diskusikan mengenai alat bantu mobilitas yang sesuai (mis: tongkat atau alat bantu jalan)",
           "Diskusikan Bersama anggota keluarga yang dapat mendampingi pasien",
-          "Tingkatkan frekuensi observasi dan pengawasan pasien, sesuai kebutuhan",
           "Jelaskan alasan intervensi pencegahan jatuh ke pasien dan keluarga",
           "Anjurkan berganti posisi secara perlahan dan duduk selama beberapa menit sebelum berdiri"
         ]
@@ -13526,7 +14886,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-cedera-pada-ibu",
   "kode": "D.0137",
   "nama": "Risiko Cedera Pada Ibu",
-  "definisi": "Risiko cedera pada ibu merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami bahaya atau kerusakan...",
+  "definisi": "Berisiko mengalami bahaya atau kerusakan fisik pada ibu selama masa kehamilan sampai dengan proses persalinan.",
   "kategori": "Keamanan dan Proteksi",
   "tipe": "Aktual",
   "keluhan": [
@@ -13573,10 +14933,12 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14537",
       "nama": "Pencegahan Cedera",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi area lingkungan yang berpotensi menyebabkan cedera",
           "Identifikasi obat yang berpotensi menyebabkan cedera",
-          "Identifikasi kesesuaian alas kaki atau stoking elastis pada ekstremitas bawah",
+          "Identifikasi kesesuaian alas kaki atau stoking elastis pada ekstremitas bawah"
+        ],
+        "terapeutik": [
           "Sediakan pencahayaan yang memadai",
           "Gunakan lampu tidur selama jam tidur",
           "Sosialisasikan pasien dan keluarga dengan lingkungan ruang rawat (mis: penggunaan telepon, tempat tidur, penerangan ruangan, dan lokasi kamar mandi)",
@@ -13589,10 +14951,12 @@ export const allDiagnosesData: Diagnosis[] = [
           "Pastikan roda tempat tidur atau kursi roda dalam kondisi terkunci",
           "Gunakan pengaman tempat tidur sesuai dengan kebijakan fasilitas pelayanan  Kesehatan",
           "Pertimbangkan penggunaan alarm elektronik pribadi atau alarm sensor pada tempat tidur atau kursi",
+          "Tingkatkan frekuensi observasi dan pengawasan pasien, sesuai kebutuhan"
+        ],
+        "edukasi": [
           "Diskusikan mengenai latihan dan terapi fisik yang diperlukan",
           "Diskusikan mengenai alat bantu mobilitas yang sesuai (mis: tongkat atau alat bantu jalan)",
           "Diskusikan Bersama anggota keluarga yang dapat mendampingi pasien",
-          "Tingkatkan frekuensi observasi dan pengawasan pasien, sesuai kebutuhan",
           "Jelaskan alasan intervensi pencegahan jatuh ke pasien dan keluarga",
           "Anjurkan berganti posisi secara perlahan dan duduk selama beberapa menit sebelum berdiri"
         ]
@@ -13602,14 +14966,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.07228",
       "nama": "Perawatan Persalinan Risiko Tinggi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kondisi umum pasien",
           "Monitor tanda-tanda vital",
           "Monitor kelainan tanda vital pada ibu dan janin",
           "Monitor tanda-tanda persalinan",
           "Monitor denyut jantung janin",
           "Identifikasi posisi janin dengan USG",
-          "Identifikasi perdarahan pasca persalinan",
+          "Identifikasi perdarahan pasca persalinan"
+        ],
+        "terapeutik": [
           "Sediakan peralatan yang sesuai, termasuk monitor janin, ultrasound, mesin anestesi, persediaan resusitasi neonatal, forceps, dan penghangat bayi ekstra",
           "Dukung orang terdekat mendampingi pasien",
           "Gunakan Tindakan pencegahan universal",
@@ -13621,9 +14987,13 @@ export const allDiagnosesData: Diagnosis[] = [
           "Fasilitasi ibu pulih dari anestesi, jika perlu",
           "Motivasi interaksi orang tua dengan bayi baru lahir segera setelah persalinan",
           "Dokumentasikan prosedur (mis: anestesi, forsep, ekstraksi vakum, tekanan suprapubic, manuver McRobert, resusitasi neonatal)",
+          "Koordinasi dengan tim untuk standby (mis: neonatologis, perawat intensif neonatal, anetesiologis)"
+        ],
+        "edukasi": [
           "Jelaskan prosedur Tindakan yang akan dilakukan",
-          "Jelaskan karakteristik bayi baru lahir yang terkait dengan kelahiran berisiko tinggi (mis: memar dan tanda forceps)",
-          "Koordinasi dengan tim untuk standby (mis: neonatologis, perawat intensif neonatal, anetesiologis)",
+          "Jelaskan karakteristik bayi baru lahir yang terkait dengan kelahiran berisiko tinggi (mis: memar dan tanda forceps)"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian anestesi maternal, sesuai kebutuhan"
         ]
       }
@@ -13632,12 +15002,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14560",
       "nama": "Perawatan Kehamilan Risiko Tinggi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi faktor risiko kehamilan (mis: diabetes, hipertensi, lupus eritmatosus, herpes, hepatisis, HIV, epilepsi)",
           "Identifikasi riwayat obtetris (mis: prematuritas, postmaturitas, preeklamsia, kehamilan multifetal, retardasi pertumbuhan intrauterine, abrupsi, plasenta previa, sensitisasi Rh, ketuban pecah dini, dan Riwayat kelainan genetic keluarga)",
           "Identifikasi sosial dan demografi (mis: usia ibu, ras, kemiskinan, terlambat atau tidak ada perawatan prenatal, penganiayaan fisik, dan penyalahgunaan zat)",
-          "Monitor status fisik dan psikososial selama kehamilan",
-          "Damping ibu saat merasa cemas",
+          "Monitor status fisik dan psikososial selama kehamilan"
+        ],
+        "terapeutik": [
+          "Damping ibu saat merasa cemas"
+        ],
+        "edukasi": [
           "Diskusikan seksualitas aman selama hamil",
           "Diskusikan ketidaknyamanan selama hamil",
           "Diskusikan persiapan persalinan dan kelahiran",
@@ -13647,7 +15021,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Anjurkan ibu untuk beraktivitas dan beristirahat yang cukup",
           "Ajarkan cara menghitung Gerakan janin",
           "Ajarkan akvititas yang aman selama hamil",
-          "Ajarkan mengenali tanda bahaya (mis: perdarahan vagina merah terang, perubahan cairan ketuban, penurunan Gerakan janin, kontraksi sebelum 37 minggu, sakit kepala, gangguan penglihatan, nyeri epigastric, dan penambahan berat badan yang cepat dengan edema wajah)",
+          "Ajarkan mengenali tanda bahaya (mis: perdarahan vagina merah terang, perubahan cairan ketuban, penurunan Gerakan janin, kontraksi sebelum 37 minggu, sakit kepala, gangguan penglihatan, nyeri epigastric, dan penambahan berat badan yang cepat dengan edema wajah)"
+        ],
+        "kolaborasi": [
           "Kolaborasi dengan spesialis jika ditemukan tanda dan bahaya kehamilan"
         ]
       }
@@ -13659,7 +15035,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-cedera-pada-janin",
   "kode": "D.0138",
   "nama": "Risiko Cedera Pada Janin",
-  "definisi": "Risiko cedera pada janin merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami bahaya atau kerusakan fisik pada...",
+  "definisi": "Berisiko mengalami bahaya atau kerusakan fisik pada janin selama proses kehamilan dan persalinan.",
   "kategori": "Keamanan dan Proteksi",
   "tipe": "Aktual",
   "keluhan": [
@@ -13707,16 +15083,20 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02056",
       "nama": "Pemantauan denyut jantung janin",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi status obstetrik",
           "Identifikasi Riwayat obstetrik",
           "Identifikasi adanya penggunaan obat, diet, dan merokok",
           "Identifikasi pemeriksaan kehamilan sebelumnya",
           "Periksa denyut jantung janin selama 1 menit",
           "Monitor denyut jantung ibu",
-          "Monitor tanda vital ibu",
+          "Monitor tanda vital ibu"
+        ],
+        "terapeutik": [
           "Atur posisi pasien",
-          "Lakukan manuver leopold untuk menentukan posisi janin",
+          "Lakukan manuver leopold untuk menentukan posisi janin"
+        ],
+        "edukasi": [
           "Jelaskan tujuan dan prosedur pemantauan",
           "Informasikan hasil pemantauan, jika perlu"
         ]
@@ -13726,10 +15106,12 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14537",
       "nama": "Pencegahan Cedera",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi area lingkungan yang berpotensi menyebabkan cedera",
           "Identifikasi obat yang berpotensi menyebabkan cedera",
-          "Identifikasi kesesuaian alas kaki atau stoking elastis pada ekstremitas bawah",
+          "Identifikasi kesesuaian alas kaki atau stoking elastis pada ekstremitas bawah"
+        ],
+        "terapeutik": [
           "Sediakan pencahayaan yang memadai",
           "Gunakan lampu tidur selama jam tidur",
           "Sosialisasikan pasien dan keluarga dengan lingkungan ruang rawat (mis: penggunaan telepon, tempat tidur, penerangan ruangan, dan lokasi kamar mandi)",
@@ -13742,10 +15124,12 @@ export const allDiagnosesData: Diagnosis[] = [
           "Pastikan roda tempat tidur atau kursi roda dalam kondisi terkunci",
           "Gunakan pengaman tempat tidur sesuai dengan kebijakan fasilitas pelayanan  Kesehatan",
           "Pertimbangkan penggunaan alarm elektronik pribadi atau alarm sensor pada tempat tidur atau kursi",
+          "Tingkatkan frekuensi observasi dan pengawasan pasien, sesuai kebutuhan"
+        ],
+        "edukasi": [
           "Diskusikan mengenai latihan dan terapi fisik yang diperlukan",
           "Diskusikan mengenai alat bantu mobilitas yang sesuai (mis: tongkat atau alat bantu jalan)",
           "Diskusikan Bersama anggota keluarga yang dapat mendampingi pasien",
-          "Tingkatkan frekuensi observasi dan pengawasan pasien, sesuai kebutuhan",
           "Jelaskan alasan intervensi pencegahan jatuh ke pasien dan keluarga",
           "Anjurkan berganti posisi secara perlahan dan duduk selama beberapa menit sebelum berdiri"
         ]
@@ -13755,18 +15139,24 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14554",
       "nama": "Pengukuran Gerakan Janin",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi pengetahuan dan kemampuan ibu menghitung gerakan janin",
-          "Monitor gerakan janin",
+          "Monitor gerakan janin"
+        ],
+        "terapeutik": [
           "Hitung dan catat Gerakan janin (minimal 10 kali Gerakan dalam 12 jam)",
           "Lakukan pemeriksaan CTG (cardiotocography) untuk mengetahui frekuensi dan keteraturan denyut jantung janin dan kontraksi rahim ibu",
           "Catat jumlah Gerakan janin dalam 12 jam perhari",
-          "Berikan oksigen 2-3 liter per menit jika gerakan janin belum mencapai 10 kali dalam 12 jam",
+          "Berikan oksigen 2-3 liter per menit jika gerakan janin belum mencapai 10 kali dalam 12 jam"
+        ],
+        "edukasi": [
           "Jelaskan manfaat menghitung gerakan janin dapat meningkatkan hubungan ibu dan janin",
           "Anjurkan ibu memenuhi kebutuhan nutrisi sebelum menghitung gerakan janin",
           "Anjurkan posisi miring kiri saat menghitung gerakan janin, agar janin dapat memperoleh oksigen dengan optimal dengan meningkatkan sirkulasi fetomaternal",
           "Anjurkan ibu segera memberitahu perawat jika gerakan janin tidak mencapai 10 kali dalam 12 jam",
-          "Ajarkan ibu cara menghitung gerakan janin",
+          "Ajarkan ibu cara menghitung gerakan janin"
+        ],
+        "kolaborasi": [
           "Kolaborasi dengan tim medis jika ditemukan gawat janin"
         ]
       }
@@ -13778,7 +15168,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-gangguan-integritas-kulitjaringan",
   "kode": "D.0139",
   "nama": "Risiko Gangguan Integritas Kulit/Jaringan",
-  "definisi": "Risiko gangguan integritas kulit/jaringan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami...",
+  "definisi": "berisiko mengalami kerusakan kulit (dermis dan/atau epidermis) atau jaringan (membran mukosa, kornea, fasia, otot, tendon, tulang, kartilago, kapsul sendi dan/atau ligamen)",
   "kategori": "Keamanan dan Proteksi",
   "tipe": "Aktual",
   "keluhan": [
@@ -13820,14 +15210,18 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.11353",
       "nama": "Perawatan Integritas Kulit",
       "tindakan": {
+        "observasi": [
+          "Identifikasi penyebab gangguan integritas kulit (mis: perubahan sirkulasi, perubahan status nutrisi, penurunan kelembaban, suhu lingkungan ekstrim, penurunan mobilitas)"
+        ],
         "terapeutik": [
-          "Identifikasi penyebab gangguan integritas kulit (mis: perubahan sirkulasi, perubahan status nutrisi, penurunan kelembaban, suhu lingkungan ekstrim, penurunan mobilitas)",
           "Ubah posisi setiap 2 jam jika tirah baring",
           "Lakukan pemijatan pada area penonjolan tulang, jika perlu",
           "Bersihkan perineal dengan air hangat, terutama selama periode diare",
           "Gunakan produk berbahan petroleum atau minyak pada kulit kering",
           "Gunakan produk berbahan ringan/alami dan hipoalergik pada kulit sensitive",
-          "Hindari produk berbahan dasar alkohol pada kulit kering",
+          "Hindari produk berbahan dasar alkohol pada kulit kering"
+        ],
+        "edukasi": [
           "Anjurkan menggunakan pelembab (mis: lotion, serum)",
           "Anjurkan minum air yang cukup",
           "Anjurkan meningkatkan asupan nutrisi",
@@ -13845,7 +15239,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-hipotermia",
   "kode": "D.0140",
   "nama": "Risiko Hipotermia",
-  "definisi": "Risiko hipotermia merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami kegagalan termoregulasi yang dapat....",
+  "definisi": "Berisiko mengalami kegagalan termoregulasi yang dapat mengakibatkan suhu tubuh berada di bawah rentang normal",
   "kategori": "Keamanan dan Proteksi",
   "tipe": "Aktual",
   "keluhan": [],
@@ -13887,15 +15281,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14507",
       "nama": "Manajemen Hipotermia",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor suhu tubuh",
           "Identifikasi penyebab hipotermia (mis: terpapar suhu lingkungan rendah, pakaian tipis, kerusakan hipotalamus, penurunan laju metabolisme, kekurangan lemak subkutan)",
-          "Monitor tanda dan gejala akibat hipotermia (mis: hipotermia ringan: takipnea, disartria, menggigil, hipertensi, diuresis; hipotermia sedang: aritmia, hipotensi, apatis, koagulopati, refleks menurun; hipotermia berat: oliguria, refleks menghilang, edema paru, asam-basa abnormal)",
+          "Monitor tanda dan gejala akibat hipotermia (mis: hipotermia ringan: takipnea, disartria, menggigil, hipertensi, diuresis; hipotermia sedang: aritmia, hipotensi, apatis, koagulopati, refleks menurun; hipotermia berat: oliguria, refleks menghilang, edema paru, asam-basa abnormal)"
+        ],
+        "terapeutik": [
           "Sediakan lingkungan yang hangat (mis: atur suhu ruangan, inkubator)",
           "Ganti pakaian dan/atau linen yang basah",
           "Lakukan penghangatan pasif (mis: selimut, menutup kepala, pakaian tebal)",
           "Lakukan penghangatan aktif eksternal (mis: kompres hangat, botol hangat, selimut hangat, perawatan metode kangguru)",
-          "Lakukan penghangatan aktif internal (mis: infus cairan hangat, oksigen hangat, lavase peritoneal dengan cairan hangat)",
+          "Lakukan penghangatan aktif internal (mis: infus cairan hangat, oksigen hangat, lavase peritoneal dengan cairan hangat)"
+        ],
+        "edukasi": [
           "Anjurkan makan/minum hangat"
         ]
       }
@@ -13904,12 +15302,14 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14578",
       "nama": "Regulasi Temperatur",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor suhu tubuh  bayi sampai stabil (36,5 – 37,5°C)",
           "Monitor suhu tubuh anak tiap 2 jam, jika perlu",
           "Monitor tekanan darah, frekuensi pernapasan dan nadi",
           "Monitor warna dan suhu kulit",
-          "Monitor dan catat tanda dan gejala hipotermia atau hipertermia",
+          "Monitor dan catat tanda dan gejala hipotermia atau hipertermia"
+        ],
+        "terapeutik": [
           "Pasang alat pemantau suhu kontinu, jika perlu",
           "Tingkatkan asupan cairan dan nutrisi yang adekuat",
           "Bedong bayi segera setelah lahir untuk mencegah kehilangan panas",
@@ -13923,9 +15323,13 @@ export const allDiagnosesData: Diagnosis[] = [
           "Gunakan matras penghangat, selimut hangat, dan penghangat ruangan untuk menaikkan suhu tubuh, jika perlu",
           "Gunakan Kasur pendingin, water circulating blankets, ice pack, atau gel pad dan intravascular cooling cathetherization untuk menurunkan suhu tubuh",
           "Sesuaikan suhu lingkungan dengan kebutuhan pasien",
+          "Demonstrasikan Teknik perawatan metode kanguru (PMK) untuk bayi BBLR"
+        ],
+        "edukasi": [
           "Jelaskan cara pencegahan heat exhaustion dan heat stroke",
-          "Jelaskan cara pencegahan hipotermi karena terpapar udara dingin",
-          "Demonstrasikan Teknik perawatan metode kanguru (PMK) untuk bayi BBLR",
+          "Jelaskan cara pencegahan hipotermi karena terpapar udara dingin"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian antipiretik, jika perlu"
         ]
       }
@@ -13937,7 +15341,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-hipotermia-perioperatif",
   "kode": "D.0141",
   "nama": "Risiko Hipotermia Perioperatif",
-  "definisi": "Risiko hipotermia perioperatif merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami penurunan suhu tubuh di bawah...",
+  "definisi": "Berisiko mengalami penurunan suhu tubuh di bawah 36°C secara tiba-tiba yang terjadi satu jam sebelum pembedahan hingga 24 jam setelah pembedahan",
   "kategori": "Keamanan dan Proteksi",
   "tipe": "Aktual",
   "keluhan": [],
@@ -13970,15 +15374,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14507",
       "nama": "Manajemen Hipotermia",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor suhu tubuh",
           "Identifikasi penyebab hipotermia (mis: terpapar suhu lingkungan rendah, pakaian tipis, kerusakan hipotalamus, penurunan laju metabolisme, kekurangan lemak subkutan)",
-          "Monitor tanda dan gejala akibat hipotermia (mis: hipotermia ringan: takipnea, disartria, menggigil, hipertensi, diuresis; hipotermia sedang: aritmia, hipotensi, apatis, koagulopati, refleks menurun; hipotermia berat: oliguria, refleks menghilang, edema paru, asam-basa abnormal)",
+          "Monitor tanda dan gejala akibat hipotermia (mis: hipotermia ringan: takipnea, disartria, menggigil, hipertensi, diuresis; hipotermia sedang: aritmia, hipotensi, apatis, koagulopati, refleks menurun; hipotermia berat: oliguria, refleks menghilang, edema paru, asam-basa abnormal)"
+        ],
+        "terapeutik": [
           "Sediakan lingkungan yang hangat (mis: atur suhu ruangan, inkubator)",
           "Ganti pakaian dan/atau linen yang basah",
           "Lakukan penghangatan pasif (mis: selimut, menutup kepala, pakaian tebal)",
           "Lakukan penghangatan aktif eksternal (mis: kompres hangat, botol hangat, selimut hangat, perawatan metode kangguru)",
-          "Lakukan penghangatan aktif internal (mis: infus cairan hangat, oksigen hangat, lavase peritoneal dengan cairan hangat)",
+          "Lakukan penghangatan aktif internal (mis: infus cairan hangat, oksigen hangat, lavase peritoneal dengan cairan hangat)"
+        ],
+        "edukasi": [
           "Anjurkan makan/minum hangat"
         ]
       }
@@ -13987,14 +15395,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02058",
       "nama": "Pemantauan hemodinamik invasif",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor frekuensi dan irama jantung",
           "Monitor TDS, TDD, MAP, tekanan vena sentral, tekanan arteri pulmonal, tekanan baji arteri paru",
           "Monitor curah jantung dan indeks jantung",
           "Monitor bentuk gelombang hemodinamik",
           "Monitor perfusi perifer distal pada sisi inserti setiap 4 jam",
           "Monitor tanda-tanda infeksi dan perdarahan pada sisi insersi",
-          "Monitor tanda-tanda komplikasi akibat pemasangan selang (mis: pneumothoraks, selang tertekuk, embolisme udara)",
+          "Monitor tanda-tanda komplikasi akibat pemasangan selang (mis: pneumothoraks, selang tertekuk, embolisme udara)"
+        ],
+        "terapeutik": [
           "Damping pasien saat pemasangan dan pelepasan kateter jalur hemodinamik",
           "Lakukan tes allen untuk menilai kolateral ulnaris sebelum kanulasi pada arteri radialis",
           "Pastikan set selang terangkai dan terpasang dengan tepat",
@@ -14004,7 +15414,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Ganti selang dan cairan infus setiap 24 – 72 jam, sesuai protocol",
           "Ganti balutan pada area insersi dengan Teknik steril",
           "Atur interval waktu pemantauan sesuai dengan kondisi pasien",
-          "Dokumentasikan hasil pemantauan",
+          "Dokumentasikan hasil pemantauan"
+        ],
+        "edukasi": [
           "Jelaskan tujuan dan prosedur pemantauan",
           "Informasikan hasil pemantauan, jika perlu",
           "Anjurkan membatasi gerak/aktivitas selama kateter terpasang"
@@ -14018,7 +15430,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-infeksi",
   "kode": "D.0142",
   "nama": "Risiko Infeksi",
-  "definisi": "Risiko infeksi merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami peningkatan terserang organisme patogenik.",
+  "definisi": "berisiko mengalami peningkatan terserang organisme patogenik",
   "kategori": "Keamanan dan Proteksi",
   "tipe": "Aktual",
   "keluhan": [
@@ -14055,16 +15467,20 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14508",
       "nama": "Manajemen Imunisasi/Vaksinasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi Riwayat Kesehatan dan Riwayat alergi",
           "Identifikasi kontraindikasi pemberian imunisasi (mis: reaksi anafilaksis terhadap vaksin sebelumnya dan/atau sakit parah dengan atau tanpa demam)",
-          "Identifikasi status imunisasi setiap kunjungan ke pelayanan kesehatan",
+          "Identifikasi status imunisasi setiap kunjungan ke pelayanan kesehatan"
+        ],
+        "terapeutik": [
           "Berikan suntikan pada bayi di bagian paha anterolateral",
           "Dokumentasikan informasi vaksinasi (mis: nama produsen, tanggal kadaluarsa)",
           "Jadwalkan imunisasi pada interval waktu yang tepat",
+          "Infromasikan imunisasi yang melindungi terhadap penyakit namun saat ini tidak diwajibkan pemerintah (mis: influenza, pneumokokus)"
+        ],
+        "edukasi": [
           "Jelaskan tujuan, manfaat, reaksi yang terjadi, jadwal, dan efek samping",
           "Informasikan imunisasi yang diwajibkan pemerintah (mis: hepatitis B, BCG, difteri, tetanus, pertussis, H. influenza, polio, campak, measles, rubela)",
-          "Infromasikan imunisasi yang melindungi terhadap penyakit namun saat ini tidak diwajibkan pemerintah (mis: influenza, pneumokokus)",
           "Informasikan vaksinasi untuk kejadian khusus (mis: rabies, tetanus)",
           "Informasikan penundaan pemberian imunisasi tidak berarti mengulang jadwal imunisasi Kembali",
           "Informasikan penyedia layanan Pekan Imunisasi Nasional yang menyediakan vaksin gratis"
@@ -14075,18 +15491,24 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14539",
       "nama": "Pencegahan Infeksi",
       "tindakan": {
+        "observasi": [
+          "Monitor tanda dan gejala infeksi lokal dan sistemik"
+        ],
         "terapeutik": [
-          "Monitor tanda dan gejala infeksi lokal dan sistemik",
           "Batasi jumlah pengunjung",
           "Berikan perawatan kulit pada area edema",
           "Cuci tangan sebelum dan sesudah kontak dengan pasien dan lingkungan pasien",
-          "Pertahankan teknik aseptic pada pasien berisiko tinggi",
+          "Pertahankan teknik aseptic pada pasien berisiko tinggi"
+        ],
+        "edukasi": [
           "Jelaskan tanda dan gejala infeksi",
           "Ajarkan cara mencuci tangan dengan benar",
           "Ajarkan etika batuk",
           "Ajarkan cara memeriksa kondisi luka atau luka operasi",
           "Anjurkan meningkatkan asupan nutrisi",
-          "Anjurkan meningkatkan asupan cairan",
+          "Anjurkan meningkatkan asupan cairan"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian imunisasi, jika perlu"
         ]
       }
@@ -14098,7 +15520,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-jatuh",
   "kode": "D.0143",
   "nama": "Risiko Jatuh",
-  "definisi": "Risiko jatuh merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami kerusakan fisik dan gangguan kesehatan akibat...",
+  "definisi": "Berisiko mengalami kerusakan fisik dan gangguan kesehatan akibat terjatuh.",
   "kategori": "Keamanan dan Proteksi",
   "tipe": "Aktual",
   "keluhan": [
@@ -14144,19 +15566,23 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14540",
       "nama": "Pencegahan Jatuh",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi faktor jatuh (mis: usia > 65 tahun, penurunan tingkat kesadaran, defisit kognitif, hipotensi ortostatik, gangguan keseimbangan, gangguan penglihatan, neuropati)",
           "Identifikasi risiko jatuh setidaknya sekali setiap shift atau sesuai dengan kebijakan institusi",
           "Identifikasi faktor lingkungan yang meningkatkan risiko jatuh (mis: lantai licin, penerangan kurang)",
+          "Monitor kemampuan berpindah dari tempat tidur ke kursi roda dan sebaliknya"
+        ],
+        "terapeutik": [
           "Hitung risiko jatuh dengan menggunakan skala (mis: fall morse scale, humpty dumpty scale), jika perlu",
-          "Monitor kemampuan berpindah dari tempat tidur ke kursi roda dan sebaliknya",
           "Orientasikan ruangan pada pasien dan keluarga",
           "Pastikan roda tempat tidur dan kursi roda selalu dalam kondisi terkunci",
           "Pasang handrail tempat tidur",
           "Atur tempat tidur mekanis pada posisi terendah",
           "Tempatkan pasien berisiko tinggi jatuh dekat dengan pantauan  perawat dari nurse station",
           "Gunakan alat bantu berjalan (mis: kursi roda, walker)",
-          "Dekatkan bel pemanggil dalam jangkauan pasien",
+          "Dekatkan bel pemanggil dalam jangkauan pasien"
+        ],
+        "edukasi": [
           "Anjurkan memanggil perawat jika membutuhkan bantuan untuk berpindah",
           "Anjurkan menggunakan alas kaki yang tidak licin",
           "Anjurkan berkonsentrasi untuk menjaga keseimbangan tubuh",
@@ -14169,16 +15595,20 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14513",
       "nama": "Manajemen Keselamatan Lingkungan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kebutuhan keselamatan (mis: kondisi fisik, fungsi kognitif, dan Riwayat perilaku)",
-          "Monitor perubahan status keselamatan lingkungan",
+          "Monitor perubahan status keselamatan lingkungan"
+        ],
+        "terapeutik": [
           "Hilangkan bahaya keselamatan lingkungan (mis: fisik, biologi, kimia), jika memungkinkan",
           "Modifikasi lingkungan untuk meminimalkan bahaya dan risiko",
           "Sediakan alat bantu keamanan lingkungan (mis: commode chair dan pegangan tangan)",
           "Gunakan perangkat pelindung (mis: pengekangan fisik, rel samping, pintu terkunci, pagar)",
           "Hubungi pihak berwenang sesuai masalah komunitas (mis: puskesmas, polisi, damkar)",
           "Fasilitasi relokasi ke lingkungan yang aman",
-          "Lakukan program skrining bahaya lingkungan (mis: timbal)",
+          "Lakukan program skrining bahaya lingkungan (mis: timbal)"
+        ],
+        "edukasi": [
           "Ajarkan individu, keluarga, dan kelompok risiko tinggi bahaya lingkungan"
         ]
       }
@@ -14190,7 +15620,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-luka-tekan",
   "kode": "D.0144",
   "nama": "Risiko Luka Tekan",
-  "definisi": "Risiko luka tekan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami cedera lokal pada...",
+  "definisi": "berisiko mengalami cedera lokal pada kulit dan/atau jaringan, biasanya pada tonjolan tulang akibat tekanan dan/atau gesekan",
   "kategori": "Keamanan dan Proteksi",
   "tipe": "Aktual",
   "keluhan": [
@@ -14248,7 +15678,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.06195",
       "nama": "Manajemen Sensasi Perifer",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab perubahan sensasi",
           "Identifikasi penggunaan alat pengikat, prosthesis, sepatu, dan pakaian",
           "Periksa perbedaan sensasi tajam atau tumpul",
@@ -14256,11 +15686,17 @@ export const allDiagnosesData: Diagnosis[] = [
           "Periksa kemampuan mengidentifikasi lokasi dan tekstur benda",
           "Monitor terjadinya parestesia, jika perlu",
           "Monitor perubahan kulit",
-          "Monitor adanya tromboplebitis dan tromboemboli vena",
-          "Hindai pemakaian benda-benda yang berlebihan suhunya (terlalu panas atau dingin)",
+          "Monitor adanya tromboplebitis dan tromboemboli vena"
+        ],
+        "terapeutik": [
+          "Hindai pemakaian benda-benda yang berlebihan suhunya (terlalu panas atau dingin)"
+        ],
+        "edukasi": [
           "Anjurkan penggunaan thermometer untuk menguji suhu air",
           "Anjurkan penggunaan sarung tangan termal saat memasak",
-          "Anjurkan memakai sepatu lembut dan bertumit rendah",
+          "Anjurkan memakai sepatu lembut dan bertumit rendah"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian analgesik, jika perlu",
           "Kolaborasi pemberian kortikosteroid, jika perlu"
         ]
@@ -14270,7 +15706,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14543",
       "nama": "Pencegahan Luka Tekan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Periksa luka tekan dengan menggunakan skala (mis: skala Noton, skala Braden)",
           "Periksa adanya luka tekan sebelumnya",
           "Monitor suhu kulit yang tertekan",
@@ -14279,7 +15715,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Monitor ketat area yang memerah",
           "Monitor kulit di atas tonjolan tulang atau titik tekan saat mengubah posisi",
           "Monitor sumber tekanan atau gesekan",
-          "Monitor mobilitas dan aktivitas individu",
+          "Monitor mobilitas dan aktivitas individu"
+        ],
+        "terapeutik": [
           "Keringkan daerah kulit yang lembab akibat keringat, cairan luka, dan inkontinensia fekal atau urin",
           "Gunakan barier seperti lotion atau bantalan penyerap air",
           "Ubah posisi dengan hati-hati setiap 1 – 2 jam",
@@ -14290,7 +15728,9 @@ export const allDiagnosesData: Diagnosis[] = [
           "Hindari pemijatan di atas tonjolan tulang",
           "Hindari pemberian lotion pada daerah yang luka atau kemerahan",
           "Hindari mengunakan air hangat dan sabun keras saat mandi",
-          "Pastikan asupan makanan yang cukup terutama protein, vitamin B dan C, zat besi, dan kalori",
+          "Pastikan asupan makanan yang cukup terutama protein, vitamin B dan C, zat besi, dan kalori"
+        ],
+        "edukasi": [
           "Jelaskan tanda-tanda kerusakan kulit",
           "Anjurkan melapor jika menemukan tanda-tanda kerusakan kulit",
           "Ajarkan cara merawat kulit"
@@ -14304,7 +15744,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-mutilasi-diri",
   "kode": "D.0145",
   "nama": "Risiko Mutilasi Diri",
-  "definisi": "Risiko mutilasi diri merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko sengaja mencederai diri yang menyebabkan kerusakan...",
+  "definisi": "Berisiko sengaja mencederai diri yang menyebabkan kerusakan fisik untuk memperoleh pemulihan ketegangan",
   "kategori": "Keamanan dan Proteksi",
   "tipe": "Aktual",
   "keluhan": [
@@ -14346,11 +15786,15 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12392",
       "nama": "Edukasi Manajemen Stres",
       "tindakan": {
+        "observasi": [
+          "Identifikasi kesiapan dan kemampuan menerima informasi"
+        ],
         "terapeutik": [
-          "Identifikasi kesiapan dan kemampuan menerima informasi",
           "Sediakan materi dan media Pendidikan Kesehatan",
           "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
-          "Berikan kesempatan untuk bertanya",
+          "Berikan kesempatan untuk bertanya"
+        ],
+        "edukasi": [
           "Ajarkan Teknik relaksasi",
           "Ajarkan latihan asertif",
           "Ajarkan membuat jadwal olahraga teratur",
@@ -14368,22 +15812,26 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09282",
       "nama": "Kontrak Perilaku Positif",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kemampuan mental dan kognitif untuk membuat kontrak",
           "Identifikasi cara dan sumber daya terbaik untuk mencapai tujuan",
           "Identifikasi hambatan dalam menerapkan perilaku positif",
-          "Monitor pelaksanaan perilaku ketidaksesuaian dan kurang komitmen untuk memenuhi kontrak",
+          "Monitor pelaksanaan perilaku ketidaksesuaian dan kurang komitmen untuk memenuhi kontrak"
+        ],
+        "terapeutik": [
           "Ciptakan lingkungan yang terbuka untuk membuat kontrak perilaku",
           "Fasilitasi pembuatan kontrak tertulis",
+          "Tetapkan batas waktu yang dibutuhkan untuk pelaksanaan Tindakan yang realistis",
+          "Fasilitasi meninjau ulang kontrak dan tujuan, jika perlu",
+          "Pastikan kontrak ditandatangani oleh semua pihak yang terlibat, jika perlu"
+        ],
+        "edukasi": [
           "Diskusikan perilaku  Kesehatan yang ingin diubah",
           "Diskusikan tujuan positif jangka pendek dan jangka Panjang yang realistis dan dapat dicapai",
           "Diskusikan pengembangan rencana perilaku positif",
           "Diskusikan cara mengamati perilaku (mis: tabel kemajuan perilaku)",
           "Diskusikan penghargaan yang diinginkan Ketika tujuan tercapai, jika perlu",
           "Diskusikan konsekuensi atau sanksi tidak memenuhi kontrak",
-          "Tetapkan batas waktu yang dibutuhkan untuk pelaksanaan Tindakan yang realistis",
-          "Fasilitasi meninjau ulang kontrak dan tujuan, jika perlu",
-          "Pastikan kontrak ditandatangani oleh semua pihak yang terlibat, jika perlu",
           "Libatkan keluarga dalam proses kontrak, jika perlu",
           "Anjurkan menuliskan tujuan sendiri, jika perlu"
         ]
@@ -14393,22 +15841,28 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09290",
       "nama": "Manajemen Pengendalian Marah",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi penyebab/pemicu kemarahan",
           "Identifikasi harapan perilaku terhadap ekspresi kemaharan",
           "Monitor potensi agresi tidak konstruktif dan lakukan Tindakan sebelum agresif",
-          "Monitor kemajuan dengna membuat grafik, jika perlu",
+          "Monitor kemajuan dengna membuat grafik, jika perlu"
+        ],
+        "terapeutik": [
           "Gunakan pendekatan yang tenang dan meyakinkan",
           "Fasilitasi mengekpresikan marah secara adaptif",
           "Cegah kerusakan fisik akibat ekspresi marah (mis: menggunakan senjata)",
           "Cegah aktivitas pemicu agresi (mis: meninju tas, mondar-mandir, berolahraga berlebihan)",
           "Lakukan kontrol eksternal (mis: pengekangan, time-out, dan seklusi), jika perlu",
           "Dukung menerapkan strategi pengendalian marah dan ekspresi amarah adaptif",
-          "Berikan penguatan atas keberhasilan penerapan strategi pengendalian marah",
+          "Berikan penguatan atas keberhasilan penerapan strategi pengendalian marah"
+        ],
+        "edukasi": [
           "Jelaskan makna, fungsi marah, frustasi, dan respons marah",
           "Anjurkan meminta bantuan perawat atau keluarga selama ketegangan meningkat",
           "Ajarkan strategi untuk mencegah ekspresi marah maladaptif",
-          "Ajarkan metode untuk memodulasi pengalaman emosi yang kuat (mis: latihan asertif, Teknik relaksasi, jurnal, aktivitas penyaluran energi",
+          "Ajarkan metode untuk memodulasi pengalaman emosi yang kuat (mis: latihan asertif, Teknik relaksasi, jurnal, aktivitas penyaluran energi"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat, jika perlu"
         ]
       }
@@ -14420,7 +15874,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-perilaku-kekerasan",
   "kode": "D.0146",
   "nama": "Risiko Perilaku Kekerasan",
-  "definisi": "Risiko perilaku kekerasan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko membahayakan secara fisik, emosi, dan/atau...",
+  "definisi": "Berisiko membahayakan secara fisik, emosi, dan/atau seksual pada diri sendiri atau orang lain",
   "kategori": "Keamanan dan Proteksi",
   "tipe": "Aktual",
   "keluhan": [
@@ -14466,15 +15920,19 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14544",
       "nama": "Pencegahan Perilaku Kekerasan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor adanya benda yang berpotensi membahayakan (mis: benda tajam, tali)",
           "Monitor keamanan barang yang dibawa oleh pengunjung",
-          "Monitor selama penggunaan barang yang dapat membahayakan (mis: pisau cukur)",
+          "Monitor selama penggunaan barang yang dapat membahayakan (mis: pisau cukur)"
+        ],
+        "terapeutik": [
           "Pertahankan lingkungan bebas dari bahaya secara rutin",
-          "Libatkan keluarga dalam perawatan",
-          "Anjurkan pengunjung dan keluarga untuk mendukung keselamatan pasien",
           "Latih cara mengungkapkan perasaan secara asertif",
           "Latih mengurangi kemarahan secara verbal dan nonverbal (mis: relaksasi, bercerita)"
+        ],
+        "edukasi": [
+          "Libatkan keluarga dalam perawatan",
+          "Anjurkan pengunjung dan keluarga untuk mendukung keselamatan pasien"
         ]
       }
     },
@@ -14482,20 +15940,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.09312",
       "nama": "Promosi Koping",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
           "Identifikasi kemampuan yang dimiliki",
           "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
           "Identifikasi pemahaman proses penyakit",
           "Identifikasi dampak situasi terhadap peran dan hubungan",
           "Identifikasi metode penyelesaian masalah",
-          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
-          "Diskusikan perubahan peran yang dialami",
+          "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial"
+        ],
+        "terapeutik": [
           "Gunakan pendekatan yang tenang dan meyakinkan",
-          "Diskusikan alasan mengkritik diri sendiri",
-          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
-          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
-          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
           "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
           "Motivasi untuk menentukan harapan yang realistis",
@@ -14507,15 +15962,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
           "Dukung penggunaan mekanisme pertahanan yang tepat",
           "Kurangi rangsangan lingkungan yang mengancam",
+          "Latih penggunaan Teknik relaksasi",
+          "Latih keterampilan sosial, sesuai kebutuhan",
+          "Latih mengembangkan penilaian obyektif"
+        ],
+        "edukasi": [
+          "Diskusikan perubahan peran yang dialami",
+          "Diskusikan alasan mengkritik diri sendiri",
+          "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+          "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+          "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
           "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
           "Anjurkan penggunaan sumber spiritual, jika perlu",
           "Anjurkan mengungkapkan perasaan dan persepsi",
           "Anjurkan keluarga terlibat",
           "Anjurkan membuat tujuan yang lebih spesifik",
-          "Ajarkan cara memecahkan masalah secara konstruktif",
-          "Latih penggunaan Teknik relaksasi",
-          "Latih keterampilan sosial, sesuai kebutuhan",
-          "Latih mengembangkan penilaian obyektif"
+          "Ajarkan cara memecahkan masalah secara konstruktif"
         ]
       }
     }
@@ -14526,7 +15988,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-perlambatan-pemulihan-pascabedah",
   "kode": "D.0147",
   "nama": "Risiko Perlambatan Pemulihan Pascabedah",
-  "definisi": "Risiko perlambatan pemulihan pascabedah merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami pemanjangan jumlah...",
+  "definisi": "Berisiko mengalami pemanjangan jumlah hari pascabedah untuk memulai dan melakukan aktivitas sehari-hari.",
   "kategori": "Keamanan dan Proteksi",
   "tipe": "Aktual",
   "keluhan": [
@@ -14571,13 +16033,17 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.05173",
       "nama": "Dukungan Mobilisasi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi adanya nyeri atau keluhan fisik lainnya",
           "Identifikasi toleransi fisik melakukan pergerakan",
           "Monitor frekuensi jantung dan tekanan darah sebelum memulai mobilisasi",
-          "Monitor kondisi umum selama melakukan mobilisasi",
+          "Monitor kondisi umum selama melakukan mobilisasi"
+        ],
+        "terapeutik": [
           "Fasilitasi aktivitas mobilisasi dengan alat bantu (mis: pagar tempat tidur)",
-          "Fasilitasi melakukan pergerakan, jika perlu",
+          "Fasilitasi melakukan pergerakan, jika perlu"
+        ],
+        "edukasi": [
           "Libatkan keluarga untuk membantu pasien dalam meningkatkan pergerakan",
           "Jelaskan tujuan dan prosedur mobilisasi",
           "Anjurkan melakukan mobilisasi dini",
@@ -14589,11 +16055,15 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12391",
       "nama": "Edukasi Manajemen Nyeri",
       "tindakan": {
+        "observasi": [
+          "Identifikasi kesiapan dan kemampuan menerima informasi"
+        ],
         "terapeutik": [
-          "Identifikasi kesiapan dan kemampuan menerima informasi",
           "Sediakan materi dan media Pendidikan Kesehatan",
           "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
-          "Berikan kesempatan untuk bertanya",
+          "Berikan kesempatan untuk bertanya"
+        ],
+        "edukasi": [
           "Jelaskan penyebab, periode, dan strategi meredakan nyeri",
           "Anjurkan memonitor nyeri secara mandiri",
           "Anjurkan menggunakan analgetic secara tepat",
@@ -14605,17 +16075,21 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12395",
       "nama": "Edukasi Nutrisi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Periksa status gizi, status alergi, program diet, kebutuhan dan kemampuan pemenuhan kebutuhan gizi",
-          "Identifikasi kemampuan dan waktu yang tepat menerima informasi",
+          "Identifikasi kemampuan dan waktu yang tepat menerima informasi"
+        ],
+        "terapeutik": [
           "Persiapkan materi dan media seperti jenis-jenis nutrisi, tabel makanan penukar, cara mengelola, cara menakar makanan",
           "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
           "Berikan kesempatan untuk bertanya",
+          "Demonstrasikan cara membersihkan mulut",
+          "Demonstrasikan cara mengatur posisi saat makan"
+        ],
+        "edukasi": [
           "Jelaskan kepada pasien dan keluarga alergi makanan, makanan yang harus di hindari, kebutuhan jumlah kalori, jenis makanan yang dibutuhkan pasien",
           "Ajarkan cara melaksanakan diet sesuai program (mis: makanan tinggi protein, rendah garam, rendah kalori)",
           "Jelaskan hal-hal yang dilakukan sebelum memberikan makan (mis: perawatan mulut, penggunaan gigi palsu, obat-obat yang harus diberikan sebelum makan)",
-          "Demonstrasikan cara membersihkan mulut",
-          "Demonstrasikan cara mengatur posisi saat makan",
           "Ajarkan pasien/keluarga memonitor asupan kalori dan makanan (mis: menggunakan buku harian)",
           "Ajarkan pasien dan keluarga memantau kondisi kekurangan nutrisi",
           "Anjurkan mendemonstrasikan cara memberi makan, menghitung kalori, menyiapkan makanan sesuai program diet"
@@ -14626,7 +16100,7 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.03119",
       "nama": "Manajemen Nutrisi",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Identifikasi status nutrisi",
           "Identifikasi alergi dan intoleransi makanan",
           "Identifikasi makanan yang disukai",
@@ -14634,16 +16108,22 @@ export const allDiagnosesData: Diagnosis[] = [
           "Identifikasi perlunya penggunaan selang nasogastrik",
           "Monitor asupan makanan",
           "Monitor berat badan",
-          "Monitor hasil pemeriksaan laboratorium",
+          "Monitor hasil pemeriksaan laboratorium"
+        ],
+        "terapeutik": [
           "Lakukan oral hygiene sebelum makan, jika perlu",
           "Fasilitasi menentukan pedoman diet (mis: piramida makanan)",
           "Sajikan makanan secara menarik dan suhu yang sesuai",
           "Berikan makanan tinggi serat untuk mencegah konstipasi",
           "Berikan makanan tinggi kalori dan tinggi protein",
           "Berikan suplemen makanan, jika perlu",
-          "Hentikan pemberian makan melalui selang nasogastik jika asupan oral dapat ditoleransi",
+          "Hentikan pemberian makan melalui selang nasogastik jika asupan oral dapat ditoleransi"
+        ],
+        "edukasi": [
           "Ajarkan posisi duduk, jika mampu",
-          "Ajarkan diet yang diprogramkan",
+          "Ajarkan diet yang diprogramkan"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian medikasi sebelum makan (mis: Pereda nyeri, antiemetik), jika perlu",
           "Kolaborasi dengan ahli gizi untuk menentukan jumlah kalori dan jenis nutrien yang dibutuhkan, jika perlu"
         ]
@@ -14653,21 +16133,27 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.02067",
       "nama": "Pencegahan Perdarahan",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor tanda dan gejala perdarahan",
           "Monitor nilai hematokrit/hemoglobin sebelum dan setelah kehilangan darah",
           "Monitor tanda-tanda vital ortostatik",
-          "Monitor koagulasi (mis: prothrombin time (PT), partial thromboplastin time (PTT), fibrinogen, degradasi fibrin dan/atau platelet)",
+          "Monitor koagulasi (mis: prothrombin time (PT), partial thromboplastin time (PTT), fibrinogen, degradasi fibrin dan/atau platelet)"
+        ],
+        "terapeutik": [
           "Pertahankan bed rest selama perdarahan",
           "Batasi tindakan invasive, jika perlu",
           "Gunakan kasur pencegah decubitus",
-          "Hindari pengukuran suhu rektal",
+          "Hindari pengukuran suhu rektal"
+        ],
+        "edukasi": [
           "Jelaskan tanda dan gejala perdarahan",
           "Anjurkan menggunakan kaus kaki saat ambulasi",
           "Anjurkan meningkatkan asupan cairan untuk menghindari konstipasi",
           "Anjurkan menghindari aspirin atau antikoagulan",
           "Anjurkan meningkatkan asupan makanan dan vitamin K",
-          "Anjurkan segera melapor jika terjadi perdarahan",
+          "Anjurkan segera melapor jika terjadi perdarahan"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian obat pengontrol perdarahan, jika perlu",
           "Kolaborasi pemberian produk darah, jika perlu",
           "Kolaborasi pemberian pelunak tinja, jika perlu"
@@ -14681,7 +16167,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "risiko-termoregulasi-tidak-efektif",
   "kode": "D.0148",
   "nama": "Risiko Termoregulasi Tidak Efektif",
-  "definisi": "Risiko termoregulasi tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami kegagalan mempertahankan...",
+  "definisi": "berisiko mengalami kegagalan mempertahankan suhu tubuh dalam rentang normal",
   "kategori": "Keamanan dan Proteksi",
   "tipe": "Aktual",
   "keluhan": [],
@@ -14717,12 +16203,16 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12414",
       "nama": "Edukasi Pengukuran Suhu Tubuh",
       "tindakan": {
+        "observasi": [
+          "Identifikasi kesiapan dan kemampuan menerima informasi"
+        ],
         "terapeutik": [
-          "Identifikasi kesiapan dan kemampuan menerima informasi",
           "Sediakan materi dan media Pendidikan Kesehatan",
           "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
           "Berikan kesempatan untuk bertanya",
-          "Dokumentasikan hasil pengukuran suhu",
+          "Dokumentasikan hasil pengukuran suhu"
+        ],
+        "edukasi": [
           "Jelaskan prosedur pengukuran suhu tubuh",
           "Anjurkan terus memegang bahu dan menahan dada saat pengukuran aksila",
           "Ajarkan memilih lokasi pengukuran suhu oral atau aksila",
@@ -14735,11 +16225,15 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.12457",
       "nama": "Edukasi Termoregulasi",
       "tindakan": {
+        "observasi": [
+          "Identifikasi kesiapan dan kemampuan menerima informasi"
+        ],
         "terapeutik": [
-          "Identifikasi kesiapan dan kemampuan menerima informasi",
           "Sediakan materi dan media Pendidikan Kesehatan",
           "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
-          "Berikan kesempatan untuk bertanya",
+          "Berikan kesempatan untuk bertanya"
+        ],
+        "edukasi": [
           "Ajarkan kompres hangat jika demam",
           "Ajarkan cara pengukuran suhu",
           "Anjurkan penggunaan pakaian yang dapat menyerap keringat",
@@ -14760,7 +16254,7 @@ export const allDiagnosesData: Diagnosis[] = [
   "slug": "termoregulasi-tidak-efektif",
   "kode": "D.0149",
   "nama": "Termoregulasi Tidak Efektif",
-  "definisi": "Termoregulasi tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai kegagalan mempertahankan...",
+  "definisi": "kegagalan mempertahankan suhu tubuh dalam rentang normal",
   "kategori": "Keamanan dan Proteksi",
   "tipe": "Aktual",
   "keluhan": [],
@@ -14802,12 +16296,14 @@ export const allDiagnosesData: Diagnosis[] = [
       "kode": "I.14578",
       "nama": "Regulasi Temperatur",
       "tindakan": {
-        "terapeutik": [
+        "observasi": [
           "Monitor suhu tubuh bayi sampai stabil (36,5 – 37,5°C)",
           "Monitor suhu tubuh anak tiap 2 jam, jika perlu",
           "Monitor tekanan darah, frekuensi pernapasan dan nadi",
           "Monitor warna dan suhu kulit",
-          "Monitor dan catat tanda dan gejala hipotermia atau hipertermia",
+          "Monitor dan catat tanda dan gejala hipotermia atau hipertermia"
+        ],
+        "terapeutik": [
           "Pasang alat pemantau suhu kontinu, jika perlu",
           "Tingkatkan asupan cairan dan nutrisi yang adekuat",
           "Bedong bayi segera setelah lahir untuk mencegah kehilangan panas",
@@ -14821,9 +16317,13 @@ export const allDiagnosesData: Diagnosis[] = [
           "Gunakan matras penghangat, selimut hangat, dan penghangat ruangan untuk menaikkan suhu tubuh, jika perlu",
           "Gunakan Kasur pendingin, water circulating blankets, ice pack, atau gel pad dan intravascular cooling cathetherization untuk menurunkan suhu tubuh",
           "Sesuaikan suhu lingkungan dengan kebutuhan pasien",
+          "Demonstrasikan Teknik perawatan metode kanguru (PMK) untuk bayi BBLR"
+        ],
+        "edukasi": [
           "Jelaskan cara pencegahan heat exhaustion dan heat stroke",
-          "Jelaskan cara pencegahan hipotermi karena terpapar udara dingin",
-          "Demonstrasikan Teknik perawatan metode kanguru (PMK) untuk bayi BBLR",
+          "Jelaskan cara pencegahan hipotermi karena terpapar udara dingin"
+        ],
+        "kolaborasi": [
           "Kolaborasi pemberian antipiretik, jika perlu"
         ]
       }

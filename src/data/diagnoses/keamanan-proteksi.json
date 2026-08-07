@@ -5,7 +5,7 @@
     "D.0129": {
       "code": "D.0129",
       "name": "Gangguan Integritas Kulit/Jaringan",
-      "definition": "Gangguan integritas kulit/jaringan merupakan diagnosis keperawatan yang didefinisikan sebagai kerusakan kulit atau jaringan (membran mukosa...",
+      "definition": "Kerusakan kulit (dermis dan/atau epidermis) atau jaringan (membran mukosa, kornea, fasia, otot, tendon, tulang, kartilago, kapsul sendi, dan/atau ligamen).",
       "signs_and_symptoms": {
         "subjective": [
           "Tidak tersedia"
@@ -43,14 +43,18 @@
           "code": "I.11353",
           "name": "Perawatan Integritas Kulit",
           "tindakan": {
+            "observasi": [
+              "Identifikasi penyebab gangguan integritas kulit (mis: perubahan sirkulasi, perubahan status nutrisi, penurunan kelembaban, suhu lingkungan ekstrim, penurunan mobilitas)"
+            ],
             "terapeutik": [
-              "Identifikasi penyebab gangguan integritas kulit (mis: perubahan sirkulasi, perubahan status nutrisi, penurunan kelembaban, suhu lingkungan ekstrim, penurunan mobilitas)",
               "Ubah posisi setiap 2 jam jika tirah baring",
               "Lakukan pemijatan pada area penonjolan tulang, jika perlu",
               "Bersihkan perineal dengan air hangat, terutama selama periode diare",
               "Gunakan produk berbahan petroleum atau minyak pada kulit kering",
               "Gunakan produk berbahan ringan/alami dan hipoalergik pada kulit sensitive",
-              "Hindari produk berbahan dasar alkohol pada kulit kering",
+              "Hindari produk berbahan dasar alkohol pada kulit kering"
+            ],
+            "edukasi": [
               "Anjurkan menggunakan pelembab (mis: lotion, serum)",
               "Anjurkan minum air yang cukup",
               "Anjurkan meningkatkan asupan nutrisi",
@@ -65,9 +69,11 @@
           "code": "I.14564",
           "name": "Perawatan Luka",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor karakteristik luka (mis: drainase, warna, ukuran , bau)",
-              "Monitor tanda-tanda infeksi",
+              "Monitor tanda-tanda infeksi"
+            ],
+            "terapeutik": [
               "Lepaskan balutan dan plester secara perlahan",
               "Cukur rambut di sekitar daerah luka, jika perlu",
               "Bersihkan dengan cairan NaCl atau pembersih nontoksik, sesuai kebutuhan",
@@ -79,10 +85,14 @@
               "Jadwalkan perubahan posisi setiap 2 jam atau sesuai kondisi pasien",
               "Berikan diet dengan kalori 30 – 35 kkal/kgBB/hari dan protein 1,25 – 1,5 g/kgBB/hari",
               "Berikan suplemen vitamin dan mineral (mis: vitamin A, vitamin C, Zinc, asam amino), sesuai indikasi",
-              "Berikan terapi TENS (stimulasi saraf transcutaneous), jika perlu",
+              "Berikan terapi TENS (stimulasi saraf transcutaneous), jika perlu"
+            ],
+            "edukasi": [
               "Jelaskan tanda dan gejala infeksi",
               "Anjurkan mengkonsumsi makanan tinggi kalori dan protein",
-              "Ajarkan prosedur perawatan luka secara mandiri",
+              "Ajarkan prosedur perawatan luka secara mandiri"
+            ],
+            "kolaborasi": [
               "Kolaborasi prosedur debridement (mis: enzimatik, biologis, mekanis, autolitik), jika perlu",
               "Kolaborasi pemberian antibiotik, jika perlu"
             ]
@@ -127,12 +137,14 @@
           "code": "I.15506",
           "name": "Manajemen Hipertermia",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi penyebab hipertermia (mis: dehidrasi, terpapar lingkungan panas, penggunaan inkubator)",
               "Monitor suhu tubuh",
               "Monitor kadar elektrolit",
               "Monitor haluaran urin",
-              "Monitor komplikasi akibat hipertermia",
+              "Monitor komplikasi akibat hipertermia"
+            ],
+            "terapeutik": [
               "Sediakan lingkungan yang dingin",
               "Longgarkan atau lepaskan pakaian",
               "Basahi dan kipasi permukaan tubuh",
@@ -140,8 +152,12 @@
               "Ganti linen setiap hari atau lebih sering jika mengalami hyperhidrosis (keringat berlebih)",
               "Lakukan pendinginan eksternal (mis: selimut hipotermia atau kompres dingin pada dahi, leher, dada, abdomen, aksila)",
               "Hindari pemberian antipiretik atau aspirin",
-              "Berikan oksigen, jika perlu",
-              "Anjurkan tirah baring",
+              "Berikan oksigen, jika perlu"
+            ],
+            "edukasi": [
+              "Anjurkan tirah baring"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian cairan dan elektrolit intravena, jika perlu"
             ]
           }
@@ -150,12 +166,14 @@
           "code": "I.14578",
           "name": "Regulasi Temperatur",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor suhu tubuh bayi sampai stabil (36,5 – 37,5°C)",
               "Monitor suhu tubuh anak tiap 2 jam, jika perlu",
               "Monitor tekanan darah, frekuensi pernapasan dan nadi",
               "Monitor warna dan suhu kulit",
-              "Monitor dan catat tanda dan gejala hipotermia atau hipertermia",
+              "Monitor dan catat tanda dan gejala hipotermia atau hipertermia"
+            ],
+            "terapeutik": [
               "Pasang alat pemantau suhu kontinu, jika perlu",
               "Tingkatkan asupan cairan dan nutrisi yang adekuat",
               "Bedong bayi segera setelah lahir untuk mencegah kehilangan panas",
@@ -169,9 +187,13 @@
               "Gunakan matras penghangat, selimut hangat, dan penghangat ruangan untuk menaikkan suhu tubuh, jika perlu",
               "Gunakan Kasur pendingin, water circulating blankets, ice pack, atau gel pad dan intravascular cooling cathetherization untuk menurunkan suhu tubuh",
               "Sesuaikan suhu lingkungan dengan kebutuhan pasien",
+              "Demonstrasikan Teknik perawatan metode kanguru (PMK) untuk bayi BBLR"
+            ],
+            "edukasi": [
               "Jelaskan cara pencegahan heat exhaustion dan heat stroke",
-              "Jelaskan cara pencegahan hipotermi karena terpapar udara dingin",
-              "Demonstrasikan Teknik perawatan metode kanguru (PMK) untuk bayi BBLR",
+              "Jelaskan cara pencegahan hipotermi karena terpapar udara dingin"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian antipiretik, jika perlu"
             ]
           }
@@ -223,15 +245,19 @@
           "code": "I.14507",
           "name": "Manajemen Hipotermia",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor suhu tubuh",
               "Identifikasi penyebab hipotermia (mis: terpapar suhu lingkungan rendah, pakaian tipis, kerusakan hipotalamus, penurunan laju metabolisme, kekurangan lemak subkutan)",
-              "Monitor tanda dan gejala akibat hipotermia (mis: hipotermia ringan: takipnea, disartria, menggigil, hipertensi, diuresis; hipotermia sedang: aritmia, hipotensi, apatis, koagulopati, refleks menurun; hipotermia berat: oliguria, refleks menghilang, edema paru, asam-basa abnormal)",
+              "Monitor tanda dan gejala akibat hipotermia (mis: hipotermia ringan: takipnea, disartria, menggigil, hipertensi, diuresis; hipotermia sedang: aritmia, hipotensi, apatis, koagulopati, refleks menurun; hipotermia berat: oliguria, refleks menghilang, edema paru, asam-basa abnormal)"
+            ],
+            "terapeutik": [
               "Sediakan lingkungan yang hangat (mis: atur suhu ruangan, inkubator)",
               "Ganti pakaian dan/atau linen yang basah",
               "Lakukan penghangatan pasif (mis: selimut, menutup kepala, pakaian tebal)",
               "Lakukan penghangatan aktif eksternal (mis: kompres hangat, botol hangat, selimut hangat, perawatan metode kangguru)",
-              "Lakukan penghangatan aktif internal (mis: infus cairan hangat, oksigen hangat, lavase peritoneal dengan cairan hangat)",
+              "Lakukan penghangatan aktif internal (mis: infus cairan hangat, oksigen hangat, lavase peritoneal dengan cairan hangat)"
+            ],
+            "edukasi": [
               "Anjurkan makan/minum hangat"
             ]
           }
@@ -240,18 +266,22 @@
           "code": "I.14586",
           "name": "Terapi Paparan Panas",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kontraindikasi penggunaan terapi (mis: penurunan atau tidak adanya sensasi, penurunan sirkulasi)",
               "Monitor suhu alat terapi",
               "Monitor kondisi kulit selama terapi",
               "Monitor kondisi umum, kenyamanan, dan keamanan selama terapi",
-              "Monitor respon pasien terhadap terapi",
+              "Monitor respon pasien terhadap terapi"
+            ],
+            "terapeutik": [
               "Pilih metode stimulasi yang nyaman dan mudah didapatkan (mis: botol air panas, bantal panas listrik, lilin paraffin, lampu)",
               "Pilih lokasi stimulus yang sesuai",
               "Bungkus alat terapi dengan menggunakan kain",
               "Gunakan kain lembab di sekitar area terapi",
               "Tentukan durasi terapi sesuai dengan respon pasien",
-              "Hindari melakukan terapi pada daerah yang mendapatkan terapi radiasi",
+              "Hindari melakukan terapi pada daerah yang mendapatkan terapi radiasi"
+            ],
+            "edukasi": [
               "Ajarkan cara mencegah kerusakan jaringan",
               "Ajarkan cara menyesuaikan suhu secara mandiri"
             ]
@@ -263,7 +293,7 @@
     "D.0132": {
       "code": "D.0132",
       "name": "Perilaku Kekerasan",
-      "definition": "Perilaku kekerasan merupakan diagnosis keperawatan yang didefinisikan sebagai kemarahan yang diekspresikan secara berlebihan dan tidak...",
+      "definition": "kemarahan yang diekspresikan secara berlebihan dan tidak terkendali secara verbal sampai dengan mencederai orang lain dan/atau merusak lingkungan",
       "signs_and_symptoms": {
         "subjective": [
           "Mengancam",
@@ -305,16 +335,20 @@
           "code": "I.14513",
           "name": "Manajemen Keselamatan Lingkungan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kebutuhan  keselamatan (mis: kondisi fisik, fungsi kognitif, dan Riwayat perilaku)",
-              "Monitor perubahan status keselamatan lingkungan",
+              "Monitor perubahan status keselamatan lingkungan"
+            ],
+            "terapeutik": [
               "Hilangkan bahaya keselamatan lingkungan (mis: fisik, biologi, kimia), jika memungkinkan",
               "Modifikasi lingkungan untuk meminimalkan bahaya dan risiko",
               "Sediakan alat bantu keamanan lingkungan (mis: commode chair dan pegangan tangan)",
               "Gunakan perangkat pelindung (mis: pengekangan fisik, rel samping, pintu terkunci, pagar)",
               "Hubungi pihak berwenang sesuai masalah komunitas (mis: puskesmas, polisi, damkar)",
               "Fasilitasi relokasi ke lingkungan yang aman",
-              "Lakukan program skrining bahaya lingkungan (mis: timbal)",
+              "Lakukan program skrining bahaya lingkungan (mis: timbal)"
+            ],
+            "edukasi": [
               "Ajarkan individu, keluarga, dan kelompok risiko tinggi bahaya lingkungan"
             ]
           }
@@ -323,21 +357,27 @@
           "code": "I.09289",
           "name": "Manajemen Mood",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi mood (mis: tanda, gejala, Riwayat penyakit)",
               "Identifikasi risiko keselamatan diri atau orang lain",
               "Monitor fungsi kognitif (mis: konsentrasi, memori, kemampuan membuat keputusan)",
-              "Monitor aktivitas dan tingkat stimulasi lingkungan",
+              "Monitor aktivitas dan tingkat stimulasi lingkungan"
+            ],
+            "terapeutik": [
               "Fasilitasi pengisian kuesioner self-report (mis: beck depression inventory, skala status fungsional), jika perlu",
               "Berikan kesempatan untuk menyampaikan perasaan dengan cara yang tepat (mis: sandsack, terapi seni, aktivitas fisik)",
+              "Rujuk untuk psikoterapi (mis: perilaku, hubungan interpersonal, keluarga, kelompok), jika perlu"
+            ],
+            "edukasi": [
               "Jelaskan tentang gangguan mood dan penanganannya",
               "Anjurkan berperan aktif dalam pengobatan dan rehabilitasi, jika perlu",
               "Anjurkan rawat inap sesuai indikasi (mis: risiko keselamatan, deficit perawatan diri, sosial)",
               "Ajarkan mengenali pemicu gangguan mood (mis: situasi stres, masalah fisik)",
               "Ajarkan memonitor mood secara mandiri (mis: skala tingkat 1 – 10, membuat jurnal)",
-              "Ajarkan keterampilan koping dan penyelesaian masalah baru",
-              "Kolaborasi pemberian obat, jika perlu",
-              "Rujuk untuk psikoterapi (mis: perilaku, hubungan interpersonal, keluarga, kelompok), jika perlu"
+              "Ajarkan keterampilan koping dan penyelesaian masalah baru"
+            ],
+            "kolaborasi": [
+              "Kolaborasi pemberian obat, jika perlu"
             ]
           }
         },
@@ -345,22 +385,28 @@
           "code": "I.09290",
           "name": "Manajemen Pengendalian Marah",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi penyebab/pemicu kemarahan",
               "Identifikasi harapan perilaku terhadap ekspresi kemaharan",
               "Monitor potensi agresi tidak konstruktif dan lakukan Tindakan sebelum agresif",
-              "Monitor kemajuan dengna membuat grafik, jika perlu",
+              "Monitor kemajuan dengna membuat grafik, jika perlu"
+            ],
+            "terapeutik": [
               "Gunakan pendekatan yang tenang dan meyakinkan",
               "Fasilitasi mengekpresikan marah secara adaptif",
               "Cegah kerusakan fisik akibat ekspresi marah (mis: menggunakan senjata)",
               "Cegah aktivitas pemicu agresi (mis: meninju tas, mondar-mandir, berolahraga berlebihan)",
               "Lakukan kontrol eksternal (mis: pengekangan, time-out, dan seklusi), jika perlu",
               "Dukung menerapkan strategi pengendalian marah dan ekspresi amarah adaptif",
-              "Berikan penguatan atas keberhasilan penerapan strategi pengendalian marah",
+              "Berikan penguatan atas keberhasilan penerapan strategi pengendalian marah"
+            ],
+            "edukasi": [
               "Jelaskan makna, fungsi marah, frustasi, dan respons marah",
               "Anjurkan meminta bantuan perawat atau keluarga selama ketegangan meningkat",
               "Ajarkan strategi untuk mencegah ekspresi marah maladaptif",
-              "Ajarkan metode untuk memodulasi pengalaman emosi yang kuat (mis: latihan asertif, Teknik relaksasi, jurnal, aktivitas penyaluran energi",
+              "Ajarkan metode untuk memodulasi pengalaman emosi yang kuat (mis: latihan asertif, Teknik relaksasi, jurnal, aktivitas penyaluran energi"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian obat, jika perlu"
             ]
           }
@@ -369,9 +415,10 @@
           "code": "I.12463",
           "name": "Manajemen Perilaku",
           "tindakan": {
+            "observasi": [
+              "Identifikasi harapan untuk mengendalikan perilaku"
+            ],
             "terapeutik": [
-              "Identifikasi harapan untuk mengendalikan perilaku",
-              "Diskusikan tanggung jawab terhadap perilaku",
               "Jadwalkan kegiatan terstruktur",
               "Ciptakan dan pertahankan lingkungan dan kegiatan perawatan konsisten setiap dinas",
               "Tingkatkan aktivitas fisik sesuai kemampuan",
@@ -383,7 +430,10 @@
               "Lakukan pengekangan fisik sesuai indikasi",
               "Hindari bersikap menyudutkan dan menghentikan pembicaraan",
               "Hindari sikap mengancam atau berdebat",
-              "Hindari berdebat atau menawar batas perilaku yang telah ditetapkan",
+              "Hindari berdebat atau menawar batas perilaku yang telah ditetapkan"
+            ],
+            "edukasi": [
+              "Diskusikan tanggung jawab terhadap perilaku",
               "Informasikan keluarga bahwa keluarga sebagai dasar pembentukan kognitif"
             ]
           }
@@ -394,7 +444,7 @@
     "D.0133": {
       "code": "D.0133",
       "name": "Perlambatan Pemulihan Pascabedah",
-      "definition": "Perlambatan pemulihan pascabedah merupakan diagnosis keperawatan yang didefinisikan sebagai pemanjangan jumlah...",
+      "definition": "pemanjangan jumlah hari pascabedah untuk memulai dan melakukan aktivitas sehari-hari",
       "signs_and_symptoms": {
         "subjective": [
           "Mengeluh tidak nyaman"
@@ -437,16 +487,20 @@
           "code": "I.11348",
           "name": "Dukungan Perawatan Diri",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kebiasaan aktivitas perawatan diri sesuai usia",
               "Monitor tingkat kemandirian",
-              "Identifikasi kebutuhan alat bantu kebersihan diri, berpakaian, berhias, dan makan",
+              "Identifikasi kebutuhan alat bantu kebersihan diri, berpakaian, berhias, dan makan"
+            ],
+            "terapeutik": [
               "Sediakan lingkungan yang terapeutik (mis: suasana hangat, rileks, privasi)",
               "Siapkan keperluan pribadi (mis: parfum sikat gigi, dan sabun mandi)",
               "Dampingi dalam melakukan perawatan diri sampai mandiri",
               "Fasilitasi untuk menerima keadaan ketergantungan",
               "Fasilitasi kemandirian, bantu jika tidak mampu melakukan perawatan diri",
-              "Jadwalkan rutinitas perawatan diri",
+              "Jadwalkan rutinitas perawatan diri"
+            ],
+            "edukasi": [
               "Anjurkan melakukan perawatan diri secara konsisten sesuai kemampuan"
             ]
           }
@@ -455,7 +509,7 @@
           "code": "I.03119",
           "name": "Manajemen Nutrisi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi status nutrisi",
               "Identifikasi alergi dan intoleransi makanan",
               "Identifikasi makanan yang disukai",
@@ -463,7 +517,9 @@
               "Identifikasi perlunya penggunaan selang nasogastrik",
               "Monitor asupan makanan",
               "Monitor berat badan",
-              "Monitor hasil pemeriksaan laboratorium",
+              "Monitor hasil pemeriksaan laboratorium"
+            ],
+            "terapeutik": [
               "Lakukan oral hygiene sebelum makan, jika perlu",
               "Fasilitasi menentukan pedoman diet (mis: piramida makanan)",
               "Sajikan makanan secara menarik dan suhu yang sesuai",
@@ -478,25 +534,31 @@
           "code": "I.08238",
           "name": "Manajemen Nyeri",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi lokasi, karakteristik, durasi, frekuensi, kualitas, intensitas nyeri",
               "Identifikasi skala nyeri",
-              "Idenfitikasi respon nyeri non verbal",
               "Identifikasi faktor yang memperberat dan memperingan nyeri",
               "Identifikasi pengetahuan dan keyakinan tentang nyeri",
               "Identifikasi pengaruh budaya terhadap respon nyeri",
               "Identifikasi pengaruh nyeri pada kualitas hidup",
               "Monitor keberhasilan terapi komplementer yang sudah diberikan",
               "Monitor efek samping penggunaan analgetik",
+              "Idenfitikasi respon nyeri non verbal"
+            ],
+            "terapeutik": [
               "Berikan Teknik nonfarmakologis untuk mengurangi nyeri (mis: TENS, hypnosis, akupresur, terapi music, biofeedback, terapi pijat, aromaterapi, Teknik imajinasi terbimbing, kompres hangat/dingin, terapi bermain)",
               "Kontrol lingkungan yang memperberat rasa nyeri (mis: suhu ruangan, pencahayaan, kebisingan)",
               "Fasilitasi istirahat dan tidur",
-              "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri",
+              "Pertimbangkan jenis dan sumber nyeri dalam pemilihan strategi meredakan nyeri"
+            ],
+            "edukasi": [
               "Jelaskan penyebab, periode, dan pemicu nyeri",
               "Jelaskan strategi meredakan nyeri",
               "Anjurkan memonitor nyeri secara mandiri",
               "Anjurkan menggunakan analgesik secara tepat",
-              "Ajarkan Teknik farmakologis untuk mengurangi nyeri",
+              "Ajarkan Teknik farmakologis untuk mengurangi nyeri"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian analgetik, jika perlu"
             ]
           }
@@ -505,9 +567,11 @@
           "code": "I.14564",
           "name": "Perawatan Luka",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor karakteristik luka (mis: drainase, warna, ukuran , bau)",
-              "Monitor tanda-tanda infeksi",
+              "Monitor tanda-tanda infeksi"
+            ],
+            "terapeutik": [
               "Lepaskan balutan dan plester secara perlahan",
               "Cukur rambut di sekitar daerah luka, jika perlu",
               "Bersihkan dengan cairan NaCl atau pembersih nontoksik, sesuai kebutuhan",
@@ -519,10 +583,14 @@
               "Jadwalkan perubahan posisi setiap 2 jam atau sesuai kondisi pasien",
               "Berikan diet dengan kalori 30 – 35 kkal/kgBB/hari dan protein 1,25 – 1,5 g/kgBB/hari",
               "Berikan suplemen vitamin dan mineral (mis: vitamin A, vitamin C, Zinc, asam amino), sesuai indikasi",
-              "Berikan terapi TENS (stimulasi saraf transcutaneous), jika perlu",
+              "Berikan terapi TENS (stimulasi saraf transcutaneous), jika perlu"
+            ],
+            "edukasi": [
               "Jelaskan tanda dan gejala infeksi",
               "Anjurkan mengkonsumsi makanan tinggi kalori dan protein",
-              "Ajarkan prosedur perawatan luka secara mandiri",
+              "Ajarkan prosedur perawatan luka secara mandiri"
+            ],
+            "kolaborasi": [
               "Kolaborasi prosedur debridement (mis: enzimatik, biologis, mekanis, autolitik), jika perlu",
               "Kolaborasi pemberian antibiotik, jika perlu"
             ]
@@ -558,13 +626,17 @@
           "code": "I.12445",
           "name": "Edukasi Reaksi Alergi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kesiapan dan kemampuan menerima informasi",
-              "Monitor pemahaman pasien dan keluarga tentang alergi",
+              "Monitor pemahaman pasien dan keluarga tentang alergi"
+            ],
+            "terapeutik": [
               "Sediakan materi dan media Pendidikan  Kesehatan",
               "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
               "Fasilitasi mengenali penyebab alergi",
-              "Berikan kesempatan pasien dan keluarga bertanya",
+              "Berikan kesempatan pasien dan keluarga bertanya"
+            ],
+            "edukasi": [
               "Jelaskan definisi, penyebab, gejala, dan tanda alergi",
               "Jelaskan cara menghindari allergen (mis: tidak menggunakan karpet, menggunakan masker)",
               "Anjurkan pasien dan keluarga menyediakan obat alergi"
@@ -575,14 +647,20 @@
           "code": "I.14535",
           "name": "Pencegahan Alergi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi Riwayat alergi (obat, makanan, debu, udara)",
-              "Monitor terhadap reaksi obat, makanan, lateks, transfusi darah atau produk darah atau allergen lainnya",
+              "Monitor terhadap reaksi obat, makanan, lateks, transfusi darah atau produk darah atau allergen lainnya"
+            ],
+            "terapeutik": [
               "Berikan tanda alergi pada rekam medis",
               "Pasang gelang tanda alergi pada lengan",
               "Hentikan paparan allergen",
-              "Lakukan tes alergi sebelum pemberian obat",
-              "Ajarkan menghindari dan mencegah paparan alergen",
+              "Lakukan tes alergi sebelum pemberian obat"
+            ],
+            "edukasi": [
+              "Ajarkan menghindari dan mencegah paparan alergen"
+            ],
+            "kolaborasi": [
               "Kolaborasi dengan tenaga Kesehatan dalam pencegahan alergi (mis: dokter, ahli gizi)"
             ]
           }
@@ -593,7 +671,7 @@
     "D.0135": {
       "code": "D.0135",
       "name": "Risiko Bunuh Diri",
-      "definition": "Risiko bunuh diri merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko melakukan upaya menyakiti diri sendiri untuk...",
+      "definition": "Risiko melakukan upaya menyakiti diri sendiri untuk mengakhiri kehidupan",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -620,21 +698,27 @@
           "code": "I.09289",
           "name": "Manajemen Mood",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi mood (mis: tanda, gejala, Riwayat penyakit)",
               "Identifikasi risiko keselamatan diri atau orang lain",
               "Monitor fungsi kognitif (mis: konsentrasi, memori, kemampuan membuat keputusan)",
-              "Monitor aktivitas dan tingkat stimulasi lingkungan",
+              "Monitor aktivitas dan tingkat stimulasi lingkungan"
+            ],
+            "terapeutik": [
               "Fasilitasi pengisian kuesioner self-report (mis: beck depression inventory, skala status fungsional), jika perlu",
               "Berikan kesempatan untuk menyampaikan perasaan dengan cara yang tepat (mis: sandsack, terapi seni, aktivitas fisik)",
+              "Rujuk untuk psikoterapi (mis: perilaku, hubungan interpersonal, keluarga, kelompok), jika perlu"
+            ],
+            "edukasi": [
               "Jelaskan tentang gangguan mood dan penanganannya",
               "Anjurkan berperan aktif dalam pengobatan dan rehabilitasi, jika perlu",
               "Anjurkan rawat inap sesuai indikasi (mis: risiko  keselamatan, deficit perawatan diri, sosial)",
               "Ajarkan mengenali pemicu gangguan mood (mis: situasi stres, masalah fisik)",
               "Ajarkan memonitor mood secara mandiri (mis: skala tingkat 1 – 10, membuat jurnal)",
-              "Ajarkan keterampilan koping dan penyelesaian masalah baru",
-              "Kolaborasi pemberian obat, jika perlu",
-              "Rujuk untuk psikoterapi (mis: perilaku, hubungan interpersonal, keluarga, kelompok), jika perlu"
+              "Ajarkan keterampilan koping dan penyelesaian masalah baru"
+            ],
+            "kolaborasi": [
+              "Kolaborasi pemberian obat, jika perlu"
             ]
           }
         },
@@ -642,28 +726,34 @@
           "code": "I.14538",
           "name": "Pencegahan Bunuh Diri",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi gejala risiko bunuh diri (mis: gangguan mood, halusinasi, delusi, panik, penyalahgunaan zat, kesedihan, gangguan kepribadian)",
               "Identifikasi keinginan dan pikiran rencana bunuh diri",
               "Monitor lingkungan bebas bahaya secara rutin (mis: barang pribadi, pisau cukur, jendela)",
-              "Monitor adanya perubahan mood atau perilaku",
+              "Monitor adanya perubahan mood atau perilaku"
+            ],
+            "terapeutik": [
               "Libatkan dalam perencanaan perawatan mandiri",
-              "Libatkan keluarga dalam perencanaan perawatan",
               "Lakukan pendekatan langsung dan tidak menghakimi saat membahas bunuh diri",
               "Berikan lingkungan dengan pengamanan ketat dan mudah dipantau (mis: tempat tidur dekat ruang  perawat)",
               "Tingkatkan pengawasan pada kondisi tertentu (mis: rapat staf, pergantian shift)",
               "Lakukan intervensi perlindungan (mis: pembatasan area, pengekangan fisik), jika diperlukan",
               "Hindari diskusi berulang tentang bunuh diri sebelumnya, diskusi berorientasi pada masa sekarang dan masa depan",
-              "Diskusikan rencana menghadapi ide bunuh diri di masa depan (mis: orang yang dihubungi, ke mana mencari bantuan)",
               "Pastikan obat ditelan",
+              "Latih pencegahan risiko bunuh diri (mis: latihan asertif, relaksasi otot progresif)",
+              "Rujuk ke pelayanan kesehatan mental, jika perlu"
+            ],
+            "edukasi": [
+              "Libatkan keluarga dalam perencanaan perawatan",
+              "Diskusikan rencana menghadapi ide bunuh diri di masa depan (mis: orang yang dihubungi, ke mana mencari bantuan)",
               "Anjurkan mendiskusikan perasaan yang dialami kepada orang lain",
               "Anjurkan menggunakan sumber pendukung (mis: layanan spiritual, penyedia layanan)",
               "Jelaskan tindakan pencegahan bunuh diri kepada keluarga atau orang terdekat",
-              "Informasikan sumber daya masyarakat dan program yang tersedia",
-              "Latih pencegahan risiko bunuh diri (mis: latihan asertif, relaksasi otot progresif)",
+              "Informasikan sumber daya masyarakat dan program yang tersedia"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian obat antiansietas, atau antipsikotik, sesuai indikasi",
-              "Kolaborasi tindakan keselamatan kepada PPA",
-              "Rujuk ke pelayanan kesehatan mental, jika perlu"
+              "Kolaborasi tindakan keselamatan kepada PPA"
             ]
           }
         }
@@ -673,7 +763,7 @@
     "D.0136": {
       "code": "D.0136",
       "name": "Risiko Cedera",
-      "definition": "Risiko cedera merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami bahaya atau kerusakan fisik yang...",
+      "definition": "berisiko mengalami bahaya atau kerusakan fisik yang menyebabkan seseorang tidak lagi sepenuhnya sehat atau dalam kondisi baik",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -707,16 +797,20 @@
           "code": "I.14513",
           "name": "Manajemen Keselamatan Lingkungan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kebutuhan keselamatan (mis: kondisi fisik, fungsi kognitif, dan Riwayat perilaku)",
-              "Monitor perubahan status keselamatan lingkungan",
+              "Monitor perubahan status keselamatan lingkungan"
+            ],
+            "terapeutik": [
               "Hilangkan bahaya keselamatan lingkungan (mis: fisik, biologi, kimia), jika memungkinkan",
               "Modifikasi lingkungan untuk meminimalkan bahaya dan risiko",
               "Sediakan alat bantu keamanan lingkungan (mis: commode chair dan pegangan tangan)",
               "Gunakan perangkat pelindung (mis: pengekangan fisik, rel samping, pintu terkunci, pagar)",
               "Hubungi pihak berwenang sesuai masalah komunitas (mis: puskesmas, polisi, damkar)",
               "Fasilitasi relokasi ke lingkungan yang aman",
-              "Lakukan program skrining bahaya lingkungan (mis: timbal)",
+              "Lakukan program skrining bahaya lingkungan (mis: timbal)"
+            ],
+            "edukasi": [
               "Ajarkan individu, keluarga, dan kelompok risiko tinggi bahaya lingkungan"
             ]
           }
@@ -725,10 +819,12 @@
           "code": "I.14537",
           "name": "Pencegahan Cedera",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi area lingkungan yang berpotensi menyebabkan cedera",
               "Identifikasi obat yang berpotensi menyebabkan cedera",
-              "Identifikasi kesesuaian alas kaki atau stoking elastis pada ekstremitas bawah",
+              "Identifikasi kesesuaian alas kaki atau stoking elastis pada ekstremitas bawah"
+            ],
+            "terapeutik": [
               "Sediakan pencahayaan yang memadai",
               "Gunakan lampu tidur selama jam tidur",
               "Sosialisasikan pasien dan keluarga dengan lingkungan ruang rawat (mis: penggunaan telepon, tempat tidur, penerangan ruangan, dan lokasi kamar mandi)",
@@ -741,10 +837,12 @@
               "Pastikan roda tempat tidur atau kursi roda dalam kondisi terkunci",
               "Gunakan pengaman tempat tidur sesuai dengan kebijakan fasilitas pelayanan  Kesehatan",
               "Pertimbangkan penggunaan alarm elektronik pribadi atau alarm sensor pada tempat tidur atau kursi",
+              "Tingkatkan frekuensi observasi dan pengawasan pasien, sesuai kebutuhan"
+            ],
+            "edukasi": [
               "Diskusikan mengenai latihan dan terapi fisik yang diperlukan",
               "Diskusikan mengenai alat bantu mobilitas yang sesuai (mis: tongkat atau alat bantu jalan)",
               "Diskusikan Bersama anggota keluarga yang dapat mendampingi pasien",
-              "Tingkatkan frekuensi observasi dan pengawasan pasien, sesuai kebutuhan",
               "Jelaskan alasan intervensi pencegahan jatuh ke pasien dan keluarga",
               "Anjurkan berganti posisi secara perlahan dan duduk selama beberapa menit sebelum berdiri"
             ]
@@ -756,7 +854,7 @@
     "D.0137": {
       "code": "D.0137",
       "name": "Risiko Cedera Pada Ibu",
-      "definition": "Risiko cedera pada ibu merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami bahaya atau kerusakan...",
+      "definition": "Berisiko mengalami bahaya atau kerusakan fisik pada ibu selama masa kehamilan sampai dengan proses persalinan.",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -796,10 +894,12 @@
           "code": "I.14537",
           "name": "Pencegahan Cedera",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi area lingkungan yang berpotensi menyebabkan cedera",
               "Identifikasi obat yang berpotensi menyebabkan cedera",
-              "Identifikasi kesesuaian alas kaki atau stoking elastis pada ekstremitas bawah",
+              "Identifikasi kesesuaian alas kaki atau stoking elastis pada ekstremitas bawah"
+            ],
+            "terapeutik": [
               "Sediakan pencahayaan yang memadai",
               "Gunakan lampu tidur selama jam tidur",
               "Sosialisasikan pasien dan keluarga dengan lingkungan ruang rawat (mis: penggunaan telepon, tempat tidur, penerangan ruangan, dan lokasi kamar mandi)",
@@ -812,10 +912,12 @@
               "Pastikan roda tempat tidur atau kursi roda dalam kondisi terkunci",
               "Gunakan pengaman tempat tidur sesuai dengan kebijakan fasilitas pelayanan  Kesehatan",
               "Pertimbangkan penggunaan alarm elektronik pribadi atau alarm sensor pada tempat tidur atau kursi",
+              "Tingkatkan frekuensi observasi dan pengawasan pasien, sesuai kebutuhan"
+            ],
+            "edukasi": [
               "Diskusikan mengenai latihan dan terapi fisik yang diperlukan",
               "Diskusikan mengenai alat bantu mobilitas yang sesuai (mis: tongkat atau alat bantu jalan)",
               "Diskusikan Bersama anggota keluarga yang dapat mendampingi pasien",
-              "Tingkatkan frekuensi observasi dan pengawasan pasien, sesuai kebutuhan",
               "Jelaskan alasan intervensi pencegahan jatuh ke pasien dan keluarga",
               "Anjurkan berganti posisi secara perlahan dan duduk selama beberapa menit sebelum berdiri"
             ]
@@ -825,14 +927,16 @@
           "code": "I.07228",
           "name": "Perawatan Persalinan Risiko Tinggi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kondisi umum pasien",
               "Monitor tanda-tanda vital",
               "Monitor kelainan tanda vital pada ibu dan janin",
               "Monitor tanda-tanda persalinan",
               "Monitor denyut jantung janin",
               "Identifikasi posisi janin dengan USG",
-              "Identifikasi perdarahan pasca persalinan",
+              "Identifikasi perdarahan pasca persalinan"
+            ],
+            "terapeutik": [
               "Sediakan peralatan yang sesuai, termasuk monitor janin, ultrasound, mesin anestesi, persediaan resusitasi neonatal, forceps, dan penghangat bayi ekstra",
               "Dukung orang terdekat mendampingi pasien",
               "Gunakan Tindakan pencegahan universal",
@@ -844,9 +948,13 @@
               "Fasilitasi ibu pulih dari anestesi, jika perlu",
               "Motivasi interaksi orang tua dengan bayi baru lahir segera setelah persalinan",
               "Dokumentasikan prosedur (mis: anestesi, forsep, ekstraksi vakum, tekanan suprapubic, manuver McRobert, resusitasi neonatal)",
+              "Koordinasi dengan tim untuk standby (mis: neonatologis, perawat intensif neonatal, anetesiologis)"
+            ],
+            "edukasi": [
               "Jelaskan prosedur Tindakan yang akan dilakukan",
-              "Jelaskan karakteristik bayi baru lahir yang terkait dengan kelahiran berisiko tinggi (mis: memar dan tanda forceps)",
-              "Koordinasi dengan tim untuk standby (mis: neonatologis, perawat intensif neonatal, anetesiologis)",
+              "Jelaskan karakteristik bayi baru lahir yang terkait dengan kelahiran berisiko tinggi (mis: memar dan tanda forceps)"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian anestesi maternal, sesuai kebutuhan"
             ]
           }
@@ -855,12 +963,16 @@
           "code": "I.14560",
           "name": "Perawatan Kehamilan Risiko Tinggi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi faktor risiko kehamilan (mis: diabetes, hipertensi, lupus eritmatosus, herpes, hepatisis, HIV, epilepsi)",
               "Identifikasi riwayat obtetris (mis: prematuritas, postmaturitas, preeklamsia, kehamilan multifetal, retardasi pertumbuhan intrauterine, abrupsi, plasenta previa, sensitisasi Rh, ketuban pecah dini, dan Riwayat kelainan genetic keluarga)",
               "Identifikasi sosial dan demografi (mis: usia ibu, ras, kemiskinan, terlambat atau tidak ada perawatan prenatal, penganiayaan fisik, dan penyalahgunaan zat)",
-              "Monitor status fisik dan psikososial selama kehamilan",
-              "Damping ibu saat merasa cemas",
+              "Monitor status fisik dan psikososial selama kehamilan"
+            ],
+            "terapeutik": [
+              "Damping ibu saat merasa cemas"
+            ],
+            "edukasi": [
               "Diskusikan seksualitas aman selama hamil",
               "Diskusikan ketidaknyamanan selama hamil",
               "Diskusikan persiapan persalinan dan kelahiran",
@@ -870,7 +982,9 @@
               "Anjurkan ibu untuk beraktivitas dan beristirahat yang cukup",
               "Ajarkan cara menghitung Gerakan janin",
               "Ajarkan akvititas yang aman selama hamil",
-              "Ajarkan mengenali tanda bahaya (mis: perdarahan vagina merah terang, perubahan cairan ketuban, penurunan Gerakan janin, kontraksi sebelum 37 minggu, sakit kepala, gangguan penglihatan, nyeri epigastric, dan penambahan berat badan yang cepat dengan edema wajah)",
+              "Ajarkan mengenali tanda bahaya (mis: perdarahan vagina merah terang, perubahan cairan ketuban, penurunan Gerakan janin, kontraksi sebelum 37 minggu, sakit kepala, gangguan penglihatan, nyeri epigastric, dan penambahan berat badan yang cepat dengan edema wajah)"
+            ],
+            "kolaborasi": [
               "Kolaborasi dengan spesialis jika ditemukan tanda dan bahaya kehamilan"
             ]
           }
@@ -881,7 +995,7 @@
     "D.0138": {
       "code": "D.0138",
       "name": "Risiko Cedera Pada Janin",
-      "definition": "Risiko cedera pada janin merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami bahaya atau kerusakan fisik pada...",
+      "definition": "Berisiko mengalami bahaya atau kerusakan fisik pada janin selama proses kehamilan dan persalinan.",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -922,16 +1036,20 @@
           "code": "I.02056",
           "name": "Pemantauan denyut jantung janin",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi status obstetrik",
               "Identifikasi Riwayat obstetrik",
               "Identifikasi adanya penggunaan obat, diet, dan merokok",
               "Identifikasi pemeriksaan kehamilan sebelumnya",
               "Periksa denyut jantung janin selama 1 menit",
               "Monitor denyut jantung ibu",
-              "Monitor tanda vital ibu",
+              "Monitor tanda vital ibu"
+            ],
+            "terapeutik": [
               "Atur posisi pasien",
-              "Lakukan manuver leopold untuk menentukan posisi janin",
+              "Lakukan manuver leopold untuk menentukan posisi janin"
+            ],
+            "edukasi": [
               "Jelaskan tujuan dan prosedur pemantauan",
               "Informasikan hasil pemantauan, jika perlu"
             ]
@@ -941,10 +1059,12 @@
           "code": "I.14537",
           "name": "Pencegahan Cedera",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi area lingkungan yang berpotensi menyebabkan cedera",
               "Identifikasi obat yang berpotensi menyebabkan cedera",
-              "Identifikasi kesesuaian alas kaki atau stoking elastis pada ekstremitas bawah",
+              "Identifikasi kesesuaian alas kaki atau stoking elastis pada ekstremitas bawah"
+            ],
+            "terapeutik": [
               "Sediakan pencahayaan yang memadai",
               "Gunakan lampu tidur selama jam tidur",
               "Sosialisasikan pasien dan keluarga dengan lingkungan ruang rawat (mis: penggunaan telepon, tempat tidur, penerangan ruangan, dan lokasi kamar mandi)",
@@ -957,10 +1077,12 @@
               "Pastikan roda tempat tidur atau kursi roda dalam kondisi terkunci",
               "Gunakan pengaman tempat tidur sesuai dengan kebijakan fasilitas pelayanan  Kesehatan",
               "Pertimbangkan penggunaan alarm elektronik pribadi atau alarm sensor pada tempat tidur atau kursi",
+              "Tingkatkan frekuensi observasi dan pengawasan pasien, sesuai kebutuhan"
+            ],
+            "edukasi": [
               "Diskusikan mengenai latihan dan terapi fisik yang diperlukan",
               "Diskusikan mengenai alat bantu mobilitas yang sesuai (mis: tongkat atau alat bantu jalan)",
               "Diskusikan Bersama anggota keluarga yang dapat mendampingi pasien",
-              "Tingkatkan frekuensi observasi dan pengawasan pasien, sesuai kebutuhan",
               "Jelaskan alasan intervensi pencegahan jatuh ke pasien dan keluarga",
               "Anjurkan berganti posisi secara perlahan dan duduk selama beberapa menit sebelum berdiri"
             ]
@@ -970,18 +1092,24 @@
           "code": "I.14554",
           "name": "Pengukuran Gerakan Janin",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi pengetahuan dan kemampuan ibu menghitung gerakan janin",
-              "Monitor gerakan janin",
+              "Monitor gerakan janin"
+            ],
+            "terapeutik": [
               "Hitung dan catat Gerakan janin (minimal 10 kali Gerakan dalam 12 jam)",
               "Lakukan pemeriksaan CTG (cardiotocography) untuk mengetahui frekuensi dan keteraturan denyut jantung janin dan kontraksi rahim ibu",
               "Catat jumlah Gerakan janin dalam 12 jam perhari",
-              "Berikan oksigen 2-3 liter per menit jika gerakan janin belum mencapai 10 kali dalam 12 jam",
+              "Berikan oksigen 2-3 liter per menit jika gerakan janin belum mencapai 10 kali dalam 12 jam"
+            ],
+            "edukasi": [
               "Jelaskan manfaat menghitung gerakan janin dapat meningkatkan hubungan ibu dan janin",
               "Anjurkan ibu memenuhi kebutuhan nutrisi sebelum menghitung gerakan janin",
               "Anjurkan posisi miring kiri saat menghitung gerakan janin, agar janin dapat memperoleh oksigen dengan optimal dengan meningkatkan sirkulasi fetomaternal",
               "Anjurkan ibu segera memberitahu perawat jika gerakan janin tidak mencapai 10 kali dalam 12 jam",
-              "Ajarkan ibu cara menghitung gerakan janin",
+              "Ajarkan ibu cara menghitung gerakan janin"
+            ],
+            "kolaborasi": [
               "Kolaborasi dengan tim medis jika ditemukan gawat janin"
             ]
           }
@@ -992,7 +1120,7 @@
     "D.0139": {
       "code": "D.0139",
       "name": "Risiko Gangguan Integritas Kulit/Jaringan",
-      "definition": "Risiko gangguan integritas kulit/jaringan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami...",
+      "definition": "berisiko mengalami kerusakan kulit (dermis dan/atau epidermis) atau jaringan (membran mukosa, kornea, fasia, otot, tendon, tulang, kartilago, kapsul sendi dan/atau ligamen)",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -1027,14 +1155,18 @@
           "code": "I.11353",
           "name": "Perawatan Integritas Kulit",
           "tindakan": {
+            "observasi": [
+              "Identifikasi penyebab gangguan integritas kulit (mis: perubahan sirkulasi, perubahan status nutrisi, penurunan kelembaban, suhu lingkungan ekstrim, penurunan mobilitas)"
+            ],
             "terapeutik": [
-              "Identifikasi penyebab gangguan integritas kulit (mis: perubahan sirkulasi, perubahan status nutrisi, penurunan kelembaban, suhu lingkungan ekstrim, penurunan mobilitas)",
               "Ubah posisi setiap 2 jam jika tirah baring",
               "Lakukan pemijatan pada area penonjolan tulang, jika perlu",
               "Bersihkan perineal dengan air hangat, terutama selama periode diare",
               "Gunakan produk berbahan petroleum atau minyak pada kulit kering",
               "Gunakan produk berbahan ringan/alami dan hipoalergik pada kulit sensitive",
-              "Hindari produk berbahan dasar alkohol pada kulit kering",
+              "Hindari produk berbahan dasar alkohol pada kulit kering"
+            ],
+            "edukasi": [
               "Anjurkan menggunakan pelembab (mis: lotion, serum)",
               "Anjurkan minum air yang cukup",
               "Anjurkan meningkatkan asupan nutrisi",
@@ -1051,7 +1183,7 @@
     "D.0140": {
       "code": "D.0140",
       "name": "Risiko Hipotermia",
-      "definition": "Risiko hipotermia merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami kegagalan termoregulasi yang dapat....",
+      "definition": "Berisiko mengalami kegagalan termoregulasi yang dapat mengakibatkan suhu tubuh berada di bawah rentang normal",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -1090,15 +1222,19 @@
           "code": "I.14507",
           "name": "Manajemen Hipotermia",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor suhu tubuh",
               "Identifikasi penyebab hipotermia (mis: terpapar suhu lingkungan rendah, pakaian tipis, kerusakan hipotalamus, penurunan laju metabolisme, kekurangan lemak subkutan)",
-              "Monitor tanda dan gejala akibat hipotermia (mis: hipotermia ringan: takipnea, disartria, menggigil, hipertensi, diuresis; hipotermia sedang: aritmia, hipotensi, apatis, koagulopati, refleks menurun; hipotermia berat: oliguria, refleks menghilang, edema paru, asam-basa abnormal)",
+              "Monitor tanda dan gejala akibat hipotermia (mis: hipotermia ringan: takipnea, disartria, menggigil, hipertensi, diuresis; hipotermia sedang: aritmia, hipotensi, apatis, koagulopati, refleks menurun; hipotermia berat: oliguria, refleks menghilang, edema paru, asam-basa abnormal)"
+            ],
+            "terapeutik": [
               "Sediakan lingkungan yang hangat (mis: atur suhu ruangan, inkubator)",
               "Ganti pakaian dan/atau linen yang basah",
               "Lakukan penghangatan pasif (mis: selimut, menutup kepala, pakaian tebal)",
               "Lakukan penghangatan aktif eksternal (mis: kompres hangat, botol hangat, selimut hangat, perawatan metode kangguru)",
-              "Lakukan penghangatan aktif internal (mis: infus cairan hangat, oksigen hangat, lavase peritoneal dengan cairan hangat)",
+              "Lakukan penghangatan aktif internal (mis: infus cairan hangat, oksigen hangat, lavase peritoneal dengan cairan hangat)"
+            ],
+            "edukasi": [
               "Anjurkan makan/minum hangat"
             ]
           }
@@ -1107,12 +1243,14 @@
           "code": "I.14578",
           "name": "Regulasi Temperatur",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor suhu tubuh  bayi sampai stabil (36,5 – 37,5°C)",
               "Monitor suhu tubuh anak tiap 2 jam, jika perlu",
               "Monitor tekanan darah, frekuensi pernapasan dan nadi",
               "Monitor warna dan suhu kulit",
-              "Monitor dan catat tanda dan gejala hipotermia atau hipertermia",
+              "Monitor dan catat tanda dan gejala hipotermia atau hipertermia"
+            ],
+            "terapeutik": [
               "Pasang alat pemantau suhu kontinu, jika perlu",
               "Tingkatkan asupan cairan dan nutrisi yang adekuat",
               "Bedong bayi segera setelah lahir untuk mencegah kehilangan panas",
@@ -1126,9 +1264,13 @@
               "Gunakan matras penghangat, selimut hangat, dan penghangat ruangan untuk menaikkan suhu tubuh, jika perlu",
               "Gunakan Kasur pendingin, water circulating blankets, ice pack, atau gel pad dan intravascular cooling cathetherization untuk menurunkan suhu tubuh",
               "Sesuaikan suhu lingkungan dengan kebutuhan pasien",
+              "Demonstrasikan Teknik perawatan metode kanguru (PMK) untuk bayi BBLR"
+            ],
+            "edukasi": [
               "Jelaskan cara pencegahan heat exhaustion dan heat stroke",
-              "Jelaskan cara pencegahan hipotermi karena terpapar udara dingin",
-              "Demonstrasikan Teknik perawatan metode kanguru (PMK) untuk bayi BBLR",
+              "Jelaskan cara pencegahan hipotermi karena terpapar udara dingin"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian antipiretik, jika perlu"
             ]
           }
@@ -1139,7 +1281,7 @@
     "D.0141": {
       "code": "D.0141",
       "name": "Risiko Hipotermia Perioperatif",
-      "definition": "Risiko hipotermia perioperatif merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami penurunan suhu tubuh di bawah...",
+      "definition": "Berisiko mengalami penurunan suhu tubuh di bawah 36°C secara tiba-tiba yang terjadi satu jam sebelum pembedahan hingga 24 jam setelah pembedahan",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -1169,15 +1311,19 @@
           "code": "I.14507",
           "name": "Manajemen Hipotermia",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor suhu tubuh",
               "Identifikasi penyebab hipotermia (mis: terpapar suhu lingkungan rendah, pakaian tipis, kerusakan hipotalamus, penurunan laju metabolisme, kekurangan lemak subkutan)",
-              "Monitor tanda dan gejala akibat hipotermia (mis: hipotermia ringan: takipnea, disartria, menggigil, hipertensi, diuresis; hipotermia sedang: aritmia, hipotensi, apatis, koagulopati, refleks menurun; hipotermia berat: oliguria, refleks menghilang, edema paru, asam-basa abnormal)",
+              "Monitor tanda dan gejala akibat hipotermia (mis: hipotermia ringan: takipnea, disartria, menggigil, hipertensi, diuresis; hipotermia sedang: aritmia, hipotensi, apatis, koagulopati, refleks menurun; hipotermia berat: oliguria, refleks menghilang, edema paru, asam-basa abnormal)"
+            ],
+            "terapeutik": [
               "Sediakan lingkungan yang hangat (mis: atur suhu ruangan, inkubator)",
               "Ganti pakaian dan/atau linen yang basah",
               "Lakukan penghangatan pasif (mis: selimut, menutup kepala, pakaian tebal)",
               "Lakukan penghangatan aktif eksternal (mis: kompres hangat, botol hangat, selimut hangat, perawatan metode kangguru)",
-              "Lakukan penghangatan aktif internal (mis: infus cairan hangat, oksigen hangat, lavase peritoneal dengan cairan hangat)",
+              "Lakukan penghangatan aktif internal (mis: infus cairan hangat, oksigen hangat, lavase peritoneal dengan cairan hangat)"
+            ],
+            "edukasi": [
               "Anjurkan makan/minum hangat"
             ]
           }
@@ -1186,14 +1332,16 @@
           "code": "I.02058",
           "name": "Pemantauan hemodinamik invasif",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor frekuensi dan irama jantung",
               "Monitor TDS, TDD, MAP, tekanan vena sentral, tekanan arteri pulmonal, tekanan baji arteri paru",
               "Monitor curah jantung dan indeks jantung",
               "Monitor bentuk gelombang hemodinamik",
               "Monitor perfusi perifer distal pada sisi inserti setiap 4 jam",
               "Monitor tanda-tanda infeksi dan perdarahan pada sisi insersi",
-              "Monitor tanda-tanda komplikasi akibat pemasangan selang (mis: pneumothoraks, selang tertekuk, embolisme udara)",
+              "Monitor tanda-tanda komplikasi akibat pemasangan selang (mis: pneumothoraks, selang tertekuk, embolisme udara)"
+            ],
+            "terapeutik": [
               "Damping pasien saat pemasangan dan pelepasan kateter jalur hemodinamik",
               "Lakukan tes allen untuk menilai kolateral ulnaris sebelum kanulasi pada arteri radialis",
               "Pastikan set selang terangkai dan terpasang dengan tepat",
@@ -1203,7 +1351,9 @@
               "Ganti selang dan cairan infus setiap 24 – 72 jam, sesuai protocol",
               "Ganti balutan pada area insersi dengan Teknik steril",
               "Atur interval waktu pemantauan sesuai dengan kondisi pasien",
-              "Dokumentasikan hasil pemantauan",
+              "Dokumentasikan hasil pemantauan"
+            ],
+            "edukasi": [
               "Jelaskan tujuan dan prosedur pemantauan",
               "Informasikan hasil pemantauan, jika perlu",
               "Anjurkan membatasi gerak/aktivitas selama kateter terpasang"
@@ -1245,16 +1395,20 @@
           "code": "I.14508",
           "name": "Manajemen Imunisasi/Vaksinasi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi Riwayat Kesehatan dan Riwayat alergi",
               "Identifikasi kontraindikasi pemberian imunisasi (mis: reaksi anafilaksis terhadap vaksin sebelumnya dan/atau sakit parah dengan atau tanpa demam)",
-              "Identifikasi status imunisasi setiap kunjungan ke pelayanan kesehatan",
+              "Identifikasi status imunisasi setiap kunjungan ke pelayanan kesehatan"
+            ],
+            "terapeutik": [
               "Berikan suntikan pada bayi di bagian paha anterolateral",
               "Dokumentasikan informasi vaksinasi (mis: nama produsen, tanggal kadaluarsa)",
               "Jadwalkan imunisasi pada interval waktu yang tepat",
+              "Infromasikan imunisasi yang melindungi terhadap penyakit namun saat ini tidak diwajibkan pemerintah (mis: influenza, pneumokokus)"
+            ],
+            "edukasi": [
               "Jelaskan tujuan, manfaat, reaksi yang terjadi, jadwal, dan efek samping",
               "Informasikan imunisasi yang diwajibkan pemerintah (mis: hepatitis B, BCG, difteri, tetanus, pertussis, H. influenza, polio, campak, measles, rubela)",
-              "Infromasikan imunisasi yang melindungi terhadap penyakit namun saat ini tidak diwajibkan pemerintah (mis: influenza, pneumokokus)",
               "Informasikan vaksinasi untuk kejadian khusus (mis: rabies, tetanus)",
               "Informasikan penundaan pemberian imunisasi tidak berarti mengulang jadwal imunisasi Kembali",
               "Informasikan penyedia layanan Pekan Imunisasi Nasional yang menyediakan vaksin gratis"
@@ -1265,18 +1419,24 @@
           "code": "I.14539",
           "name": "Pencegahan Infeksi",
           "tindakan": {
+            "observasi": [
+              "Monitor tanda dan gejala infeksi lokal dan sistemik"
+            ],
             "terapeutik": [
-              "Monitor tanda dan gejala infeksi lokal dan sistemik",
               "Batasi jumlah pengunjung",
               "Berikan perawatan kulit pada area edema",
               "Cuci tangan sebelum dan sesudah kontak dengan pasien dan lingkungan pasien",
-              "Pertahankan teknik aseptic pada pasien berisiko tinggi",
+              "Pertahankan teknik aseptic pada pasien berisiko tinggi"
+            ],
+            "edukasi": [
               "Jelaskan tanda dan gejala infeksi",
               "Ajarkan cara mencuci tangan dengan benar",
               "Ajarkan etika batuk",
               "Ajarkan cara memeriksa kondisi luka atau luka operasi",
               "Anjurkan meningkatkan asupan nutrisi",
-              "Anjurkan meningkatkan asupan cairan",
+              "Anjurkan meningkatkan asupan cairan"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian imunisasi, jika perlu"
             ]
           }
@@ -1287,7 +1447,7 @@
     "D.0143": {
       "code": "D.0143",
       "name": "Risiko Jatuh",
-      "definition": "Risiko jatuh merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami kerusakan fisik dan gangguan kesehatan akibat...",
+      "definition": "Berisiko mengalami kerusakan fisik dan gangguan kesehatan akibat terjatuh.",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -1326,19 +1486,23 @@
           "code": "I.14540",
           "name": "Pencegahan Jatuh",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi faktor jatuh (mis: usia > 65 tahun, penurunan tingkat kesadaran, defisit kognitif, hipotensi ortostatik, gangguan keseimbangan, gangguan penglihatan, neuropati)",
               "Identifikasi risiko jatuh setidaknya sekali setiap shift atau sesuai dengan kebijakan institusi",
               "Identifikasi faktor lingkungan yang meningkatkan risiko jatuh (mis: lantai licin, penerangan kurang)",
+              "Monitor kemampuan berpindah dari tempat tidur ke kursi roda dan sebaliknya"
+            ],
+            "terapeutik": [
               "Hitung risiko jatuh dengan menggunakan skala (mis: fall morse scale, humpty dumpty scale), jika perlu",
-              "Monitor kemampuan berpindah dari tempat tidur ke kursi roda dan sebaliknya",
               "Orientasikan ruangan pada pasien dan keluarga",
               "Pastikan roda tempat tidur dan kursi roda selalu dalam kondisi terkunci",
               "Pasang handrail tempat tidur",
               "Atur tempat tidur mekanis pada posisi terendah",
               "Tempatkan pasien berisiko tinggi jatuh dekat dengan pantauan  perawat dari nurse station",
               "Gunakan alat bantu berjalan (mis: kursi roda, walker)",
-              "Dekatkan bel pemanggil dalam jangkauan pasien",
+              "Dekatkan bel pemanggil dalam jangkauan pasien"
+            ],
+            "edukasi": [
               "Anjurkan memanggil perawat jika membutuhkan bantuan untuk berpindah",
               "Anjurkan menggunakan alas kaki yang tidak licin",
               "Anjurkan berkonsentrasi untuk menjaga keseimbangan tubuh",
@@ -1351,16 +1515,20 @@
           "code": "I.14513",
           "name": "Manajemen Keselamatan Lingkungan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kebutuhan keselamatan (mis: kondisi fisik, fungsi kognitif, dan Riwayat perilaku)",
-              "Monitor perubahan status keselamatan lingkungan",
+              "Monitor perubahan status keselamatan lingkungan"
+            ],
+            "terapeutik": [
               "Hilangkan bahaya keselamatan lingkungan (mis: fisik, biologi, kimia), jika memungkinkan",
               "Modifikasi lingkungan untuk meminimalkan bahaya dan risiko",
               "Sediakan alat bantu keamanan lingkungan (mis: commode chair dan pegangan tangan)",
               "Gunakan perangkat pelindung (mis: pengekangan fisik, rel samping, pintu terkunci, pagar)",
               "Hubungi pihak berwenang sesuai masalah komunitas (mis: puskesmas, polisi, damkar)",
               "Fasilitasi relokasi ke lingkungan yang aman",
-              "Lakukan program skrining bahaya lingkungan (mis: timbal)",
+              "Lakukan program skrining bahaya lingkungan (mis: timbal)"
+            ],
+            "edukasi": [
               "Ajarkan individu, keluarga, dan kelompok risiko tinggi bahaya lingkungan"
             ]
           }
@@ -1371,7 +1539,7 @@
     "D.0144": {
       "code": "D.0144",
       "name": "Risiko Luka Tekan",
-      "definition": "Risiko luka tekan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami cedera lokal pada...",
+      "definition": "berisiko mengalami cedera lokal pada kulit dan/atau jaringan, biasanya pada tonjolan tulang akibat tekanan dan/atau gesekan",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -1422,7 +1590,7 @@
           "code": "I.06195",
           "name": "Manajemen Sensasi Perifer",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi penyebab perubahan sensasi",
               "Identifikasi penggunaan alat pengikat, prosthesis, sepatu, dan pakaian",
               "Periksa perbedaan sensasi tajam atau tumpul",
@@ -1430,11 +1598,17 @@
               "Periksa kemampuan mengidentifikasi lokasi dan tekstur benda",
               "Monitor terjadinya parestesia, jika perlu",
               "Monitor perubahan kulit",
-              "Monitor adanya tromboplebitis dan tromboemboli vena",
-              "Hindai pemakaian benda-benda yang berlebihan suhunya (terlalu panas atau dingin)",
+              "Monitor adanya tromboplebitis dan tromboemboli vena"
+            ],
+            "terapeutik": [
+              "Hindai pemakaian benda-benda yang berlebihan suhunya (terlalu panas atau dingin)"
+            ],
+            "edukasi": [
               "Anjurkan penggunaan thermometer untuk menguji suhu air",
               "Anjurkan penggunaan sarung tangan termal saat memasak",
-              "Anjurkan memakai sepatu lembut dan bertumit rendah",
+              "Anjurkan memakai sepatu lembut dan bertumit rendah"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian analgesik, jika perlu",
               "Kolaborasi pemberian kortikosteroid, jika perlu"
             ]
@@ -1444,7 +1618,7 @@
           "code": "I.14543",
           "name": "Pencegahan Luka Tekan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Periksa luka tekan dengan menggunakan skala (mis: skala Noton, skala Braden)",
               "Periksa adanya luka tekan sebelumnya",
               "Monitor suhu kulit yang tertekan",
@@ -1453,7 +1627,9 @@
               "Monitor ketat area yang memerah",
               "Monitor kulit di atas tonjolan tulang atau titik tekan saat mengubah posisi",
               "Monitor sumber tekanan atau gesekan",
-              "Monitor mobilitas dan aktivitas individu",
+              "Monitor mobilitas dan aktivitas individu"
+            ],
+            "terapeutik": [
               "Keringkan daerah kulit yang lembab akibat keringat, cairan luka, dan inkontinensia fekal atau urin",
               "Gunakan barier seperti lotion atau bantalan penyerap air",
               "Ubah posisi dengan hati-hati setiap 1 – 2 jam",
@@ -1464,7 +1640,9 @@
               "Hindari pemijatan di atas tonjolan tulang",
               "Hindari pemberian lotion pada daerah yang luka atau kemerahan",
               "Hindari mengunakan air hangat dan sabun keras saat mandi",
-              "Pastikan asupan makanan yang cukup terutama protein, vitamin B dan C, zat besi, dan kalori",
+              "Pastikan asupan makanan yang cukup terutama protein, vitamin B dan C, zat besi, dan kalori"
+            ],
+            "edukasi": [
               "Jelaskan tanda-tanda kerusakan kulit",
               "Anjurkan melapor jika menemukan tanda-tanda kerusakan kulit",
               "Ajarkan cara merawat kulit"
@@ -1477,7 +1655,7 @@
     "D.0145": {
       "code": "D.0145",
       "name": "Risiko Mutilasi Diri",
-      "definition": "Risiko mutilasi diri merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko sengaja mencederai diri yang menyebabkan kerusakan...",
+      "definition": "Berisiko sengaja mencederai diri yang menyebabkan kerusakan fisik untuk memperoleh pemulihan ketegangan",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -1512,11 +1690,15 @@
           "code": "I.12392",
           "name": "Edukasi Manajemen Stres",
           "tindakan": {
+            "observasi": [
+              "Identifikasi kesiapan dan kemampuan menerima informasi"
+            ],
             "terapeutik": [
-              "Identifikasi kesiapan dan kemampuan menerima informasi",
               "Sediakan materi dan media Pendidikan Kesehatan",
               "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
-              "Berikan kesempatan untuk bertanya",
+              "Berikan kesempatan untuk bertanya"
+            ],
+            "edukasi": [
               "Ajarkan Teknik relaksasi",
               "Ajarkan latihan asertif",
               "Ajarkan membuat jadwal olahraga teratur",
@@ -1534,22 +1716,26 @@
           "code": "I.09282",
           "name": "Kontrak Perilaku Positif",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kemampuan mental dan kognitif untuk membuat kontrak",
               "Identifikasi cara dan sumber daya terbaik untuk mencapai tujuan",
               "Identifikasi hambatan dalam menerapkan perilaku positif",
-              "Monitor pelaksanaan perilaku ketidaksesuaian dan kurang komitmen untuk memenuhi kontrak",
+              "Monitor pelaksanaan perilaku ketidaksesuaian dan kurang komitmen untuk memenuhi kontrak"
+            ],
+            "terapeutik": [
               "Ciptakan lingkungan yang terbuka untuk membuat kontrak perilaku",
               "Fasilitasi pembuatan kontrak tertulis",
+              "Tetapkan batas waktu yang dibutuhkan untuk pelaksanaan Tindakan yang realistis",
+              "Fasilitasi meninjau ulang kontrak dan tujuan, jika perlu",
+              "Pastikan kontrak ditandatangani oleh semua pihak yang terlibat, jika perlu"
+            ],
+            "edukasi": [
               "Diskusikan perilaku  Kesehatan yang ingin diubah",
               "Diskusikan tujuan positif jangka pendek dan jangka Panjang yang realistis dan dapat dicapai",
               "Diskusikan pengembangan rencana perilaku positif",
               "Diskusikan cara mengamati perilaku (mis: tabel kemajuan perilaku)",
               "Diskusikan penghargaan yang diinginkan Ketika tujuan tercapai, jika perlu",
               "Diskusikan konsekuensi atau sanksi tidak memenuhi kontrak",
-              "Tetapkan batas waktu yang dibutuhkan untuk pelaksanaan Tindakan yang realistis",
-              "Fasilitasi meninjau ulang kontrak dan tujuan, jika perlu",
-              "Pastikan kontrak ditandatangani oleh semua pihak yang terlibat, jika perlu",
               "Libatkan keluarga dalam proses kontrak, jika perlu",
               "Anjurkan menuliskan tujuan sendiri, jika perlu"
             ]
@@ -1559,22 +1745,28 @@
           "code": "I.09290",
           "name": "Manajemen Pengendalian Marah",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi penyebab/pemicu kemarahan",
               "Identifikasi harapan perilaku terhadap ekspresi kemaharan",
               "Monitor potensi agresi tidak konstruktif dan lakukan Tindakan sebelum agresif",
-              "Monitor kemajuan dengna membuat grafik, jika perlu",
+              "Monitor kemajuan dengna membuat grafik, jika perlu"
+            ],
+            "terapeutik": [
               "Gunakan pendekatan yang tenang dan meyakinkan",
               "Fasilitasi mengekpresikan marah secara adaptif",
               "Cegah kerusakan fisik akibat ekspresi marah (mis: menggunakan senjata)",
               "Cegah aktivitas pemicu agresi (mis: meninju tas, mondar-mandir, berolahraga berlebihan)",
               "Lakukan kontrol eksternal (mis: pengekangan, time-out, dan seklusi), jika perlu",
               "Dukung menerapkan strategi pengendalian marah dan ekspresi amarah adaptif",
-              "Berikan penguatan atas keberhasilan penerapan strategi pengendalian marah",
+              "Berikan penguatan atas keberhasilan penerapan strategi pengendalian marah"
+            ],
+            "edukasi": [
               "Jelaskan makna, fungsi marah, frustasi, dan respons marah",
               "Anjurkan meminta bantuan perawat atau keluarga selama ketegangan meningkat",
               "Ajarkan strategi untuk mencegah ekspresi marah maladaptif",
-              "Ajarkan metode untuk memodulasi pengalaman emosi yang kuat (mis: latihan asertif, Teknik relaksasi, jurnal, aktivitas penyaluran energi",
+              "Ajarkan metode untuk memodulasi pengalaman emosi yang kuat (mis: latihan asertif, Teknik relaksasi, jurnal, aktivitas penyaluran energi"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian obat, jika perlu"
             ]
           }
@@ -1585,7 +1777,7 @@
     "D.0146": {
       "code": "D.0146",
       "name": "Risiko Perilaku Kekerasan",
-      "definition": "Risiko perilaku kekerasan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko membahayakan secara fisik, emosi, dan/atau...",
+      "definition": "Berisiko membahayakan secara fisik, emosi, dan/atau seksual pada diri sendiri atau orang lain",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -1624,15 +1816,19 @@
           "code": "I.14544",
           "name": "Pencegahan Perilaku Kekerasan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor adanya benda yang berpotensi membahayakan (mis: benda tajam, tali)",
               "Monitor keamanan barang yang dibawa oleh pengunjung",
-              "Monitor selama penggunaan barang yang dapat membahayakan (mis: pisau cukur)",
+              "Monitor selama penggunaan barang yang dapat membahayakan (mis: pisau cukur)"
+            ],
+            "terapeutik": [
               "Pertahankan lingkungan bebas dari bahaya secara rutin",
-              "Libatkan keluarga dalam perawatan",
-              "Anjurkan pengunjung dan keluarga untuk mendukung keselamatan pasien",
               "Latih cara mengungkapkan perasaan secara asertif",
               "Latih mengurangi kemarahan secara verbal dan nonverbal (mis: relaksasi, bercerita)"
+            ],
+            "edukasi": [
+              "Libatkan keluarga dalam perawatan",
+              "Anjurkan pengunjung dan keluarga untuk mendukung keselamatan pasien"
             ]
           }
         },
@@ -1640,20 +1836,17 @@
           "code": "I.09312",
           "name": "Promosi Koping",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi kegiatan jangka pendek dan Panjang sesuai tujuan",
               "Identifikasi kemampuan yang dimiliki",
               "Identifikasi  sumber daya yang tersedia untuk memenuhi tujuan",
               "Identifikasi pemahaman proses penyakit",
               "Identifikasi dampak situasi terhadap peran dan hubungan",
               "Identifikasi metode penyelesaian masalah",
-              "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial",
-              "Diskusikan perubahan peran yang dialami",
+              "Identifikasi kebutuhan dan keinginan terhadap dukungan sosial"
+            ],
+            "terapeutik": [
               "Gunakan pendekatan yang tenang dan meyakinkan",
-              "Diskusikan alasan mengkritik diri sendiri",
-              "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
-              "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
-              "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
               "Fasilitasi dalam memperoleh informasi yang dibutuhkan",
               "Berikan pilihan realistis mengenai aspek-aspek tertentu dalam perawatan",
               "Motivasi untuk menentukan harapan yang realistis",
@@ -1665,15 +1858,22 @@
               "Perkenalkan dengan orang atau kelompok yang berhasil mengalami pengalaman sama",
               "Dukung penggunaan mekanisme pertahanan yang tepat",
               "Kurangi rangsangan lingkungan yang mengancam",
+              "Latih penggunaan Teknik relaksasi",
+              "Latih keterampilan sosial, sesuai kebutuhan",
+              "Latih mengembangkan penilaian obyektif"
+            ],
+            "edukasi": [
+              "Diskusikan perubahan peran yang dialami",
+              "Diskusikan alasan mengkritik diri sendiri",
+              "Diskusikan untuk mengklarifikasi kesalahpahaman dan mengevaluasi perilaku sendiri",
+              "Diskusikan konsekuensi tidak menggunakan rasa bersalah dan rasa malu",
+              "Diskusikan risiko yang menimbulkan bahaya pada diri sendiri",
               "Anjurkan menjalin hubungan yang memiliki kepentingan dan tujuan sama",
               "Anjurkan penggunaan sumber spiritual, jika perlu",
               "Anjurkan mengungkapkan perasaan dan persepsi",
               "Anjurkan keluarga terlibat",
               "Anjurkan membuat tujuan yang lebih spesifik",
-              "Ajarkan cara memecahkan masalah secara konstruktif",
-              "Latih penggunaan Teknik relaksasi",
-              "Latih keterampilan sosial, sesuai kebutuhan",
-              "Latih mengembangkan penilaian obyektif"
+              "Ajarkan cara memecahkan masalah secara konstruktif"
             ]
           }
         }
@@ -1683,7 +1883,7 @@
     "D.0147": {
       "code": "D.0147",
       "name": "Risiko Perlambatan Pemulihan Pascabedah",
-      "definition": "Risiko perlambatan pemulihan pascabedah merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami pemanjangan jumlah...",
+      "definition": "Berisiko mengalami pemanjangan jumlah hari pascabedah untuk memulai dan melakukan aktivitas sehari-hari.",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -1721,13 +1921,17 @@
           "code": "I.05173",
           "name": "Dukungan Mobilisasi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi adanya nyeri atau keluhan fisik lainnya",
               "Identifikasi toleransi fisik melakukan pergerakan",
               "Monitor frekuensi jantung dan tekanan darah sebelum memulai mobilisasi",
-              "Monitor kondisi umum selama melakukan mobilisasi",
+              "Monitor kondisi umum selama melakukan mobilisasi"
+            ],
+            "terapeutik": [
               "Fasilitasi aktivitas mobilisasi dengan alat bantu (mis: pagar tempat tidur)",
-              "Fasilitasi melakukan pergerakan, jika perlu",
+              "Fasilitasi melakukan pergerakan, jika perlu"
+            ],
+            "edukasi": [
               "Libatkan keluarga untuk membantu pasien dalam meningkatkan pergerakan",
               "Jelaskan tujuan dan prosedur mobilisasi",
               "Anjurkan melakukan mobilisasi dini",
@@ -1739,11 +1943,15 @@
           "code": "I.12391",
           "name": "Edukasi Manajemen Nyeri",
           "tindakan": {
+            "observasi": [
+              "Identifikasi kesiapan dan kemampuan menerima informasi"
+            ],
             "terapeutik": [
-              "Identifikasi kesiapan dan kemampuan menerima informasi",
               "Sediakan materi dan media Pendidikan Kesehatan",
               "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
-              "Berikan kesempatan untuk bertanya",
+              "Berikan kesempatan untuk bertanya"
+            ],
+            "edukasi": [
               "Jelaskan penyebab, periode, dan strategi meredakan nyeri",
               "Anjurkan memonitor nyeri secara mandiri",
               "Anjurkan menggunakan analgetic secara tepat",
@@ -1755,17 +1963,21 @@
           "code": "I.12395",
           "name": "Edukasi Nutrisi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Periksa status gizi, status alergi, program diet, kebutuhan dan kemampuan pemenuhan kebutuhan gizi",
-              "Identifikasi kemampuan dan waktu yang tepat menerima informasi",
+              "Identifikasi kemampuan dan waktu yang tepat menerima informasi"
+            ],
+            "terapeutik": [
               "Persiapkan materi dan media seperti jenis-jenis nutrisi, tabel makanan penukar, cara mengelola, cara menakar makanan",
               "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
               "Berikan kesempatan untuk bertanya",
+              "Demonstrasikan cara membersihkan mulut",
+              "Demonstrasikan cara mengatur posisi saat makan"
+            ],
+            "edukasi": [
               "Jelaskan kepada pasien dan keluarga alergi makanan, makanan yang harus di hindari, kebutuhan jumlah kalori, jenis makanan yang dibutuhkan pasien",
               "Ajarkan cara melaksanakan diet sesuai program (mis: makanan tinggi protein, rendah garam, rendah kalori)",
               "Jelaskan hal-hal yang dilakukan sebelum memberikan makan (mis: perawatan mulut, penggunaan gigi palsu, obat-obat yang harus diberikan sebelum makan)",
-              "Demonstrasikan cara membersihkan mulut",
-              "Demonstrasikan cara mengatur posisi saat makan",
               "Ajarkan pasien/keluarga memonitor asupan kalori dan makanan (mis: menggunakan buku harian)",
               "Ajarkan pasien dan keluarga memantau kondisi kekurangan nutrisi",
               "Anjurkan mendemonstrasikan cara memberi makan, menghitung kalori, menyiapkan makanan sesuai program diet"
@@ -1776,7 +1988,7 @@
           "code": "I.03119",
           "name": "Manajemen Nutrisi",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Identifikasi status nutrisi",
               "Identifikasi alergi dan intoleransi makanan",
               "Identifikasi makanan yang disukai",
@@ -1784,16 +1996,22 @@
               "Identifikasi perlunya penggunaan selang nasogastrik",
               "Monitor asupan makanan",
               "Monitor berat badan",
-              "Monitor hasil pemeriksaan laboratorium",
+              "Monitor hasil pemeriksaan laboratorium"
+            ],
+            "terapeutik": [
               "Lakukan oral hygiene sebelum makan, jika perlu",
               "Fasilitasi menentukan pedoman diet (mis: piramida makanan)",
               "Sajikan makanan secara menarik dan suhu yang sesuai",
               "Berikan makanan tinggi serat untuk mencegah konstipasi",
               "Berikan makanan tinggi kalori dan tinggi protein",
               "Berikan suplemen makanan, jika perlu",
-              "Hentikan pemberian makan melalui selang nasogastik jika asupan oral dapat ditoleransi",
+              "Hentikan pemberian makan melalui selang nasogastik jika asupan oral dapat ditoleransi"
+            ],
+            "edukasi": [
               "Ajarkan posisi duduk, jika mampu",
-              "Ajarkan diet yang diprogramkan",
+              "Ajarkan diet yang diprogramkan"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian medikasi sebelum makan (mis: Pereda nyeri, antiemetik), jika perlu",
               "Kolaborasi dengan ahli gizi untuk menentukan jumlah kalori dan jenis nutrien yang dibutuhkan, jika perlu"
             ]
@@ -1803,21 +2021,27 @@
           "code": "I.02067",
           "name": "Pencegahan Perdarahan",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor tanda dan gejala perdarahan",
               "Monitor nilai hematokrit/hemoglobin sebelum dan setelah kehilangan darah",
               "Monitor tanda-tanda vital ortostatik",
-              "Monitor koagulasi (mis: prothrombin time (PT), partial thromboplastin time (PTT), fibrinogen, degradasi fibrin dan/atau platelet)",
+              "Monitor koagulasi (mis: prothrombin time (PT), partial thromboplastin time (PTT), fibrinogen, degradasi fibrin dan/atau platelet)"
+            ],
+            "terapeutik": [
               "Pertahankan bed rest selama perdarahan",
               "Batasi tindakan invasive, jika perlu",
               "Gunakan kasur pencegah decubitus",
-              "Hindari pengukuran suhu rektal",
+              "Hindari pengukuran suhu rektal"
+            ],
+            "edukasi": [
               "Jelaskan tanda dan gejala perdarahan",
               "Anjurkan menggunakan kaus kaki saat ambulasi",
               "Anjurkan meningkatkan asupan cairan untuk menghindari konstipasi",
               "Anjurkan menghindari aspirin atau antikoagulan",
               "Anjurkan meningkatkan asupan makanan dan vitamin K",
-              "Anjurkan segera melapor jika terjadi perdarahan",
+              "Anjurkan segera melapor jika terjadi perdarahan"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian obat pengontrol perdarahan, jika perlu",
               "Kolaborasi pemberian produk darah, jika perlu",
               "Kolaborasi pemberian pelunak tinja, jika perlu"
@@ -1830,7 +2054,7 @@
     "D.0148": {
       "code": "D.0148",
       "name": "Risiko Termoregulasi Tidak Efektif",
-      "definition": "Risiko termoregulasi tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami kegagalan mempertahankan...",
+      "definition": "berisiko mengalami kegagalan mempertahankan suhu tubuh dalam rentang normal",
       "signs_and_symptoms": {
         "subjective": [],
         "objective": []
@@ -1863,12 +2087,16 @@
           "code": "I.12414",
           "name": "Edukasi Pengukuran Suhu Tubuh",
           "tindakan": {
+            "observasi": [
+              "Identifikasi kesiapan dan kemampuan menerima informasi"
+            ],
             "terapeutik": [
-              "Identifikasi kesiapan dan kemampuan menerima informasi",
               "Sediakan materi dan media Pendidikan Kesehatan",
               "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
               "Berikan kesempatan untuk bertanya",
-              "Dokumentasikan hasil pengukuran suhu",
+              "Dokumentasikan hasil pengukuran suhu"
+            ],
+            "edukasi": [
               "Jelaskan prosedur pengukuran suhu tubuh",
               "Anjurkan terus memegang bahu dan menahan dada saat pengukuran aksila",
               "Ajarkan memilih lokasi pengukuran suhu oral atau aksila",
@@ -1881,11 +2109,15 @@
           "code": "I.12457",
           "name": "Edukasi Termoregulasi",
           "tindakan": {
+            "observasi": [
+              "Identifikasi kesiapan dan kemampuan menerima informasi"
+            ],
             "terapeutik": [
-              "Identifikasi kesiapan dan kemampuan menerima informasi",
               "Sediakan materi dan media Pendidikan Kesehatan",
               "Jadwalkan Pendidikan Kesehatan sesuai kesepakatan",
-              "Berikan kesempatan untuk bertanya",
+              "Berikan kesempatan untuk bertanya"
+            ],
+            "edukasi": [
               "Ajarkan kompres hangat jika demam",
               "Ajarkan cara pengukuran suhu",
               "Anjurkan penggunaan pakaian yang dapat menyerap keringat",
@@ -1905,7 +2137,7 @@
     "D.0149": {
       "code": "D.0149",
       "name": "Termoregulasi Tidak Efektif",
-      "definition": "Termoregulasi tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai kegagalan mempertahankan...",
+      "definition": "kegagalan mempertahankan suhu tubuh dalam rentang normal",
       "signs_and_symptoms": {
         "subjective": [
           "Tidak tersedia"
@@ -1944,12 +2176,14 @@
           "code": "I.14578",
           "name": "Regulasi Temperatur",
           "tindakan": {
-            "terapeutik": [
+            "observasi": [
               "Monitor suhu tubuh bayi sampai stabil (36,5 – 37,5°C)",
               "Monitor suhu tubuh anak tiap 2 jam, jika perlu",
               "Monitor tekanan darah, frekuensi pernapasan dan nadi",
               "Monitor warna dan suhu kulit",
-              "Monitor dan catat tanda dan gejala hipotermia atau hipertermia",
+              "Monitor dan catat tanda dan gejala hipotermia atau hipertermia"
+            ],
+            "terapeutik": [
               "Pasang alat pemantau suhu kontinu, jika perlu",
               "Tingkatkan asupan cairan dan nutrisi yang adekuat",
               "Bedong bayi segera setelah lahir untuk mencegah kehilangan panas",
@@ -1963,9 +2197,13 @@
               "Gunakan matras penghangat, selimut hangat, dan penghangat ruangan untuk menaikkan suhu tubuh, jika perlu",
               "Gunakan Kasur pendingin, water circulating blankets, ice pack, atau gel pad dan intravascular cooling cathetherization untuk menurunkan suhu tubuh",
               "Sesuaikan suhu lingkungan dengan kebutuhan pasien",
+              "Demonstrasikan Teknik perawatan metode kanguru (PMK) untuk bayi BBLR"
+            ],
+            "edukasi": [
               "Jelaskan cara pencegahan heat exhaustion dan heat stroke",
-              "Jelaskan cara pencegahan hipotermi karena terpapar udara dingin",
-              "Demonstrasikan Teknik perawatan metode kanguru (PMK) untuk bayi BBLR",
+              "Jelaskan cara pencegahan hipotermi karena terpapar udara dingin"
+            ],
+            "kolaborasi": [
               "Kolaborasi pemberian antipiretik, jika perlu"
             ]
           }
